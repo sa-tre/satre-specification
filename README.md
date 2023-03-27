@@ -37,7 +37,8 @@ To participate in the SATRE project, please follow these steps:
 | Bi-weekly Collaboration Cafe  | Meeting and decide on topics and work on them via co-working breakout rooms  | Every 1st and 3rd X at Y  |[zoom link please fill]()|
 | Monthly Open Roadmap Review  | Core funded team to provide updates to the Open Roadmap based on community contributions  | Every 3rd week of the month at Y  |[zoom link please fill]()|
 
-2. **Contribute**: Review open issues, join SATRE meetings, and provide your input on the design, implementation, and best practices for TREs. To contribute to the project, create a pull request with your proposed changes or additions to the documentation. If you have a specific idea or proposal, feel free to open a new issue or start a discussion thread.
+2. **Contribute**: Review open issues, join SATRE meetings, and provide your input on the design, implementation, and best practices for TREs. To contribute to the project, please join discussions on open issues to help guide content for the documentation. 
+If you have a specific idea or proposal, feel free to open a new issue or start a GitHub Discussions thread.
 3. **Stay informed**: Keep up-to-date with the latest developments and news by following the project's GitHub repository and subscribing to our monthly newsletter.
 
 ## Code of Conduct and Inclusivity
