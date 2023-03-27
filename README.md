@@ -28,7 +28,7 @@ While there are core members funded by DARE to contribute to this project, our p
 We strongly believe that the best results come from collaboration, diverse perspectives, and fostering a culture of kindness and mutual respect.
 
 ## Getting Started
-To participate in the SATRE project, please follow these steps:
+There are a number of ways you can get involved with the SATRE project!
 
 1. **Join the community**: Connect with other participants through our mailing list, forum (GitHub Discussions), or [Slack channel](slack.url). Introduce yourself and share your experience and interests related to TREs. The Community meets regularly:
 
