@@ -44,7 +44,7 @@ Currently we are writing documentation in `.md` files and will decide on a more 
 3. **Sign up to our contact list**: You can sign up by filling in [this short form](https://forms.office.com/e/FuFyNGx3hw). 
 Sign up for updates about the project, further invitations to workshops & roundtables, and opportunities for feedback & knowledge sharing :sparkles:
 
-
+4. **Join the RSE TRE community**: The RSE TRE community was established at RSE Con in September 2022, and brings together those building, using, operating and generally affected by and interested in TREs together to solve common challenges and share knowledge. You can register for the JISC mailing list [by following this link](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=RSE-TRE-COMM&A=1)
 ## Code of Conduct and Inclusivity
 The SATRE project is committed to fostering an inclusive, equitable, and respectful environment for all participants. 
 Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure that your interactions with the community align with our values and expectations.
