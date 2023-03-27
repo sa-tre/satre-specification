@@ -1,4 +1,4 @@
-# SATRE Specification Repository: Techinical Document for the Standard Architecture for Trusted Research Environments Project
+# SATRE Specification Repository: Technical Document for the Standard Architecture for Trusted Research Environments Project
 Welcome to the SATRE Specification Repository! This repository stores the technical documents that outlines a reference architecture for Trusted Research Environments. ***By October 2023*** we will aim to have drafted the document with input from members of the Systems Architecture, Research Software Engineering and Cyber Security community, with core support from DARE UK funded project members as part of a collaborative effort between the University of Dundee, Ulster University, UCL, Health Data Research UK, The Alan Turing Institute and Research Data Scotland.
 
 If you have experience designing or using Trusted/Secure Research Environments and want to get involved in developing a reference architecture for UK TREs then please read on to find out how you can contribute.
