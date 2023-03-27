@@ -36,7 +36,7 @@ To participate in the SATRE project, please follow these steps:
 The SATRE project is committed to fostering an inclusive, equitable, and respectful environment for all participants. Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure that your interactions with the community align with our values and expectations. We encourage everyone to contribute to creating a kind and supportive atmosphere, appreciating each community member's input.
 
 ## License
-The content of this repository is licensed under the [MIT](LICENSE.md).
+The content of this repository is licensed under the [MIT License](LICENSE.md).
 
 ## Contact
 For any questions or concerns, please reach out to SATRE project team member [Hari Sood](mailto:hsood@turing.ac.uk).
