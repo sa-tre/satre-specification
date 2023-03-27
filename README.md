@@ -30,7 +30,12 @@ We strongly believe that the best results come from collaboration, diverse persp
 ## Getting Started
 There are a number of ways you can get involved with the SATRE project!
 
-1. **Join the community**: Connect with other participants through our mailing list, forum (GitHub Discussions), or [Slack channel](slack.url). Introduce yourself and share your experience and interests related to TREs. The Community meets regularly:
+1. **Collaborate with us**: We are running a number of collaborative sessions for the duration of the project you can get involved with!
+
+| Meeting | Description | Time | Link
+|----------|----------|----------|----------|
+| Bi-weekly Collaboration Cafe  | An open meeting for anyone interested in discussing & contributing to the project to work collaboratively with the team, community and others  | Every 1st Tuesday and 3rd Thursday of the month |[HackMD link please fill]()|
+| Monthly Open Roadmap Review  | During the Thursday Collaboration Cafe, the core funded team will provide updates to the Open Roadmap based on community contributions  | Every 3rd Thursday of the month  |[HackMD link please fill]()|
 
 | Meeting | Description | Time | Link
 |----------|----------|----------|----------|
