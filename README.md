@@ -37,10 +37,6 @@ There are a number of ways you can get involved with the SATRE project!
 | Bi-weekly Collaboration Cafe  | An open meeting for anyone interested in discussing & contributing to the project to work collaboratively with the team, community and others  | Every 1st Tuesday and 3rd Thursday of the month |[HackMD link please fill]()|
 | Monthly Open Roadmap Review  | During the Thursday Collaboration Cafe, the core funded team will provide updates to the Open Roadmap based on community contributions  | Every 3rd Thursday of the month  |[HackMD link please fill]()|
 
-| Meeting | Description | Time | Link
-|----------|----------|----------|----------|
-| Bi-weekly Collaboration Cafe  | Meeting and decide on topics and work on them via co-working breakout rooms  | Every 1st and 3rd X at Y  |[zoom link please fill]()|
-| Monthly Open Roadmap Review  | Core funded team to provide updates to the Open Roadmap based on community contributions  | Every 3rd week of the month at Y  |[zoom link please fill]()|
 
 2. **Contribute**: Review open issues, join SATRE meetings, and provide your input on the design, implementation, and best practices for TREs. To contribute to the project, please join discussions on open issues to help guide content for the documentation. 
 If you have a specific idea or proposal, feel free to open a new issue or start a GitHub Discussions thread.
