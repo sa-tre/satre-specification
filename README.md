@@ -39,6 +39,7 @@ To participate in the SATRE project, please follow these steps:
 
 2. **Contribute**: Review open issues, join SATRE meetings, and provide your input on the design, implementation, and best practices for TREs. To contribute to the project, please join discussions on open issues to help guide content for the documentation. 
 If you have a specific idea or proposal, feel free to open a new issue or start a GitHub Discussions thread.
+Currently we are writing documentation in `.md` files and will decide on a more refined documentation format with the Community.
 3. **Stay informed**: Keep up-to-date with the latest developments and news by following the project's GitHub repository and subscribing to our monthly newsletter.
 
 ## Code of Conduct and Inclusivity
