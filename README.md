@@ -1,7 +1,8 @@
 # Standard Architecture for Trusted Research Environments specification
 
-The specification is a living document hosted on [readthedocs](INSERT LINK).
+The specification is a living document hosted here on GitHub at [docs/index.md](docs/index.md) and also gets published to [readthedocs](INSERT LINK).
 
+### readthedocs build
 Build the document locally with:
 1. Ensure you have a working Python 3 installation
 2. Install Sphinx: `pip install sphinx myst-parser`
