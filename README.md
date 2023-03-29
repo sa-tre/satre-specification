@@ -1,6 +1,6 @@
 # Standard Architecture for Trusted Research Environments specification
 
-The specification is a living document hosted here on GitHub at [docs/index.md](docs/index.md) and also gets published to [readthedocs](INSERT LINK).
+The specification is a living document hosted here on GitHub at [docs/source/index.md](docs/source/index.md) and also gets published to [readthedocs](INSERT LINK).
 
 ### readthedocs build
 Build the document locally with:
