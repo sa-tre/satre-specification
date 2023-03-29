@@ -1,4 +1,4 @@
-Test
+Standard Architecture for Trusted Research Environments
 ===================================
 
 
