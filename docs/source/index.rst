@@ -1,5 +1,5 @@
 Standard Architecture for Trusted Research Environments
-===================================
+=======================================================
 
 
 .. note::
