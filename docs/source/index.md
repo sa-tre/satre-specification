@@ -1,9 +1,16 @@
-Standard Architecture for Trusted Research Environments
-=======================================================
+Standard Architecture for Trusted Research Environments (TREs)
+==============================================================
 
 Note:
-> This project is under active development.
+> This is a living doccument under active development.
 
 Contents
 --------
+
+TRE features
+------------
+
+Comparisons of existing open-source TREs
+----------------------------------------
+
 
