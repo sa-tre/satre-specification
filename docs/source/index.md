@@ -7,8 +7,15 @@ Note:
 Contents
 --------
 
+- {ref}`comparisons`
+- {ref}`features`
+
+(features)=
+
 TRE features
 ------------
+
+(comparisons)=
 
 Comparisons of existing open-source TREs
 ----------------------------------------
