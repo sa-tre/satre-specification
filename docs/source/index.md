@@ -2,7 +2,7 @@ Standard Architecture for Trusted Research Environments (TREs)
 ==============================================================
 
 Note:
-> This is a living doccument under active development.
+> This is a living document under active development.
 
 Contents
 --------
