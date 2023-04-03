@@ -1,6 +1,6 @@
 # SATRE Specification Repository: Technical Document for the Standard Architecture for Trusted Research Environments Project
 
-The specification is a living document hosted here on GitHub at [docs/source/index.md](docs/source/index.md) and also gets published to [readthedocs](INSERT LINK).
+**The specification is a living document hosted here on GitHub at [docs/source/index.md](docs/source/index.md) and also gets published to [readthedocs](TODO: INSERT LINK).**
 
 Welcome to the SATRE Specification Repository! 
 This repository stores the technical documents that outlines a reference architecture for Trusted Research Environments.
