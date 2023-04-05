@@ -15,7 +15,7 @@ Contents
 TRE features
 ------------
 
-- Control over data ingress and egress (including an approval process)
+<!-- - Control over data ingress and egress (including an approval process)
 - MFA on login
 - Environments isolated from one another
 - Ability to forbid incoming/outgoing network connections
@@ -36,7 +36,7 @@ TRE features
 - Collaborative Jupyter notebooks
 - Compute beyond VMs (e.g. clusters, ML workbench, databricks)
 - Ease of deployment (e.g. via Infrastructure as Code)
-- Ease of use by end-users
+- Ease of use by end-users -->
 
 (comparisons)=
 
