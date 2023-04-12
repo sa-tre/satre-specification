@@ -1,4 +1,7 @@
 # SATRE Specification Repository: Technical Document for the Standard Architecture for Trusted Research Environments Project
+
+**[The specification is a living document hosted here on our GitHub pages site](https://sa-tre.github.io/satre-specification/)**. It can also be viewed here on GitHub at [docs/source/index.md](docs/source/index.md).
+
 Welcome to the SATRE Specification Repository! 
 This repository stores the technical documents that outlines a reference architecture for Trusted Research Environments.
 ***By October 2023*** we will aim to have drafted the document with input from members of the Systems Architecture, Research Software Engineering and Cyber Security community, with core support from DARE UK funded project members as part of a collaborative effort between the University of Dundee, Ulster University, UCL, Health Data Research UK, The Alan Turing Institute and Research Data Scotland.
@@ -57,3 +60,11 @@ The content of this repository is licensed under the [Creative Commons License](
 For any questions or concerns, please reach out to SATRE project team member [Hari Sood](mailto:hsood@turing.ac.uk).
 
 We look forward to your participation and contributions to the SATRE project, as we work together to build a standard architecture for Trusted Research Environments in an inclusive and supportive environment!
+
+## Sphinx docs build
+Build the document locally with:
+1. Ensure you have a working Python 3 installation
+2. Install Sphinx: `pip install sphinx myst-parser`
+3. Clone this repo: `git clone https://github.com/sa-tre/satre-specification`
+4. From inside the repo run `sphinx-build -b html docs/source/ docs/build/html`
+5. Open the generated html files at `docs/build/html` in a browser
