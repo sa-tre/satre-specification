@@ -22,7 +22,7 @@ SATRE outputs will include an informed TRE reference technical specification and
 
 ## Community-Driven Approach
 
-[![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack)](https://satreproject.slack.com)
+[![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack)](https://ukrse.slack.com) #rse-tre-wg
 
 The SATRE project values the importance of equity, diversity, and inclusion (EDI) in fostering a kind and supportive environment for all participants.
 We are committed to making the project as inclusive as possible and appreciate the unique perspectives and input that each community member brings.
