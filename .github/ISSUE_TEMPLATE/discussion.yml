@@ -35,4 +35,6 @@ body:
     id: tags
     attributes:
       label: Who can help
-      description: Tag anyone who you think will be interested or who can help by typing `@` followed by their GitHub username
+      description: Tag anyone who you think will be interested or who can help by typing `@` followed by their GitHub username.
+    validations:
+      required: false
