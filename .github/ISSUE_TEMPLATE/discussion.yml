@@ -2,7 +2,7 @@ name: Discussion
 description: Start a discussion with the community.
 title: "[Discussion]: "
 labels: ["discussion point"]
-assignees: []
+assignees: ["sa-tre/spec-maintainers"]
 body:
   - type: markdown
     attributes:

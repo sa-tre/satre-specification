@@ -2,7 +2,7 @@ name: Change Proposal
 description: Propose a change to the specification.
 title: "[Change]: "
 labels: ["proposed change"]
-assignees: []
+assignees: ["sa-tre/spec-maintainers"]
 body:
   - type: markdown
     attributes:
