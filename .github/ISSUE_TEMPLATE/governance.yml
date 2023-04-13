@@ -3,6 +3,7 @@ description: discuss, or propose a change to, the governance of this repository 
 title: "[Governance]: "
 labels: ["governance"]
 assignees: ["sa-tre/spec-maintainers"]
+body:
   - type: markdown
     attributes:
       value: |
