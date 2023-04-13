@@ -1,0 +1,39 @@
+name: Governance and Management
+description: discuss, or propose a change to, the governance of this repository and community.
+title: "[Governance]: "
+labels: ["governance"]
+assignees: []
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for being involved in the SATRE community.
+
+        This issue form is for starting a discussion about, or proposing a change to, the governance of this repository and community.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Please write a brief summary of what you would like to discuss or change.
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: Please explain the detail of the point you would like to discuss or change you would like to make. Feel free to include references that may be useful.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Intended Output
+      description: What do you hope will happen as a result of this discussion or change?
+    validations:
+      required: false
+  - type: textarea
+    id: tags
+    attributes:
+      label: Who can help
+      description: Tag anyone who you think will be interested or who can help by typing `@` followed by their GitHub username.
+    validations:
+      required: false
