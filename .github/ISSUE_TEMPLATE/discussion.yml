@@ -1,0 +1,38 @@
+name: Discussion
+description: Start a discussion with the community.
+title: "[Discussion]: "
+labels: ["discussion point"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for being involved in the SATRE community.
+
+        This issue form is for starting a discussion with the community.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Please write a brief summary of the point you would like to discuss.
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: Please explain the point you would like to discuss. Feel free to include references that may be useful.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Intended Output
+      description: What do you hope will happen as a result of this discussion?
+    validations:
+      required: false
+  - type: textarea
+    id: tags
+    attributes:
+      label: Who can help
+      description: Tag anyone who you think will be interested or who can help by typing `@` followed by their GitHub username
