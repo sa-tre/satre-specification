@@ -1,5 +1,7 @@
 # SATRE Specification Repository: Technical Document for the Standard Architecture for Trusted Research Environments Project
 
+[![All Contributors](https://img.shields.io/github/all-contributors/sa-tre/satre-specification?color=ee8449&style=flat-square)](#contributors)
+
 **[The specification is a living document hosted here on our GitHub pages site](https://sa-tre.github.io/satre-specification/)**. It can also be viewed here on GitHub at [docs/source/index.md](docs/source/index.md).
 
 Welcome to the SATRE Specification Repository! 
@@ -68,3 +70,14 @@ Build the document locally with:
 3. Clone this repo: `git clone https://github.com/sa-tre/satre-specification`
 4. From inside the repo run `sphinx-build -b html docs/source/ docs/build/html`
 5. Open the generated html files at `docs/build/html` in a browser
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
