@@ -44,6 +44,17 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "manics",
+      "name": "Simon Li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1644105?v=4",
+      "profile": "http://www.flickr.com/photos/manicstreetpreacher/",
+      "contributions": [
+        "content",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
