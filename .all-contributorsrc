@@ -23,6 +23,16 @@
         "infra",
         "review"
       ]
+    },
+    {
+      "login": "arronlacey",
+      "name": "Arron Lacey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4941299?v=4",
+      "profile": "https://github.com/arronlacey",
+      "contributions": [
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
