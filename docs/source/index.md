@@ -44,7 +44,7 @@ A TRE conforming to the SATRE standard should provide a broadly similar experien
 
 The researchers working on projects that involve logging into a TRE to access data. The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE standard.
 
-### TRE admins
+### TRE administration roles
 
 The IT or software engineering professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE standard. The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included.
 
