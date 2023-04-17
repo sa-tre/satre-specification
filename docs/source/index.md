@@ -55,6 +55,7 @@ The software engineers responsible for developing and maintaining TRE software, 
 ### TRE Governance roles
 
 Roles that uphold the governance of TREs. Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities. Typical roles might include data custodians, ethicists, an independent board or a lay panel.
+
 ## Architecture
 
 Includes nice diagrams of how the TRE features connect together, but remains a high level description that doesn't specify which exact technologies a TRE developer should use. This can also offer an explanation of how people from different roles interact/experience these features.
