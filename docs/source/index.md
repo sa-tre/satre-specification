@@ -46,7 +46,7 @@ contributors.md
 
 ### TRE admins
 
-> The IT or software engineering professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE standard. The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included.
+> The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE standard. The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included.
 
 ### TRE developers
 
