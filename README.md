@@ -1,6 +1,6 @@
 # SATRE Specification Repository: Technical Document for the Standard Architecture for Trusted Research Environments Project
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **[The specification is a living document hosted here on our GitHub pages site](https://sa-tre.github.io/satre-specification/)**. It can also be viewed here on GitHub at [docs/source/index.md](docs/source/index.md).
@@ -82,6 +82,7 @@ Build the document locally with:
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/arronlacey"><img src="https://avatars.githubusercontent.com/u/4941299?v=4?s=100" width="100px;" alt="Arron Lacey"/><br /><sub><b>Arron Lacey</b></sub></a><br /><a href="#content-arronlacey" title="Content">🖋</a> <a href="#ideas-arronlacey" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://edchalstrey.com/"><img src="https://avatars.githubusercontent.com/u/5486164?v=4?s=100" width="100px;" alt="Ed Chalstrey"/><br /><sub><b>Ed Chalstrey</b></sub></a><br /><a href="https://github.com/sa-tre/satre-specification/commits?author=edwardchalstrey1" title="Code">💻</a> <a href="#content-edwardchalstrey1" title="Content">🖋</a> <a href="#ideas-edwardchalstrey1" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-edwardchalstrey1" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Aedwardchalstrey1" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/harisood"><img src="https://avatars.githubusercontent.com/u/67151373?v=4?s=100" width="100px;" alt="harisood"/><br /><sub><b>harisood</b></sub></a><br /><a href="#content-harisood" title="Content">🖋</a> <a href="#ideas-harisood" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Aharisood" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
