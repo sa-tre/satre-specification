@@ -40,6 +40,8 @@ Also croudsourced from the survey, but this time all the features that were cons
 
 A TRE conforming to the SATRE standard should provide a broadly similar experience for stakeholders operating in each of these defined roles.
 
+There's not necessarily a one-to-one mapping between roles and people. One person can have multiple roles.
+
 ### TRE users
 
 The researchers working on projects that involve logging into a TRE to access data. The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE standard.
