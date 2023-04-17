@@ -9,7 +9,9 @@ body:
       value: |
         Thank you for being involved in the SATRE community.
 
-        This issue form is for starting a discussion with the community.
+        This issue form is for starting a discussion about the specification with the community.
+
+        For example, you may want to start a conversation about a particular aspect of the specification, or try to find consensus prior to submitting a proposal for change.
   - type: input
     id: summary
     attributes:

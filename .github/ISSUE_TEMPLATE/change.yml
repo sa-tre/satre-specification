@@ -1,5 +1,5 @@
 name: Change Proposal
-description: Propose a change to the specification.
+description: Propose a specific change to the specification.
 title: "[Change]: "
 labels: ["proposed change"]
 assignees: ["sa-tre/spec-maintainers"]
@@ -10,6 +10,11 @@ body:
         Thank you for being involved in the SATRE community.
 
         This issue form is for proposing a change to the SATRE specification.
+
+        You should use this template when you have a clear idea of the change you would like to make.
+        In particular, you should be ready to begin drafting your proposed change.
+
+        If you are looking to discuss an idea with the community or find a consensus, you can open a discussion issue instead.
   - type: input
     id: summary
     attributes:
