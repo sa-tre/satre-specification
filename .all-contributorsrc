@@ -4,23 +4,14 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
-      "README.md",
-      "docs/source/contributors.md"
+    "README.md",
+    "docs/source/contributors.md"
   ],
   "imageSize": 100,
   "commit": false,
-  "contributorsPerLine": 7,
+  "commitConvention": "none",
+  "contributors": [],
   "contributorsSortAlphabetically": true,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/github/all-contributors/<%= projectOwner %>/<%= projectName %>?color=ee8449&style=flat-square)](#contributors)",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
-  "types": {
-    "custom": {
-      "symbol": "🔭",
-      "description": "A custom contribution type.",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
-    }
-  },
-  "linkToUsage": true,
-  "skipCi": true,
-  "contributors": []
+  "contributorsPerLine": 7,
+  "linkToUsage": true
 }

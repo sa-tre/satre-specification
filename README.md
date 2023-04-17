@@ -1,6 +1,7 @@
 # SATRE Specification Repository: Technical Document for the Standard Architecture for Trusted Research Environments Project
-
-[![All Contributors](https://img.shields.io/github/all-contributors/sa-tre/satre-specification?color=ee8449&style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **[The specification is a living document hosted here on our GitHub pages site](https://sa-tre.github.io/satre-specification/)**. It can also be viewed here on GitHub at [docs/source/index.md](docs/source/index.md).
 
