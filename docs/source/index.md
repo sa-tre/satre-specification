@@ -48,6 +48,8 @@ The researchers working on projects that involve logging into a TRE to access da
 
 The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE standard. The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included.
 
+These roles cover managing TRE computing infrastructure, but also administering the TRE itself (e.g. managing users and projects).
+
 ### TRE developers
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance. The document will explain recommended practices suitable for developing a software of this complexity and reference learnings from existing TRE developers.
