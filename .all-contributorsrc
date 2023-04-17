@@ -65,6 +65,15 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "drchriscole",
+      "name": "Chris Cole",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6098785?v=4",
+      "profile": "https://www.dundee.ac.uk/people/christian-cole",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
