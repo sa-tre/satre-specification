@@ -74,6 +74,16 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "JimMadge",
+      "name": "Jim Madge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23616154?v=4",
+      "profile": "https://github.com/JimMadge",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
