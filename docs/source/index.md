@@ -52,11 +52,11 @@ The IT and related professionals who will be responsible for deploying and manag
 
 These roles cover managing TRE computing infrastructure, but also administering the TRE itself (e.g. managing users and projects).
 
-### TRE developers
+### TRE developer roles
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance. The document will explain recommended practices suitable for developing a software of this complexity and reference learnings from existing TRE developers.
 
-### TRE Governance roles
+### TRE governance roles
 
 Roles that uphold the governance of TREs. Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities. Typical roles might include data custodians, ethicists, an independent board or a lay panel.
 
