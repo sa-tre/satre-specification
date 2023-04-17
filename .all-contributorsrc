@@ -10,7 +10,21 @@
   "imageSize": 100,
   "commit": false,
   "commitConvention": "none",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "edwardchalstrey1",
+      "name": "Ed Chalstrey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5486164?v=4",
+      "profile": "http://edchalstrey.com/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "infra",
+        "review"
+      ]
+    }
+  ],
   "contributorsSortAlphabetically": true,
   "contributorsPerLine": 7,
   "linkToUsage": true
