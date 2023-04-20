@@ -8,7 +8,7 @@ Replace the empty checkboxes [ ] below with checked ones [x] accordingly.
 - [ ] You are targeting the **main branch**.
 - [ ] If your changes are not yet ready to merge, you have marked this pull request as a **draft** pull request.
 
-## :ballot_box_with_check: Maintainers Checklist
+## :ballot_box_with_check: Maintainers' checklist
 
 <!--
 This checklist is for project maintainers to use after the pull request is submitted.
