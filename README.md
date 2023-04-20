@@ -3,10 +3,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack)](https://ukrse.slack.com/archives/rse-tre-wg)
-[![Licence](https://img.shields.io/github/license/sa-tre/satre-specification)](https://github.com/sa-tre/satre-specification/blob/main/LICENSE.md)
-[![CoC](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-blue)](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md)
-[![Docs](https://github.com/sa-tre/satre-specification/actions/workflows/documentation.yml/badge.svg)](https://github.com/sa-tre/satre-specification/actions/workflows/documentation.yml)
+[![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack&style=flat-square)](https://ukrse.slack.com/archives/rse-tre-wg)
+[![Licence](https://img.shields.io/github/license/sa-tre/satre-specification?style=flat-square)](https://github.com/sa-tre/satre-specification/blob/main/LICENSE.md)
+[![CoC](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-blue?style=flat-square)](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md)
+[![Docs](https://img.shields.io/github/actions/workflow/status/sa-tre/satre-specification/documentation.yml?branch=main&style=flat-square)](https://github.com/sa-tre/satre-specification/actions/workflows/documentation.yml)
 
 **[The specification is a living document hosted here on our GitHub pages site](https://sa-tre.github.io/satre-specification/)**. It can also be viewed here on GitHub at [docs/source/index.md](docs/source/index.md).
 
@@ -30,7 +30,7 @@ SATRE outputs will include an informed TRE reference technical specification and
 
 ## Community-Driven Approach
 
-[![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack)](https://ukrse.slack.com/archives/rse-tre-wg)
+[![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack&style=flat-square)](https://ukrse.slack.com/archives/rse-tre-wg)
 
 The SATRE project values the importance of equity, diversity, and inclusion (EDI) in fostering a kind and supportive environment for all participants.
 We are committed to making the project as inclusive as possible and appreciate the unique perspectives and input that each community member brings.
