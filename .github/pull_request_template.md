@@ -34,7 +34,7 @@ Also not any issues your pull request relates to, for example `Contributes to #<
 
 ### :raising_hand: Acknowledging contributors
 
-<!-- Please check the correct box and list any contributors who should be recognised.-->
+<!-- Please tick one of these boxes and list any contributors who should be recognised.-->
 
 - [ ] All contributors to this pull request are already named in the [table of contributors](https://github.com/sa-tre/satre-specification#contributors) in the README file.
 - [ ] The following people should be added to the [table of contributors](https://github.com/sa-tre/satre-specification#contributors) in the README file: <!-- replace this text with the GitHub IDs of any new contributors -->
