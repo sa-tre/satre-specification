@@ -4,6 +4,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack)](https://ukrse.slack.com/archives/rse-tre-wg)
+[![Licence](https://img.shields.io/github/license/sa-tre/satre-specification)](https://github.com/sa-tre/satre-specification/blob/main/LICENSE.md)
 [![Docs](https://github.com/sa-tre/satre-specification/actions/workflows/documentation.yml/badge.svg)](https://github.com/sa-tre/satre-specification/actions/workflows/documentation.yml)
 
 **[The specification is a living document hosted here on our GitHub pages site](https://sa-tre.github.io/satre-specification/)**. It can also be viewed here on GitHub at [docs/source/index.md](docs/source/index.md).
