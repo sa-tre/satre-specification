@@ -4,8 +4,7 @@
 Replace the empty checkboxes [ ] below with checked ones [x] accordingly.
 -->
 
-- [ ] You have given your pull request a meaningful title.
-- [ ] You are targeting the **main branch**.
+- [ ] This pull request has a meaningful title.
 - [ ] If your changes are not yet ready to merge, you have marked this pull request as a **draft** pull request.
 
 ## :ballot_box_with_check: Maintainers' checklist
@@ -15,9 +14,9 @@ This checklist is for project maintainers to use after the pull request is submi
 Feel free to leave these empty.
 -->
 
-- [ ] This PR has had the appropriate labels assigned
-- [ ] This PR has been added to the SATRE backlog project board
-- [ ] This PR has been assigned to one or more maintainers
+- [ ] This pull request has had the appropriate labels assigned
+- [ ] This pull request has been added to the SATRE backlog project board
+- [ ] This pull request has been assigned to one or more maintainers
 
 ### :arrow_heading_up: Summary
 
