@@ -4,23 +4,89 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
-      "README.md",
-      "docs/source/contributors.md"
+    "README.md",
+    "docs/source/contributors.md"
   ],
   "imageSize": 100,
   "commit": false,
-  "contributorsPerLine": 7,
-  "contributorsSortAlphabetically": true,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/github/all-contributors/<%= projectOwner %>/<%= projectName %>?color=ee8449&style=flat-square)](#contributors)",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
-  "types": {
-    "custom": {
-      "symbol": "🔭",
-      "description": "A custom contribution type.",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "edwardchalstrey1",
+      "name": "Ed Chalstrey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5486164?v=4",
+      "profile": "http://edchalstrey.com/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "infra",
+        "review"
+      ]
+    },
+    {
+      "login": "arronlacey",
+      "name": "Arron Lacey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4941299?v=4",
+      "profile": "https://github.com/arronlacey",
+      "contributions": [
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "harisood",
+      "name": "harisood",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67151373?v=4",
+      "profile": "https://github.com/harisood",
+      "contributions": [
+        "content",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "manics",
+      "name": "Simon Li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1644105?v=4",
+      "profile": "http://www.flickr.com/photos/manicstreetpreacher/",
+      "contributions": [
+        "content",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "craddm",
+      "name": "Matt Craddock",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5796417?v=4",
+      "profile": "https://github.com/craddm",
+      "contributions": [
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "drchriscole",
+      "name": "Chris Cole",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6098785?v=4",
+      "profile": "https://www.dundee.ac.uk/people/christian-cole",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "JimMadge",
+      "name": "Jim Madge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23616154?v=4",
+      "profile": "https://github.com/JimMadge",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
-  },
-  "linkToUsage": true,
-  "skipCi": true,
-  "contributors": []
+  ],
+  "contributorsSortAlphabetically": true,
+  "contributorsPerLine": 7,
+  "linkToUsage": false
 }
