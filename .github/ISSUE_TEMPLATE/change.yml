@@ -29,6 +29,11 @@ body:
       description: Please explain the proposed change in detail. Feel free to include references that may be useful.
     validations:
       required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Which sections of the specification, features or files would be changed?
   - type: textarea
     id: proposal
     attributes:
