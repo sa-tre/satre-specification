@@ -1,0 +1,50 @@
+name: Change Proposal
+description: Propose a specific change to the specification.
+title: "[Change]: "
+labels: ["proposed change"]
+assignees: ["sa-tre/spec-maintainers"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for being involved in the SATRE community.
+
+        This issue form is for proposing a change to the SATRE specification.
+
+        You should use this template when you have a clear idea of the change you would like to make.
+        In particular, you should be ready to begin drafting your proposed change.
+
+        If you are looking to discuss an idea with the community or find a consensus, you can open a discussion issue instead.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Please write a brief summary of the change you would like to make.
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: Please explain the proposed change in detail. Feel free to include references that may be useful.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Which sections of the specification, features or files would be changed?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Please draft the wording of the proposed change.
+    validations:
+      required: false
+  - type: textarea
+    id: tags
+    attributes:
+      label: Who can help
+      description: Tag anyone who you think will be interested or who can help by typing `@` followed by their GitHub username.
+    validations:
+      required: false
