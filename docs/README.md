@@ -37,7 +37,7 @@ Use the [`Makefile`](./Makefile) to build the document site
 $ make html
 ```
 
-The generated documents will places in `build/html/`.
+The generated documents will be placed under `build/html/`.
 To view the documents open `build/html/index.html` in your browser.
 For example
 
