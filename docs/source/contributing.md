@@ -36,7 +36,7 @@ SATRE is a community-led and collaboratively developed project.
 We, therefore, require that all our contributors and their contributions **adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) (CoC)**.
 Please familiarise yourself with our [CoC](CODE_OF_CONDUCT.md) and ensure your contributions and engagement with this project follow it!
 
-## Contributing through GitHub
+## Contributing Through GitHub
 
 [Git][git] is a really useful tool for version control.
 [GitHub][github] sits on top of Git and supports collaborative and distributed working.
@@ -47,13 +47,13 @@ In order to contribute via GitHub, you'll need to set up a free account and sign
 Here are some [instructions](https://help.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
-## Contribution model
+## Contribution Model
 
 We have designed our contribution model to be as accessible as possible, whilst utilising the full power of GitHub's open, collaborative and version control toolkit.
 This specification, including its governnance procedures and contribution models, are open for the community to evaluate, challenge, amend and discuss. If you have improvements we can make to anything we are doing, please suggest them!
 The community can suggest any amendments to the specification at any point - if you see a part of the specification you don't like, open an issue about it and start a conversation with the community ✨
 
-### Specification format
+### Specification Format
 
 The specification will live on the [specification repository](https://github.com/sa-tre/satre-specification) in MarkDown format.
 
@@ -64,7 +64,7 @@ The community can decide at any point whether a version of the specification sho
 This will be its own self-contained repository so that the version control is clean on updates to the specification specifically, or governance around it.
 Any contributions to the wider SATRE project should be made through a different medium via the [SATRE GitHub organisation](https://github.com/sa-tre), or by contacting the SATRE team at [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk)
 
-### Contribution process
+### Contribution Process
 
 All contributions & discussions will take place in issues - including the drafting of content.
 This is to provide as accessible as possible an environment for all contributors to engage in the conversation.
@@ -81,7 +81,7 @@ To contribute to the project:
 1. The Pull Request (PR) is built (either by the contributor or by the SATRE team) with the wording as finalised in the issue
 1. The PR is merged, and the issue is closed.
 
-### Consensus mechanism
+### Consensus Mechanism
 
 Approval from the SATRE team is based on [lazy consensus](https://medlabboulder.gitlab.io/democraticmediums/mediums/lazy_consensus/).
 Once an issue has been open for 7 days, unless there are outstanding objections within the comments, the SATRE team will approve the change.
@@ -89,7 +89,7 @@ If any of the SATRE team objects to a particular issue, this will be raised by i
 The SATRE team will only approve issues that have no outstanding objections.
 We will take all cues from community contributions.
 
-### Important notes
+### Important Notes
 
 We are in a bootstrapping phase to get an initial specification written. As part of this initial work we will propose a more formal governance model for the specification going forwards.
 
@@ -97,7 +97,7 @@ We have chosen to keep all discussion to issues for now, so contributors have a 
 
 The community can suggest governance changes at any point. This includes the SATRE team, and any decision must be openly documented in the repo.
 
-## Writing in MarkDown
+## Writing in Markdown
 
 GitHub has a helpful page on [getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github).
 
@@ -108,7 +108,7 @@ For example, you could write words as **bold** (`**bold**`), or in _italics_ (`_
 Also when writing in Markdown, please start each new sentence on a new line.
 Having each sentence on a new line will make no difference to how the text is displayed, there will still be paragraphs, but it makes the [diffs produced during the pull request](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read! :sparkles:
 
-## SATRE team contributions
+## SATRE Team Contributions
 
 SATRE team members are free to contribute to the repo in the same way as any contributor—by opening issues, having a discussion with the community and submitting issues for approval to the SATRE team following the process above.
 The SATRE team is also doing ongoing work to identify the key features of this specification.
