@@ -1,6 +1,6 @@
 # The Specification Document
 
-The specification document is build using [Sphinx](https://www.sphinx-doc.org/en/master/) from Markdown files through [MyST](https://myst-parser.readthedocs.io/en/latest/).
+The specification document is built using [Sphinx](https://www.sphinx-doc.org/) from Markdown files through [MyST](https://myst-parser.readthedocs.io/).
 
 ## Building the Specification Document
 
