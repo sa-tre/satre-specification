@@ -2,6 +2,7 @@ Standard Architecture for Trusted Research Environments (TREs)
 ==============================================================
 
 ```{toctree}
+contributing.md
 contributors.md
 ```
 
