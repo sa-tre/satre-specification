@@ -69,13 +69,9 @@ For any questions or concerns, please reach out to SATRE project team member [Ha
 
 We look forward to your participation and contributions to the SATRE project, as we work together to build a standard architecture for Trusted Research Environments in an inclusive and supportive environment!
 
-## Sphinx docs build
-Build the document locally with:
-1. Ensure you have a working Python 3 installation
-2. Install Sphinx: `pip install sphinx myst-parser`
-3. Clone this repo: `git clone https://github.com/sa-tre/satre-specification`
-4. From inside the repo run `sphinx-build -b html docs/source/ docs/build/html`
-5. Open the generated html files at `docs/build/html` in a browser
+## Building the Specification Document
+
+Instructions for building the specification document locally can be found [here](docs/README.md#building-the-specification-document).
 
 ## Contributors
 
