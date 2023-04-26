@@ -23,8 +23,8 @@ Please familiarise yourself with our [CoC](https://github.com/sa-tre/satre-speci
 
 ## Contributing Through GitHub
 
-[Git][git] is a really useful tool for version control.
-[GitHub][github] sits on top of Git and supports collaborative and distributed working.
+[Git](https://git-scm.com/) is a really useful tool for version control.
+[GitHub](https://github.com/) sits on top of Git and supports collaborative and distributed working.
 
 We know that it can be daunting to start using Git and GitHub if you haven't worked with them in the past, but we are here to help you figure out any of the jargon or confusing instructions you encounter! :heart:
 
