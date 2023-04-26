@@ -17,9 +17,9 @@ If you have any questions that aren't discussed below, please let us know throug
 
 ## Code of Conduct
 
-SATRE is a community-led and collaboratively developed project.
-We, therefore, require that all our contributors and their contributions **adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) (CoC)**.
-Please familiarise yourself with our [CoC](CODE_OF_CONDUCT.md) and ensure your contributions and engagement with this project follow it!
+SATRE is a community-led and collaboratively-developed project.
+Therefore, we require that all our contributors and their contributions **adhere to our [Code of Conduct](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md) (CoC)**.
+Please familiarise yourself with our [CoC](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md) and ensure your contributions and engagement with this project follow it!
 
 ## Contributing Through GitHub
 
