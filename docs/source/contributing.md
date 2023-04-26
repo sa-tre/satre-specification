@@ -44,14 +44,15 @@ If you see a part of the specification you don't like, open an issue about it an
 
 ### Specification Format
 
-The specification will live on the [specification repository](https://github.com/sa-tre/satre-specification) in MarkDown format.
+The specification source is kept in the [specification repository](https://github.com/sa-tre/satre-specification).
+It is written as a [Sphinx](https://www.sphinx-doc.org/) document in [Markdown](https://www.markdownguide.org/) format.
 
-The final and most up-to-date 'source of truth' will be the specification on the main branch of this repository.
+The most up-to-date 'source of truth' will be the specification on the `main` branch of the specification repository.
+The community can decide when to 'tag' a new version of the specification.
+They may also decide to where to publish the specification.
 
-The community can decide at any point whether a version of the specification should be made, released, published, or stored elsewhere.
-
-This will be its own self-contained repository so that the version control is clean on updates to the specification specifically, or governance around it.
-Any contributions to the wider SATRE project should be made through a different medium via the [SATRE GitHub organisation](https://github.com/sa-tre), or by contacting the SATRE team at [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk)
+The specification repository is self-contained and relates only to the specification specifically, or its governance.
+Any contributions to the wider SATRE project should be made through a different medium via the [SATRE GitHub organisation](https://github.com/sa-tre), or by contacting the SATRE team at [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
 ### Contribution Process
 
