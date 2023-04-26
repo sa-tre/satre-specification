@@ -91,17 +91,18 @@ Once a pull request has been open for 7 days, unless there are outstanding objec
 If any of the SATRE team objects to a particular issue, this will be raised by individuals in the comments of the pull request.
 The SATRE team will only approve pull requests that have no outstanding objections.
 
-
 ## Writing in Markdown
 
-GitHub has a helpful page on [getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github).
+The [Myst Parser](inv:myst-parser:std:doc#syntax/typography) documentation has a guide on the Markdown format used in the specification source files.
+GitHub also has a helpful page on [getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github), which will be useful when writing Markdown for GitHub (for example in issue or pull request comments).
 
-Most of the writing that you'll do will be in [Markdown][markdown].
-You can think of Markdown as a few little symbols around your text that will allow GitHub to render the text with a little bit of formatting.
-For example, you could write words as **bold** (`**bold**`), or in _italics_ (`_italics_`), or as a [link][rick-roll] (`[link](https://youtu.be/dQw4w9WgXcQ)`) to another webpage.
+You can think of Markdown as a few little symbols around your text that instruct how to render the text.
+For example, you could write words in **bold** (`**bold**`), in _italics_ (`_italics_`), or as a [link](https://youtu.be/dQw4w9WgXcQ) (`[link](https://youtu.be/dQw4w9WgXcQ)`) to another web page.
 
-Also when writing in Markdown, please start each new sentence on a new line.
-Having each sentence on a new line will make no difference to how the text is displayed, there will still be paragraphs, but it makes the [diffs produced during the pull request](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read! :sparkles:
+Also when writing in Markdown, please [start each new sentence on a new line](https://sembr.org/).
+Having each sentence on a new line will make no difference to how the text is displayed.
+A blank line is needed to start a new paragraph.
+However, it makes the source and [diffs produced during the pull request](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read ✨!
 
 ## SATRE Team Contributions
 
