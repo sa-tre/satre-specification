@@ -106,15 +106,17 @@ However, it makes the source and [diffs produced during the pull request](https:
 
 ## SATRE Team Contributions
 
-SATRE team members are free to contribute to the repo in the same way as any contributor—by opening issues, having a discussion with the community and submitting issues for approval to the SATRE team following the process above.
+SATRE team members are free to contribute to the repo in the same way as any contributor, following the process above.
 The SATRE team is also doing ongoing work to identify the key features of this specification.
 Some contributions by SATRE team members may represent the output of this work.
 Any contribution that represents this work will be explicitly mentioned in the contribution.
 
 This work is taking on two main forms:
 
-1. Identifying what features the community feels are important for a TRE via the [features survey](https://dundee.onlinesurveys.ac.uk/satre-tre-operatorsbuilders-survey). We will synthesise responses from this survey to suggest features here.
-1. Evaluating the TREs used in production as part of [the Alan Turing Institute](https://github.com/alan-turing-institute/data-safe-haven),  [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1). The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
+1. Identifying what features the community feels are important for a TRE via the [features survey](https://dundee.onlinesurveys.ac.uk/satre-tre-operatorsbuilders-survey).
+   We will synthesise responses from this survey to suggest features here.
+1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven),  [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
+   The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
 ## Get in Touch
 
