@@ -122,6 +122,8 @@ This work is taking on two main forms:
 
 To get in touch with the SATRE team, please email [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
+To report Code-of-Conduct violations, please use the contact [specified in the Code of Conduct](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md).
+
 ## Recognising Contributions
 
 We welcome and recognise all kinds of contributions, from discussing ideas, suggesting features, improving governance, maintaining the project, and more.
