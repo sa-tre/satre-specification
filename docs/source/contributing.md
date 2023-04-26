@@ -1,6 +1,6 @@
 # ✨ Contributing to the SATRE Specification
 
-🎉  **Welcome to the SATRE specification repository!** 🎉
+🎉  **Welcome to the SATRE specification!** 🎉
 
 _We're excited that you want to contribute_ 🚀
 
@@ -11,7 +11,7 @@ We hope that the information provided in this document will make it as easy as p
 
 We welcome all contributions to this project via GitHub issues.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
-As you start contributing don't forget that your ideas are more important than perfectly formatted contributions ❤️
+As you start contributing don't forget that your ideas are more important than perfectly formatted contributions ❤️.
 
 If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](#get-in-touch).
 
@@ -26,7 +26,7 @@ Please familiarise yourself with our [CoC](https://github.com/sa-tre/satre-speci
 [Git](https://git-scm.com/) is a really useful tool for version control.
 [GitHub](https://github.com/) sits on top of Git and supports collaborative and distributed working.
 
-We know that it can be daunting to start using Git and GitHub if you haven't worked with them in the past, but we are here to help you figure out any of the jargon or confusing instructions you encounter! :heart:
+We know that it can be daunting to start using Git and GitHub if you haven't worked with them in the past. We are here to help you figure out any of the jargon or confusing instructions you encounter❤️!
 
 In order to contribute via GitHub, you'll need to set up a free account and sign in.
 Here are some [instructions](https://help.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
@@ -34,9 +34,13 @@ Remember that you can ask us any questions you need to along the way.
 
 ## Contribution Model
 
-We have designed our contribution model to be as accessible as possible, whilst utilising the full power of GitHub's open, collaborative and version control toolkit.
-This specification, including its governnance procedures and contribution models, are open for the community to evaluate, challenge, amend and discuss. If you have improvements we can make to anything we are doing, please suggest them!
-The community can suggest any amendments to the specification at any point - if you see a part of the specification you don't like, open an issue about it and start a conversation with the community ✨
+We have designed our contribution model to be as accessible as possible, while utilising the full power of GitHub's collaboration and version-control tools.
+
+This specification, including its governance procedures and contribution models, are open for the community to evaluate, challenge, amend and discuss.
+If you have improvements we can make to anything we are doing, please suggest them!
+
+The community can suggest any amendments to the specification at any point.
+If you see a part of the specification you don't like, open an issue about it and start a conversation with the community ✨.
 
 ### Specification Format
 
