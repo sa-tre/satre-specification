@@ -140,12 +140,15 @@ To add yourself or someone else as a contributor, comment on the relevant Issue 
 You can see the [Emoji Key (Contribution Types Reference)](https://allcontributors.org/docs/en/emoji-key) for a list of valid `<contribution>` types.
 The bot will then create a Pull Request to add the contributor and reply with the pull request details.
 
-**PLEASE NOTE: Only one contributor can be added with the bot at a time!**
-Add each contributor in turn, merge the pull request and delete the branch (`all-contributors/add-<username>`) before adding another one.
-Otherwise, you can end up with dreaded [merge conflicts][github-mergeconflicts].
-Therefore, please check the open pull requests first to make sure there aren't any [open requests from the bot](https://github.com/sa-tre/satre-specification/pulls/app%2Fallcontributors) before adding another.
+:::{hint}
+**Please only add one contributor with the bot at a time!**
+
+It is best to add each contributor in turn and merge the pull request before adding another one.
+Otherwise, you can end up with merge conflicts.
+Please check the open pull requests first to make sure there aren't any [open requests from the bot](https://github.com/sa-tre/satre-specification/pulls/app%2Fallcontributors) before adding another.
 
 What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
 (Don't feel bad, we have all done it! 🙈)
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
 If you are unable to do this for any reason, please let us know by opening an issue, and SATRE  team members will be very happy to help!
+:::
