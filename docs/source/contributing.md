@@ -9,7 +9,7 @@ _We're excited that you want to contribute_ 🚀
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
 
-We welcome all contributions to this project via GitHub issues.
+We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
 As you start contributing don't forget that your ideas are more important than perfectly formatted contributions ❤️.
 
