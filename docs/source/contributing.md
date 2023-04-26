@@ -128,8 +128,8 @@ To report Code-of-Conduct violations, please use the contact [specified in the C
 
 We welcome and recognise all kinds of contributions, from discussing ideas, suggesting features, improving governance, maintaining the project, and more.
 
-This project follows the [all-contributors][all-contributors] specifications.
-The all-contributors bot usage is described [here](https://allcontributors.org/docs/en/bot/usage).
+This project follows the [All Contributors specification](https://allcontributors.org/docs/en/overview).
+The All Contributors bot usage is described [here](https://allcontributors.org/docs/en/bot/usage).
 
 To add yourself or someone else as a contributor, comment on the relevant Issue or Pull Request with the following:
 
