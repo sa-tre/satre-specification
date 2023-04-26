@@ -1,9 +1,10 @@
 # ✨ Contributing to the SATRE Specification
 
-## [Jump straight to contribution process](#contribution-process)
-
 🎉  **Welcome to the SATRE specification repository!** 🎉
+
 _We're excited that you want to contribute_ 🚀
+
+[**Jump straight to contribution process**](#contribution-process)
 
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project & community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
@@ -13,22 +14,6 @@ Please follow these guidelines to make sure your contributions can be easily int
 As you start contributing don't forget that your ideas are more important than perfectly formatted contributions ❤️
 
 If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](#get-in-touch).
-
-## Table of Contents
-
-Been here before? Already know what you're looking for in this guide? Jump to the following sections:
-
-- [Code of Conduct](#code-of-conduct)
-- [Contributing through GitHub](#contributing-through-github)
-- [Contribution model](#contribution-model)
-  - [Specification format](specification-format)
-  - [Contribution process](#contribution-process)
-  - [Consensus mechanism](#consensus-mechanism)
-  - [Important notes](#important-notes)
-- [Writing in MarkDown](#writing-in-markdown)
-- [SATRE team contributions](#satre-team-contributions)
-- [Get in Touch](#get-in-touch)
-- [Recognising Contributions](#recognising-contributions)
 
 ## Code of Conduct
 
