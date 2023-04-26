@@ -6,7 +6,7 @@ _We're excited that you want to contribute_ 🚀
 
 [**Jump straight to contribution process**](#contribution-process)
 
-We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project & community.
+We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
 
 We welcome all contributions to this project via GitHub issues.
@@ -51,7 +51,7 @@ Any contributions to the wider SATRE project should be made through a different 
 
 ### Contribution Process
 
-All contributions & discussions will take place in issues - including the drafting of content.
+All contributions and discussions will take place in issues - including the drafting of content.
 This is to provide as accessible as possible an environment for all contributors to engage in the conversation.
 
 To contribute to the project:
