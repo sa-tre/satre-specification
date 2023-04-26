@@ -74,10 +74,9 @@ To contribute to the project:
 ### Consensus Mechanism
 
 Approval from the SATRE team is based on [lazy consensus](https://medlabboulder.gitlab.io/democraticmediums/mediums/lazy_consensus/).
-Once an issue has been open for 7 days, unless there are outstanding objections within the comments, the SATRE team will approve the change.
-If any of the SATRE team objects to a particular issue, this will be raised by individuals in the comments of the issue.
-The SATRE team will only approve issues that have no outstanding objections.
-We will take all cues from community contributions.
+Once a pull request has been open for 7 days, unless there are outstanding objections within the comments, the SATRE team will approve the change.
+If any of the SATRE team objects to a particular issue, this will be raised by individuals in the comments of the pull request.
+The SATRE team will only approve pull requests that have no outstanding objections.
 
 ### Important Notes
 
