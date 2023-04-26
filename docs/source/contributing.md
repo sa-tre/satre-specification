@@ -133,7 +133,7 @@ The All Contributors bot usage is described [here](https://allcontributors.org/d
 
 To add yourself or someone else as a contributor, comment on the relevant Issue or Pull Request with the following:
 
-```
+```text
 @all-contributors please add <username> for <contributions>
 ```
 
