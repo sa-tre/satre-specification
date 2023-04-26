@@ -42,6 +42,19 @@ If you have improvements we can make to anything we are doing, please suggest th
 The community can suggest any amendments to the specification at any point.
 If you see a part of the specification you don't like, open an issue about it and start a conversation with the community ✨.
 
+:::{important}
+We are in a bootstrapping phase to get an initial specification written.
+As part of this initial work we will propose a more formal governance model for the specification going forwards.
+
+We have chosen to keep all discussion to issues for now, so contributors have a single place to engage in conversation.
+Pull requests are used when a specific change is ready to be proposed.
+This can be without discussion, however, it is best for substantial or significant changes to be discussed first in an issue.
+We have opted to not use GitHub Discussions at this point.
+
+The community can suggest governance changes at any point.
+This includes the SATRE team, and any decision must be openly documented in the repo.
+:::
+
 ### Specification Format
 
 The specification source is kept in the [specification repository](https://github.com/sa-tre/satre-specification).
@@ -78,13 +91,6 @@ Once a pull request has been open for 7 days, unless there are outstanding objec
 If any of the SATRE team objects to a particular issue, this will be raised by individuals in the comments of the pull request.
 The SATRE team will only approve pull requests that have no outstanding objections.
 
-### Important Notes
-
-We are in a bootstrapping phase to get an initial specification written. As part of this initial work we will propose a more formal governance model for the specification going forwards.
-
-We have chosen to keep all discussion to issues for now, so contributors have a single place to engage in conversation. This is why we only open a PR once wording is finalised (to not split the conversation), and have opted to not use Discussions to begin with.
-
-The community can suggest governance changes at any point. This includes the SATRE team, and any decision must be openly documented in the repo.
 
 ## Writing in Markdown
 
