@@ -107,7 +107,7 @@ This work is taking on two main forms:
 
 ## Get in Touch
 
-To get in touch with the SATRE team, please email [satre-contact@dundee.ac.uk](mailto: satre-contact@dundee.ac.uk)
+To get in touch with the SATRE team, please email [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
 ## Recognising Contributions
 
