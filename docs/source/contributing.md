@@ -69,25 +69,25 @@ Any contributions to the wider SATRE project should be made through a different 
 
 ### Contribution Process
 
-All contributions and discussions will take place in issues - including the drafting of content.
-This is to provide as accessible as possible an environment for all contributors to engage in the conversation.
+Issues should be used to discuss ideas, potential changes and to ask questions.
+Issue templates have been designed for common issue archetypes to help collect the most important information and present it in a clear, consistent way.
+It is possible, however, to open a blank issue if none of the templates are suitable.
 
-To contribute to the project:
+When ready, changes will be proposed in pull requests.
+Similarly to issues, there is a pull request template.
+This template prompts contributors to include important details which helps explain the contribution and makes triage and review easier.
 
-1. Open an issue on this repo. If your issue is for a discussion, add a `discussion point` label. If it is for a proposed change to the repo, add a `proposed change` label and provide wording for the proposed change. If it is for a governance discussion or change, add a `governance` label.
-1. Have a discussion with the community within the issue comments. All issues will be left open for a minimum of 7 days to allow community members to engage if they want to.
-1. If your issue is a proposed change, amend the wording of the contribution as required.
-1. Once the final wording is ready for review,  add the label `request review`.
-1. The issue will be reviewed at the next regular SATRE meeting by the SATRE team. Approval requires a simply majority, with at least 3 votes.
-1. If the issue is not approved, the SATRE team will provide reasons why in the comments of the issue.
-1. If the issue is approved, the label `approved change` will be added by the SATRE team, along with a comment updating the contributors/community that engaged with the issue.
-1. The Pull Request (PR) is built (either by the contributor or by the SATRE team) with the wording as finalised in the issue
-1. The PR is merged, and the issue is closed.
+Pull requests will be used to review changes.
+During the review process, the pull request will be used for discussion, to suggest amendments and ultimately accept or reject the change.
+
+We use this process to ensure that as much as possible of the discussion and decision making process can be public.
+This is to provide as open and accessible as possible an environment for all contributors to engage in the conversation.
 
 ### Consensus Mechanism
 
 Approval from the SATRE team is based on [lazy consensus](https://medlabboulder.gitlab.io/democraticmediums/mediums/lazy_consensus/).
 Once a pull request has been open for 7 days, unless there are outstanding objections within the comments, the SATRE team will approve the change.
+
 If any of the SATRE team objects to a particular issue, this will be raised by individuals in the comments of the pull request.
 The SATRE team will only approve pull requests that have no outstanding objections.
 
