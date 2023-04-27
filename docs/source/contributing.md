@@ -70,7 +70,7 @@ Any contributions to the wider SATRE project should be made through a different 
 ### Contribution Process
 
 Issues should be used to discuss ideas, potential changes and to ask questions.
-Issue templates have been designed for common issue archetypes to help collect the most important information and present it in a clear, consistent way.
+Issue templates have been designed for common issue types to help collect the most important information and present it in a clear, consistent way.
 It is possible, however, to open a blank issue if none of the templates are suitable.
 
 When ready, changes will be proposed in pull requests.
