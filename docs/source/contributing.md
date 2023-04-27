@@ -98,7 +98,7 @@ The [Myst Parser](inv:myst-parser:std:doc#syntax/typography) documentation has a
 GitHub also has a helpful page on [getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github), which will be useful when writing Markdown for GitHub (for example in issue or pull request comments).
 
 You can think of Markdown as a few little symbols around your text that instruct how to render the text.
-For example, you could write words in **bold** (`**bold**`), in _italics_ (`_italics_`), or as a [link](https://youtu.be/dQw4w9WgXcQ) (`[link](https://youtu.be/dQw4w9WgXcQ)`) to another web page.
+For example, you could write words in **bold** (`**bold**`), in _italics_ (`_italics_`), or as a [link](https://medium.com/satre) (`[link](https://medium.com/satre)`) to another web page.
 
 Also when writing in Markdown, please [start each new sentence on a new line](https://sembr.org/).
 Having each sentence on a new line will make no difference to how the text is displayed.
