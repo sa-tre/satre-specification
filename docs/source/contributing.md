@@ -86,10 +86,11 @@ This is to provide as open and accessible as possible an environment for all con
 ### Consensus Mechanism
 
 Approval from the SATRE team is based on [lazy consensus](https://medlabboulder.gitlab.io/democraticmediums/mediums/lazy_consensus/).
-Once a pull request has been open for 7 days, unless there are outstanding objections within the comments, the SATRE team will approve the change.
+After a pull request has been open for at least 7 days, unless there are outstanding objections, the change will be presumed as accepted.
+SATRE team members are then free to merge the pull request at any point.
 
-If any of the SATRE team objects to a particular issue, this will be raised by individuals in the comments of the pull request.
-The SATRE team will only approve pull requests that have no outstanding objections.
+If any of the SATRE team objects to a particular issue, this will be raised by individuals using [pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
+The SATRE team will only merge pull requests that have no outstanding objections.
 
 ## Writing in Markdown
 
