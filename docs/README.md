@@ -44,3 +44,22 @@ For example
 ```console
 $ firefox build/html/index.html
 ```
+
+## Reproducible Builds
+
+To improve the reproducibly of build at each commit, [`requirements.txt`](./requirements.txt) contains a complete list of dependencies and specific versions.
+
+The projects _direct_ dependencies are listed in [`requirements.in`](./requirements.in). 
+The full list is then generated using [`pip-compile`](https://pip-tools.readthedocs.io/en/latest/#requirements-from-requirements-in)
+
+```console
+$ pip-compile requirements.in
+```
+
+### Updating Requirements
+
+All requirements can be updated with
+
+```console
+$ pip-compile --upgrade requirements.in
+```
