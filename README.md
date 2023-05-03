@@ -6,9 +6,9 @@
 [![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack&style=flat-square)](https://ukrse.slack.com/archives/rse-tre-wg)
 [![Licence](https://img.shields.io/github/license/sa-tre/satre-specification?style=flat-square)](https://github.com/sa-tre/satre-specification/blob/main/LICENSE.md)
 [![CoC](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-blue?style=flat-square)](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md)
-[![Docs](https://img.shields.io/github/actions/workflow/status/sa-tre/satre-specification/documentation.yml?branch=main&style=flat-square)](https://github.com/sa-tre/satre-specification/actions/workflows/documentation.yml)
+[![Docs](https://img.shields.io/readthedocs/satre-specification?label=build&style=flat-square)](https://satre-specification.readthedocs.io/en/latest/)
 
-**[The specification is a living document hosted here on our GitHub pages site](https://sa-tre.github.io/satre-specification/)**. It can also be viewed here on GitHub at [docs/source/index.md](docs/source/index.md).
+**[The specification is a living document hosted here on our Read the Docs site](https://satre-specification.readthedocs.io/en/latest/)**. The source files can also be viewed here on GitHub at [docs/source/](docs/source/).
 
 Welcome to the SATRE Specification Repository!
 This repository stores the technical documents that outlines a reference architecture for Trusted Research Environments.
