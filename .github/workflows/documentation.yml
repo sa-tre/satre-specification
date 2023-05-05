@@ -1,9 +1,10 @@
-name: Docs
+name: Specification
 on: [push, pull_request, workflow_dispatch]
 permissions:
     contents: write
 jobs:
-  docs:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -19,3 +20,24 @@ jobs:
       - name: Sphinx build
         run: |
           make html
+  link_check:
+    name: Link check
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./docs/
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Sphinx build
+        run: |
+          make html
+      - name: Sphinx link check
+        run: |
+          make linkcheck SPHINXOPTS='-W --keep-going'
