@@ -4,7 +4,7 @@
 
 _We're excited that you want to contribute_ 🚀
 
-[**Jump straight to contribution process**](#contribution-process)
+[**Jump straight to contribution process**](#contributing-contribution-process)
 
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
@@ -13,7 +13,7 @@ We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
 As you start contributing don't forget that your ideas are more important than perfectly formatted contributions ❤️.
 
-If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](#get-in-touch).
+If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](#contributing-get-in-touch).
 
 ## Code of Conduct
 
@@ -67,6 +67,7 @@ They may also decide to where to publish the specification.
 The specification repository is self-contained and relates only to the specification specifically, or its governance.
 Any contributions to the wider SATRE project should be made through a different medium via the [SATRE GitHub organisation](https://github.com/sa-tre), or by contacting the SATRE team at [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
+(contributing-contribution-process)=
 ### Contribution Process
 
 Issues should be used to discuss ideas, potential changes and to ask questions.
@@ -119,6 +120,7 @@ This work is taking on two main forms:
 1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven),  [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
    The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
+(contributing-get-in-touch)=
 ## Get in Touch
 
 To get in touch with the SATRE team, please email [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
