@@ -4,7 +4,8 @@
 
 project = 'Standard Architecture for Trusted Research Environments'
 copyright = ''
-author = ''
+html_show_copyright = False
+author = 'The Contributors'
 
 release = '0.0'
 version = '0.0.0'
