@@ -45,7 +45,7 @@ There are a number of ways you can get involved with the SATRE project!
 
 | Meeting | Description | Time | Link
 |----------|----------|----------|----------|
-| Bi-weekly Collaboration Cafe  | An open meeting for anyone interested in discussing & contributing to the project to work collaboratively with the team, community and others  | Every 1st Tuesday and 3rd Thursday of the month |[HackMD link please fill]()|
+| Bi-weekly Collaboration Cafe  | An open meeting for anyone interested in discussing & contributing to the project to work collaboratively with the team, community and others  | Every 1st Tuesday and 3rd Thursday of the month |[Calendar](https://hackmd.io/@harisood/SyKjKcKZn)|
 | Monthly Open Roadmap Review  | During the Thursday Collaboration Cafe, the core funded team will provide updates to the Open Roadmap based on community contributions  | Every 3rd Thursday of the month  |[HackMD link please fill]()|
 
 
