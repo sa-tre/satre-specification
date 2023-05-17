@@ -17,6 +17,11 @@ body:
       description: Please write a brief summary of what you would like to discuss or change.
     validations:
       required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: (Optional) Please share the source of this issue - e.g. personal contribution, SATRE survey, Collaboration Cafe discussion...
   - type: textarea
     id: detail
     attributes:

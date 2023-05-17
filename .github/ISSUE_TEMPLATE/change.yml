@@ -22,6 +22,11 @@ body:
       description: Please write a brief summary of the change you would like to make.
     validations:
       required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: (Optional) Please share the source of this issue - e.g. personal contribution, SATRE survey, Collaboration Cafe discussion...
   - type: textarea
     id: detail
     attributes:
