@@ -1,8 +1,6 @@
+(standard)=
+
 # A Standard Architecture for TREs
-
-Motivation: Why a TRE standard is needed/ useful and a description of the broader SATRE project, conception and goals
-
-## Aims
 
 <!-- What this document intends to do (and what it doesn't), the level of detail we aim for contrasted with other technical standards -->
 
@@ -14,7 +12,7 @@ The SATRE standard has been developed based on the following principles:
 - The standard will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
 
 The SATRE standard is based around the idea of capabilities, some of which are required and some of which are optional.
-Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see `scoring` for details). The capabilities are grouped into the following broad categories:
+Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see `{ref} scoring` for details). The capabilities are grouped into the following broad categories:
 
 - information governance
 - computing technology

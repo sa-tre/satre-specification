@@ -1,19 +1,21 @@
-# ✨ Contributing to the SATRE Specification
+(contributing)=
 
-🎉  **Welcome to the SATRE specification!** 🎉
+# :sparkles: Contributing to the SATRE Specification
 
-_We're excited that you want to contribute_ 🚀
+:tada:  **Welcome to the SATRE specification!** :tada:
 
-[**Jump straight to contribution process**](#contribution-process)
+_We're excited that you want to contribute_ :rocket:
+
+`{ref} **Jump straight to contribution process** <contributing_contribution_process>`
 
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
 
 We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
-As you start contributing don't forget that your ideas are more important than perfectly formatted contributions ❤️.
+As you start contributing don't forget that your ideas are more important than perfectly formatted contributions :heart:.
 
-If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](#get-in-touch).
+If you have any questions that aren't discussed below, please let us know through one of the many ways to `{ref} get in touch <contributing_get_in_touch>`.
 
 ## Code of Conduct
 
@@ -67,6 +69,8 @@ They may also decide to where to publish the specification.
 The specification repository is self-contained and relates only to the specification specifically, or its governance.
 Any contributions to the wider SATRE project should be made through a different medium via the [SATRE GitHub organisation](https://github.com/sa-tre), or by contacting the SATRE team at [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
+(contributing_contribution_process)=
+
 ### Contribution Process
 
 Issues should be used to discuss ideas, potential changes and to ask questions.
@@ -119,6 +123,8 @@ This work is taking on two main forms:
 1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven),  [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
    The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
+(contributing_get_in_touch)=
+
 ## Get in Touch
 
 To get in touch with the SATRE team, please email [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
@@ -149,7 +155,7 @@ Otherwise, you can end up with merge conflicts.
 Please check the open pull requests first to make sure there aren't any [open requests from the bot](https://github.com/sa-tre/satre-specification/pulls/app%2Fallcontributors) before adding another.
 
 What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
-(Don't feel bad, we have all done it! 🙈)
+(Don't feel bad, we have all done it! :see_no_evil:)
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
 If you are unable to do this for any reason, please let us know by opening an issue, and SATRE  team members will be very happy to help!
 :::

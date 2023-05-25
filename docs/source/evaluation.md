@@ -1,4 +1,6 @@
-# Scoring TREs against SATRE
+(evaluation)=
+
+# Evaluating TREs against SATRE
 
 ## How to score
 
