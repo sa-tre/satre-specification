@@ -6,13 +6,14 @@
 
 The SATRE standard has been developed based on the following principles:
 
-- TREs should be as as easy as possible for end-users to use (e.g. researchers) whilst still remaining secure.
-- TRE deployments should be offered that support data of different levels of sensitivity (e.g. through a tiered system of technical controls and policies).
+- TREs should be as as easy as possible for end-users to use (_e.g._ researchers) whilst still remaining secure.
+- TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
 - TREs conforming to the standard should be interoperable and provide a familiar end-user experience.
 - The standard will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
 
 The SATRE standard is based around the idea of capabilities, some of which are required and some of which are optional.
-Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see {ref}`evaluation` for details). The capabilities are grouped into the following broad categories:
+Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see {ref}`evaluation` for details).
+The capabilities are grouped into the following broad categories:
 
 - information governance
 - computing technology
@@ -21,8 +22,8 @@ Any particular TRE implementation should be able to score itself against each ca
 
 In addition to these capabilities, any organisation running a TRE will need to consider:
 
-- legal requirements: particularly around data protection and contract management
-- relationship management: engagement with internal and external stakeholders as well as the wider public
+- legal requirements — particularly around data protection and contract management
+- relationship management — engagement with internal and external stakeholders as well as the wider public
 
 <!-- ## Required TRE features
 
@@ -32,7 +33,7 @@ In addition to these capabilities, any organisation running a TRE will need to c
 ### Feature B
 ## Optional TRE features
 
-Also croudsourced from the survey, but this time all the features that were considered less important and/or are not needed in order to simply define something as a TRE (for example this might include something like HPC-connectability).
+Also crowdsourced from the survey, but this time all the features that were considered less important and/or are not needed in order to simply define something as a TRE (for example this might include something like HPC-connectability).
 
 ### Feature X
 ### Feature Y -->
@@ -140,8 +141,10 @@ Typical roles might include data custodians, ethicists, an independent board or 
 
 ## Architecture
 
-Includes nice diagrams of how the TRE features connect together, but remains a high level description that doesn't specify which exact technologies a TRE developer should use. This can also offer an explanation of how people from different roles interact/experience these features.
+Includes diagrams of how the TRE features connect together, but remains a high level description that doesn't specify which exact technologies a TRE developer should use.
+This can also offer an explanation of how people from different roles interact/experience these features.
 
 ## Conclusion
 
-Benefits of adopting this standard for developing a TRE. Benefits of existing TRE efforts working to conform to this standard (users and admin roles as well as developers).
+Benefits of adopting this standard for developing a TRE. 
+Benefits of existing TRE efforts working to conform to this standard (users and admin roles as well as developers).
