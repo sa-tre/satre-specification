@@ -12,7 +12,7 @@ The SATRE standard has been developed based on the following principles:
 - The standard will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
 
 The SATRE standard is based around the idea of capabilities, some of which are required and some of which are optional.
-Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see `{ref} scoring` for details). The capabilities are grouped into the following broad categories:
+Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see {ref}`evaluation` for details). The capabilities are grouped into the following broad categories:
 
 - information governance
 - computing technology

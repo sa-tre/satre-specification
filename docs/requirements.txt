@@ -8,15 +8,21 @@ alabaster==0.7.13
     # via sphinx
 babel==2.12.1
     # via sphinx
+build==0.10.0
+    # via pip-tools
 certifi==2022.12.7
     # via requests
 charset-normalizer==3.1.0
     # via requests
+click==8.1.3
+    # via pip-tools
 docutils==0.18.1
     # via
     #   myst-parser
     #   sphinx
     #   sphinx-rtd-theme
+emoji==2.4.0
+    # via -r requirements.in
 idna==3.4
     # via requests
 imagesize==1.4.1
@@ -38,9 +44,15 @@ mdurl==0.1.2
 myst-parser==1.0.0
     # via -r requirements.in
 packaging==23.1
-    # via sphinx
+    # via
+    #   build
+    #   sphinx
+pip-tools==6.13.0
+    # via -r requirements.in
 pygments==2.15.1
     # via sphinx
+pyproject-hooks==1.0.0
+    # via build
 pyyaml==6.0
     # via myst-parser
 requests==2.29.0
@@ -71,3 +83,9 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 urllib3==1.26.15
     # via requests
+wheel==0.40.0
+    # via pip-tools
+
+# The following packages are considered to be unsafe in a requirements file:
+# pip
+# setuptools

@@ -1,12 +1,12 @@
 (contributing)=
 
-# :sparkles: Contributing to the SATRE Specification
+# {{sparkles}} Contributing to the SATRE Specification
 
-:tada:  **Welcome to the SATRE specification!** :tada:
+{{tada}} **Welcome to the SATRE specification!** {{tada}}
 
-_We're excited that you want to contribute_ :rocket:
+_We're excited that you want to contribute_ {{rocket}}
 
-`{ref} **Jump straight to contribution process** <contributing_contribution_process>`
+**{ref}`Jump straight to contribution process <contributing_contribution_process>`**
 
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
@@ -15,7 +15,7 @@ We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
 As you start contributing don't forget that your ideas are more important than perfectly formatted contributions :heart:.
 
-If you have any questions that aren't discussed below, please let us know through one of the many ways to `{ref} get in touch <contributing_get_in_touch>`.
+If you have any questions that aren't discussed below, please let us know through one of the many ways to {ref}`get in touch <contributing_get_in_touch>`.
 
 ## Code of Conduct
 
@@ -28,7 +28,8 @@ Please familiarise yourself with our [CoC](https://github.com/sa-tre/satre-speci
 [Git](https://git-scm.com/) is a really useful tool for version control.
 [GitHub](https://github.com/) sits on top of Git and supports collaborative and distributed working.
 
-We know that it can be daunting to start using Git and GitHub if you haven't worked with them in the past. We are here to help you figure out any of the jargon or confusing instructions you encounter❤️!
+We know that it can be daunting to start using Git and GitHub if you haven't worked with them in the past.
+We are here to help you figure out any of the jargon or confusing instructions you encounter {{heart}}!
 
 In order to contribute via GitHub, you'll need to set up a free account and sign in.
 Here are some [instructions](https://help.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
@@ -42,7 +43,7 @@ This specification, including its governance procedures and contribution models,
 If you have improvements we can make to anything we are doing, please suggest them!
 
 The community can suggest any amendments to the specification at any point.
-If you see a part of the specification you don't like, open an issue about it and start a conversation with the community ✨.
+If you see a part of the specification you don't like, open an issue about it and start a conversation with the community {{sparkles}}.
 
 :::{important}
 We are in a bootstrapping phase to get an initial specification written.
@@ -107,7 +108,7 @@ For example, you could write words in **bold** (`**bold**`), in _italics_ (`_ita
 Also when writing in Markdown, please [start each new sentence on a new line](https://sembr.org/).
 Having each sentence on a new line will make no difference to how the text is displayed.
 A blank line is needed to start a new paragraph.
-However, it makes the source and [diffs produced during the pull request](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read ✨!
+However, it makes the source and [diffs produced during the pull request](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read {{sparkles}}!
 
 ## SATRE Team Contributions
 
@@ -125,7 +126,7 @@ This work is taking on two main forms:
 
 (contributing_get_in_touch)=
 
-## Get in Touch
+## Get in touch
 
 To get in touch with the SATRE team, please email [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
@@ -155,7 +156,7 @@ Otherwise, you can end up with merge conflicts.
 Please check the open pull requests first to make sure there aren't any [open requests from the bot](https://github.com/sa-tre/satre-specification/pulls/app%2Fallcontributors) before adding another.
 
 What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
-(Don't feel bad, we have all done it! :see_no_evil:)
+(Don't feel bad, we have all done it! {{see_no_evil}})
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
 If you are unable to do this for any reason, please let us know by opening an issue, and SATRE  team members will be very happy to help!
 :::
