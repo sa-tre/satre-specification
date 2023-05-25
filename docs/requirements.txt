@@ -17,8 +17,6 @@ docutils==0.18.1
     #   myst-parser
     #   sphinx
     #   sphinx-rtd-theme
-emoji==2.4.0
-    # via -r requirements.in
 idna==3.4
     # via requests
 imagesize==1.4.1

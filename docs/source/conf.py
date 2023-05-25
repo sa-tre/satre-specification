@@ -1,5 +1,4 @@
 # Configuration file for the Sphinx documentation builder.
-import emoji
 
 # -- Project information
 
@@ -22,23 +21,7 @@ extensions = [
     "myst_parser",
 ]
 
-myst_enable_extensions = ["colon_fence", "substitution"]
-
-# Emoji substitutions: replace {{emoji_name}} => unicode
-emoji_codes = set(
-    [
-        emoji_code.replace(":", "")
-        for emoji_list in (
-            emoji.unicode_codes.get_emoji_unicode_dict("en").keys(),
-            emoji.unicode_codes.get_aliases_unicode_dict().keys(),
-        )
-        for emoji_code in emoji_list
-    ]
-)
-myst_substitutions = {
-    emoji_code: emoji.emojize(f":{emoji_code}:", language="alias")
-    for emoji_code in emoji_codes
-}
+myst_enable_extensions = ["colon_fence"]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
