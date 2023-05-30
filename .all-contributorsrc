@@ -89,9 +89,22 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "jemrobinson",
+      "name": "James Robinson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3502751?v=4",
+      "profile": "https://github.com/jemrobinson",
+      "contributions": [
+        "content",
+        "design",
+        "ideas",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
   "contributorsPerLine": 7,
-  "linkToUsage": false
+  "linkToUsage": false,
+  "commitType": "docs"
 }
