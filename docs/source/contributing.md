@@ -110,6 +110,25 @@ Having each sentence on a new line will make no difference to how the text is di
 A blank line is needed to start a new paragraph.
 However, it makes the source and [diffs produced during the pull request](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read ✨!
 
+### Linting and auto-formatting
+
+We take advantage of pre-commit and related tools to help maintain consistent formatting within a repo, which improves review efficiency, and readability.
+`pre-commit can be installed using pip:
+
+```sh
+pip install pre-commit
+```
+
+When you make some changes, you should run
+
+```sh
+pre-commit run -a
+```
+
+before committing any changes.
+See the [pre-commit](https://pre-commit.com/) documentation for more advanced usage, including automatically running it as part of a commit.
+
+
 ## SATRE Team Contributions
 
 SATRE team members are free to contribute to the repo in the same way as any contributor, following the process above.
