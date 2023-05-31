@@ -99,6 +99,8 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 ### Information security
 
+A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorized use of information, especially electronic data.
+
 #### Vulnerability management
 
 #### Security testing
