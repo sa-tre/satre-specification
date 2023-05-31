@@ -13,8 +13,8 @@ sphinx:
   configuration: docs/source/conf.py
 
 formats:
-   - epub
-   - pdf
+  - epub
+  - pdf
 
 python:
   install:

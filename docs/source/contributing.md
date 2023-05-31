@@ -128,7 +128,6 @@ pre-commit run -a
 before committing any changes.
 See the [pre-commit](https://pre-commit.com/) documentation for more advanced usage, including automatically running it as part of a commit.
 
-
 ## SATRE Team Contributions
 
 SATRE team members are free to contribute to the repo in the same way as any contributor, following the process above.
@@ -140,7 +139,7 @@ This work is taking on two main forms:
 
 1. Identifying what features the community feels are important for a TRE via the [features survey](https://dundee.onlinesurveys.ac.uk/satre-tre-operatorsbuilders-survey).
    We will synthesise responses from this survey to suggest features here.
-1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven),  [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
+1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven), [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
    The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
 (contributing_get_in_touch)=
@@ -177,5 +176,5 @@ Please check the open pull requests first to make sure there aren't any [open re
 What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
 (Don't feel bad, we have all done it! 🙈)
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
-If you are unable to do this for any reason, please let us know by opening an issue, and SATRE  team members will be very happy to help!
+If you are unable to do this for any reason, please let us know by opening an issue, and SATRE team members will be very happy to help!
 :::
