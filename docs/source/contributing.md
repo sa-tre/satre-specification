@@ -6,7 +6,7 @@
 
 _We're excited that you want to contribute_ 🚀
 
-[**Jump straight to contribution process**](#contributing-contribution-process)
+[**Jump straight to contribution process**](contributing-contribution-process)
 
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
@@ -15,7 +15,7 @@ We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
 As you start contributing don't forget that your ideas are more important than perfectly formatted contributions :heart:.
 
-If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](#contributing-get-in-touch).
+If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](contributing-get-in-touch).
 
 ## Code of Conduct
 
@@ -99,7 +99,7 @@ The SATRE team will only merge pull requests that have no outstanding objections
 
 ## Writing in Markdown
 
-The [Myst Parser](inv:myst-parser:std:doc#syntax/typography) documentation has a guide on the Markdown format used in the specification source files.
+The [Myst Parser](https://myst-parser.readthedocs.io/en/stable/syntax/typography.html) documentation has a guide on the Markdown format used in the specification source files.
 GitHub also has a helpful page on [getting started with writing and formatting on GitHub](https://docs.github.com/articles/getting-started-with-writing-and-formatting-on-github), which will be useful when writing Markdown for GitHub (for example in issue or pull request comments).
 
 You can think of Markdown as a few little symbols around your text that instruct how to render the text.
@@ -142,7 +142,7 @@ This work is taking on two main forms:
 1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven), [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
    The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
-(contributing_get_in_touch)=
+(contributing-get-in-touch)=
 
 ## Get in touch
 
