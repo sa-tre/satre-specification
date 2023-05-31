@@ -1,6 +1,8 @@
+(contributing)=
+
 # ✨ Contributing to the SATRE Specification
 
-🎉  **Welcome to the SATRE specification!** 🎉
+🎉 **Welcome to the SATRE specification!** 🎉
 
 _We're excited that you want to contribute_ 🚀
 
@@ -11,7 +13,7 @@ We hope that the information provided in this document will make it as easy as p
 
 We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
-As you start contributing don't forget that your ideas are more important than perfectly formatted contributions ❤️.
+As you start contributing don't forget that your ideas are more important than perfectly formatted contributions :heart:.
 
 If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](#contributing-get-in-touch).
 
@@ -26,7 +28,8 @@ Please familiarise yourself with our [CoC](https://github.com/sa-tre/satre-speci
 [Git](https://git-scm.com/) is a really useful tool for version control.
 [GitHub](https://github.com/) sits on top of Git and supports collaborative and distributed working.
 
-We know that it can be daunting to start using Git and GitHub if you haven't worked with them in the past. We are here to help you figure out any of the jargon or confusing instructions you encounter❤️!
+We know that it can be daunting to start using Git and GitHub if you haven't worked with them in the past.
+We are here to help you figure out any of the jargon or confusing instructions you encounter ❤️!
 
 In order to contribute via GitHub, you'll need to set up a free account and sign in.
 Here are some [instructions](https://docs.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
@@ -106,6 +109,24 @@ Having each sentence on a new line will make no difference to how the text is di
 A blank line is needed to start a new paragraph.
 However, it makes the source and [diffs produced during the pull request](https://docs.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read ✨!
 
+### Linting and auto-formatting
+
+We take advantage of pre-commit and related tools to help maintain consistent formatting within a repo, which improves review efficiency, and readability.
+`pre-commit can be installed using pip:
+
+```sh
+pip install pre-commit
+```
+
+When you make some changes, you should run
+
+```sh
+pre-commit run -a
+```
+
+before committing any changes.
+See the [pre-commit](https://pre-commit.com/) documentation for more advanced usage, including automatically running it as part of a commit.
+
 ## SATRE Team Contributions
 
 SATRE team members are free to contribute to the repo in the same way as any contributor, following the process above.
@@ -117,11 +138,12 @@ This work is taking on two main forms:
 
 1. Identifying what features the community feels are important for a TRE via the [features survey](https://dundee.onlinesurveys.ac.uk/satre-tre-operatorsbuilders-survey).
    We will synthesise responses from this survey to suggest features here.
-1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven),  [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
+1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven), [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
    The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
-(contributing-get-in-touch)=
-## Get in Touch
+(contributing_get_in_touch)=
+
+## Get in touch
 
 To get in touch with the SATRE team, please email [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
@@ -153,5 +175,5 @@ Please check the open pull requests first to make sure there aren't any [open re
 What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
 (Don't feel bad, we have all done it! 🙈)
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
-If you are unable to do this for any reason, please let us know by opening an issue, and SATRE  team members will be very happy to help!
+If you are unable to do this for any reason, please let us know by opening an issue, and SATRE team members will be very happy to help!
 :::
