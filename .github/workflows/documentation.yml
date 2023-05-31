@@ -52,4 +52,4 @@ jobs:
       - name: summarise linkcheck issues
         if: always()
         run: |
-          ../ci/summarise-linkcheck-output ./_build/linkcheck/output.json
+          ../ci/summarise-linkcheck-output ./build/linkcheck/output.json
