@@ -45,7 +45,7 @@ jobs:
           pip install -r requirements.txt
       - name: Sphinx build
         run: |
-          make html
+          make html SPHINXOPTS='-W --keep-going -n'
       - name: Sphinx link check
         run: |
           make linkcheck SPHINXOPTS='-W --keep-going'
