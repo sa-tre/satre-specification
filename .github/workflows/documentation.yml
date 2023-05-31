@@ -41,3 +41,7 @@ jobs:
       - name: Sphinx link check
         run: |
           make linkcheck SPHINXOPTS='-W --keep-going'
+      - name: summarise linkcheck issues
+        if: always()
+        run: |
+          ../ci/summarise-linkcheck-output ./_build/linkcheck/output.json
