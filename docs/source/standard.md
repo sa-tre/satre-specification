@@ -99,23 +99,25 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 ### Information security
 
-A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorized use of information, especially electronic data. This should include, measures taken to manage vulnerabilities of infrastructure (whether physical or virtual/cloud-based) and carry out compliance checks, measures to test the security of the TRE, common approaches to data encryption, and (where appropriate) physical security measyres to prevent unauthorised access to the TRE .
-
-For TRE software platforms of which multiple deployments can be made, a tier system for different levels of security controls should be included, whereby TRE deployments housing less sensitive data have more permissive controls and deployments housing more sensitive data have stricter controls.
+A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorized use of information, especially electronic data. This should include, measures taken to manage vulnerabilities of infrastructure (whether physical or virtual/cloud-based) and carry out compliance checks, measures to test the security of the TRE, common approaches to data encryption, common approaches to administrative control over data movement and (where appropriate) physical security measures to prevent unauthorised access to the TRE .
 
 #### Vulnerability management
 
 Vulnerability scanning of infrastructure and machine/resource configuration compliance checking.
 
+#### Security testing and tiering
 
-
-#### Security testing
+For TRE software platforms of which multiple deployments can be made, a tier system for different levels of security controls should be included, whereby TRE deployments housing less sensitive data have more permissive controls and deployments housing more sensitive data have stricter controls.
 
 #### Data encryption
 
+#### Admin control over data movement
+
+Ingress/egress
+
 #### Physical security
 
-#### Availability management
+<!-- #### Availability management -->
 <!-- JR: not sure what this means -->
 
 ## Roles
