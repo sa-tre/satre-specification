@@ -108,6 +108,7 @@ There might be good reasons why any particular TRE does not possess one or more 
 #### Physical security
 
 #### Availability management
+
 <!-- JR: not sure what this means -->
 
 ## Roles
@@ -146,5 +147,5 @@ This can also offer an explanation of how people from different roles interact/e
 
 ## Conclusion
 
-Benefits of adopting this standard for developing a TRE. 
+Benefits of adopting this standard for developing a TRE.
 Benefits of existing TRE efforts working to conform to this standard (users and admin roles as well as developers).

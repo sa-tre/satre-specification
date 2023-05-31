@@ -31,7 +31,6 @@ If your pull request will close any open issues add `Closes #<issue number>` her
 Also not any issues your pull request relates to, for example `Contributes to #<issue number>`.
 -->
 
-
 ### :raising_hand: Acknowledging contributors
 
 <!-- Please tick one of these boxes and list any contributors who should be recognised.-->
