@@ -71,6 +71,7 @@ The specification repository is self-contained and relates only to the specifica
 Any contributions to the wider SATRE project should be made through a different medium via the [SATRE GitHub organisation](https://github.com/sa-tre), or by contacting the SATRE team at [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
 (contributing-contribution-process)=
+
 ### Contribution Process
 
 Issues should be used to discuss ideas, potential changes and to ask questions.
