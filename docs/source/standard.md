@@ -55,7 +55,11 @@ The ability of the organisation to monitor compliance with internal and external
 
 The ability of the organisation to measure and control quality of processes, documentation and outputs.
 
-#### 1.3.1 Audit and reporting
+| Statement | Guidance |
+| --------- | -------- |
+|           |          |
+
+#### 1.4 Audit and reporting
 
 The ability of the organisation to adhere to stated processes and external standards.
 
@@ -63,7 +67,7 @@ The ability of the organisation to adhere to stated processes and external stand
 | --------- | -------- |
 |           |          |
 
-### 1.4 Risk management
+### 1.5 Risk management
 
 The ability of the organisation to measure, forecast and evaluate risks to information.
 
@@ -71,15 +75,15 @@ The ability of the organisation to measure, forecast and evaluate risks to infor
 | --------- | -------- |
 |           |          |
 
-### 1.5 Project management
+### 1.6 Project management
 
 The ability of the organisation to manage projects effectively.
 
-### 1.6 Researcher accreditation
+### 1.7 Researcher accreditation
 
 The ability of the organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
 
-#### 1.6.1 Training management
+#### 1.7.1 Training management
 
 The ability of the organisation to track and maintain adequate training levels.
 
@@ -87,7 +91,7 @@ The ability of the organisation to track and maintain adequate training levels.
 | --------- | -------- |
 |           |          |
 
-#### 1.6.2 Training delivery
+#### 1.7.2 Training delivery
 
 The ability of the organisation to deliver training.
 
@@ -199,6 +203,14 @@ The ability of the organisation to identify, maintain, and verify information on
 | --------- | -------- |
 |           |          |
 
+### 2.5 Availability management
+
+The ability of the organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
+
+| Statement | Guidance |
+| --------- | -------- |
+|           |          |
+
 (standard_capability_data_management)=
 
 ## 3. Data management
@@ -270,14 +282,6 @@ The ability of the organisation to deploy and manage encryption to protect infor
 ### 4.4 Physical security
 
 The ability of the organisation to manage and protect physical assets from unauthorised access, damage or destruction.
-
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
-
-### 4.5 Availability management
-
-The ability of the organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
 
 | Statement | Guidance |
 | --------- | -------- |
