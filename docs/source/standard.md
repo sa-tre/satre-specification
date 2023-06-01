@@ -25,9 +25,9 @@ In addition to these capabilities, any organisation running a TRE will need to p
 - legal requirements — particularly around data protection and contract management
 - relationship management — engagement with internal and external stakeholders as well as the wider public
 
-Finally, the will need to consider different {ref}`roles <standard_capability_roles>` with which individuals might interact with the TRE.
+Finally, the organisation will need to consider different {ref}`roles <standard_capability_roles>` with which individuals might interact with the TRE.
 
-There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but we think all TREs should aspire to meet them in the long-term.
+There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
 
 <!-- List of capabilities. Each of these hould be described in prose and accompanied by a short requirements table of "Statement" and "Guidance" for each requirement. -->
 
@@ -46,6 +46,8 @@ The ability of the organisation to monitor compliance with internal and external
 |           |          |
 
 ### 1.2 Policy regulation and management
+
+TODO: someone needs to write a sentence
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -103,7 +105,7 @@ The ability of the organisation to deliver training.
 
 ## 2. Computing technology
 
-What the organisation does to manage systems for storing, retrieving, and sending information.
+What the organisation does to manage systems for storing, retrieving, analysing and sending information.
 
 ### 2.1 End user computing
 
@@ -235,7 +237,7 @@ The ability of the organisation to ensure the right people  (identities) can acc
 
 ### 3.3 Output management
 
-The ability of the organisation to ensure outputs are published and shared including traditional publications and research data sets.
+The ability of the organisation to ensure outputs are safely published and shared.
 
 | Statement | Guidance |
 | --------- | -------- |
