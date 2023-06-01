@@ -111,6 +111,8 @@ Im addition, regular vulnerability scans of infrastructure should be conducted, 
 
 For TRE software platforms of which multiple deployments can be made, a tier system for different levels of security controls should be included, whereby TRE deployments housing less sensitive data have more permissive controls and deployments housing more sensitive data have stricter controls.
 
+For example, The Alan Turing Institute's "Data Safe Haven" software platform for TRE deployments has an associated tiering system, which can be used for both the classification of data used by a proposed research project and by extension determining the appropriate level (tier) of security controls. Setting the tier during the configuration step of a TRE deployment results in a TRE with controls specified by that tier to be built.
+
 #### Data encryption
 
 #### Admin control over data movement
