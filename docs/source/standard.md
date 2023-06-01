@@ -15,126 +15,193 @@ The SATRE standard is based around the idea of capabilities, some of which are r
 Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see {ref}`evaluation` for details).
 The capabilities are grouped into the following broad categories:
 
-- information governance
-- computing technology
-- data management
-- information security
+- {ref}`information governance <standard_capability_information_governance>`
+- {ref}`computing technology <standard_capability_computing_technology>`
+- {ref}`data management <standard_capability_data_management>`
+- {ref}`information security <standard_capability_information_security>`
 
-In addition to these capabilities, any organisation running a TRE will need to consider:
+In addition to these capabilities, any organisation running a TRE will need to possess various {ref}`supporting capabilities <standard_capability_supporting>`, particularly around:
 
 - legal requirements — particularly around data protection and contract management
 - relationship management — engagement with internal and external stakeholders as well as the wider public
 
-<!-- ## Required TRE features
-
-> Crowdsourced list of functionality from TRE developers survey that were considered the most important/ <u>essential components in order to define a software as a TRE</u>. Each of these should be described in prose and where appropriate examples of these features present in existing TRE implementations provided. Where features vary across existing TREs this should be highlighted. -->
-
-<!-- ### Feature A
-### Feature B
-## Optional TRE features
-
-Also crowdsourced from the survey, but this time all the features that were considered less important and/or are not needed in order to simply define something as a TRE (for example this might include something like HPC-connectability).
-
-### Feature X
-### Feature Y -->
-
-## TRE capabilities
+Finally, the will need to consider different {ref}`roles <standard_capability_roles>` with which individuals might interact with the TRE.
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but we think all TREs should aspire to meet them in the long-term.
 
-### Information governance
+<!-- List of capabilities. Each of these hould be described in prose and accompanied by a short requirements table of and "Statement" "Helper text" for each requirement. -->
 
-#### Compliance, monitoring and reporting
+(standard_capability_information_governance)=
 
-#### Policy regulation and management
+## 1. Information governance
 
-#### Quality management
+What the organisation does to ensure information risk is measured and managed to an acceptable level.
 
-- Internal audit and reporting
+### 1.1 Compliance, monitoring and reporting
 
-#### Risk management
+The ability of the organisation to monitor compliance with internal and external requirements, agreements, laws and standards.
 
-#### Project and study management
+### 1.2 Policy regulation and management
 
-#### Researcher accreditation
+### 1.3 Quality management
 
-- Training management
-- Training delivery
+The ability of the organisation to measure and control quality of processes, documentation and outputs.
 
-### Computing technology
+#### 1.3.1 Audit and reporting
 
-#### End user computing
+The ability of the organisation to adhere to stated processes and external standards.
 
-- User interface (eg. terminal, desktop, notebook, webapp etc.)
-- Software tools
+### 1.4 Risk management
 
-#### Compute beyond the desktop
+The ability of the organisation to measure, forecast and evaluate risks to information.
 
-- High performance computing
-- Accelerators (GPU, FPGA, ASIC, xPU)
-- Cluster computing (SLURM, Kubernetes etc.)
-- Databases (both SQL and noSQL)
+### 1.5 Project management
 
-#### Data analytics
+The ability of the organisation to manage projects effectively.
 
-#### Network management
+### 1.6 Researcher accreditation
 
-#### Application lifecycle management
+The ability of the organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
 
-#### Infrastructure lifecycle management
+#### 1.6.1 Training management
 
-- Capacity management
-- Deployment management
-- Configuration management
+The ability of the organisation to track and maintain adequate training levels.
 
-### Data management
+#### 1.6.2 Training delivery
 
-#### Data lifecycle management
+The ability of the organisation to deliver training.
 
-#### Identity and access management
+(standard_capability_computing_technology)=
 
-#### Management of outputs
+## 2. Computing technology
 
-#### Recording available datasets
+What the organisation does to manage systems for storing, retrieving, and sending information.
 
-### Information security
+### 2.1 End user computing
 
-#### Vulnerability management
+The ability of the organisation to provide and manage devices workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
 
-#### Security testing
+#### 2.1.1 User interface (eg. terminal, desktop, notebook, webapp etc.)
 
-#### Data encryption
+#### 2.1.2 Software tools
 
-#### Physical security
+#### 2.1.3 High performance computing
 
-#### Availability management
+#### 2.1.4  Accelerators (GPU, FPGA, ASIC, xPU)
 
-<!-- JR: not sure what this means -->
+#### 2.1.5  Cluster computing (SLURM, Kubernetes etc.)
 
-## Roles
+#### 2.1.6  Databases (both SQL and noSQL)
+
+### 2.2 Infrastructure analytics
+
+The ability of the organisation to process and analyse data about the usage of the TRE.
+
+### 2.3 Network management
+
+The ability of the organisation to administer and secure network infrastructure using applications, tools and processes.
+
+### 2.4 Infrastructure lifecycle management
+
+The ability of the organisation to manage necessary physical or virtual infrastructure.
+
+#### 2.4.1 Deployment management
+
+The ability of the organisation to instantiate, deploy, change or remove deployed infrastructure.
+
+#### 2.4.2 Capacity management
+
+The ability of the organisation to ensure the right amount of resources are available at the right time to provide a service.
+
+#### 2.4.3 Configuration management
+
+The ability of the organisation to identify, maintain, and verify information on IT assets and configurations in the organisation.
+
+(standard_capability_data_management)=
+
+## 3. Data management
+
+The ability of the organisation to manage data assets and ensure information remains secure.
+
+### 3.1 Data lifecycle management
+
+The ability of the organisation to manage how and where data is stored, how it moves, changes and is removed.
+
+### 3.2 Identity and access management
+
+The ability of the organisation to ensure the right people  (identities) can access the tools and data they need and no more.
+
+### 3.3 Output management
+
+The ability of the organisation to ensure outputs are published and shared including traditional publications and research data sets.
+
+### 3.4 Information discovery
+
+The ability of the organisation to support users who want to browse the data available within an environment at various levels of abstraction.
+
+(standard_capability_information_security)=
+
+## 4. Information security
+
+The ability of the organisation to protect against the unauthorized use of information, especially electronic data and the measures taken to achieve this.
+
+### 4.1 Vulnerability management
+
+The ability of the organisation to identify, assess, report on, manage and remediate cyber vulnerabilities across endpoints, workloads, and systems.
+
+### 4.2 Security testing
+
+The ability of the organisation to gain assurance in the security of an IT system by testing or attempting to breach some or all of that system's security.
+
+### 4.3 Data encryption
+
+The ability of the organisation to deploy and manage encryption to protect information assets.
+
+### 4.4 Physical security
+
+The ability of the organisation to manage and protect physical assets from unauthorised access, damage or destruction.
+
+### 4.5 Availability management
+
+The ability of the organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
+
+(standard_capability_supporting)=
+## 5. Supporting
+
+### 5.1 Legal
+
+The ability of the organisation to access suitable and timely legal advice.
+
+### 5.2 Relationship management
+
+The ability of the organisation to maintain engagement with its customers, stakeholders and other interested parties.
+
+(standard_capability_roles)=
+
+## 6. Roles
 
 A TRE conforming to the SATRE standard should provide a broadly similar experience for stakeholders operating in each of these defined roles.
 There is not necessarily a one-to-one mapping between roles and people.
 One person can have multiple roles.
 
-### TRE users
+### 6.1 TRE users
 
 The researchers working on projects that involve logging into a TRE to access data.
 The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE standard.
 
-### TRE administration roles
+### 6.2 TRE administration roles
 
 The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE standard.
 The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included.
 
 These roles cover managing TRE computing infrastructure, but also administering the TRE itself (e.g. managing users and projects).
 
-### TRE developer roles
+### 6.3 TRE developer roles
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance.
 The document will explain recommended practices suitable for developing a software of this complexity and reference learnings from existing TRE developers.
 
-### TRE governance roles
+### 6.4 TRE governance roles
 
 Roles that uphold the governance of TREs.
 Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities.
@@ -142,10 +209,14 @@ Typical roles might include data custodians, ethicists, an independent board or 
 
 ## Architecture
 
+<!--
 Includes diagrams of how the TRE features connect together, but remains a high level description that doesn't specify which exact technologies a TRE developer should use.
 This can also offer an explanation of how people from different roles interact/experience these features.
+-->
 
 ## Conclusion
 
+<!--
 Benefits of adopting this standard for developing a TRE.
 Benefits of existing TRE efforts working to conform to this standard (users and admin roles as well as developers).
+-->
