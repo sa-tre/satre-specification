@@ -101,9 +101,11 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorized use of information, especially electronic data. This should include, measures taken to manage vulnerabilities of infrastructure (whether physical or virtual/cloud-based) and carry out compliance checks, measures to test the security of the TRE, common approaches to data encryption, common approaches to administrative control over data movement and (where appropriate) physical security measures to prevent unauthorised access to the TRE .
 
-#### Vulnerability management
+#### Compliance checking and vulnerability management
 
-Vulnerability scanning of infrastructure and machine/resource configuration compliance checking.
+It's essential that any TRE undergoes compliance checking of machine and resource configurations to ensure adherence to security standards and best practices, in advance of any sensitive data being uploaded to the environment. Adhering to the highest level of security standards suggested by the IT department of the TRE operators organisation will reduce the risk of security breaches and data leakage. 
+
+Im addition, regular vulnerability scans of infrastructure should be conducted, so that TRE operators can identify and address weaknesses that may have been introduced during the TRE's operational lifetine. Ensuring that scans are done on a regular basis can enable proactive mitigation measures to be implemented promptly. One way this can be achived is by ensuring that all machines (whether physical or virtual/cloud-based) are set to check for operating system updates on a regular basis, and install any security patches pushed by the developers of those operating systems.
 
 #### Security testing and tiering
 
