@@ -114,22 +114,13 @@ The ability of the organisation to identify, assess, report on, manage and remed
 
 The ability of the organisation to gain assurance in the security of an IT system by testing or attempting to breach some or all of that system's security.
 
-For TRE software platforms of which multiple deployments can be made, a tier system for different levels of security controls should be included, whereby TRE deployments housing less sensitive data have more permissive controls and deployments housing more sensitive data have stricter controls.
-
-For example, The Alan Turing Institute's "Data Safe Haven" software platform for TRE deployments has an associated tiering system, which can be used for both the classification of data used by a proposed research project and by extension determining the appropriate level (tier) of security controls. Setting the tier during the configuration step of a TRE deployment results in a TRE with controls specified by that tier to be built.
-
 ### 4.3 Encryption
 
 The ability of the organisation to deploy and manage encryption to protect information assets.
 
-### 4.4 Admin control over data movement
+### 4.4 Physical security
 
-The ability of the organisation's TRE administrators to manage and protect data from unauthorised access, via cybersecurity measures and (where appropriate) physical restrictions.
-
-Inc.
-
-- Physical security
-- Ingress/egress
+The ability of the organisation to manage and protect physical assets from unauthorised access, damage or destruction.
 
 ## Roles
 
