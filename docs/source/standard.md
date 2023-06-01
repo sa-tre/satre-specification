@@ -110,22 +110,20 @@ The ability of the organisation to identify, assess, report on, manage and remed
 | TRE undergoes compliance checking of machine and resource configurations to ensure adherence to security standards and best practices | This should be done in advance of any sensitive data being uploaded to the environment. Adhering to the highest level of security standards suggested by the IT department of the TRE operators organisation will reduce the risk of security breaches and data leakage.  |
 | Regular vulnerability scans of infrastructure should be conducted, so that TRE operators can identify and address weaknesses that may have been introduced during the TRE's operational lifetime | Ensuring that scans are done on a regular basis can enable proactive mitigation measures to be implemented promptly. One way this can be achived is by ensuring that all machines (whether physical or virtual/cloud-based) are set to check for operating system updates on a regular basis, and install any security patches pushed by the developers of those operating systems.
 
-#### Security testing and tiering
+### 4.2 Security testing and tiering
 
 For TRE software platforms of which multiple deployments can be made, a tier system for different levels of security controls should be included, whereby TRE deployments housing less sensitive data have more permissive controls and deployments housing more sensitive data have stricter controls.
 
 For example, The Alan Turing Institute's "Data Safe Haven" software platform for TRE deployments has an associated tiering system, which can be used for both the classification of data used by a proposed research project and by extension determining the appropriate level (tier) of security controls. Setting the tier during the configuration step of a TRE deployment results in a TRE with controls specified by that tier to be built.
 
-#### Data encryption
+### 4.3 Data encryption
 
-#### Admin control over data movement
+### 4.4 Admin control over data movement
 
-Ingress/egress
+Inc.
 
-#### Physical security
-
-<!-- #### Availability management -->
-<!-- JR: not sure what this means -->
+- Physical security
+- Ingress/egress
 
 ## Roles
 
