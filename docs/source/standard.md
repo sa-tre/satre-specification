@@ -128,7 +128,13 @@ The ability of the organisation to deploy and manage encryption to protect infor
 
 ### 4.4 Physical security
 
-The ability of the organisation to manage and protect physical assets from unauthorised access, damage or destruction.
+The ability of the organisation to manage and protect physical assets from unauthorised access, damage or destruction. Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
+
+| Statement | Guidance |
+| --------- | -------- |
+| Protection against data theft via physical means | Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
+| Physical access controls | Physical controls on access to a TRE could include surveillance systems, restricting access to locked rooms that limit entry to authorized personnel only, visitor management systems and employee training.
+| Compliance with regulatory requirements | Many regulatory frameworks, such as GDPR, emphasize the need for physical security controls to protect sensitive data. Compliance with these regulations often requires organizations to implement specific physical security measures to safeguard sensitive data properly.
 
 ## Roles
 
