@@ -99,7 +99,7 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 ## 4. Information security
 
-A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorized use of information, especially electronic data. This should include, measures taken to manage vulnerabilities of infrastructure (whether physical or virtual/cloud-based) and carry out compliance checks, measures to test the security of the TRE, common approaches to data encryption, common approaches to administrative control over data movement and (where appropriate) physical security measures to prevent unauthorised access to the TRE .
+A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorized use of information, especially electronic data. These measures include vulnerability management of TRE infrastructure (whether physical or virtual/cloud-based), carrying out compliance checks and security tests of the TRE, common approaches to data encryption, and (where appropriate) physical security measures to prevent unauthorised access to the TRE .
 
 ### 4.1 Vulnerability management
 
