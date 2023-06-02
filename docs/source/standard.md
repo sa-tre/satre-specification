@@ -133,7 +133,7 @@ programming languages, IDEs, desktop applications etc.
 | --------- | -------- |
 |           |          |
 
-#### 2.1.4  Accelerators
+#### 2.1.4 Accelerators
 
 GPU, FPGA, ASIC, xPU
 
@@ -141,7 +141,7 @@ GPU, FPGA, ASIC, xPU
 | --------- | -------- |
 |           |          |
 
-#### 2.1.5  Cluster computing
+#### 2.1.5 Cluster computing
 
 SLURM, Kubernetes etc.
 
@@ -149,7 +149,7 @@ SLURM, Kubernetes etc.
 | --------- | -------- |
 |           |          |
 
-#### 2.1.6  Databases
+#### 2.1.6 Databases
 
 SQL, noSQL, etc.
 
@@ -229,7 +229,7 @@ The ability of the organisation to manage how and where data is stored, how it m
 
 ### 3.2 Identity and access management
 
-The ability of the organisation to ensure the right people  (identities) can access the tools and data they need and no more.
+The ability of the organisation to ensure the right people (identities) can access the tools and data they need and no more.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -349,6 +349,7 @@ These roles cover managing TRE computing infrastructure, but also administering 
 ### 6.3 TRE developer roles
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance.
+
 <!-- The document will explain recommended practices suitable for developing a software of this complexity and reference learnings from existing TRE developers. -->
 
 | Statement | Guidance |
