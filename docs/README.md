@@ -49,7 +49,7 @@ $ firefox build/html/index.html
 
 To improve the reproducibly of build at each commit, [`requirements.txt`](./requirements.txt) contains a complete list of dependencies and specific versions.
 
-The projects _direct_ dependencies are listed in [`requirements.in`](./requirements.in). 
+The projects _direct_ dependencies are listed in [`requirements.in`](./requirements.in).
 The full list is then generated using [`pip-compile`](https://pip-tools.readthedocs.io/en/latest/#requirements-from-requirements-in)
 
 ```console
