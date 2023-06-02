@@ -122,11 +122,10 @@ The ability of the organisation to deploy and manage encryption to protect infor
 
 | Statement | Guidance |
 | --------- | -------- |
-| Use encryption algorithms for data | Encryption can be seen as an extra layer of protection for sensitive data already protected by security controls of a TRE. For particularly sensitive data, the most up to date industry standards for encryption should be used.
-| Secure key management | TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls for key management systems. For example, you could use a cloud-based solution such as Azure Key Vault.
-| Encrypt data at rest | Encrypt sensitive data when it is stored on storage devices such as databases, file systems, or cloud storage. This prevents unauthorised access to the data even if the storage media is compromised.
-| Encrypt data in transit | TRE architectures that are built such that data gets transmitted over networks (between machines), should ensure data is encrypted in transit. This safeguards the data from interception or tampering during transmission.
-| Keep encryption software updated | Ensure the latest security patches and updates are applied to enctyption being used by the TRE. This helps address any known vulnerabilities or weaknesses in the encryption implementation.
+| TREs can encrypt data as an extra layer of protection | Encryption can be seen as an extra layer of protection for sensitive data already protected by the security controls of a TRE. This prevents unauthorised access to the data even if the storage media is compromised. Approved researchers can be granted access to the mechanism to decrpyt the data before using it in their research.
+| TREs should encrypt data when in transit | TRE architectures that are built such that data gets transmitted over networks (between machines), should ensure data is encrypted in transit. This safeguards the data from interception or tampering during transmission.
+| Encryption software should be updated | The latest security patches and updates should be applied to any enctyption software being used by the TRE. This helps address any known vulnerabilities or weaknesses in the encryption implementation.
+| TREs should use secure key management | TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (e.g. Single Sign On) for key management systems. For example, you could use a cloud-based solution such as Azure Key Vault to manage all encryption keys and administrator keys to TRE infrastructure such as (virtual) machines and databases.
 
 ### 4.4 Physical security
 
