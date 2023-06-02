@@ -283,7 +283,7 @@ The ability of the organisation to deploy and manage encryption to protect infor
 | Encryption software should be updated | The latest security patches and updates should be applied to any enctyption software being used by the TRE. This helps address any known vulnerabilities or weaknesses in the encryption implementation.
 | TREs should use secure key management | TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (e.g. Single Sign On) for key management systems. For example, you could use a cloud-based solution such as Azure Key Vault to manage all encryption keys and administrator keys to TRE infrastructure such as (virtual) machines and databases.
 
-### 4.4 Physical security
+### 4.3 Physical security
 
 The ability of the organisation to manage and protect physical assets from unauthorised access, damage or destruction. Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 
