@@ -116,7 +116,15 @@ The ability of the organisation to gain assurance in the security of an IT syste
 
 ### 4.3 Encryption
 
-The ability of the organisation to deploy and manage encryption to protect information assets.
+The ability of the organisation to deploy and manage encryption to protect information assets, including data for TRE research projects.
+
+| Statement | Guidance |
+| --------- | -------- |
+| Use encryption algorithms for data | Encryption can be seen as an extra layer of protection for sensitive data already protected by security controls of a TRE. For particularly sensitive data, the most up to date industry standards for encryption should be used.
+| Secure key management | TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls for key management systems. For example, you could use a cloud-based solution such as Azure Key Vault.
+| Encrypt data at rest | Encrypt sensitive data when it is stored on storage devices such as databases, file systems, or cloud storage. This prevents unauthorized access to the data even if the storage media is compromised.
+| Encrypt data in transit | TRE architectures that are built such that data gets transmitted over networks (between machines), should ensure data is encrypted in transit. This safeguards the data from interception or tampering during transmission.
+| Keep encryption software updated | Ensure the latest security patches and updates are applied to enctyption being used by the TRE. This helps address any known vulnerabilities or weaknesses in the encryption implementation.
 
 ### 4.4 Physical security
 
