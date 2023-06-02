@@ -133,9 +133,8 @@ The ability of the organisation to manage and protect physical assets from unaut
 
 | Statement | Guidance |
 | --------- | -------- |
-| Protection against data theft via physical means | Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
-| Physical access controls | Physical controls on access to a TRE could include surveillance systems, restricting access to locked rooms that limit entry to authorized personnel only, visitor management systems and employee training.
-| Compliance with regulatory requirements | Many regulatory frameworks, such as GDPR, emphasize the need for physical security controls to protect sensitive data. Compliance with these regulations often requires organisations to implement specific physical security measures to safeguard sensitive data properly.
+| TREs could offer physical protection measures against data leakage or theft via physical means | Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen. Physical controls on access to a TRE could include surveillance systems, restricting access to locked rooms that limit entry to authorised personnel only, visitor management systems and employee training.
+| TREs hosting particularly sensitive data may need to comply with specific regulatory requirements | Regulatory frameworks such as GDPR emphasise the need for physical security controls to protect sensitive data. Compliance with these regulations could require organisations to implement specific physical security measures to safeguard their TRE from unauthorised access.
 
 ## Roles
 
