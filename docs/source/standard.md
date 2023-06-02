@@ -109,10 +109,20 @@ The ability of the organisation to identify, assess, report on, manage and remed
 | --------- | -------- |
 | TRE undergoes compliance checking of machine and resource configurations to ensure adherence to security standards and best practices | This should be done in advance of any sensitive data being uploaded to the environment. Adhering to the highest level of security standards suggested by the IT department of the TRE operators organisation will reduce the risk of security breaches and data leakage.  |
 | Regular vulnerability scans of infrastructure should be conducted, so that TRE operators can identify and address weaknesses that may have been introduced during the TRE's operational lifetime | Ensuring that scans are done on a regular basis can enable proactive mitigation measures to be implemented promptly. One way this can be achived is by ensuring that all machines (whether physical or virtual/cloud-based) are set to check for operating system updates on a regular basis, and install any security patches pushed by the developers of those operating systems.
+| Compliance requirements | Many industry regulations and standards require organizations to perform security testing to ensure compliance. By conducting these tests, organizations can demonstrate due diligence and adherence to regulatory requirements, thus avoiding penalties or other compliance-related issues.
 
 ### 4.2 Security testing
 
 The ability of the organisation to gain assurance in the security of an IT system by testing or attempting to breach some or all of that system's security.
+
+| Statement | Guidance |
+| --------- | -------- |
+| Penetration tests should be carried out on TREs | By intentionally testing or attempting to breach the system's security, organizations can proactively discover and address potential vulnerabilities before they are exploited maliciously.|
+| Security risk mitigation | Security tests can evaluate the effectiveness of a TREs security controls in preventing data breaches, unauthorized access, or other security incidents that could result in financial loss, reputational damage, or legal consequences. |
+| Security testing continuous improvents | Security testing will reveal bugs and discrepancies in the TRE architecture which can be addressed in advance of sensitive data being uploaded. Regular testing will enable organisations to refine their security measures and incident response capabilities to adapt to new and emerging threats. |
+| Incident response preparedness | By simulating potential security breaches or incidents, organisations running TREs can assess their incident response procedures and ensure a swift and effective response when a real incident occurs.
+| Gain stakeholder trust | Knowlege that regular security testing occurs will help to ensure stakeholders, including researchers and data providers, can put their trust in Trusted Research Environments.
+
 
 ### 4.3 Encryption
 
