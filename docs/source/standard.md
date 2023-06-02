@@ -107,9 +107,9 @@ The ability of the organisation to identify, assess, report on, manage and remed
 
 | Statement | Guidance |
 | --------- | -------- |
-| TRE undergoes compliance checking of machine and resource configurations to ensure adherence to security standards and best practices | This should be done in advance of any sensitive data being uploaded to the environment. Adhering to the highest level of security standards suggested by the IT department of the TRE operators organisation will reduce the risk of security breaches and data leakage.  |
 | Regular vulnerability scans of infrastructure should be conducted, so that TRE operators can identify and address weaknesses that may have been introduced during the TRE's operational lifetime | Ensuring that scans are done on a regular basis can enable proactive mitigation measures to be implemented promptly. One way this can be achived is by ensuring that all machines (whether physical or virtual/cloud-based) are set to check for operating system updates on a regular basis, and install any security patches pushed by the developers of those operating systems.
-| Compliance requirements | Many industry regulations and standards require organizations to perform security testing to ensure compliance. By conducting these tests, organizations can demonstrate due diligence and adherence to regulatory requirements, thus avoiding penalties or other compliance-related issues.
+| TREs should undergo compliance checking of machine and resource configurations to ensure adherence to security standards and best practices | Adhering to the highest level of security standards suggested by the IT department of the TRE operators organisation will reduce the risk of security breaches and data leakage. This should be done in advance of any sensitive data being uploaded to the environment. |
+| TREs should undergo specific compliance checks required by law | Many industry regulations and standards require organisations to perform security testing to ensure compliance, for example GDPR. By conducting these tests, organisations can demonstrate due diligence avoid.
 
 ### 4.2 Security testing
 
@@ -117,7 +117,7 @@ The ability of the organisation to gain assurance in the security of an IT syste
 
 | Statement | Guidance |
 | --------- | -------- |
-| Penetration tests should be carried out on TREs | By intentionally testing or attempting to breach the system's security, organizations can proactively discover and address potential vulnerabilities before they are exploited maliciously.|
+| Penetration tests should be carried out on TREs | By intentionally testing or attempting to breach the system's security, organisations can proactively discover and address potential vulnerabilities before they are exploited maliciously.|
 | Security risk mitigation | Security tests can evaluate the effectiveness of a TREs security controls in preventing data breaches, unauthorized access, or other security incidents that could result in financial loss, reputational damage, or legal consequences. |
 | Security testing continuous improvents | Security testing will reveal bugs and discrepancies in the TRE architecture which can be addressed in advance of sensitive data being uploaded. Regular testing will enable organisations to refine their security measures and incident response capabilities to adapt to new and emerging threats. |
 | Incident response preparedness | By simulating potential security breaches or incidents, organisations running TREs can assess their incident response procedures and ensure a swift and effective response when a real incident occurs.
@@ -144,7 +144,7 @@ The ability of the organisation to manage and protect physical assets from unaut
 | --------- | -------- |
 | Protection against data theft via physical means | Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
 | Physical access controls | Physical controls on access to a TRE could include surveillance systems, restricting access to locked rooms that limit entry to authorized personnel only, visitor management systems and employee training.
-| Compliance with regulatory requirements | Many regulatory frameworks, such as GDPR, emphasize the need for physical security controls to protect sensitive data. Compliance with these regulations often requires organizations to implement specific physical security measures to safeguard sensitive data properly.
+| Compliance with regulatory requirements | Many regulatory frameworks, such as GDPR, emphasize the need for physical security controls to protect sensitive data. Compliance with these regulations often requires organisations to implement specific physical security measures to safeguard sensitive data properly.
 
 ## Roles
 
