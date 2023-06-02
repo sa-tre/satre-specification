@@ -110,7 +110,7 @@ The ability of the organisation to identify, assess, report on, manage and remed
 | TRE undergoes compliance checking of machine and resource configurations to ensure adherence to security standards and best practices | This should be done in advance of any sensitive data being uploaded to the environment. Adhering to the highest level of security standards suggested by the IT department of the TRE operators organisation will reduce the risk of security breaches and data leakage.  |
 | Regular vulnerability scans of infrastructure should be conducted, so that TRE operators can identify and address weaknesses that may have been introduced during the TRE's operational lifetime | Ensuring that scans are done on a regular basis can enable proactive mitigation measures to be implemented promptly. One way this can be achived is by ensuring that all machines (whether physical or virtual/cloud-based) are set to check for operating system updates on a regular basis, and install any security patches pushed by the developers of those operating systems.
 
-### 4.2 Security testing and tiering
+### 4.2 Security testing
 
 The ability of the organisation to gain assurance in the security of an IT system by testing or attempting to breach some or all of that system's security.
 
