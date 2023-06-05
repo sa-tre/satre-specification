@@ -20,12 +20,12 @@ The capabilities are grouped into the following broad categories:
 - {ref}`data management <standard_capability_data_management>`
 - {ref}`information security <standard_capability_information_security>`
 
-In addition to these capabilities, any organisation running a TRE will need to possess various {ref}`supporting capabilities <standard_capability_supporting>`, particularly around:
+In addition to these capabilities, any organisation running a TRE (TRE organisation) will need to possess various {ref}`supporting capabilities <standard_capability_supporting>`, particularly around:
 
 - legal requirements — particularly around data protection and contract management
 - relationship management — engagement with internal and external stakeholders as well as the wider public
 
-Finally, the organisation will need to consider different {ref}`roles <standard_capability_roles>` with which individuals might interact with the TRE.
+Finally, the TRE organisation will need to consider different {ref}`roles <standard_capability_roles>` with which individuals might interact with the TRE.
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
 
@@ -35,11 +35,11 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 ## 1. Information governance
 
-What the organisation does to ensure information risk is measured and managed to an acceptable level.
+What the TRE organisation does to ensure information risk is measured and managed to an acceptable level.
 
 ### 1.1 Compliance, monitoring and reporting
 
-The ability of the organisation to monitor compliance with internal and external requirements, agreements, laws and standards.
+The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -55,7 +55,7 @@ TODO: someone needs to write a sentence
 
 ### 1.3 Quality management
 
-The ability of the organisation to measure and control quality of processes, documentation and outputs.
+The ability of the TRE organisation to measure and control quality of processes, documentation and outputs.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -63,7 +63,7 @@ The ability of the organisation to measure and control quality of processes, doc
 
 #### 1.4 Audit and reporting
 
-The ability of the organisation to adhere to stated processes and external standards.
+The ability of the TRE organisation to adhere to stated processes and external standards.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -71,7 +71,7 @@ The ability of the organisation to adhere to stated processes and external stand
 
 ### 1.5 Risk management
 
-The ability of the organisation to measure, forecast and evaluate risks to information.
+The ability of the TRE organisation to measure, forecast and evaluate risks to information.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -79,15 +79,15 @@ The ability of the organisation to measure, forecast and evaluate risks to infor
 
 ### 1.6 Project management
 
-The ability of the organisation to manage projects effectively.
+The ability of the TRE organisation to manage projects effectively.
 
 ### 1.7 Researcher accreditation
 
-The ability of the organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
+The ability of the TRE organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
 
 #### 1.7.1 Training management
 
-The ability of the organisation to track and maintain adequate training levels.
+The ability of the TRE organisation to track and maintain adequate training levels.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -95,7 +95,7 @@ The ability of the organisation to track and maintain adequate training levels.
 
 #### 1.7.2 Training delivery
 
-The ability of the organisation to deliver training.
+The ability of the TRE organisation to deliver training.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -105,11 +105,11 @@ The ability of the organisation to deliver training.
 
 ## 2. Computing technology
 
-What the organisation does to manage systems for storing, retrieving, analysing and sending information.
+What the TRE organisation does to manage systems for storing, retrieving, analysing and sending information.
 
 ### 2.1 End user computing
 
-The ability of the organisation to provide and manage devices workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
+The ability of the TRE organisation to provide and manage devices workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
 
 #### 2.1.1 User interface
 
@@ -159,7 +159,7 @@ SQL, noSQL, etc.
 
 ### 2.2 Infrastructure analytics
 
-The ability of the organisation to process and analyse data about the usage of the TRE.
+The ability of the TRE organisation to process and analyse data about the usage of the TRE.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -167,7 +167,7 @@ The ability of the organisation to process and analyse data about the usage of t
 
 ### 2.3 Network management
 
-The ability of the organisation to administer and secure network infrastructure using applications, tools and processes.
+The ability of the TRE organisation to administer and secure network infrastructure using applications, tools and processes.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -175,7 +175,7 @@ The ability of the organisation to administer and secure network infrastructure 
 
 ### 2.4 Infrastructure lifecycle management
 
-The ability of the organisation to manage necessary physical or virtual infrastructure.
+The ability of the TRE organisation to manage necessary physical or virtual infrastructure.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -183,7 +183,7 @@ The ability of the organisation to manage necessary physical or virtual infrastr
 
 #### 2.4.1 Deployment management
 
-The ability of the organisation to instantiate, deploy, change or remove deployed infrastructure.
+The ability of the TRE organisation to instantiate, deploy, change or remove deployed infrastructure.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -191,7 +191,7 @@ The ability of the organisation to instantiate, deploy, change or remove deploye
 
 #### 2.4.2 Capacity management
 
-The ability of the organisation to ensure the right amount of resources are available at the right time to provide a service.
+The ability of the TRE organisation to ensure the right amount of resources are available at the right time to provide a service.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -199,7 +199,7 @@ The ability of the organisation to ensure the right amount of resources are avai
 
 #### 2.4.3 Configuration management
 
-The ability of the organisation to identify, maintain, and verify information on IT assets and configurations in the organisation.
+The ability of the TRE organisation to identify, maintain, and verify information on IT assets and configurations in the TRE organisation.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -207,7 +207,7 @@ The ability of the organisation to identify, maintain, and verify information on
 
 ### 2.5 Availability management
 
-The ability of the organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
+The ability of the TRE organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -217,11 +217,11 @@ The ability of the organisation to ensure all IT infrastructure, processes, tool
 
 ## 3. Data management
 
-The ability of the organisation to manage data assets and ensure information remains secure.
+The ability of the TRE organisation to manage data assets and ensure information remains secure.
 
 ### 3.1 Data lifecycle management
 
-The ability of the organisation to manage how and where data is stored, how it moves, changes and is removed.
+The ability of the TRE organisation to manage how and where data is stored, how it moves, changes and is removed.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -229,7 +229,7 @@ The ability of the organisation to manage how and where data is stored, how it m
 
 ### 3.2 Identity and access management
 
-The ability of the organisation to ensure the right people (identities) can access the tools and data they need and no more.
+The ability of the TRE organisation to ensure the right people (identities) can access the tools and data they need and no more.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -237,7 +237,7 @@ The ability of the organisation to ensure the right people (identities) can acce
 
 ### 3.3 Output management
 
-The ability of the organisation to ensure outputs are safely published and shared.
+The ability of the TRE organisation to ensure outputs are safely published and shared.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -245,7 +245,7 @@ The ability of the organisation to ensure outputs are safely published and share
 
 ### 3.4 Information discovery
 
-The ability of the organisation to support users who want to browse the data available within an environment at various levels of abstraction.
+The ability of the TRE organisation to support users who want to browse the data available within an environment at various levels of abstraction.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -259,7 +259,7 @@ A TRE conforming to the SATRE standard should enact broadly similar measures to 
 
 ### 4.1 Vulnerability management and security testing
 
-Vulnerability management describes the ability of the organisation operating a TRE to identify, assess, report on, manage and remediate cyber vulnerabilities across endpoints, workloads, and systems. Security testing enables the organisation to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
+Vulnerability management describes the ability of the TRE organisation operating a TRE to identify, assess, report on, manage and remediate cyber vulnerabilities across endpoints, workloads, and systems. Security testing enables the TRE organisation to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
 
 | Statement                                                                                                                                   | Guidance                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -273,7 +273,7 @@ Vulnerability management describes the ability of the organisation operating a T
 
 ### 4.2 Encryption
 
-The ability of the organisation to deploy and manage encryption to protect information assets, including data for TRE research projects.
+The ability of the TRE organisation to deploy and manage encryption to protect information assets, including data for TRE research projects.
 
 | Statement                                             | Guidance                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -284,7 +284,7 @@ The ability of the organisation to deploy and manage encryption to protect infor
 
 ### 4.3 Physical security
 
-The ability of the organisation to manage and protect physical assets from unauthorised access, damage or destruction. Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
+The ability of the TRE organisation to manage and protect physical assets from unauthorised access, damage or destruction. Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 
 | Statement                                                                                         | Guidance                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -297,7 +297,7 @@ The ability of the organisation to manage and protect physical assets from unaut
 
 ### 5.1 Legal
 
-The ability of the organisation to access suitable and timely legal advice.
+The ability of the TRE organisation to access suitable and timely legal advice.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -305,7 +305,7 @@ The ability of the organisation to access suitable and timely legal advice.
 
 ### 5.2 Relationship management
 
-The ability of the organisation to maintain engagement with its customers, stakeholders and other interested parties.
+The ability of the TRE organisation to maintain engagement with its customers, stakeholders and other interested parties.
 
 | Statement | Guidance |
 | --------- | -------- |
@@ -313,7 +313,7 @@ The ability of the organisation to maintain engagement with its customers, stake
 
 ### 5.3 Other
 
-The ability of the organisation to access other supporting capabilities such as financial or business continuity.
+The ability of the TRE organisation to access other supporting capabilities such as financial or business continuity.
 
 | Statement | Guidance |
 | --------- | -------- |
