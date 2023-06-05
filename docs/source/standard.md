@@ -223,9 +223,40 @@ The ability of the organisation to manage data assets and ensure information rem
 
 The ability of the organisation to manage how and where data is stored, how it moves, changes and is removed.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-data-lifecycle-management
+
+* - Statement
+  - Guidance
+* - A TRE must have a data ingress process which enforces information governance rules/processess.
+  - The data ingress process needs to ensure that information governance is correctly followed.
+    in particular, it should require that an ingress request has been approved by all required par ties.
+* - A TRE must have a data egress process which enforces information governance rules/processess.
+  - The data egress process needs to ensure that information governance is correctly followed.
+    in particular, it should require that an egress request has been approved by all required par ties.
+* - A TRE could require independent approval for data ingress and egress events.
+  - A person indepdent to a project, for example a TRE admin or dedicated referee, could check ingress and egress requests to ensure information governance is correctly followed in the absence of an automated process.
+* - A TRE must keep a record of what data it holds.
+  - Good records are important for ensuring compliance with legislation, understanding risk and aiding good data hygiene.
+    The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the data it was recieved, when it is expected to no longer be needed.
+* - A TRE must have a policy on data deletion.
+  - There should be a clear, published policy on when data will be deleted beyond at the conclusion of a project.
+    This may allow time for data owners to consider outputs they may want to extract from the TRE.
+    Any sensitive data, including all backups, should be deleted when they are no longer needed.
+    Having clear policy will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
+* - A TRE could keep backups of data and research environments
+  - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
+    TRE developers may want to consider how different elements, for example sensitive input data or users workspaces, may be backed up or if they should be.
+* - A TRE should log how input data is modified.
+  - If the input data is mutable a TRE should keep records of its modification.
+    For example when the data was modified and by who.
+* - A TRE must, to a reasonable extent, prevent unathorised data ingress or egress
+  - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
+    However, it is difficult to control for every possibility.
+    For example, a user may take pictures of their computer screen to remove data, or using a device presnting as a USB HID keyboard to input large amounts of text.
+    An example of a reasonable measure would be for a remote desktop based TRE to prevent data being shared between a workspace's and local machine's clipboards.
+```
 
 ### 3.2 Identity and access management
 
