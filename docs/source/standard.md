@@ -324,6 +324,7 @@ Physical security controls can provide TREs using highly sensitive data an extra
 ### 5.1 Legal
 
 The ability of the TRE organisation to access suitable and timely legal advice.
+<!-- Specific requirements? eg. Article 32 of the GDPR requires organisations to regularly test and evaluate the effectiveness of the technical and organisational measures employed to protect personal data, and penetration testing is an effective way of assessing your technical defences. -->
 
 | Statement | Guidance |
 | --------- | -------- |
