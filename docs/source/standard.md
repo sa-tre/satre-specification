@@ -1,5 +1,4 @@
 (standard)=
-
 # A Standard Architecture for TREs
 
 <!-- What this document intends to do (and what it doesn't), the level of detail we aim for contrasted with other technical standards -->
@@ -273,14 +272,15 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 Vulnerability management describes the ability of the TRE organisation to identify, assess, report on, manage and remediate cyber vulnerabilities across endpoints, workloads, and systems.
 
-| Statement                                                                                                                                   | Guidance                                                                                                                                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| All computing infrastructure belonging to the TRE should be kept up-to-date with security patches and antivirus (if appropriate)            | This might involve scheduling regular automated scanning and application of updates. Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.                                                                                              |
-| Regular vulnerability scans of TRE infrastructure should be conducted                                                                       | Ensuring that scans are done on a regular basis can enable TRE operators can identify and address weaknesses that may have been introduced during the TRE's operational lifetime.                                                                                                        |
-| TREs should undergo compliance checking of machine and resource configurations to ensure adherence to security standards and best practices | Adhering to the highest level of security standards suggested by the IT department of the TRE operators organisation will reduce the risk of security breaches and data leakage. This should be done in advance of any sensitive data being uploaded to the TRE.                         |
-| TREs should undergo specific compliance checks required by law                                                                              | Many industry regulations and standards require organisations to perform security tests and other compliance checks, for example GDPR. By conducting these tests, organisations can demonstrate due diligence, increasing trust in the TRE and avoiding penalties for the TRE operators. |
+| Statement                                                                                                                        | Guidance                                                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| All computing infrastructure belonging to the TRE should be kept up-to-date with security patches and antivirus (if appropriate) | This might involve scheduling regular automated scanning and application of updates. Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.                    |
+| Regular vulnerability scans of TRE infrastructure should be conducted                                                            | Ensuring that scans are done on a regular basis can enable TRE operators can identify and address weaknesses that may have been introduced during the TRE's operational lifetime.                              |
+| TREs should regularly check the compliance of machine and resource configurations                                                | This might involve automated "desired state" enforcement, manual checks or checks over what is possible, for example ensuring that only certain network connections are allowed.                               |
+| TREs should adhere to one or more external security standards                                                                    | The TRE organisation should identify appropriate security standards and best practices that it will adhere too. These should be stated to all stakeholders in advance of any data being brought in to the TRE. |
 
 (security-testing)=
+
 ### 4.2 Security testing
 
 Security testing enables the TRE organisation to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
@@ -293,6 +293,7 @@ Security testing enables the TRE organisation to gain assurance in the security 
 | Regular security testing can increase stakeholder trust in TREs                | Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and data providers, can trust that the data they work with or are responsible for is secure within a TRE.                                                                                                                                                                                                                              |
 
 (encryption)=
+
 ### 4.3 Encryption
 
 The ability of the TRE organisation to deploy and manage encryption to protect information assets, including data for TRE research projects.
@@ -305,6 +306,7 @@ The ability of the TRE organisation to deploy and manage encryption to protect i
 | TREs should use secure key management                 | TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (e.g. Single Sign On) for key management systems. For example, you could use a cloud-based solution such as Azure Key Vault to manage all encryption keys and administrator keys to TRE infrastructure such as (virtual) machines and databases. |
 
 (physical-security)=
+
 ### 4.4 Physical security
 
 The ability of the TRE organisation to manage and protect physical assets from unauthorised access, damage or destruction.
