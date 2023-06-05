@@ -262,9 +262,28 @@ The ability of the organisation to manage how and where data is stored, how it m
 
 The ability of the organisation to ensure the right people (identities) can access the tools and data they need and no more.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-identity-and-access-management
+
+* - Statement
+  - Guidance
+* - A TRE must not create user accounts for use by more than one person.
+  - It is important that each user account should be used by one, and only one, person in order to facilitate the assignment of roles or permissions and to log the actions of individuals.
+* - A TRE must be reasonably convinced of the identity of the person being granted an account.
+  - It is important to ensure access, via an account, has been given to the correct person.
+    For example, multiple credentials may be used in account creation to verify identitity or, when appropriate, photo ID checks may be required.
+* - A TRE must restrict a users access to only data required in their work.
+  - There is no need to grant an individual access to data they do not require.
+    Access may be assigned in a manner appropriate to a TREs design, for example through roles granted to user accounts or through isolated project workspaces.
+* - A TRE must ensure multi-factor authentication for users.
+  - Multi-factor authentication ensures that to successfully connect a user must have more than one piece of evidence in different categories.
+    Categories include something the user knows (_e.g._ a password), something the user possesses (_e.g._ a TOTP key) or something the user is (_e.g._ biometric data).
+    A TRE does not need to implement multi-factor authentication checks itself if it is provided by a third-party identity provider.
+* - A TRE could restrict access to particular locations.
+  - Restricting access to a set of known, static, personal or instiutional IP addresses can help avoid speculative attacks.
+    When appropriate, access could also be restricted to physical locations with security controls and access requirements.
+```
 
 ### 3.3 Output management
 
