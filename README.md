@@ -1,10 +1,10 @@
 # SATRE Specification Repository: Technical Document for the Standard Architecture for Trusted Research Environments Project
 
+<!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- prettier-ignore-end -->
 
 [![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack&style=flat-square)](https://ukrse.slack.com/archives/rse-tre-wg)
 [![Licence](https://img.shields.io/github/license/sa-tre/satre-specification?style=flat-square)](https://github.com/sa-tre/satre-specification/blob/main/LICENSE.md)
@@ -99,6 +99,7 @@ Instructions for building the specification document locally can be found [here]
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/harisood"><img src="https://avatars.githubusercontent.com/u/67151373?v=4?s=100" width="100px;" alt="harisood"/><br /><sub><b>harisood</b></sub></a><br /><a href="#content-harisood" title="Content">🖋</a> <a href="#ideas-harisood" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Aharisood" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/machintim"><img src="https://avatars.githubusercontent.com/u/86052684?v=4?s=100" width="100px;" alt="machintim"/><br /><sub><b>machintim</b></sub></a><br /><a href="#ideas-machintim" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-machintim" title="Content">🖋</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Amachintim" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
