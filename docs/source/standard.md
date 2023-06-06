@@ -43,7 +43,7 @@ What the TRE organisation does to ensure information risk is measured and manage
 
 | Statement | Guidance | Mandatory status |
 | --------- | -------  | --- |
-| You are able to audit your TRE organisation against relevant requirements and standards | If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+, etc, you must have processes in place to ensure you remain compliant | Mandatory |
+| You are able to audit your TRE organisation against relevant requirements and standards | If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant | Mandatory |
 | You report on and share outcomes of each audit of your TRE organisation with the required bodies | This may included regulatory bodies or the organisations that manage accreditations you have | Mandatory |
 
 ### 1.2 Policy regulation and management
@@ -64,6 +64,7 @@ What the TRE organisation does to ensure information risk is measured and manage
 | Statement | Guidance | Mandatory status |
 | --------- | -------- | ---------------- |
 | All policies & standard operating procedures relevant to the TRE organisation are controlled | This may include measures like restricting edit access to relevant documents, and recording acceptance of policies for all TRE organisation members | Mandatory |
+| All policies & standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes | Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes | Mandatory |
 
 #### Issue management
 
@@ -82,8 +83,8 @@ What the TRE organisation does to ensure information risk is measured and manage
 | --------- | -------- | ---------------- |
 | You have a way to score risk to understand the underlying severity | You have a risk assesment methodology for scoring risks on multiple axes such as impact and likelihood | Mandatory |
 | You have a process for mitigating risk using additional controls | Risks can be reduced to a level which brings it within agreed levels of appetite | Mandatory |
-| You have an understanding of risk appe*tite | You have an understanding of risk appetite, ownership of risk and ability to accept risk which falls outside of the appetite should that become necessary | Mandatory |
-| You carry out a Data Protection Impact Assessment (DPIA) for all projects requiring a TRE that are working with personal data | a DPIA is a process designed to identify risks arising out of the processing of personal data and to minimise these risks as far and as early as possible | Mandatory |
+| You have an understanding of risk appetite | This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary | Mandatory |
+| You carry out a data processing assessment for all projects requiring a TRE that are working with sensitive data | a data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible | Mandatory |
 
 ### 1.6 Project management
 
@@ -107,7 +108,7 @@ What the TRE organisation does to ensure information risk is measured and manage
 | --------- | -------- | ---------------- |
 | You have clearly defined roles and responsibilities within your TRE organisation for all members | This may include roles such as users, system administrators, system operators, data providers and more. Every member of your TRE organisation should have a pre-defined role with clear powers and responsibilities | Mandatory |
 
-### 1.7 Researcher accreditation
+### 1.7 Member accreditation
 
 The ability of the TRE organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
 
