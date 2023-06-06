@@ -113,65 +113,130 @@ The ability of the TRE organisation to provide and manage devices, workspaces, i
 
 #### 2.1.1 User interface
 
-terminal, desktop, notebook, webapp etc.
+The interfaces used for interacting with the TRE management system and the TRE workspace.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-end-user-user-interface
+* - Statement
+  - Guidance
+* - A TRE must be accessed via a user interface accessible using commonly available applications.
+  - TREs should not require the installation of any bespoke TRE application on the user's device. In practice a web browser is the most common way to achieve this.
+* - A TRE workspace should provide an environment familiar to the users of the TRE.
+  - This may be in the form of a virtual Windows or Linux desktops, web applications, or a terminal.
+    The use of custom developed TRE-specific software should be avoided when widely used open-source alternatives already exist.
+* - A TRE should take accessibility for users with disabilities into account.
+  - The restricted nature of TREs means many assistive tools such as screenreaders in a virtual desktop may not be allowed, but other options such as colour schemes, font sizes, and resizing user interface elements, should be supported.
+* - Copying out data via the system clipboard must be disabled.
+  - A TRE user must not be able to copy sensitive data out of a workspace using the system clipboard.
+    A TRE may allow user to paste text into a workspace.
+```
 
 #### 2.1.2 Software tools
 
+The tools used by researchers inside a TRE
 programming languages, IDEs, desktop applications etc.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-end-user-software-tools
+* - Statement
+  - Guidance
+* - A TRE must provide software applications that are relevant to working with the data in the TRE.
+  - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
+    This may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
+    The set of tools should be reviewed regularly to ensure they are up to date.
+* - A TRE should provide tools to encourage best-practice in reproducibly analysing data.
+  - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
+    This may include version control software, and tools for developing and running data analysis pipelines.
+* - A TRE may provide shared services that are accessible to users in the same project.
+  - This may include shared file storage, databases, collaborative writing, and other web applications.
+    This must only be shared amongst users within the same project.
+* - A TRE may provide limited access to some software repositories
+  - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
+```
 
-#### 2.1.3 High performance computing
+#### 2.1.3 High performance or cluster computing
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+The ability to run analyses requiring more compute resources than is present in the user's workspace.
+
+```{list-table}
+:header-rows: 1
+:name: tab-end-user-high-performance-cluster-computing
+* - Statement
+  - Guidance
+* - A TRE should provide access to high performance computing or other scaleable compute resource if required by users.
+  - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
+    For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
+    Users from different projects must not have access to the same compute nodes.
+    When using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
+```
 
 #### 2.1.4 Accelerators
 
-GPU, FPGA, ASIC, xPU
+The ability to provide accelerators such as GPUs
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-end-user-accelerators
+* - Statement
+  - Guidance
+* - A TRE should provide access to accelerators such as GPUs if required by users.
+  - GPUs and pother accelerators are commonly used in machine learning and other computationally intensive research.
+    TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
+```
 
-#### 2.1.5 Cluster computing
+#### 2.1.5 Databases
 
-SLURM, Kubernetes etc.
-
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
-
-#### 2.1.6 Databases
-
+Provision of databases for users
 SQL, noSQL, etc.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-end-user-software-tools
+* - Statement
+  - Guidance
+* - A TRE may make data available to researchers using comonly used databases such as PostgreSQL, MSSQL, MongoDB, etc.
+  - Databases must be secured and only accessible to users within the same project.
+    If shared database servers are used database administrators must ensure the database enforces segregation of users.
+```
 
 ### 2.2 Infrastructure analytics
 
-The ability of the TRE organisation to process and analyse data about the usage of the TRE.
+The ability of the TRE organisation to record and analyse data about the usage of the TRE.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-end-user-software-tools
+* - Statement
+  - Guidance
+* - A TRE must record usage of the TRE.
+  - This may include the number of users, number of projects, the amount of data stored, number of datasets, the number of workspaces, etc.
+* - A TRE should record which datasets are accessed, and when
+  - This helps auditability of how sensitive data has been used
+* - A TRE should record computational resource usage at the user or aggregate level
+  - This is useful for optimising allocation of resources, and managing costs.
+```
 
 ### 2.3 Network management
 
 The ability of the TRE organisation to administer and secure network infrastructure using applications, tools and processes.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-end-user-software-tools
+* - Statement
+  - Guidance
+* - Networks must be managed and controlled to protect information in systems and applications
+  - Network infrastructure must prevent unauthorised access to resources on the network.
+    This may include firewalls, network segmentation, and restricting connections to the network.
+* - Networks must be continually monitored for misconfigurations and vulnerabilities
+  - This may include regular vulnerability scanning, and penetration testing.
+* - Connectivity between users in different projects, or with access to different datasets, must not be allowed.
+  - Connectivity between users in the same project may be allowed, for example to support shared network services within the project.
+* - Outbound connections to the internet must be blocked by default.
+  - Limited outbound connectivity may be allowed for some services.
+```
 
 ### 2.4 Infrastructure lifecycle management
 
