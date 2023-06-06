@@ -184,17 +184,6 @@ There will always be a dedicated Breakout Room in the Collaboration Cafes where 
 
 [**TO BE COMPLETED**]
 
-
-## 5. Contributing to SATRE
-There are various ways to contribute to SATRE.
-A detailed guide can be found in our [Contributing Guide](https://satre-specification.readthedocs.io/en/latest/contributing.html). 
-Here is a summary of how you can contribute:
-
-- Create or comment on [Issues](https://github.com/sa-tre/satre-specification/issues). Issues may pertain to the Specification Document or anything else about the SATRE Project such as an idea for engaging better with the community or how we run our events.
-- Write down ideas in the Collaboration Cafe HackMDs. A SATRE Team member will be available to help place any suggestions into Issues, but if you are able to do this yourself we encourage you to do so.
-- Create, collaborate or comment on Pull Requests. Pull Requests create or edit the markdown files needed to build the SATRE Specification.
-- Comment on a [Google Doc Version](https://populatatethislink.com) of the Specification Document if you aren't comfortable using GitHub. Please put your name by each comment so that we can attribute your contribution on the appropriate Issue or Pull Request. 
-
 ## 6. Building the Specification Document locally
 
 Instructions for building the specification document locally can be found [here](https://github.com/sa-tre/satre-specification/blob/main/docs/README.md#building-the-specification-document).
