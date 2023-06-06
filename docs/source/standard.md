@@ -293,14 +293,6 @@ The ability of the organisation to ensure outputs are safely published and share
 | --------- | -------- |
 |           |          |
 
-### 3.4 Information discovery
-
-The ability of the organisation to support users who want to browse the data available within an environment at various levels of abstraction.
-
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
-
 (standard_capability_information_security)=
 
 ## 4. Information security
