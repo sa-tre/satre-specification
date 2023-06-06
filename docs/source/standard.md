@@ -116,7 +116,7 @@ The ability of the TRE organisation to ensure that people with access to data ar
 | Statement | Guidance | Mandatory status |
 | --------- | -------- | ---------------- |
 | You have clear onboarding processes in place for all roles within your TRE organisation | This may include all members signing role-specific terms of use, and completing role specific training | Mandatory
-| You have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data | This may include 2 factor authentication, ID checks or email verification | Mandatory |
+| You have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data | This may include multi-factor authentication (MFA), ID checks or email/phone verification | Mandatory |
 
 #### Training management and delivery
 
