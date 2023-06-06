@@ -39,67 +39,92 @@ What the TRE organisation does to ensure information risk is measured and manage
 
 ### 1.1 Compliance, monitoring and reporting
 
-The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards.
+*The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards.*
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+| Statement | Guidance | Mandatory status |
+| --------- | -------  | --- |
+| You are able to audit your TRE organisation against relevant requirements and standards | If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ or the SATRE specification, you must have processes in place to ensure you remain compliant | Mandatory |
+| You report on and share outcomes of each audit of your TRE organisation with the required bodies | This may included regulatory bodies or the organisations that manage accreditations you have | Mandatory |
 
 ### 1.2 Policy regulation and management
 
-TODO: someone needs to write a sentence
+*How an organsation determines what policies and regulations are required and ensures alignment to changes in requirements.*
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+| Statement | Guidance | Manditory Status
+| --------- | -------- | ----------- |
+| You have a process in place to ensure any new project requiring a TRE meets relevant legal, ethical and contractual requirements | For example national legislation such as GDPR, discipline specific regulation like GCP or contractural requirements from a specific data provider such as a company or research partner organisation | Mandatory
+| You have a process in place to monitor changes to any legal, ethical and contractual requirements, and to update your policies accordingly | | Mandatory |
 
 ### 1.3 Quality management
 
-The ability of the TRE organisation to measure and control quality of processes, documentation and outputs.
+*The ability of the TRE organisation to measure and control quality of processes, documentation and outputs.*
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+#### Document management
 
-#### 1.4 Audit and reporting
+| Statement | Guidance | Mandatory status |
+| --------- | -------- | ---------------- |
+| All policies & standard operating procedures relevant to the TRE organisation are controlled | This may include measures like restricting edit access to relevant documents, and recording acceptance of policies for all TRE organisation members | Mandatory |
 
-The ability of the TRE organisation to adhere to stated processes and external standards.
+#### Issue management
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+| Statement | Guidance | Mandatory status |
+| --------- | -------- | ---------------- |
+| You have a clear process in place for addressing activity within your TRE organisation that deviates from your policies and standard operating procedures | This can include measures like triage analysis and a process for updating policies | Mandatory |
+| You have methods in place to record progress in resolving issues with, and deviations against, your policies | | Mandatory |
 
-### 1.5 Risk management
+### 1.4 Risk management
 
-The ability of the TRE organisation to measure, forecast and evaluate risks to information.
+*The ability of the TRE organisation to measure, forecast and evaluate risks to information.*
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+#### Risk assessment
+
+| Statement | Guidance | Mandatory Status |
+| --------- | -------- | ---------------- |
+| You have a way to score risk to understand the underlying severity | You have a risk assesment methodology for scoring risks on multiple axes such as impact and likelihood | Mandatory |
+| You have a process for treating risk using additional controls | Risks can be reduced to a level which brings it within agreed levels of appetite | Mandatory |
+| You have an understanding of risk appe*tite | You have an understanding of risk appetite, ownership of risk and ability to accept risk which falls outside of the appetite should that become necessary | Mandatory |
+| You carry out a Data Protection Impact Assessment (DPIA) for all projects requiring a TRE that are working with personal data | a DPIA is a process designed to identify risks arising out of the processing of personal data and to minimise these risks as far and as early as possible | Mandatory |
 
 ### 1.6 Project management
 
-The ability of the TRE organisation to manage projects effectively.
+*The ability of the TRE organisation to manage projects effectively.*
+
+#### Project onboarding
+
+| Statement | Guidance | Mandatory status |
+| --------- | -------- | ---------------- |
+| You have checks in place to ensure a project has the legal, financial and ethical requirements in place for the duration of the project | This includes checks that contracts are in place where required, adequate funding is available for the duration of the project, and responsibilities concerning data ownership are understood by all parties | Mandatory |
+
+#### Project closure
+
+| Statement | Guidance | Mandatory status |
+| --------- | -------- | ---------------- |
+| You have standard processes in place for the end of a project, that follow all legal requirements and data security best practice | This includes the archiving of quality and log data along with the archiving or deletion of data sets | Mandatory |
+
+#### Roles and responsibilities
+
+| Statement | Guidance | Mandatory status |
+| --------- | -------- | ---------------- |
+| You have clearly defined roles and responsibilities within your TRE organisation for all members | This may include roles such as users, system administrators, system operators, data providers and more. Every member of your TRE organisation should have a pre-defined role with clear powers and responsibilities | Mandatory |
 
 ### 1.7 Researcher accreditation
 
 The ability of the TRE organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
 
-#### 1.7.1 Training management
+#### Onboarding members
 
-The ability of the TRE organisation to track and maintain adequate training levels.
+| Statement | Guidance | Mandatory status |
+| --------- | -------- | ---------------- |
+| You have clear onboarding processes in place for all roles within your TRE organisation | This may include all members signing role-specific terms of use, and completing role specific training | Mandatory
+| You have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data | This may include 2 factor authentication, ID checks or email verification | Mandatory |
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+#### Training management and delivery
 
-#### 1.7.2 Training delivery
-
-The ability of the TRE organisation to deliver training.
-
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+| Statement | Guidance | Mandatory status |
+| --------- | -------- | ---------------- |
+| You have relevant training for all roles within the TRE organisation, and the ability to deliver this training | This may include: Cyber security training, GDPR training, and higher level training for system operators | Mandatory
+| All TRE organisation members have completed relevant training within the last 12 months | | Mandatory |
+| You have a process in place to monitor all TRE organisation training completions & requirements | This process should document which members have completed which training, when the training was completed, and the date the training expires. It should also document how you will notify members when their training is about to expire, and ensure they do not have access to any TRE if relevant training is over 12 months old | Mandatory |
 
 (standard_capability_computing_technology)=
 
