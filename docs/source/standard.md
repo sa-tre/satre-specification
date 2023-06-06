@@ -289,9 +289,21 @@ The ability of the organisation to ensure the right people (identities) can acce
 
 The ability of the organisation to ensure outputs are safely published and shared.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-output-management
+
+* - Statement
+  - Guidance
+* - A TRE should have a system to aid classifying outputs.
+  - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
+    Having guidance, processess and methods to help will ensure that outputs are correctly classified and, furthermore, that outputs when may be openly published are identified.
+    Encouraging openly published outputs will enhance a TREs impact over handing all outputs to the data provider.
+* - A TRE should establish projects intended outputs from the outset.
+  - Identifying the purpose of a piece of work is important for compliance with data protection legilation.
+    Results will be produced which address the projects purpose, some of which may be outputs removed from the TRE.
+    Understanding what these outputs are likely to be and their sensitivity as early as possible will help prepare for their processing and publication.
+```
 
 (standard_capability_information_security)=
 
