@@ -180,7 +180,10 @@ When you are commenting on Issues/PRs, there are a couple of handy things to kno
 
 There will always be a dedicated Breakout Room in the Collaboration Cafes where one of the SATRE Team will be on hand to answer any questions and guide you through the GitHub Repository and help you get set up.
 
-### Contribute via Google Docs
+### Contribute via alternate streams
+
+[**TO BE COMPLETED**]
+
 
 ## 5. Contributing to SATRE
 There are various ways to contribute to SATRE.
