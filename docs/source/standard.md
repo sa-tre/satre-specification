@@ -81,7 +81,7 @@ What the TRE organisation does to ensure information risk is measured and manage
 | Statement | Guidance | Mandatory Status |
 | --------- | -------- | ---------------- |
 | You have a way to score risk to understand the underlying severity | You have a risk assesment methodology for scoring risks on multiple axes such as impact and likelihood | Mandatory |
-| You have a process for treating risk using additional controls | Risks can be reduced to a level which brings it within agreed levels of appetite | Mandatory |
+| You have a process for mitigating risk using additional controls | Risks can be reduced to a level which brings it within agreed levels of appetite | Mandatory |
 | You have an understanding of risk appe*tite | You have an understanding of risk appetite, ownership of risk and ability to accept risk which falls outside of the appetite should that become necessary | Mandatory |
 | You carry out a Data Protection Impact Assessment (DPIA) for all projects requiring a TRE that are working with personal data | a DPIA is a process designed to identify risks arising out of the processing of personal data and to minimise these risks as far and as early as possible | Mandatory |
 
