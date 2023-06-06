@@ -86,7 +86,7 @@ _The ability of the TRE organisation to measure, forecast and evaluate risks to 
 | You have an understanding of risk appetite                                                                       | This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary                                       | Mandatory        |
 | You carry out a data processing assessment for all projects requiring a TRE that are working with sensitive data | a data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible | Mandatory        |
 
-### 1.6 Project management
+### 1.5 Project management
 
 _The ability of the TRE organisation to manage projects effectively._
 
@@ -108,7 +108,7 @@ _The ability of the TRE organisation to manage projects effectively._
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
 | You have clearly defined roles and responsibilities within your TRE organisation for all members | This may include roles such as users, system administrators, system operators, data providers and more. Every member of your TRE organisation should have a pre-defined role with clear powers and responsibilities | Mandatory        |
 
-### 1.7 Member accreditation
+### 1.6 Member accreditation
 
 The ability of the TRE organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
 
