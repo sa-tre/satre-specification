@@ -35,6 +35,21 @@ The HackMD for each Collaboration Cafe is made available in your calendar invite
 The latest version of the SATRE Specification Document can be found [here](https://satre-specification.readthedocs.io/en/latest/). It is a living document in which the aim is to have a completed draft by October 2023
 
 ## 4 Review the SATRE Specification GitHub Repository
+
+Go to GitHub.com
+
+If you have an account, Login, otherwise Sign up (you will need email password).
+Once logged in, navigate to https://github.com/sa-tre/satre-specification. 
+This will load the SATRe specification 'repository' or 'repo'. 
+You can think of this like a directory containing all files to do with the SATRE specification.
+You should see some tabs saying 'Code', 'Issues', 'Pull requests' etc. 
+
+For this project, the main tabs to focus on are:
+**Issues:** This is where the community is having discussions about ideas for the specification. You can think of it like a forum
+**Pull Requests:** This is where the community is making specific change proposals to the wording of the specification. You can think of it like making suggested/track changes to a Google Doc or Word document. 
+These need to be reviewed by the SATRE team before they are accepted.
+All these conversations ultimately influence what the specification says. You can access the latest version of the specification here. You can also access this via the link in the 'About' section on the home page of the repo, and navigating through the website.
+
 The SATRE Specification Document is built from `markdown` files authored on the [SATRE Specification GitHub Repository](https://github.com/sa-tre/satre-specification). 
 Ideas for what should be in the Specification Document are ideated through Issues and usually discussed at Collaboration Cafes. 
 ![](images/SATRE-Github-Issues.png)
