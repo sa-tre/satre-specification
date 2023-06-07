@@ -251,7 +251,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
 * - A TRE should log how input data is modified.
   - If the input data is mutable a TRE should keep records of its modification.
     For example, when the data was modified and by who.
-* - A TRE must, to a reasonable extent, prevent unathorised data ingress or egress
+* - A TRE must, to a reasonable extent, prevent unauthorised data ingress or egress
   - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
     However, it is difficult to control for every possibility.
     For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
