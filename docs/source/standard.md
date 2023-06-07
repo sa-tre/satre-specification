@@ -250,7 +250,7 @@ _The ability of the TRE organisation to ensure the right amount of resources are
 * - You should ensure that the anticipated needs of projects can be satisfied using available resources.
   - Note that this does not require you to accept requests for additional resources, but rather that promises made about resource availability before a project starts should be honoured wherever possible.
   - Recommended
-* - You must ensure that sufficient budget is available to support the anticipated need for resources.
+* - You must ensure that the anticipated resource requirements will not result in overspending by the TRE.
   - For cloud-based TREs this may involve budgeting and/or restricting resource consumption on a project-by-project basis.
     For on-premises TREs this may involve managing expectations to match the available resource.
   - Mandatory
