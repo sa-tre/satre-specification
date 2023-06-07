@@ -260,11 +260,27 @@ _The ability of the TRE organisation to ensure the right amount of resources are
 
 #### 2.4.3 Configuration management
 
-The ability of the TRE organisation to identify, maintain, and verify information on IT assets and configurations in the TRE organisation.
+_The ability of the TRE organisation to identify, maintain, and verify information on IT assets and configurations in the TRE organisation._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-configuration-management
+* - You must have a documented procedure for configuring infrastructure.
+  - This might, for instance, be a handbook that is followed or a set of automated scripts.
+  - Mandatory
+* - You should use configuration management tools to automate application of your configuration wherever possible.
+  - This might involve configuration-as-code tools such as Ansible, Chef, Puppet or Windows Desired State Configuration or simply automated scripts.
+  - Recommended
+* - You should be able to verify whether the configuration is valid.
+  - This might, for instance, involve running your configuration management tool in 'check' mode.
+  - Recommended
+* - You should, if possible, regularly verify your TRE configuration.
+  - This will limit the amount of time the TRE can spend in a non-compliant state.
+  - Mandatory
+* - You must be able to replace a non-compliant TRE with a compliant system.
+  - This might involve reconfiguring a running system or by replacing it with a compliant one.
+  - Mandatory
+```
 
 ### 2.5 Availability management
 
