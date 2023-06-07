@@ -121,7 +121,8 @@ The interfaces used for interacting with the TRE management system and the TRE w
 * - Statement
   - Guidance
 * - A TRE must be accessed via a user interface accessible using commonly available applications.
-  - TREs should not require the installation of any bespoke TRE application on the user's device. In practice a web browser is the most common way to achieve this.
+  - TREs which allow users to connect from their own devices should not require the installation of any bespoke TRE application on the user's device.
+    In practice a web browser is the most common way to achieve this.
 * - A TRE workspace should provide an environment familiar to the users of the TRE.
   - This may be in the form of a virtual Windows or Linux desktops, web applications, or a terminal.
     The use of custom developed TRE-specific software should be avoided when widely used open-source alternatives already exist.
@@ -165,7 +166,7 @@ The ability to run analyses requiring more compute resources than is present in 
 :name: tab-end-user-high-performance-cluster-computing
 * - Statement
   - Guidance
-* - A TRE should provide access to high performance computing or other scaleable compute resource if required by users.
+* - A TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
   - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
     For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
     Users from different projects must not have access to the same compute nodes.
@@ -181,8 +182,8 @@ The ability to provide accelerators such as GPUs
 :name: tab-end-user-accelerators
 * - Statement
   - Guidance
-* - A TRE should provide access to accelerators such as GPUs if required by users.
-  - GPUs and pother accelerators are commonly used in machine learning and other computationally intensive research.
+* - A TRE should be able to provide access to accelerators such as GPUs if required by users.
+  - GPUs and other accelerators are commonly used in machine learning and other computationally intensive research.
     TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
 ```
 
