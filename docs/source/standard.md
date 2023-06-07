@@ -298,7 +298,7 @@ The ability of the TRE organisation to ensure outputs are safely published and s
 * - A TRE should have a system to aid classifying outputs.
   - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
     Having guidance, processess and methods to help will ensure that outputs are correctly classified and, furthermore, that outputs when may be openly published are identified.
-    Encouraging openly published outputs will enhance a TREs impact over handing all outputs to the data provider.
+    Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact .
 * - A TRE should establish projects intended outputs from the outset.
   - Identifying the purpose of a piece of work is important for compliance with data protection legilation.
     Results will be produced which address the projects purpose, some of which may be outputs removed from the TRE.
