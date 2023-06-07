@@ -272,7 +272,7 @@ The ability of the TRE organisation to ensure the right people (identities) can 
   - It is important that each user account should be used by one, and only one, person in order to facilitate the assignment of roles or permissions and to log the actions of individuals.
 * - A TRE must be reasonably convinced of the identity of the person being granted an account.
   - It is important to ensure access, via an account, has been given to the correct person.
-    For example, multiple credentials may be used in account creation to verify identitity or, when appropriate, photo ID checks may be required.
+    For example, multiple credentials may be used before account creation to verify identity or, when appropriate, photo ID checks may be required.
 * - A TRE must restrict a users access to only data required in their work.
   - There is no need to grant an individual access to data they do not require.
     Access may be assigned in a manner appropriate to a TREs design, for example through roles granted to user accounts or through isolated project workspaces.
