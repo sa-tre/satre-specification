@@ -231,7 +231,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
   - Guidance
 * - A TRE must have a data ingress process which enforces information governance rules/processes.
   - The data ingress process needs to ensure that information governance is correctly followed.
-    in particular, it should require that an ingress request has been approved by all required parties.
+    In particular, it should require that an ingress request has been approved by all required parties.
 * - A TRE must have a data egress process which enforces information governance rules/processes.
   - The data egress process needs to ensure that information governance requirements are adhered to.
     In particular, it should require that an egress request has been approved by all required parties.
