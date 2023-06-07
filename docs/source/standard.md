@@ -244,7 +244,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
   - There should be a clear, published policy on when data will be retained or deleted.
     This may allow time for data owners to consider outputs they may want to extract from the TRE.
     Any sensitive data, including all backups, should be deleted when they are no longer needed.
-    Having clear policy will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
+    Having clear policies will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
 * - A TRE could keep backups of data and research environments, provided that this is permitted by law.
   - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
     TRE developers may want to consider how different elements, for example sensitive input data or users workspaces, may be backed up or if they should be.
