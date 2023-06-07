@@ -256,7 +256,8 @@ _The ability of the TRE organisation to ensure the right amount of resources are
   - Mandatory
 * - You must have a procedure for increasing/decreasing available resources.
   - For cloud-base TREs this may involve scaling resource attributes or deploying additional resources.
-  - For on-premises TREs this may involve a procurement process to ensure that necessary resources are available.
+    For on-premises TREs this may involve a procurement process to ensure that necessary resources are available.
+  - Mandatory
 * - You must have a procedure to decide when to change capacity.
   - Not all requests for capacity increase must necessarily be granted, but having a clear process will help projects understand when/why/how they can make use of additional capacity.
   - Mandatory
