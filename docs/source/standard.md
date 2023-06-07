@@ -300,7 +300,7 @@ The ability of the TRE organisation to ensure outputs are safely published and s
     Having guidance, processess and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
     Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact .
 * - A TRE should establish each project's intended outputs from the outset.
-  - Identifying the purpose of a piece of work is important for compliance with data protection legilation.
+  - Identifying the purpose of a piece of work is important for compliance with data protection legislation.
     Results will be produced which address the projects purpose, some of which may be outputs removed from the TRE.
     Understanding what these outputs are likely to be and their sensitivity as early as possible will help prepare for their processing and publication.
 ```
