@@ -250,7 +250,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
     TRE developers may want to consider how different elements, for example sensitive input data or users workspaces, may be backed up or if they should be.
 * - A TRE should log how input data is modified.
   - If the input data is mutable a TRE should keep records of its modification.
-    For example when the data was modified and by who.
+    For example, when the data was modified and by who.
 * - A TRE must, to a reasonable extent, prevent unathorised data ingress or egress
   - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
     However, it is difficult to control for every possibility.
