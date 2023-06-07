@@ -255,7 +255,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
   - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
     However, it is difficult to control for every possibility.
     For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
-    An example of a reasonable measure would be for a remote desktop based TRE to prevent data being shared between a workspace's and local machine's clipboards.
+    An example of a reasonable measure would be for a remote desktop based TRE to prevent data being copied from a local machine's clipboard to a workspace.
 ```
 
 ### 3.2 Identity and access management
