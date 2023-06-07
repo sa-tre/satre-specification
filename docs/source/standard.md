@@ -146,8 +146,8 @@ The interfaces used for interacting with the TRE management system and the TRE w
 :name: tab-end-user-user-interface
 * - Statement
   - Guidance
-* - A TRE must be accessed via a user interface accessible using commonly available applications.
   - Mandatory?
+* - A TRE should be accessed via a user interface accessible using commonly available applications.
   - TREs which allow users to connect from their own devices should not require the installation of any bespoke TRE application on the user's device.
     In practice a web browser is the most common way to achieve this.
   - Recommended
@@ -226,7 +226,7 @@ SQL, noSQL, etc.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-software-tools
+:name: tab-end-user-databases
 * - Statement
   - Guidance
   - Mandatory?
@@ -242,7 +242,7 @@ The ability of the TRE organisation to record and analyse data about the usage o
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-software-tools
+:name: tab-end-user-infrastructure-analytics
 * - Statement
   - Guidance
   - Mandatory?
@@ -263,7 +263,7 @@ The ability of the TRE organisation to administer and secure network infrastruct
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-software-tools
+:name: tab-end-user-network-management
 * - Statement
   - Guidance
   - Mandatory?
@@ -423,7 +423,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
   - Optional
 * - A TRE must keep a record of what data it holds.
   - Good records are important for ensuring compliance with legislation, understanding risk and aiding good data hygiene.
-    The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the date it was recieved, when it is expected to no longer be needed.
+    The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the date it was received, when it is expected to no longer be needed.
   - Mandatory
 * - A TRE must have a policy on data deletion.
   - There should be a clear, published policy on when data will be retained or deleted.
@@ -493,8 +493,8 @@ The ability of the TRE organisation to ensure outputs are safely published and s
   - Mandatory?
 * - A TRE should have a system to aid classifying outputs.
   - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
-    Having guidance, processess and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
-    Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact .
+    Having guidance, processes and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
+    Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact.
   - Recommended
 * - A TRE should establish each project's intended outputs from the outset.
   - Identifying the purpose of a piece of work is important for compliance with data protection legislation.
