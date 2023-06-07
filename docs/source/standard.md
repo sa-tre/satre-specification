@@ -240,6 +240,9 @@ _The ability of the TRE organisation to ensure the right amount of resources are
 ```{list-table}
 :header-rows: 1
 :name: tab-capacity-management
+* - Statement
+  - Guidance
+  - Mandatory status
 * - You must ensure that all projects understand what resources are available and what the associated costs will be before the project starts.
   - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used. Projects should use this information to understand whether the available resources will be sufficient for their requirements.
   - Mandatory
@@ -265,6 +268,9 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
 ```{list-table}
 :header-rows: 1
 :name: tab-configuration-management
+* - Statement
+  - Guidance
+  - Mandatory status
 * - You must have a documented procedure for configuring infrastructure.
   - This might, for instance, be a handbook that is followed or a set of automated scripts.
   - Mandatory
@@ -289,6 +295,9 @@ _The ability of the TRE organisation to ensure all IT infrastructure, processes,
 ```{list-table}
 :header-rows: 1
 :name: tab-availability-management
+* - Statement
+  - Guidance
+  - Mandatory status
 * - You should understand the availability and uptime guarantees of any providers that you rely on.
   - For remote TREs this might include your cloud provider(s) and/or data centre operators.
     For on-premises TREs, it might be worth considering your ISP and electricity provider.
