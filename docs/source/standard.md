@@ -235,11 +235,28 @@ _The ability of the TRE organisation to instantiate, deploy, change or remove de
 
 #### 2.4.2 Capacity management
 
-The ability of the TRE organisation to ensure the right amount of resources are available at the right time to provide a service.
+_The ability of the TRE organisation to ensure the right amount of resources are available at the right time to provide a service._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-capacity-management
+* - You must ensure that all projects understand what resources are available and what the associated costs will be before the project starts.
+  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used. Projects should use this information to understand whether the available resources will be sufficient for their requirements.
+  - Mandatory
+* - You should ensure that the anticipated needs of projects can be satisfied using available resources.
+  - Note that this does not require you to accept requests for additional resources, but rather that promises made about resource availability before a project starts should be honoured wherever possible.
+  - Recommended
+* - You must ensure that sufficient budget is available to support the anticipated need for resources.
+  - For cloud-based TREs this may involve budgeting and/or restricting resource consumption on a project-by-project basis.
+    For on-premises TREs this may involve managing expectations to match the available resource.
+  - Mandatory
+* - You must have a procedure for increasing/decreasing available resources.
+  - For cloud-base TREs this may involve scaling resource attributes or deploying additional resources.
+  - For on-premises TREs this may involve a procurement process to ensure that necessary resources are available.
+* - You must have a procedure to decide when to change capacity.
+  - Not all requests for capacity increase must necessarily be granted, but having a clear process will help projects understand when/why/how they can make use of additional capacity.
+  - Mandatory
+```
 
 #### 2.4.3 Configuration management
 
