@@ -157,37 +157,29 @@ programming languages, IDEs, desktop applications etc.
   - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
 ```
 
-#### 2.1.3 High performance or cluster computing
+#### 2.1.3 Advanced or cluster computing
 
-The ability to run analyses requiring more compute resources than is present in the user's workspace.
+The ability to run analyses requiring more compute resources, or more specialised hardware, than is present in the user's workspace.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-high-performance-cluster-computing
+:name: tab-end-user-advanced-cluster-computing
 * - Statement
   - Guidance
 * - A TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
   - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
     For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
-    Users from different projects must not have access to the same compute nodes.
-    When using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
-```
-
-#### 2.1.4 Accelerators
-
-The ability to provide accelerators such as GPUs
-
-```{list-table}
-:header-rows: 1
-:name: tab-end-user-accelerators
-* - Statement
-  - Guidance
 * - A TRE should be able to provide access to accelerators such as GPUs if required by users.
   - GPUs and other accelerators are commonly used in machine learning and other computationally intensive research.
     TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
+* - Segregation of users and data must be maintained when using non-standard compute.
+  - High performance or specialist compute is often shared amongst multiple users.
+    Users and data must remain segregated at all times.
+    For example, when using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
+    In a cloud hosted TRE virtual machines should be destroyed and recreated.
 ```
 
-#### 2.1.5 Databases
+#### 2.1.4 Databases
 
 Provision of databases for users
 SQL, noSQL, etc.
