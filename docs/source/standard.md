@@ -230,7 +230,7 @@ _The ability of the TRE organisation to instantiate, deploy, change or remove de
   - Consider the costs and practicality of whether this will work for your situation.
   - Optional
 * - You must have a documented procedure for removing infrastructure when it is no longer needed
-  -
+  - Removing unused infrastructure not only reduces costs and management burden but also reduces the attack surface of a TRE and reduces the risk of unaddressed vulnerabilities.
   - Mandatory
 ```
 
