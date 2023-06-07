@@ -203,41 +203,111 @@ The ability of the TRE organisation to administer and secure network infrastruct
 
 The ability of the TRE organisation to manage necessary physical or virtual infrastructure.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
-
 #### 2.4.1 Deployment management
 
-The ability of the TRE organisation to instantiate, deploy, change or remove deployed infrastructure.
+_The ability of the TRE organisation to instantiate, deploy, change or remove deployed infrastructure._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-deployment-management
+* - Statement
+  - Guidance
+  - Mandatory status
+* - You must have a documented procedure for deploying infrastructure.
+  - This might, for instance, be a handbook that is followed or a set of automated scripts.
+  - Mandatory
+* - Where possible, you should automate any repeatable aspects of your deployment.
+  - This might involve using infrastructure-as-code tools or simply a series of scripts.
+  - Recommended
+* - You must have a documented procedure for making changes to deployed infrastructure.
+  - This refers both to changes that might be expected in the course of normal operation and emergency changes that might be needed.
+    Your change management process may form part of a wider accreditation such as ISO 27001.
+  - Mandatory
+* - You must test changes before they are used in production.
+  - This might involve a separate development environment or another system for testing.
+  - Mandatory
+* - You could test changes in a development environment that mirrors your production system.
+  - Consider the costs and practicality of whether this will work for your situation.
+  - Optional
+* - You must have a documented procedure for removing infrastructure when it is no longer needed
+  - Removing unused infrastructure not only reduces costs and management burden but also reduces the attack surface of a TRE and reduces the risk of unaddressed vulnerabilities.
+  - Mandatory
+```
 
 #### 2.4.2 Capacity management
 
-The ability of the TRE organisation to ensure the right amount of resources are available at the right time to provide a service.
+_The ability of the TRE organisation to ensure the right amount of resources are available at the right time to provide a service._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-capacity-management
+* - Statement
+  - Guidance
+  - Mandatory status
+* - You must ensure that all projects understand what resources are available and what the associated costs will be before the project starts.
+  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used. Projects should use this information to understand whether the available resources will be sufficient for their requirements.
+  - Mandatory
+* - You should ensure that the anticipated needs of projects can be satisfied using available resources.
+  - Note that this does not require you to accept requests for additional resources, but rather that promises made about resource availability before a project starts should be honoured wherever possible.
+  - Recommended
+* - You must ensure that the anticipated resource requirements will not result in overspending by the TRE.
+  - For cloud-based TREs this may involve budgeting and/or restricting resource consumption on a project-by-project basis.
+    For on-premises TREs this may involve managing expectations to match the available resource.
+  - Mandatory
+* - You must have a procedure for increasing/decreasing available resources.
+  - For cloud-based TREs this may involve scaling resources, such as virtual machines or databases, or deploying additional resources.
+    For on-premises TREs this may involve a procurement process to ensure that necessary resources are available.
+  - Mandatory
+* - You must have a procedure to decide when to change capacity.
+  - Not all requests for capacity increase must necessarily be granted, but having a clear process will help projects understand when/why/how they can make use of additional capacity.
+  - Mandatory
+```
 
 #### 2.4.3 Configuration management
 
-The ability of the TRE organisation to identify, maintain, and verify information on IT assets and configurations in the TRE organisation.
+_The ability of the TRE organisation to identify, maintain, and verify information on IT assets and configurations in the TRE organisation._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-configuration-management
+* - Statement
+  - Guidance
+  - Mandatory status
+* - You must have a documented procedure for configuring infrastructure.
+  - This might, for instance, be a handbook that is followed or a set of automated scripts.
+  - Mandatory
+* - You should use configuration management tools to automate application of your configuration wherever possible.
+  - This might involve configuration-as-code tools such as Ansible, Chef, Puppet or Windows Desired State Configuration or simply automated scripts.
+  - Recommended
+* - You should be able to verify whether the configuration is valid.
+  - This might, for instance, involve running your configuration management tool in 'check' mode.
+  - Recommended
+* - You should, if possible, regularly verify your TRE configuration.
+  - This will limit the amount of time the TRE can spend in a non-compliant state.
+  - Mandatory
+* - You must be able to replace a non-compliant TRE with a compliant system.
+  - This might involve reconfiguring a running system or by replacing it with a compliant one.
+  - Mandatory
+```
 
 ### 2.5 Availability management
 
-The ability of the TRE organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
+_The ability of the TRE organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-availability-management
+* - Statement
+  - Guidance
+  - Mandatory status
+* - You should understand the availability and uptime guarantees of any providers that you rely on.
+  - For remote TREs this might include your cloud provider(s) and/or data centre operators.
+    For on-premises TREs, it might be worth considering your ISP and electricity provider.
+  - Recommended
+* - You should develop an availability target or statement and share this with your users.
+  - Understanding how and when the TRE might be unavailable will help your projects in planning their work.
+  - Recommended
+```
 
 (standard_capability_data_management)=
 
