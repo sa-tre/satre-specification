@@ -255,7 +255,7 @@ _The ability of the TRE organisation to ensure the right amount of resources are
     For on-premises TREs this may involve managing expectations to match the available resource.
   - Mandatory
 * - You must have a procedure for increasing/decreasing available resources.
-  - For cloud-base TREs this may involve scaling resource attributes or deploying additional resources.
+  - For cloud-based TREs this may involve scaling resources, such as virtual machines or databases, or deploying additional resources.
     For on-premises TREs this may involve a procurement process to ensure that necessary resources are available.
   - Mandatory
 * - You must have a procedure to decide when to change capacity.
