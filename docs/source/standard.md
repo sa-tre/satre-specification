@@ -239,7 +239,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
   - A person independent to a project, for example a TRE admin or dedicated referee, could check ingress and egress requests to ensure information governance processes are correctly followed in the absence of an automated process.
 * - A TRE must keep a record of what data it holds.
   - Good records are important for ensuring compliance with legislation, understanding risk and aiding good data hygiene.
-    The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the data it was recieved, when it is expected to no longer be needed.
+    The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the date it was recieved, when it is expected to no longer be needed.
 * - A TRE must have a policy on data deletion.
   - There should be a clear, published policy on when data will be deleted beyond at the conclusion of a project.
     This may allow time for data owners to consider outputs they may want to extract from the TRE.
