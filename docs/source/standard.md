@@ -284,11 +284,19 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
 
 ### 2.5 Availability management
 
-The ability of the TRE organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
+_The ability of the TRE organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-availability-management
+* - You should understand the availability and uptime guarantees of any providers that you rely on.
+  - For remote TREs this might include your cloud provider(s) and/or data centre operators.
+    For on-premises TREs, it might be worth considering your ISP and electricity provider.
+  - Recommended
+* - You should develop an availability target or statement and share this with your users.
+  - Understanding how and when the TRE might be unavailable will help your projects in planning their work.
+  - Recommended
+```
 
 (standard_capability_data_management)=
 
