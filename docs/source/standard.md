@@ -203,17 +203,35 @@ The ability of the TRE organisation to administer and secure network infrastruct
 
 The ability of the TRE organisation to manage necessary physical or virtual infrastructure.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
-
 #### 2.4.1 Deployment management
 
-The ability of the TRE organisation to instantiate, deploy, change or remove deployed infrastructure.
+_The ability of the TRE organisation to instantiate, deploy, change or remove deployed infrastructure._
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-deployment-management
+* - Statement
+  - Guidance
+  - Mandatory status
+* - You must have a documented procedure for deploying infrastructure.
+  - This might, for instance, be a handbook that is followed or a set of automated scripts.
+  - Mandatory
+* - Where possible, you should automate any repeatable aspects of your deployment.
+  - This might involve using infrastructure-as-code tools or simply a series of scripts.
+  - Recommended
+* - You must test changes before they are used in production.
+  - This might involve a separate development environment or another system for testing.
+  - Mandatory
+* - You could test changes in a development environment that mirrors your production system.
+  - Consider the costs and practicality of whether this will work for your situation.
+  - Optional
+* - You must have a documented procedure for making changes to deployed infrastructure.
+  - This refers both to changes that might be expected in the course of normal operation and emergency changes that might be needed.
+  - Mandatory
+* - You must have a documented procedure for removing infrastructure when it is no longer needed
+  -
+  - Mandatory
+```
 
 #### 2.4.2 Capacity management
 
