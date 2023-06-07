@@ -281,7 +281,7 @@ The ability of the TRE organisation to ensure the right people (identities) can 
     Categories include something the user knows (_e.g._ a password), something the user possesses (_e.g._ a TOTP key) or something the user is (_e.g._ biometric data).
     A TRE does not need to implement multi-factor authentication checks itself if it is provided by a third-party identity provider.
 * - A TRE could restrict access to particular locations.
-  - Restricting access to a set of known, static, personal or instiutional IP addresses can help avoid speculative attacks.
+  - Restricting access to a set of known, static, personal or institutional IP addresses can help avoid speculative attacks.
     When appropriate, access could also be restricted to physical locations with security controls and access requirements.
 ```
 
