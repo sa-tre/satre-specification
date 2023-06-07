@@ -197,9 +197,9 @@ SQL, noSQL, etc.
 :name: tab-end-user-software-tools
 * - Statement
   - Guidance
-* - A TRE may make data available to researchers using comonly used databases such as PostgreSQL, MSSQL, MongoDB, etc.
+* - A TRE may make data available to researchers using comonly used databases servers such as PostgreSQL, MSSQL, MongoDB, etc.
   - Databases must be secured and only accessible to users within the same project.
-    If shared database servers are used database administrators must ensure the database enforces segregation of users.
+    If shared (multi-tenant) database servers are used database administrators must ensure the database server enforces segregation of users and databases.
 ```
 
 ### 2.2 Infrastructure analytics
