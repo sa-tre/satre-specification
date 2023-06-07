@@ -249,33 +249,88 @@ The ability of the TRE organisation to manage data assets and ensure information
 
 The ability of the TRE organisation to manage how and where data is stored, how it moves, changes and is removed.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-data-lifecycle-management
+
+* - Statement
+  - Guidance
+* - A TRE must have a data ingress process which enforces information governance rules/processes.
+  - The data ingress process needs to ensure that information governance is correctly followed.
+    In particular, it should require that an ingress request has been approved by all required parties.
+* - A TRE must have a data egress process which enforces information governance rules/processes.
+  - The data egress process needs to ensure that information governance requirements are adhered to.
+    In particular, it should require that an egress request has been approved by all required parties.
+* - A TRE's data egress process could sometimes require project-independent approval.
+  - There may be cases where there are multiple stakeholders for a piece of analysis including data providers, data analysts, data subjects, the TRE organisation.
+    A data egress process may then require approval from people not on the project team, for example an external referee or TRE organisation representative
+* - A TRE must keep a record of what data it holds.
+  - Good records are important for ensuring compliance with legislation, understanding risk and aiding good data hygiene.
+    The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the date it was recieved, when it is expected to no longer be needed.
+* - A TRE must have a policy on data deletion.
+  - There should be a clear, published policy on when data will be retained or deleted.
+    This may allow time for data owners to consider outputs they may want to extract from the TRE.
+    Any sensitive data, including all backups, should be deleted when they are no longer needed.
+    Having clear policies will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
+* - A TRE could keep backups of data and research environments, provided that this is permitted by law.
+  - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
+    TRE developers may want to consider how different elements, for example sensitive input data or users workspaces, may be backed up or if they should be.
+* - A TRE should log how input data is modified.
+  - If the input data is mutable a TRE should keep records of its modification.
+    For example, when the data was modified and by who.
+* - A TRE must, to a reasonable extent, prevent unauthorised data ingress or egress
+  - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
+    However, it is difficult to control for every possibility.
+    For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
+    An example of a reasonable measure would be for a remote desktop based TRE to prevent data being copied from a local machine's clipboard to a workspace.
+```
 
 ### 3.2 Identity and access management
 
 The ability of the TRE organisation to ensure the right people (identities) can access the tools and data they need and no more.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-identity-and-access-management
+
+* - Statement
+  - Guidance
+* - A TRE must not create user accounts for use by more than one person.
+  - It is important that each user account should be used by one, and only one, person in order to facilitate the assignment of roles or permissions and to log the actions of individuals.
+* - A TRE must be reasonably convinced of the identity of the person being granted an account.
+  - It is important to ensure access, via an account, has been given to the correct person.
+    For example, multiple credentials may be used before account creation to verify identity or, when appropriate, photo ID checks may be required.
+* - A TRE must restrict a users access to only data required in their work.
+  - There is no need to grant an individual access to data they do not require.
+    Access may be assigned in a manner appropriate to a TREs design, for example through roles granted to user accounts or through isolated project workspaces.
+* - A TRE must ensure multi-factor authentication for users.
+  - Multi-factor authentication ensures that to successfully connect a user must have more than one piece of evidence in different categories.
+    Categories include something the user knows (_e.g._ a password), something the user possesses (_e.g._ a TOTP key) or something the user is (_e.g._ biometric data).
+    A TRE does not need to implement multi-factor authentication checks itself if it is provided by a third-party identity provider.
+* - A TRE could restrict access to particular locations.
+  - Restricting access to a set of known, static, personal or institutional IP addresses can help avoid speculative attacks.
+    When appropriate, access could also be restricted to physical locations with security controls and access requirements.
+```
 
 ### 3.3 Output management
 
 The ability of the TRE organisation to ensure outputs are safely published and shared.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-output-management
 
-### 3.4 Information discovery
-
-The ability of the TRE organisation to support users who want to browse the data available within an environment at various levels of abstraction.
-
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+* - Statement
+  - Guidance
+* - A TRE should have a system to aid classifying outputs.
+  - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
+    Having guidance, processess and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
+    Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact .
+* - A TRE should establish each project's intended outputs from the outset.
+  - Identifying the purpose of a piece of work is important for compliance with data protection legislation.
+    Results will be produced which address the project's purpose, some of which may be outputs that are removed from the TRE.
+    Understanding what these outputs are likely to be and their sensitivity as early as possible will help prepare for their processing and publication.
+```
 
 (standard_capability_information_security)=
 
