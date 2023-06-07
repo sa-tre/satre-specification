@@ -241,7 +241,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
   - Good records are important for ensuring compliance with legislation, understanding risk and aiding good data hygiene.
     The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the date it was recieved, when it is expected to no longer be needed.
 * - A TRE must have a policy on data deletion.
-  - There should be a clear, published policy on when data will be deleted beyond at the conclusion of a project.
+  - There should be a clear, published policy on when data will be retained or deleted.
     This may allow time for data owners to consider outputs they may want to extract from the TRE.
     Any sensitive data, including all backups, should be deleted when they are no longer needed.
     Having clear policy will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
