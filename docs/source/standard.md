@@ -62,6 +62,7 @@ _How an organsation determines what policies and regulations are required and en
 ```{list-table}
 :header-rows: 1
 :name: tab-policy-regulation-management
+
 * - Statement
   - Guidance
   - Importance
@@ -82,6 +83,7 @@ _The ability of the TRE organisation to measure and control quality of processes
 ```{list-table}
 :header-rows: 1
 :name: tab-document-management
+
 * - Statement
   - Guidance
   - Importance
@@ -98,6 +100,7 @@ _The ability of the TRE organisation to measure and control quality of processes
 ```{list-table}
 :header-rows: 1
 :name: tab-issue-management
+
 * - Statement
   - Guidance
   - Importance
@@ -118,6 +121,7 @@ _The ability of the TRE organisation to measure, forecast and evaluate risks to 
 ```{list-table}
 :header-rows: 1
 :name: tab-risk-assessment
+
 * - Statement
   - Guidance
   - Importance
@@ -144,6 +148,7 @@ _The ability of the TRE organisation to manage projects effectively._
 ```{list-table}
 :header-rows: 1
 :name: tab-project-onboarding
+
 * - Statement
   - Guidance
   - Importance
@@ -157,6 +162,7 @@ _The ability of the TRE organisation to manage projects effectively._
 ```{list-table}
 :header-rows: 1
 :name: tab-project-closure
+
 * - Statement
   - Guidance
   - Importance
@@ -187,6 +193,7 @@ The ability of the TRE organisation to ensure that people with access to data ar
 ```{list-table}
 :header-rows: 1
 :name: tab-onboarding-members
+
 * - Statement
   - Guidance
   - Importance
@@ -203,6 +210,7 @@ The ability of the TRE organisation to ensure that people with access to data ar
 ```{list-table}
 :header-rows: 1
 :name: tab-training-management-delivery
+
 * - Statement
   - Guidance
   - Importance
@@ -234,6 +242,7 @@ The interfaces used for interacting with the TRE management system and the TRE w
 ```{list-table}
 :header-rows: 1
 :name: tab-end-user-user-interface
+
 * - Statement
   - Guidance
   - Importance
@@ -262,6 +271,7 @@ programming languages, IDEs, desktop applications etc.
 ```{list-table}
 :header-rows: 1
 :name: tab-end-user-software-tools
+
 * - Statement
   - Guidance
   - Importance
@@ -290,6 +300,7 @@ The ability to run analyses requiring more compute resources, or more specialise
 ```{list-table}
 :header-rows: 1
 :name: tab-end-user-advanced-cluster-computing
+
 * - Statement
   - Guidance
   - Importance
@@ -317,6 +328,7 @@ SQL, noSQL, etc.
 ```{list-table}
 :header-rows: 1
 :name: tab-end-user-databases
+
 * - Statement
   - Guidance
   - Importance
@@ -333,6 +345,7 @@ The ability of the TRE organisation to record and analyse data about the usage o
 ```{list-table}
 :header-rows: 1
 :name: tab-end-user-infrastructure-analytics
+
 * - Statement
   - Guidance
   - Importance
@@ -354,6 +367,7 @@ The ability of the TRE organisation to administer and secure network infrastruct
 ```{list-table}
 :header-rows: 1
 :name: tab-end-user-network-management
+
 * - Statement
   - Guidance
   - Importance
@@ -383,6 +397,7 @@ _The ability of the TRE organisation to instantiate, deploy, change or remove de
 ```{list-table}
 :header-rows: 1
 :name: tab-deployment-management
+
 * - Statement
   - Guidance
   - Importance
@@ -414,6 +429,7 @@ _The ability of the TRE organisation to ensure the right amount of resources are
 ```{list-table}
 :header-rows: 1
 :name: tab-capacity-management
+
 * - Statement
   - Guidance
   - Importance
@@ -443,6 +459,7 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
 ```{list-table}
 :header-rows: 1
 :name: tab-configuration-management
+
 * - Statement
   - Guidance
   - Importance
@@ -470,6 +487,7 @@ _The ability of the TRE organisation to ensure all IT infrastructure, processes,
 ```{list-table}
 :header-rows: 1
 :name: tab-availability-management
+
 * - Statement
   - Guidance
   - Importance
@@ -618,6 +636,7 @@ Vulnerability management describes the ability of the TRE organisation to identi
 ```{list-table}
 :header-rows: 1
 :name: tab-vulnerability-management
+
 * - Statement
   - Guidance
   - Importance
@@ -644,6 +663,7 @@ Security testing enables the TRE organisation to gain assurance in the security 
 ```{list-table}
 :header-rows: 1
 :name: tab-security-testing
+
 * - Statement
   - Guidance
   - Importance
@@ -672,6 +692,7 @@ Here we define 'project' data as the data brought in for work which is very like
 ```{list-table}
 :header-rows: 1
 :name: tab-encryption
+
 * - Statement
   - Guidance
   - Importance
@@ -702,6 +723,7 @@ Physical security controls can provide TREs using highly sensitive data an extra
 ```{list-table}
 :header-rows: 1
 :name: tab-physical-security
+
 * - Statement
   - Guidance
   - Importance
@@ -726,6 +748,7 @@ The ability of the TRE organisation to access suitable and timely legal advice.
 ```{list-table}
 :header-rows: 1
 :name: tab-legal
+
 * - Statement
   - Guidance
   - Importance
@@ -741,6 +764,7 @@ The ability of the TRE organisation to maintain engagement with its customers, s
 ```{list-table}
 :header-rows: 1
 :name: tab-relationship-management
+
 * - Statement
   - Guidance
   - Importance
@@ -756,6 +780,7 @@ The ability of the TRE organisation to access other supporting capabilities such
 ```{list-table}
 :header-rows: 1
 :name: tab-other
+
 * - Statement
   - Guidance
   - Importance
@@ -781,6 +806,7 @@ The researchers working on projects that involve logging into a TRE to access da
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-user
+
 * - Statement
   - Guidance
   - Importance
@@ -799,6 +825,7 @@ These roles cover managing TRE computing infrastructure, but also administering 
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-administrator
+
 * - Statement
   - Guidance
   - Importance
@@ -816,6 +843,7 @@ The software engineers responsible for developing and maintaining TRE software, 
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-developer
+
 * - Statement
   - Guidance
   - Importance
