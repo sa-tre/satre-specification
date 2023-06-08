@@ -79,17 +79,35 @@ _The ability of the TRE organisation to measure and control quality of processes
 
 #### Document management
 
-| Statement                                                                                                                               | Guidance                                                                                                                                            | Importance |
-| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| All policies & standard operating procedures relevant to the TRE organisation are controlled                                            | This may include measures like restricting edit access to relevant documents, and recording acceptance of policies for all TRE organisation members | Mandatory  |
-| All policies & standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes | Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes                            | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-document-management
+* - Statement
+  - Guidance
+  - Importance
+* - All policies & standard operating procedures relevant to the TRE organisation are controlled
+  - This may include measures like restricting edit access to relevant documents, and recording acceptance of policies for all TRE organisation members
+  - Mandatory
+* - All policies & standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes
+  - Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes
+  - Mandatory
+```
 
 #### Issue management
 
-| Statement                                                                                                                                                 | Guidance                                                                           | Importance |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
-| You have a clear process in place for addressing activity within your TRE organisation that deviates from your policies and standard operating procedures | This can include measures like triage analysis and a process for updating policies | Mandatory  |
-| You have methods in place to record progress in resolving issues with, and deviations against, your policies                                              |                                                                                    | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-issue-management
+* - Statement
+  - Guidance
+  - Importance
+* - You have a clear process in place for addressing activity within your TRE organisation that deviates from your policies and standard operating procedures
+  - This can include measures like triage analysis and a process for updating policies
+  - Mandatory
+* - You have methods in place to record progress in resolving issues with, and deviations against, your policies
+  -
+  - Mandatory
+```
 
 ### 1.4 Risk management
 
@@ -97,12 +115,25 @@ _The ability of the TRE organisation to measure, forecast and evaluate risks to 
 
 #### Risk assessment
 
-| Statement                                                                                                        | Guidance                                                                                                                                                                         | Importance |
-| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| You have a way to score risk to understand the underlying severity                                               | You have a risk assesment methodology for scoring risks on multiple axes such as impact and likelihood                                                                           | Mandatory  |
-| You have a process for mitigating risk using additional controls                                                 | Risks can be reduced to a level which brings it within agreed levels of appetite                                                                                                 | Mandatory  |
-| You have an understanding of risk appetite                                                                       | This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary                                       | Mandatory  |
-| You carry out a data processing assessment for all projects requiring a TRE that are working with sensitive data | a data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-risk-assessment
+* - Statement
+  - Guidance
+  - Importance
+* - You have a way to score risk to understand the underlying severity
+  - You have a risk assesment methodology for scoring risks on multiple axes such as impact and likelihood
+  - Mandatory
+* - You have a process for mitigating risk using additional controls
+  - Risks can be reduced to a level which brings it within agreed levels of appetite
+  - Mandatory
+* - You have an understanding of risk appetite
+  - This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary
+  - Mandatory
+* - You carry out a data processing assessment for all projects requiring a TRE that are working with sensitive data
+  - A data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible
+  - Mandatory
+```
 
 ### 1.5 Project management
 
@@ -110,21 +141,42 @@ _The ability of the TRE organisation to manage projects effectively._
 
 #### Project onboarding
 
-| Statement                                                                                                                               | Guidance                                                                                                                                                                                                     | Importance |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| You have checks in place to ensure a project has the legal, financial and ethical requirements in place for the duration of the project | This includes checks that contracts are in place where required, adequate funding is available for the duration of the project, and responsibilities concerning data ownership are understood by all parties | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-project-onboarding
+* - Statement
+  - Guidance
+  - Importance
+* - You have checks in place to ensure a project has the legal, financial and ethical requirements in place for the duration of the project
+  - This includes checks that contracts are in place where required, adequate funding is available for the duration of the project, and responsibilities concerning data ownership are understood by all parties
+  - Mandatory
+```
 
 #### Project closure
 
-| Statement                                                                                                                         | Guidance                                                                                              | Importance |
-| --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------- |
-| You have standard processes in place for the end of a project, that follow all legal requirements and data security best practice | This includes the archiving of quality and log data along with the archiving or deletion of data sets | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-project-closure
+* - Statement
+  - Guidance
+  - Importance
+* - You have standard processes in place for the end of a project, that follow all legal requirements and data security best practice
+  - This includes the archiving of quality and log data along with the archiving or deletion of data sets
+  - Mandatory
+```
 
 #### Roles and responsibilities
 
-| Statement                                                                                        | Guidance                                                                                                                                                                                                            | Importance |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| You have clearly defined roles and responsibilities within your TRE organisation for all members | This may include roles such as users, system administrators, system operators, data providers and more. Every member of your TRE organisation should have a pre-defined role with clear powers and responsibilities | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-roles-responsibilities
+* - Statement
+  - Guidance
+  - Importance
+* - You have clearly defined roles and responsibilities within your TRE organisation for all members
+  - This may include roles such as users, system administrators, system operators, data providers and more. Every member of your TRE organisation should have a pre-defined role with clear powers and responsibilities
+  - Mandatory
+```
 
 ### 1.6 Member accreditation
 
@@ -132,18 +184,38 @@ The ability of the TRE organisation to ensure that people with access to data ar
 
 #### Onboarding members
 
-| Statement                                                                                                                        | Guidance                                                                                               | Importance |
-| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------- |
-| You have clear onboarding processes in place for all roles within your TRE organisation                                          | This may include all members signing role-specific terms of use, and completing role specific training | Mandatory  |
-| You have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data | This may include multi-factor authentication (MFA), ID checks or email/phone verification              | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-onboarding-members
+* - Statement
+  - Guidance
+  - Importance
+* - You have clear onboarding processes in place for all roles within your TRE organisation
+  - This may include all members signing role-specific terms of use, and completing role specific training
+  - Mandatory
+* - You have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data
+  - This may include multi-factor authentication (MFA), ID checks or email/phone verification
+  - Mandatory
+```
 
 #### Training management and delivery
 
-| Statement                                                                                                      | Guidance                                                                                                                                                                                                                                                                                                                    | Importance |
-| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| You have relevant training for all roles within the TRE organisation, and the ability to deliver this training | This may include: Cyber security training, GDPR training, and higher level training for system operators                                                                                                                                                                                                                    | Mandatory  |
-| All TRE organisation members have completed relevant training within the last 12 months                        |                                                                                                                                                                                                                                                                                                                             | Mandatory  |
-| You have a process in place to monitor all TRE organisation training completions & requirements                | This process should document which members have completed which training, when the training was completed, and the date the training expires. It should also document how you will notify members when their training is about to expire, and ensure they do not have access to any TRE if relevant training is out-of-date | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-training-management-delivery
+* - Statement
+  - Guidance
+  - Importance
+* - You have relevant training for all roles within the TRE organisation, and the ability to deliver this training
+  - This may include: Cyber security training, GDPR training, and higher level training for system operators
+  - Mandatory
+* - All TRE organisation members have completed relevant training within the last 12 months
+  -
+  - Mandatory
+* - You have a process in place to monitor all TRE organisation training completions & requirements
+  - This process should document which members have completed which training, when the training was completed, and the date the training expires. It should also document how you will notify members when their training is about to expire, and ensure they do not have access to any TRE if relevant training is out-of-date
+  - Mandatory
+```
 
 (standard_capability_computing_technology)=
 
@@ -543,12 +615,25 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 Vulnerability management describes the ability of the TRE organisation to identify, assess, report on, manage and remediate cyber vulnerabilities across endpoints, workloads, and systems.
 
-| Statement                                                                                                                        | Guidance                                                                                                                                                                                                       | Importance  |
-| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| All computing infrastructure belonging to the TRE should be kept up-to-date with security patches and antivirus (if appropriate) | This might involve scheduling regular automated scanning and application of updates. Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.                    | Recommended |
-| Regular vulnerability scans of TRE infrastructure should be conducted                                                            | Ensuring that scans are done on a regular basis can enable TRE operators can identify and address weaknesses that may have been introduced during the operational lifetime of the TRE.                         | Recommended |
-| TREs should regularly check the compliance of machine and resource configurations                                                | This might involve automated "desired state" enforcement, manual checks or checks over what is possible, for example ensuring that only certain network connections are allowed.                               | Recommended |
-| TREs should adhere to one or more external security standards                                                                    | The TRE organisation should identify appropriate security standards and best practices that it will adhere too. These should be stated to all stakeholders in advance of any data being brought in to the TRE. | Recommended |
+```{list-table}
+:header-rows: 1
+:name: tab-vulnerability-management
+* - Statement
+  - Guidance
+  - Importance
+* - All computing infrastructure belonging to the TRE should be kept up-to-date with security patches and antivirus (if appropriate)
+  - This might involve scheduling regular automated scanning and application of updates. Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.
+  - Recommended
+* - Regular vulnerability scans of TRE infrastructure should be conducted
+  - Ensuring that scans are done on a regular basis can enable TRE operators can identify and address weaknesses that may have been introduced during the operational lifetime of the TRE.
+  - Recommended
+* - TREs should regularly check the compliance of machine and resource configurations
+  - This might involve automated "desired state" enforcement, manual checks or checks over what is possible, for example ensuring that only certain network connections are allowed.
+  - Recommended
+* - TREs should adhere to one or more external security standards
+  - The TRE organisation should identify appropriate security standards and best practices that it will adhere too. These should be stated to all stakeholders in advance of any data being brought in to the TRE.
+  - Recommended
+```
 
 (security-testing)=
 
@@ -556,12 +641,25 @@ Vulnerability management describes the ability of the TRE organisation to identi
 
 Security testing enables the TRE organisation to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
 
-| Statement                                                                                                                                        | Guidance                                                                                                                                                                                                                                                                                                                                                                                                                                      | Importance  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| Penetration tests should be carried out on TREs                                                                                                  | By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously. Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents                                                                                                                                              | Recommended |
-| TRE security controls should be updated based on the results of security tests                                                                   | Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE. Regular testing will allow organisations to refine their TRE security controls and incident response capabilities, enabling them to adapt to any new security concerns that may arise as a result of changes in the underlying software. | Recommended |
-| TRE operators must have procedures in place for rapid incident response                                                                          | There may well be legal requirements to disclose details of any incidents, _e.g._ data breaches for organisations subject to GDPR. Having robust processes in place will ensure a swift and effective response when an incident occurs.                                                                                                                                                                                                       | Mandatory   |
-| TREs should publish details of their security testing strategy and positive results or outcomes (e.g. security fixes) resulting from the testing | Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and data providers, can trust that the data they work with or are responsible for is secure within a TRE.                                                                                                                                                                                                                              | Recommended |
+```{list-table}
+:header-rows: 1
+:name: tab-security-testing
+* - Statement
+  - Guidance
+  - Importance
+* - Penetration tests should be carried out on TREs
+  - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously. Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents
+  - Recommended
+* - TRE security controls should be updated based on the results of security tests
+  - Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE. Regular testing will allow organisations to refine their TRE security controls and incident response capabilities, enabling them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
+  - Recommended
+* - TRE operators must have procedures in place for rapid incident response
+  - There may well be legal requirements to disclose details of any incidents, _e.g._ data breaches for organisations subject to GDPR. Having robust processes in place will ensure a swift and effective response when an incident occurs.
+  - Mandatory
+* - TREs should publish details of their security testing strategy and positive results or outcomes (e.g. security fixes) resulting from the testing
+  - Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and data providers, can trust that the data they work with or are responsible for is secure within a TRE.
+  - Recommended
+```
 
 (encryption)=
 
@@ -571,13 +669,28 @@ _The ability of the TRE organisation to deploy and manage encryption to protect 
 
 Here we define 'project' data as the data brought in for work which is very likely to be sensitive and 'user' data, as the working files of a project which might hold copies of all or part of the project data or otherwise reveal sensitive data (_e.g._ through hard coded row/column names).
 
-| Statement                                                                    | Guidance                                                                                                                                                                                                                                                                                                     | Importance  |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| TREs must encrypt project and user data at rest                              | This prevents unauthorised access to the data even if the storage media is compromised. This may involve encrypted filesystems or tools to encrypt and decrypt data on demand. The encryption keys may be managed by the TRE organisation or by a trusted external actor (_e.g._ a cloud services provider). | Mandatory   |
-| TREs must encrypt data when in transit between the TRE and the outside world | Data encryption must be used to safeguard against interception or tampering during transmission. This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session                                                                                  | Mandatory   |
-| TREs should encrypt data when in transit inside the TRE                      | If possible, data transfers between different components of a TRE should also be encrypted                                                                                                                                                                                                                   | Recommended |
-| Encryption software should be updated                                        | The latest security patches and updates should be applied to any encryption software being used by the TRE. This helps address any known vulnerabilities or weaknesses in the encryption implementation.                                                                                                     | Recommended |
-| TREs should use secure key management                                        | TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (_e.g._ Single Sign On) for key management systems.                                                                                         | Recommended |
+```{list-table}
+:header-rows: 1
+:name: tab-encryption
+* - Statement
+  - Guidance
+  - Importance
+* - TREs must encrypt project and user data at rest
+  - This prevents unauthorised access to the data even if the storage media is compromised. This may involve encrypted filesystems or tools to encrypt and decrypt data on demand. The encryption keys may be managed by the TRE organisation or by a trusted external actor (_e.g._ a cloud services provider).
+  - Mandatory
+* - TREs must encrypt data when in transit between the TRE and the outside world
+  - Data encryption must be used to safeguard against interception or tampering during transmission. This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session
+  - Mandatory
+* - TREs should encrypt data when in transit inside the TRE
+  - If possible, data transfers between different components of a TRE should also be encrypted
+  - Recommended
+* - Encryption software should be updated
+  - The latest security patches and updates should be applied to any encryption software being used by the TRE. This helps address any known vulnerabilities or weaknesses in the encryption implementation.
+  - Recommended
+* - TREs should use secure key management
+  - TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (_e.g._ Single Sign On) for key management systems.
+  - Recommended
+```
 
 (physical-security)=
 
@@ -586,10 +699,19 @@ Here we define 'project' data as the data brought in for work which is very like
 The ability of the TRE organisation to manage and protect physical assets from unauthorised access, damage or destruction.
 Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 
-| Statement                                                                                         | Guidance                                                                                                                                                                                                                                                                                                                                                                                                                | Importance |
-| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| TREs could offer physical protection measures against data leakage or theft via physical means    | Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen. Physical controls on access to a TRE could include surveillance systems, restricting access to locked rooms that limit entry to authorised personnel only, visitor management systems and employee training. | Optional   |
-| TREs hosting particularly sensitive data may need to comply with specific regulatory requirements | Regulatory frameworks such as GDPR emphasise the need for physical security controls to protect sensitive data. Compliance with these regulations could require organisations to implement specific physical security measures to safeguard their TRE from unauthorised access.                                                                                                                                         | Optional   |
+```{list-table}
+:header-rows: 1
+:name: tab-physical-security
+* - Statement
+  - Guidance
+  - Importance
+* - TREs could offer physical protection measures against data leakage or theft via physical means
+  - Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen. Physical controls on access to a TRE could include surveillance systems, restricting access to locked rooms that limit entry to authorised personnel only, visitor management systems and employee training.
+  - Optional
+* - TREs hosting particularly sensitive data may need to comply with specific regulatory requirements
+  - Regulatory frameworks such as GDPR emphasise the need for physical security controls to protect sensitive data. Compliance with these regulations could require organisations to implement specific physical security measures to safeguard their TRE from unauthorised access.
+  - Optional
+```
 
 (standard_capability_supporting)=
 
@@ -601,25 +723,46 @@ The ability of the TRE organisation to access suitable and timely legal advice.
 
 <!-- Specific requirements? _e.g._ Article 32 of the GDPR requires organisations to regularly test and evaluate the effectiveness of the technical and organisational measures employed to protect personal data, and penetration testing is an effective way of assessing your technical defences. -->
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-legal
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
 
 ### 5.2 Relationship management
 
 The ability of the TRE organisation to maintain engagement with its customers, stakeholders and other interested parties.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-relationship-management
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
 
 ### 5.3 Other
 
 The ability of the TRE organisation to access other supporting capabilities such as financial or business continuity.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-other
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
 
 (standard_capability_roles)=
 
@@ -635,9 +778,16 @@ The researchers working on projects that involve logging into a TRE to access da
 
 <!-- The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE standard. -->
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-tre-role-user
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
 
 ### 6.2 TRE administration roles
 
@@ -646,9 +796,16 @@ These roles cover managing TRE computing infrastructure, but also administering 
 
 <!-- The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included. -->
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-tre-role-administrator
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
 
 ### 6.3 TRE developer roles
 
@@ -656,9 +813,16 @@ The software engineers responsible for developing and maintaining TRE software, 
 
 <!-- The document will explain recommended practices suitable for developing a software of this complexity and reference learnings from existing TRE developers. -->
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-tre-role-developer
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
 
 ### 6.4 TRE governance roles
 
@@ -666,9 +830,16 @@ Roles that uphold the governance of TREs.
 Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities.
 Typical roles might include data custodians, ethicists, an independent board or a lay panel.
 
-| Statement | Guidance |
-| --------- | -------- |
-|           |          |
+```{list-table}
+:header-rows: 1
+:name: tab-tre-role-governance
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
 
 ## Architecture
 
