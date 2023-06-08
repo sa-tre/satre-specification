@@ -59,10 +59,19 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
 
 _How an organsation determines what policies and regulations are required and ensures alignment to changes in requirements._
 
-| Statement                                                                                                                                  | Guidance                                                                                                                                                                                             | Importance |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| You have a process in place to ensure any new project requiring a TRE meets relevant legal, ethical and contractual requirements           | For example national legislation such as GDPR, discipline specific regulation like GCP or contractural requirements from a specific data provider such as a company or research partner organisation | Mandatory  |
-| You have a process in place to monitor changes to any legal, ethical and contractual requirements, and to update your policies accordingly |                                                                                                                                                                                                      | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-policy-regulation-management
+* - Statement
+  - Guidance
+  - Importance
+* - You have a process in place to ensure any new project requiring a TRE meets relevant legal, ethical and contractual requirements
+  - For example national legislation such as GDPR, discipline specific regulation like GCP or contractural requirements from a specific data provider such as a company or research partner organisation
+  - Mandatory
+* - You have a process in place to monitor changes to any legal, ethical and contractual requirements, and to update your policies accordingly
+  -
+  - Mandatory
+```
 
 ### 1.3 Quality management
 
