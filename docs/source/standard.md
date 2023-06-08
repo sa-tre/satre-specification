@@ -41,10 +41,19 @@ What the TRE organisation does to ensure information risk is measured and manage
 
 _The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards._
 
-| Statement                                                                                        | Guidance                                                                                                                                                  | Mandatory? |
-| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| You are able to audit your TRE organisation against relevant requirements and standards          | If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant | Mandatory  |
-| You report on and share outcomes of each audit of your TRE organisation with the required bodies | This may included regulatory bodies or the organisations that manage accreditations you have                                                              | Mandatory  |
+```{list-table}
+:header-rows: 1
+:name: tab-compliance-monitoring-reporting
+* - Statement
+  - Guidance
+  - Mandatory?
+* - You are able to audit your TRE organisation against relevant requirements and standards
+  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant
+  - Mandatory
+* - You report on and share outcomes of each audit of your TRE organisation with the required bodies
+  - This may included regulatory bodies or the organisations that manage accreditations you have
+  - Mandatory
+```
 
 ### 1.2 Policy regulation and management
 
