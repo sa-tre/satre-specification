@@ -35,7 +35,7 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 ## 1. Information governance
 
-What the TRE organisation does to ensure information risk is measured and managed to an acceptable level.
+This capability concerns what the TRE organisation does to ensure information risk is measured and managed to an acceptable level.
 
 ### 1.1 Compliance, monitoring and reporting
 
@@ -57,7 +57,7 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
 
 ### 1.2 Policy regulation and management
 
-_How an organsation determines what policies and regulations are required and ensures alignment to changes in requirements._
+_How the TRE organisation determines what policies and regulations are required and ensures alignment to changes in requirements._
 
 ```{list-table}
 :header-rows: 1
@@ -78,7 +78,7 @@ _How an organsation determines what policies and regulations are required and en
 
 _The ability of the TRE organisation to measure and control quality of processes, documentation and outputs._
 
-#### Document management
+#### 1.3.1 Document management
 
 ```{list-table}
 :header-rows: 1
@@ -95,7 +95,7 @@ _The ability of the TRE organisation to measure and control quality of processes
   - Mandatory
 ```
 
-#### Issue management
+#### 1.3.2 Issue management
 
 ```{list-table}
 :header-rows: 1
@@ -116,7 +116,7 @@ _The ability of the TRE organisation to measure and control quality of processes
 
 _The ability of the TRE organisation to measure, forecast and evaluate risks to information._
 
-#### Risk assessment
+#### 1.4.1 Risk assessment
 
 ```{list-table}
 :header-rows: 1
@@ -143,7 +143,7 @@ _The ability of the TRE organisation to measure, forecast and evaluate risks to 
 
 _The ability of the TRE organisation to manage projects effectively._
 
-#### Project onboarding
+#### 1.5.1 Project onboarding
 
 ```{list-table}
 :header-rows: 1
@@ -157,7 +157,7 @@ _The ability of the TRE organisation to manage projects effectively._
   - Mandatory
 ```
 
-#### Project closure
+#### 1.5.2 Project closure
 
 ```{list-table}
 :header-rows: 1
@@ -171,7 +171,7 @@ _The ability of the TRE organisation to manage projects effectively._
   - Mandatory
 ```
 
-#### Roles and responsibilities
+#### 1.5.3 Roles and responsibilities
 
 ```{list-table}
 :header-rows: 1
@@ -186,9 +186,9 @@ _The ability of the TRE organisation to manage projects effectively._
 
 ### 1.6 Member accreditation
 
-The ability of the TRE organisation to ensure that people with access to data are identified correctly and they are suitably qualified.
+_The ability of the TRE organisation to ensure that people with access to data are identified correctly and they are suitably qualified._
 
-#### Onboarding members
+#### 1.6.1 Onboarding members
 
 ```{list-table}
 :header-rows: 1
@@ -205,7 +205,7 @@ The ability of the TRE organisation to ensure that people with access to data ar
   - Mandatory
 ```
 
-#### Training management and delivery
+#### 1.6.2 Training management and delivery
 
 ```{list-table}
 :header-rows: 1
@@ -229,15 +229,15 @@ The ability of the TRE organisation to ensure that people with access to data ar
 
 ## 2. Computing technology
 
-What the TRE organisation does to manage systems for storing, retrieving, analysing and sending information.
+This capability concerns what the TRE organisation does to manage systems for storing, retrieving, analysing and sending information.
 
 ### 2.1 End user computing
 
-The ability of the TRE organisation to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
+_The ability of the TRE organisation to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data._
 
 #### 2.1.1 User interface
 
-The interfaces used for interacting with the TRE management system and the TRE workspace.
+_The interfaces used for interacting with the TRE management system and the TRE workspace._
 
 ```{list-table}
 :header-rows: 1
@@ -265,8 +265,7 @@ The interfaces used for interacting with the TRE management system and the TRE w
 
 #### 2.1.2 Software tools
 
-The tools used by researchers inside a TRE
-programming languages, IDEs, desktop applications etc.
+_The tools used by researchers inside a TRE, such as programming languages, IDEs and desktop applications._
 
 ```{list-table}
 :header-rows: 1
@@ -295,7 +294,7 @@ programming languages, IDEs, desktop applications etc.
 
 #### 2.1.3 Advanced or cluster computing
 
-The ability to run analyses requiring more compute resources, or more specialised hardware, than is present in the user's workspace.
+_The ability to run analyses requiring more compute resources, or more specialised hardware, than is present in the user's workspace._
 
 ```{list-table}
 :header-rows: 1
@@ -322,9 +321,6 @@ The ability to run analyses requiring more compute resources, or more specialise
 
 #### 2.1.4 Databases
 
-Provision of databases for users
-SQL, noSQL, etc.
-
 ```{list-table}
 :header-rows: 1
 :name: tab-end-user-databases
@@ -340,7 +336,7 @@ SQL, noSQL, etc.
 
 ### 2.2 Infrastructure analytics
 
-The ability of the TRE organisation to record and analyse data about the usage of the TRE.
+_The ability of the TRE organisation to record and analyse data about the usage of the TRE._
 
 ```{list-table}
 :header-rows: 1
@@ -362,7 +358,7 @@ The ability of the TRE organisation to record and analyse data about the usage o
 
 ### 2.3 Network management
 
-The ability of the TRE organisation to administer and secure network infrastructure using applications, tools and processes.
+_The ability of the TRE organisation to administer and secure network infrastructure using applications, tools and processes._
 
 ```{list-table}
 :header-rows: 1
@@ -388,7 +384,7 @@ The ability of the TRE organisation to administer and secure network infrastruct
 
 ### 2.4 Infrastructure lifecycle management
 
-The ability of the TRE organisation to manage necessary physical or virtual infrastructure.
+_The ability of the TRE organisation to manage necessary physical or virtual infrastructure._
 
 #### 2.4.1 Deployment management
 
@@ -504,11 +500,11 @@ _The ability of the TRE organisation to ensure all IT infrastructure, processes,
 
 ## 3. Data management
 
-The ability of the TRE organisation to manage data assets and ensure information remains secure.
+This capability concerns the ability of the TRE organisation to manage data assets and ensure information remains secure.
 
 ### 3.1 Data lifecycle management
 
-The ability of the TRE organisation to manage how and where data is stored, how it moves, changes and is removed.
+_The ability of the TRE organisation to manage how and where data is stored, how it moves, changes and is removed._
 
 ```{list-table}
 :header-rows: 1
@@ -557,7 +553,7 @@ The ability of the TRE organisation to manage how and where data is stored, how 
 
 ### 3.2 Identity and access management
 
-The ability of the TRE organisation to ensure the right people (identities) can access the tools and data they need and no more.
+_The ability of the TRE organisation to ensure the right people (identities) can access the tools and data they need and no more._
 
 ```{list-table}
 :header-rows: 1
@@ -590,7 +586,7 @@ The ability of the TRE organisation to ensure the right people (identities) can 
 
 ### 3.3 Output management
 
-The ability of the TRE organisation to ensure outputs are safely published and shared.
+_The ability of the TRE organisation to ensure outputs are safely published and shared._
 
 ```{list-table}
 :header-rows: 1
@@ -615,7 +611,7 @@ The ability of the TRE organisation to ensure outputs are safely published and s
 
 ## 4. Information security
 
-_The ability of the TRE organisation to protect against the unauthorized use of information, especially electronic data._
+This capability relates to the ability of the TRE organisation to protect against the unauthorized use of information, especially electronic data.
 
 Measures taken to ensure information security can be further categorised into:
 
@@ -631,7 +627,7 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 ### 4.1 Vulnerability management
 
-Vulnerability management describes the ability of the TRE organisation to identify, assess, report on, manage and remediate cyber vulnerabilities across endpoints, workloads, and systems.
+_The ability of the TRE organisation to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems._
 
 ```{list-table}
 :header-rows: 1
@@ -658,7 +654,7 @@ Vulnerability management describes the ability of the TRE organisation to identi
 
 ### 4.2 Security testing
 
-Security testing enables the TRE organisation to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
+_Security testing enables the TRE organisation to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security._
 
 ```{list-table}
 :header-rows: 1
@@ -717,7 +713,8 @@ Here we define 'project' data as the data brought in for work which is very like
 
 ### 4.4 Physical security
 
-The ability of the TRE organisation to manage and protect physical assets from unauthorised access, damage or destruction.
+_The ability of the TRE organisation to manage and protect physical assets from unauthorised access, damage or destruction._
+
 Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 
 ```{list-table}
@@ -741,7 +738,7 @@ Physical security controls can provide TREs using highly sensitive data an extra
 
 ### 5.1 Legal
 
-The ability of the TRE organisation to access suitable and timely legal advice.
+_The ability of the TRE organisation to access suitable and timely legal advice._
 
 <!-- Specific requirements? _e.g._ Article 32 of the GDPR requires organisations to regularly test and evaluate the effectiveness of the technical and organisational measures employed to protect personal data, and penetration testing is an effective way of assessing your technical defences. -->
 
@@ -759,7 +756,7 @@ The ability of the TRE organisation to access suitable and timely legal advice.
 
 ### 5.2 Relationship management
 
-The ability of the TRE organisation to maintain engagement with its customers, stakeholders and other interested parties.
+_The ability of the TRE organisation to maintain engagement with its customers, stakeholders and other interested parties._
 
 ```{list-table}
 :header-rows: 1
@@ -775,7 +772,7 @@ The ability of the TRE organisation to maintain engagement with its customers, s
 
 ### 5.3 Other
 
-The ability of the TRE organisation to access other supporting capabilities such as financial or business continuity.
+_The ability of the TRE organisation to access other supporting capabilities such as financial or business continuity._
 
 ```{list-table}
 :header-rows: 1
@@ -791,13 +788,13 @@ The ability of the TRE organisation to access other supporting capabilities such
 
 (standard_capability_roles)=
 
-## 6. Roles
+## Roles
 
 A TRE conforming to the SATRE standard should provide a broadly similar experience for stakeholders operating in each of these defined roles.
 There is not necessarily a one-to-one mapping between roles and people.
 One person can have multiple roles.
 
-### 6.1 TRE users
+### TRE users
 
 The researchers working on projects that involve logging into a TRE to access data.
 
@@ -815,7 +812,7 @@ The researchers working on projects that involve logging into a TRE to access da
   -
 ```
 
-### 6.2 TRE administration roles
+### TRE administration roles
 
 The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE standard.
 These roles cover managing TRE computing infrastructure, but also administering the TRE itself (_e.g._ managing users and projects).
@@ -834,7 +831,7 @@ These roles cover managing TRE computing infrastructure, but also administering 
   -
 ```
 
-### 6.3 TRE developer roles
+### TRE developer roles
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance.
 
@@ -852,7 +849,7 @@ The software engineers responsible for developing and maintaining TRE software, 
   -
 ```
 
-### 6.4 TRE governance roles
+### TRE governance roles
 
 Roles that uphold the governance of TREs.
 Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities.
