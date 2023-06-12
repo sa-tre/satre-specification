@@ -6,7 +6,7 @@
 
 _We're excited that you want to contribute_ 🚀
 
-**{ref}`Jump straight to contribution process <contributing_contribution_process>`**
+[**Jump straight to contribution process**](contributing-contribution-process)
 
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
@@ -15,7 +15,7 @@ We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
 As you start contributing don't forget that your ideas are more important than perfectly formatted contributions :heart:.
 
-If you have any questions that aren't discussed below, please let us know through one of the many ways to {ref}`get in touch <contributing_get_in_touch>`.
+If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](contributing-get-in-touch).
 
 ## Code of Conduct
 
@@ -32,7 +32,7 @@ We know that it can be daunting to start using Git and GitHub if you haven't wor
 We are here to help you figure out any of the jargon or confusing instructions you encounter ❤️!
 
 In order to contribute via GitHub, you'll need to set up a free account and sign in.
-Here are some [instructions](https://help.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
+Here are some [instructions](https://docs.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
 ## Contribution Model
@@ -70,7 +70,7 @@ They may also decide to where to publish the specification.
 The specification repository is self-contained and relates only to the specification specifically, or its governance.
 Any contributions to the wider SATRE project should be made through a different medium via the [SATRE GitHub organisation](https://github.com/sa-tre), or by contacting the SATRE team at [satre-contact@dundee.ac.uk](mailto:satre-contact@dundee.ac.uk).
 
-(contributing_contribution_process)=
+(contributing-contribution-process)=
 
 ### Contribution Process
 
@@ -99,8 +99,8 @@ The SATRE team will only merge pull requests that have no outstanding objections
 
 ## Writing in Markdown
 
-The [Myst Parser](inv:myst-parser:std:doc#syntax/typography) documentation has a guide on the Markdown format used in the specification source files.
-GitHub also has a helpful page on [getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github), which will be useful when writing Markdown for GitHub (for example in issue or pull request comments).
+The [Myst Parser](https://myst-parser.readthedocs.io/en/stable/syntax/typography.html) documentation has a guide on the Markdown format used in the specification source files.
+GitHub also has a helpful page on [getting started with writing and formatting on GitHub](https://docs.github.com/articles/getting-started-with-writing-and-formatting-on-github), which will be useful when writing Markdown for GitHub (for example in issue or pull request comments).
 
 You can think of Markdown as a few little symbols around your text that instruct how to render the text.
 For example, you could write words in **bold** (`**bold**`), in _italics_ (`_italics_`), or as a [link](https://medium.com/satre) (`[link](https://medium.com/satre)`) to another web page.
@@ -108,7 +108,7 @@ For example, you could write words in **bold** (`**bold**`), in _italics_ (`_ita
 Also when writing in Markdown, please [start each new sentence on a new line](https://sembr.org/).
 Having each sentence on a new line will make no difference to how the text is displayed.
 A blank line is needed to start a new paragraph.
-However, it makes the source and [diffs produced during the pull request](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read ✨!
+However, it makes the source and [diffs produced during the pull request](https://docs.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read ✨!
 
 ### Linting and auto-formatting
 
@@ -142,7 +142,7 @@ This work is taking on two main forms:
 1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven), [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
    The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
-(contributing_get_in_touch)=
+(contributing-get-in-touch)=
 
 ## Get in touch
 
