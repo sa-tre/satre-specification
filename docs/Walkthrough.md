@@ -142,7 +142,7 @@ PRs are a little more difficult to wrap your head around!
 This guide will show you how to comment on open PR.
 For a deeper dive, including how to create a PR, make changes and more, we recommend the Turing Way's [Introduction to GitHub Workshop](https://www.youtube.com/watch?v=Vcckl-2dASM), run at CarpentryCon22
 
-##### Comment on open Pull requests
+##### Comment on open Pull Requests
 
 This process will be similar to the one for Issues above
 
@@ -155,6 +155,40 @@ This process will be similar to the one for Issues above
 2. There are many things you can do on a PR - make changes to a file, comment on proposed changes, and more! For the purposes of this guide, we will just focus on comments. Make sure you are on the `Conversation` tab.
 
 3. From here, you can comment in the same way as you did with Issues (add your comment at the bottom, and click `Comment`).
+
+##### Create your own Pull Request
+
+If you would like to directly author a change to the specification yourself then you can create a Pull Request. Currently you will need to make a Fork of the SATRE repository to make a Pull Request. Here's it it works:
+
+1. **Create a Fork of the SATRE specification repository:**
+
+![](images/fork1.png)
+
+![](images/fork2.png)
+
+![](images/fork3.png)
+
+2. **Keep the Fork up to date.** It is common for work to continue on the original repository while you are working with your forked version of the repository. This means work on the original repository will not be reflected in your forked repository. You can keep your forked repository up to date by pressing the sync button (note that we are assuming there aren't any merge conflicts):
+
+![](images/fork4.png)
+
+3. **Edit the section you want to change.** Click on the `specification.md` file in the repo where you will be able to edit it:
+
+![](images/PRFork1.png)
+
+![](images/PRFork2.png)
+
+![](images/PRFork3.png)
+
+Note that although you are only changing your Forked repository (not the original repository) it is still recommended that you use Pull Requests and branches within your own Fork rather than committing directly to the `main` branch
+
+4. **Create the Pull Request to the original repository.** To merge the changes on this new branch from the forked repository into the main branch of the original repository:
+
+![](images/PRFork4.png)
+
+![](images/PRFork5.png)
+
+You have now just opened a Pull Request intended to merge the changes on your Fork to the original SATRE Repository! Don't forget to Sync your Fork when the Pull Request gets accepted into the original repository.
 
 ### Additional considerations for GitHub
 
