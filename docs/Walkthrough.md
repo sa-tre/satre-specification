@@ -158,7 +158,7 @@ This process will be similar to the one for Issues above
 
 ##### Create your own Pull Request
 
-If you would like to directly author a change to the specification yourself then you can create a Pull Request. Currently you will need to make a Fork of the SATRE repository to make a Pull Request. Here's it it works:
+If you would like to directly author a change to the specification yourself then you can create a Pull Request. Currently you will need to make a Fork of the SATRE repository to make a Pull Request. Here's how it works:
 
 1. **Create a Fork of the SATRE specification repository:**
 
