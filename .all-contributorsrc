@@ -114,6 +114,15 @@
         "content",
         "review"
       ]
+    },
+    {
+      "login": "JillB19",
+      "name": "Jillian Beggs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129426057?v=4",
+      "profile": "https://github.com/JillB19",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
