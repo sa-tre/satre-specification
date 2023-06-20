@@ -7,12 +7,13 @@
 ## Design
 
 ### Overview
-The SATRE specification has been designed to follow a capability-evaluation model. 
+
+The SATRE specification has been designed to follow a capability-evaluation model.
 
 The specification is presented in terms of capabilities teams should aim for across all aspects of TRE provision.
 These capabilities in turn are broken down into components, which are represented by statements of processes, methods and practices teams should have in place to ensure they fulfil the capability requirements.
 
-Any particular component is labeled as `Mandatory`, `Recommended` or `Optional` in order to meet the specification. 
+Any particular component is labeled as `Mandatory`, `Recommended` or `Optional` in order to meet the specification.
 Currently, teams are able to either meet the specification (show they can fulfil all `Mandatory` components) or not.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of `Mandatory`, `Recommended` and `Optional` components respectively.
 
@@ -26,6 +27,7 @@ Any particular TRE implementation should be able to score itself against each ca
 ```
 
 The SATRE specification contains four key parts:
+
 - **Architectural Principles**: The governing principles that all teams looking to use the specification should hold themselves accountable to
 - **Specification Pillars**: The broad, core areas of TRE provision the specification covers
 - **TRE Capabilities**: The capabilities within these pillars teams can measure themselves against
@@ -39,7 +41,8 @@ The SATRE specification contains four key parts:
 ```
 
 The SATRE Specification contains three core pillars for a TRE:
-- **{ref}`information governance <standard_capability_information_governance>`**: What the organisation does to ensure information risk is measured and managed to an acceptable level 
+
+- **{ref}`information governance <standard_capability_information_governance>`**: What the organisation does to ensure information risk is measured and managed to an acceptable level
 - **{ref}`computing technology <standard_capability_computing_technology>`**: What the organisation does to manage systems for storing, retrieving, and sending information
 - **{ref}`data management <standard_capability_data_management>`**: What the organisation does to manage data assets and ensure information remains secure
 
@@ -56,7 +59,6 @@ The SATRE standard has been developed based on the following principles:
 - TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
 - TREs conforming to the standard should be interoperable and provide a familiar end-user experience.
 - The standard will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
-
 
 Finally, the TRE organisation will need to consider different {ref}`roles <standard_capability_roles>` with which individuals might interact with the TRE.
 
