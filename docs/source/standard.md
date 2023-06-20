@@ -31,7 +31,7 @@ The SATRE specification contains four key parts:
 - **Architectural Principles**: The governing principles that all teams looking to use the specification should hold themselves accountable to
 - **Specification Pillars**: The broad, core areas of TRE provision the specification covers
 - **TRE Capabilities**: The capabilities within these pillars teams can measure themselves against
-- **TRE Capability Components**: The decomposed statements concerning processes, methods and practices that make up a capability, labeled as `Mandatory`, `Recommended` or `Optional`
+- **TRE Capability Components**: The statements concerning processes, controls, practices and applications that make up a capability, labeled as `Mandatory`, `Recommended` or `Optional`
 
 ### Pillars and Capability Map
 
