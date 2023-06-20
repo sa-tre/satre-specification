@@ -4,6 +4,52 @@
 
 <!-- What this document intends to do (and what it doesn't), the level of detail we aim for contrasted with other technical standards -->
 
+## Design
+
+### Overview
+The SATRE specification has been designed to follow a capability-evaluation model. 
+
+The specification is presented in terms of capabilities teams should aim for across all aspects of TRE provision.
+These capabilities in turn are broken down into components, which are represented by statements of processes, methods and practices teams should have in place to ensure they fulfil the capability requirements.
+
+Any particular component is labeled as `Mandatory`, `Recommended` or `Optional` in order to meet the specification. 
+Currently, teams are able to either meet the specification (show they can fulfil all `Mandatory` components) or not.
+Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of `Mandatory`, `Recommended` and `Optional` components respectively.
+
+Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see {ref}`evaluation` for details).
+
+### Architecture
+
+```{figure} ../images/Architecture.svg
+:alt: SATRE Specification Architecture
+:align: center
+```
+
+The SATRE specification contains four key parts:
+- **Architectural Principles**: The governing principles that all teams looking to use the specification should hold themselves accountable to
+- **Specification Pillars**: The broad, core areas of TRE provision the specification covers
+- **TRE Capabilities**: The capabilities within these pillars teams can measure themselves against
+- **TRE Capability Components**: The decomposed statements concerning processes, methods and practices that make up a capability, labeled as `Mandatory`, `Recommended` or `Optional`
+
+### Pillars and Capability Map
+
+```{figure} ../images/Capability_Map.svg
+:alt: SATRE Pillars Capability Map
+:align: center
+```
+
+The SATRE Specification contains three core pillars for a TRE:
+- **{ref}`information governance <standard_capability_information_governance>`**: What the organisation does to ensure information risk is measured and managed to an acceptable level 
+- **{ref}`computing technology <standard_capability_computing_technology>`**: What the organisation does to manage systems for storing, retrieving, and sending information
+- **{ref}`data management <standard_capability_data_management>`**: What the organisation does to manage data assets and ensure information remains secure
+
+In addition to these capabilities, any organisation running a TRE (TRE organisation) will need to possess various **{ref}`supporting capabilities <standard_capability_supporting>`**, particularly around:
+
+- legal requirements — particularly around data protection and contract management
+- relationship management — engagement with internal and external stakeholders as well as the wider public
+
+## Principles
+
 The SATRE standard has been developed based on the following principles:
 
 - TREs should be as as easy as possible for end-users to use (_e.g._ researchers) whilst still remaining secure.
@@ -11,19 +57,6 @@ The SATRE standard has been developed based on the following principles:
 - TREs conforming to the standard should be interoperable and provide a familiar end-user experience.
 - The standard will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
 
-The SATRE standard is based around the idea of capabilities, some of which are required and some of which are optional.
-Any particular TRE implementation should be able to score itself against each capability as either "supported", "partially supported" or "unsupported" (see {ref}`evaluation` for details).
-The capabilities are grouped into the following broad categories:
-
-- {ref}`information governance <standard_capability_information_governance>`
-- {ref}`computing technology <standard_capability_computing_technology>`
-- {ref}`data management <standard_capability_data_management>`
-- {ref}`information security <standard_capability_information_security>`
-
-In addition to these capabilities, any organisation running a TRE (TRE organisation) will need to possess various {ref}`supporting capabilities <standard_capability_supporting>`, particularly around:
-
-- legal requirements — particularly around data protection and contract management
-- relationship management — engagement with internal and external stakeholders as well as the wider public
 
 Finally, the TRE organisation will need to consider different {ref}`roles <standard_capability_roles>` with which individuals might interact with the TRE.
 
