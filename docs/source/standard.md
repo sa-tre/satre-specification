@@ -28,6 +28,8 @@ The SATRE specification contains four key parts:
 ```{figure} ../images/Architecture.svg
 :alt: SATRE Specification Architecture
 :align: center
+
+SATRE Specification Architecture
 ```
 
 Architectural Principles
@@ -62,6 +64,8 @@ The SATRE Specification contains three core pillars for a TRE:
 ```{figure} ../images/Capability_Map.svg
 :alt: SATRE Pillars Capability Map
 :align: center
+
+SATRE Pillars Capability Map
 ```
 
 {ref}`Information governance <pillar_information_governance>`
