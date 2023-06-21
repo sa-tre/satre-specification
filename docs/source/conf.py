@@ -21,7 +21,7 @@ extensions = [
     "myst_parser",
 ]
 
-myst_enable_extensions = ["colon_fence"]
+myst_enable_extensions = ["colon_fence", "deflist"]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
