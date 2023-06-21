@@ -108,6 +108,7 @@ pillars/supporting.md
 ```
 
 (tre_roles)=
+
 ## Roles
 
 A TRE conforming to the SATRE specification should provide a broadly similar experience for stakeholders operating in each of these defined roles.
