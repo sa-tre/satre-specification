@@ -93,20 +93,6 @@ Finally, the TRE organisation will need to consider different {ref}`roles <tre_r
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
 
-<!-- List of capabilities. Each of these hould be described in prose and accompanied by a short requirements table of "Statement" and "Guidance" for each requirement. -->
-
-## Specification
-
-Details of the SATRE specification are shown below, together with the breakdown of the pillars into capabilities and components.
-
-```{toctree}
-:numbered:
-pillars/information_governance.md
-pillars/computing_technology.md
-pillars/data_management.md
-pillars/supporting.md
-```
-
 (tre_roles)=
 
 ## Roles
@@ -178,4 +164,16 @@ Typical roles might include data custodians, ethicists, an independent board or 
   - Role description
 * -
   -
+```
+
+## Specification
+
+Details of the SATRE specification are shown below, together with the breakdown of the pillars into capabilities and components.
+
+```{toctree}
+:numbered:
+pillars/information_governance.md
+pillars/computing_technology.md
+pillars/data_management.md
+pillars/supporting.md
 ```
