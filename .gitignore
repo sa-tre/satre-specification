@@ -39,3 +39,4 @@ Thumbs.db
 # Editor backup files #
 #######################
 *~
+.DS_Store
