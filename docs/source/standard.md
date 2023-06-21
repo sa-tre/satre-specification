@@ -172,17 +172,3 @@ Typical roles might include data custodians, ethicists, an independent board or 
 * -
   -
 ```
-
-## Architecture
-
-<!--
-Includes diagrams of how the TRE features connect together, but remains a high level description that doesn't specify which exact technologies a TRE developer should use.
-This can also offer an explanation of how people from different roles interact/experience these features.
--->
-
-## Conclusion
-
-<!--
-Benefits of adopting this standard for developing a TRE.
-Benefits of existing TRE efforts working to conform to this standard (users and admin roles as well as developers).
--->
