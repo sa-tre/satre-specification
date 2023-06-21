@@ -16,7 +16,7 @@ Each component is a statement of a process, method or practice teams should have
 
 Any particular component is labelled with an importance.
 The importance is one of mandatory, recommended or optional.
-Currently, teams are able to either meet the specification (show they can fulfil all mandatory components) or not.
+Teams are able demonstrate that they meet the specification by showing they can fulfil all mandatory components.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
 
 Any particular TRE implementation should be able to score itself against each capability as either supported, partially supported or unsupported (see {ref}`evaluation` for details).
