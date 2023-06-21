@@ -13,7 +13,7 @@ The SATRE specification has been designed to follow a capability-evaluation mode
 The specification is presented in terms of capabilities teams should aim for across all aspects of TRE provision.
 These capabilities in turn are broken down into components, which are represented by statements of processes, methods and practices teams should have in place to ensure they fulfil the capability requirements.
 
-Any particular component is labeled as mandatory, recommended or optional in order to meet the specification.
+Any particular component is labelled as mandatory, recommended or optional in order to meet the specification.
 Currently, teams are able to either meet the specification (show they can fulfil all mandatory components) or not.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
 
@@ -31,7 +31,7 @@ The SATRE specification contains four key parts:
 - **Architectural Principles**: The governing principles that all teams looking to use the specification should hold themselves accountable to
 - **Specification Pillars**: The broad, core areas of TRE provision the specification covers
 - **TRE Capabilities**: The capabilities within these pillars teams can measure themselves against
-- **TRE Capability Components**: The statements concerning processes, controls, practices and applications that make up a capability, labeled as mandatory, recommended or optional
+- **TRE Capability Components**: The statements concerning processes, controls, practices and applications that make up a capability, labelled as mandatory, recommended or optional
 
 ### Pillars and Capability Map
 
