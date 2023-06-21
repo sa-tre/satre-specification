@@ -11,7 +11,7 @@
 The SATRE specification follows a capability-evaluation model.
 
 The specification is presented in terms of capabilities teams should aim for across all aspects of TRE provision.
-These capabilities in turn are broken down into components.
+These capabilities are broken down into components.
 Each component is a statement of a process, method or practice teams should have in place to ensure they fulfil the capability requirements.
 
 Any particular component is labelled with an importance.
