@@ -118,11 +118,9 @@ The researchers working on projects that involve logging into a TRE to access da
 :header-rows: 1
 :name: tab-tre-role-user
 
-* - Statement
-  - Guidance
-  - Importance
+* - Role name
+  - Role description
 * -
-  -
   -
 ```
 
@@ -137,11 +135,9 @@ These roles cover managing TRE computing infrastructure, but also administering 
 :header-rows: 1
 :name: tab-tre-role-administrator
 
-* - Statement
-  - Guidance
-  - Importance
+* - Role name
+  - Role description
 * -
-  -
   -
 ```
 
@@ -155,11 +151,9 @@ The software engineers responsible for developing and maintaining TRE software, 
 :header-rows: 1
 :name: tab-tre-role-developer
 
-* - Statement
-  - Guidance
-  - Importance
+* - Role name
+  - Role description
 * -
-  -
   -
 ```
 
@@ -172,11 +166,10 @@ Typical roles might include data custodians, ethicists, an independent board or 
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-governance
-* - Statement
-  - Guidance
-  - Importance
+
+* - Role name
+  - Role description
 * -
-  -
   -
 ```
 
