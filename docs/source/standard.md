@@ -8,7 +8,7 @@
 
 ### Overview
 
-The SATRE specification has been designed to follow a capability-evaluation model.
+The SATRE specification follows a capability-evaluation model.
 
 The specification is presented in terms of capabilities teams should aim for across all aspects of TRE provision.
 These capabilities in turn are broken down into components, which are represented by statements of processes, methods and practices teams should have in place to ensure they fulfil the capability requirements.
