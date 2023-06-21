@@ -2,8 +2,6 @@
 
 # Computing technology
 
-(standard_capability_computing_technology)=
-
 This capability concerns what the TRE organisation does to manage systems for storing, retrieving, analysing and sending information.
 
 ## End user computing

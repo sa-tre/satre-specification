@@ -1,4 +1,4 @@
-(standard)=
+(specification)=
 
 # A Standard Architecture for TREs
 
@@ -59,7 +59,7 @@ Optional
 
 ### Pillars and Capability Map
 
-The SATRE Specification contains three core pillars for a TRE:
+The SATRE specification contains three core pillars for a TRE:
 
 ```{figure} ../images/Capability_Map.svg
 :alt: SATRE Pillars Capability Map
@@ -82,12 +82,12 @@ These will include legal requirements and relationship management.
 
 ## Principles
 
-The SATRE standard has been developed based on the following principles:
+The SATRE specification has been developed based on the following principles:
 
 - TREs should be as as easy as possible for end-users to use (_e.g._ researchers) whilst still remaining secure.
 - TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
-- TREs conforming to the standard should be interoperable and provide a familiar end-user experience.
-- The standard will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
+- TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
+- The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
 
 Finally, the TRE organisation will need to consider different {ref}`roles <tre_roles>` with which individuals might interact with the TRE.
 
@@ -96,6 +96,8 @@ There might be good reasons why any particular TRE does not possess one or more 
 <!-- List of capabilities. Each of these hould be described in prose and accompanied by a short requirements table of "Statement" and "Guidance" for each requirement. -->
 
 ## Specification
+
+Details of the SATRE specification are shown below, together with the breakdown of the pillars into capabilities and components.
 
 ```{toctree}
 :numbered:
@@ -108,7 +110,7 @@ pillars/supporting.md
 (tre_roles)=
 ## Roles
 
-A TRE conforming to the SATRE standard should provide a broadly similar experience for stakeholders operating in each of these defined roles.
+A TRE conforming to the SATRE specification should provide a broadly similar experience for stakeholders operating in each of these defined roles.
 There is not necessarily a one-to-one mapping between roles and people.
 One person can have multiple roles.
 
@@ -116,7 +118,7 @@ One person can have multiple roles.
 
 The researchers working on projects that involve logging into a TRE to access data.
 
-<!-- The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE standard. -->
+<!-- The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE specification. -->
 
 ```{list-table}
 :header-rows: 1
@@ -130,7 +132,7 @@ The researchers working on projects that involve logging into a TRE to access da
 
 ### TRE administration roles
 
-The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE standard.
+The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE specification.
 These roles cover managing TRE computing infrastructure, but also administering the TRE itself (_e.g._ managing users and projects).
 
 <!-- The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included. -->
