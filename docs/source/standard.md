@@ -14,7 +14,8 @@ The specification is presented in terms of capabilities teams should aim for acr
 These capabilities in turn are broken down into components.
 Each component is a statement of a process, method or practice teams should have in place to ensure they fulfil the capability requirements.
 
-Any particular component is labelled as mandatory, recommended or optional in order to meet the specification.
+Any particular component is labelled with an importance.
+The importance is one of mandatory, recommended or optional.
 Currently, teams are able to either meet the specification (show they can fulfil all mandatory components) or not.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
 
@@ -39,7 +40,20 @@ TRE Capabilities
 : The capabilities within these pillars teams can measure themselves against.
 
 TRE Capability Components
-: The statements concerning processes, controls, practices and applications that make up a capability, labelled as mandatory, recommended or optional.
+: The statements concerning processes, controls, practices and applications that make up a capability, including an importance label.
+
+### Capability Component Importance Labels
+
+Our interpretation of the capability component importance labels are:
+
+Mandatory
+: We believe this is required. If this component is not supported, then the capability, and the specification, is not met.
+
+Recommended
+: We believe that TREs should have this component. It makes a TRE better.
+
+Optional
+: We believe many TREs would benefit from this component. However, we recognise there are reasons a team may actively choose not to support this component.
 
 ### Pillars and Capability Map
 
