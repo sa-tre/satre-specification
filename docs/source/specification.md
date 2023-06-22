@@ -1,12 +1,8 @@
 (specification)=
 
-# A Standard Architecture for TREs
+# What is the SATRE specification?
 
 <!-- What this document intends to do (and what it doesn't), the level of detail we aim for contrasted with other technical standards -->
-
-## Design
-
-### Overview
 
 The SATRE specification follows a capability-evaluation model.
 
@@ -15,13 +11,27 @@ These capabilities are broken down into components.
 Each component is a statement of a process, method or practice teams should have in place to ensure they fulfil the capability requirements.
 
 Any particular component is labelled with an importance.
-The importance is one of mandatory, recommended or optional.
-Teams are able demonstrate that they meet the specification by showing they can fulfil all mandatory components.
+The importance is one of **mandatory**, **recommended** or **optional**.
+
+:::{note}
+The intended meaning of the capability component importance labels is as follows:
+
+Mandatory
+: We believe this is required. If this component is not supported, then the capability, and the specification, is not met.
+
+Recommended
+: We believe that TREs should have this component. It makes a TRE better.
+
+Optional
+: We believe many TREs would benefit from this component. However, we recognise there are reasons a team may actively choose not to support this component.
+:::
+
+Teams are able demonstrate that they meet the specification by showing they can fulfil all **mandatory** components.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
 
 Any particular TRE implementation should be able to score itself against each capability as either supported, partially supported or unsupported (see {ref}`evaluation` for details).
 
-### Architecture
+## Structure
 
 The SATRE specification contains four key parts:
 
@@ -32,32 +42,38 @@ The SATRE specification contains four key parts:
 SATRE Specification Architecture
 ```
 
-Architectural Principles
+{ref}`Architectural Principles <satre_principles>`
 : The principles that all teams looking to use the specification should hold themselves accountable to.
 
-Specification Pillars
+{ref}`Specification Pillars <satre_pillars>`
 : The broad areas of TRE provisioning the specification covers.
 
 TRE Capabilities
 : The capabilities within these pillars teams can measure themselves against.
 
 TRE Capability Components
-: The statements concerning processes, controls, practices and applications that make up a capability, including an importance label.
+: The statements concerning processes, controls, practices and applications that make up a capability, together with an importance label.
 
-### Capability Component Importance Labels
+In addition we also describe some {ref}`roles <satre_roles>` that are necessary for the operation and use of a TRE.
 
-Our interpretation of the capability component importance labels are:
+(satre_principles)=
 
-Mandatory
-: We believe this is required. If this component is not supported, then the capability, and the specification, is not met.
+## Architectural Principles
 
-Recommended
-: We believe that TREs should have this component. It makes a TRE better.
+The SATRE specification has been developed based on the following principles:
 
-Optional
-: We believe many TREs would benefit from this component. However, we recognise there are reasons a team may actively choose not to support this component.
+- TREs should be as as easy as possible for end-users to use (_e.g._ researchers) whilst still remaining secure.
+- TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
+- TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
+- The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
 
-### Pillars and Capability Map
+Finally, the TRE organisation will need to consider different {ref}`roles <satre_roles>` with which individuals might interact with the TRE.
+
+There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
+
+(satre_pillars)=
+
+### Specification Pillars and Capabilities
 
 The SATRE specification contains three core pillars for a TRE:
 
@@ -80,20 +96,7 @@ SATRE Pillars Capability Map
 In addition to these capabilities, any organisation running a TRE (TRE organisation) will need to possess various {ref}`supporting capabilities <pillar_supporting>`.
 These will include legal requirements and relationship management.
 
-## Principles
-
-The SATRE specification has been developed based on the following principles:
-
-- TREs should be as as easy as possible for end-users to use (_e.g._ researchers) whilst still remaining secure.
-- TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
-- TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
-- The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
-
-Finally, the TRE organisation will need to consider different {ref}`roles <tre_roles>` with which individuals might interact with the TRE.
-
-There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
-
-(tre_roles)=
+(satre_roles)=
 
 ## Roles
 
@@ -164,16 +167,4 @@ Typical roles might include data custodians, ethicists, an independent board or 
   - Role description
 * -
   -
-```
-
-## Specification
-
-Details of the SATRE specification are shown below, together with the breakdown of the pillars into capabilities and components.
-
-```{toctree}
-:numbered:
-pillars/information_governance.md
-pillars/computing_technology.md
-pillars/data_management.md
-pillars/supporting.md
 ```
