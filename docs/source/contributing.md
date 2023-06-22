@@ -79,7 +79,7 @@ Issue templates have been designed for common issue types to help collect the mo
 It is possible, however, to open a blank issue if none of the templates are suitable.
 
 While we encourage opening issues, we understand that some may be more comfortable contributing ideas in other ways such as through discussions and notes at SATRE Collaboration Cafés.
-The SATRE Team will aim to collate ideas and draft Issues that welcome further discussion and attribute those involved in initial discussions. 
+The SATRE Team will aim to collate ideas and draft issues that welcome further discussion and attribute those involved in initial discussions.
 The SATRE Team will try to capture the ideas as accurately as possible, in good faith, and be guided by the SATRE Community to correct any misconceptions.
 
 When ready, changes will be proposed in pull requests.
