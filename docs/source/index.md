@@ -10,11 +10,11 @@ contributors.md
 
 ## Introduction
 
-Motivation: Why a TRE specification is needed/ useful and a description of the broader SATRE project, conception and goals
+<!-- Motivation: Why a TRE specification is needed/ useful and a description of the broader SATRE project, conception and goals -->
 
 ## Trusted Research Environments
 
-What are they, how many exist, the broad categories
+<!-- What are they, how many exist, the broad categories -->
 
 ## A Standard Architecture for TREs
 
