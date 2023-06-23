@@ -13,24 +13,6 @@ SATRE Pillars Capability Map
 
 See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars`
 
-## Compliance, monitoring and reporting
-
-_The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards._
-
-```{list-table}
-:header-rows: 1
-:name: tab-compliance-monitoring-reporting
-* - Statement
-  - Guidance
-  - Importance
-* - You are able to audit your TRE organisation against relevant requirements and standards
-  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant
-  - Mandatory
-* - You report on and share outcomes of each audit of your TRE organisation with the required bodies
-  - This may included regulatory bodies or the organisations that manage accreditations you have
-  - Mandatory
-```
-
 ## Policy regulation and management
 
 _How the TRE organisation determines what policies and regulations are required and ensures alignment to changes in requirements._
@@ -85,6 +67,24 @@ _The ability of the TRE organisation to measure and control quality of processes
   - Mandatory
 * - You have methods in place to record progress in resolving issues with, and deviations against, your policies
   -
+  - Mandatory
+```
+
+### Compliance, monitoring and reporting
+
+_The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards._
+
+```{list-table}
+:header-rows: 1
+:name: tab-compliance-monitoring-reporting
+* - Statement
+  - Guidance
+  - Importance
+* - You are able to audit your TRE organisation against relevant requirements and standards
+  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant
+  - Mandatory
+* - You report on and share outcomes of each audit of your TRE organisation with the required bodies
+  - This may included regulatory bodies or the organisations that manage accreditations you have
   - Mandatory
 ```
 
