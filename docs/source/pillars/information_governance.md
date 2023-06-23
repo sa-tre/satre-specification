@@ -4,6 +4,15 @@
 
 This pillar concerns what the TRE organisation does to ensure information risk is measured and managed to an acceptable level.
 
+```{figure} ../../images/Capability_Map/information_governance.drawio.svg
+:alt: SATRE Pillars Capability Map
+:align: center
+
+SATRE Pillars Capability Map
+```
+
+See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars`
+
 ## Compliance, monitoring and reporting
 
 _The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards._

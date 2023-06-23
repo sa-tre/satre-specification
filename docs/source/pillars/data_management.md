@@ -4,6 +4,15 @@
 
 This capability concerns the ability of the TRE organisation to manage data assets and ensure information remains secure.
 
+```{figure} ../../images/Capability_Map/data_management.drawio.svg
+:alt: SATRE Pillars Capability Map
+:align: center
+
+SATRE Pillars Capability Map
+```
+
+See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars`
+
 ## Data lifecycle management
 
 _The ability of the TRE organisation to manage how and where data is stored, how it moves, changes and is removed._

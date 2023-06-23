@@ -2,6 +2,15 @@
 
 # Supporting
 
+```{figure} ../../images/Capability_Map/supporting_capabilities.drawio.svg
+:alt: SATRE Pillars Capability Map
+:align: center
+
+SATRE Pillars Capability Map
+```
+
+See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars`
+
 ## Legal
 
 _The ability of the TRE organisation to access suitable and timely legal advice._
