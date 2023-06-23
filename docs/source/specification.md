@@ -77,7 +77,7 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 The SATRE specification contains three core pillars for a TRE:
 
-```{figure} ../images/Capability_Map.svg
+```{figure} ../images/Capability_Map.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
 
