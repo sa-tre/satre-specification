@@ -258,3 +258,17 @@ Physical security controls can provide TREs using highly sensitive data an extra
   - Regulatory frameworks such as GDPR emphasise the need for physical security controls to protect sensitive data. Compliance with these regulations could require organisations to implement specific physical security measures to safeguard their TRE from unauthorised access.
   - Optional
 ```
+
+### Availability management
+
+```{list-table}
+:header-rows: 1
+:name: tab-availability management
+
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
