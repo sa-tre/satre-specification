@@ -95,6 +95,38 @@ See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars`
   -
 ```
 
+## Relationship management
+
+_The ability of the TRE organisation to maintain engagement with its customers, stakeholders and other interested parties._
+
+### Stakeholder relationships
+
+```{list-table}
+:header-rows: 1
+:name: tab-relationship-stakeholder
+
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
+
+### Data subject/ public relationships
+
+```{list-table}
+:header-rows: 1
+:name: tab-relationship-subject
+
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
+
 ## Legal services
 
 _The ability of the TRE organisation to access suitable and timely legal advice._
@@ -134,38 +166,6 @@ _The ability of the TRE organisation to access suitable and timely legal advice.
 ```{list-table}
 :header-rows: 1
 :name: tab-legal-cm
-
-* - Statement
-  - Guidance
-  - Importance
-* -
-  -
-  -
-```
-
-## Relationship management
-
-_The ability of the TRE organisation to maintain engagement with its customers, stakeholders and other interested parties._
-
-### Stakeholder relationships
-
-```{list-table}
-:header-rows: 1
-:name: tab-relationship-stakeholder
-
-* - Statement
-  - Guidance
-  - Importance
-* -
-  -
-  -
-```
-
-### Data subject/ public relationships
-
-```{list-table}
-:header-rows: 1
-:name: tab-relationship-subject
 
 * - Statement
   - Guidance
