@@ -120,7 +120,7 @@ _The ability of the TRE organisation to ensure outputs are safely published and 
 
 (information-search-and-discovery)=
 
-### Information search and discovery
+## Information search and discovery
 
 ```{list-table}
 :header-rows: 1
