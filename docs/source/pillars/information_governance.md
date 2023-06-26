@@ -96,8 +96,6 @@ _The independent examination of the organisation and reporting on adherence to s
 
 _The ability of the TRE organisation to measure, forecast and evaluate risks to information._
 
-### Risk assessment
-
 ```{list-table}
 :header-rows: 1
 :name: tab-risk-assessment
