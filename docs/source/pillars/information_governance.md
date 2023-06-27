@@ -88,10 +88,6 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
   - Mandatory
 ```
 
-### Internal Audit and Reporting
-
-_The independent examination of the organisation and reporting on adherence to standards and stated processes._
-
 ## Risk management
 
 _The ability of the TRE organisation to measure, forecast and evaluate risks to information._
