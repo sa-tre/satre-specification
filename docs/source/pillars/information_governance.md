@@ -88,9 +88,9 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
   - Mandatory
 ```
 
-### Internal Audit and Reporting
+### Internal Audit
 
-_The independent examination of the organisation and reporting on adherence to standards and stated processes._
+_An independent evaluation process within the TRE organisation that assesses and improves its internal controls, risk management, and governance.._
 
 ```{list-table}
 :header-rows: 1
@@ -99,9 +99,12 @@ _The independent examination of the organisation and reporting on adherence to s
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - You can audit your TRE organisation against relevant requirements and standards
+  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant.
+  - Mandatory
+* - You report on and share outcomes of each audit of your TRE organisation with the required bodies
+  - This may included regulatory bodies or the organisations that manage accreditations you have
+  - Mandatory
 ```
 
 ## Risk management
