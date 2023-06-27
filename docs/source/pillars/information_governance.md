@@ -11,7 +11,7 @@ This pillar concerns what the TRE organisation does to ensure information risk i
 SATRE Pillars Capability Map
 ```
 
-See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars`
+<!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
 
 ## Policy regulation and management
 

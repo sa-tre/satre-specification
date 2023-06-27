@@ -11,7 +11,7 @@ This capability concerns the ability of the TRE organisation to manage data asse
 SATRE Pillars Capability Map
 ```
 
-See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars`
+<!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
 
 ## Data lifecycle management
 
