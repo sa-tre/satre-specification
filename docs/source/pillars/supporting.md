@@ -2,7 +2,7 @@
 
 # Supporting
 
-```{figure} ../../images/Capability_Map/supporting_capabilities.drawio.svg
+```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
 

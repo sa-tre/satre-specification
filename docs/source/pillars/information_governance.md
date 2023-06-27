@@ -4,7 +4,7 @@
 
 This pillar concerns what the TRE organisation does to ensure information risk is measured and managed to an acceptable level.
 
-```{figure} ../../images/Capability_Map/information_governance.drawio.svg
+```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
 

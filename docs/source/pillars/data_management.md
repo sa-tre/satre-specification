@@ -4,7 +4,7 @@
 
 This capability concerns the ability of the TRE organisation to manage data assets and ensure information remains secure.
 
-```{figure} ../../images/Capability_Map/data_management.drawio.svg
+```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
 

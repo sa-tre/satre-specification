@@ -4,7 +4,7 @@
 
 This capability concerns what the TRE organisation does to manage systems for storing, retrieving, analysing and sending information.
 
-```{figure} ../../images/Capability_Map/computing_technology.drawio.svg
+```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
 
