@@ -4,23 +4,14 @@
 
 This pillar concerns what the TRE organisation does to ensure information risk is measured and managed to an acceptable level.
 
-## Compliance, monitoring and reporting
+```{figure} ../../images/Capability_Map/full.drawio.svg
+:alt: SATRE Pillars Capability Map
+:align: center
 
-_The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards._
-
-```{list-table}
-:header-rows: 1
-:name: tab-compliance-monitoring-reporting
-* - Statement
-  - Guidance
-  - Importance
-* - You are able to audit your TRE organisation against relevant requirements and standards
-  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant
-  - Mandatory
-* - You report on and share outcomes of each audit of your TRE organisation with the required bodies
-  - This may included regulatory bodies or the organisations that manage accreditations you have
-  - Mandatory
+SATRE Pillars Capability Map
 ```
+
+<!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
 
 ## Policy regulation and management
 
@@ -79,11 +70,27 @@ _The ability of the TRE organisation to measure and control quality of processes
   - Mandatory
 ```
 
+### Compliance, monitoring and reporting
+
+_The ability of the TRE organisation to monitor compliance with internal and external requirements, agreements, laws and standards._
+
+```{list-table}
+:header-rows: 1
+:name: tab-compliance-monitoring-reporting
+* - Statement
+  - Guidance
+  - Importance
+* - You are able to audit your TRE organisation against relevant requirements and standards
+  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant
+  - Mandatory
+* - You report on and share outcomes of each audit of your TRE organisation with the required bodies
+  - This may included regulatory bodies or the organisations that manage accreditations you have
+  - Mandatory
+```
+
 ## Risk management
 
 _The ability of the TRE organisation to measure, forecast and evaluate risks to information._
-
-### Risk assessment
 
 ```{list-table}
 :header-rows: 1

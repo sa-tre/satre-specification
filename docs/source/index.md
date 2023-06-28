@@ -15,7 +15,6 @@ specification.md
 pillars/information_governance.md
 pillars/computing_technology.md
 pillars/data_management.md
-pillars/supporting.md
 ```
 
 ```{toctree}

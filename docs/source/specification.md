@@ -77,7 +77,7 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 The SATRE specification contains three core pillars for a TRE:
 
-```{figure} ../images/Capability_Map.svg
+```{figure} ../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
 
@@ -92,9 +92,6 @@ SATRE Pillars Capability Map
 
 {ref}`Data management <pillar_data_management>`
 : What the organisation does to manage data assets and ensure information remains secure.
-
-In addition to these capabilities, any organisation running a TRE (TRE organisation) will need to possess various {ref}`supporting capabilities <pillar_supporting>`.
-These will include legal requirements and relationship management.
 
 (satre_roles)=
 

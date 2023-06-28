@@ -4,6 +4,15 @@
 
 This capability concerns what the TRE organisation does to manage systems for storing, retrieving, analysing and sending information.
 
+```{figure} ../../images/Capability_Map/full.drawio.svg
+:alt: SATRE Pillars Capability Map
+:align: center
+
+SATRE Pillars Capability Map
+```
+
+<!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
+
 ## End user computing
 
 _The ability of the TRE organisation to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data._
