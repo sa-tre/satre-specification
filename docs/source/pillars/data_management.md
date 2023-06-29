@@ -118,6 +118,22 @@ _The ability of the TRE organisation to ensure outputs are safely published and 
   - Recommended
 ```
 
+(information-search-and-discovery)=
+
+## Information search and discovery
+
+```{list-table}
+:header-rows: 1
+:name: tab-information-search-and-discovery
+
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
+
 (standard_capability_information_security)=
 
 ## Information security
