@@ -13,6 +13,8 @@ SATRE Pillars Capability Map
 
 ## Business continuity management
 
+_What the organisation does to ensure the development, testing, and maintenance of business continuity plans._
+
 ```{list-table}
 :header-rows: 1
 :name: tab-business-continuity-subject
@@ -26,6 +28,8 @@ SATRE Pillars Capability Map
 ```
 
 ## Project and programme management
+
+_What the organisation does to ensure effective management of programmes and projects._
 
 ```{list-table}
 :header-rows: 1
@@ -41,6 +45,8 @@ SATRE Pillars Capability Map
 
 ## Knowledge management
 
+_What the organisation does to acquire, enrich, share, store, publish and enhance the expertise across the whole organisation._
+
 ```{list-table}
 :header-rows: 1
 :name: tab-knowledge-management
@@ -54,6 +60,8 @@ SATRE Pillars Capability Map
 ```
 
 ## Financial management
+
+_All activities aimed at the efficient and effective management of money (funds) in such a manner as to allow the organisation to accomplish its objectives._
 
 ```{list-table}
 :header-rows: 1
@@ -69,6 +77,8 @@ SATRE Pillars Capability Map
 
 ## Procurement
 
+_What the organisation does to ensure the effective sourcing, purchasing and supply of the goods and services that enable the organisation to operate._
+
 ```{list-table}
 :header-rows: 1
 :name: tab-procurement
@@ -82,6 +92,8 @@ SATRE Pillars Capability Map
 ```
 
 ## IT Service management
+
+_The implementation and management of quality IT services that meet the needs of the organisation._
 
 ```{list-table}
 :header-rows: 1
@@ -97,7 +109,7 @@ SATRE Pillars Capability Map
 
 ## Relationship management
 
-_The ability of the TRE organisation to maintain engagement with its customers, stakeholders and other interested parties._
+_All activities aimed at ensuring a continuous level of engagement is maintained between the organisation and its customers, stakeholders & other interested parties._
 
 ### Stakeholder relationships
 
@@ -113,11 +125,13 @@ _The ability of the TRE organisation to maintain engagement with its customers, 
   -
 ```
 
-### Data subject/ public relationships
+### Patient and Public Engagement
+
+_What the organisation does to ensure it establishes and maintains mutually beneficial relationships between the organisation and the public in order to maintain trust._
 
 ```{list-table}
 :header-rows: 1
-:name: tab-relationship-subject
+:name: tab-patient-public-engagement
 
 * - Statement
   - Guidance
@@ -135,6 +149,8 @@ _The ability of the TRE organisation to access suitable and timely legal advice.
 
 ### Legal advisory
 
+_Ability of the organisation to provide suitable and timely legal advice._
+
 ```{list-table}
 :header-rows: 1
 :name: tab-legal-services
@@ -149,6 +165,8 @@ _The ability of the TRE organisation to access suitable and timely legal advice.
 
 ### Data protection
 
+_Ability to ensure data is used fairly, lawfully and transparently. Used for specified, explicit purposes. used in a way that is adequate, relevant and limited to only what is necessary._
+
 ```{list-table}
 :header-rows: 1
 :name: tab-legal-dp
@@ -162,6 +180,8 @@ _The ability of the TRE organisation to access suitable and timely legal advice.
 ```
 
 ### Contract management
+
+_What the organisation does to ensure that all contracts are effectively managed within required frameworks._
 
 ```{list-table}
 :header-rows: 1
