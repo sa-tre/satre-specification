@@ -4,7 +4,7 @@ version: 2
 updates:
   # Python dependencies
   - package-ecosystem: pip-compile
-    directory: /
+    directory: /docs
     schedule:
       interval: weekly
 
