@@ -94,7 +94,7 @@ SATRE Pillars Capability Map
 : What the organisation does to manage data assets and ensure information remains secure.
 
 In addition to these capabilities, any organisation running a TRE (TRE organisation) will need to possess various {ref}`supporting capabilities <pillar_supporting>`.
-These will include legal requirements and relationship management.
+Examples of supporting capabilities include complying with legal requirements and relationship management.
 
 (satre_roles)=
 
