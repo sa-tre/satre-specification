@@ -122,6 +122,8 @@ _The ability of the TRE organisation to ensure outputs are safely published and 
 
 ## Information search and discovery
 
+_The ability to query and browse the data within an environment at various levels of abstraction._
+
 ```{list-table}
 :header-rows: 1
 :name: tab-information-search-and-discovery
