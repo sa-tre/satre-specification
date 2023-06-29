@@ -280,6 +280,8 @@ _The ability of the TRE organisation to ensure all IT infrastructure, processes,
 
 ## Data analytics
 
+_Ability to process and analyse data._
+
 ```{list-table}
 :header-rows: 1
 :name: tab-data-analytics
