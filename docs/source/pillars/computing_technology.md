@@ -277,3 +277,17 @@ _The ability of the TRE organisation to ensure all IT infrastructure, processes,
   - Understanding how and when the TRE might be unavailable will help your projects in planning their work.
   - Recommended
 ```
+
+## Data analytics
+
+```{list-table}
+:header-rows: 1
+:name: tab-data-analytics
+
+* - Statement
+  - Guidance
+  - Importance
+* -
+  -
+  -
+```
