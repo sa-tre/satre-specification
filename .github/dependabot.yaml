@@ -3,7 +3,7 @@ version: 2
 
 updates:
   # Python dependencies
-  - package-ecosystem: pip
+  - package-ecosystem: pip-compile
     directory: /
     schedule:
       interval: weekly
