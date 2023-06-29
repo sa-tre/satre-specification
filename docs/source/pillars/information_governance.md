@@ -90,7 +90,7 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
 
 ### Internal Audit
 
-_An independent evaluation process within the TRE organisation that assesses and improves its internal controls, risk management, and governance.._
+_An independent evaluation process within the TRE organisation that assesses and improves its internal controls, risk management, and governance._
 
 ```{list-table}
 :header-rows: 1
