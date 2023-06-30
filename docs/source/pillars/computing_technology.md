@@ -62,6 +62,9 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
     TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the researchers needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
     The set of tools should be reviewed regularly to ensure they are up to date.
   - Mandatory
+* - A TRE should provide clear guidance on how to use software tools and work with data in the TRE.
+  - TREs that provide a virtual desktop environment for researchers to work in should provide documentation detailing the available tools.
+    TREs where the analysis code is developed on the access machine (as opppose to within the TRE) should provide documentation detailing the mechanism by which code is submitted to the TRE.
 * - A TRE should provide tools to encourage best-practice in reproducibly analysing data.
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
     This may include version control software, and tools for developing and running data analysis pipelines.
