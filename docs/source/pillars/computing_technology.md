@@ -268,6 +268,10 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
   - This includes any software used for remote desktop portals, databases, webapps, configuration management or software used for logging within the TRE.
     Doing so will ensure that the latest software patches are installed and reduce the risk of expoitable vulnerabilities in the TRE infrastructure.
   - Mandatory
+* - Where possible, you should update software installed on TRE workspaces.
+  - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal.
+    TREs that have internet access from the environment should have their software updated periodically to get the latest patches.
+    TREs that use configuration management tools can keep a record of the software installed when they were set up, including software versions.
 ```
 
 ## Availability management
