@@ -33,8 +33,9 @@ _The interfaces used for interacting with the TRE management system and the TRE 
     In practice a web browser is the most common way to achieve this.
   - Recommended
 * - A TRE workspace should provide an environment familiar to the users of the TRE.
-  - For TREs where the primary researchers are data scientists, this may take the form of a virtual Windows or Linux desktops, non-desktop interfaces such as JupyterLab and other web applications, or a terminal.
-    Custom-developed, TRE-specific software should be avoided when widely used open-source alternatives already exist.
+  - This may take the form of a virtual Windows or Linux desktops, non-desktop interfaces such as JupyterLab and other web applications, or a terminal.
+    Alernatively, this could be a GUI with intuitive design features relevant to the TRE users (e.g. scientific domain or dataset type specific features for non-programmer scientists).
+    Custom-developed TRE-specific software should however be avoided when widely used open-source alternatives already exist.
   - Recommended
 * - A TRE should take accessibility for users with disabilities into account.
   - The restricted nature of TREs means many assistive tools such as screenreaders in a virtual desktop may not be allowed, but other options such as colour schemes, font sizes, and resizing user interface elements, should be supported.
