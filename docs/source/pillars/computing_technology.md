@@ -70,7 +70,7 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
     This may include version control software, and tools for developing and running data analysis pipelines.
   - Recommended
-* - Where possible, you should ensure the TRE automatically applies updates for software installed on TRE workspaces, with automatic updates.
+* - Where possible, the TRE should automatically apply updates for user software.
   - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal.
     TREs that have internet access from the environment should have their software updated periodically to get the latest patches.
     TREs that use configuration management tools can keep a record of the software installed when they were set up, including software versions.
