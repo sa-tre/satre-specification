@@ -72,8 +72,8 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
 * - A TRE may provide limited access to some software repositories
   - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
   - Optional
-* - A TRE may be set up to include licenced commercial software where this is useful for research, but should be configured with the considerations around this software in mind
-  -  For example, for a TRE to include the SAS statistical software suite it would need to connect to an external licensing server
+* - A TRE may include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary
+  -  For example, if an application must connect to an external licensing server TREs must be confident that only licensing information is sent to this server, and that any network proxies to allow this are secured.
   - Optional
 ```
 
