@@ -24,6 +24,11 @@ _The ability of the TRE organisation to manage how and where data is stored, how
 * - Statement
   - Guidance
   - Importance
+* - You have a process in place to assess the legal and regulatory implications of handling the data through its full lifecycle together with any required security controls.
+  - This involves considering your obligations to data controllers and subjects and deciding on appropriate access controls.
+    An assessment of the risks involved will also be needed.
+    It may involve classifying the project into a predefined sensitivity category or defining bespoke controls.
+  - Mandatory
 * - A TRE must have a data ingress process which enforces information governance rules/processes.
   - The data ingress process needs to ensure that information governance is correctly followed.
     In particular, it should require that an ingress request has been approved by all required parties.
