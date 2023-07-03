@@ -70,6 +70,11 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
     This may include version control software, and tools for developing and running data analysis pipelines.
   - Recommended
+* - Where possible, you should ensure the TRE automatically applies updates for software installed on TRE workspaces, with automatic updates.
+  - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal.
+    TREs that have internet access from the environment should have their software updated periodically to get the latest patches.
+    TREs that use configuration management tools can keep a record of the software installed when they were set up, including software versions.
+  - Recommended
 * - A TRE may provide shared services that are accessible to users in the same project.
   - This may include shared file storage, databases, collaborative writing, and other web applications.
     This must only be shared amongst users within the same project.
@@ -268,11 +273,6 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
   - This includes any software used for remote desktop portals, databases, webapps, configuration management or software used for logging within the TRE.
     Doing so will ensure that the latest software patches are installed and reduce the risk of expoitable vulnerabilities in the TRE infrastructure.
   - Mandatory
-* - Where possible, you should ensure the TRE automatically applies updates for software installed on TRE workspaces, with automatic updates.
-  - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal.
-    TREs that have internet access from the environment should have their software updated periodically to get the latest patches.
-    TREs that use configuration management tools can keep a record of the software installed when they were set up, including software versions.
-  - Recommended
 ```
 
 ## Availability management
