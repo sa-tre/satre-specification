@@ -74,9 +74,11 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - This may include shared file storage, databases, collaborative writing, and other web applications.
     This must only be shared amongst users within the same project.
   - Optional
-* - A TRE may provide limited access to some software repositories
+* - A TRE may provide limited access to some public software repositories or container registries.
   - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
+    Similarly a subset of public containers could be made available, or individual container images via an internal container registry.
   - Optional
+
 * - A TRE may include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary
   -  For example, if an application must connect to an external licensing server TREs must be confident that only licensing information is sent to this server, and that any network proxies to allow this are secured.
   - Optional
