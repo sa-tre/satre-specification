@@ -272,6 +272,7 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
   - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal.
     TREs that have internet access from the environment should have their software updated periodically to get the latest patches.
     TREs that use configuration management tools can keep a record of the software installed when they were set up, including software versions.
+  - Recommended
 ```
 
 ## Availability management
