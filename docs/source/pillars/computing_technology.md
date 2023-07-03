@@ -266,6 +266,7 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
   - Mandatory
 * - You should always keep software used for confifuring user or management infrastructure and any anti-virus/malware software up to date, with automatic updates.
   - This includes any software used for remote desktop portals, databases, webapps, configuration management or software used for logging within the TRE.
+    Doing so will ensure that the latest software patches are installed and reduce the risk of expoitable vulnerabilities in the TRE infrastructure.
   - Mandatory
 ```
 
