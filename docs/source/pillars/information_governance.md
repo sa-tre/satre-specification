@@ -90,8 +90,10 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
   - The greater the number of (and diversity of) actions logged, the higher the chance that any bad behaviours, intentional or unintentional, are spotted.
     Bad behaviours in this context are anything that could compromise the security of the SRE, or result in the accidental discolure of data outside the TRE.
     Any measures that are valuable for reporting should be collected, for example, the number of times that unauthorised access to the TRE was blocked.
-    Where possible, this reporting should be made publicly available, to incentivise good governance and operation, and should be automated, to enable regular compliance checks.
   - Mandatory
+* - You make logs public
+  - Where possible, reporting logs should be made publicly available, to incentivise good governance and operation, and should be automated, to enable regular compliance checks.
+  - Optional
 ```
 
 ## Risk management
