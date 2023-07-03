@@ -24,8 +24,8 @@ _The ability of the TRE organisation to manage how and where data is stored, how
 * - Statement
   - Guidance
   - Importance
-* - You have a process in place to assess the legal and regulatory implications of handling the data through its full lifecycle together with any required security controls.
-  - This involves considering your obligations to data controllers and subjects and deciding on appropriate access controls.
+* - A TRE must have processes in place to assess the legal and regulatory implications of handling the data through its full lifecycle.
+  - This involves considering your obligations to data controllers and subjects and whether any security controls may be legally or contractually required.
     An assessment of the risks involved will also be needed.
     It may involve classifying the project into a predefined sensitivity category or defining bespoke controls.
   - Mandatory
