@@ -264,11 +264,11 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
 * - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
   - Mandatory
-* - You should always keep software used for configuring user or management infrastructure and any anti-virus/malware software up to date, with automatic updates.
+* - You should ensure the TRE automatically applies updates for software used for configuring user or management infrastructure, as well as any anti-virus/malware.
   - This includes any software used for remote desktop portals, databases, webapps, configuration management or software used for logging within the TRE.
     Doing so will ensure that the latest software patches are installed and reduce the risk of expoitable vulnerabilities in the TRE infrastructure.
   - Mandatory
-* - Where possible, you should update software installed on TRE workspaces.
+* - Where possible, you should ensure the TRE automatically applies updates for software installed on TRE workspaces, with automatic updates.
   - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal.
     TREs that have internet access from the environment should have their software updated periodically to get the latest patches.
     TREs that use configuration management tools can keep a record of the software installed when they were set up, including software versions.
