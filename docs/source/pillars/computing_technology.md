@@ -76,7 +76,7 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - Optional
 * - A TRE may provide limited access to some public software repositories or container registries.
   - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
-    Similarly a subset of public containers could be made available, or individual container images via an internal container registry. 
+    Similarly a subset of public containers could be made available, or individual container images via an internal container registry.
   - Optional
 
 * - A TRE may include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary
