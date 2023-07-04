@@ -1,4 +1,5 @@
 (contributing_walkthrough)=
+
 # 🎉 New Contributors
 
 ## Overview
@@ -29,14 +30,11 @@ Please also see an [example HackMD](https://hackmd.io/N7EBtM6iS2OQsWCPWC-ojg) fr
 Each Collaboration Cafe uses Breakout Rooms where participants will work on themes e.g. Risk Management or Training Requirements.
 Typically each Breakout Room is linked to an Issue on the [SATRE GitHub Issues Board](https://github.com/sa-tre/satre-specification/issues).
 
-{% note %}
-
-**Note:**
+:::{important}
 The HackMD for each Collaboration Cafe is made available in your calendar invites.
 We encourage you to propose a Breakout Room in advanced of the Collaboration Cafe, linking to a [SATRE GitHub Issue](https://github.com/sa-tre/satre-specification/issues) if possible.
 This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day though!
-
-{% endnote %}
+:::
 
 ## Review the SATRE Specification Document
 
@@ -255,7 +253,7 @@ There will always be a dedicated Breakout Room in the Collaboration Cafes where 
 
 ### Contribute via alternate streams
 
-[**TO BE COMPLETED**]
+We're working on other ways to contribute and will update this document when they are developed.
 
 ## Building the specification website locally
 

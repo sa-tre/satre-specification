@@ -17,8 +17,6 @@ If you have any questions that aren't discussed below, please let us know throug
 
 [**Jump straight to our contribution walkthrough**](walkthrough.md)
 
-<!-- We've written {ref}`a guide <walkthrough>` to help you get started in making your own contributions. -->
-
 ## Code of Conduct
 
 SATRE is a community-led and collaboratively-developed project.
