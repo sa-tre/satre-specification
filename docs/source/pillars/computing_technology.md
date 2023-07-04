@@ -113,7 +113,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
     In a cloud hosted TRE virtual machines should be destroyed and recreated.
   - Mandatory
 * - A TRE could integrate with large-scale data analytics tools.
-  - For example, software such as Spark and Hadoop are used for distributed computing across clusters.
+  - For example Spark and Hadoop can be used for distributed computing across a cluster.
     Where data included in TREs are impractically large for single-machine computing, this will be an advantage.
   - Optional
 * - A TRE could integrate with cloud-native managed services.
