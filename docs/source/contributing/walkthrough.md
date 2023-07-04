@@ -172,7 +172,7 @@ Create new SATRE specification issue
 
 3. Fill in the template and select `Submit new issue`.
 
-For more information on how Issues are being governed, see our [Contributing process](https://satre-specification.readthedocs.io/en/latest/contributing.html#contributing-contribution-process)
+For more information on how Issues are being governed, see our [Contributing process](https://satre-specification.readthedocs.io/en/latest/contributing/index.html)
 
 #### Pull requests
 
