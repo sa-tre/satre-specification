@@ -118,6 +118,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
   - Optional
 * - A TRE could integrate with cloud-native managed services.
   - For example, TREs that make use of Spark for large-scale data analytics may also want to use Databricks for automated cluster management.
+    Other examples could include cloud machine-learning platforms such as SageMaker (AWS) or Azure Machine Learning.
   - Optional
 ```
 
