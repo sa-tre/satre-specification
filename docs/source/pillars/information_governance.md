@@ -87,7 +87,7 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
   - This may included regulatory bodies or the organisations that manage accreditations you have
   - Mandatory
 * - You log user actions, network connection attempts, infrastructure actions and data access within a TRE
-  - The greater the coverage of actions logged, the greater the chance that any bad behaviours, intentional or unintentional, are spotted by reviewers.
+  - Logging actions can help to identify bad behaviours, intentional or unintentional, to be spotted by reviewers.
     Bad behaviours in this context are anything that could compromise the security of the SRE, or result in the accidental discolure of data outside the TRE.
     Any measures that are valuable for reporting should be collected, for example, the number of times that unauthorised access to the TRE was blocked.
   - Mandatory
