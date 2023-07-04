@@ -75,7 +75,6 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - Recommended
 * - Where possible, the TRE should automatically apply security related updates for user software.
   - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal, and the security of the TRE will also be maintained by reducing the risk of expoitable vulnerabilities in installed software.
-    TREs that use configuration management tools can keep a record of the software installed when they were set up, including software versions.
   - Recommended
 * - A TRE may provide shared services that are accessible to users in the same project.
   - This may include shared file storage, databases, collaborative writing, and other web applications.
