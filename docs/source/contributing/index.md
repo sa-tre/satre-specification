@@ -6,8 +6,6 @@
 
 _We're excited that you want to contribute_ 🚀
 
-[**Jump straight to contribution process**](contributing-contribution-process)
-
 We want to ensure that every user and contributor feels welcome, included and supported to participate in the SATRE project and community.
 We hope that the information provided in this document will make it as easy as possible for you to get involved.
 
@@ -17,13 +15,17 @@ As you start contributing don't forget that your ideas are more important than p
 
 If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](contributing-get-in-touch).
 
+[**Jump straight to our contribution walkthrough**](walkthrough.md)
+
+<!-- We've written {ref}`a guide <walkthrough>` to help you get started in making your own contributions. -->
+
 ## Code of Conduct
 
 SATRE is a community-led and collaboratively-developed project.
 Therefore, we require that all our contributors and their contributions **adhere to our [Code of Conduct](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md) (CoC)**.
 Please familiarise yourself with our [CoC](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md) and ensure your contributions and engagement with this project follow it!
 
-## Contributing Through GitHub
+## Contributing through GitHub
 
 [Git](https://git-scm.com/) is a really useful tool for version control.
 [GitHub](https://github.com/) sits on top of Git and supports collaborative and distributed working.

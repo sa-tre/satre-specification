@@ -1,4 +1,5 @@
-# SATRE Contribution Guide
+(contributing_walkthrough)=
+# 🎉 New Contributors
 
 ## Overview
 
@@ -6,17 +7,17 @@ This guide aims to help new contributors get involved with the SATRE (Standard A
 SATRE is a collaborative effort between various universities and research institutions to develop a reference architecture for Trusted Research Environments in the UK.
 Your contributions, regardless of your experience level, are highly welcomed and appreciated.
 
-## 1. Understanding the SATRE Project
+## Understanding the SATRE Project
 
 Before getting involved, please read [SATRE's Kick Off Blog Post](https://medium.com/satre/satre-kick-off-sessions-87d3237107aa) (a 6 minute read) to understand the motivations of the project.
 
-## 2. Join the Community
+## Join the Community
 
-### 2.1 Join the Mailing List
+### Join the Mailing List
 
 To get the latest SATRE Newsletter and communications, please sign up to our [Mailing List](https://forms.office.com/e/FuFyNGx3hw)
 
-### 2.2 Sign up to our Collaboration Cafes
+### Sign up to our Collaboration Cafes
 
 We hold 1 hour online Zoom Collaboration Cafes to facilitate sharing ideas for what should be in the SATRE Specification.
 Collaboration Cafe's happen at 3pm on the 1st Tuesday and 3rd Thursday of the month.
@@ -37,12 +38,12 @@ This will help participants come prepared to talk about certain topics. We also 
 
 {% endnote %}
 
-## 3. Review the SATRE Specification Document
+## Review the SATRE Specification Document
 
 The latest version of the SATRE Specification Document can be found [here](https://satre-specification.readthedocs.io/en/latest/).
 It is a living document in which the aim is to have a completed draft by October 2023.
 
-## 4. Contribute to the SATRE Specification Document
+## Contribute to the SATRE Specification Document
 
 As a collaborative project driven by community needs, we'd love for you to contribute directly to the specification.
 
@@ -71,7 +72,7 @@ For a more broad, deeper introduction to GitHub, check out the Turing Way's [Int
 2. In the top right corner, click either 'Sign In' (if you have an account already) or 'Sign Up'.
    You will need an email, password, username and one or two other things.
 
-![](images/github_homepage.png)
+![](../../images/github_homepage.png)
 
 1. Once you are logged in, navigate to the [SATRE Specification page](https://github.com/sa-tre/satre-specification)
 
@@ -79,7 +80,7 @@ For a more broad, deeper introduction to GitHub, check out the Turing Way's [Int
    The main things to know about are the link in the `About` Section, and the `Code`, `Issues` and `Pull requests` tabs.
    Let's look at these in turn.
 
-![](images/satre_specification_repo.png)
+![](../../images/satre_specification_repo.png)
 
 #### About link
 
@@ -87,14 +88,14 @@ This link will take you a readable version of the specification.
 You can access the current live version of the specification by clicking on `A Standard Architecture for TREs` from the left hand navigation bar.
 You can navigate directly to it [here](https://satre-specification.readthedocs.io/en/latest/standard.html)
 
-![](images/read_the_docs.png)
+![](../../images/read_the_docs.png)
 
 #### Code
 
 This is the default landing page of the repo, and contains all the code associated with the specification.
 The most important one for you to know about is where the actual specification is being written.
 
-![](images/satre_specification_docs_directory.png)
+![](../../images/satre_specification_docs_directory.png)
 
 You can find this by navigating to `docs` -> `source` -> `specification.md`.
 This is the specification written in [Markdown](https://hackmd.io/@turingway/hackmd-guide), that renders into a website (which you can access from the `About` section).
@@ -114,7 +115,7 @@ There are two main things you can do:
 - Comment on a pre-existing issue
 - Open a new issue
 
-![](images/satre_specification_issues.png)
+![](../../images/satre_specification_issues.png)
 
 ##### Commenting on a pre-existing issue
 
@@ -123,7 +124,7 @@ There are two main things you can do:
 2. This should load the issue.
    You should be able to see the title of the issue, the summary of it (provided by the person who created the issue), and a place you can add comments at the bottom.
 
-![](images/satre_specification_comment_on_issue.png)
+![](../../images/satre_specification_comment_on_issue.png)
 
 1. Commenting on an issue is really easy! Just write your comment in the space provided, and click `Comment`.
    Anyone following the issue will get notified that you've commented.
@@ -132,7 +133,7 @@ There are two main things you can do:
 
 1. From the `Issues` page, click the green button `New issue`
 
-![](images/satre_specification_create_issue.png)
+![](../../images/satre_specification_create_issue.png)
 
 2. You should be able to select a template for the issue you want to create - you can choose from the available options, or `Open a blank issue` of no template is right.
 
@@ -156,11 +157,11 @@ For a deeper dive, including how to create a PR, make changes and more, we recom
 
 This process will be similar to the one for Issues above
 
-![](images/satre_specification_comment_on_pr.png)
+![](../../images/satre_specification_comment_on_pr.png)
 
 1. Click on the Title of a PR - in the screenshot above, you could click on `Information Governance capabilities`.
 
-![](images/satre_specification_view_pr_discussion.png)
+![](../../images/satre_specification_view_pr_discussion.png)
 
 2. There are many things you can do on a PR - make changes to a file, comment on proposed changes, and more!
    For the purposes of this guide, we will just focus on comments.
@@ -175,33 +176,33 @@ Currently you will need to make a Fork of the SATRE repository to make a Pull Re
 
 1. **Create a Fork of the SATRE specification repository:**
 
-![](images/github_create_fork.png)
+![](../../images/github_create_fork.png)
 
-![](images/github_name_your_fork.png)
+![](../../images/github_name_your_fork.png)
 
-![](images/github_upstream_fork_name.png)
+![](../../images/github_upstream_fork_name.png)
 
 2. **Keep the Fork up to date.** It is common for work to continue on the original repository while you are working with your forked version of the repository.
    This means work on the original repository will not be reflected in your forked repository.
    You can keep your forked repository up to date by pressing the sync button (note that we are assuming there aren't any merge conflicts):
 
-![](images/github_update_fork.png)
+![](../../images/github_update_fork.png)
 
 1. **Edit the section you want to change.** Click on the `specification.md` file in the repo where you will be able to edit it:
 
-![](images/github_edit_file.png)
+![](../../images/github_edit_file.png)
 
-![](images/github_commit_changes.png)
+![](../../images/github_commit_changes.png)
 
-![](images/github_write_commit_message.png)
+![](../../images/github_write_commit_message.png)
 
 Note that although you are only changing your Forked repository (not the original repository) it is still recommended that you use Pull Requests and branches within your own Fork rather than committing directly to the `main` branch
 
 4. **Create the Pull Request to the original repository.** To merge the changes on this new branch from the forked repository into the main branch of the original repository:
 
-![](images/github_target_upstream.png)
+![](../../images/github_target_upstream.png)
 
-![](images/github_create_pr.png)
+![](../../images/github_create_pr.png)
 
 You have now just opened a Pull Request intended to merge the changes on your Fork to the original SATRE Repository!
 Don't forget to Sync your Fork when the Pull Request gets accepted into the original repository.
@@ -227,12 +228,12 @@ We recommend receiving `Participating and @mentions` notifications by email too,
 
 1. Click your profile in the top right corner of GitHub and select `Settings`.
 
-![](images/settings.png)
+![](../../images/settings.png)
 
 2. On left hand navigation bar, click `Notifications`.
    Ensure your email is the right one, and then in `Participating and @mentions` check both `GitHub` and `Email`, and click save.
 
-![](images/Notifications_settings.png)
+![](../../images/Notifications_settings.png)
 
 You are done!
 You should now get emails for issues/PRs you are directly involved in across GitHub :rocket:
@@ -248,7 +249,7 @@ When you are commenting on Issues/PRs, there are a couple of handy things to kno
   In any of your comments, you can reference an issue or PR by typing `#` followed by the number of the issue/PR you want to reference.
   For instance, to reference the below, you can type `#85`, and GitHub will magically create a link to it for you!
 
-![](images/satre_specification_issue_number.png)
+![](../../images/satre_specification_issue_number.png)
 
 There will always be a dedicated Breakout Room in the Collaboration Cafes where one of the SATRE Team will be on hand to answer any questions and guide you through the GitHub Repository and help you get set up.
 
@@ -256,15 +257,15 @@ There will always be a dedicated Breakout Room in the Collaboration Cafes where 
 
 [**TO BE COMPLETED**]
 
-## 6. Building the Specification Document locally
+## Building the specification website locally
 
-Instructions for building the specification document locally can be found [here](https://github.com/sa-tre/satre-specification/blob/main/docs/README.md#building-the-specification-document).
+Instructions for building the specification website locally can be found [here](https://github.com/sa-tre/satre-specification/blob/main/docs/README.md#building-the-specification-document).
 
-## 7. Code of Conduct
+## Code of Conduct
 
 The SATRE project is dedicated to providing an inclusive and respectful environment for all participants.
 Please review the project’s [Code of Conduct](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md) before starting your contribution.
 
-## 8. Contact
+## Contact
 
 If you have any questions or concerns, reach out to SATRE project team member Hari Sood (@harisood, hsood@turing.ac.uk) or Arron Lacey (@arronlacey, alacey@turing.ac.uk).
