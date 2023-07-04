@@ -112,7 +112,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
     For example, when using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
     In a cloud hosted TRE virtual machines should be destroyed and recreated.
   - Mandatory
-* - A TRE could integrate with large-scale data analytics tools
+* - A TRE could integrate with large-scale data analytics tools.
   - For example, software such as Spark and Hadoop are used for distributed computing across clusters.
     Where data included in TREs are impractically large for single-machine computing, this will be an advantage.
   - Optional
