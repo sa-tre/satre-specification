@@ -116,7 +116,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
   - For example Spark and Hadoop can be used for distributed computing across a cluster.
     Where data included in TREs are impractically large for single-machine computing, this will be an advantage.
   - Optional
-* - A TRE could integrate with cloud-native managed services.
+* - TREs integrating with cloud-native managed services should consider the associated risks.
   - Public clouds provide many different managed services which might include Jupyter notebooks, big data pipelines, databases, API management or serverless computing.
     Examples include Databricks for automated cluster management and cloud machine-learning platforms such as SageMaker (AWS) or Azure Machine Learning.
     Although the cloud provider is responsible for providing these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
