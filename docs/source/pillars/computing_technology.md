@@ -273,7 +273,7 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
   - Mandatory
 * - You must ensure the TRE has a process in place for applying security updates for software used for configuring and running infrastructure, as well as any anti-virus/malware.
-  - This includes any software used for remote desktop portals, databases, webapps, configuration management or software used for logging within the TRE.
+  - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
     Doing so will ensure that the latest software patches are installed and reduce the risk of expoitable vulnerabilities in the TRE infrastructure.
   - Mandatory
 ```
