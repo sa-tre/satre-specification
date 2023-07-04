@@ -32,7 +32,7 @@ We know that it can be daunting to start using Git and GitHub if you haven't wor
 We are here to help you figure out any of the jargon or confusing instructions you encounter ❤️!
 
 In order to contribute via GitHub, you'll need to set up a free account and sign in.
-Here are some [instructions](https://docs.github.com/articles/signing-up-for-a-new-github-account/) to help you get going.
+Here are some [instructions](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
 ## Contribution Model
@@ -61,7 +61,7 @@ This includes the SATRE team, and any decision must be openly documented in the 
 ### Specification Format
 
 The specification source is kept in the [specification repository](https://github.com/sa-tre/satre-specification).
-It is written as a [Sphinx](https://www.sphinx-doc.org/) document in [Markdown](https://www.markdownguide.org/) format.
+It is written as a [Sphinx](https://www.sphinx-doc.org/en/master/) document in [Markdown](https://www.markdownguide.org/) format.
 
 The most up-to-date 'source of truth' will be the specification on the `main` branch of the specification repository.
 The community can decide when to 'tag' a new version of the specification.
@@ -104,7 +104,7 @@ The SATRE team will only merge pull requests that have no outstanding objections
 ## Writing in Markdown
 
 The [Myst Parser](https://myst-parser.readthedocs.io/en/stable/syntax/typography.html) documentation has a guide on the Markdown format used in the specification source files.
-GitHub also has a helpful page on [getting started with writing and formatting on GitHub](https://docs.github.com/articles/getting-started-with-writing-and-formatting-on-github), which will be useful when writing Markdown for GitHub (for example in issue or pull request comments).
+GitHub also has a helpful page on [getting started with writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github), which will be useful when writing Markdown for GitHub (for example in issue or pull request comments).
 
 You can think of Markdown as a few little symbols around your text that instruct how to render the text.
 For example, you could write words in **bold** (`**bold**`), in _italics_ (`_italics_`), or as a [link](https://medium.com/satre) (`[link](https://medium.com/satre)`) to another web page.
@@ -112,7 +112,7 @@ For example, you could write words in **bold** (`**bold**`), in _italics_ (`_ita
 Also when writing in Markdown, please [start each new sentence on a new line](https://sembr.org/).
 Having each sentence on a new line will make no difference to how the text is displayed.
 A blank line is needed to start a new paragraph.
-However, it makes the source and [diffs produced during the pull request](https://docs.github.com/en/articles/about-comparing-branches-in-pull-requests) review easier to read ✨!
+However, it makes the source and [diffs produced during the pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests) review easier to read ✨!
 
 ### Linting and auto-formatting
 

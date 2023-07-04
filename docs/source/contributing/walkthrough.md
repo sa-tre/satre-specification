@@ -16,13 +16,13 @@ Before getting involved, please read [SATRE's Kick Off Blog Post](https://medium
 
 ### Join the Mailing List
 
-To get the latest SATRE Newsletter and communications, please sign up to our [Mailing List](https://forms.office.com/e/FuFyNGx3hw)
+To get the latest SATRE Newsletter and communications, please sign up to our [Mailing List](https://forms.office.com/pages/responsepage.aspx?id=p_SVQ1XklU-Knx-672OE-XMfskt9FY5HraQ6BiwaEGBUREMxWU9NVDhHTEJNTFM0VEZXRTZZQ0hYVi4u)
 
 ### Sign up to our Collaboration Cafes
 
 We hold 1 hour online Zoom Collaboration Cafes to facilitate sharing ideas for what should be in the SATRE Specification.
 Collaboration Cafe's happen at 3pm on the 1st Tuesday and 3rd Thursday of the month.
-Please fill in [this form](https://forms.office.com/e/HdaVSj2V0c) to register your attendance in advance.
+Please fill in [this form](https://forms.office.com/pages/responsepage.aspx?id=p_SVQ1XklU-Knx-672OE-XMfskt9FY5HraQ6BiwaEGBUNUg1T05DNEJMNEtaN0JOOURKTDBFUENFQi4u) to register your attendance in advance.
 
 Collaboration Cafes are run using HackMD documents that will contain the meeting agenda and a place share notes.
 If you are unfamiliar with HackMD, please see [this guide](https://hackmd.io/@turingway/hackmd-guide) on how to use it.
@@ -94,7 +94,7 @@ SATRE specification repository
 
 This link will take you a readable version of the specification.
 You can access the current live version of the specification by clicking on `A Standard Architecture for TREs` from the left hand navigation bar.
-You can navigate directly to it [here](https://satre-specification.readthedocs.io/en/latest/standard.html)
+You can navigate directly to it [here](https://satre-specification.readthedocs.io/en/latest/specification.html)
 
 ```{figure} ../../images/read_the_docs.png
 :alt: SATRE specification website
@@ -362,7 +362,7 @@ We're working on other ways to contribute and will update this document when the
 
 ## Building the specification website locally
 
-Instructions for building the specification website locally can be found [here](https://github.com/sa-tre/satre-specification/blob/main/docs/README.md#building-the-specification-document).
+Instructions for building the specification website locally can be found in the `README` of the project.
 
 ## Code of Conduct
 
