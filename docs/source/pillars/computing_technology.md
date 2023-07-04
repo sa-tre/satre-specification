@@ -44,7 +44,7 @@ _The interfaces used for interacting with the TRE management system and the TRE 
     A TRE may allow user to paste text into a workspace.
   - Mandatory
 * - A TRE could restrict data access from researchers entirely and provide an interface for submitting code.
-  - For example, the OpenSAFELY TRE platform for electronic health records data provides an interface for researchers who have developed their analysis code with dummy data, to submit their code to be run with the real data.
+  - For example, the OpenSAFELY TRE platform for electronic health records provides an interface for researchers who have developed their analysis code with dummy data, to submit their code to be run with the real data, and results returned via a disclosure process, without the researcher ever seeing the data.
   - Optional
 ```
 
