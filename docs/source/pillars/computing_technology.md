@@ -118,7 +118,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
   - Optional
 * - A TRE could integrate with cloud-native managed services.
   - Public clouds provide 100s of managed services such as notebooks, big data pipelines, databases, API management, serverless computing etc. Use of these services can offload the work of maintaining infrastructure to the cloud provider in return for a fee.
-    Other examples could include cloud machine-learning platforms such as SageMaker (AWS) or Azure Machine Learning.
+  Examples include Databricks for automated cluster management and cloud machine-learning platforms such as SageMaker (AWS) or Azure Machine Learning.
   - Optional
 ```
 
