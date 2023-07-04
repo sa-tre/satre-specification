@@ -28,8 +28,9 @@ evaluation.md
 :hidden:
 :caption: Contributing
 
-contributing.md
-contributors.md
+contributing/index.md
+contributing/walkthrough.md
+contributing/contributors.md
 ```
 
 ## 👀 What is SATRE?
