@@ -89,8 +89,8 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
 * - You log user actions, network connection attempts, infrastructure actions and data access within a TRE
   - Logging actions can help to identify bad behaviours, intentional or unintentional, to be spotted by reviewers.
     Bad behaviours in this context are anything that could compromise the security of the SRE, or result in the accidental discolure of data outside the TRE.
-    Any measures that are valuable for reporting should be collected, for example, the number of times that unauthorised access to the TRE was blocked.
-  - Mandatory
+    Any measures that TRE developers deem valuable for reporting should be logged.
+  - Recommended
 * - You make logs public
   - Where possible, reporting logs should be made publicly available, to incentivise good governance and operation, and should be automated, to enable regular compliance checks.
   - Optional
