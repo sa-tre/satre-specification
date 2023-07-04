@@ -22,9 +22,12 @@ _What the organisation does to ensure the development, testing, and maintenance 
 * - Statement
   - Guidance
   - Importance
-* -
+* - You have a business continuity plan that includes consideration of loss of service for deployed TREs
+  - This may be due to downtime from service providers, a breach, or loss of power. Your plan should detail your process for managing loss of service for deployed TREs, and evaluation of impact of such loss
+  - Recommended
+* - You regularly test the aspects of your business continuity plan concerning TREs, and have a process in place to iterate the plan if required
   -
-  -
+  - Recommended
 ```
 
 ## Project and programme management
@@ -38,9 +41,12 @@ _What the organisation does to ensure effective management of programmes and pro
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - All projects requiring TRE are assigned project management support
+  - This may include budget management, tracking TRE status, managing communications with the TRE operations team, and other project support tasks
+  - Recommended
+* - Project management support assigned to a project requiring a TRE should not have direct access to the TRE
+  - Doing so ensures a separation between those able to access sensitive data, and those overseeing access to sensitive data
+  - Optional
 ```
 
 ## Knowledge management
@@ -54,9 +60,15 @@ _What the organisation does to acquire, enrich, share, store, publish and enhanc
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - All features of your TRE infrastructure requiring input or attention from any stakeholders must be well documented
+  - This includes ensuring all documentation is discoverable, clear, and able to be easily updated based on stakeholder feedback
+  - Mandatory
+* - You should have an education programme in place to upskill stakeholders in the use and management of your TRE infrastructure
+  - This may include learning modules, workshops and other resources on how to effectively access and use a TRE, FAQs pages, and accessible pathways for additional support
+  - Recommended
+* - You should periodically carry out a training needs analysis (TNA) for all stakeholders included within your TRE provision
+  - At least once every 12 months you should assess the training needs of your stakeholders, and ensure they have easy access to all required training materials
+  - Recommended
 ```
 
 ## Financial management
@@ -70,9 +82,18 @@ _All activities aimed at the efficient and effective management of money (funds)
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - All projects requiring a TRE must know and accept the financial cost of doing so
+  - Costs may include provision of the underlying TRE infrastructure, additional resources required in a specific TRE (for instance memory or additional compute), hardware including managed devices, and staff support costs
+  - Mandatory
+* - You should be able to track costs associated with each TRE project
+  - This includes knowing which costs are associated with which project, and having an appropriate charging mechanism in place in line with your organisational policy
+  - Recommended
+* - You should have a process in place to ensure your TRE provision remains sustainable
+  - This could include having a cost recovery process in place, or setting up a long-term funding mechanism to support projects with TREs. At any given time, you should have funds free to cover all potential foreseen TRE provision for at least 12 months
+  - Recommended
+* - You should minimise the cost of your TRE infrastructure wherever possible
+  - You should have regular reviews of your TRE provision and actively work to bring down costs, streamline provision, and optimise support
+  - Optional
 ```
 
 ## Procurement
@@ -102,9 +123,9 @@ _The implementation and management of quality IT services that meet the needs of
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - You must have a team in place to support projects working with TREs
+  - This may be part of your organisation's IT support team, or separate. Responsibility should be clear and stakeholders should easily be able to access support appropriate to their needs
+  - Mandatory
 ```
 
 ## Relationship management
@@ -120,9 +141,9 @@ _All activities aimed at ensuring a continuous level of engagement is maintained
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - You should have a clear process in place for stakeholders to feedback on your TRE infrastructure
+  - This may include a GitHub repository where people can open issues and discussions, communication streams like Slack or email, or forms stakeholders can fill in
+  - Recommended
 ```
 
 ### Patient and Public Engagement
