@@ -116,7 +116,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
   - For example, software such as Spark and Hadoop are used for distributed computing across clusters.
     Where data included in TREs are impractically large for single-machine computing, this will be an advantage.
   - Optional
-* - A TRE could integrate with cloud-native managed services
+* - A TRE could integrate with cloud-native managed services.
   - For example, TREs that make use of Spark for large-scale data analytics may also want to use Databricks for automated cluster management.
   - Optional
 ```
