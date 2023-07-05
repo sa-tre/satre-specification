@@ -197,9 +197,9 @@ _Ability of the organisation to provide suitable and timely legal advice._
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - The TRE organisation should have ready access to legal advice
+  - It is likely that legal advice will be necessary for several issues around the handling of sensitive data, and managing project contracts. TRE organisations should have ready access to legal advice, including a way to solicit advice and carry out associated actions
+  - Recommended
 ```
 
 ### Data protection
