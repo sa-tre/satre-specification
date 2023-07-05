@@ -213,9 +213,9 @@ _Ability to ensure data is used fairly, lawfully and transparently; for specifie
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - The TRE organisation should identify areas where data protection advice may be needed and plan where this will be sourced from.
+  - It is likely that data protection advice will be necessary for several issues around the handling of sensitive data.
+  - Recommended
 ```
 
 ### Contract management
@@ -229,7 +229,7 @@ _What the organisation does to ensure that all contracts are effectively managed
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - The organisation running the TRE should identify who will be responsible for managing contracts related to the TRE.
+  - These contracts may include data sharing agreements, secondments of personnel or limitations on how results obtained with the data can be distributed.
+  - Recommended
 ```
