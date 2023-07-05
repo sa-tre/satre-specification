@@ -130,6 +130,25 @@ _The ability of the TRE organisation to ensure outputs are safely published and 
   - Recommended
 ```
 
+(information-search-and-discovery)=
+
+## Information search and discovery
+
+_The ability to query and browse the data within an environment at various levels of abstraction._
+
+```{list-table}
+:header-rows: 1
+:name: tab-information-search-and-discovery
+
+* - Statement
+  - Guidance
+  - Importance
+* - TRE operators could make a catalogue of sensitive data that they hold available to users
+  - This is particularly relevant for TREs that are an interface to a common data collection.
+    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more data providers.
+  - Optional
+```
+
 (standard_capability_information_security)=
 
 ## Information security
