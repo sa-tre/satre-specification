@@ -91,9 +91,6 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
     Bad behaviours in this context are anything that could compromise the security of the SRE, or result in the accidental disclosure of data outside the TRE.
     Any measures that TRE developers deem valuable for reporting should be logged.
   - Recommended
-* - You make logs public
-  - Where possible, reporting logs should be made publicly available, to incentivise good governance and operation, and should be automated, to enable regular compliance checks.
-  - Optional
 ```
 
 ## Risk management
