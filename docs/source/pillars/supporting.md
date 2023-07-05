@@ -24,13 +24,14 @@ Rationale:
 * - Statement
   - Guidance
   - Importance
-* - You publicly share the projects using the TRE.
+* - You publicly share the details of any projects which use the TRE.
   - This may be via the TRE website or annual reports.
   - Optional
 * - You include members of the public in your approvals process.
-  - This may be carried out via a separate public panel or members of the public on an approvals panel.
+  - This may be carried out via a separate public panel or by including members of the public on an approvals panel.
   - Optional
 * - All public engagement activities are representative and inclusive.
-  - Any public engagement activity carried out by TREs should use best practice to make sure they are involving a representative sample where possible and that activities are accessible and open. This could include following guidelines such as [PEDRI](https://www.pedri.org.uk/).
+  - Any public engagement activity carried out by TREs should make sure they are involving a representative sample where possible and that activities are accessible and open.
+    This could include following guidelines such as [PEDRI](https://www.pedri.org.uk/).
   - Optional
 ```
