@@ -186,7 +186,7 @@ _Ability of the organisation to provide suitable and timely legal advice._
 
 ### Data protection
 
-_Ability to ensure data is used fairly, lawfully and transparently. Used for specified, explicit purposes. used in a way that is adequate, relevant and limited to only what is necessary._
+_Ability to ensure data is used fairly, lawfully and transparently; for specified, explicit purposes; and in a way that is adequate, relevant and limited to only what is necessary._
 
 ```{list-table}
 :header-rows: 1
