@@ -60,7 +60,7 @@ _What the organisation does to acquire, enrich, share, store, publish and enhanc
 * - Statement
   - Guidance
   - Importance
-* - All features of your TRE infrastructure requiring input or attention from any stakeholders must be well documented
+* - All features of your TRE infrastructure must be well documented
   - This includes ensuring all documentation is discoverable, clear, and able to be easily updated based on stakeholder feedback
   - Mandatory
 * - You should have an education programme in place to upskill stakeholders in the use and management of your TRE infrastructure
