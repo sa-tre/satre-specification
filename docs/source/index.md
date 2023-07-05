@@ -5,6 +5,7 @@
 :caption: Overview
 
 specification.md
+roles.md
 ```
 
 ```{toctree}
