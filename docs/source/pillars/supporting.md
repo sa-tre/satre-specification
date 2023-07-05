@@ -82,7 +82,7 @@ _All activities aimed at the efficient and effective management of money (funds)
 * - Statement
   - Guidance
   - Importance
-* - All projects requiring a TRE must know and accept the financial cost of doing so
+* - TRE operators must make all projects using a TRE aware of any financial costs associated with their TRE use and ensure that they are able and willing to pay them.
   - Costs may include provision of the underlying TRE infrastructure, additional resources required in a specific TRE (for instance memory or additional compute), hardware including managed devices, and staff support costs
   - Mandatory
 * - The organisation operating the TRE should be able to track costs associated with each TRE project
