@@ -123,7 +123,7 @@ _The implementation and management of quality IT services that meet the needs of
 * - Statement
   - Guidance
   - Importance
-* - You must have a team in place to support projects working with TREs
+* - The organisation running the TRE must have a team in place to support projects working with TREs
   - This may be part of your organisation's IT support team, or separate. Responsibility should be clear and stakeholders should easily be able to access support appropriate to their needs
   - Mandatory
 ```
