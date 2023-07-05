@@ -72,7 +72,7 @@ _The ability of the TRE operator to manage how and where data is stored, how it 
 
 ## Identity and access management
 
-_The ability of the TRE operator to ensure the right people (identities) can access the tools and data they need and no more._
+_The ability of the TRE operator to ensure the right people (identities) can access the tools and data they need, and no more._
 
 ```{list-table}
 :header-rows: 1
@@ -163,7 +163,7 @@ Measures taken to ensure information security can be further categorised into:
 - {ref}`physical security <physical-security>`: restricting TRE access to known secure locations
 
 A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorised use of information, especially electronic data.
-These measures include vulnerability management of TRE infrastructure (whether physical or virtual/cloud-based), carrying out compliance checks and security tests of the TRE, common approaches to data encryption, and (where appropriate) physical security measures to prevent unauthorised access to the TRE .
+These measures include vulnerability management of TRE infrastructure (whether physical or virtual/cloud-based), carrying out compliance checks and security tests of the TRE, common approaches to data encryption, and (where appropriate) physical security measures to prevent unauthorised access to the TRE.
 
 (vulnerability-management)=
 

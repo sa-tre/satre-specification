@@ -166,7 +166,7 @@ _The ability of the TRE organisation to manage projects effectively._
 
 ## Member accreditation
 
-_The ability of the TRE organisation to ensure that people with access to data are identified correctly and they are suitably qualified._
+_The ability of the TRE organisation to ensure that people with access to data are identified correctly, and they are suitably qualified._
 
 ### Onboarding members
 

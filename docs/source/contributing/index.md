@@ -11,7 +11,7 @@ We hope that the information provided in this document will make it as easy as p
 
 We welcome contributions to this project via GitHub issues and pull requests.
 Please follow these guidelines to make sure your contributions can be easily integrated into the project.
-As you start contributing don't forget that your ideas are more important than perfectly formatted contributions :heart:.
+As you start contributing, don't forget that your ideas are more important than perfectly formatted contributions :heart:.
 
 If you have any questions that aren't discussed below, please let us know through one of the many ways to [get in touch](contributing-get-in-touch).
 
@@ -47,7 +47,7 @@ If you see a part of the specification you don't like, open an issue about it an
 
 :::{important}
 We are in a bootstrapping phase to get an initial specification written.
-As part of this initial work we will propose a more formal governance model for the specification going forwards.
+As part of this initial work, we will propose a more formal governance model for the specification going forwards.
 
 We have chosen to keep all discussion to issues for now, so contributors have a single place to engage in conversation.
 Pull requests are used when a specific change is ready to be proposed.
@@ -78,18 +78,18 @@ Issues should be used to discuss ideas, potential changes and to ask questions.
 Issue templates have been designed for common issue types to help collect the most important information and present it in a clear, consistent way.
 It is possible, however, to open a blank issue if none of the templates are suitable.
 
-While we encourage opening issues, we understand that some may be more comfortable contributing ideas in other ways such as through discussions and notes at SATRE Collaboration Cafés.
+While we encourage opening issues, we understand that some may be more comfortable contributing ideas in other ways, such as through discussions and notes at SATRE Collaboration Cafés.
 The SATRE Team will aim to collate ideas and draft issues that welcome further discussion and attribute those involved in initial discussions.
 The SATRE Team will try to capture the ideas as accurately as possible, in good faith, and be guided by the SATRE Community to correct any misconceptions.
 
 When ready, changes will be proposed in pull requests.
 Similarly to issues, there is a pull request template.
-This template prompts contributors to include important details which helps explain the contribution and makes triage and review easier.
+This template prompts contributors to include important details, which helps explain the contribution and makes triage and review easier.
 
 Pull requests will be used to review changes.
 During the review process, the pull request will be used for discussion, to suggest amendments and ultimately accept or reject the change.
 
-We use this process to ensure that as much as possible of the discussion and decision making process can be public.
+We use this process to ensure that as much as possible of the discussion and decision-making process can be public.
 This is to provide as open and accessible as possible an environment for all contributors to engage in the conversation.
 
 ### Consensus Mechanism
@@ -109,7 +109,7 @@ GitHub also has a helpful page on [getting started with writing and formatting o
 You can think of Markdown as a few little symbols around your text that instruct how to render the text.
 For example, you could write words in **bold** (`**bold**`), in _italics_ (`_italics_`), or as a [link](https://medium.com/satre) (`[link](https://medium.com/satre)`) to another web page.
 
-Also when writing in Markdown, please [start each new sentence on a new line](https://sembr.org/).
+Also, when writing in Markdown, please [start each new sentence on a new line](https://sembr.org/).
 Having each sentence on a new line will make no difference to how the text is displayed.
 A blank line is needed to start a new paragraph.
 However, it makes the source and [diffs produced during the pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests) review easier to read ✨!
@@ -177,7 +177,7 @@ It is best to add each contributor in turn and merge the pull request before add
 Otherwise, you can end up with merge conflicts.
 Please check the open pull requests first to make sure there aren't any [open requests from the bot](https://github.com/sa-tre/satre-specification/pulls/app%2Fallcontributors) before adding another.
 
-What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
+What happens if you accidentally run the bot before the previous run was merged, and you got those pesky merge conflicts?
 (Don't feel bad, we have all done it! 🙈)
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
 If you are unable to do this for any reason, please let us know by opening an issue, and SATRE team members will be very happy to help!

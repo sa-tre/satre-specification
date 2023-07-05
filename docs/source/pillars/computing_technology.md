@@ -275,7 +275,7 @@ _The ability of the TRE operator to identify, maintain, and verify information o
 
 ## Availability management
 
-_The ability of the TRE operator to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets._
+_The ability of the TRE operator to ensure all IT infrastructure, processes, tools, roles etc. are appropriate for the agreed availability targets._
 
 ```{list-table}
 :header-rows: 1

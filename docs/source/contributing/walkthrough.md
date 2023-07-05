@@ -10,7 +10,7 @@ Your contributions, regardless of your experience level, are highly welcomed and
 
 ## Understanding the SATRE Project
 
-Before getting involved, please read [SATRE's Kick Off Blog Post](https://medium.com/satre/satre-kick-off-sessions-87d3237107aa) (a 6 minute read) to understand the motivations of the project.
+Before getting involved, please read [SATRE's Kick Off Blog Post](https://medium.com/satre/satre-kick-off-sessions-87d3237107aa) (a 6-minute read) to understand the motivations of the project.
 
 ## Join the Community
 
@@ -18,28 +18,28 @@ Before getting involved, please read [SATRE's Kick Off Blog Post](https://medium
 
 To get the latest SATRE Newsletter and communications, please sign up to our [Mailing List](https://forms.office.com/pages/responsepage.aspx?id=p_SVQ1XklU-Knx-672OE-XMfskt9FY5HraQ6BiwaEGBUREMxWU9NVDhHTEJNTFM0VEZXRTZZQ0hYVi4u)
 
-### Sign up to our Collaboration Cafes
+### Sign up to our Collaboration Cafés
 
-We hold 1 hour online Zoom Collaboration Cafes to facilitate sharing ideas for what should be in the SATRE Specification.
-Collaboration Cafe's happen at 3pm on the 1st Tuesday and 3rd Thursday of the month.
+We hold one hour online Zoom Collaboration Cafés to facilitate sharing ideas for what should be in the SATRE Specification.
+Collaboration Cafés happen at 3pm on the 1st Tuesday and 3rd Thursday of the month.
 Please fill in [this form](https://forms.office.com/pages/responsepage.aspx?id=p_SVQ1XklU-Knx-672OE-XMfskt9FY5HraQ6BiwaEGBUNUg1T05DNEJMNEtaN0JOOURKTDBFUENFQi4u) to register your attendance in advance.
 
-Collaboration Cafes are run using HackMD documents that will contain the meeting agenda and a place share notes.
+Collaboration Cafés are run using HackMD documents that will contain the meeting agenda and a place to share notes.
 If you are unfamiliar with HackMD, please see [this guide](https://hackmd.io/@turingway/hackmd-guide) on how to use it.
-Please also see an [example HackMD](https://hackmd.io/N7EBtM6iS2OQsWCPWC-ojg) from our Collaboration Cafe on the 18th May 2023.
-Each Collaboration Cafe uses Breakout Rooms where participants will work on themes e.g. Risk Management or Training Requirements.
-Typically each Breakout Room is linked to an Issue on the [SATRE GitHub Issues Board](https://github.com/sa-tre/satre-specification/issues).
+Please also see a [sample HackMD](https://hackmd.io/N7EBtM6iS2OQsWCPWC-ojg) from our Collaboration Café on the 18th May 2023.
+Each Collaboration Café uses Breakout Rooms where participants will work on themes, e.g. Risk Management or Training Requirements.
+Typically, each Breakout Room is linked to an Issue on the [SATRE GitHub Issues Board](https://github.com/sa-tre/satre-specification/issues).
 
 :::{important}
-The HackMD for each Collaboration Cafe is made available in your calendar invites.
-We encourage you to propose a Breakout Room in advanced of the Collaboration Cafe, linking to a [SATRE GitHub Issue](https://github.com/sa-tre/satre-specification/issues) if possible.
-This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day though!
+The HackMD for each Collaboration Café is made available in your calendar invites.
+We encourage you to propose a Breakout Room in advanced of the Collaboration Café, linking to a [SATRE GitHub Issue](https://github.com/sa-tre/satre-specification/issues) if possible.
+This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day, though!
 :::
 
 ## Review the SATRE Specification Document
 
 The latest version of the SATRE Specification Document can be found [here](../specification.md).
-It is a living document in which the aim is to have a completed draft by October 2023.
+It is a living document, in which the aim is to have a completed draft by October 2023.
 
 ## Contribute to the SATRE Specification Document
 
@@ -48,13 +48,14 @@ As a collaborative project driven by community needs, we'd love for you to contr
 There are two ways to do this:
 
 1. Directly to the specification on GitHub (recommended, but more difficult)
-2. To a non-GitHub version for the specification (less recommended, but easier)
+2. To a non-GitHub version of the specification (less recommended, but easier)
 
-Why the difference? GitHub is the live version of the specification, and is great for things like community discussions, version control, editing changes and more.
-This is why we recommend contributing GitHub - it is the most direct way to work with the SATRE team on the specification.
+Why the difference?
+GitHub is the live version of the specification, and is great for things like community discussions, version control, editing changes and more.
+This is why we recommend contributing via GitHub - it is the most direct way to work with the SATRE team on the specification.
 
 However, we realise this may be difficult if you aren't already familiar with GitHub's ways of working.
-Therefore we also have a non-GitHub version of the specification you can comment on.
+Therefore, we also have a non-GitHub version of the specification you can comment on.
 Once a week, we will translate comments from this version to the GitHub repository for direct amendments.
 So you are still able to contribute via this method, though all direct changes will still be taking place on GitHub.
 
@@ -80,7 +81,7 @@ GitHub homepage
 1. Once you are logged in, navigate to the [SATRE Specification page](https://github.com/sa-tre/satre-specification)
 
 2. This is the SATRE specification **repository**. You can think of this like a directory containing all files to do with the SATRE specification.
-   The main things to know about are the link in the `About` Section, and the `Code`, `Issues` and `Pull requests` tabs.
+   The main things to know about are the link in the Section, and the `Code`, `Issues` and `Pull requests` tabs.
    Let's look at these in turn.
 
 ```{figure} ../../images/satre_specification_repo.png
@@ -92,8 +93,8 @@ SATRE specification repository
 
 #### About link
 
-This link will take you a readable version of the specification.
-You can access the current live version of the specification by clicking on `A Standard Architecture for TREs` from the left hand navigation bar.
+This link will take you to a readable version of the specification.
+You can access the current live version of the specification by clicking on `A Standard Architecture for TREs` from the left-hand navigation bar.
 You can navigate directly to it [here](../specification.md).
 
 ```{figure} ../../images/read_the_docs.png
@@ -115,15 +116,15 @@ The most important one for you to know about is where the actual specification i
 SATRE repository docs directory
 ```
 
-You can find this by navigating to `docs` -> `source` -> `specification.md`.
-This is the specification written in [Markdown](https://hackmd.io/@turingway/hackmd-guide), that renders into a website (which you can access from the `About` section).
+You can find this by navigating to `docs` → `source` → `specification.md`.
+This is the specification, written in [Markdown](https://hackmd.io/@turingway/hackmd-guide), that renders into a website (which you can access from the `About` section).
 
 Most `Issues` and `Pull requests` will be related to this file specifically - and this file is the official specification.
 You can read more about `Issues` and `Pull requests` below.
 
 #### Issues
 
-Navigate to the the `Issues` tab.
+Navigate to the `Issues` tab.
 
 This is where the community is having discussions about ideas for the specification.
 You can think of it like an online forum where you start discussions and comment on pre-existing discussions.
@@ -168,7 +169,7 @@ Comment on SATRE specification issues
 Create new SATRE specification issue
 ```
 
-2. You should be able to select a template for the issue you want to create - you can choose from the available options, or `Open a blank issue` of no template is right.
+2. You should be able to select a template for the issue you want to create - you can choose from the available options, or `Open a blank issue` if no template is right.
 
 3. Fill in the template and select `Submit new issue`.
 
@@ -210,12 +211,12 @@ View discussion on a SATRE specification pull request
    For the purposes of this guide, we will just focus on comments.
    Make sure you are on the `Conversation` tab.
 
-3. From here, you can comment in the same way as you did with Issues (add your comment at the bottom, and click `Comment`).
+3. From here, you can comment in the same way as you did with `Issues` (add your comment at the bottom, and click `Comment`).
 
 ##### Create your own Pull Request
 
-If you would like to directly author a change to the specification yourself then you can create a Pull Request.
-Currently you will need to make a Fork of the SATRE repository to make a Pull Request. Here's how it works:
+If you would like to directly author a change to the specification yourself, then you can create a Pull Request.
+Currently, you will need to make a Fork of the SATRE repository to make a Pull Request. Here's how it works:
 
 1. **Create a Fork of the SATRE specification repository:**
 
@@ -240,7 +241,7 @@ Name your fork of the SATRE repository
 Link to the main SATRE repository
 ```
 
-2. **Keep the Fork up to date.** It is common for work to continue on the original repository while you are working with your forked version of the repository.
+2. **Keep the fork up to date.** It is common for work to continue on the original repository while you are working with your forked version of the repository.
    This means work on the original repository will not be reflected in your forked repository.
    You can keep your forked repository up to date by pressing the sync button (note that we are assuming there aren't any merge conflicts):
 
@@ -251,7 +252,7 @@ Link to the main SATRE repository
 Update your fork of the SATRE repository
 ```
 
-1. **Edit the section you want to change.** Click on the `specification.md` file in the repository where you will be able to edit it:
+1. **Edit the section you want to change.** Click on the `specification.md` file in the repository, where you will be able to edit it:
 
 ```{figure} ../../images/github_edit_file.png
 :alt: Edit a file
@@ -293,7 +294,7 @@ Create your pull request!
 ```
 
 You have now just opened a Pull Request intended to merge the changes on your Fork to the original SATRE Repository!
-Don't forget to Sync your Fork when the Pull Request gets accepted into the original repository.
+Don't forget to sync your Fork when the Pull Request gets accepted into the original repository.
 
 ### Additional considerations for GitHub
 
@@ -303,7 +304,7 @@ In order to make sure you stay informed of conversations you have joined, you ne
 
 ##### Notifications from the repository
 
-From the `Code` tab, click `Watch` -> `Participating and @mentions`.
+From the `Code` tab, click `Watch` → `Participating and @mentions`.
 This will ensure you get notified to any conversations where you are already taking part, or are mentioned by someone else.
 If you are really keen, you can turn on notifications for the whole repository, to be notified of any new issues or pull requests people open!
 
@@ -323,7 +324,7 @@ We recommend receiving `Participating and @mentions` notifications by email too,
 GitHub settings
 ```
 
-2. On left hand navigation bar, click `Notifications`.
+2. On left-hand navigation bar, click `Notifications`.
    Ensure your email is the right one, and then in `Participating and @mentions` check both `GitHub` and `Email`, and click save.
 
 ```{figure} ../../images/github_notification_settings.png
@@ -354,7 +355,7 @@ When you are commenting on Issues/PRs, there are a couple of handy things to kno
 Pull request number
 ```
 
-There will always be a dedicated Breakout Room in the Collaboration Cafes where one of the SATRE Team will be on hand to answer any questions and guide you through the GitHub Repository and help you get set up.
+There will always be a dedicated Breakout Room in the Collaboration Cafés where one of the SATRE Team will be on hand to answer any questions and guide you through the GitHub Repository and help you get set up.
 
 ### Contribute via alternate streams
 
