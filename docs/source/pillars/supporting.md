@@ -179,7 +179,6 @@ Rationale:
   - Optional
 ```
 
-
 ## Legal services
 
 _The ability of the TRE organisation to access suitable and timely legal advice._
