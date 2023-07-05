@@ -272,7 +272,7 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
 * - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
   - Mandatory
-* - You must ensure the TRE has a process in place for applying security updates for software used for configuring and running infrastructure, as well as any anti-virus/malware.
+* - The TRE operators must have a process in place for applying security updates to all software that forms part of the TRE infrastructure. They must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
   - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
   - Mandatory
 ```
