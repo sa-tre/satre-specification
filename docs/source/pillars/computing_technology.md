@@ -114,11 +114,11 @@ _The ability to run analyses requiring more compute resources, or more specialis
   - Mandatory
 * - TREs working with big datasets could integrate with large-scale data analytics tools.
   - For example, Spark and Hadoop can be used for distributed computing across a cluster.
-    Where data included in TREs are impractically large for single-machine computing, this may be an advantage.
+    This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
   - Optional
 * - TREs integrating with cloud-native managed services should consider the associated risks.
   - Cloud providers supply many different managed services.
-    Although the cloud provider is responsible for providing these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
+    Although the cloud provider is responsible for managing the configuration of these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
   - Optional
 ```
 
