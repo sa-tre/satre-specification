@@ -107,9 +107,9 @@ _What the organisation does to ensure the effective sourcing, purchasing and sup
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - The organisation operating the TRE must identify any goods or services that will be needed to operate the TRE and ensure that a plan is in place to purchase them as needed.
+  - These may include computing hardware, cloud credits or devices through which users access the TRE.
+  - Mandatory
 ```
 
 ## IT Service management
