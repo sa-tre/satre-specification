@@ -73,6 +73,9 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
     This may include version control software, and tools for developing and running data analysis pipelines.
   - Recommended
+* - Where possible, the TRE should automatically apply security related updates for user software.
+  - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal, and the security of the TRE will also be maintained by reducing the risk of expoitable vulnerabilities in installed software.
+  - Recommended
 * - A TRE may provide shared services that are accessible to users in the same project.
   - This may include shared file storage, databases, collaborative writing, and other web applications.
     This must only be shared amongst users within the same project.
@@ -276,6 +279,9 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
   - Mandatory
 * - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
+  - Mandatory
+* - The TRE operators must have a process in place for applying security updates to all software that forms part of the TRE infrastructure. They must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
+  - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
   - Mandatory
 ```
 
