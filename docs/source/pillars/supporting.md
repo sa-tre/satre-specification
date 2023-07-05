@@ -44,7 +44,7 @@ _What the organisation does to ensure effective management of programmes and pro
 * - All projects requiring TRE are assigned project management support
   - This may include budget management, tracking TRE status, managing communications with the TRE operations team, and other project support tasks
   - Recommended
-* - Project management support assigned to a project requiring a TRE should not have direct access to the TRE
+* - Project managers should not have direct access to the TRE
   - Doing so ensures a separation between those able to access sensitive data, and those overseeing access to sensitive data
   - Optional
 ```
