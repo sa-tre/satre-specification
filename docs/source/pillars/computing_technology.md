@@ -43,6 +43,9 @@ _The interfaces used for interacting with the TRE management system and the TRE 
   - A TRE user must not be able to copy sensitive data out of a workspace using the system clipboard.
     A TRE may allow user to paste text into a workspace.
   - Mandatory
+* - A TRE could restrict data access from researchers entirely and provide an interface for submitting code.
+  - For example, the OpenSAFELY TRE platform for electronic health records provides an interface for researchers who have developed their analysis code with dummy data, to submit their code to be run with the real data, and results returned via a disclosure process, without the researcher ever seeing the data.
+  - Optional
 ```
 
 ### Software tools
@@ -58,8 +61,13 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - Importance
 * - A TRE must provide software applications that are relevant to working with the data in the TRE.
   - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
-    This may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
+    For users working in a TRE via a virtual desktop, this may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
+    TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the researchers needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
     The set of tools should be reviewed regularly to ensure they are up to date.
+  - Mandatory
+* - A TRE should provide clear guidance on how to use software tools and work with data in the TRE.
+  - TREs that provide a virtual desktop environment for researchers to work in should provide documentation detailing the available tools.
+    TREs where the analysis code is developed on the access machine (as opppose to within the TRE) should provide documentation detailing the mechanism by which code is submitted to the TRE.
   - Mandatory
 * - A TRE should provide tools to encourage best-practice in reproducibly analysing data.
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
@@ -69,8 +77,13 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
   - This may include shared file storage, databases, collaborative writing, and other web applications.
     This must only be shared amongst users within the same project.
   - Optional
-* - A TRE may provide limited access to some software repositories
+* - A TRE may provide limited access to some public software repositories or container registries.
   - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
+    Similarly a subset of public containers could be made available, or individual container images via an internal container registry.
+  - Optional
+
+* - A TRE may include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary
+  -  For example, if an application must connect to an external licensing server TREs must be confident that only licensing information is sent to this server, and that any network proxies to allow this are secured.
   - Optional
 ```
 
@@ -99,6 +112,14 @@ _The ability to run analyses requiring more compute resources, or more specialis
     For example, when using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
     In a cloud hosted TRE virtual machines should be destroyed and recreated.
   - Mandatory
+* - TREs working with big datasets could integrate with large-scale data analytics tools.
+  - For example, Spark and Hadoop can be used for distributed computing across a cluster.
+    This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
+  - Optional
+* - TREs integrating with cloud-native managed services should consider the associated risks.
+  - Cloud providers supply many different managed services.
+    Although the cloud provider is responsible for managing the configuration of these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
+  - Optional
 ```
 
 ### Databases

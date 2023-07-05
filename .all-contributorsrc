@@ -5,7 +5,7 @@
   "repoHost": "https://github.com",
   "files": [
     "README.md",
-    "docs/source/contributors.md"
+    "docs/source/contributing/contributors.md"
   ],
   "imageSize": 100,
   "commit": false,
@@ -66,7 +66,8 @@
       "contributions": [
         "ideas",
         "review",
-        "content"
+        "content",
+        "bug"
       ]
     },
     {

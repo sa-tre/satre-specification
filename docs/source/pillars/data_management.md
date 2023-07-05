@@ -24,6 +24,14 @@ _The ability of the TRE organisation to manage how and where data is stored, how
 * - Statement
   - Guidance
   - Importance
+* - A TRE must have processes in place to assess the legal and regulatory implications of handling the data through its full lifecycle.
+  - This involves considering your obligations to data controllers and subjects, and whether any security controls may be legally or contractually required.
+    An assessment of the risks involved will also be needed.
+    It may involve classifying the project into a predefined sensitivity category or defining bespoke controls.
+  - Mandatory
+* - A TRE should keep records of data handling decisions.
+  - Decisions that are made as part of the process discussed above should be recorded and made available for inspection by all stakeholders.
+  - Recommended
 * - A TRE must have a data ingress process which enforces information governance rules/processes.
   - The data ingress process needs to ensure that information governance is correctly followed.
     In particular, it should require that an ingress request has been approved by all required parties.
@@ -89,6 +97,10 @@ _The ability of the TRE organisation to ensure the right people (identities) can
     Categories include something the user knows (_e.g._ a password), something the user possesses (_e.g._ a TOTP key) or something the user is (_e.g._ biometric data).
     A TRE does not need to implement multi-factor authentication checks itself if it is provided by a third-party identity provider.
   - Mandatory
+* - A TRE could use federated authentication/ single sign-on (SSO) for user login.
+  - Institutions that use a SSO for other applications may wish to extend this login capability to a TRE.
+    This will simplify the login process for researchers using a TRE and prevent them having to remember or store multiple login credentials.
+  - Optional
 * - A TRE could restrict access to particular locations.
   - Restricting access to a set of known, static, personal or institutional IP addresses can help avoid speculative attacks.
     When appropriate, access could also be restricted to physical locations with security controls and access requirements.
