@@ -112,7 +112,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
     For example, when using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
     In a cloud hosted TRE virtual machines should be destroyed and recreated.
   - Mandatory
-* - A TRE may make data available to researchers using comonly used databases servers such as PostgreSQL, MSSQL, MongoDB, etc.
+* - A TRE may make data available to researchers using commonly used database flavours such as PostgreSQL, MSSQL or MongoDB.
   - Databases must be secured and only accessible to users within the same project.
     If shared (multi-tenant) database servers are used database administrators must ensure the database server enforces segregation of users and databases.
   - Optional
