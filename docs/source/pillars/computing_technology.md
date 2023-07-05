@@ -114,7 +114,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
   - Mandatory
 * - A TRE may make data available to researchers using commonly used database flavours such as PostgreSQL, MSSQL or MongoDB.
   - Databases must be secured and only accessible to users within the same project.
-    If shared (multi-tenant) database servers are used database administrators must ensure the database server enforces segregation of users and databases.
+    If shared (multi-tenant) database servers are used, database administrators must ensure that the database server enforces segregation of users and databases belonging to different projects.
   - Optional
 * - TREs working with big datasets could integrate with large-scale data analytics tools.
   - For example, Spark and Hadoop can be used for distributed computing across a cluster.
