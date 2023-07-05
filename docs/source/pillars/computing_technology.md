@@ -2,7 +2,7 @@
 
 # Computing technology
 
-This capability concerns what the TRE organisation does to manage systems for storing, retrieving, analysing and sending information.
+This capability concerns what the TRE operator does to manage systems for storing, retrieving, analysing and sending information.
 
 ```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
@@ -15,7 +15,7 @@ SATRE Pillars Capability Map
 
 ## End user computing
 
-_The ability of the TRE organisation to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data._
+_The ability of the TRE operator to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data._
 
 ### User interface
 
@@ -28,23 +28,23 @@ _The interfaces used for interacting with the TRE management system and the TRE 
 * - Statement
   - Guidance
   - Importance
-* - A TRE should be accessed via a user interface accessible using commonly available applications.
+* - Your TRE should be accessed via a user interface accessible using commonly available applications.
   - TREs which allow users to connect from their own devices should not require the installation of any bespoke TRE application on the user's device.
     In practice a web browser is the most common way to achieve this.
   - Recommended
-* - A TRE workspace should provide an environment familiar to the users of the TRE.
+* - Your TRE workspace should provide an environment familiar to your users.
   - This may take the form of a virtual Windows or Linux desktops, non-desktop interfaces such as JupyterLab and other web applications, or a terminal.
     Bespoke TRE-specific software should be avoided when widely used alternatives already exist.
   - Recommended
-* - A TRE should take accessibility for users with disabilities into account.
+* - Your TRE should take accessibility for users with disabilities into account.
   - The restricted nature of TREs means many assistive tools such as screenreaders in a virtual desktop may not be allowed, but other options such as colour schemes, font sizes, and resizing user interface elements, should be supported.
   - Recommended
-* - Copying out data via the system clipboard must be disabled.
+* - You should disable the ability to copy data out of your TRE via the system clipboard.
   - A TRE user must not be able to copy sensitive data out of a workspace using the system clipboard.
     A TRE may allow user to paste text into a workspace.
-  - Mandatory
+  - Recommended
 * - A TRE could restrict data access from researchers entirely and provide an interface for submitting code.
-  - For example, the OpenSAFELY TRE platform for electronic health records provides an interface for researchers who have developed their analysis code with dummy data, to submit their code to be run with the real data, and results returned via a disclosure process, without the researcher ever seeing the data.
+  - For example, you might use a system where users submit jobs which run over the data and return results without allowing direct data acces.
   - Optional
 ```
 
@@ -59,34 +59,33 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
 * - Statement
   - Guidance
   - Importance
-* - A TRE must provide software applications that are relevant to working with the data in the TRE.
+* - Your TRE must provide software applications that are relevant to working with the data in the TRE.
   - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
     For users working in a TRE via a virtual desktop, this may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
     TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the researchers needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
     The set of tools should be reviewed regularly to ensure they are up to date.
   - Mandatory
-* - A TRE should provide clear guidance on how to use software tools and work with data in the TRE.
+* - Your TRE must provide clear guidance on how to use software tools and work with data in the TRE.
   - TREs that provide a virtual desktop environment for researchers to work in should provide documentation detailing the available tools.
     TREs where the analysis code is developed on the access machine (as opppose to within the TRE) should provide documentation detailing the mechanism by which code is submitted to the TRE.
   - Mandatory
-* - A TRE should provide tools to encourage best-practice in reproducibly analysing data.
+* - Your TRE should provide tools to encourage best-practice in reproducibly analysing data.
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
     This may include version control software, and tools for developing and running data analysis pipelines.
   - Recommended
-* - Where possible, the TRE should automatically apply security related updates for user software.
-  - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal, and the security of the TRE will also be maintained by reducing the risk of expoitable vulnerabilities in installed software.
+* - Your TRE should, where possible, automatically apply security related updates for user software.
+  - Reducing the risk of expoitable vulnerabilities in installed software will increase the security of your TRE.
   - Recommended
-* - A TRE may provide shared services that are accessible to users in the same project.
+* - Your TRE could provide shared services that are accessible to users in the same project.
   - This may include shared file storage, databases, collaborative writing, and other web applications.
     This must only be shared amongst users within the same project.
   - Optional
-* - A TRE may provide limited access to some public software repositories or container registries.
+* - Your TRE could provide limited access to some public software repositories or container registries.
   - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
     Similarly a subset of public containers could be made available, or individual container images via an internal container registry.
   - Optional
-
-* - A TRE may include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary
-  -  For example, if an application must connect to an external licensing server TREs must be confident that only licensing information is sent to this server, and that any network proxies to allow this are secured.
+* - Your TRE could include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary.
+  - For example, if an application must connect to an external licensing server TREs must be confident that only licensing information is sent to this server, and that any network proxies to allow this are secured.
   - Optional
 ```
 
@@ -101,29 +100,29 @@ _The ability to run analyses requiring more compute resources, or more specialis
 * - Statement
   - Guidance
   - Importance
-* - A TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
+* - Your TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
   - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
     For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
   - Recommended
-* - A TRE should be able to provide access to accelerators such as GPUs if required by users.
+* - Your TRE should be able to provide access to accelerators such as GPUs if required by users.
   - GPUs and other accelerators are commonly used in machine learning and other computationally intensive research.
     TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
   - Recommended
-* - Segregation of users and data must be maintained when using non-standard compute.
+* - Your TRE must maintain segregation of users and data from different projects when using non-standard compute.
   - High performance or specialist compute is often shared amongst multiple users.
     Users and data must remain segregated at all times.
-    For example, when using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
-    In a cloud hosted TRE virtual machines should be destroyed and recreated.
+    For example, when using physical compute resources, all sensitive data could be securely wiped before another user is given access to that same node.
+    In a cloud hosted TRE virtual machines could be destroyed and recreated.
   - Mandatory
-* - A TRE may make data available to researchers using common databases such as PostgreSQL, MSSQL or MongoDB.
+* - Your TRE could make data available to researchers using common databases such as PostgreSQL, MSSQL or MongoDB.
   - Databases must be secured and only accessible to users within the same project.
     If shared (multi-tenant) database servers are used, database administrators must ensure that the database server enforces segregation of users and databases belonging to different projects.
   - Optional
-* - TREs working with big datasets could integrate with large-scale data analytics tools.
+* - Your TRE could integrate with large-scale data analytics tools for working with large datasets.
   - For example, Spark and Hadoop can be used for distributed computing across a cluster.
     This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
   - Optional
-* - TREs integrating with cloud-native managed services should consider the associated risks.
+* - Your TRE could integrate with cloud-native managed services.
   - Cloud providers supply many different managed services.
     Although the cloud provider is responsible for managing the configuration of these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
   - Optional
@@ -131,7 +130,7 @@ _The ability to run analyses requiring more compute resources, or more specialis
 
 ## Infrastructure analytics
 
-_The ability of the TRE organisation to record and analyse data about the usage of the TRE._
+_The ability of the TRE operator to record and analyse data about the usage of the TRE._
 
 ```{list-table}
 :header-rows: 1
@@ -140,20 +139,20 @@ _The ability of the TRE organisation to record and analyse data about the usage 
 * - Statement
   - Guidance
   - Importance
-* - A TRE must record usage of the TRE.
+* - Your TRE must record usage data.
   - This may include the number of users, number of projects, the amount of data stored, number of datasets, the number of workspaces, etc.
   - Mandatory
-* - A TRE should record which datasets are accessed, and when
-  - This helps auditability of how sensitive data has been used
+* - Your TRE should record which datasets are accessed, when and by who.
+  - This helps maintain auditability of how sensitive data has been used
   - Recommended
-* - A TRE should record computational resource usage at the user or aggregate level
+* - Your TRE should record computational resource usage at the user or aggregate level.
   - This is useful for optimising allocation of resources, and managing costs.
   - Recommended
 ```
 
 ## Network management
 
-_The ability of the TRE organisation to administer and secure network infrastructure using applications, tools and processes._
+_The ability of the TRE operator to administer and secure network infrastructure using applications, tools and processes._
 
 ```{list-table}
 :header-rows: 1
@@ -162,28 +161,28 @@ _The ability of the TRE organisation to administer and secure network infrastruc
 * - Statement
   - Guidance
   - Importance
-* - Networks must be managed and controlled to protect information in systems and applications
+* - Your TRE must control and manage any internal and external network infrastructure in order to protect information in systems and applications.
   - Network infrastructure must prevent unauthorised access to resources on the network.
     This may include firewalls, network segmentation, and restricting connections to the network.
   - Mandatory
-* - Networks must be continually monitored for misconfigurations and vulnerabilities
+* - You must monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
   - This may include regular vulnerability scanning, and penetration testing.
   - Mandatory
-* - Connectivity between users in different projects, or with access to different datasets, must not be allowed.
+* - Your TRE must not allow connectivity between users in different projects, or with access to different datasets.
   - Connectivity between users in the same project may be allowed, for example to support shared network services within the project.
   - Mandatory
-* - Outbound connections to the internet must be blocked by default.
+* - Your TRE must block outbound connections to the internet by default.
   - Limited outbound connectivity may be allowed for some services.
   - Mandatory
 ```
 
 ## Infrastructure lifecycle management
 
-_The ability of the TRE organisation to manage necessary physical or virtual infrastructure._
+_The ability of the TRE operator to manage necessary physical or virtual infrastructure._
 
 ### Deployment management
 
-_The ability of the TRE organisation to instantiate, deploy, change or remove deployed infrastructure._
+_The ability of the TRE operator to instantiate, deploy, change or remove deployed infrastructure._
 
 ```{list-table}
 :header-rows: 1
@@ -195,7 +194,7 @@ _The ability of the TRE organisation to instantiate, deploy, change or remove de
 * - You must have a documented procedure for deploying infrastructure.
   - This might, for instance, be a handbook that is followed or a set of automated scripts.
   - Mandatory
-* - Where possible, you should automate any repeatable aspects of your deployment.
+* - You should, where possible, automate any repeatable aspects of your deployment.
   - This might involve using infrastructure-as-code tools or simply a series of scripts.
   - Recommended
 * - You must have a documented procedure for making changes to deployed infrastructure.
@@ -215,7 +214,7 @@ _The ability of the TRE organisation to instantiate, deploy, change or remove de
 
 ### Capacity management
 
-_The ability of the TRE organisation to ensure the right amount of resources are available at the right time to provide a service._
+_The ability of the TRE operator to ensure the right amount of resources are available at the right time to provide a service._
 
 ```{list-table}
 :header-rows: 1
@@ -245,7 +244,7 @@ _The ability of the TRE organisation to ensure the right amount of resources are
 
 ### Configuration management
 
-_The ability of the TRE organisation to identify, maintain, and verify information on IT assets and configurations in the TRE organisation._
+_The ability of the TRE operator to identify, maintain, and verify information on IT assets and configurations in the TRE operator._
 
 ```{list-table}
 :header-rows: 1
@@ -276,7 +275,7 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
 
 ## Availability management
 
-_The ability of the TRE organisation to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets._
+_The ability of the TRE operator to ensure all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets._
 
 ```{list-table}
 :header-rows: 1

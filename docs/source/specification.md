@@ -5,31 +5,34 @@
 <!-- What this document intends to do (and what it doesn't), the level of detail we aim for contrasted with other technical standards -->
 
 The SATRE specification follows a capability-evaluation model.
+The specification is presented in terms of the capabilities that a team running a TRE should aim for across all aspects of TRE provision.
 
-The specification is presented in terms of capabilities teams should aim for across all aspects of TRE provision.
-These capabilities are broken down into components.
-Each component is a statement of a process, method or practice teams should have in place to ensure they fulfil the capability requirements.
+:::{note}
+Throughout this document we will use the term "TRE operator" to refer to the team running a particular TRE.
+:::
 
-Any particular component is labelled with an importance.
+The TRE capabilities are broken down into components.
+Each component is a statement of a process, method or practice that the operators should have in place to ensure they fulfil the capability requirements.
+These components are each labelled with an importance.
 The importance is one of **mandatory**, **recommended** or **optional**.
 
 :::{note}
 The intended meaning of the capability component importance labels is as follows:
 
 Mandatory
-: We believe this is required. If this component is not supported, then the capability, and the specification, is not met.
+: This is required. If this component is not supported, then the capability, and the specification, is not met.
 
 Recommended
 : We believe that TREs should have this component. It makes a TRE better.
 
 Optional
-: We believe many TREs would benefit from this component. However, we recognise there are reasons a team may actively choose not to support this component.
+: We believe many TREs would benefit from this component. However, we recognise there are reasons a TRE operator may actively choose not to support this component.
 :::
 
-Teams are able demonstrate that they meet the specification by showing they can fulfil all **mandatory** components.
+TRE operators are able to demonstrate that they meet the specification by showing they can fulfil all **mandatory** components.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
 
-Any particular TRE implementation should be able to score itself against each capability as either supported, partially supported or unsupported (see {ref}`evaluation` for details).
+Any particular TRE implementation should be able to score itself against each capability as either **supported**, **partially supported** or **unsupported** (see {ref}`evaluation` for details).
 
 ## Structure
 
@@ -43,13 +46,13 @@ SATRE Specification Architecture
 ```
 
 {ref}`Architectural Principles <satre_principles>`
-: The principles that all teams looking to use the specification should hold themselves accountable to.
+: The principles that all TRE operators looking to use the specification should hold themselves accountable to.
 
 {ref}`Specification Pillars <satre_pillars>`
 : The broad areas of TRE provisioning the specification covers.
 
 TRE Capabilities
-: The capabilities within these pillars teams can measure themselves against.
+: The capabilities within these pillars that TRE operators can measure themselves against.
 
 TRE Capability Components
 : The statements concerning processes, controls, practices and applications that make up a capability, together with an importance label.
@@ -67,7 +70,7 @@ The SATRE specification has been developed based on the following principles:
 - TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
 - The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
 
-Finally, the TRE organisation will need to consider different {ref}`roles <satre_roles>` with which individuals might interact with the TRE.
+Finally, the TRE operators will need to consider different {ref}`roles <satre_roles>` with which individuals might interact with the TRE.
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
 
@@ -85,13 +88,13 @@ SATRE Pillars Capability Map
 ```
 
 {ref}`Information governance <pillar_information_governance>`
-: What the organisation does to ensure information risk is measured and managed to an acceptable level.
+: What the TRE operators do to ensure information risk is measured and managed to an acceptable level.
 
 {ref}`Computing technology <pillar_computing_technology>`
-: What the organisation does to manage systems for storing, retrieving, and sending information.
+: What the TRE operators do to manage systems for storing, retrieving, and sending information.
 
 {ref}`Data management <pillar_data_management>`
-: What the organisation does to manage data assets and ensure information remains secure.
+: What the TRE operators do to manage data assets and ensure information remains secure.
 
-In addition to these capabilities, any organisation running a TRE (TRE organisation) will need to possess various {ref}`supporting capabilities <pillar_supporting>`.
+In addition to these capabilities, any TRE operator will need to possess various {ref}`supporting capabilities <pillar_supporting>`.
 Examples of supporting capabilities include complying with legal requirements and managing relationships with stakeholders.

@@ -53,7 +53,7 @@ Personal or sensitive data which have been collected for operational, commercial
 TREs are designed to enable access to sensitive data only for authorised projects and researchers, whilst minimising risk of data release or exposure.
 Influential reports from DARE UK and Health Data Research UK, together with the UK Government Goldacre review and ‘Data Saves Lives’ policy paper, have all highlighted the need for change in how sensitive data are handled.
 
-The SATRE team contains representatives from several existing UK TREs which are hosting a wide variety of data.
+The SATRE team contains representatives from several existing UK TREs, which between them host many different types of sensitive data.
 We will use the reference architecture specified here to bring these into closer alignment and make it easy for others to do the same.
 This supports DARE UK's aim of developing a coordinated national data research infrastructure.
 
