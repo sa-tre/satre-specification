@@ -131,9 +131,10 @@ _The ability to query and browse the data within an environment at various level
 * - Statement
   - Guidance
   - Importance
-* -
-  -
-  -
+* - TRE operators could make a catalogue of sensitive data that they hold available to users
+  - This is particularly relevant for TREs that are an interface to a common data collection.
+    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more data providers.
+  - Optional
 ```
 
 (standard_capability_information_security)=
