@@ -112,6 +112,10 @@ _The ability to run analyses requiring more compute resources, or more specialis
     For example, when using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
     In a cloud hosted TRE virtual machines should be destroyed and recreated.
   - Mandatory
+* - A TRE may make data available to researchers using comonly used databases servers such as PostgreSQL, MSSQL, MongoDB, etc.
+  - Databases must be secured and only accessible to users within the same project.
+    If shared (multi-tenant) database servers are used database administrators must ensure the database server enforces segregation of users and databases.
+  - Optional
 * - TREs working with big datasets could integrate with large-scale data analytics tools.
   - For example, Spark and Hadoop can be used for distributed computing across a cluster.
     This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
@@ -119,21 +123,6 @@ _The ability to run analyses requiring more compute resources, or more specialis
 * - TREs integrating with cloud-native managed services should consider the associated risks.
   - Cloud providers supply many different managed services.
     Although the cloud provider is responsible for managing the configuration of these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
-  - Optional
-```
-
-### Databases
-
-```{list-table}
-:header-rows: 1
-:name: tab-end-user-databases
-
-* - Statement
-  - Guidance
-  - Importance
-* - A TRE may make data available to researchers using comonly used databases servers such as PostgreSQL, MSSQL, MongoDB, etc.
-  - Databases must be secured and only accessible to users within the same project.
-    If shared (multi-tenant) database servers are used database administrators must ensure the database server enforces segregation of users and databases.
   - Optional
 ```
 
