@@ -85,7 +85,7 @@ _All activities aimed at the efficient and effective management of money (funds)
 * - All projects requiring a TRE must know and accept the financial cost of doing so
   - Costs may include provision of the underlying TRE infrastructure, additional resources required in a specific TRE (for instance memory or additional compute), hardware including managed devices, and staff support costs
   - Mandatory
-* - You should be able to track costs associated with each TRE project
+* - The organisation operating the TRE should be able to track costs associated with each TRE project
   - This includes knowing which costs are associated with which project, and having an appropriate charging mechanism in place in line with your organisational policy
   - Recommended
 * - You should have a process in place to ensure your TRE provision remains sustainable
