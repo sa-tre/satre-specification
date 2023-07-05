@@ -62,7 +62,7 @@ So you are still able to contribute via this method, though all direct changes w
 
 Below is a walkthrough of all the steps required to contribute via GitHub, from the very beginning.
 
-This walkthrough is designed to give you the critical path steps to contributing directly to the Specification repo.
+This walkthrough is designed to give you the critical path steps to contributing directly to the Specification repository.
 For a more broad, deeper introduction to GitHub, check out the Turing Way's [Introduction to GitHub Workshop](https://www.youtube.com/watch?v=Vcckl-2dASM), run at CarpentryCon22.
 
 1. Go to the [GitHub homepage](https://github.com/)
@@ -105,7 +105,7 @@ SATRE specification website
 
 #### Code
 
-This is the default landing page of the repo, and contains all the code associated with the specification.
+This is the default landing page of the repository, and contains all the code associated with the specification.
 The most important one for you to know about is where the actual specification is being written.
 
 ```{figure} ../../images/satre_specification_docs_directory.png
@@ -251,7 +251,7 @@ Link to the main SATRE repository
 Update your fork of the SATRE repository
 ```
 
-1. **Edit the section you want to change.** Click on the `specification.md` file in the repo where you will be able to edit it:
+1. **Edit the section you want to change.** Click on the `specification.md` file in the repository where you will be able to edit it:
 
 ```{figure} ../../images/github_edit_file.png
 :alt: Edit a file
@@ -312,7 +312,7 @@ You will know you have the right setting when a tick appears next to your chosen
 ##### Notification streams
 
 You can also decide how you receive notifications - whether just on GitHub, or also via email.
-We recommend receiving `Participating and @mentions` notifications by email too, to ensure you don't miss any conversation you're invovled in!
+We recommend receiving `Participating and @mentions` notifications by email too, to ensure you don't miss any conversation you're involved in!
 
 1. Click your profile in the top right corner of GitHub and select `Settings`.
 

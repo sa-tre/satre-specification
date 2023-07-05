@@ -55,7 +55,7 @@ This can be without discussion, however, it is best for substantial or significa
 We have opted to not use GitHub Discussions at this point.
 
 The community can suggest governance changes at any point.
-This includes the SATRE team, and any decision must be openly documented in the repo.
+This includes the SATRE team, and any decision must be openly documented in the repository.
 :::
 
 ### Specification Format
@@ -116,8 +116,8 @@ However, it makes the source and [diffs produced during the pull request](https:
 
 ### Linting and auto-formatting
 
-We take advantage of pre-commit and related tools to help maintain consistent formatting within a repo, which improves review efficiency, and readability.
-`pre-commit can be installed using pip:
+We take advantage of `pre-commit` and related tools to help maintain consistent formatting within a repository, which improves review efficiency, and readability.
+`pre-commit` can be installed using pip:
 
 ```sh
 pip install pre-commit
@@ -134,7 +134,7 @@ See the [pre-commit](https://pre-commit.com/) documentation for more advanced us
 
 ## SATRE Team Contributions
 
-SATRE team members are free to contribute to the repo in the same way as any contributor, following the process above.
+SATRE team members are free to contribute to the repository in the same way as any contributor, following the process above.
 The SATRE team is also doing ongoing work to identify the key features of this specification.
 Some contributions by SATRE team members may represent the output of this work.
 Any contribution that represents this work will be explicitly mentioned in the contribution.
@@ -143,7 +143,7 @@ This work is taking on two main forms:
 
 1. Identifying what features the community feels are important for a TRE via the [features survey](https://dundee.onlinesurveys.ac.uk/satre-tre-operatorsbuilders-survey).
    We will synthesise responses from this survey to suggest features here.
-1. Evaluating the TREs used in production as part of [the Alan Turing Institute DSH](https://github.com/alan-turing-institute/data-safe-haven), [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
+1. Evaluating the TREs used in production as part of [the Alan Turing Institute Data Safe Haven](https://github.com/alan-turing-institute/data-safe-haven), [Microsoft's Azure TRE](https://github.com/microsoft/AzureTRE), and the [TREEHOOSE TRE](https://github.com/HicResearch/TREEHOOSE/tree/v1.0.0-beta1).
    The SATRE team will make recommendations for features of the specification based on similarities/differences across these three TRE provisions.
 
 (contributing-get-in-touch)=

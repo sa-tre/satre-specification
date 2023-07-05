@@ -153,7 +153,7 @@ _The ability to query and browse the data within an environment at various level
 
 ## Information security
 
-This capability relates to the ability of the TRE organisation to protect against the unauthorized use of information, especially electronic data.
+This capability relates to the ability of the TRE organisation to protect against the unauthorised use of information, especially electronic data.
 
 Measures taken to ensure information security can be further categorised into:
 
