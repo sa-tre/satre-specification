@@ -38,7 +38,7 @@ This will help participants come prepared to talk about certain topics. We also 
 
 ## Review the SATRE Specification Document
 
-The latest version of the SATRE Specification Document can be found [here](https://satre-specification.readthedocs.io/en/latest/).
+The latest version of the SATRE Specification Document can be found [here](../specification.md).
 It is a living document in which the aim is to have a completed draft by October 2023.
 
 ## Contribute to the SATRE Specification Document
@@ -94,7 +94,7 @@ SATRE specification repository
 
 This link will take you a readable version of the specification.
 You can access the current live version of the specification by clicking on `A Standard Architecture for TREs` from the left hand navigation bar.
-You can navigate directly to it [here](https://satre-specification.readthedocs.io/en/latest/specification.html)
+You can navigate directly to it [here](../specification.md).
 
 ```{figure} ../../images/read_the_docs.png
 :alt: SATRE specification website
@@ -172,7 +172,7 @@ Create new SATRE specification issue
 
 3. Fill in the template and select `Submit new issue`.
 
-For more information on how Issues are being governed, see our [Contributing process](https://satre-specification.readthedocs.io/en/latest/contributing/index.html)
+For more information on how Issues are being governed, see our [](#contributing-contribution-process).
 
 #### Pull requests
 

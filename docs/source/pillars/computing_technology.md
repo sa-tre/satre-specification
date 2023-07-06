@@ -33,8 +33,8 @@ _The interfaces used for interacting with the TRE management system and the TRE 
     In practice a web browser is the most common way to achieve this.
   - Recommended
 * - A TRE workspace should provide an environment familiar to the users of the TRE.
-  - This may be in the form of a virtual Windows or Linux desktops, web applications, or a terminal.
-    The use of custom developed TRE-specific software should be avoided when widely used open-source alternatives already exist.
+  - This may take the form of a virtual Windows or Linux desktops, non-desktop interfaces such as JupyterLab and other web applications, or a terminal.
+    Bespoke TRE-specific software should be avoided when widely used alternatives already exist.
   - Recommended
 * - A TRE should take accessibility for users with disabilities into account.
   - The restricted nature of TREs means many assistive tools such as screenreaders in a virtual desktop may not be allowed, but other options such as colour schemes, font sizes, and resizing user interface elements, should be supported.
@@ -72,6 +72,9 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
 * - A TRE should provide tools to encourage best-practice in reproducibly analysing data.
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
     This may include version control software, and tools for developing and running data analysis pipelines.
+  - Recommended
+* - Where possible, the TRE should automatically apply security related updates for user software.
+  - TRE users will benefit from the latest versions of software being installed on the TRE, to maximise the functionality at their disposal, and the security of the TRE will also be maintained by reducing the risk of expoitable vulnerabilities in installed software.
   - Recommended
 * - A TRE may provide shared services that are accessible to users in the same project.
   - This may include shared file storage, databases, collaborative writing, and other web applications.
@@ -112,20 +115,17 @@ _The ability to run analyses requiring more compute resources, or more specialis
     For example, when using physical compute resources all sensitive data must be securely wiped before another user is given access to that same node.
     In a cloud hosted TRE virtual machines should be destroyed and recreated.
   - Mandatory
-```
-
-### Databases
-
-```{list-table}
-:header-rows: 1
-:name: tab-end-user-databases
-
-* - Statement
-  - Guidance
-  - Importance
-* - A TRE may make data available to researchers using comonly used databases servers such as PostgreSQL, MSSQL, MongoDB, etc.
+* - A TRE may make data available to researchers using common databases such as PostgreSQL, MSSQL or MongoDB.
   - Databases must be secured and only accessible to users within the same project.
-    If shared (multi-tenant) database servers are used database administrators must ensure the database server enforces segregation of users and databases.
+    If shared (multi-tenant) database servers are used, database administrators must ensure that the database server enforces segregation of users and databases belonging to different projects.
+  - Optional
+* - TREs working with big datasets could integrate with large-scale data analytics tools.
+  - For example, Spark and Hadoop can be used for distributed computing across a cluster.
+    This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
+  - Optional
+* - TREs integrating with cloud-native managed services should consider the associated risks.
+  - Cloud providers supply many different managed services.
+    Although the cloud provider is responsible for managing the configuration of these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
   - Optional
 ```
 
@@ -268,6 +268,9 @@ _The ability of the TRE organisation to identify, maintain, and verify informati
   - Mandatory
 * - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
+  - Mandatory
+* - The TRE operators must have a process in place for applying security updates to all software that forms part of the TRE infrastructure. They must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
+  - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
   - Mandatory
 ```
 
