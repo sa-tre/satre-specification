@@ -273,3 +273,26 @@ Physical security controls can provide TREs using highly sensitive data an extra
   - Regulatory frameworks such as GDPR emphasise the need for physical security controls to protect sensitive data. Compliance with these regulations could require organisations to implement specific physical security measures to safeguard their TRE from unauthorised access.
   - Optional
 ```
+
+(security-level)=
+
+### Security levels and tiering
+
+_The ability of the TRE deployment software (or active TRE) to configure security controls appropriate to the sensitivity of the data used in a project or workspace._
+
+Each security control employed by a TRE adds a bit of friction to the user experience. With a one-size-fits-all approach, TREs force all projects to use the security requirements for the most sensitive data that is handled:
+
+```{list-table}
+:header-rows: 1
+:name: tab-security-level
+
+* - Statement
+  - Guidance
+  - Importance
+* - TREs should support data of different levels of sensitivity, via variable and configurable security controls
+  - By offering TREs (or workspaces within TREs) at differing levels of security, TRE operator institutions can remain flexible and handle research projects that require greater levels of user training and less permissive computing environments for projects with highly sensitive data, as well as projects with fewer training requirements and security controls, but for which a TRE is still useful.
+  - Recommended
+* - TREs could offer a pre-defined set of security control tiers which project teams can choose from
+  - Security tiers empower data providers and project teams to make informed choices about the level of restriction appropriate for the data they will be working with.
+  - Optional
+```
