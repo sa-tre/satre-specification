@@ -33,13 +33,13 @@ Typically, each Breakout Room is linked to an Issue on the [SATRE GitHub Issues 
 :::{important}
 The HackMD for each Collaboration Café is made available in your calendar invites.
 We encourage you to propose a Breakout Room in advanced of the Collaboration Café, linking to a [SATRE GitHub Issue](https://github.com/sa-tre/satre-specification/issues) if possible.
-This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day though!
+This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day!
 :::
 
 ## Review the SATRE Specification Document
 
 The latest version of the SATRE Specification Document can be found [here](../specification.md).
-It is a living document, and we aim to have a completed draft by October 2023.
+It is a living document, and we intend to have a complete draft by October 2023.
 
 ## Contribute to the SATRE Specification Document
 
@@ -64,7 +64,7 @@ So you are still able to contribute via this method, though all direct changes w
 Below is a walkthrough of all the steps required to contribute via GitHub, from the very beginning.
 
 This walkthrough is designed to give you the critical path steps to contributing directly to the Specification repository.
-For a more broad, deeper introduction to GitHub, check out the Turing Way's [Introduction to GitHub Workshop](https://www.youtube.com/watch?v=Vcckl-2dASM), run at CarpentryCon22.
+For a broader, deeper introduction to GitHub, check out the Turing Way's [Introduction to GitHub Workshop](https://www.youtube.com/watch?v=Vcckl-2dASM), run at [CarpentryCon2022](https://2022.carpentrycon.org/).
 
 1. Go to the [GitHub homepage](https://github.com/)
 
@@ -81,7 +81,7 @@ GitHub homepage
 1. Once you are logged in, navigate to the [SATRE Specification page](https://github.com/sa-tre/satre-specification)
 
 2. This is the SATRE specification **repository**. You can think of this like a directory containing all files to do with the SATRE specification.
-   The main things to know about are the link in the Section, and the `Code`, `Issues` and `Pull requests` tabs.
+   The main things to know about are the link in the `About` Section, and the `Code`, `Issues` and `Pull requests` tabs.
    Let's look at these in turn.
 
 ```{figure} ../../images/satre_specification_repo.png
@@ -355,7 +355,7 @@ When you are commenting on Issues/PRs, there are a couple of handy things to kno
 Pull request number
 ```
 
-There will always be a dedicated Breakout Room in the Collaboration Cafés where one of the SATRE Team will be on hand to answer any questions and guide you through the GitHub Repository and help you get set up.
+There will always be a dedicated Breakout Room in the Collaboration Cafés where one of the SATRE Team will be on hand to answer any questions, guide you through the GitHub Repository, and help you get set up.
 
 ### Contribute via alternate streams
 

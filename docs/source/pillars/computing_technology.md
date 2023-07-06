@@ -44,7 +44,7 @@ _The interfaces used for interacting with the TRE management system and the TRE 
     A TRE may allow user to paste text into a workspace.
   - Recommended
 * - A TRE could restrict data access from researchers entirely and provide an interface for submitting code.
-  - For example, you might use a system where users submit jobs which run over the data and return results without allowing direct data acces.
+  - For example, you might use a system where users submit jobs that run over the data and return results without allowing direct data access.
   - Optional
 ```
 
@@ -74,7 +74,7 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
     This may include version control software, and tools for developing and running data analysis pipelines.
   - Recommended
 * - Your TRE should, where possible, automatically apply security related updates for user software.
-  - Reducing the risk of expoitable vulnerabilities in installed software will increase the security of your TRE.
+  - Reducing the risk of exploitable vulnerabilities in installed software will increase the security of your TRE.
   - Recommended
 * - Your TRE could provide shared services that are accessible to users in the same project.
   - This may include shared file storage, databases, collaborative writing, and other web applications.
@@ -85,7 +85,7 @@ _The tools used by researchers inside a TRE, such as programming languages, IDEs
     Similarly a subset of public containers could be made available, or individual container images via an internal container registry.
   - Optional
 * - Your TRE could include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary.
-  - For example, if an application must connect to an external licensing server TREs must be confident that only licensing information is sent to this server, and that any network proxies to allow this are secured.
+  - For example, if an application must connect to an external licensing server, you must be confident that only licensing information is sent to this server, and that any network connections are secure.
   - Optional
 ```
 
@@ -142,8 +142,8 @@ _The ability of the TRE operator to record and analyse data about the usage of t
 * - Your TRE must record usage data.
   - This may include the number of users, number of projects, the amount of data stored, number of datasets, the number of workspaces, etc.
   - Mandatory
-* - Your TRE should record which datasets are accessed, when and by who.
-  - This helps maintain auditability of how sensitive data has been used
+* - Your TRE should record which datasets are accessed, when and by whom.
+  - This helps maintain auditability of how sensitive data has been used.
   - Recommended
 * - Your TRE should record computational resource usage at the user or aggregate level.
   - This is useful for optimising allocation of resources, and managing costs.
@@ -161,7 +161,7 @@ _The ability of the TRE operator to administer and secure network infrastructure
 * - Statement
   - Guidance
   - Importance
-* - Your TRE must control and manage any internal and external network infrastructure in order to protect information in systems and applications.
+* - Your TRE must control and manage all of its network infrastructure in order to protect information in systems and applications.
   - Network infrastructure must prevent unauthorised access to resources on the network.
     This may include firewalls, network segmentation, and restricting connections to the network.
   - Mandatory

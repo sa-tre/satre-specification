@@ -44,7 +44,7 @@ _The ability of the TRE operator to manage how and where data is stored, how it 
   - There may be cases where there are multiple stakeholders for a piece of analysis including data providers, data analysts, data subjects, the TRE operator.
     A data egress process may then require approval from people not on the project team, for example an external referee or TRE operator representative
   - Optional
-* - You must keep a record of what data it holds.
+* - You must keep a record of what data your TRE holds.
   - Good records are important for ensuring compliance with legislation, understanding risk and aiding good data hygiene.
     The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the date it was received, when it is expected to no longer be needed.
   - Mandatory
@@ -56,7 +56,7 @@ _The ability of the TRE operator to manage how and where data is stored, how it 
   - Mandatory
 * - You could keep backups of data and research environments, provided that this is permitted by law.
   - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
-    TRE developers may want to consider how different elements, for example sensitive input data or users workspaces, may be backed up or if they should be.
+    TRE developers may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
   - Optional
 * - You should log how input data is modified.
   - If the input data is mutable a TRE should keep records of its modification.
@@ -72,7 +72,7 @@ _The ability of the TRE operator to manage how and where data is stored, how it 
 
 ## Identity and access management
 
-_The ability of the TRE operator to ensure the right people (identities) can access the tools and data they need, and no more._
+_The ability of the TRE operator to ensure the right people (identities) can only access the tools and data they need._
 
 ```{list-table}
 :header-rows: 1
@@ -85,7 +85,7 @@ _The ability of the TRE operator to ensure the right people (identities) can acc
   - It is important that each user account should be used by one, and only one, person in order to facilitate the assignment of roles or permissions and to log the actions of individuals.
   - Mandatory
 * - You must be reasonably convinced of the identity of each person being granted an account.
-  - It is important to ensure access, via an account, has been given to the correct person.
+  - It is important to ensure an account has been given to the correct person.
     For example, multiple credentials may be used before account creation to verify identity or, when appropriate, photo ID checks may be required.
   - Mandatory
 * - You must restrict a user's access to only data required in their work.
@@ -97,7 +97,7 @@ _The ability of the TRE operator to ensure the right people (identities) can acc
     Categories include something the user knows (_e.g._ a password), something the user possesses (_e.g._ a TOTP key) or something the user is (_e.g._ biometric data).
     A TRE does not need to implement multi-factor authentication checks itself if it is provided by a third-party identity provider.
   - Mandatory
-* - You could use federated authentication/ single sign-on (SSO) for user login.
+* - You could use federated authentication or single sign-on (SSO) for user login.
   - Institutions that use a SSO for other applications may wish to extend this login capability to a TRE.
     This will simplify the login process for researchers using a TRE and prevent them having to remember or store multiple login credentials.
   - Optional
@@ -118,7 +118,7 @@ _The ability of the TRE operator to ensure outputs are safely published and shar
 * - Statement
   - Guidance
   - Importance
-* - You should have a system to aid in classifying outputs.
+* - You should have a system to help classify outputs.
   - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
     Having guidance, processes and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
     Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact.
@@ -153,7 +153,7 @@ _The ability to query and browse the data within an environment at various level
 
 ## Information security
 
-This capability relates to the ability of the TRE operator to protect against the unauthorised use of information, especially electronic data.
+_This capability relates to the ability of the TRE operator to protect against the unauthorised use of information, especially electronic data._
 
 Measures taken to ensure information security can be further categorised into:
 
@@ -213,10 +213,11 @@ _Security testing enables the TRE operator to gain assurance in the security of 
   - Recommended
 * - You should update the security controls of your TRE based on the results of security tests.
   - Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE.
-    Regular testing will allow organisations to refine their TRE security controls and incident response capabilities, enabling them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
+    Regular testing will allow organisations to refine their TRE security controls and incident response capabilities.
+    It enables them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
   - Recommended
 * - You must have procedures in place for rapid incident response.
-  - There may well be legal requirements to disclose details of any incidents, _e.g._ data breaches for organisations subject to GDPR.
+  - There may be legal requirements to disclose details of any incidents, such as  data breaches for organisations subject to GDPR.
     Having robust processes in place will ensure a swift and effective response when an incident occurs.
   - Mandatory
 * - You should publish details of your security testing strategy and, where possible, the results of each test.
@@ -243,9 +244,9 @@ Here we define 'project' data as the data brought in for work which is very like
 * - Your TRE must encrypt project and user data at rest.
   - This prevents unauthorised access to the data even if the storage media is compromised.
     This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
-    The encryption keys may be managed by the TRE operator or by a trusted external actor (_e.g._ a cloud services provider).
+    The encryption keys may be managed by the TRE operator or by a trusted external actor, for example a cloud provider.
   - Mandatory
-* - Your TRE must encrypt data when in transit between the TRE and the outside world.
+* - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
   - Data encryption must be used to safeguard against interception or tampering during transmission.
     This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session.
   - Mandatory
@@ -277,7 +278,8 @@ Physical security controls can provide TREs using highly sensitive data an extra
   - Guidance
   - Importance
 * - Your TRE could offer physical protection measures against data leakage or theft via physical means.
-  - Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen. Physical controls on access to a TRE could include surveillance systems, restricting access to locked rooms that limit entry to authorised personnel only, visitor management systems and employee training.
+  - Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
+    Physical controls on access to a TRE could include surveillance systems, restricting physical access to authorised personnel only, visitor management systems and employee training.
   - Optional
 * - Your TRE may need to comply with specific regulatory requirements if it is hosting particularly sensitive data.
   - Regulatory frameworks such as GDPR emphasise the need for physical security controls to protect sensitive data.
