@@ -177,6 +177,9 @@ _The ability of the TRE organisation to ensure that people with access to data a
 * - You have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data
   - This may include multi-factor authentication (MFA), ID checks or email/phone verification
   - Mandatory
+* - You have a clear method of communicating the level of security controls present in the TRE for all roles within your TRE organisation
+  - This will be particularly important researchers working with the data, to understand what actions they are and are not permitted to take.
+  - Mandatory
 ```
 
 ### Training management and delivery
