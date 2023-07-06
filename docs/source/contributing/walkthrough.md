@@ -33,7 +33,8 @@ Typically, each Breakout Room is linked to an Issue on the [SATRE GitHub Issues 
 :::{important}
 The HackMD for each Collaboration Café is made available in your calendar invites.
 We encourage you to propose a Breakout Room in advanced of the Collaboration Café, linking to a [SATRE GitHub Issue](https://github.com/sa-tre/satre-specification/issues) if possible.
-This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day!
+This will help participants come prepared to talk about certain topics.
+We also welcome Breakout Room proposals on the day!
 :::
 
 ## Review the SATRE Specification Document

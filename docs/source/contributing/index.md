@@ -178,7 +178,7 @@ It is best to add each contributor in turn and merge the pull request before add
 Otherwise, you can end up with merge conflicts.
 Please check the open pull requests first to make sure there aren't any [open requests from the bot](https://github.com/sa-tre/satre-specification/pulls/app%2Fallcontributors) before adding another.
 
-What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
+What happens if you accidentally run the bot before the previous run was merged and you get those pesky merge conflicts?
 (Don't feel bad, we have all done it! 🙈)
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
 If you are unable to do this for any reason, please let us know by opening an issue, and SATRE team members will be very happy to help!
