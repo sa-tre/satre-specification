@@ -262,9 +262,9 @@ _The ability of the TRE operator to identify, maintain, and verify information o
 * - You should be able to verify whether the configuration is valid.
   - This might, for instance, involve running your configuration management tool in 'check' mode.
   - Recommended
-* - You should, if possible, regularly verify your TRE configuration.
+* - You should regularly verify your TRE configuration.
   - This will limit the amount of time the TRE can spend in a non-compliant state.
-  - Mandatory
+  - Recommended
 * - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
   - Mandatory
