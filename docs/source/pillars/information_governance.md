@@ -91,9 +91,8 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
     With these logs publicly available, there is transparency around how the data was used, and any actions that could compromise the security of the sensitive data.
   - Recommended
 * - You log user actions other than data access, for example network connection attempts or infrastructure actions within a TRE.
-  - Logging actions can help to identify bad behaviours, intentional or unintentional, to be spotted by reviewers.
-    Bad behaviours in this context are anything that could compromise the security of the SRE, or result in the accidental disclosure of data outside the TRE.
-    Any measures that TRE developers deem valuable for reporting should be logged.
+  - Logging can help to identify actions, intentional or unintentional, that could compromise the security of the SRE, or result in the accidental disclosure of data outside the TRE.
+    Any measures that TRE operators deem valuable for reporting should be logged.
   - Optional
 ```
 
