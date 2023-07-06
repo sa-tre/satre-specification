@@ -142,7 +142,7 @@ _The ability of the TRE operator to record and analyse data about the usage of t
 * - Your TRE must record usage data.
   - This may include the number of users, number of projects, the amount of data stored, number of datasets, the number of workspaces, etc.
   - Mandatory
-* - Your TRE should record which datasets are accessed, when and by whom.
+* - Your TRE should record which datasets are accessed, when and by who.
   - This helps maintain auditability of how sensitive data has been used.
   - Recommended
 * - Your TRE should record computational resource usage at the user or aggregate level.
