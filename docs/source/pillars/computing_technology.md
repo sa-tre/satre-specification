@@ -262,14 +262,17 @@ _The ability of the TRE operator to identify, maintain, and verify information o
 * - You should be able to verify whether the configuration is valid.
   - This might, for instance, involve running your configuration management tool in 'check' mode.
   - Recommended
-* - You should, if possible, regularly verify your TRE configuration.
+* - You should regularly verify your TRE configuration.
   - This will limit the amount of time the TRE can spend in a non-compliant state.
-  - Mandatory
+  - Recommended
 * - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
   - Mandatory
-* - The TRE operators must have a process in place for applying security updates to all software that forms part of the TRE infrastructure. They must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
+* - You must have a process in place for applying security updates to all software that forms part of the TRE infrastructure.
   - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
+  - Mandatory
+* - You must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
+  - Virus and malware scans will help identify malicious code which may compromise the security, or correct operation, of the TRE.
   - Mandatory
 ```
 
