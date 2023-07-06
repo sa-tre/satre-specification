@@ -289,7 +289,7 @@ Each security control employed by a TRE adds a bit of friction to the user exper
 * - Statement
   - Guidance
   - Importance
-* You must be able to specify exactly what level of security your TRE is able to support
+* - You must be able to specify exactly what level of security your TRE is able to support
   - Security controls employed by a TRE should be documented and explainable in a manner that is interpretable by people from different technical backgrounds and experience levels, in particular data providers and project teams, including those working directly with the data.
   - Mandatory
 * - TREs should support data of different levels of sensitivity, via variable and configurable security controls
