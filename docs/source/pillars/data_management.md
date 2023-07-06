@@ -276,7 +276,7 @@ Physical security controls can provide TREs using highly sensitive data an extra
 
 (security-level)=
 
-### Security levels and tiering
+## Security levels and tiering
 
 _The ability of the TRE deployment software (or active TRE) to configure security controls appropriate to the sensitivity of the data used in a project or workspace._
 
