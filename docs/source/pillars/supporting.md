@@ -43,7 +43,7 @@ _What the TRE operator does to ensure effective management of programmes and pro
   - Importance
 * - You should ensure that all projects using your TRE have a named project manager.
   - The project manager has responsibility to ensure the smooth running of the project.
-    Their responsibilities may include budget management, tracking TRE status, managing communications with the TRE operations team, and other project support tasks
+    Their responsibilities may include budget management, tracking TRE status, managing communications with the TRE operations team, and other project support tasks.
   - Recommended
 * - You should not give project managers direct access to the TRE.
   - Doing so ensures a separation between those able to access sensitive data, and those overseeing access to sensitive data.
@@ -86,11 +86,12 @@ _All activities aimed at the efficient and effective management of money (funds)
 * - You must ensure that all projects using your TRE are aware of any associated costs and are able and willing to pay them.
   - Costs may include provision of the underlying TRE infrastructure, additional resources required in a specific TRE (for instance memory or additional compute), hardware including managed devices, and staff support costs
   - Mandatory
-* - You should be able to track the costs associated with each TRE project
-  - This includes knowing which costs are associated with which project, and having an appropriate charging mechanism in place in line with your organisational policy
+* - You should be able to track the costs associated with each TRE project.
+  - This includes knowing which costs are associated with which project, and having an appropriate charging mechanism in place in line with your organisational policy.
   - Recommended
 * - You should have a process in place to ensure your TRE provision remains financially sustainable.
-  - This could include having a cost recovery process in place, or setting up a long-term funding mechanism to support projects with TREs. At any given time, you should have funds free to cover all potential foreseen TRE provision for at least 12 months
+  - This could include having a cost recovery process in place, or setting up a long-term funding mechanism to support projects with TREs. 
+    At any given time, you should have funds free to cover all potential foreseen TRE provision for at least 12 months.
   - Recommended
 * - You should minimise the cost of your TRE infrastructure wherever possible
   - You should have regular reviews of your TRE provision and actively work to bring down costs, streamline provision, and optimise support.
@@ -200,7 +201,7 @@ _Ability of the TRE operator to provide suitable and timely legal advice._
   - Importance
 * - You should have identify areas where legal advice may be required and ensure that you have ready access to it.
   - It is likely that legal advice will be necessary for several issues around the handling of sensitive data, and managing project contracts.
-    TRE operators should have ready access to legal advice, including a way to solicit advice and carry out associated actions
+    TRE operators should have ready access to legal advice, including a way to solicit advice and carry out associated actions.
   - Recommended
 ```
 
@@ -215,7 +216,7 @@ _Ability to ensure data is used fairly, lawfully and transparently; for specifie
 * - Statement
   - Guidance
   - Importance
-* - You should have identify areas where legal advice may be required and ensure that you have ready access to it.
+* - You should identify areas where legal advice may be required and ensure that you have ready access to it.
   - It is likely that data protection advice will be necessary for several issues around the handling of sensitive data.
   - Recommended
 ```

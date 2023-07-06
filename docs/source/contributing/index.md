@@ -78,13 +78,14 @@ Issues should be used to discuss ideas, potential changes and to ask questions.
 Issue templates have been designed for common issue types to help collect the most important information and present it in a clear, consistent way.
 It is possible, however, to open a blank issue if none of the templates are suitable.
 
-While we encourage opening issues, we understand that some may be more comfortable contributing ideas in other ways, such as through discussions and notes at SATRE Collaboration Cafés.
+While we encourage opening issues, we understand that some may be more comfortable contributing ideas in other ways. 
+We support other methods of contribution such as discussions and notes taken at SATRE Collaboration Cafés.
 The SATRE Team will aim to collate ideas and draft issues that welcome further discussion and attribute those involved in initial discussions.
 The SATRE Team will try to capture the ideas as accurately as possible, in good faith, and be guided by the SATRE Community to correct any misconceptions.
 
 When ready, changes will be proposed in pull requests.
 Similarly to issues, there is a pull request template.
-This template prompts contributors to include important details, which helps explain the contribution and makes triage and review easier.
+This template prompts contributors to include important details in order to explain the contribution and make triage and review easier.
 
 Pull requests will be used to review changes.
 During the review process, the pull request will be used for discussion, to suggest amendments and ultimately accept or reject the change.
@@ -177,7 +178,7 @@ It is best to add each contributor in turn and merge the pull request before add
 Otherwise, you can end up with merge conflicts.
 Please check the open pull requests first to make sure there aren't any [open requests from the bot](https://github.com/sa-tre/satre-specification/pulls/app%2Fallcontributors) before adding another.
 
-What happens if you accidentally run the bot before the previous run was merged, and you got those pesky merge conflicts?
+What happens if you accidentally run the bot before the previous run was merged and you got those pesky merge conflicts?
 (Don't feel bad, we have all done it! 🙈)
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
 If you are unable to do this for any reason, please let us know by opening an issue, and SATRE team members will be very happy to help!

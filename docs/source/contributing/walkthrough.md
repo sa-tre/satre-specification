@@ -33,13 +33,13 @@ Typically, each Breakout Room is linked to an Issue on the [SATRE GitHub Issues 
 :::{important}
 The HackMD for each Collaboration Café is made available in your calendar invites.
 We encourage you to propose a Breakout Room in advanced of the Collaboration Café, linking to a [SATRE GitHub Issue](https://github.com/sa-tre/satre-specification/issues) if possible.
-This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day, though!
+This will help participants come prepared to talk about certain topics. We also welcome Breakout Room proposals on the day though!
 :::
 
 ## Review the SATRE Specification Document
 
 The latest version of the SATRE Specification Document can be found [here](../specification.md).
-It is a living document, in which the aim is to have a completed draft by October 2023.
+It is a living document, and we aim to have a completed draft by October 2023.
 
 ## Contribute to the SATRE Specification Document
 
@@ -51,8 +51,8 @@ There are two ways to do this:
 2. To a non-GitHub version of the specification (less recommended, but easier)
 
 Why the difference?
-GitHub is the live version of the specification, and is great for things like community discussions, version control, editing changes and more.
-This is why we recommend contributing via GitHub - it is the most direct way to work with the SATRE team on the specification.
+GitHub is the live version of the specification and is great for things like community discussions, version control, editing changes and more.
+This is why we recommend contributing via GitHub — it is the most direct way to work with the SATRE team on the specification.
 
 However, we realise this may be difficult if you aren't already familiar with GitHub's ways of working.
 Therefore, we also have a non-GitHub version of the specification you can comment on.

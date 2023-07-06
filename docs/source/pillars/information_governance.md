@@ -46,13 +46,13 @@ _The ability of a TRE operator to measure and control quality of processes, docu
   - Guidance
   - Importance
 * - You must control all of your policies and standard operating procedures.
-  - This may include measures like restricting edit access to relevant documents, and recording acceptance of policies for all TRE operators
+  - This may include measures like restricting edit access to relevant documents, and recording acceptance of policies for all TRE operators.
   - Mandatory
 * - You should use codified change processes when altering your policies and standard operating procedures.
   -
   - Recommended
 * - You could use version control to track changes to their policies and processes.
-  - Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes
+  - Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes.
   - Optional
 ```
 
@@ -67,10 +67,10 @@ _The ability of a TRE operator to track deviations from stated policies._
 * - Statement
   - Guidance
   - Importance
-* - You must have a clear process in place for addressing any activity that deviates from your policies and standard operating procedures
-  - This can include measures like triage analysis and a process for updating policies
+* - You must have a clear process in place for addressing any activity that deviates from your policies and standard operating procedures.
+  - This can include measures like triage analysis and a process for updating policies.
   - Mandatory
-* - You must have methods in place to record progress in resolving issues with, and deviations against, your policies
+* - You must have methods in place to record progress in resolving issues with, and deviations against, your policies.
   -
   - Mandatory
 ```
@@ -86,7 +86,7 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
   - Guidance
   - Importance
 * - You must be able to audit your TRE organisation against whichever external standards are relevant to you.
-  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant
+  - If you are publicly accredited against a standard, for example ISO27001, DSPT or CyberEssentials+, you must have processes in place to ensure you remain compliant
   - Mandatory
 * - You should report on and share outcomes of each audit of your TRE organisation with the required bodies.
   - This may be a requirement of continued accreditation by external organisations or regulatory bodies.
@@ -195,7 +195,7 @@ _The ability of the TRE organisation to ensure that people with access to data a
   - Guidance
   - Importance
 * - You must have relevant training for all roles within the TRE organisation, and the ability to deliver this training.
-  - This may include, for instance, yber security training, GDPR training, and higher level training for system operators.
+  - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
   - Mandatory
 * - You must ensure that all users and operators of your TRE complete their training satisfactorily.
   - This may involve assessing their level of knowledge and repeating the training if necessary.
