@@ -90,7 +90,7 @@ _All activities aimed at the efficient and effective management of money (funds)
   - This includes knowing which costs are associated with which project, and having an appropriate charging mechanism in place in line with your organisational policy.
   - Recommended
 * - You should have a process in place to ensure your TRE provision remains financially sustainable.
-  - This could include having a cost recovery process in place, or setting up a long-term funding mechanism to support projects with TREs. 
+  - This could include having a cost recovery process in place, or setting up a long-term funding mechanism to support projects with TREs.
     At any given time, you should have funds free to cover all potential foreseen TRE provision for at least 12 months.
   - Recommended
 * - You should minimise the cost of your TRE infrastructure wherever possible
