@@ -188,11 +188,8 @@ _The ability of the TRE organisation to ensure that people with access to data a
 * - Statement
   - Guidance
   - Importance
-* - You have relevant training for all roles within the TRE organisation, and the ability to deliver this training
-  - This may include: Cyber security training, GDPR training, and higher level training for system operators
-  - Mandatory
-* - All TRE organisation members have completed relevant training within the last 12 months
-  -
+* - You have relevant training for all roles within the TRE organisation, the ability to deliver this training and keep track of completion and expiry dates.
+  - This may include: Cyber security training, GDPR training, and higher level training for system operators.
   - Mandatory
 * - You have a process in place to monitor all TRE organisation training completions & requirements
   - This process should document which members have completed which training, when the training was completed, and the date the training expires. It should also document how you will notify members when their training is about to expire, and ensure they do not have access to any TRE if relevant training is out-of-date
