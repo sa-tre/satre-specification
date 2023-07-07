@@ -280,7 +280,8 @@ Physical security controls can provide TREs using highly sensitive data an extra
 
 _The ability of the TRE deployment software (or active TRE) to configure security controls appropriate to the sensitivity of the data used in a project or workspace._
 
-Each security control employed by a TRE adds a bit of friction to the user experience. With a one-size-fits-all approach, TREs force all projects to use the security requirements for the most sensitive data that is handled:
+Security controls can add friction to the user experience and hinder work.
+A one-size-fits-all approach forces all projects to use the strictest security configuration even when that is unnecessary.
 
 ```{list-table}
 :header-rows: 1
@@ -293,9 +294,12 @@ Each security control employed by a TRE adds a bit of friction to the user exper
   - Security controls employed by a TRE should be documented and explainable in a manner that is interpretable by people from different technical backgrounds and experience levels, in particular data providers and project teams, including those working directly with the data.
   - Mandatory
 * - TREs should support data of different levels of sensitivity, via variable and configurable security controls
-  - By offering TREs (or workspaces within TREs) at differing levels of security, TRE operator institutions can remain flexible and handle research projects that require greater levels of user training and less permissive computing environments for projects with highly sensitive data, as well as projects with fewer training requirements and security controls, but for which a TRE is still useful.
+  - This allows projects with different security requirements to each be met with a suitable level of controls.
+    It helps ensure that users can work effectively, with minimal barriers.
   - Recommended
-* - TREs could offer a pre-defined set of security control tiers which project teams can choose from
-  - Security tiers empower data providers and project teams to make informed choices about the level of restriction appropriate for the data they will be working with.
+* - Your TRE could offer a pre-defined set of security control tiers.
+  - Security control tiers can be designed to cover the types of project or data you expect to handle.
+    Projects may be placed into the most suitable tier rather than having a bespoke design.
+    This reduces the number of unique configurations that need to be supported.
   - Optional
 ```
