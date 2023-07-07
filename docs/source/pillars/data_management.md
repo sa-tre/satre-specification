@@ -282,6 +282,7 @@ _The ability of the TRE deployment software (or active TRE) to configure securit
 
 Security controls can add friction to the user experience and hinder work.
 A one-size-fits-all approach forces all projects to use the strictest security configuration even when that is unnecessary.
+Throughout the rest of this document, we will refer to each pre-defined security configuration supported by a particular TRE as a "security tier".
 
 ```{list-table}
 :header-rows: 1
