@@ -293,7 +293,7 @@ Throughout the rest of this document, we will refer to each pre-defined security
   - Importance
 * - You must be able to specify exactly what level of security your TRE is able to support
   - Your TRE must provide an explanation of its security capabilities that can be understood by all stakeholders.
-  - Relevant stakeholders may include data providers and project teams and they may have different levels of technical expertise.
+    Relevant stakeholders may include data providers and project teams and they may have different levels of technical expertise.
   - Mandatory
 * - TREs should support data of different levels of sensitivity, via variable and configurable security controls
   - This allows projects with different security requirements to each be met with a suitable level of controls.
