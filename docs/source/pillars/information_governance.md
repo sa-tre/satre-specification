@@ -177,9 +177,6 @@ _The ability of the TRE organisation to ensure that people with access to data a
 * - You have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data
   - This may include multi-factor authentication (MFA), ID checks or email/phone verification
   - Mandatory
-* - You have a clear method of communicating the level of security controls present in the TRE for all roles within your TRE organisation
-  - This will be particularly important researchers working with the data, to understand what actions they are and are not permitted to take.
-  - Mandatory
 ```
 
 ### Training management and delivery
@@ -194,10 +191,14 @@ _The ability of the TRE organisation to ensure that people with access to data a
 * - You have relevant training for all roles within the TRE organisation, and the ability to deliver this training
   - This may include: Cyber security training, GDPR training, and higher level training for system operators
   - Mandatory
+* - You must ensure that users are aware which actions are and are not permitted in your TRE.
+  - This is likely to depend on the security controls in place in your TRE.
+  - Mandatory
 * - All TRE organisation members have completed relevant training within the last 12 months
   -
   - Mandatory
 * - You have a process in place to monitor all TRE organisation training completions & requirements
-  - This process should document which members have completed which training, when the training was completed, and the date the training expires. It should also document how you will notify members when their training is about to expire, and ensure they do not have access to any TRE if relevant training is out-of-date
+  - This process should document which members have completed which training, when the training was completed, and the date the training expires.
+    It should also document how you will notify members when their training is about to expire, and ensure they do not have access to any TRE if relevant training is out-of-date
   - Mandatory
 ```
