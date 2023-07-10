@@ -295,7 +295,7 @@ Throughout the rest of this document, we will refer to each pre-defined security
   - Your TRE must provide an explanation of its security capabilities that can be understood by all stakeholders.
     Relevant stakeholders may include data providers and project teams and they may have different levels of technical expertise.
   - Mandatory
-* - TREs should support data of different levels of sensitivity, via variable and configurable security controls
+* - Your TRE should be able to support projects with differing security requirements through  configurable security controls.
   - This allows projects with different security requirements to each be met with a suitable level of controls.
     It helps ensure that users can work effectively, with minimal barriers.
   - Recommended
