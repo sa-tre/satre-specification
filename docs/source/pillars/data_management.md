@@ -291,8 +291,8 @@ Throughout the rest of this document, we will refer to each pre-defined security
 * - Statement
   - Guidance
   - Importance
-* - You must be able to specify exactly what level of security your TRE is able to support
-  - Your TRE must provide an explanation of its security capabilities that can be understood by all stakeholders.
+* - You must be able to specify what categories of data your TRE is able to support.
+  - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
     Relevant stakeholders may include data providers and project teams and they may have different levels of technical expertise.
   - Mandatory
 * - Your TRE should be able to support projects with differing security requirements through  configurable security controls.
