@@ -311,7 +311,7 @@ Throughout the rest of this document, we will refer to each pre-defined security
 * - Your TRE should be able to support projects with differing security requirements through  configurable security controls.
   - This allows projects with different security requirements to each be met with a suitable level of controls.
     It helps ensure that users can work effectively, with minimal barriers.
-  - Recommended
+  - Optional
 * - Your TRE could offer a pre-defined set of security control tiers.
   - Security control tiers can be designed to cover the types of project or data you expect to handle.
     Projects may be placed into the most suitable tier rather than having a bespoke design.
