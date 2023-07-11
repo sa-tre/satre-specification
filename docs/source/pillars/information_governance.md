@@ -91,14 +91,12 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
 * - You should report on and share outcomes of each audit of your TRE organisation with the required bodies.
   - This may be a requirement of continued accreditation by external organisations or regulatory bodies.
   - Recommended
-* - You log data access queries and publish these logs
-  - Transparency is a key principle for an environment that is trusted for research.
-    With these logs publicly available, there is transparency around how the data was used, and any actions that could compromise the security of the sensitive data.
-  - Recommended
-* - You log user actions other than data access, for example network connection attempts or infrastructure actions within a TRE.
-  - Logging can help to identify actions, intentional or unintentional, that could compromise the security of the SRE, or result in the accidental disclosure of data outside the TRE.
-    Any measures that TRE operators deem valuable for reporting should be logged.
-  - Optional
+* - You record logs for all TRE components and actions, including systems, relevant applications, networks, user access and data access
+  - Logging is an critical part of ensuring all IT infrastructure is secure and operating as expected, as well as for investigating problems
+  - Mandatory
+* - Logs are stored in a secure location, and only accessible to authorised administrators
+  - Logs often contain sensitive information
+  - Mandatory
 ```
 
 ## Risk management
