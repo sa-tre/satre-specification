@@ -286,3 +286,35 @@ Physical security controls can provide TREs using highly sensitive data an extra
     Compliance with these regulations could require organisations to implement specific physical security measures to safeguard their TRE from unauthorised access.
   - Optional
 ```
+
+(security-level)=
+
+## Security levels and tiering
+
+_The ability of the TRE deployment software (or active TRE) to configure security controls appropriate to the sensitivity of the data used in a project or workspace._
+
+Security controls can add friction to the user experience and hinder work.
+A one-size-fits-all approach forces all projects to use the strictest security configuration even when that is unnecessary.
+Throughout the rest of this document, we will refer to each pre-defined security configuration supported by a particular TRE as a "security tier".
+
+```{list-table}
+:header-rows: 1
+:name: tab-security-level
+
+* - Statement
+  - Guidance
+  - Importance
+* - You must be able to specify what categories of data your TRE is able to support.
+  - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
+    Relevant stakeholders may include data providers and project teams and they may have different levels of technical expertise.
+  - Mandatory
+* - Your TRE could support projects with differing security requirements through configurable security controls.
+  - This allows projects with different security requirements to each be met with a suitable level of controls.
+    It helps ensure that users can work effectively, with minimal barriers.
+  - Optional
+* - Your TRE could offer a pre-defined set of security control tiers.
+  - Security control tiers can be designed to cover the types of project or data you expect to handle.
+    Projects may be placed into the most suitable tier rather than having a bespoke design.
+    This reduces the number of unique configurations that need to be supported.
+  - Optional
+```

@@ -197,6 +197,9 @@ _The ability of the TRE organisation to ensure that people with access to data a
 * - You must have relevant training for all roles within the TRE organisation, and the ability to deliver this training.
   - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
   - Mandatory
+* - You must ensure that users are aware which actions are and are not permitted in your TRE.
+  - This is likely to depend on the security controls in place in your TRE.
+  - Mandatory
 * - You must ensure that all users and operators of your TRE complete their training satisfactorily.
   - This may involve assessing their level of knowledge and repeating the training if necessary.
   - Mandatory
