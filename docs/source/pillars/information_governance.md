@@ -91,10 +91,10 @@ _The ability of the TRE organisation to monitor compliance with internal and ext
 * - You should report on and share outcomes of each audit of your TRE organisation with the required bodies.
   - This may be a requirement of continued accreditation by external organisations or regulatory bodies.
   - Recommended
-* - You record logs for all TRE components and actions, including systems, relevant applications, networks, user access and data access.
+* - You must record logs for all TRE components and actions, including systems, relevant applications, networks, user access and data access.
   - Logging is an critical part of ensuring all IT infrastructure is secure and operating as expected, as well as for investigating problems.
   - Mandatory
-* - Logs are stored in a secure location, and only accessible to authorised administrators.
+* - You must store logs in a secure location only accessible to authorised administrators.
   - Logs often contain sensitive information.
   - Mandatory
 ```
