@@ -28,6 +28,13 @@ evaluation.md
 
 ```{toctree}
 :hidden:
+:caption: Glossary
+
+glossary.md
+```
+
+```{toctree}
+:hidden:
 :caption: Contributing
 
 contributing/index.md
