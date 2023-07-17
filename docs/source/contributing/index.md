@@ -39,8 +39,10 @@ Remember that you can ask us any questions you need to along the way.
 
 ## Alternative ways to comment
 
-In line with our open principles we recommend commenting and [contributing to SATRE using GitHub](walkthrough.md), but if this is not possible you can also [leave a comment via this form](https://forms.office.com/Pages/ResponsePage.aspx?id=OTEyrjoJKk2Bpl0zS82QGQQh5LWVyKJMjCf72dnH9PNUOUwzMlJWUFExQVBDRVBEOVlWRjY5UjVUSi4u).
-Please read the form carefully- we would like to acknowledge your contributions in public, but if you prefer you can remain anonymous.
+In line with our open principles we recommend commenting and [contributing to SATRE using GitHub](walkthrough.md).
+If this is not possible you can also [leave a comment via this form](https://forms.office.com/Pages/ResponsePage.aspx?id=OTEyrjoJKk2Bpl0zS82QGQQh5LWVyKJMjCf72dnH9PNUOUwzMlJWUFExQVBDRVBEOVlWRjY5UjVUSi4u).
+Please read the form carefully.
+We would like to acknowledge your contributions in public, but if you prefer you can remain anonymous.
 
 ## Contribution Model
 
