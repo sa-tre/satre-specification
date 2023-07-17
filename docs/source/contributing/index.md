@@ -35,7 +35,7 @@ In order to contribute via GitHub, you'll need to set up a free account and sign
 Here are some [instructions](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
-(contributing-alternative-comment)
+(contributing-alternative-comment)=
 
 ## Alternative ways to comment
 
