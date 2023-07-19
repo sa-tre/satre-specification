@@ -27,6 +27,13 @@ For example, some requirements will arise from national legislation such as GDPR
 
 ## Information governance
 
+```{figure} ../../images/information_governance/information_governance.jpg
+:alt: SATRE information governance decomposition
+:align: center
+
+SATRE information governance decomposition
+```
+
 ### Requirements Gathering and Monitoring (Business Process)
 
 The process of collecting, documenting, and managing the functional and non-functional requirements for the TRE based on the TRE organisation's goals and data assets.
@@ -84,6 +91,13 @@ The process of assigning, distributing, and managing resources (such as personne
 ## Quality Management
 
 What the organisation does to measure and control quality of processes, documentation and outputs.
+
+```{figure} ../../images/information_governance/quality_management.jpg
+:alt: SATRE quality management decomposition
+:align: center
+
+SATRE quality management decomposition
+```
 
 ### Document and SOP Management (Business Process)
 
@@ -231,6 +245,13 @@ A software application or platform used to manage and automate quality managemen
 
 What the organisation does to ensure information risk is measured and managed to an acceptable level.
 
+```{figure} ../../images/information_governance/risk_management.jpg
+:alt: SATRE risk management decomposition
+:align: center
+
+SATRE risk management decomposition
+```
+
 ### Risk Assessment (Process)
 
 The systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
@@ -288,6 +309,13 @@ The assignment of responsibility and accountability to individuals or entities f
 ## Study Management
 
 What the organisation does to create and maintain research projects and work packages within the TRE.
+
+```{figure} ../../images/information_governance/study_management.jpg
+:alt: SATRE study management decomposition
+:align: center
+
+SATRE study management decomposition
+```
 
 ### Study Onboarding (Business Process)
 
@@ -396,6 +424,13 @@ A centralised record or database that tracks and manages information about resea
 
 Ability to ensure that people with access to data are identified correctly and they are suitably qualified.
 
+```{figure} ../../images/information_governance/member_accreditation.jpg
+:alt: SATRE member accreditation decomposition
+:align: center
+
+SATRE member accreditation decomposition
+```
+
 <!-- ### Federation Foundation Services (Group) -->
 
 ### Identity Verification (Business Process)
@@ -484,6 +519,13 @@ Characteristics or attributes associated with a user's identity, such as usernam
 ## Training Delivery and Management
 
 Ability to deliver, track and maintain adequate training levels to ensure competence of all people within the TRE organisation.
+
+```{figure} ../../images/information_governance/training_management_and_delivery.jpg
+:alt: SATRE training management and delivery decomposition
+:align: center
+
+SATRE training management and delivery decomposition
+```
 
 ### Curriculum Creation and Management (Business Process)
 
