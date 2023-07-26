@@ -384,7 +384,7 @@ Ability to ensure that people with access to data are correctly identified and t
 * - You must have a set of services to manage access to resources based on identity.
   - This will include a security model for role based access with technical controls to ensure the principle of least privilege is enforced.
   - Mandatory
-* - Control of who has access to which assets must be within the control of the data asset owner.
+* - The data asset owner must have control of who has access to which assets.
   - Either through policy and process or ideally direct control access to data should be controlled by the person who owns a data asset or their delegates.
   - Mandatory
 ```
@@ -398,7 +398,7 @@ Ability to ensure that people with access to data are correctly identified and t
 * - Statement
   - Guidance
   - Importance
-* - Your TRE must have robust and secure applications in place to authenticate users (and services) within the TRE.
+* - You must have robust and secure applications in place to authenticate users (and services) within the TRE.
   - The number of authentication applications should be kept to a minimum with common controls and standards applied across all such as MFA, password complexity etc.
   - Mandatory
 ```
@@ -485,7 +485,7 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
 * - Statement
   - Guidance
   - Importance
-* - You should ensure course data is transferable between systems where possible.
+* - You could ensure course data is transferable between systems where possible.
   - Support for standard formats such as SCORM allows courses to be shared between providers.
   - Optional
 * - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
