@@ -2,8 +2,6 @@
 
 # Information governance
 
-This pillar concerns what the TRE operator does to ensure information risk is measured and managed to an acceptable level.
-
 ```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
@@ -13,19 +11,13 @@ SATRE Pillars Capability Map
 
 <!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
 
-## Requirements
+This pillar concerns actions taken by the TRE operator to ensure information risk is measured and managed to an acceptable level.
 
-Information governance requirements are defined by top management within the TRE implementing organisation.
-These will be draw from the context of the organisation, the work it performs and the nature of the data it processes.
-Gathering and monitoring these requirements are a process for the capability along with the overall ownership of risk, definition of controls for those risks and the allocation of resources across the TRE organisation.
-Quality data is a key input to measuring and improving the effectiveness of the TRE in relation to governance, risk and compliance.
-
-These requirements will be different for every TRE organisation.
-TRE organisations should conduct a requirements gathering exercise to identity the applicability of each item in the specification, and to identity the best way to implement them.
-
+Each TRE operator will have its own information governance requirements.
+These will be informed by the context of the organisation, the work it performs and the nature of the data it processes.
 For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractural requirements from a specific data provider such as a company or research partner organisation.
 
-## Information governance
+## Governance Requirements
 
 ### Requirements Gathering and Monitoring (Business Process)
 
