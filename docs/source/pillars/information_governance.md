@@ -9,8 +9,6 @@
 SATRE Pillars Capability Map
 ```
 
-<!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
-
 This pillar concerns actions taken by the TRE operator to ensure information risk is measured and managed to an acceptable level.
 
 Each TRE operator will have its own information governance requirements.
@@ -19,9 +17,7 @@ For example, some requirements will arise from national legislation such as GDPR
 
 ## Governance Requirements
 
-### Requirements Gathering and Monitoring (Business Process)
-
-The process of collecting, documenting, and managing the functional and non-functional requirements for the TRE based on the TRE organisation's goals and data assets.
+**Requirements Gathering and Monitoring:** The process of collecting, documenting, and managing the functional and non-functional requirements for the TRE based on the TRE organisation's goals and data assets.
 
 ```{list-table}
 :header-rows: 1
@@ -37,9 +33,7 @@ The process of collecting, documenting, and managing the functional and non-func
   - Mandatory
 ```
 
-### Controls (Business Process)
-
-Measures, safeguards, or mechanisms implemented to manage or mitigate risks and ensure the integrity, confidentiality, availability, and reliability of systems, processes, or data.
+**Controls:** Measures, safeguards, or mechanisms implemented to manage or mitigate risks and ensure the integrity, confidentiality, availability, and reliability of systems, processes, or data.
 
 ```{list-table}
 :header-rows: 1
@@ -53,9 +47,7 @@ Measures, safeguards, or mechanisms implemented to manage or mitigate risks and 
   - Mandatory
 ```
 
-### Resource Allocation (Business Process)
-
-The process of assigning, distributing, and managing resources (such as personnel, finances, equipment, or time) within the TRE organisation to meet objectives and priorities effectively.
+**Resource Allocation:** The process of assigning, distributing, and managing resources (such as personnel, finances, equipment, or time) within the TRE organisation to meet objectives and priorities effectively.
 
 ```{list-table}
 :header-rows: 1
@@ -69,20 +61,15 @@ The process of assigning, distributing, and managing resources (such as personne
   - Mandatory
 ```
 
-<!-- ###	Standards and Controls -->
-
-<!-- ### Information Security Management System Scope -->
-
 ## Quality Management
 
 What the organisation does to measure and control quality of processes, documentation and outputs.
 
-### Document and SOP Management (Business Process)
+**Document and SOP Management:** Creating, organising, updating, and controlling documents and Standard Operating Procedures (SOPs) within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
 :name: tab-ig-quality-management
-
 
 * - Statement
   - Guidance
@@ -95,9 +82,7 @@ What the organisation does to measure and control quality of processes, document
   - Mandatory
 ```
 
-### Quality Management Reporting (Business Process)
-
-The generation and dissemination of reports or dashboards that provide insights and metrics on the performance and effectiveness of quality management processes and activities.
+**Quality Management Reporting:** The generation and dissemination of reports or dashboards that provide insights and metrics on the performance and effectiveness of quality management processes and activities.
 
 ```{list-table}
 :header-rows: 1
@@ -111,9 +96,7 @@ The generation and dissemination of reports or dashboards that provide insights 
   - Mandatory
 ```
 
-### Internal Audit (Business Process)
-
-An independent evaluation process within the TRE organisation that assesses and improves its internal controls, risk management, and governance.
+**Internal Audit:** An independent evaluation process within the TRE organisation that assesses and improves its internal controls, risk management, and governance.
 
 ```{list-table}
 :header-rows: 1
@@ -130,9 +113,7 @@ An independent evaluation process within the TRE organisation that assesses and 
   - Mandatory
 ```
 
-### Supplier Management and Monitoring (Business Process)
-
-A structured approach to managing and monitoring relationships with external suppliers, vendors and contractors, including selection, contract management and compliance oversight.
+**Supplier Management and Monitoring:** A structured approach to managing and monitoring relationships with external suppliers, vendors and contractors, including selection, contract management and compliance oversight.
 
 ```{list-table}
 :header-rows: 1
@@ -151,9 +132,7 @@ A structured approach to managing and monitoring relationships with external sup
   - Mandatory
 ```
 
-### Asset Management Process (Business Process)
-
-A systematic approach to acquiring, operating, maintaining, and disposing of assets within an organization, aimed at maximizing their value and minimizing risks.
+**Asset Management Process:** A systematic approach to acquiring, operating, maintaining, and disposing of assets within an organization, aimed at maximizing their value and minimizing risks.
 
 ```{list-table}
 :header-rows: 1
@@ -167,9 +146,7 @@ A systematic approach to acquiring, operating, maintaining, and disposing of ass
   - Mandatory (where physical assets are in scope)
 ```
 
-### Issue Management Process (Business Process)
-
-A systematic approach to identifying, tracking, resolving, and managing issues or problems that arise within a TRE organisation, aiming to minimize their impact and ensure timely resolution.
+**Issue Management Process:** A systematic approach to identifying, tracking, resolving, and managing issues or problems that arise within a TRE organisation, aiming to minimize their impact and ensure timely resolution.
 
 ```{list-table}
 :header-rows: 1
@@ -186,9 +163,7 @@ A systematic approach to identifying, tracking, resolving, and managing issues o
   - Mandatory
 ```
 
-### Quality Management Data (Including training records and configuration data)
-
-Data collected and used to monitor, evaluate, and improve the quality of processes, or services within the TRE organisation.
+**Quality Management Data:** Data, including training records and configuration data, collected and used to monitor, evaluate, and improve the quality of processes, or services within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -202,9 +177,7 @@ Data collected and used to monitor, evaluate, and improve the quality of process
   - Mandatory
 ```
 
-### Electronic Quality Management System Application (Application Component)
-
-A software application or platform used to manage and automate quality management processes, including document control, corrective actions, audits, and performance tracking.
+**Electronic Quality Management System Application:** A software application or platform used to manage and automate quality management processes, including document control, corrective actions, audits, and performance tracking.
 
 ```{list-table}
 :header-rows: 1
@@ -223,9 +196,7 @@ A software application or platform used to manage and automate quality managemen
 
 What the organisation does to ensure information risk is measured and managed to an acceptable level.
 
-### Risk Assessment (Process)
-
-The systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
+**Risk Assessment:** The systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
 
 ```{list-table}
 :header-rows: 1
@@ -242,9 +213,7 @@ The systematic evaluation and analysis of potential risks, threats, or vulnerabi
   - Mandatory
 ```
 
-### Risk Treatment (Business Process)
-
-The selection and implementation of strategies, controls, or measures to manage or mitigate identified risks, such as risk avoidance, risk transfer, risk reduction, or risk acceptance.
+**Risk Treatment:** The selection and implementation of strategies, controls, or measures to manage or mitigate identified risks, such as risk avoidance, risk transfer, risk reduction, or risk acceptance.
 
 ```{list-table}
 :header-rows: 1
@@ -258,9 +227,7 @@ The selection and implementation of strategies, controls, or measures to manage 
   - Mandatory
 ```
 
-### Risk Ownership (Business Process)
-
-The assignment of responsibility and accountability to individuals or entities for managing and mitigating specific risks within the TRE organisation.
+**Risk Ownership:** The assignment of responsibility and accountability to individuals or entities for managing and mitigating specific risks within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -281,9 +248,7 @@ The assignment of responsibility and accountability to individuals or entities f
 
 What the organisation does to create and maintain research projects and work packages within the TRE.
 
-### Study Onboarding (Business Process)
-
-The process of onboarding or initiating a research study, including setting up necessary infrastructure, obtaining approvals, and defining protocols or methodologies.
+**Study Onboarding:** The process of onboarding or initiating a research study, including setting up necessary infrastructure, obtaining approvals, and defining protocols or methodologies.
 
 ```{list-table}
 :header-rows: 1
@@ -297,9 +262,7 @@ The process of onboarding or initiating a research study, including setting up n
   - Mandatory
 ```
 
-### Compliance Checking (Business Process)
-
-The act of verifying and ensuring adherence to applicable laws, regulations, standards, or internal policies within the TRE organisation.
+**Compliance Checking:** The act of verifying and ensuring adherence to applicable laws, regulations, standards, or internal policies within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -317,9 +280,7 @@ The act of verifying and ensuring adherence to applicable laws, regulations, sta
   - Mandatory
 ```
 
-### Study Closure (Business process)
-
-The formal conclusion of a research study or project, including final data analysis, reporting, documentation, and archiving.
+**Study Closure:** The formal conclusion of a research study or project, including final data analysis, reporting, documentation, and archiving.
 
 ```{list-table}
 :header-rows: 1
@@ -333,9 +294,7 @@ The formal conclusion of a research study or project, including final data analy
   - Mandatory
 ```
 
-### Study Management Portal (Application Component)
-
-An online platform that provides centralised access to manage research studies including onboarding studies, control of access and administration of compliance tasks.
+**Study Management Portal:** An online platform that provides centralised access to manage research studies including onboarding studies, control of access and administration of compliance tasks.
 
 ```{list-table}
 :header-rows: 1
@@ -350,9 +309,7 @@ An online platform that provides centralised access to manage research studies i
   - Optional
 ```
 
-### Data Asset Register (Business Data Object)
-
-A database or other electronic record that documents and manages information about the TRE organisation's data assets, including their characteristics, ownership, usage, and other relevant details.
+**Data Asset Register:** A database or other electronic record that documents and manages information about the TRE organisation's data assets, including their characteristics, ownership, usage, and other relevant details.
 
 ```{list-table}
 :header-rows: 1
@@ -368,9 +325,7 @@ A database or other electronic record that documents and manages information abo
   - Mandatory
 ```
 
-### Study Register (Business Data Object)
-
-A centralised record or database that tracks and manages information about research studies and projects.
+**Study Register:** A centralised record or database that tracks and manages information about research studies and projects.
 
 ```{list-table}
 :header-rows: 1
@@ -386,13 +341,9 @@ A centralised record or database that tracks and manages information about resea
 
 ## Member Accreditation
 
-Ability to ensure that people with access to data are identified correctly and they are suitably qualified.
+Ability to ensure that people with access to data are correctly identified and they are suitably qualified.
 
-<!-- ### Federation Foundation Services (Group) -->
-
-### Identity Verification (Business Process)
-
-The process of confirming or authenticating the identity of individuals or entities, often through the verification of personal information, credentials, or biometric data.
+**Identity Verification:** The process of confirming or authenticating the identity of individuals or entities, often through the verification of personal information, credentials, or biometric data.
 
 ```{list-table}
 :header-rows: 1
@@ -406,9 +357,7 @@ The process of confirming or authenticating the identity of individuals or entit
   - Mandatory
 ```
 
-### User Onboarding
-
-The process of introducing and integrating researchers and data consumers onto a TRE's systems, processes, including training, access provisioning, and orientation.
+**User Onboarding:** The process of introducing and integrating researchers and data consumers onto a TRE's systems, processes, including training, access provisioning, and orientation.
 
 ```{list-table}
 :header-rows: 1
@@ -422,9 +371,7 @@ The process of introducing and integrating researchers and data consumers onto a
   - Mandatory
 ```
 
-### Identity and Access Management Services (Application Services)
-
-Govern and control user identities, access privileges, authentication, and authorization within an organisation.
+**Identity and Access Management Services:** Govern and control user identities, access privileges, authentication, and authorization within an organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -441,9 +388,7 @@ Govern and control user identities, access privileges, authentication, and autho
   - Mandatory
 ```
 
-### Authentication Application (Application Component)
-
-A software system that verifies and validates the identities of users or entities accessing a system through multifactor authentication.
+**Authentication Application:** A software system that verifies and validates the identities of users or entities accessing a system through multifactor authentication.
 
 ```{list-table}
 :header-rows: 1
@@ -457,9 +402,7 @@ A software system that verifies and validates the identities of users or entitie
   - Mandatory
 ```
 
-### User Identity Attributes (Data)
-
-Characteristics or attributes associated with a user's identity, such as username, email address, role, permissions, or affiliations.
+**User Identity Attributes:** Characteristics or attributes associated with a user's identity, such as username, email address, role, permissions, or affiliations.
 
 ```{list-table}
 :header-rows: 1
@@ -477,9 +420,7 @@ Characteristics or attributes associated with a user's identity, such as usernam
 
 Ability to deliver, track and maintain adequate training levels to ensure competence of all people within the TRE organisation.
 
-### Curriculum Creation and Management (Business Process)
-
-The process of designing, developing, and managing educational curricula, courses through training needs analysis for required competency.
+**Curriculum Creation and Management:** The process of designing, developing, and managing educational curricula, courses through training needs analysis for required competency.
 
 ```{list-table}
 :header-rows: 1
@@ -502,9 +443,7 @@ The process of designing, developing, and managing educational curricula, course
   - Mandatory
 ```
 
-### Certification Management (Business Process)
-
-The process of managing and overseeing certifications or qualifications held by individuals or entities, including tracking expiry dates, renewals, and compliance requirements.
+**Certification Management:** The process of managing and overseeing certifications or qualifications held by individuals or entities, including tracking expiry dates, renewals, and compliance requirements.
 
 ```{list-table}
 :header-rows: 1
@@ -525,9 +464,7 @@ The process of managing and overseeing certifications or qualifications held by 
   - Mandatory
 ```
 
-### Learning Management System (Application Component)
-
-A software platform or application that facilitates the administration, delivery, and tracking of educational or training programs, often including course materials, assessments, and learner progress tracking.
+**Learning Management System:** A software platform or application that facilitates the administration, delivery, and tracking of educational or training programs, often including course materials, assessments, and learner progress tracking.
 
 ```{list-table}
 :header-rows: 1
@@ -541,9 +478,7 @@ A software platform or application that facilitates the administration, delivery
   - Optional
 ```
 
-### Courses Data (Data)
-
-Information or data associated with educational courses, including course materials and syllabi, assessments.
+**Courses Data:** Information or data associated with educational courses, including course materials and syllabi, assessments.
 
 ```{list-table}
 :header-rows: 1
