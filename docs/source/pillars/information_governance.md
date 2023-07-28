@@ -74,10 +74,10 @@ What the organisation does to measure and control quality of processes, document
 * - Statement
   - Guidance
   - Importance
-* - You must ensure all policies & standard operating procedures relevant to the TRE organisation are controlled.
+* - You must ensure all policies and standard operating procedures relevant to the TRE organisation are controlled.
   - This may include measures like restricting edit access to relevant documents and recording acceptance of policies for all TRE organisation members.
   - Mandatory
-* - You must ensure all policies & standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes.
+* - You must ensure all policies and standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes.
   - Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes.
   - Mandatory
 ```
@@ -141,8 +141,9 @@ What the organisation does to measure and control quality of processes, document
 * - Statement
   - Guidance
   - Importance
-* - You must track and maintain physical assets if used to ensure security is maintained.
-  - Safe disposal of storage media and warranties maintained for critical infrastructure-maintained confidentiality, integrity and availability.
+* - You must track and maintain any physical assets used by your TRE.
+  - All physical assets should be maintained and covered by warranty if applicable
+    At the end of their lifetime, assets should be securely disposed of in such a way that data cannot be recovered from them.   
   - Mandatory (where physical assets are in scope)
 ```
 
@@ -155,7 +156,7 @@ What the organisation does to measure and control quality of processes, document
 * - Statement
   - Guidance
   - Importance
-* - You must log, track and resolves issues resulting from deviations from processes, incidents and audit findings.
+* - You must log, track and resolve any issues resulting from deviations from processes, incidents and audit findings.
   - This process should be tracked through an electronic record and workflow system with records retained.
   - Mandatory
 * - You must use reported issues to inform changes, such as for process improvement and risk management.
@@ -238,7 +239,8 @@ What the organisation does to ensure information risk is measured and managed to
   - Guidance
   - Importance
 * - You must have a clear set of roles and responsibilities relating to risk including who owns risks and how they are escalated and delegated.
-  - The highest level of risk ownership is the top management of the TRE organisation. In order to ensure escalations to this level are rare suitable structures should be put in place to own, mitigate and accept risk.
+  - The highest level of risk ownership is the top management of the TRE organisation.
+    In order to ensure escalations to this level are rare, suitable structures should be put in place to own, mitigate and accept risk.
   - Mandatory
 * - You must understand risk appetite.
   - This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary.
@@ -413,7 +415,8 @@ Ability to ensure that people with access to data are correctly identified and t
   - Guidance
   - Importance
 * - You must give each user of the TRE a unique logon with changes to any records strictly controlled.
-  - The unique identifier and all associated records for a user should be traceable across the entire TRE. This will include training records, affiliations, contract agreements and ethics approvals where required.
+  - The unique identifier and all associated records for a user should be traceable across the entire TRE. 
+    This will include training records, affiliations, contract agreements and ethics approvals where required.
   - Mandatory
 ```
 
@@ -432,13 +435,14 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
   - Importance
 * - You must have relevant training for all roles within the TRE organisation, and the ability to deliver this training.
   - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
-    Specific training should be designed for roles such as Senior Information Risk Owner, Data Asset owner. Identification of these specialities should be done through a systematic training needs analysis.
+    Specific training should be designed for roles such as Senior Information Risk Owner, Data Asset owner.
+    Identification of these specialities should be done through a systematic training needs analysis.
     Specific training may also be required based on the data or data provider such as GCP.
   - Mandatory
 * - You should have a training platform capable of delivering online training in a variety of formats.
   - This should include competency testing and more simple recording of actions such as read and understood.
   - Recommended
-* - You must provided repeat or updated where necessary to account for changes in competency requirements.
+* - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
     Electronic reminders for refresher training should be considered.
     Ideally training should remain relevant and so policies and processes should enable people to demonstrate competency rather than repeat training unnecessarily.
