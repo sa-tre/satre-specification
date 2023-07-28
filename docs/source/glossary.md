@@ -43,3 +43,7 @@ Definition of a role
 (def_specification_pillar)=
 ## Specification pillar
 Definition of a specification pillar
+
+(def_tre_organisation)=
+## TRE organisation
+A TRE organisation is the set of people, processes and technology that operate and use a particular TRE.
