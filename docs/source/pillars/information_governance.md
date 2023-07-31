@@ -173,10 +173,10 @@ What the organisation does to measure and control quality of processes, document
 * - Statement
   - Guidance
   - Importance
-* - You must collect and maintain quality management data for measuring the effectiveness of a TRE.
+* - You should collect and maintain quality management data for measuring the effectiveness of a TRE.
   - Large amounts of data will be produced by elements within the TRE.
     These data should be analysed with reports and dashboards provided to guide TRE implementer’s improvements and provide re-assurance to data consumers and subjects.
-  - Mandatory
+  - Recommended
 ```
 
 **Electronic Quality Management System Application:** A software application or platform used to manage and automate quality management processes, including document control, corrective actions, audits, and performance tracking.
@@ -210,7 +210,7 @@ What the organisation does to ensure information risk is measured and managed to
 * - You must have a way to score risk to understand the underlying severity.
   - You have a risk assessment methodology for scoring risks on multiple axes such as impact and likelihood.
   - Mandatory
-* - You must carry out a data processing assessment for all projects requiring a TRE that are working with sensitive data.
+* - You must carry out a data processing assessment for all projects requiring a TRE.
   - A data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible. This may take the form of an existing regulatory requirements such as Data Protection Impact Assessment.
   - Mandatory
 ```
@@ -242,7 +242,7 @@ What the organisation does to ensure information risk is measured and managed to
   - The highest level of risk ownership is the top management of the TRE organisation.
     In order to ensure escalations to this level are rare, suitable structures should be put in place to own, mitigate and accept risk.
   - Mandatory
-* - You must understand risk appetite.
+* - You must understand your organisational risk appetite.
   - This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary.
   - Mandatory
 ```
@@ -322,7 +322,7 @@ What the organisation does to create and maintain research projects and work pac
   - Guidance
   - Importance
 * - You must keep a complete record of all the data assets held within the system.
-  - All data asset (current and past) held by the system should be retained along with meta-data useful for ensuring compliance can be demonstrated.
+  - Details of all data assets (current and past) held by the system should be retained along with meta-data useful for ensuring compliance can be demonstrated.
     This would include ownership, data lifecycle, contracts, risk assessments and other quality data.
     This is likely to already exist within the wider organisation but may require augmenting for the TRE.
   - Mandatory
@@ -439,9 +439,9 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
     Identification of these specialities should be done through a systematic training needs analysis.
     Specific training may also be required based on the data or data provider such as GCP.
   - Mandatory
-* - You should have a training platform capable of delivering online training in a variety of formats.
-  - This should include competency testing and more simple recording of actions such as read and understood.
-  - Recommended
+* - You could have a training platform capable of delivering online training in a variety of formats.
+  - This could include competency testing and more simple recording of actions such as read and understood.
+  - Optional
 * - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
     Electronic reminders for refresher training should be considered.
@@ -459,7 +459,7 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
   - Guidance
   - Importance
 * - You must maintain accurate training records that are directly tied to the role and access levels within the TRE.
-  - Electronic training records should be tied to a user record and carefully maintained.
+  - Training records should be tied to a user record and carefully maintained.
   - Mandatory
 * - You should accept proof of relevant training certifications from third parties.
   - This should include competency testing and more simple recording of actions such as read and understood.
