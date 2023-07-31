@@ -386,8 +386,8 @@ Ability to ensure that people with access to data are correctly identified and t
 * - You must have a set of services to manage access to resources based on identity.
   - This will include a security model for role based access with technical controls to ensure the principle of least privilege is enforced.
   - Mandatory
-* - The data asset owner must have control of who has access to which assets.
-  - Either through policy and process or ideally direct control access to data should be controlled by the person who owns a data asset or their delegates.
+* - You must not give anyone access to datasets without agreement from the Data Controller.
+  - The Data Controller may choose to delegate this authority.
   - Mandatory
 ```
 
