@@ -22,7 +22,8 @@ Definition of a application service
 
 ## Architectural principle
 
-Definition of architectural principle
+Fundamental guidelines that inform the design, decision making and implementation of a TRE.
+These principles provide a framework to ensure that the design of the underlying components of a TRE are aligned to consistent goals, values and best practices.
 
 (def_business_data_object)=
 
@@ -34,7 +35,8 @@ Definition of decomposition
 
 ## Capability
 
-Definition of a capability
+An ability that a system possesses.
+Capabilities are typically expressed in general and high-level terms and typically require a combination of organisation, people, processes, and technology to achieve.
 
 (def_component)=
 
@@ -46,7 +48,11 @@ Definition of a component
 
 ## Decomposition
 
-Definition of decomposition
+A set of components that realise a capability.
+These components will vary depending on the nature of the capability.
+Business-focused capabilities will be realised by business processes, roles and services.
+Technology-focused capabilities will be realised by applications, application services and interfaces.
+In addition to the components realising the capability, a catalogue of standards, frameworks and controls linked to the capabilities will provide guidance on how to implement the capabilities safely.
 
 (def_process)=
 
