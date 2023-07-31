@@ -143,7 +143,7 @@ What the organisation does to measure and control quality of processes, document
   - Importance
 * - You must track and maintain any physical assets used by your TRE.
   - All physical assets should be maintained and covered by warranty if applicable
-    At the end of their lifetime, assets should be securely disposed of in such a way that data cannot be recovered from them.   
+    At the end of their lifetime, assets should be securely disposed of in such a way that data cannot be recovered from them.
   - Mandatory (where physical assets are in scope)
 ```
 
@@ -415,7 +415,7 @@ Ability to ensure that people with access to data are correctly identified and t
   - Guidance
   - Importance
 * - You must give each user of the TRE a unique logon with changes to any records strictly controlled.
-  - The unique identifier and all associated records for a user should be traceable across the entire TRE. 
+  - The unique identifier and all associated records for a user should be traceable across the entire TRE.
     This will include training records, affiliations, contract agreements and ethics approvals where required.
   - Mandatory
 ```
