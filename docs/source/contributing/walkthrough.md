@@ -48,17 +48,15 @@ As a collaborative project driven by community needs, we'd love for you to contr
 
 There are two ways to do this:
 
-1. Directly to the specification on GitHub (recommended, but more difficult)
-2. To a non-GitHub version of the specification (less recommended, but easier)
+1. Directly to the specification on GitHub (recommended)
+2. {ref}`Submitting comments via a form <contributing-alternative-comment>`
 
 Why the difference?
 GitHub is the live version of the specification and is great for things like community discussions, version control, editing changes and more.
 This is why we recommend contributing via GitHub — it is the most direct way to work with the SATRE team on the specification.
 
 However, we realise this may be difficult if you aren't already familiar with GitHub's ways of working.
-Therefore, we also have a non-GitHub version of the specification you can comment on.
-Once a week, we will translate comments from this version to the GitHub repository for direct amendments.
-So you are still able to contribute via this method, though all direct changes will still be taking place on GitHub.
+Therefore, we also have a way to {ref}`make comments without a GitHub account <contributing-alternative-comment>`.
 
 ### Contribute directly through GitHub
 

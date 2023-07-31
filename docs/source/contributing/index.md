@@ -35,6 +35,15 @@ In order to contribute via GitHub, you'll need to set up a free account and sign
 Here are some [instructions](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
+(contributing-alternative-comment)=
+
+## Alternative ways to comment
+
+In line with our open principles we recommend commenting and [contributing to SATRE using GitHub](walkthrough.md).
+If this is not possible you can also [leave a comment via this form](https://forms.office.com/Pages/ResponsePage.aspx?id=OTEyrjoJKk2Bpl0zS82QGQQh5LWVyKJMjCf72dnH9PNUOUwzMlJWUFExQVBDRVBEOVlWRjY5UjVUSi4u).
+Please read the form carefully.
+We would like to acknowledge your contributions in public, but if you prefer you can remain anonymous.
+
 ## Contribution Model
 
 We have designed our contribution model to be as accessible as possible, while utilising the full power of GitHub's collaboration and version-control tools.
