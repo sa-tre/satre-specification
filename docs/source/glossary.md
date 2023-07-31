@@ -38,21 +38,21 @@ Definition of decomposition
 An ability that a system possesses.
 Capabilities are typically expressed in general and high-level terms and typically require a combination of organisation, people, processes, and technology to achieve.
 
-(def_component)=
+(def_capability_decomposition)=
 
-## Component
-
-Definition of a component
-
-(def_decomposition)=
-
-## Decomposition
+## Capability decomposition
 
 A set of components that realise a capability.
 These components will vary depending on the nature of the capability.
 Business-focused capabilities will be realised by business processes, roles and services.
 Technology-focused capabilities will be realised by applications, application services and interfaces.
 In addition to the components realising the capability, a catalogue of standards, frameworks and controls linked to the capabilities will provide guidance on how to implement the capabilities safely.
+
+(def_component)=
+
+## Component
+
+Definition of a component
 
 (def_process)=
 
