@@ -70,7 +70,8 @@ Definition of a role
 
 ## Specification pillar
 
-Definition of a specification pillar
+A specification pillar is a group of related capabilities.
+SATRE has four specification pillars: Information governance, Computing technology, Data management and Supporting Capabilities.
 
 (def_tre_organisation)=
 
