@@ -46,7 +46,7 @@ SATRE Specification Architecture
 ```
 
 {ref}`Architectural Principles <satre_principles>`
-: The principles that all TRE operators looking to use the specification should hold themselves accountable to.
+: The {ref}`principles <def_architectural_principle>` that all TRE operators looking to use the specification should hold themselves accountable to.
 
 {ref}`Specification Pillars <satre_pillars>`
 : The broad areas of TRE provisioning the specification covers.
