@@ -75,7 +75,7 @@ What the organisation does to measure and control quality of processes, document
   - Guidance
   - Importance
 * - You must ensure all policies and standard operating procedures relevant to the TRE organisation are controlled.
-  - This may include measures like restricting edit access to relevant documents and recording acceptance of policies for all TRE organisation members.
+  - This may include measures like restricting edit access to relevant documents and/or recording acceptance of policies.
   - Mandatory
 * - You must ensure all policies and standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes.
   - Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes.
@@ -91,7 +91,7 @@ What the organisation does to measure and control quality of processes, document
 * - Statement
   - Guidance
   - Importance
-* - You must measure the performance of information governance within the TRE with regular reporting available to top management.
+* - You must measure the performance of information governance within the TRE with regular reporting available to your TRE organisation's management team.
   - This may include reports and dashboards showing security incidents, quality management deviations and audit findings.
   - Mandatory
 ```
@@ -122,7 +122,7 @@ What the organisation does to measure and control quality of processes, document
 * - Statement
   - Guidance
   - Importance
-* - You must ensure that suppliers, contractors and sub-contractors align with the security requirements of you TRE.
+* - You must ensure that suppliers, contractors and sub-contractors with access to your TRE align with your security requirements.
   - These should be included as mandatory, non-functional requirements in during procurement and contracting.
     This will also include contractor staff contracts for example, legal liability and NDAs.
   - Mandatory
