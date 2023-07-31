@@ -157,7 +157,7 @@ What the organisation does to measure and control quality of processes, document
   - Guidance
   - Importance
 * - You must log, track and resolve any issues resulting from deviations from processes, incidents and audit findings.
-  - This process should be tracked through an electronic record and workflow system with records retained.
+  - This process could, for example, be tracked through an electronic record and workflow system with records retained.
   - Mandatory
 * - You must use reported issues to inform changes, such as for process improvement and risk management.
   - All issues should be analysed for their route cause and improvements put in place to prevent further occurrence.
@@ -337,9 +337,9 @@ What the organisation does to create and maintain research projects and work pac
 * - Statement
   - Guidance
   - Importance
-* - You must keep a complete record of all the research studies and projects within the TRE current and past.
+* - You should keep a complete record of all the research studies and projects within the TRE current and past.
   - The study register should contain all data related to a study including a reference to data assets, members (researchers, owners etc.) and any compliance activities required.
-  - Mandatory
+  - Recommended
 ```
 
 ## Member Accreditation
@@ -433,9 +433,9 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
 * - Statement
   - Guidance
   - Importance
-* - You must have relevant training for all roles within the TRE organisation, and the ability to deliver this training.
+* - You must ensure that relevant training is available for all roles within the TRE organisation.
   - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
-    Specific training should be designed for roles such as Senior Information Risk Owner, Data Asset owner.
+    Specialised roles are likely to need more tailored training.
     Identification of these specialities should be done through a systematic training needs analysis.
     Specific training may also be required based on the data or data provider such as GCP.
   - Mandatory
