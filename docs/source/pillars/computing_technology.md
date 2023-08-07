@@ -136,12 +136,6 @@ Advanced, powerful computer resources to solve complex problems and process larg
   - Databases must be secured and only accessible to users within the same project.
     If shared (multi-tenant) database servers are used, database administrators must ensure that the database server enforces segregation of users and databases belonging to different projects.
   - Optional
-* - Your TRE must maintain segregation of users and data from different projects when using non-standard compute.
-  - High performance or specialist compute is often shared amongst multiple users.
-    Users and data must remain segregated at all times.
-    For example, when using physical compute resources, all sensitive data could be securely wiped before another user is given access to that same node.
-    In a cloud hosted TRE virtual machines could be destroyed and recreated.
-  - Mandatory
 * - Your TRE could integrate with large-scale data analytics tools for working with large datasets.
   - For example, Spark and Hadoop can be used for distributed computing across a cluster.
     This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
