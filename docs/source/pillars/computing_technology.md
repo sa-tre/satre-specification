@@ -156,10 +156,6 @@ Advanced, powerful computer resources to solve complex problems and process larg
   - For example, Spark and Hadoop can be used for distributed computing across a cluster.
     This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
   - Optional
-* - Your TRE could integrate with cloud-native managed services.
-  - Cloud providers supply many different managed services.
-    Although the cloud provider is responsible for managing the configuration of these services, the TRE operator must ensure that using them does not compromise the security of the TRE.
-  - Optional
 ```
 
 ## Infrastructure management
