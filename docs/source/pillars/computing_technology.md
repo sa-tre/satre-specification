@@ -77,12 +77,6 @@ The tools used by researchers inside a TRE, such as programming languages, IDEs 
 * - Your TRE could include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary.
   - For example, if an application must connect to an external licensing server, you must be confident that only licensing information is sent to this server, and that any network connections are secure.
   - Optional
-* - Your TRE must provide software applications that are relevant to working with the data in the TRE.
-  - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
-    For users working in a TRE via a virtual desktop, this may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
-    TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the researchers needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
-    The set of tools should be reviewed regularly to ensure they are up to date.
-  - Mandatory
 ```
 
 ### Code Version Control System
