@@ -136,10 +136,6 @@ Advanced, powerful computer resources to solve complex problems and process larg
   - Databases must be secured and only accessible to users within the same project.
     If shared (multi-tenant) database servers are used, database administrators must ensure that the database server enforces segregation of users and databases belonging to different projects.
   - Optional
-* - Your TRE should be able to provide access to accelerators such as GPUs if required by users.
-  - GPUs and other accelerators are commonly used in machine learning and other computationally intensive research.
-    TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
-  - Recommended
 * - Your TRE must maintain segregation of users and data from different projects when using non-standard compute.
   - High performance or specialist compute is often shared amongst multiple users.
     Users and data must remain segregated at all times.
