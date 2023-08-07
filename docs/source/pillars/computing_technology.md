@@ -2,7 +2,6 @@
 
 # Computing technology
 
-
 ```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
 :align: center
@@ -121,6 +120,10 @@ A service that manages and organizes software artefacts such as code libraries, 
   - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
     Similarly a subset of public containers could be made available, or individual container images via an internal container registry.
   - Optional
+* - You could choose to tightly control access to public repositories.
+  - This might involve only allowing a limited selection of allowed repositories.
+    You might also choose to scan for malicious packages and/or go through an approval process before allowing code into the technical environment.
+  - Optional
 ```
 
 ### Advanced or cluster computing
@@ -191,9 +194,10 @@ This involves development, installation, configuration, and validation.
 * - You must test changes before they are used in production.
   - This might involve a separate development environment or another system for testing.
   - Mandatory
-* - You could test changes in a development environment that mirrors your production system.
-  - Consider the costs and practicality of whether this will work for your situation.
-  - Optional
+* - You should have separate technical environments for development and testing infrastructure changes before they are committed to production.
+  - If possible, you should automate application of changes between development and production environments.
+    Consider the costs and practicality of whether this will work for your situation.
+  - Recommended
 ```
 
 ### Infrastructure decommissioning
@@ -281,6 +285,7 @@ The ability of the TRE operator to record and analyse data about the usage of th
 ```
 
 ## Capacity management
+
 ### Capacity planning
 
 The process of forecasting and determining the resources required to meet the demands of an application or system, ensuring that adequate resources are available when needed.
@@ -301,9 +306,7 @@ The process of forecasting and determining the resources required to meet the de
 * - You must have a procedure for increasing/decreasing available resources.
   - For cloud-based TREs this may involve scaling resources, such as virtual machines or databases, or deploying additional resources.
     For on-premises TREs this may involve a procurement process to ensure that necessary resources are available.
-  - Mandatory
-* - You must have a procedure to decide when to change capacity.
-  - Not all requests for capacity increase must necessarily be granted, but having a clear process will help projects understand when/why/how they can make use of additional capacity.
+    Not all requests for capacity increase must necessarily be granted, but having a clear process will help projects understand when/why/how they can make use of additional capacity.
   - Mandatory
 ```
 
