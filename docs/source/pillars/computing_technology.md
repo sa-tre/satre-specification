@@ -83,9 +83,6 @@ The tools used by researchers inside a TRE, such as programming languages, IDEs 
     TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the researchers needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
     The set of tools should be reviewed regularly to ensure they are up to date.
   - Mandatory
-* - Your TRE should take accessibility for users with disabilities into account.
-  - The restricted nature of TREs means many assistive tools such as screenreaders in a virtual desktop may not be allowed, but other options such as colour schemes, font sizes, and resizing user interface elements, should be supported.
-  - Recommended
 ```
 
 ### Code Version Control System
