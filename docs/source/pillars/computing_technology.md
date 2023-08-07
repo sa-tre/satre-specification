@@ -161,10 +161,6 @@ This involves development, installation, configuration, and validation.
 * - You must have a documented procedure for deploying infrastructure.
   - This might, for instance, be a handbook that is followed or a set of automated scripts.
   - Mandatory
-* - You must have a documented procedure for making changes to deployed infrastructure.
-  - This refers both to changes that might be expected in the course of normal operation and emergency changes that might be needed.
-    Your change management process may form part of a wider accreditation such as ISO 27001.
-  - Mandatory
 * - You should, where possible, automate any repeatable aspects of your deployment.
   - This might involve using infrastructure-as-code tools or simply a series of scripts.
   - Recommended
