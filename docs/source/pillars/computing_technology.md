@@ -232,7 +232,7 @@ The process of ensuring all IT infrastructure meets the agreed levels of availab
 
 ### Network management
 
-An application used to manage and control network devices, ensuring proper functioning, security, and performance of the network.
+An application used to manage network infrastructure, ensuring proper functioning, security, and performance.
 
 ```{list-table}
 :header-rows: 1
