@@ -106,7 +106,7 @@ Systems and tools providing version control and collaboration features for code 
 
 ### Artefact management
 
-A service that manages and organizes software artefacts such as code libraries, dependencies, and build outputs in a centralised repository.
+A service that manages and organizes third-party software artefacts such as packaged code libraries or containers in a centralised repository.
 
 ```{list-table}
 :header-rows: 1
@@ -115,12 +115,11 @@ A service that manages and organizes software artefacts such as code libraries, 
 * - Statement
   - Guidance
   - Importance
-* - Your TRE could provide limited access to some public software repositories or container registries.
-  - For example, a TRE may allow installation of packages from Python or R repositories, or provide an internal mirror with approved packages.
-    Similarly a subset of public containers could be made available, or individual container images via an internal container registry.
+* - Your TRE could provide access to some public software repositories or container registries.
+  - For example, a TRE may allow direct installation of packages from Python or R repositories, or provide an internal mirror.
   - Optional
-* - You could choose to tightly control access to public repositories.
-  - This might involve only allowing a limited selection of allowed repositories.
+* - Your TRE could tightly control which packages are available.
+  - For example, a TRE may only allow installation of a pre-defined set of approved packages.
     You might also choose to scan for malicious packages and/or go through an approval process before allowing code into the technical environment.
   - Optional
 ```
