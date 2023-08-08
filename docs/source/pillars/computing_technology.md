@@ -135,6 +135,12 @@ Advanced, powerful computer resources to solve complex problems and process larg
 * - Statement
   - Guidance
   - Importance
+* - Your TRE must maintain segregation of users and data from different projects when using non-standard compute.
+  - High performance or specialist compute is often shared amongst multiple users.
+    Users and data must remain segregated at all times.
+    For example, when using physical compute resources, all sensitive data could be securely wiped before another user is given access to that same node.
+    In a cloud hosted TRE virtual machines could be destroyed and recreated.
+  - Mandatory
 * - Your TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
   - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
     For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
