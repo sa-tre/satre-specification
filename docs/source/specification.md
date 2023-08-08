@@ -66,7 +66,7 @@ In addition, we also describe some {ref}`roles <satre_roles>` that are necessary
 The SATRE specification has been developed based on the following principles:
 
 - TREs should be as easy as possible for end-users to use (_e.g._ researchers) whilst still remaining secure.
-- TREs should take accessibility for all users with disabilities into account
+- TREs should take accessibility for all users, including those with disabilities, into account.
 - TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
 - TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
 - The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
