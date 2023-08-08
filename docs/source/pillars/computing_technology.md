@@ -223,7 +223,7 @@ The process of ensuring all IT infrastructure meets the agreed levels of availab
   - Importance
 * - You should understand the availability and uptime guarantees of any providers that you rely on.
   - For remote TREs this might include your cloud provider(s) and/or data centre operators.
-    For on-premises TREs, it might be worth considering your ISP and electricity provider.
+    For on-premises TREs, it might be worth using an uninterruptable power supply (UPS) and planning how you would deal with internet outages.
   - Recommended
 * - You should develop an availability target or statement and share this with your users.
   - Understanding how and when the TRE might be unavailable will help your projects in planning their work.
