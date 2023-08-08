@@ -9,7 +9,7 @@
 SATRE Pillars Capability Map
 ```
 
-This pillar concerns actions taken by the TRE operator to manage systems for storing, retrieving, analysing and sending information.
+This pillar concerns actions taken by the TRE operator to manage TRE computing systems.
 
 Each TRE operator will have its own computing technology requirements.
 Requirements are drawn from information governance requirements which primarily specify the controls needed within the technical and computing infrastructure.
@@ -20,12 +20,12 @@ The required compute resources will vary according to the scale of data and comp
 
 ## End user computing
 
-_The ability of the TRE operator to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data._
+The ability of the TRE operator to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
 
 ### End user computing interfaces
 
-Software or system that allows people to interact with computers, applications, and services.
-This application group includes desktop, command line and code submission interface.
+Software or systems that allows people to interact with the TRE.
+This may include desktop, command-line and/or code-submission interfaces.
 
 ```{list-table}
 :header-rows: 1
@@ -81,7 +81,7 @@ The tools used by researchers inside a TRE, such as programming languages, IDEs 
 
 ### Code Version Control System
 
-An application that provides version control and collaboration features for code developed inside the TRE.
+Systems and tools providing version control and collaboration features for code developed inside the TRE.
 
 ```{list-table}
 :header-rows: 1
@@ -144,7 +144,7 @@ Advanced, powerful computer resources to solve complex problems and process larg
 
 ## Infrastructure management
 
-The ability of the TRE operator to instantiate, deploy, change or remove physical or virtual infrastructure.
+The ability of the TRE operator to deploy, change or remove physical or virtual infrastructure.
 
 ### Infrastructure deployment
 
@@ -162,29 +162,29 @@ This involves development, installation, configuration, and validation.
   - This might, for instance, be a handbook that is followed or a set of automated scripts.
   - Mandatory
 * - You should, where possible, automate any repeatable aspects of your deployment.
-  - This might involve using infrastructure-as-code tools or simply a series of scripts.
+  - This might involve using infrastructure-as-code tools or a series of scripts.
   - Recommended
 * - You must test changes before they are used in production.
   - This might involve a separate development environment or another system for testing.
   - Mandatory
-* - You should have separate technical environments for development and testing infrastructure changes before they are committed to production.
+* - You should have separate environments for development and testing infrastructure changes before they are committed to production.
   - If possible, you should automate application of changes between development and production environments.
     Consider the costs and practicality of whether this will work for your situation.
   - Recommended
 ```
 
-### Infrastructure decommissioning
+### Infrastructure removal
 
 The process of retiring or removing infrastructure assets that are no longer needed or outdated, ensuring proper data handling and disposal.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-decommissioning
+:name: tab-infrastructure-removal
 
 * - Statement
   - Guidance
   - Importance
-* - You must have a documented procedure for removing infrastructure when it is no longer needed
+* - You must have a documented procedure for removing infrastructure when it is no longer needed.
   - Removing unused infrastructure not only reduces costs and management burden but also reduces the attack surface of a TRE and reduces the risk of unaddressed vulnerabilities.
   - Mandatory
 ```
