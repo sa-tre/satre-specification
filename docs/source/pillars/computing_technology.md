@@ -251,7 +251,7 @@ The process of forecasting and determining the resources required to meet the de
 * - You should ensure that the anticipated needs of projects can be satisfied using available resources.
   - Note that this does not require you to accept requests for additional resources, but rather that promises made about resource availability before a project starts should be honoured wherever possible.
   - Recommended
-* - You must have a procedure for increasing/decreasing available resources.
+* - You must have a procedure for allocating available resources among projects.
   - For cloud-based TREs this may involve scaling resources, such as virtual machines or databases, or deploying additional resources.
     For on-premises TREs this may involve a procurement process to ensure that necessary resources are available.
     Not all requests for capacity increase must necessarily be granted, but having a clear process will help projects understand when/why/how they can make use of additional capacity.
