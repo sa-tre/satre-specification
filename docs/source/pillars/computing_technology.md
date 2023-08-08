@@ -36,10 +36,11 @@ This may include desktop, command-line and/or code-submission interfaces.
   - Guidance
   - Importance
 
-* - You should disable the ability to copy data out of your TRE via the system clipboard.
+* - You must not allow users to copy data out of your TRE via the system clipboard.
   - A TRE user must not be able to copy sensitive data out of a workspace using the system clipboard.
     A TRE may allow user to paste text into a workspace.
-  - Recommended
+    This might not be relevant to your TRE, for example if your user interface does not have a clipboard.
+  - Required
 * - Your TRE workspace should provide an environment familiar to your users.
   - This may take the form of a virtual Windows or Linux desktops, non-desktop interfaces such as JupyterLab and other web applications, or a terminal.
     Bespoke TRE-specific software should be avoided when widely used alternatives already exist.
