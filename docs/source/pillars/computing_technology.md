@@ -247,6 +247,9 @@ An application used to manage and control network devices, ensuring proper funct
 * - Your TRE must block outbound connections to the internet by default.
   - Limited outbound connectivity may be allowed for some services.
   - Mandatory
+* - You must monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
+  - This may include regular vulnerability scanning, and penetration testing.
+  - Mandatory
 ```
 
 ## Capacity management
