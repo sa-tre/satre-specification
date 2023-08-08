@@ -181,6 +181,10 @@ This involves development, installation, configuration, and validation.
 * - You should, where possible, automate any repeatable aspects of your deployment.
   - This might involve using infrastructure-as-code tools or a series of scripts.
   - Recommended
+* - You must have a documented procedure for making changes to deployed infrastructure.
+  - This refers both to changes that might be expected in the course of normal operation and emergency changes that might be needed.
+    Your change management process may form part of a wider accreditation such as ISO 27001.
+  - Mandatory
 * - You must test changes before they are used in production.
   - This might involve a separate development environment or another system for testing.
   - Mandatory
