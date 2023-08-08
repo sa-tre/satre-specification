@@ -13,7 +13,7 @@ This pillar concerns actions taken by the TRE operator to manage TRE computing s
 
 Each TRE operator will have its own computing technology requirements.
 The security controls needed by the computing infrastructure will depend on information governance requirements.
-Other computing requirements will be influenced by the technical knowledge and experience of those using the TRE, along with the work they need to perform within the system. 
+Other computing requirements will be influenced by the technical knowledge and experience of those using the TRE, along with the work they need to perform within the system.
 For example, a data scientist will have very different requirements to a clinician.
 The required compute resources will vary according to the scale of data and computational techniques employed during research.
 
@@ -139,6 +139,10 @@ Advanced, powerful computer resources to solve complex problems and process larg
 * - Your TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
   - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
     For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
+  - Recommended
+* - Your TRE should be able to provide access to accelerators such as GPUs if required by users.
+  - GPUs and other accelerators are commonly used in machine learning and other computationally intensive research.
+    TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
   - Recommended
 * - Your TRE could make data available to researchers using common database systems such as PostgreSQL, MSSQL or MongoDB.
   - Databases must be secured and only accessible to users within the same project.
