@@ -106,7 +106,7 @@ Systems and tools providing version control and collaboration features for code 
 
 ### Artefact management
 
-A service that manages and organizes third-party software artefacts such as packaged code libraries or containers in a centralised repository.
+A service that manages and organises third-party software artefacts such as packaged code libraries or containers.
 
 ```{list-table}
 :header-rows: 1
