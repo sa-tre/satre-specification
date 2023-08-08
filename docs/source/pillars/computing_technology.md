@@ -12,8 +12,9 @@ SATRE Pillars Capability Map
 This pillar concerns actions taken by the TRE operator to manage TRE computing systems.
 
 Each TRE operator will have its own computing technology requirements.
-Requirements are drawn from information governance requirements which primarily specify the controls needed within the technical and computing infrastructure.
-Researcher personas influence the according to the technical knowledge and experience of researchers along with the work they need to perform within the system, a data scientist will have very different requirements to a clinician for example.
+The security controls needed by the computing infrastructure will depend on information governance requirements.
+Other computing requirements will be influenced by the technical knowledge and experience of those using the TRE, along with the work they need to perform within the system. 
+For example, a data scientist will have very different requirements to a clinician.
 The required compute resources will vary according to the scale of data and computational techniques employed during research.
 
 <!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
