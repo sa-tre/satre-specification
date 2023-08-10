@@ -23,10 +23,12 @@ For example, some requirements will arise from national legislation such as GDPR
 :header-rows: 1
 :name: tab-ig-requirements-gathering-monitoring
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must gather and monitor the information governance requirements needed to fulfil the legal and ethical standards to protect data subjects and deliver valuable research.
+* - 1.1.1
+  - You must gather and monitor the information governance requirements needed to fulfil the legal and ethical standards to protect data subjects and deliver valuable research.
   - Requirements will come from a variety of sources including legislation, contractual obligations and ethical standards.
     Requirements must be monitored to ensure the TRE controls continue to match such requirements.
     New types of analysis or sources of data being brought into the scope of the TRE should be monitored to ensure requirements are current.
@@ -39,10 +41,12 @@ For example, some requirements will arise from national legislation such as GDPR
 :header-rows: 1
 :name: tab-ig-controls
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must ensure controls are implemented to ensure the requirements are met.
+* - 1.1.2
+  - You must ensure controls are implemented to ensure the requirements are met.
   - Control implementation should be systematic and directly aligned to the internal and stakeholder requirements.
   - Mandatory
 ```
@@ -53,10 +57,12 @@ For example, some requirements will arise from national legislation such as GDPR
 :header-rows: 1
 :name: tab-ig-resource-allocation
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must ensure there are adequate resources to provide assurance and meet information governance requirements.
+* - 1.1.3
+  - You must ensure there are adequate resources to provide assurance and meet information governance requirements.
   - There should be adequate access to funding to implement and maintain the TRE which is under the direct control of the TRE organisation.
   - Mandatory
 ```
@@ -71,13 +77,16 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-document-management
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must ensure all policies and standard operating procedures relevant to the TRE organisation are controlled.
+* - 1.2.1
+  - You must ensure all policies and standard operating procedures relevant to the TRE organisation are controlled.
   - This may include measures like restricting edit access to relevant documents and/or recording acceptance of policies.
   - Mandatory
-* - You must ensure all policies and standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes.
+* - 1.2.2
+  - You must ensure all policies and standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes.
   - Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes.
   - Mandatory
 ```
@@ -88,10 +97,12 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-quality-management
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must measure the performance of information governance within the TRE with regular reporting available to your TRE organisation's management team.
+* - 1.2.3
+  - You must measure the performance of information governance within the TRE with regular reporting available to your TRE organisation's management team.
   - This may include reports and dashboards showing security incidents, quality management deviations and audit findings.
   - Mandatory
 ```
@@ -102,13 +113,16 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-internal-audit
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must audit your TRE organisation against relevant requirements and standards
+* - 1.2.4
+  - You must audit your TRE organisation against relevant requirements and standards
   - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant.
   - Mandatory
-* - You must report on and share outcomes of each audit of your TRE organisation with the required bodies.
+* - 1.2.5
+  - You must report on and share outcomes of each audit of your TRE organisation with the required bodies.
   - This may include regulatory bodies or the organisations that manage accreditations you have
   - Mandatory
 ```
@@ -119,14 +133,17 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-supplier-management-monitoring
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must ensure that suppliers, contractors and sub-contractors with access to your TRE align with your security requirements.
+* - 1.2.6
+  - You must ensure that suppliers, contractors and sub-contractors with access to your TRE align with your security requirements.
   - These should be included as mandatory, non-functional requirements in during procurement and contracting.
     This will also include contractor staff contracts for example, legal liability and NDAs.
   - Mandatory
-* - You must monitor compliance of your suppliers with the terms of the contracts.
+* - 1.2.7
+  - You must monitor compliance of your suppliers with the terms of the contracts.
   - This will include monitoring changes in the services and infrastructure being delivered and quality management within the contractor’s organisation.
     This may be done through formal audit or by monitoring change and quality documentation provided by the supplier.
   - Mandatory
@@ -138,10 +155,12 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-asset-management-process
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must track and maintain any physical assets used by your TRE.
+* - 1.2.8
+  - You must track and maintain any physical assets used by your TRE.
   - All physical assets should be maintained and covered by warranty if applicable
     At the end of their lifetime, assets should be securely disposed of in such a way that data cannot be recovered from them.
   - Mandatory (where physical assets are in scope)
@@ -153,13 +172,16 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-issue-management-process
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must log, track and resolve any issues resulting from deviations from processes, incidents and audit findings.
+* - 1.2.9
+  - You must log, track and resolve any issues resulting from deviations from processes, incidents and audit findings.
   - This process could, for example, be tracked through an electronic record and workflow system with records retained.
   - Mandatory
-* - You must use reported issues to inform changes, such as for process improvement and risk management.
+* - 1.2.10
+  - You must use reported issues to inform changes, such as for process improvement and risk management.
   - All issues should be analysed for their route cause and improvements put in place to prevent further occurrence.
   - Mandatory
 ```
@@ -170,10 +192,12 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-quality-management-data
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You should collect and maintain quality management data for measuring the effectiveness of a TRE.
+* - 1.2.11
+  - You should collect and maintain quality management data for measuring the effectiveness of a TRE.
   - Large amounts of data will be produced by elements within the TRE.
     These data should be analysed with reports and dashboards provided to guide TRE implementer’s improvements and provide re-assurance to data consumers and subjects.
   - Recommended
@@ -185,10 +209,12 @@ What the organisation does to measure and control quality of processes, document
 :header-rows: 1
 :name: tab-ig-quality-management-system-application
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You could use a QMS (Quality Management System) to standardise and automate quality management tasks and workflows, and to generate quality data and reports automatically.
+* - 1.2.12
+  - You could use a QMS (Quality Management System) to standardise and automate quality management tasks and workflows, and to generate quality data and reports automatically.
   - A basis QMS could be a set of spreadsheets or documents held in a repository which are manually maintained.
     More mature applications will provide workflows and generate quality data through manual and automated actions.
   - Optional
@@ -204,13 +230,16 @@ What the organisation does to ensure information risk is measured and managed to
 :header-rows: 1
 :name: tab-ig-risk-assessment
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have a way to score risk to understand the underlying severity.
+* - 1.3.1
+  - You must have a way to score risk to understand the underlying severity.
   - You have a risk assessment methodology for scoring risks on multiple axes such as impact and likelihood.
   - Mandatory
-* - You must carry out a data processing assessment for all projects requiring a TRE.
+* - 1.3.2
+  - You must carry out a data processing assessment for all projects requiring a TRE.
   - A data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible. This may take the form of an existing regulatory requirements such as Data Protection Impact Assessment.
   - Mandatory
 ```
@@ -221,10 +250,12 @@ What the organisation does to ensure information risk is measured and managed to
 :header-rows: 1
 :name: tab-ig-risk-treatment
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have a process for designing, implementing and recording risk mitigations where indicated by a risk assessment.
+* - 1.3.3
+  - You must have a process for designing, implementing and recording risk mitigations where indicated by a risk assessment.
   - Actions that are taken or not taken following a risk assessment must be recorded.
   - Mandatory
 ```
@@ -235,14 +266,17 @@ What the organisation does to ensure information risk is measured and managed to
 :header-rows: 1
 :name: tab-ig-risk-ownership
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have a clear set of roles and responsibilities relating to risk including who owns risks and how they are escalated and delegated.
+* - 1.3.4
+  - You must have a clear set of roles and responsibilities relating to risk including who owns risks and how they are escalated and delegated.
   - The highest level of risk ownership is the top management of the TRE organisation.
     In order to ensure escalations to this level are rare, suitable structures should be put in place to own, mitigate and accept risk.
   - Mandatory
-* - You must understand your organisational risk appetite.
+* - 1.3.5
+  - You must understand your organisational risk appetite.
   - This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary.
   - Mandatory
 ```
@@ -257,10 +291,12 @@ What the organisation does to create and maintain research projects and work pac
 :header-rows: 1
 :name: tab-ig-study-onboarding
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have checks in place to ensure a project has the legal, financial and ethical requirements in place for the duration of the project.
+* - 1.4.1
+  - You must have checks in place to ensure a project has the legal, financial and ethical requirements in place for the duration of the project.
   - This includes checks that contracts are in place where required, adequate funding is available for the duration of the project, and responsibilities concerning data ownership are understood by all parties.
   - Mandatory
 ```
@@ -271,14 +307,17 @@ What the organisation does to create and maintain research projects and work pac
 :header-rows: 1
 :name: tab-ig-compliance-checking
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have checks in place to ensure that any time limited compliance requirements are maintained.
+* - 1.4.2
+  - You must have checks in place to ensure that any time limited compliance requirements are maintained.
   - This includes ensuring contracts remain in valid and action is promptly taken should they expire.
     Any changes in the status of responsible persons should also be monitored, for example a data owner leaving an organisation.
   - Mandatory
-* - You must have checks in place to ensure that changes in regulations are met for a project.
+* - 1.4.3
+  - You must have checks in place to ensure that changes in regulations are met for a project.
   -
   - Mandatory
 ```
@@ -289,10 +328,12 @@ What the organisation does to create and maintain research projects and work pac
 :header-rows: 1
 :name: tab-ig-study-closure
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have standard processes in place for the end of a project, that follow all legal requirements and data security best practice.
+* - 1.4.4
+  - You must have standard processes in place for the end of a project, that follow all legal requirements and data security best practice.
   - This includes the archiving of quality and log data along with the archiving or deletion of data sets.
   - Mandatory
 ```
@@ -303,10 +344,12 @@ What the organisation does to create and maintain research projects and work pac
 :header-rows: 1
 :name: tab-ig-study-management-portal
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You could implement a portal that can provide a workflow engine and database which automates the processes within this capability.
+* - 1.4.5
+  - You could implement a portal that can provide a workflow engine and database which automates the processes within this capability.
   - A portal should automate as much of the processes within the capability as possible.
     Where processes are automated process maturity is easier to achieve with processes being completed more consistently and producing quality control and monitoring data automatically
   - Optional
@@ -318,10 +361,12 @@ What the organisation does to create and maintain research projects and work pac
 :header-rows: 1
 :name: tab-ig-data-asset-register
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must keep a complete record of all the data assets held within the system.
+* - 1.4.6
+  - You must keep a complete record of all the data assets held within the system.
   - Details of all data assets (current and past) held by the system should be retained along with meta-data useful for ensuring compliance can be demonstrated.
     This would include ownership, data lifecycle, contracts, risk assessments and other quality data.
     This is likely to already exist within the wider organisation but may require augmenting for the TRE.
@@ -334,10 +379,12 @@ What the organisation does to create and maintain research projects and work pac
 :header-rows: 1
 :name: tab-ig-study-register
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You should keep a complete record of all the research studies and projects within the TRE current and past.
+* - 1.4.7
+  - You should keep a complete record of all the research studies and projects within the TRE current and past.
   - The study register should contain all data related to a study including a reference to data assets, members (researchers, owners etc.) and any compliance activities required.
   - Recommended
 ```
@@ -352,10 +399,12 @@ Ability to ensure that people with access to data are correctly identified and t
 :header-rows: 1
 :name: tab-ig-identity-verification
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data.
+* - 1.5.1
+  - You must have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data.
   - This may include multi-factor authentication (MFA), ID checks or email/phone verification.
   - Mandatory
 ```
@@ -366,10 +415,12 @@ Ability to ensure that people with access to data are correctly identified and t
 :header-rows: 1
 :name: tab-ig-user-onboarding
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have clear onboarding processes in place for all roles within your TRE organisation.
+* - 1.5.2
+  - You must have clear onboarding processes in place for all roles within your TRE organisation.
   - This may include all members signing role-specific terms of use and completing role specific training.
   - Mandatory
 ```
@@ -380,13 +431,16 @@ Ability to ensure that people with access to data are correctly identified and t
 :header-rows: 1
 :name: tab-ig-identity-access-management-services
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have a set of services to manage access to resources based on identity.
+* - 1.5.3
+  - You must have a set of services to manage access to resources based on identity.
   - This will include a security model for role based access with technical controls to ensure the principle of least privilege is enforced.
   - Mandatory
-* - You must not give anyone access to datasets without agreement from the Data Controller.
+* - 1.5.4
+  - You must not give anyone access to datasets without agreement from the Data Controller.
   - The Data Controller may choose to delegate this authority.
   - Mandatory
 ```
@@ -397,10 +451,12 @@ Ability to ensure that people with access to data are correctly identified and t
 :header-rows: 1
 :name: tab-ig-authentication-application
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must have robust and secure applications in place to authenticate users (and services) within the TRE.
+* - 1.5.5
+  - You must have robust and secure applications in place to authenticate users (and services) within the TRE.
   - The number of authentication applications should be kept to a minimum with common controls and standards applied across all such as MFA, password complexity etc.
   - Mandatory
 ```
@@ -411,10 +467,12 @@ Ability to ensure that people with access to data are correctly identified and t
 :header-rows: 1
 :name: tab-ig-user-identity-attributes
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must give each user of the TRE a unique logon with changes to any records strictly controlled.
+* - 1.5.6
+  - You must give each user of the TRE a unique logon with changes to any records strictly controlled.
   - The unique identifier and all associated records for a user should be traceable across the entire TRE.
     This will include training records, affiliations, contract agreements and ethics approvals where required.
   - Mandatory
@@ -430,19 +488,23 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
 :header-rows: 1
 :name: tab-ig-curriculum-creation-management
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must ensure that relevant training is available for all roles within the TRE organisation.
+* - 1.5.7
+  - You must ensure that relevant training is available for all roles within the TRE organisation.
   - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
     Specialised roles are likely to need more tailored training.
     Identification of these specialities should be done through a systematic training needs analysis.
     Specific training may also be required based on the data or data provider such as GCP.
   - Mandatory
-* - You could have a training platform capable of delivering online training in a variety of formats.
+* - 1.5.8
+  - You could have a training platform capable of delivering online training in a variety of formats.
   - This could include competency testing and more simple recording of actions such as read and understood.
   - Optional
-* - You must provide repeat or updated training where necessary to account for changes in competency requirements.
+* - 1.5.9
+  - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
     Electronic reminders for refresher training should be considered.
     Ideally training should remain relevant and so policies and processes should enable people to demonstrate competency rather than repeat training unnecessarily.
@@ -455,13 +517,16 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
 :header-rows: 1
 :name: tab-ig-certification-management
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You must maintain accurate training records that are directly tied to the role and access levels within the TRE.
+* - 1.5.10
+  - You must maintain accurate training records that are directly tied to the role and access levels within the TRE.
   - Training records should be tied to a user record and carefully maintained.
   - Mandatory
-* - You should accept proof of relevant training certifications from third parties.
+* - 1.5.11
+  - You should accept proof of relevant training certifications from third parties.
   - This should include competency testing and more simple recording of actions such as read and understood.
   - Recommended
 ```
@@ -472,10 +537,12 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
 :header-rows: 1
 :name: tab-ig-learning-management-system
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You could implement an LMS to manage courses and deliver training as required.
+* - 1.5.12
+  - You could implement an LMS to manage courses and deliver training as required.
   - Where possible an LMS should support a variety of course content and testing.
   - Optional
 ```
@@ -486,13 +553,16 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
 :header-rows: 1
 :name: tab-ig-courses-data
 
-* - Statement
+* -
+  - Statement
   - Guidance
   - Importance
-* - You could ensure course data is transferable between systems where possible.
+* - 1.5.13
+  - You could ensure course data is transferable between systems where possible.
   - Support for standard formats such as SCORM allows courses to be shared between providers.
   - Optional
-* - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
+* - 1.5.14
+  - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
   - Data providers and regulators may be required to audit historical records (EG. Clinical trials) it may be necessary to retain copies of superseded training along with versions of certifications within the training record.
   - Optional
 ```
