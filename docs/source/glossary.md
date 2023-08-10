@@ -10,7 +10,8 @@ Definition of an actor
 
 ## Application component
 
-Definition of a application component
+An encapsulation of application functionality which is modular and replaceable.
+For example: to perform work within a TRE a researcher might need access to a Desktop or command line interface application component.
 
 (def_application_service)=
 
@@ -25,11 +26,12 @@ Definition of a application service
 Fundamental guidelines that inform the design, decision making and implementation of a TRE.
 These principles provide a framework to ensure that the design of the underlying components of a TRE are aligned to consistent goals, values and best practices.
 
-(def_business_data_object)=
+(def_business_process)=
 
-## Business data object
+## Business process
 
-Definition of decomposition
+A set of actions which produce a specific desired outcome.
+For example: to access the TRE a researcher needs to complete an onboarding business process.
 
 (def_capability)=
 
@@ -54,11 +56,14 @@ In addition to the components realising the capability, a catalogue of standards
 
 Definition of a component
 
-(def_process)=
+(def_data_object)=
 
-## Process
+## Data Object
 
-Definition of a process
+A store of data or information.
+For example: to know what data is stored within the TRE a study database data object is needed.
+This contains information on the data assets within the TRE, who owns them and other compliance information.
+
 
 (def_role)=
 
