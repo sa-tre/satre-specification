@@ -13,7 +13,7 @@ SATRE Pillars Capability Map
 
 ## Business continuity management
 
-_What the TRE operator does to ensure the development, testing, and maintenance of business continuity plans._
+What the TRE operator does to ensure the development, testing, and maintenance of business continuity plans.
 
 ```{list-table}
 :header-rows: 1
@@ -32,7 +32,7 @@ _What the TRE operator does to ensure the development, testing, and maintenance 
 
 ## Project and programme management
 
-_What the TRE operator does to ensure effective management of programmes and projects._
+What the TRE operator does to ensure effective management of programmes and projects.
 
 ```{list-table}
 :header-rows: 1
@@ -52,7 +52,7 @@ _What the TRE operator does to ensure effective management of programmes and pro
 
 ## Knowledge management
 
-_What the TRE operator does to acquire, enrich, share, store, publish and enhance expertise across their organisation._
+What the TRE operator does to acquire, enrich, share, store, publish and enhance expertise across their organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -74,7 +74,7 @@ _What the TRE operator does to acquire, enrich, share, store, publish and enhanc
 
 ## Financial management
 
-_All activities aimed at the efficient and effective management of money (funds) in such a manner as to allow the TRE operator to accomplish its objectives._
+All activities aimed at the efficient and effective management of money (funds) in such a manner as to allow the TRE operator to accomplish its objectives.
 
 ```{list-table}
 :header-rows: 1
@@ -100,7 +100,7 @@ _All activities aimed at the efficient and effective management of money (funds)
 
 ## Procurement
 
-_What the TRE operator does to ensure the effective sourcing, purchasing and supply of the goods and services that enable them to operate._
+What the TRE operator does to ensure the effective sourcing, purchasing and supply of the goods and services that enable them to operate.
 
 ```{list-table}
 :header-rows: 1
@@ -116,7 +116,7 @@ _What the TRE operator does to ensure the effective sourcing, purchasing and sup
 
 ## IT Service management
 
-_The implementation and management of quality IT services that meet the needs of the TRE operator._
+The implementation and management of quality IT services that meet the needs of the TRE operator.
 
 ```{list-table}
 :header-rows: 1
@@ -133,9 +133,9 @@ _The implementation and management of quality IT services that meet the needs of
 
 ## Relationship management
 
-_All activities aimed at ensuring a continuous level of engagement is maintained between the TRE operator and its customers, stakeholders & other interested parties._
+All activities aimed at ensuring a continuous level of engagement is maintained between the TRE operator and its customers, stakeholders and other interested parties.
 
-### Stakeholder relationships
+**Stakeholder relationships:** Activities aimed at engaging with TRE stakeholders.
 
 ```{list-table}
 :header-rows: 1
@@ -151,7 +151,7 @@ _All activities aimed at ensuring a continuous level of engagement is maintained
 
 ## Public Involvement and Engagement
 
-_How the TRE operator involves the public in its processes and work in order to maintain trust in its operations._
+How the TRE operator involves the public in its processes and work in order to maintain trust in its operations.
 
 <!--
 Rationale:
@@ -184,13 +184,11 @@ Rationale:
 
 ## Legal services
 
-_The ability of the TRE operator to access suitable and timely legal advice._
+The ability of the TRE operator to access suitable and timely legal advice.
 
 <!-- Specific requirements? _e.g._ Article 32 of the GDPR requires organisations to regularly test and evaluate the effectiveness of the technical and organisational measures employed to protect personal data, and penetration testing is an effective way of assessing your technical defences. -->
 
-### Legal advisory
-
-_Ability of the TRE operator to provide suitable and timely legal advice._
+**Legal advisory:** The ability of the TRE operator to provide suitable and timely legal advice.
 
 ```{list-table}
 :header-rows: 1
@@ -205,9 +203,7 @@ _Ability of the TRE operator to provide suitable and timely legal advice._
   - Recommended
 ```
 
-### Data protection
-
-_Ability to ensure data is used fairly, lawfully and transparently; for specified, explicit purposes; and in a way that is adequate, relevant and limited to only what is necessary._
+**Data protection:** Ability to ensure data is used fairly, lawfully and transparently; for specified, explicit purposes; and in a way that is adequate, relevant and limited to only what is necessary.
 
 ```{list-table}
 :header-rows: 1
@@ -221,9 +217,7 @@ _Ability to ensure data is used fairly, lawfully and transparently; for specifie
   - Recommended
 ```
 
-### Contract management
-
-_What the organisation does to ensure that all contracts are effectively managed within required frameworks._
+**Contract management:** What the organisation does to ensure that all contracts are effectively managed within required frameworks.
 
 ```{list-table}
 :header-rows: 1

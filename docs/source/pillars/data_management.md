@@ -167,9 +167,7 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 (vulnerability-management)=
 
-### Vulnerability management
-
-_The ability of the TRE operator to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems._
+**Vulnerability Management:** The ability of the TRE operator to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
 
 ```{list-table}
 :header-rows: 1
@@ -197,9 +195,7 @@ _The ability of the TRE operator to identify, assess, report on, manage and reme
 
 (security-testing)=
 
-### Security testing
-
-_Security testing enables the TRE operator to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security._
+**Security testing:** Security testing enables the TRE operator to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
 
 ```{list-table}
 :header-rows: 1
@@ -228,9 +224,7 @@ _Security testing enables the TRE operator to gain assurance in the security of 
 
 (encryption)=
 
-### Encryption
-
-_The ability of the TRE operator to deploy and manage encryption to protect information assets, including data for TRE research projects._
+**Encryption:** The ability of the TRE operator to deploy and manage encryption to protect information assets, including data for TRE research projects.
 
 Here we define 'project' data as the data brought in for work which is very likely to be sensitive and 'user' data, as the working files of a project which might hold copies of all or part of the project data or otherwise reveal sensitive data (_e.g._ through hard coded row/column names).
 
@@ -264,9 +258,7 @@ Here we define 'project' data as the data brought in for work which is very like
 
 (physical-security)=
 
-### Physical security
-
-_The ability of the TRE operator to manage and protect physical assets from unauthorised access, damage or destruction._
+**Physical security:** The ability of the TRE operator to manage and protect physical assets from unauthorised access, damage or destruction.
 
 Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 
@@ -289,9 +281,9 @@ Physical security controls can provide TREs using highly sensitive data an extra
 
 (security-level)=
 
-## Security levels and tiering
+## Security Levels and Tiering
 
-_The ability of the TRE deployment software (or active TRE) to configure security controls appropriate to the sensitivity of the data used in a project or workspace._
+The ability of the TRE deployment software (or active TRE) to configure security controls appropriate to the sensitivity of the data used in a project or workspace.
 
 Security controls can add friction to the user experience and hinder work.
 A one-size-fits-all approach forces all projects to use the strictest security configuration even when that is unnecessary.
