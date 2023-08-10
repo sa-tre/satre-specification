@@ -46,18 +46,19 @@ SATRE Specification Architecture
 ```
 
 {ref}`Architectural Principles <satre_principles>`
-: The {ref}`principles <def_architectural_principle>` that all TRE operators looking to use the specification should hold themselves accountable to.
+: The {term}`principles <architectural principle>` that all TRE operators looking to use the specification should hold themselves accountable to.
 
 {ref}`Specification Pillars <satre_pillars>`
 : The broad areas of TRE provisioning the specification covers.
 
-TRE Capabilities
-: The capabilities within these pillars that TRE operators can measure themselves against.
+Each pillar is broken down into several {term}`TRE Capabilities <capability>`.
 
-TRE Capability Components
-: The statements concerning processes, controls, practices and applications that make up a capability, together with an importance label.
+Each capability consists of one or more {term}`TRE Capability Components <component>`.
 
-In addition, we also describe some {ref}`roles <satre_roles>` that are necessary for the operation and use of a TRE.
+Together, these provide a framework that TRE operators can measure themselves against.
+
+{ref}`Roles <satre_roles>`
+: In addition, we also describe some {term}`roles <role>` that are necessary for the operation and use of a TRE.
 
 (satre_principles)=
 
