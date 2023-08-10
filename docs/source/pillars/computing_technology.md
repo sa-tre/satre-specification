@@ -23,7 +23,9 @@ The required compute resources will vary according to the scale of data and comp
 
 The ability of the TRE operator to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
 
-**End user computing interfaces:** This group of {term}`application components <application component>` is a collection of systems and software that allows people to interact with the TRE.
+### End user computing interfaces
+
+This group of {term}`application components <application component>` is a collection of systems and software that allows people to interact with the TRE.
 This may include desktop, command-line and/or code-submission interfaces.
 
 ```{list-table}
@@ -51,7 +53,9 @@ This may include desktop, command-line and/or code-submission interfaces.
   - Optional
 ```
 
-**Software tools:** This {term}`application component <application component>` is the tools used by researchers inside a TRE, such as programming languages, IDEs and desktop applications.
+### Software tools
+
+This {term}`application component <application component>` is the tools used by researchers inside a TRE, such as programming languages, IDEs and desktop applications.
 
 ```{list-table}
 :header-rows: 1
@@ -93,7 +97,9 @@ This may include desktop, command-line and/or code-submission interfaces.
   - Mandatory
 ```
 
-**Code Version Control System:** This {term}`application component <application component>` is the systems and tools providing version control and collaboration features for code developed inside the TRE.
+### Code Version Control System
+
+This {term}`application component <application component>` is the systems and tools providing version control and collaboration features for code developed inside the TRE.
 
 ```{list-table}
 :header-rows: 1
@@ -110,7 +116,9 @@ This may include desktop, command-line and/or code-submission interfaces.
   - Recommended
 ```
 
-**Artefact Management Application:** This {term}`application component <application component>` is a service that manages and organises third-party software artefacts such as packaged code libraries or containers.
+### Artefact Management Application
+
+This {term}`application component <application component>` is a service that manages and organises third-party software artefacts such as packaged code libraries or containers.
 
 ```{list-table}
 :header-rows: 1
@@ -131,7 +139,9 @@ This may include desktop, command-line and/or code-submission interfaces.
   - Optional
 ```
 
-**Advanced or Cluster Computing System:** This {term}`application component <application component>` involves the use of advanced, powerful computer resources to solve complex problems and process large amounts of data, possibly using specialised hardware.
+### Advanced or Cluster Computing System
+
+This {term}`application component <application component>` involves the use of advanced, powerful computer resources to solve complex problems and process large amounts of data, possibly using specialised hardware.
 
 ```{list-table}
 :header-rows: 1
@@ -174,7 +184,9 @@ This may include desktop, command-line and/or code-submission interfaces.
 
 The ability of the TRE operator to deploy, change or remove physical or virtual infrastructure.
 
-**Infrastructure Deployment Process:** This {term}`business process <business process>` involves setting up and configuring infrastructure components and resources to support applications or services.
+### Infrastructure Deployment Process
+
+This {term}`business process <business process>` involves setting up and configuring infrastructure components and resources to support applications or services.
 This requires development, installation, configuration, and validation.
 
 ```{list-table}
@@ -209,7 +221,9 @@ This requires development, installation, configuration, and validation.
   - Recommended
 ```
 
-**Infrastructure Removal Process:** This {term}`business process <business process>` involves retiring or removing infrastructure assets that are no longer needed or outdated, ensuring proper data handling and disposal.
+### Infrastructure Removal Process
+
+This {term}`business process <business process>` involves retiring or removing infrastructure assets that are no longer needed or outdated, ensuring proper data handling and disposal.
 
 ```{list-table}
 :header-rows: 1
@@ -225,7 +239,9 @@ This requires development, installation, configuration, and validation.
   - Mandatory
 ```
 
-**Availability Management Process:** This {term}`business process <business process>` involves ensuring all IT infrastructure meets the agreed levels of availability.
+### Availability Management Process
+
+This {term}`business process <business process>` involves ensuring all IT infrastructure meets the agreed levels of availability.
 
 ```{list-table}
 :header-rows: 1
@@ -246,7 +262,9 @@ This requires development, installation, configuration, and validation.
   - Recommended
 ```
 
-**Network Management Application:** This {term}`application component <application component>` is an application used to manage network infrastructure, ensuring proper functioning, security, and performance.
+### Network Management Application
+
+This {term}`application component <application component>` is an application used to manage network infrastructure, ensuring proper functioning, security, and performance.
 
 ```{list-table}
 :header-rows: 1
@@ -275,7 +293,9 @@ This requires development, installation, configuration, and validation.
   - Mandatory
 ```
 
-**Infrastructure analytics application:** This {term}`application component <application component>` is an application which enables the TRE operator to record and analyse data about the usage of the TRE.
+### Infrastructure analytics application
+
+This {term}`application component <application component>` is an application which enables the TRE operator to record and analyse data about the usage of the TRE.
 
 ```{list-table}
 :header-rows: 1
@@ -301,7 +321,9 @@ This requires development, installation, configuration, and validation.
 
 ## Capacity management
 
-**Capacity Planning Process:** This {term}`business process <business process>` involves forecasting and determining the resources required to meet the demands of an application or system, ensuring that adequate resources are available when needed.
+### Capacity Planning Process
+
+This {term}`business process <business process>` involves forecasting and determining the resources required to meet the demands of an application or system, ensuring that adequate resources are available when needed.
 
 ```{list-table}
 :header-rows: 1
@@ -327,7 +349,9 @@ This requires development, installation, configuration, and validation.
   - Mandatory
 ```
 
-**Billing Process:** This {term}`business process <business process>` involves generating and managing invoices and bills for projects within the TRE.
+### Billing Process
+
+This {term}`business process <business process>` involves generating and managing invoices and bills for projects within the TRE.
 It involves calculation, issuance, and recording of payments and receipts.
 
 ```{list-table}
@@ -347,7 +371,9 @@ It involves calculation, issuance, and recording of payments and receipts.
 
 ## Configuration management
 
-**Configuration Management Process:** This {term}`business process <business process>` involves the TRE operator identifying, maintaining, and verifying information on IT assets and configurations in the TRE organisation.
+### Configuration Management Process
+
+This {term}`business process <business process>` involves the TRE operator identifying, maintaining, and verifying information on IT assets and configurations in the TRE organisation.
 
 ```{list-table}
 :header-rows: 1

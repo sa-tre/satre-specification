@@ -154,7 +154,9 @@ The implementation and management of quality IT services that meet the needs of 
 
 All activities aimed at ensuring a continuous level of engagement is maintained between the TRE operator and its customers, stakeholders and other interested parties.
 
-**Stakeholder relationships:** Activities aimed at engaging with TRE stakeholders.
+### Stakeholder relationships
+
+Activities aimed at engaging with TRE stakeholders.
 
 ```{list-table}
 :header-rows: 1
@@ -213,7 +215,9 @@ The ability of the TRE operator to access suitable and timely legal advice.
 
 <!-- Specific requirements? _e.g._ Article 32 of the GDPR requires organisations to regularly test and evaluate the effectiveness of the technical and organisational measures employed to protect personal data, and penetration testing is an effective way of assessing your technical defences. -->
 
-**Legal advisory:** The ability of the TRE operator to provide suitable and timely legal advice.
+### Legal advisory
+
+The ability of the TRE operator to provide suitable and timely legal advice.
 
 ```{list-table}
 :header-rows: 1
@@ -230,7 +234,9 @@ The ability of the TRE operator to access suitable and timely legal advice.
   - Recommended
 ```
 
-**Data protection:** Ability to ensure data is used fairly, lawfully and transparently; for specified, explicit purposes; and in a way that is adequate, relevant and limited to only what is necessary.
+### Data protection
+
+Ability to ensure data is used fairly, lawfully and transparently; for specified, explicit purposes; and in a way that is adequate, relevant and limited to only what is necessary.
 
 ```{list-table}
 :header-rows: 1
@@ -246,7 +252,9 @@ The ability of the TRE operator to access suitable and timely legal advice.
   - Recommended
 ```
 
-**Contract management:** What the organisation does to ensure that all contracts are effectively managed within required frameworks.
+### Contract management
+
+What the organisation does to ensure that all contracts are effectively managed within required frameworks.
 
 ```{list-table}
 :header-rows: 1

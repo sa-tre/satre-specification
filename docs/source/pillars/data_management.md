@@ -15,7 +15,7 @@ SATRE Pillars Capability Map
 
 ## Data lifecycle management
 
-_The ability of the TRE operator to manage how and where data is stored, how it moves, changes and is removed._
+The ability of the TRE operator to manage how and where data is stored, how it moves, changes and is removed.
 
 ```{list-table}
 :header-rows: 1
@@ -83,7 +83,7 @@ _The ability of the TRE operator to manage how and where data is stored, how it 
 
 ## Identity and access management
 
-_The ability of the TRE operator to ensure the right people (identities) can only access the tools and data they need._
+The ability of the TRE operator to ensure the right people (identities) can only access the tools and data they need.
 
 ```{list-table}
 :header-rows: 1
@@ -127,7 +127,7 @@ _The ability of the TRE operator to ensure the right people (identities) can onl
 
 ## Output management
 
-_The ability of the TRE operator to ensure outputs are safely published and shared._
+The ability of the TRE operator to ensure outputs are safely published and shared.
 
 ```{list-table}
 :header-rows: 1
@@ -155,7 +155,7 @@ _The ability of the TRE operator to ensure outputs are safely published and shar
 
 ## Information search and discovery
 
-_The ability to query and browse the data within an environment at various levels of abstraction._
+The ability to query and browse the data within an environment at various levels of abstraction.
 
 ```{list-table}
 :header-rows: 1
@@ -176,7 +176,7 @@ _The ability to query and browse the data within an environment at various level
 
 ## Information security
 
-_This capability relates to the ability of the TRE operator to protect against the unauthorised use of information, especially electronic data._
+The ability of the TRE operator to protect against the unauthorised use of information, especially electronic data.
 
 Measures taken to ensure information security can be further categorised into:
 
@@ -190,7 +190,9 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 (vulnerability-management)=
 
-**Vulnerability Management:** The ability of the TRE operator to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
+### Vulnerability Management
+
+The ability of the TRE operator to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
 
 ```{list-table}
 :header-rows: 1
@@ -223,7 +225,9 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 (security-testing)=
 
-**Security testing:** Security testing enables the TRE operator to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
+### Security testing
+
+Security testing enables the TRE operator to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
 
 ```{list-table}
 :header-rows: 1
@@ -257,7 +261,9 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 (encryption)=
 
-**Encryption:** The ability of the TRE operator to deploy and manage encryption to protect information assets, including data for TRE research projects.
+### Encryption
+
+The ability of the TRE operator to deploy and manage encryption to protect information assets, including data for TRE research projects.
 
 Here we define 'project' data as the data brought in for work which is very likely to be sensitive and 'user' data, as the working files of a project which might hold copies of all or part of the project data or otherwise reveal sensitive data (_e.g._ through hard coded row/column names).
 
@@ -297,7 +303,9 @@ Here we define 'project' data as the data brought in for work which is very like
 
 (physical-security)=
 
-**Physical security:** The ability of the TRE operator to manage and protect physical assets from unauthorised access, damage or destruction.
+### Physical security
+
+The ability of the TRE operator to manage and protect physical assets from unauthorised access, damage or destruction.
 
 Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 
