@@ -177,9 +177,9 @@ This {term}`business process <business process>` involves a systematic approach 
   - Importance
 * - 1.2.8
   - You must track and maintain any physical assets used by your TRE.
-  - All physical assets should be maintained and covered by warranty if applicable
+  - All physical assets should be maintained and covered by warranty if applicable.
     At the end of their lifetime, assets should be securely disposed of in such a way that data cannot be recovered from them.
-  - Mandatory (where physical assets are in scope)
+  - Mandatory
 ```
 
 ### Issue Management Process
