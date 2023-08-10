@@ -46,18 +46,19 @@ SATRE Specification Architecture
 ```
 
 {ref}`Architectural Principles <satre_principles>`
-: The {ref}`principles <def_architectural_principle>` that all TRE operators looking to use the specification should hold themselves accountable to.
+: The {term}`principles <architectural principle>` that all TRE operators looking to use the specification should hold themselves accountable to.
 
 {ref}`Specification Pillars <satre_pillars>`
 : The broad areas of TRE provisioning the specification covers.
 
-TRE Capabilities
-: The capabilities within these pillars that TRE operators can measure themselves against.
+Each pillar is broken down into several {term}`TRE Capabilities <capability>`.
 
-TRE Capability Components
-: The statements concerning processes, controls, practices and applications that make up a capability, together with an importance label.
+Each capability consists of one or more {term}`TRE Capability Components <component>`.
 
-In addition, we also describe some {ref}`roles <satre_roles>` that are necessary for the operation and use of a TRE.
+Together, these provide a framework that TRE operators can measure themselves against.
+
+{ref}`Roles <satre_roles>`
+: In addition, we also describe some {term}`roles <role>` that are necessary for the operation and use of a TRE.
 
 (satre_principles)=
 
@@ -66,6 +67,7 @@ In addition, we also describe some {ref}`roles <satre_roles>` that are necessary
 The SATRE specification has been developed based on the following principles:
 
 - TREs should be as easy as possible for end-users to use (_e.g._ researchers) whilst still remaining secure.
+- TREs should take accessibility for all users, including those with disabilities, into account.
 - TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
 - TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
 - The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
