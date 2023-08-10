@@ -10,7 +10,7 @@ roles.md
 
 ```{toctree}
 :hidden:
-:numbered:
+:numbered: 2
 :caption: Specification
 
 pillars/information_governance.md
