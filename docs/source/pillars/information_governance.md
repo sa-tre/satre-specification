@@ -17,7 +17,7 @@ For example, some requirements will arise from national legislation such as GDPR
 
 ## Governance Requirements
 
-**Requirements Gathering and Monitoring:** The process of collecting, documenting, and managing the functional and non-functional requirements for the TRE based on the TRE organisation's goals and data assets.
+**Requirements Gathering and Monitoring:** This {term}`business process <business process>` involves collecting, documenting, and managing the functional and non-functional requirements for the TRE based on the TRE organisation's goals and data assets.
 
 ```{list-table}
 :header-rows: 1
@@ -33,7 +33,7 @@ For example, some requirements will arise from national legislation such as GDPR
   - Mandatory
 ```
 
-**Controls:** Measures, safeguards, or mechanisms implemented to manage or mitigate risks and ensure the integrity, confidentiality, availability, and reliability of systems, processes, or data.
+**Controls:** This {term}`business process <business process>` involves measures, safeguards, or mechanisms implemented to manage or mitigate risks and ensure the integrity, confidentiality, availability, and reliability of systems, processes, or data.
 
 ```{list-table}
 :header-rows: 1
@@ -47,7 +47,7 @@ For example, some requirements will arise from national legislation such as GDPR
   - Mandatory
 ```
 
-**Resource Allocation:** The process of assigning, distributing, and managing resources (such as personnel, finances, equipment, or time) within the TRE organisation to meet objectives and priorities effectively.
+**Resource Allocation Process:** This {term}`business process <business process>` involves assigning, distributing, and managing resources (such as personnel, finances, equipment, or time) within the TRE organisation to meet objectives and priorities effectively.
 
 ```{list-table}
 :header-rows: 1
@@ -65,11 +65,11 @@ For example, some requirements will arise from national legislation such as GDPR
 
 What the organisation does to measure and control quality of processes, documentation and outputs.
 
-**Document and SOP Management:** Creating, organising, updating, and controlling documents and Standard Operating Procedures (SOPs) within the TRE organisation.
+**Document and SOP Management Process:** This {term}`business process <business process>` involves creating, organising, updating, and controlling documents and Standard Operating Procedures (SOPs) within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-ig-quality-management
+:name: tab-ig-document-management
 
 * - Statement
   - Guidance
@@ -82,11 +82,11 @@ What the organisation does to measure and control quality of processes, document
   - Mandatory
 ```
 
-**Quality Management Reporting:** The generation and dissemination of reports or dashboards that provide insights and metrics on the performance and effectiveness of quality management processes and activities.
+**Quality Management Process:** This {term}`business process <business process>` involves the generation and dissemination of reports or dashboards that provide insights and metrics on the performance and effectiveness of quality management processes and activities.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-ig-quality-management-reporting
+:name: tab-ig-quality-management
 
 * - Statement
   - Guidance
@@ -96,7 +96,7 @@ What the organisation does to measure and control quality of processes, document
   - Mandatory
 ```
 
-**Internal Audit:** An independent evaluation process within the TRE organisation that assesses and improves its internal controls, risk management, and governance.
+**Internal Audit Process:** This {term}`business process <business process>` involves an independent evaluation process within the TRE organisation that assesses and improves its internal controls, risk management, and governance.
 
 ```{list-table}
 :header-rows: 1
@@ -113,7 +113,7 @@ What the organisation does to measure and control quality of processes, document
   - Mandatory
 ```
 
-**Supplier Management and Monitoring:** A structured approach to managing and monitoring relationships with external suppliers, vendors and contractors, including selection, contract management and compliance oversight.
+**Supplier Management and Monitoring Process:** This {term}`business process <business process>` involves a structured approach to managing and monitoring relationships with external suppliers, vendors and contractors, including selection, contract management and compliance oversight.
 
 ```{list-table}
 :header-rows: 1
@@ -132,7 +132,7 @@ What the organisation does to measure and control quality of processes, document
   - Mandatory
 ```
 
-**Asset Management Process:** A systematic approach to acquiring, operating, maintaining, and disposing of assets within an organization, aimed at maximizing their value and minimizing risks.
+**Asset Management Process:** This {term}`business process <business process>` involves a systematic approach to acquiring, operating, maintaining, and disposing of assets within an organization, aimed at maximizing their value and minimizing risks.
 
 ```{list-table}
 :header-rows: 1
@@ -147,7 +147,7 @@ What the organisation does to measure and control quality of processes, document
   - Mandatory (where physical assets are in scope)
 ```
 
-**Issue Management Process:** A systematic approach to identifying, tracking, resolving, and managing issues or problems that arise within a TRE organisation, aiming to minimize their impact and ensure timely resolution.
+**Issue Management Process:** This {term}`business process <business process>` involves a systematic approach to identifying, tracking, resolving, and managing issues or problems that arise within a TRE organisation, aiming to minimize their impact and ensure timely resolution.
 
 ```{list-table}
 :header-rows: 1
@@ -164,7 +164,7 @@ What the organisation does to measure and control quality of processes, document
   - Mandatory
 ```
 
-**Quality Management Data:** Data, including training records and configuration data, collected and used to monitor, evaluate, and improve the quality of processes, or services within the TRE organisation.
+**Quality Management Data:** This {term}`data object <data object>` consists of data, including training records and configuration data, collected and used to monitor, evaluate, and improve the quality of processes, or services within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -179,17 +179,17 @@ What the organisation does to measure and control quality of processes, document
   - Recommended
 ```
 
-**Electronic Quality Management System Application:** A software application or platform used to manage and automate quality management processes, including document control, corrective actions, audits, and performance tracking.
+**Quality Management System Application:** This {term}`application component <application component>` is a software application or platform used to manage and automate quality management processes, including document control, corrective actions, audits, and performance tracking.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-ig-electronic-quality-management-system-application
+:name: tab-ig-quality-management-system-application
 
 * - Statement
   - Guidance
   - Importance
-* - You could use an eQMS (Electronic Quality Management System) to standardise and automate quality management tasks and workflows, and to generate quality data and reports automatically.
-  - A basis eQMS could be a set of spreadsheets or documents held in a repository which are manually maintained.
+* - You could use a QMS (Quality Management System) to standardise and automate quality management tasks and workflows, and to generate quality data and reports automatically.
+  - A basis QMS could be a set of spreadsheets or documents held in a repository which are manually maintained.
     More mature applications will provide workflows and generate quality data through manual and automated actions.
   - Optional
 ```
@@ -198,7 +198,7 @@ What the organisation does to measure and control quality of processes, document
 
 What the organisation does to ensure information risk is measured and managed to an acceptable level.
 
-**Risk Assessment:** The systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
+**Risk Assessment Process:** This {term}`business process <business process>` involves the systematic evaluation and analysis of potential risks, threats, or vulnerabilities, including their likelihood, potential impact, and the effectiveness of existing controls or mitigation measures.
 
 ```{list-table}
 :header-rows: 1
@@ -215,7 +215,7 @@ What the organisation does to ensure information risk is measured and managed to
   - Mandatory
 ```
 
-**Risk Treatment:** The selection and implementation of strategies, controls, or measures to manage or mitigate identified risks, such as risk avoidance, risk transfer, risk reduction, or risk acceptance.
+**Risk Treatment Process:** This {term}`business process <business process>` involves the selection and implementation of strategies, controls, or measures to manage or mitigate identified risks, such as risk avoidance, risk transfer, risk reduction, or risk acceptance.
 
 ```{list-table}
 :header-rows: 1
@@ -229,7 +229,7 @@ What the organisation does to ensure information risk is measured and managed to
   - Mandatory
 ```
 
-**Risk Ownership:** The assignment of responsibility and accountability to individuals or entities for managing and mitigating specific risks within the TRE organisation.
+**Risk Ownership Process:** This {term}`business process <business process>` involves the assignment of responsibility and accountability to individuals or entities for managing and mitigating specific risks within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -251,7 +251,7 @@ What the organisation does to ensure information risk is measured and managed to
 
 What the organisation does to create and maintain research projects and work packages within the TRE.
 
-**Study Onboarding:** The process of onboarding or initiating a research study, including setting up necessary infrastructure, obtaining approvals, and defining protocols or methodologies.
+**Study Onboarding Process:** This {term}`business process <business process>` involves onboarding or initiating a research study, including setting up necessary infrastructure, obtaining approvals, and defining protocols or methodologies.
 
 ```{list-table}
 :header-rows: 1
@@ -265,7 +265,7 @@ What the organisation does to create and maintain research projects and work pac
   - Mandatory
 ```
 
-**Compliance Checking:** The act of verifying and ensuring adherence to applicable laws, regulations, standards, or internal policies within the TRE organisation.
+**Compliance Checking Process:** This {term}`business process <business process>` involves verifying and ensuring adherence to applicable laws, regulations, standards, or internal policies within the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -283,7 +283,7 @@ What the organisation does to create and maintain research projects and work pac
   - Mandatory
 ```
 
-**Study Closure:** The formal conclusion of a research study or project, including final data analysis, reporting, documentation, and archiving.
+**Study Closure Process:** This {term}`business process <business process>` involves the formal conclusion of a research study or project, including final data analysis, reporting, documentation, and archiving.
 
 ```{list-table}
 :header-rows: 1
@@ -297,7 +297,7 @@ What the organisation does to create and maintain research projects and work pac
   - Mandatory
 ```
 
-**Study Management Portal:** An online platform that provides centralised access to manage research studies including onboarding studies, control of access and administration of compliance tasks.
+**Study Management Portal:** This {term}`application component <application component>` is an online platform that provides centralised access to manage research studies including onboarding studies, control of access and administration of compliance tasks.
 
 ```{list-table}
 :header-rows: 1
@@ -312,7 +312,7 @@ What the organisation does to create and maintain research projects and work pac
   - Optional
 ```
 
-**Data Asset Register:** A database or other electronic record that documents and manages information about the TRE organisation's data assets, including their characteristics, ownership, usage, and other relevant details.
+**Data Asset Register:** This {term}`data object <data object>` is a database or other electronic record that documents and manages information about the TRE organisation's data assets, including their characteristics, ownership, usage, and other relevant details.
 
 ```{list-table}
 :header-rows: 1
@@ -328,7 +328,7 @@ What the organisation does to create and maintain research projects and work pac
   - Mandatory
 ```
 
-**Study Register:** A centralised record or database that tracks and manages information about research studies and projects.
+**Study Register:** This {term}`data object <data object>` is a centralised record or database that tracks and manages information about research studies and projects.
 
 ```{list-table}
 :header-rows: 1
@@ -346,7 +346,7 @@ What the organisation does to create and maintain research projects and work pac
 
 Ability to ensure that people with access to data are correctly identified and they are suitably qualified.
 
-**Identity Verification:** The process of confirming or authenticating the identity of individuals or entities, often through the verification of personal information, credentials, or biometric data.
+**Identity Verification Process:** This {term}`business process <business process>` involves confirming or authenticating the identity of individuals or entities, often through the verification of personal information, credentials, or biometric data.
 
 ```{list-table}
 :header-rows: 1
@@ -360,7 +360,7 @@ Ability to ensure that people with access to data are correctly identified and t
   - Mandatory
 ```
 
-**User Onboarding:** The process of introducing and integrating researchers and data consumers onto a TRE's systems, processes, including training, access provisioning, and orientation.
+**User Onboarding Process:** This {term}`business process <business process>` involves introducing and integrating researchers and data consumers onto a TRE's systems, processes, including training, access provisioning, and orientation.
 
 ```{list-table}
 :header-rows: 1
@@ -374,7 +374,7 @@ Ability to ensure that people with access to data are correctly identified and t
   - Mandatory
 ```
 
-**Identity and Access Management Services:** Govern and control user identities, access privileges, authentication, and authorization within an organisation.
+**Identity and Access Management Services:** This {term}`application component <application component>` is a system to govern and control user identities, access privileges, authentication, and authorization within an organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -391,7 +391,7 @@ Ability to ensure that people with access to data are correctly identified and t
   - Mandatory
 ```
 
-**Authentication Application:** A software system that verifies and validates the identities of users or entities accessing a system through multifactor authentication.
+**Authentication Application:** This {term}`application component <application component>` is a software system that verifies and validates the identities of users or entities accessing a system through multifactor authentication.
 
 ```{list-table}
 :header-rows: 1
@@ -405,7 +405,7 @@ Ability to ensure that people with access to data are correctly identified and t
   - Mandatory
 ```
 
-**User Identity Attributes:** Characteristics or attributes associated with a user's identity, such as username, email address, role, permissions, or affiliations.
+**User Identity Attributes:** This {term}`data object <data object>` consists of characteristics or attributes associated with a user's identity, such as username, email address, role, permissions, or affiliations.
 
 ```{list-table}
 :header-rows: 1
@@ -424,7 +424,7 @@ Ability to ensure that people with access to data are correctly identified and t
 
 Ability to deliver, track and maintain adequate training levels to ensure competence of all people within the TRE organisation.
 
-**Curriculum Creation and Management:** The process of designing, developing, and managing educational curricula, courses through training needs analysis for required competency.
+**Curriculum Creation and Management Process:** This {term}`business process <business process>` involves designing, developing, and managing educational curricula, courses through training needs analysis for required competency.
 
 ```{list-table}
 :header-rows: 1
@@ -449,7 +449,7 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
   - Mandatory
 ```
 
-**Certification Management:** The process of managing and overseeing certifications or qualifications held by individuals or entities, including tracking expiry dates, renewals, and compliance requirements.
+**Certification Management Process:** This {term}`business process <business process>` involves managing and overseeing certifications or qualifications held by individuals or entities, including tracking expiry dates, renewals, and compliance requirements.
 
 ```{list-table}
 :header-rows: 1
@@ -466,7 +466,7 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
   - Recommended
 ```
 
-**Learning Management System:** A software platform or application that facilitates the administration, delivery, and tracking of educational or training programs, often including course materials, assessments, and learner progress tracking.
+**Learning Management System:** This {term}`application component <application component>` is a software platform or application that facilitates the administration, delivery, and tracking of educational or training programs, often including course materials, assessments, and learner progress tracking.
 
 ```{list-table}
 :header-rows: 1
@@ -480,7 +480,7 @@ Ability to deliver, track and maintain adequate training levels to ensure compet
   - Optional
 ```
 
-**Courses Data:** Information or data associated with educational courses, including course materials and syllabi, assessments.
+**Courses Data:** This {term}`data object <data object>` consists of information or data associated with educational courses, including course materials and syllabi, assessments.
 
 ```{list-table}
 :header-rows: 1

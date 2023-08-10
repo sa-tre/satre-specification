@@ -23,9 +23,7 @@ The required compute resources will vary according to the scale of data and comp
 
 The ability of the TRE operator to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
 
-### End user computing interfaces
-
-Software or systems that allows people to interact with the TRE.
+**End user computing interfaces:** This group of {term}`application components <application component>` is a collection of systems and software that allows people to interact with the TRE.
 This may include desktop, command-line and/or code-submission interfaces.
 
 ```{list-table}
@@ -50,9 +48,7 @@ This may include desktop, command-line and/or code-submission interfaces.
   - Optional
 ```
 
-### Software tools
-
-The tools used by researchers inside a TRE, such as programming languages, IDEs and desktop applications.
+**Software tools:** This {term}`application component <application component>` is the tools used by researchers inside a TRE, such as programming languages, IDEs and desktop applications.
 
 ```{list-table}
 :header-rows: 1
@@ -87,9 +83,7 @@ The tools used by researchers inside a TRE, such as programming languages, IDEs 
   - Mandatory
 ```
 
-### Code Version Control System
-
-Systems and tools providing version control and collaboration features for code developed inside the TRE.
+**Code Version Control System:** This {term}`application component <application component>` is the systems and tools providing version control and collaboration features for code developed inside the TRE.
 
 ```{list-table}
 :header-rows: 1
@@ -104,9 +98,7 @@ Systems and tools providing version control and collaboration features for code 
   - Recommended
 ```
 
-### Artefact management
-
-A service that manages and organises third-party software artefacts such as packaged code libraries or containers.
+**Artefact Management Application:** This {term}`application component <application component>` is a service that manages and organises third-party software artefacts such as packaged code libraries or containers.
 
 ```{list-table}
 :header-rows: 1
@@ -124,9 +116,7 @@ A service that manages and organises third-party software artefacts such as pack
   - Optional
 ```
 
-### Advanced or cluster computing
-
-Advanced, powerful computer resources to solve complex problems and process large amounts of data, possibly using specialised hardware.
+**Advanced or Cluster Computing System:** This {term}`application component <application component>` involves the use of advanced, powerful computer resources to solve complex problems and process large amounts of data, possibly using specialised hardware.
 
 ```{list-table}
 :header-rows: 1
@@ -163,10 +153,8 @@ Advanced, powerful computer resources to solve complex problems and process larg
 
 The ability of the TRE operator to deploy, change or remove physical or virtual infrastructure.
 
-### Infrastructure deployment
-
-The process of setting up and configuring infrastructure components and resources to support applications or services.
-This involves development, installation, configuration, and validation.
+**Infrastructure Deployment Process:** This {term}`business process <business process>` involves setting up and configuring infrastructure components and resources to support applications or services.
+This requires development, installation, configuration, and validation.
 
 ```{list-table}
 :header-rows: 1
@@ -194,9 +182,7 @@ This involves development, installation, configuration, and validation.
   - Recommended
 ```
 
-### Infrastructure removal
-
-The process of retiring or removing infrastructure assets that are no longer needed or outdated, ensuring proper data handling and disposal.
+**Infrastructure Removal Process:** This {term}`business process <business process>` involves retiring or removing infrastructure assets that are no longer needed or outdated, ensuring proper data handling and disposal.
 
 ```{list-table}
 :header-rows: 1
@@ -210,9 +196,7 @@ The process of retiring or removing infrastructure assets that are no longer nee
   - Mandatory
 ```
 
-### Availability management
-
-The process of ensuring all IT infrastructure meets the agreed levels of availability.
+**Availability Management Process:** This {term}`business process <business process>` involves ensuring all IT infrastructure meets the agreed levels of availability.
 
 ```{list-table}
 :header-rows: 1
@@ -230,9 +214,7 @@ The process of ensuring all IT infrastructure meets the agreed levels of availab
   - Recommended
 ```
 
-### Network management
-
-An application used to manage network infrastructure, ensuring proper functioning, security, and performance.
+**Network Management Application:** This {term}`application component <application component>` is an application used to manage network infrastructure, ensuring proper functioning, security, and performance.
 
 ```{list-table}
 :header-rows: 1
@@ -256,9 +238,7 @@ An application used to manage network infrastructure, ensuring proper functionin
   - Mandatory
 ```
 
-### Infrastructure analytics
-
-The ability of the TRE operator to record and analyse data about the usage of the TRE.
+**Infrastructure analytics application:** This {term}`application component <application component>` is an application which enables the TRE operator to record and analyse data about the usage of the TRE.
 
 ```{list-table}
 :header-rows: 1
@@ -280,9 +260,7 @@ The ability of the TRE operator to record and analyse data about the usage of th
 
 ## Capacity management
 
-### Capacity planning
-
-The process of forecasting and determining the resources required to meet the demands of an application or system, ensuring that adequate resources are available when needed.
+**Capacity Planning Process:** This {term}`business process <business process>` involves forecasting and determining the resources required to meet the demands of an application or system, ensuring that adequate resources are available when needed.
 
 ```{list-table}
 :header-rows: 1
@@ -304,9 +282,7 @@ The process of forecasting and determining the resources required to meet the de
   - Mandatory
 ```
 
-### Billing
-
-The process of generating and managing invoices and bills for projects within the TRE.
+**Billing Process:** This {term}`business process <business process>` involves generating and managing invoices and bills for projects within the TRE.
 It involves calculation, issuance, and recording of payments and receipts.
 
 ```{list-table}
@@ -324,7 +300,7 @@ It involves calculation, issuance, and recording of payments and receipts.
 
 ### Configuration management
 
-The ability of the TRE operator to identify, maintain, and verify information on IT assets and configurations in the TRE operator.
+**Configuration Management Process:** This {term}`business process <business process>` involves the TRE operator identifying, maintaining, and verifying information on IT assets and configurations in the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
