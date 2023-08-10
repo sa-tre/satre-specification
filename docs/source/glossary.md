@@ -2,14 +2,12 @@
 
 ```{glossary}
 Actor
-    Definition of an actor
+    A person, organization, or system that has one or more roles that initiates or interacts with activities.
+    Example: _The SATRE architecture needs actors such as researchers and internal auditors._
 
 Application component
     An encapsulation of application functionality which is modular and replaceable.
-    For example: to perform work within a TRE a researcher might need access to a Desktop or command line interface application component.
-
-Application service
-    Definition of a application service
+    Example: _To perform work within a TRE a researcher might need access to a Desktop or command line interface application component._
 
 Architectural principle
     Fundamental guidelines that inform the design, decision making and implementation of a TRE.
@@ -17,17 +15,18 @@ Architectural principle
 
 Business process
     A set of actions which produce a specific desired outcome.
-    For example: to access the TRE a researcher needs to complete an onboarding business process.
+    Example: _to access the TRE a researcher needs to complete an onboarding business process._
 
 Capability
     An ability that a system possesses.
-    Capabilities are typically expressed in general and high-level terms and typically require a combination of organisation, people, processes, and technology to achieve.
+    Capabilities are typically expressed in general and high-level terms.
+    Achieving a capability typically requires a combination of organisation, people, processes, and technology.
 
 Capability decomposition
     A set of {term}`components <component>` that realise a capability.
     These components will vary depending on the nature of the capability.
-    Business-focused capabilities will be realised by business processes, roles and services.
-    Technology-focused capabilities will be realised by applications, application services and interfaces.
+    Business-focused capabilities will be realised by {term}`business processes <business process>`, {term}`roles <role>` and services.
+    Technology-focused capabilities will be realised by {term}`applications <application component>`, services and interfaces.
     In addition to the components realising the capability, a catalogue of standards, frameworks and controls linked to the capabilities will provide guidance on how to implement the capabilities safely.
 
 Component
@@ -39,7 +38,8 @@ Data Object
     This contains information on the data assets within the TRE, who owns them and other compliance information.
 
 Role
-    Definition of a role
+    A role is a set of connected behaviors, rights, obligations and norms within a TRE system.
+    Roles are occupied by individuals, who are called {term}`actors <actor>`.
 
 Specification pillar
     A specification pillar is a group of related capabilities.
