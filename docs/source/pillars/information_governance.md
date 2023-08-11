@@ -550,7 +550,8 @@ This {term}`business process <business process>` involves designing, developing,
   - Mandatory
 * - 1.6.2.
   - You must ensure that relevant training is available for all roles within the TRE organisation.
-  - Details of what training is needed will have been determined above.
+  - All TRE organisation members need to be enabled to complete all relevant training and keep their training current.
+    Details of what training is needed will have been determined above.
   - Mandatory
 * - 1.6.3.
   - You could have a training platform capable of delivering online training in a variety of formats.
