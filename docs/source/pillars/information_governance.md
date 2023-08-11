@@ -576,11 +576,11 @@ This {term}`business process <business process>` involves managing and overseein
   - Statement
   - Guidance
   - Importance
-* - 1.6.4.
+* - 1.6.5.
   - You must maintain accurate training records that are directly tied to the role and access levels within the TRE.
   - Training records should be tied to a user record and carefully maintained.
   - Mandatory
-* - 1.6.5.
+* - 1.6.6.
   - You should accept proof of relevant training certifications from third parties.
   - This should include competency testing and more simple recording of actions such as read and understood.
   - Recommended
@@ -598,7 +598,7 @@ This {term}`application component <application component>` is a software platfor
   - Statement
   - Guidance
   - Importance
-* - 1.6.6.
+* - 1.6.7.
   - You could implement an LMS to manage courses and deliver training as required.
   - Where possible an LMS should support a variety of course content and testing.
   - Optional
@@ -616,11 +616,11 @@ This {term}`data object <data object>` consists of information or data associate
   - Statement
   - Guidance
   - Importance
-* - 1.6.7.
+* - 1.6.8.
   - You could ensure course data is transferable between systems where possible.
   - Support for standard formats such as SCORM allows courses to be shared between providers.
   - Optional
-* - 1.6.8.
+* - 1.6.9.
   - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
   - Data providers and regulators may be required to audit historical records (EG. Clinical trials) it may be necessary to retain copies of superseded training along with versions of certifications within the training record.
   - Optional
