@@ -553,10 +553,6 @@ This {term}`business process <business process>` involves designing, developing,
   - All TRE organisation members need to be enabled to complete all relevant training and keep their training current.
     Details of what training is needed will have been determined above.
   - Mandatory
-* - 1.6.3.
-  - You could have a training platform capable of delivering online training in a variety of formats.
-  - This could include competency testing and more simple recording of actions such as read and understood.
-  - Optional
 * - 1.6.4.
   - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
@@ -599,6 +595,11 @@ This {term}`application component <application component>` is a software platfor
   - Statement
   - Guidance
   - Importance
+* - 1.6.3.
+  - You could have a training platform capable of delivering online training in a variety of formats.
+  - This could be a simple content delivery platform or a more comprehensive LMS platform.
+    It could also include a range of multimedia delivery formats, and accessible training modules for those with access requirements.
+  - Optional
 * - 1.6.7.
   - You could implement an LMS to manage courses and deliver training as required.
   - Where possible an LMS should support a variety of course content and testing.
