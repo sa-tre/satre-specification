@@ -544,18 +544,18 @@ This {term}`business process <business process>` involves designing, developing,
   - Statement
   - Guidance
   - Importance
-* - 1.5.7.
+* - 1.6.1.
   - You must ensure that relevant training is available for all roles within the TRE organisation.
   - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
     Specialised roles are likely to need more tailored training.
     Identification of these specialities should be done through a systematic training needs analysis.
     Specific training may also be required based on the data or data provider such as GCP.
   - Mandatory
-* - 1.5.8.
+* - 1.6.2.
   - You could have a training platform capable of delivering online training in a variety of formats.
   - This could include competency testing and more simple recording of actions such as read and understood.
   - Optional
-* - 1.5.9.
+* - 1.6.3.
   - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
     Electronic reminders for refresher training should be considered.
@@ -575,11 +575,11 @@ This {term}`business process <business process>` involves managing and overseein
   - Statement
   - Guidance
   - Importance
-* - 1.5.10.
+* - 1.6.4.
   - You must maintain accurate training records that are directly tied to the role and access levels within the TRE.
   - Training records should be tied to a user record and carefully maintained.
   - Mandatory
-* - 1.5.11.
+* - 1.6.5.
   - You should accept proof of relevant training certifications from third parties.
   - This should include competency testing and more simple recording of actions such as read and understood.
   - Recommended
@@ -597,7 +597,7 @@ This {term}`application component <application component>` is a software platfor
   - Statement
   - Guidance
   - Importance
-* - 1.5.12.
+* - 1.6.6.
   - You could implement an LMS to manage courses and deliver training as required.
   - Where possible an LMS should support a variety of course content and testing.
   - Optional
@@ -615,11 +615,11 @@ This {term}`data object <data object>` consists of information or data associate
   - Statement
   - Guidance
   - Importance
-* - 1.5.13.
+* - 1.6.7.
   - You could ensure course data is transferable between systems where possible.
   - Support for standard formats such as SCORM allows courses to be shared between providers.
   - Optional
-* - 1.5.14.
+* - 1.6.8.
   - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
   - Data providers and regulators may be required to audit historical records (EG. Clinical trials) it may be necessary to retain copies of superseded training along with versions of certifications within the training record.
   - Optional
