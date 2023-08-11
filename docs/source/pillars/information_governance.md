@@ -545,17 +545,18 @@ This {term}`business process <business process>` involves designing, developing,
   - Guidance
   - Importance
 * - 1.6.1.
-  - You must ensure that relevant training is available for all roles within the TRE organisation.
-  - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
-    Specialised roles are likely to need more tailored training.
-    Identification of these specialities should be done through a systematic training needs analysis.
-    Specific training may also be required based on the data or data provider such as GCP.
+  - You must determine what training is relevant for all roles within the TRE organisation.
+  - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators. Specialised roles are likely to need more tailored training. Identification of these specialities should be done through a systematic training needs analysis. Specific training may also be required based on the data or data provider such as GCP.
   - Mandatory
 * - 1.6.2.
+  - You must ensure that relevant training is available for all roles within the TRE organisation.
+  - Details of what training is needed will have been determined above.
+  - Mandatory
+* - 1.6.3.
   - You could have a training platform capable of delivering online training in a variety of formats.
   - This could include competency testing and more simple recording of actions such as read and understood.
   - Optional
-* - 1.6.3.
+* - 1.6.4.
   - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
     Electronic reminders for refresher training should be considered.
