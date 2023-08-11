@@ -447,7 +447,7 @@ This {term}`business process <business process>` involves confirming or authenti
   - Importance
 * - 1.5.1.
   - You must have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data.
-  - This may include multi-factor authentication (MFA), ID checks or email/phone verification.
+  - This may include identity checks (such as checking photographic identification or other validated credentials) or email/phone verification.
   - Mandatory
 ```
 
