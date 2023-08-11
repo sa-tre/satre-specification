@@ -30,16 +30,15 @@ This {term}`business process <business process>` involves collecting, documentin
   - Guidance
   - Importance
 * - 1.1.1.
-  - You must gather and monitor the information governance requirements needed to fulfil the legal and ethical standards to protect data subjects and deliver valuable research.
+  - You must gather and monitor the information governance requirements needed to fulfil any legal, regulatory and ethical standards.
   - Requirements will come from a variety of sources including legislation, contractual obligations and ethical standards.
-    Requirements must be monitored to ensure the TRE controls continue to match such requirements.
-    New types of analysis or sources of data being brought into the scope of the TRE should be monitored to ensure requirements are current.
+    Requirements must be monitored to ensure the TRE controls remain appropriate.
   - Mandatory
 ```
 
 ### Controls
 
-This {term}`business process <business process>` involves measures, safeguards, or mechanisms implemented to manage or mitigate risks and ensure the integrity, confidentiality, availability, and reliability of systems, processes, or data.
+This {term}`business process <business process>` involves measures, safeguards, or mechanisms implemented to manage or mitigate risks associated with your organisational requirements.
 
 ```{list-table}
 :header-rows: 1
@@ -57,7 +56,7 @@ This {term}`business process <business process>` involves measures, safeguards, 
 
 ### Resource Allocation Process
 
-This {term}`business process <business process>` involves assigning, distributing, and managing resources (such as personnel, finances, equipment, or time) within the TRE organisation to meet objectives and priorities effectively.
+This {term}`business process <business process>` involves assigning, distributing, and managing resources (such as personnel, finances, equipment, or time) within the TRE organisation to meet information governance requirements.
 
 ```{list-table}
 :header-rows: 1
@@ -68,8 +67,8 @@ This {term}`business process <business process>` involves assigning, distributin
   - Guidance
   - Importance
 * - 1.1.3.
-  - You must ensure there are adequate resources to provide assurance and meet information governance requirements.
-  - There should be adequate access to funding to implement and maintain the TRE which is under the direct control of the TRE organisation.
+  - You must ensure there are adequate resources to meet information governance requirements.
+  - Ensuring information governance controls are suitable and enforced requires an investment of funding and people appropriate to the size of the TRE.
   - Mandatory
 ```
 
@@ -90,12 +89,12 @@ This {term}`business process <business process>` involves creating, organising, 
   - Guidance
   - Importance
 * - 1.2.1.
-  - You must ensure all policies and standard operating procedures relevant to the TRE organisation are controlled.
-  - This may include measures like restricting edit access to relevant documents and/or recording acceptance of policies.
+  - You must ensure that changes to policies and standard operating procedures can only be made by trusted individuals.
+  - It is important to ensure that policies and SOPs are relevant, up-to-date and carefully controlled to maintain the integrity and security of your TRE organisation.
   - Mandatory
 * - 1.2.2.
-  - You must ensure all policies and standard operating procedures relevant to the TRE organisation are version controlled and have codified change processes.
-  - Version control includes recording dates of changes, person responsible for carrying out changes, and summary of changes.
+  - You must use versioning and a codified change procedure for all policies and standard operating procedures.
+  - This includes recording dates of changes, person responsible for carrying out changes, and summary of changes.
   - Mandatory
 ```
 
@@ -112,9 +111,9 @@ This {term}`business process <business process>` involves the generation and dis
   - Guidance
   - Importance
 * - 1.2.3.
-  - You must measure the performance of information governance within the TRE with regular reporting available to your TRE organisation's management team.
+  - You should measure the performance of information governance within the TRE with regular reporting available to your TRE organisation's management team.
   - This may include reports and dashboards showing security incidents, quality management deviations and audit findings.
-  - Mandatory
+  - Recommended
 ```
 
 ### Internal Audit Process
@@ -130,12 +129,12 @@ This {term}`business process <business process>` involves an independent evaluat
   - Guidance
   - Importance
 * - 1.2.4.
-  - You must audit your TRE organisation against relevant requirements and standards
-  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ etc., you must have processes in place to ensure you remain compliant.
+  - You must audit your TRE organisation against relevant requirements and standards.
+  - If you are publicly accredited against a standard, for instance ISO27001, DSPT, CE+ _etc._, you must have processes in place to ensure you remain compliant.
   - Mandatory
 * - 1.2.5.
   - You must report on and share outcomes of each audit of your TRE organisation with the required bodies.
-  - This may include regulatory bodies or the organisations that manage accreditations you have
+  - This may include regulatory bodies or the organisations that manage accreditations you have.
   - Mandatory
 ```
 
@@ -158,7 +157,7 @@ This {term}`business process <business process>` involves a structured approach 
   - Mandatory
 * - 1.2.7.
   - You must monitor compliance of your suppliers with the terms of the contracts.
-  - This will include monitoring changes in the services and infrastructure being delivered and quality management within the contractor’s organisation.
+  - This will include monitoring changes in the services and infrastructure being delivered and quality management within the contractor's organisation.
     This may be done through formal audit or by monitoring change and quality documentation provided by the supplier.
   - Mandatory
 ```
@@ -200,7 +199,7 @@ This {term}`business process <business process>` involves a systematic approach 
   - Mandatory
 * - 1.2.10.
   - You must use reported issues to inform changes, such as for process improvement and risk management.
-  - All issues should be analysed for their route cause and improvements put in place to prevent further occurrence.
+  - All issues should be analysed for their root cause and improvements put in place to prevent further occurrence.
   - Mandatory
 ```
 
@@ -219,7 +218,7 @@ This {term}`data object <data object>` consists of data, including training reco
 * - 1.2.11.
   - You should collect and maintain quality management data for measuring the effectiveness of a TRE.
   - Large amounts of data will be produced by elements within the TRE.
-    These data should be analysed with reports and dashboards provided to guide TRE implementer’s improvements and provide re-assurance to data consumers and subjects.
+    These data should be analysed with reports and dashboards provided to guide TRE implementer's improvements and provide re-assurance to data consumers and subjects.
   - Recommended
 ```
 
@@ -237,7 +236,7 @@ This {term}`application component <application component>` is a software applica
   - Importance
 * - 1.2.12.
   - You could use a QMS (Quality Management System) to standardise and automate quality management tasks and workflows, and to generate quality data and reports automatically.
-  - A basis QMS could be a set of spreadsheets or documents held in a repository which are manually maintained.
+  - A basic QMS could be a set of spreadsheets or documents held in a repository which are manually maintained.
     More mature applications will provide workflows and generate quality data through manual and automated actions.
   - Optional
 ```
@@ -264,7 +263,8 @@ This {term}`business process <business process>` involves the systematic evaluat
   - Mandatory
 * - 1.3.2.
   - You must carry out a data processing assessment for all projects requiring a TRE.
-  - A data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible. This may take the form of an existing regulatory requirements such as Data Protection Impact Assessment.
+  - A data processing assessment is a process designed to identify risks arising out of the processing of sensitive data and to minimise these risks as far and as early as possible.
+    This may take the form of an existing regulatory requirements such as Data Protection Impact Assessment.
   - Mandatory
 ```
 
@@ -304,7 +304,7 @@ This {term}`business process <business process>` involves the assignment of resp
     In order to ensure escalations to this level are rare, suitable structures should be put in place to own, mitigate and accept risk.
   - Mandatory
 * - 1.3.5.
-  - You must understand your organisational risk appetite.
+  - You must understand the risk appetite of your TRE organisation.
   - This includes understanding ownership of risk, and ability to accept risk which falls outside of the appetite should that become necessary.
   - Mandatory
 ```
@@ -327,7 +327,7 @@ This {term}`business process <business process>` involves onboarding or initiati
   - Importance
 * - 1.4.1.
   - You must have checks in place to ensure a project has the legal, financial and ethical requirements in place for the duration of the project.
-  - This includes checks that contracts are in place where required, adequate funding is available for the duration of the project, and responsibilities concerning data ownership are understood by all parties.
+  - This includes checks that contracts are in place where required, adequate funding is available for the duration of the project, and responsibilities concerning data handling are understood by all parties.
   - Mandatory
 ```
 
@@ -387,7 +387,7 @@ This {term}`application component <application component>` is an online platform
 * - 1.4.5.
   - You could implement a portal that can provide a workflow engine and database which automates the processes within this capability.
   - A portal should automate as much of the processes within the capability as possible.
-    Where processes are automated process maturity is easier to achieve with processes being completed more consistently and producing quality control and monitoring data automatically
+    Where processes are automated, process maturity is easier to achieve, with more consistent completion and automatic production of quality control and monitoring data.
   - Optional
 ```
 
@@ -425,7 +425,7 @@ This {term}`data object <data object>` is a centralised record or database that 
   - Importance
 * - 1.4.7.
   - You should keep a complete record of all the research studies and projects within the TRE current and past.
-  - The study register should contain all data related to a study including a reference to data assets, members (researchers, owners etc.) and any compliance activities required.
+  - The study register should contain all data related to a study including a reference to data assets, members (researchers, owners _etc._) and any compliance activities required.
   - Recommended
 ```
 
@@ -447,7 +447,7 @@ This {term}`business process <business process>` involves confirming or authenti
   - Importance
 * - 1.5.1.
   - You must have a robust method for identifying accredited members of your TRE organisation, prior to their accessing of sensitive data.
-  - This may include identity checks (such as checking photographic identification or other validated credentials) or email/phone verification.
+  - This may include ID checks or email/phone verification.
   - Mandatory
 ```
 
@@ -465,7 +465,7 @@ This {term}`business process <business process>` involves introducing and integr
   - Importance
 * - 1.5.2.
   - You must have clear onboarding processes in place for all roles within your TRE organisation.
-  - This may include all members signing role-specific terms of use and completing role specific training.
+  - This may include all members signing role-specific terms of use or confirming that they have completed role specific training.
   - Mandatory
 ```
 
@@ -505,7 +505,7 @@ This {term}`application component <application component>` is a software system 
   - Importance
 * - 1.5.5.
   - You must have robust and secure applications in place to authenticate users (and services) within the TRE.
-  - The number of authentication applications should be kept to a minimum with common controls and standards applied across all such as MFA, password complexity etc.
+  - The number of authentication applications should be kept to a minimum with common controls and standards applied across all such as MFA, password complexity _etc._.
   - Mandatory
 ```
 
@@ -546,18 +546,22 @@ This {term}`business process <business process>` involves designing, developing,
   - Importance
 * - 1.6.1.
   - You must determine what training is relevant for all roles within the TRE organisation.
-  - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators. Specialised roles are likely to need more tailored training. Identification of these specialities should be done through a systematic training needs analysis. Specific training may also be required based on the data or data provider such as GCP.
+  - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
+    Specialised roles are likely to need more tailored training.
+    Identification of these specialities should be done through a systematic training needs analysis.
+    Specific training may also be required based on the data or data provider such as GCP.
   - Mandatory
 * - 1.6.2.
   - You must ensure that relevant training is available for all roles within the TRE organisation.
-  - All TRE organisation members need to be enabled to complete all relevant training and keep their training current.
+  - All TRE organisation members need to complete all relevant training and keep their training current.
+    You may need to provide help or guidance to enable them to do so.
     Details of what training is needed will have been determined above.
   - Mandatory
 * - 1.6.3.
   - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
     Electronic reminders for refresher training should be considered.
-    Ideally training should remain relevant and so policies and processes should enable people to demonstrate competency rather than repeat training unnecessarily.
+    Ideally, training should remain relevant and so policies and processes should enable people to demonstrate competency rather than unnecessarily repeating training.
   - Mandatory
 ```
 
@@ -576,10 +580,11 @@ This {term}`business process <business process>` involves managing and overseein
 * - 1.6.4.
   - You must maintain accurate training records that are directly tied to the role and access levels within the TRE.
   - Training records should be tied to a user record and carefully maintained.
+    Maintaining training records enables you to ensure all people have completed the required training and that repeat training happens regularly.
   - Mandatory
 * - 1.6.5.
-  - You should accept proof of relevant training certifications from third parties.
-  - This should include competency testing and more simple recording of actions such as read and understood.
+  - You should accept proof of relevant training certifications from trusted third parties.
+  - You might choose to trust certifications provided by known training providers or your institution's partner organisations.
   - Recommended
 ```
 
@@ -601,7 +606,7 @@ This {term}`application component <application component>` is a software platfor
     It could also include a range of multimedia delivery formats, and accessible training modules for those with access requirements.
   - Optional
 * - 1.6.7.
-  - You could implement an LMS to manage courses and deliver training as required.
+  - You could implement a learning management system (LMS) to manage courses and deliver training as required.
   - Where possible an LMS should support a variety of course content and testing.
   - Optional
 ```
@@ -619,11 +624,13 @@ This {term}`data object <data object>` consists of information or data associate
   - Guidance
   - Importance
 * - 1.6.8.
-  - You could ensure course data is transferable between systems where possible.
+  - You could ensure that any courses you use are available in standard, transferable formats.
   - Support for standard formats such as SCORM allows courses to be shared between providers.
+    This could help facilitate standardisation of training provision for TRE users across organisations.
   - Optional
 * - 1.6.9.
   - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
-  - Data providers and regulators may be required to audit historical records (EG. Clinical trials) it may be necessary to retain copies of superseded training along with versions of certifications within the training record.
+  - Data providers and regulators may be required to audit historical records, _e.g._ for clinical trials.
+    It may be necessary to retain copies of superseded training along with versions of certifications within the training record.
   - Optional
 ```
