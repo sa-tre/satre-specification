@@ -554,10 +554,6 @@ This {term}`business process <business process>` involves designing, developing,
     Details of what training is needed will have been determined above.
   - Mandatory
 * - 1.6.3.
-  - You could have a training platform capable of delivering online training in a variety of formats.
-  - This could include competency testing and more simple recording of actions such as read and understood.
-  - Optional
-* - 1.6.4.
   - You must provide repeat or updated training where necessary to account for changes in competency requirements.
   - Training is not a one-off event.
     Electronic reminders for refresher training should be considered.
@@ -577,11 +573,11 @@ This {term}`business process <business process>` involves managing and overseein
   - Statement
   - Guidance
   - Importance
-* - 1.6.5.
+* - 1.6.4.
   - You must maintain accurate training records that are directly tied to the role and access levels within the TRE.
   - Training records should be tied to a user record and carefully maintained.
   - Mandatory
-* - 1.6.6.
+* - 1.6.5.
   - You should accept proof of relevant training certifications from third parties.
   - This should include competency testing and more simple recording of actions such as read and understood.
   - Recommended
@@ -599,6 +595,11 @@ This {term}`application component <application component>` is a software platfor
   - Statement
   - Guidance
   - Importance
+* - 1.6.6.
+  - You could have a training platform capable of delivering online training in a variety of formats.
+  - This could be a simple content delivery platform or a more comprehensive LMS platform.
+    It could also include a range of multimedia delivery formats, and accessible training modules for those with access requirements.
+  - Optional
 * - 1.6.7.
   - You could implement an LMS to manage courses and deliver training as required.
   - Where possible an LMS should support a variety of course content and testing.
