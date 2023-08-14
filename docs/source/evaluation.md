@@ -140,6 +140,46 @@ The scoring system is:
     - We have not yet encountered risks that fall outside our known risk appetite.
     ##### Potential Improvements
     - We do not have a procedure for handling opportunities outside our risk appetite
+* - 1.4.1.
+  - 2
+  - - All Turing projects must carry out a Data Protection Assessment Process.
+    - All projects must have an agreed security tier before starting.
+    - We inform projects in advance of their estimated directly incurred infrastructure costs and require them to confirm that they will be able to pay for these.
+    - Data sharing agreements must be in place before any data is ingressed.
+* - 1.4.2.
+  - 1
+  - - As soon as we are informed of the need to revoke user access, we will do so.
+    - Lists of responsible persons are established at the beginning of each project and these are kept up-to-date.
+    ##### Potential Improvements
+    - We tend to reactively respond to user removal requests rather than actively confirming that users are active.
+* - 1.4.3.
+  - 1
+  - - Our updating process is passive, as we rely on our Data Protection and Legal teams to inform us of changes to relevant legislation.
+    - We do not have formal checks in place.
+    ##### Potential Improvements
+    - Regularly check for changed requirements with Legal and Data Protection teams.
+* - 1.4.4.
+  - 2
+  - - We have processes in place to handle egressing results, removing access, securely deleting any data and destroying the infrastructure.
+    - Data egress needs to be agreed by the project stakeholders: the principal investigator, data provider and a referee representing the interests of the Institute.
+* - 1.4.5.
+  - 0
+  - - We manage our projects using a GitHub project board.
+    - We do not use an automated application.
+    ##### Potential Improvements
+    - We are planning to develop a system for tracking projects and datasets.
+* - 1.4.6.
+  - 1
+  - - We keep records for each project on which datasets are being used and any conditions attached to that use.
+    - We do not have a central database of data assets.
+    ##### Potential Improvements
+    - We are planning to develop a system for tracking projects and datasets.
+* - 1.4.7.
+  - 1
+  - - We manage our projects using a GitHub project board.
+    - Documents pertaining to each project are kept in a private Sharepoint folder.
+    ##### Potential Improvements
+    - We could make this a less manual process.
 ```
 
 ### TREEHOOSE
