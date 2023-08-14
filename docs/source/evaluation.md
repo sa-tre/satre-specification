@@ -15,9 +15,11 @@ The scoring system is:
 
 ### Alan Turing Institute Data Safe Haven
 
+#### Governance Requirements
+
 ```{list-table}
 :header-rows: 1
-:name: tab-turing-dsh-ig
+:name: tab-turing-dsh-ig-governance-requirements
 
 * -
   - Score
@@ -47,6 +49,20 @@ The scoring system is:
     ##### Potential Improvements
     - Our TRE organisation does not control staff numbers in the legal and data protection teams.
     - Directly assigning staffing to support our TRE would help improve resource provision.
+* - **Summary**
+  - **?**
+  - **Explanation**
+```
+
+#### Quality Management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-ig-quality-management
+
+* -
+  - Score
+  - Response
 * - 1.2.1.
   - 1
   - - Our SOPs are held on a public website backed by a private GitHub repository with limited edit access.
@@ -114,6 +130,20 @@ The scoring system is:
 * - 1.2.12.
   - 0
   - - We do not use any quality management software.
+* - **Summary**
+  - **?**
+  - **Explanation**
+```
+
+#### Risk Management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-ig-risk-management
+
+* -
+  - Score
+  - Response
 * - 1.3.1.
   - 1
   - - We have a risk register which scores risks in a matrix based on their likelihood and potential consequences.
@@ -140,6 +170,20 @@ The scoring system is:
     - We have not yet encountered risks that fall outside our known risk appetite.
     ##### Potential Improvements
     - We do not have a procedure for handling opportunities outside our risk appetite
+* - **Summary**
+  - **?**
+  - **Explanation**
+```
+
+#### Study Management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-ig-study-management
+
+* -
+  - Score
+  - Response
 * - 1.4.1.
   - 2
   - - All Turing projects must carry out a Data Protection Assessment Process.
@@ -180,6 +224,9 @@ The scoring system is:
     - Documents pertaining to each project are kept in a private Sharepoint folder.
     ##### Potential Improvements
     - We could make this a less manual process.
+* - **Summary**
+  - **?**
+  - **Explanation**
 ```
 
 ### TREEHOOSE
