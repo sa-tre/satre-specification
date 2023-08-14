@@ -114,6 +114,32 @@ The scoring system is:
 * - 1.2.12.
   - 0
   - - We do not use any quality management software.
+* - 1.3.1.
+  - 1
+  - - We have a risk register which scores risks in a matrix based on their likelihood and potential consequences.
+    ##### Potential Improvements
+    - We do not regularly update our risk register.
+* - 1.3.2.
+  - 2
+  - - All Turing projects must carry out a Data Protection Assessment Process.
+    - We also have a flowchart that project teams and data providers must follow to agree on the security tier of their project before it starts.
+* - 1.3.3.
+  - 1
+  - - We decide on risk mitigations during our risk assessment process, but this tends to be an _ad-hoc_ process rather than anything formalised..
+    ##### Potential Improvements
+    - Develop a formal risk mitigation process.
+* - 1.3.4.
+  - 1
+  - - We have a documented set of roles together with responsibilities required for each role.
+    - There is an implicit association of risks with particular roles, but we are not explicit about the relationship between risks and roles.
+    ##### Potential Improvements
+    - Create explicit mapping of risks to roles.
+* - 1.3.5.
+  - 1
+  - - Our TRE deployment is guided by the risk appetite of the wider Institute.
+    - We have not yet encountered risks that fall outside our known risk appetite.
+    ##### Potential Improvements
+    - We do not have a procedure for handling opportunities outside our risk appetite
 ```
 
 ### TREEHOOSE
