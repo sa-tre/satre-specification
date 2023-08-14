@@ -263,4 +263,64 @@
   - **Explanation**
 ```
 
+## Training Delivery and Management
 
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-ig-training-delivery
+
+* -
+  - Score
+  - Response
+* - 1.6.1.
+  - 1
+  - - Part of the project initiation process involves agreeing on appropriate user training.
+    - All TRE users carry out GDPR and cyber security training.
+    - Depending on the project, they may also complete eLfH data security awareness training (level 1) and MRC Research, GDPR & Confidentiality Training
+    - TRE operators must pass all user training requirements as well as data handling and cyber security training.
+    ##### Potential Improvements
+    - We aim to put in place a regular systematic training needs analysis.
+* - 1.6.2.
+  - 1
+  - - Turing employees have access to internal GDPR and Cyber Security courses.
+    - For non-Turing users we rely on their host organisation having sufficient training in these areas.
+    - The eLfH and MRC courses are available to all.
+    ##### Potential Improvements
+    - We are planning on developing data handling courses that will be available to all to close the current gap between Turing and non-Turing users.
+* - 1.6.3.
+  - 1
+  - - We require all users and administrators to keep their training up-to-date.
+    - All training certifications must be refreshed each year.
+    ##### Potential Improvements
+    - We are planning to implement a system that creates alerts for users/admins when training is needed.
+* - 1.6.4.
+  - 1
+  - - We have a register of people, their training requirements and when they last completed training.
+    - We require training to have been completed in the last year, if this is not done then user access will be revoked.
+    - This is stored as a spreadsheet in a private Sharepoint folder.
+    ##### Potential Improvements
+    - We are planning to implement a system that creates alerts for users/admins when training is needed.
+* - 1.6.5.
+  - 2
+  - - We trust certifications provided by Turing's university and commercial partners.
+* - 1.6.6.
+  - 1
+  - - We currently use third-party training platforms.
+    - Not all training is on the same platform.
+    - There are plans to integrate training into a single platform.
+    ##### Potential Improvements
+    - We do not have automated tracking of whether training is up-to-date.
+* - 1.6.7.
+  - 0
+  - - We do not currently do this, but we have plans to do so in future.
+* - 1.6.8.
+  - 0
+  - - We use third-party training courses, whose format we have not analysed for transferability and standardisation.
+* - 1.6.9.
+  - 0
+  - - We do not control the course content and are unable to maintain copies of the course materials.
+    - We have not explored whether this information is available from our training providers.
+* - **Summary**
+  - **?**
+  - **Explanation**
+```
