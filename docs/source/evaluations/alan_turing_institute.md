@@ -18,24 +18,23 @@
     - The Institute has a centralised ethics approval procedure which all projects are required to follow.
     - Project specific requirements are discussed with data providers before start of each project.
     ##### Potential Improvements
-    - We could be more proactive about trying to stay up-to-date with changes to requirements.
-    - For instance, we could hold an annual review with the Turing Legal and Data Protection teams to ensure all current requirements are still met by the TRE organisation.
+    - Be more proactive about trying to stay up-to-date with changes to requirements.
+    - Hold an annual review with the Turing Legal and Data Protection teams to ensure all current requirements are still met by the TRE organisation.
 * - 1.1.2.
   - 1
   - - We have documented our institutional risk appetite and understand what kinds of work we are prepared to support.
     - All projects handled in the TRE have gone through our institutional Data Protection Assessment Process and Ethics Approval Process.
     - All projects are tracked through a ticketing system with relevant documents and agreements stored on Sharepoint.
     ##### Potential Improvements
-    - We would like to improve our document handling workflow.
-    - This could be through the development of an Information Governance App through which all projects can be managed directly by approved users
+    - Improve our document handling workflow by developing an Information Governance App through which all projects can be managed directly by approved users.
 * - 1.1.3.
   - 1
   - - The Institute has Legal and Data Protection Teams who ensure that projects meet our institutional requirements.
     - Our sysadmin team is currently appropriately sized for the number of projects we are handling.
     - The Legal and Data Protection teams do not have staff dedicated to our TRE.
-    ##### Potential Improvements
     - Our TRE organisation does not control staff numbers in the legal and data protection teams.
-    - Directly assigning staffing to support our TRE would help improve resource provision.
+    ##### Potential Improvements
+    - Ensure that staff time is explicitly allocated to TRE support.
 * - **Summary**
   - **?**
   - **Explanation**
@@ -55,14 +54,17 @@
   - - Our SOPs are held on a public website backed by a private GitHub repository with limited edit access.
     - Policies and other forms that need signatures as part of our SOPs are held in a private Sharepoint folder with limited access.
     - Acceptance of policies is recorded in a document held in a private Sharepoint folder.
+    - We do not have an explicit process for determining who should have administrator access to these folders and repositories.
     ##### Potential Improvements
-    - We do not as of yet have an explicit process for determining who should have admin access to these folders and repositories, for instance passing a specific training module or going through an induction process.
+    - Develop an induction process and/or mandatory training programme for potential administrators.
 * - 1.2.2.
   - 1
-  - - All SOPs are stored in a version controlled repository. Policies, forms and project documentation are stored in a controlled Sharepoint folder.
-    ##### Potential Improvements
+  - - All SOPs are stored in a version controlled repository.
+    - Policies, forms and project documentation are stored in a controlled Sharepoint folder.
     - We do not currently use explicit versioning for forms/documents that need to be signed.
-    - We do not currently tag documents handled by git version control so that the specific document followed can be referred to.
+    ##### Potential Improvements
+    - Use tags to refer to documents handled by git version control.
+    - Use in-file versioning for files stored on Sharepoint.
 * - 1.2.3.
   - 0
   - - We regularly discuss our information governance processes with impacted projects and look for ways to improve and streamline them.
@@ -99,9 +101,9 @@
   - - We have an SOP covering security incident reporting.
     - A report is written for each security incident and saved in a controlled Sharepoint folder.
     - Deviations that do not result in an incident report are not centrally tracked.
-    ##### Potential Improvements
     - We do not do anything in particular to flag when an issue was due to a deviation from SOP.
-    - We could do better at tracking our reporting.
+    ##### Potential Improvements
+    - Develop a centralised system for tracking and addressing process deviations.
 * - 1.2.10.
   - 2
   - - Part of our security incident response is to initiate changes to our procedures to mitigate future incidents.
@@ -111,9 +113,9 @@
   - - Training records for TRE users are recorded in Sharepoint.
     - We track the configuration data needed to manage each TRE project on a GitHub issue.
     - This issue is also used to track of changes made throughout the lifecycle of a TRE project.
-    ##### Potential Improvements
     - We do use feedback and our impressions of the effectiveness of the TRE to guide development and changes.
-    - We do not actively monitor the quality of services provided to end-users.
+    ##### Potential Improvements
+    - Actively monitor the quality of services provided to end-users.
 * - 1.2.12.
   - 0
   - - We do not use any quality management software.
@@ -135,7 +137,7 @@
   - 1
   - - We have a risk register which scores risks in a matrix based on their likelihood and potential consequences.
     ##### Potential Improvements
-    - We do not regularly update our risk register.
+    - Regularly update our risk register.
 * - 1.3.2.
   - 2
   - - All Turing projects must carry out a Data Protection Assessment Process.
@@ -156,7 +158,7 @@
   - - Our TRE deployment is guided by the risk appetite of the wider Institute.
     - We have not yet encountered risks that fall outside our known risk appetite.
     ##### Potential Improvements
-    - We do not have a procedure for handling opportunities outside our risk appetite
+    - Develop a procedure for handling opportunities outside our risk appetite
 * - **Summary**
   - **?**
   - **Explanation**
@@ -181,8 +183,9 @@
   - 1
   - - As soon as we are informed of the need to revoke user access, we will do so.
     - Lists of responsible persons are established at the beginning of each project and these are kept up-to-date.
-    ##### Potential Improvements
     - We tend to reactively respond to user removal requests rather than actively confirming that users are active.
+    ##### Potential Improvements
+    - Develop a regular process for confirming that users are active.
 * - 1.4.3.
   - 1
   - - Our updating process is passive, as we rely on our Data Protection and Legal teams to inform us of changes to relevant legislation.
@@ -198,19 +201,19 @@
   - - We manage our projects using a GitHub project board.
     - We do not use an automated application.
     ##### Potential Improvements
-    - We are planning to develop a system for tracking projects and datasets.
+    - Develop a system for tracking projects and datasets.
 * - 1.4.6.
   - 1
   - - We keep records for each project on which datasets are being used and any conditions attached to that use.
     - We do not have a central database of data assets.
     ##### Potential Improvements
-    - We are planning to develop a system for tracking projects and datasets.
+    - Develop a system for tracking projects and datasets.
 * - 1.4.7.
   - 1
   - - We manage our projects using a GitHub project board.
     - Documents pertaining to each project are kept in a private Sharepoint folder.
     ##### Potential Improvements
-    - We could make this a less manual process.
+    - Reduce manual steps in this process.
 * - **Summary**
   - **?**
   - **Explanation**
@@ -231,7 +234,7 @@
     - Their username is sent to their email address together with a link to a self-service password reset page.
     - Their password cannot be updated without providing a code that is sent to their registered phone number.
     ##### Potential Improvements
-    - We do not make any further checks on user ID.
+    - Consider making more detailed checks on user ID, possibly delegating to a trusted third-party.
 * - 1.5.2.
   - 2
   - - Onboarding documentation exists for both TRE operators and project teams.
@@ -257,7 +260,7 @@
     - Mapping of usernames to named individuals are kept in Microsoft Entra.
     - Other user documentation such as training records is associated to their name (not their username).
     ##### Potential Improvements
-    - We are planning to develop a more comprehensive system for user records tracking.
+    - Develop a more comprehensive system for user records tracking.
 * - **Summary**
   - **?**
   - **Explanation**
@@ -279,27 +282,27 @@
     - Depending on the project, they may also complete eLfH data security awareness training (level 1) and MRC Research, GDPR & Confidentiality Training
     - TRE operators must pass all user training requirements as well as data handling and cyber security training.
     ##### Potential Improvements
-    - We aim to put in place a regular systematic training needs analysis.
+    - Put a regular systematic training needs analysis into place.
 * - 1.6.2.
   - 1
   - - Turing employees have access to internal GDPR and Cyber Security courses.
     - For non-Turing users we rely on their host organisation having sufficient training in these areas.
     - The eLfH and MRC courses are available to all.
     ##### Potential Improvements
-    - We are planning on developing data handling courses that will be available to all to close the current gap between Turing and non-Turing users.
+    - Develop data handling courses that will be available to all to close the current gap between Turing and non-Turing users.
 * - 1.6.3.
   - 1
   - - We require all users and administrators to keep their training up-to-date.
     - All training certifications must be refreshed each year.
     ##### Potential Improvements
-    - We are planning to implement a system that creates alerts for users/admins when training is needed.
+    - Implement a system that creates alerts for users/admins when training is needed.
 * - 1.6.4.
   - 1
   - - We have a register of people, their training requirements and when they last completed training.
     - We require training to have been completed in the last year, if this is not done then user access will be revoked.
     - This is stored as a spreadsheet in a private Sharepoint folder.
     ##### Potential Improvements
-    - We are planning to implement a system that creates alerts for users/admins when training is needed.
+    - Implement a system that creates alerts for users/admins when training is needed.
 * - 1.6.5.
   - 2
   - - We trust certifications provided by Turing's university and commercial partners.
@@ -309,17 +312,23 @@
     - Not all training is on the same platform.
     - There are plans to integrate training into a single platform.
     ##### Potential Improvements
-    - We do not have automated tracking of whether training is up-to-date.
+    - Develop automated tracking of whether training is up-to-date.
 * - 1.6.7.
   - 0
   - - We do not currently do this, but we have plans to do so in future.
+    ##### Potential Improvements
+    - Decide whether an LMS is useful and document the decision.
 * - 1.6.8.
   - 0
   - - We use third-party training courses, whose format we have not analysed for transferability and standardisation.
+    ##### Potential Improvements
+    - Find out whether existing modules are in transferable formats.
 * - 1.6.9.
   - 0
   - - We do not control the course content and are unable to maintain copies of the course materials.
     - We have not explored whether this information is available from our training providers.
+    ##### Potential Improvements
+    - Find out whether historical course content can be accessed.
 * - **Summary**
   - **?**
   - **Explanation**
