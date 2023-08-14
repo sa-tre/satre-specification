@@ -215,3 +215,52 @@
   - **?**
   - **Explanation**
 ```
+
+## Member Accreditation
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-ig-member-accreditation
+
+* -
+  - Score
+  - Response
+* - 1.5.1.
+  - 1
+  - - Project managers are required to provide an email address and phone number for each user before we set up their account.
+    - Their username is sent to their email address together with a link to a self-service password reset page.
+    - Their password cannot be updated without providing a code that is sent to their registered phone number.
+    ##### Potential Improvements
+    - We do not make any further checks on user ID.
+* - 1.5.2.
+  - 2
+  - - Onboarding documentation exists for both TRE operators and project teams.
+    - Users must complete appropriate training and sign our terms of use before being granted access to the TRE.
+* - 1.5.3.
+  - 2
+  - - We use Microsoft Entra to manage user accounts.
+    - Access to resources and data is controlled by RBAC.
+* - 1.5.4.
+  - 2
+  - - We have a process for agreeing which people are able to take which actions involving sensitive data.
+    - Delegation of approval authority is also included here.
+    - A document summarising these decisions must be signed by the principal investigator, data provider and referee before the project begins.
+* - 1.5.5.
+  - 2
+  - - Initial log in is delegated to Microsoft Entra via OAuth.
+    - This requires username, password and MFA.
+    - Log in to computing resources within the TRE is controlled by the same username and password, accessed via LDAP.
+* - 1.5.6.
+  - 1
+  - - Each user has a unique username.
+    - If a user works on multiple different projects, the same username will be used.
+    - Mapping of usernames to named individuals are kept in Microsoft Entra.
+    - Other user documentation such as training records is associated to their name (not their username).
+    ##### Potential Improvements
+    - We are planning to develop a more comprehensive system for user records tracking.
+* - **Summary**
+  - **?**
+  - **Explanation**
+```
+
+
