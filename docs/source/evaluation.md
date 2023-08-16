@@ -17,6 +17,5 @@ Although both 1 and 2 indicate a TRE meets the requirement, the distinction lies
 
 ## Examples
 
-### Turing Data Safe Haven
-
-### TREEHOOSE
+- Evaluation of {ref}`The Alan Turing Institute Data Safe Haven <evaluation_alan_turing_institute>`.
+- Evaluation of {ref}`Dundee/HIC TREEHOOSE <evaluation_dundee_hic>`.
