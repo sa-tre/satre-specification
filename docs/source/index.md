@@ -24,6 +24,8 @@ pillars/supporting.md
 :caption: Evaluation
 
 evaluation.md
+evaluations/alan_turing_institute.md
+evaluations/dundee_hic.md
 ```
 
 ```{toctree}
