@@ -149,6 +149,11 @@ The ability of the TRE operator to ensure outputs are safely published and share
     Results will be produced which address the project's purpose, some of which may be outputs that are removed from the TRE.
     Understanding what these outputs are likely to be and their sensitivity as early as possible will help prepare for their processing and publication.
   - Recommended
+* - 3.3.3.
+  - You must have a process for output checking and assign responsibility for output checking.
+  - Regardless of whether or how outputs are classified and whether the outputs were decided at the project outset, all outputs must be checked according to your process by the responsible party.
+  Output checking ensures that no unintended data breach occurs during the egress procedure.
+  - Mandatory
 ```
 
 (information-search-and-discovery)=
