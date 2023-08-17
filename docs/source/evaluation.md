@@ -27,8 +27,3 @@ We hope you find this useful as a reference point when evaluating your TRE.
 ## Meeting the specification
 
 To meet the specification, your TRE should score at least 1 on every mandatory statement.
-
-## Examples
-
-- Evaluation of {ref}`The Alan Turing Institute Data Safe Haven <evaluation_alan_turing_institute>`.
-- Evaluation of {ref}`Dundee/HIC TREEHOOSE <evaluation_dundee_hic>`.
