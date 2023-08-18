@@ -150,8 +150,9 @@ The ability of the TRE operator to ensure outputs are safely published and share
     Understanding what these outputs are likely to be and their sensitivity as early as possible will help prepare for their processing and publication.
   - Recommended
 * - 3.3.3.
-  - You must have a process for ensuring that outputs are safe.
-  - This process should define what risks you are worried about and how to mitigate them.
+  - You must have a process for disclosure control that ensures outputs are safe.
+  - This process should define expected risks and how to mitigate them.
+    All TRE outputs must be subject to this process.
     You might choose to follow existing guidelines, for example around statistical disclosure.
   - Mandatory
 * - 3.3.4.
