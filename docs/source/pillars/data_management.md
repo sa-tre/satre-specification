@@ -161,6 +161,12 @@ The ability of the TRE operator to ensure outputs are safely published and share
     This person or team must follow your disclosure control process and will be responsible for any automated parts of this process.
     Output checking can help mitigate against unintentional data breaches during the egress procedure.
   - Mandatory
+* - 3.3.5.
+  - Where the possibility exists that a project will require egress of outputs that cannot be manually checked, you must have a documented policy for handling disclosure risks associated with these outputs.
+  - It is generally recommended that only files that can be checked are egressed.
+    For example, it is difficult to check for the presence of sensitive data in binary files or very large numeric files.
+    If egress is allowed, the risks of inadvertent disclosure must be mitigated and documented.
+  - Mandatory
 ```
 
 (information-search-and-discovery)=
