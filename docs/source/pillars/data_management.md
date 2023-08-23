@@ -157,7 +157,8 @@ The ability of the TRE operator to ensure outputs are safely published and share
   - Mandatory
 * - 3.3.4.
   - You must have a process for assigning responsibility for output checking.
-  - A named person or team should be given responsibility for checking outputs. This person or team must follow your disclosure control process.
+  - A named person or team should be given responsibility for checking outputs.
+    This person or team must follow your disclosure control process.
     Output checking can help mitigate against unintentional data breaches during the egress procedure.
   - Mandatory
 ```
