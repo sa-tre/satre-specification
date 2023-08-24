@@ -67,7 +67,6 @@ The software engineers responsible for developing and maintaining TRE software, 
 
 Roles that uphold the governance of TREs.
 Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities.
-Typical roles might include data custodians, ethicists, an independent board or a lay panel.
 
 ```{list-table}
 :header-rows: 1
@@ -79,10 +78,14 @@ Typical roles might include data custodians, ethicists, an independent board or 
   - People responsible for ensuring the TRE is operating correctly and all processes are working as intended, and being followed by other roles.
 * - Top Management
   - This is an ISO term for the most senior governance who own the risks, make decisions and allocate resources.
-* - Information Asset Owner
+* - Information Asset Owner/ Data Custodian
   - Owner of a dataset, project or work package within a TRE.
 * - Internal Auditor
   - 
+* - Ethicist
+  -
+* - Lay panel
+  - Members of the public charged with oversight of TRE operational decisions on behalf of parties affected by data usage.
 
 ```
 
