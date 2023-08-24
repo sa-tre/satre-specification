@@ -97,7 +97,7 @@ Roles for non-administrators who have access to the TRE for the purpose of resea
 
 ```{list-table}
 :header-rows: 1
-:name: tab-tre-role-governance
+:name: tab-tre-role-users
 
 * - Role name
   - Role description
