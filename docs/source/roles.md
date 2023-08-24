@@ -90,6 +90,8 @@ Typical roles might include data custodians, ethicists, an independent board or 
 
 ## TRE user roles
 
+Roles for non-administrators who have access to the TRE for the purpose of research with contained data.
+
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-governance
