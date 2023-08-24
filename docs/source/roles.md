@@ -38,7 +38,7 @@ These roles cover managing TRE computing infrastructure, but also administering 
 * - Role name
   - Role description
 * - Output checker
-  - Person or people responsible disclosure control via checking of project outputs destined for egress from the TRE.
+  - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process.
 ```
 
 ## TRE developer roles
