@@ -6,20 +6,25 @@ A TRE conforming to the SATRE specification should provide a broadly similar exp
 There is not necessarily a one-to-one mapping between roles and people.
 One person can have multiple roles.
 
-## TRE users
+(user_roles)=
 
-The researchers working on projects that involve logging into a TRE to access data.
+## TRE user roles
+
+Roles for non-administrators working on projects that involve logging into a TRE to access data.
 
 <!-- The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE specification. -->
 
 ```{list-table}
 :header-rows: 1
-:name: tab-tre-role-user
+:name: tab-tre-role-users
 
 * - Role name
   - Role description
-* -
-  -
+* - Researcher
+  - People responsible for carrying out the research project using a TRE.
+* - Data Steward
+  - People who ensure data within a TRE is maintained and processed in ways useful to the researchers, including providing data extracts.
+
 ```
 
 (admin_roles)=
@@ -86,24 +91,5 @@ Such governance responsibilities typically involve establishing policies and pro
   -
 * - Lay panel
   - Members of the public charged with oversight of TRE operational decisions on behalf of parties affected by data usage.
-
-```
-
-(user_roles)=
-
-## TRE user roles
-
-Roles for non-administrators who have access to the TRE for the purpose of research with contained data.
-
-```{list-table}
-:header-rows: 1
-:name: tab-tre-role-users
-
-* - Role name
-  - Role description
-* - Researcher
-  - People responsible for carrying out the research project using a TRE.
-* - Data Steward
-  - People who ensure data within a TRE is maintained and processed in ways useful to the researchers, including providing data extracts.
 
 ```
