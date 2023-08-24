@@ -37,7 +37,9 @@ These roles cover managing TRE computing infrastructure, but also administering 
 
 * - Role name
   - Role description
-* - Output checker
+* - TRE Operator
+  - People responsible for the management of the TRE's IT infrastructure and general processes. Examples include deploying a new TRE using an existing software or codebase, carrying out data ingress/egress and managing user access.
+* - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process.
 ```
 
@@ -55,8 +57,8 @@ The software engineers responsible for developing and maintaining TRE software, 
 
 * - Role name
   - Role description
-* -
-  -
+* - TRE Software Developer
+  - People responsible for building the software infrastructure that can be used as a TRE.
 ```
 
 (governance_roles)=
@@ -73,6 +75,30 @@ Typical roles might include data custodians, ethicists, an independent board or 
 
 * - Role name
   - Role description
-* -
-  -
+* - Quality Manager
+  - People responsible for ensuring the TRE is operating correctly and all processes are working as intended, and being followed by other roles.
+* - Top Management
+  - This is an ISO term for the most senior governance who own the risks, make decisions and allocate resources.
+* - Information Asset Owner
+  - Owner of a dataset, project or work package within a TRE.
+* - Internal Auditor
+  - 
+
+```
+
+(user_roles)=
+
+## TRE user roles
+
+```{list-table}
+:header-rows: 1
+:name: tab-tre-role-governance
+
+* - Role name
+  - Role description
+* - Researcher
+  - People responsible for carrying out the research project using a TRE.
+* - Data Steward
+  - People who ensure data within a TRE is maintained and processed in ways useful to the researchers, including providing data extracts.
+
 ```
