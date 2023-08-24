@@ -10,7 +10,7 @@ One person can have multiple roles.
 
 ## TRE user roles
 
-Roles for non-administrators working on projects that involve logging into a TRE to access data.
+Roles for people using the TRE to conduct research or analyse data in the TRE.
 
 <!-- The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE specification. -->
 
