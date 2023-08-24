@@ -157,7 +157,7 @@ The ability of the TRE operator to ensure outputs are safely published and share
   - Mandatory
 * - 3.3.4.
   - You must have a process for assigning responsibility for output checking.
-  - A named [INSERT OUTPUT CHECKING ROLE] person or team should be given responsibility for checking outputs.
+  - Named {ref}`output checker(s) <admin_roles>` should be given responsibility for checking outputs.
     This person or team must follow your disclosure control process and will be responsible for any automated parts of this process.
     Output checking can help mitigate against unintentional data disclosure or leaks.
   - Mandatory

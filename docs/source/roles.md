@@ -22,6 +22,8 @@ The researchers working on projects that involve logging into a TRE to access da
   -
 ```
 
+(admin_roles)=
+
 ## TRE administration roles
 
 The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE specification.
@@ -35,8 +37,8 @@ These roles cover managing TRE computing infrastructure, but also administering 
 
 * - Role name
   - Role description
-* -
-  -
+* - Output checker
+  - Person or people responsible disclosure control via checking of project outputs destined for egress from the TRE.
 ```
 
 ## TRE developer roles
