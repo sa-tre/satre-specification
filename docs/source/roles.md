@@ -41,6 +41,8 @@ These roles cover managing TRE computing infrastructure, but also administering 
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process.
 ```
 
+(developer_roles)=
+
 ## TRE developer roles
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance.
@@ -56,6 +58,8 @@ The software engineers responsible for developing and maintaining TRE software, 
 * -
   -
 ```
+
+(governance_roles)=
 
 ## TRE governance roles
 
