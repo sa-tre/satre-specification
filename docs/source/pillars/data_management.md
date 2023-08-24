@@ -159,7 +159,7 @@ The ability of the TRE operator to ensure outputs are safely published and share
   - You must have a process for assigning responsibility for output checking.
   - A named person or team should be given responsibility for checking outputs.
     This person or team must follow your disclosure control process and will be responsible for any automated parts of this process.
-    Output checking can help mitigate against unintentional data breaches during the egress procedure.
+    Output checking can help mitigate against unintentional data disclosure or leaks.
   - Mandatory
 * - 3.3.5.
   - Where the possibility exists that a project will require egress of outputs that cannot be manually checked, you must have a documented policy for handling disclosure risks associated with these outputs.
