@@ -458,20 +458,25 @@
   - Score
   - Response
 * - 2.1.14.
-  -
-  -
+  - 2
+  - Non-standard resources are segregated in the same way as standard resources.
+    We do not share any resources between projects.
 * - 2.1.15.
-  -
-  -
+  - 2
+  - We are able to deploy high capacity virtual machines if required.
+    These can have many cores and/or large amounts of RAM.
 * - 2.1.16.
-  -
-  -
+  - 2
+  - We are able to deploy VM sizes featuring GPUs within the limits of what is available on Azure and compatible with our pre-built x64 image.
 * - 2.1.17.
-  -
-  -
+  - 2
+  - We make Microsoft SQL server and/or PostgreSQL servers available to projects as needed.
+    These databases are only accessible from inside a single project environment.
 * - 2.1.18.
-  -
-  -
+  - 1
+  - We do not currently support large-scale data analytics tools.
+  ##### Potential Improvements
+  - We would consider supporting Spark but it has not been requested by users.
 * - **Capability met?**
   - **YES**
   -
