@@ -7,13 +7,21 @@
 You should score your TRE against each statement in the SATRE specification.
 The scoring system is:
 
-- 0: **Not met** Does not meet requirements
-- 1: **Sufficient** Requirements met but substantial scope for improvement
-- 2: **Satisfied** Requirements met and limited scope for improvement
+- **0 (Not met)**
+  - The TRE does not meet this requirement
+- **1 (Sufficient)**
+  - The TRE meets this requirement met but there is substantial scope for improvement
+- **2 (Satisfied)**
+  - The TRE meets this requirement met but there may still be scope for improvement
 
-0 means you have failed to meet the requirement.
-A score of 1 or above means you have met the requirement.
-Although both 1 and 2 indicate a TRE meets the requirement, the distinction lies in the quality of the components which address the requirement.
+Although both **1** and **2** indicate a TRE meets the requirement, they indicate different levels of possible improvement.
+
+### Combining scores
+
+The scores for each statement can be easily combined at the capability, pillar or overall level.
+If all the **Mandatory** statements in a capability are met, either at level **1** or level **2**, then the capability is met.
+If all capabilities in a pillar are met then the pillar is met.
+If all pillars are met then the SATRE specification is met.
 
 ## Examples
 
