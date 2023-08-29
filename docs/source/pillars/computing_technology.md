@@ -30,7 +30,7 @@ This may include desktop, command-line and/or code-submission interfaces.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-computing-interfaces
+:name: tab-computing-end-user-interfaces
 
 * -
   - Statement
@@ -53,13 +53,13 @@ This may include desktop, command-line and/or code-submission interfaces.
   - Optional
 ```
 
-### Software tools
+### End user software tools
 
 This {term}`application component <application component>` is the tools used by researchers inside a TRE, such as programming languages, IDEs and desktop applications.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-software-tools
+:name: tab-computing-end-user-software-tools
 
 * -
   - Statement
@@ -103,7 +103,7 @@ This {term}`application component <application component>` is the systems and to
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-code-vcs
+:name: tab-computing-code-vcs
 
 * -
   - Statement
@@ -122,7 +122,7 @@ This {term}`application component <application component>` is a service that man
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-artefact-management
+:name: tab-computing-artefact-management
 
 * -
   - Statement
@@ -139,13 +139,13 @@ This {term}`application component <application component>` is a service that man
   - Optional
 ```
 
-### Advanced or Cluster Computing System
+### Advanced Computing Systems
 
 This {term}`application component <application component>` involves the use of advanced, powerful computer resources to solve complex problems and process large amounts of data, possibly using specialised hardware.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-advanced-cluster-computing
+:name: tab-computing-advanced-computing-systems
 
 * -
   - Statement
@@ -191,7 +191,7 @@ This requires development, installation, configuration, and validation.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-deployment
+:name: tab-computing-infrastructure-deployment
 
 * -
   - Statement
@@ -227,7 +227,7 @@ This {term}`business process <business process>` involves retiring or removing i
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-removal
+:name: tab-computing-infrastructure-removal
 
 * -
   - Statement
@@ -245,7 +245,7 @@ This {term}`business process <business process>` involves ensuring all IT infras
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-availability
+:name: tab-computing-infrastructure-availability-management
 
 * -
   - Statement
@@ -268,7 +268,7 @@ This {term}`application component <application component>` is an application use
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-network
+:name: tab-computing-infrastructure-network-management
 
 * -
   - Statement
@@ -299,7 +299,7 @@ This {term}`application component <application component>` is an application whi
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-infrastructure-analytics
+:name: tab-computing-infrastructure-analytics
 
 * -
   - Statement
@@ -327,7 +327,7 @@ This {term}`business process <business process>` involves forecasting and determ
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-capacity
+:name: tab-computing-capacity-planning
 
 * -
   - Statement
@@ -356,7 +356,7 @@ It involves calculation, issuance, and recording of payments and receipts.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-billing
+:name: tab-computing-billing
 
 * -
   - Statement
@@ -377,7 +377,7 @@ This {term}`business process <business process>` involves the TRE operator ident
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-configuration
+:name: tab-computing-configuration-management
 
 * -
   - Statement

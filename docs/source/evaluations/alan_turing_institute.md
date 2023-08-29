@@ -333,3 +333,314 @@
   - **YES**
   -
 ```
+
+## End user computing interfaces
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-end-user-interfaces
+
+* -
+  - Score
+  - Response
+* - 2.1.1.
+  -
+  -
+* - 2.1.2.
+  -
+  -
+* - 2.1.3.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## End user software tools
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh--computing-end-user-software-tools
+
+* -
+  - Score
+  - Response
+* - 2.1.4.
+  -
+  -
+* - 2.1.5.
+  -
+  -
+* - 2.1.6.
+  -
+  -
+* - 2.1.7.
+  -
+  -
+* - 2.1.8.
+  -
+  -
+* - 2.1.9.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Code Version Control System
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-code-vcs
+
+* -
+  - Score
+  - Response
+* - 2.1.10.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Artefact Management Application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-artefact-management
+
+* -
+  - Score
+  - Response
+* - 2.1.11.
+  -
+  -
+* - 2.1.12.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Advanced Computing Systems
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-advanced-computing-systems
+
+* -
+  - Score
+  - Response
+* - 2.1.13.
+  -
+  -
+* - 2.1.14.
+  -
+  -
+* - 2.1.15.
+  -
+  -
+* - 2.1.16.
+  -
+  -
+* - 2.1.17.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Infrastructure Deployment Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-deployment
+
+* -
+  - Score
+  - Response
+* - 2.2.1.
+  -
+  -
+* - 2.2.2.
+  -
+  -
+* - 2.2.3.
+  -
+  -
+* - 2.2.4.
+  -
+  -
+* - 2.2.5.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Infrastructure Removal Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-removal
+
+* -
+  - Score
+  - Response
+* - 2.2.6.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Availability Management Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-availability-management
+
+* -
+  - Score
+  - Response
+* - 2.2.7.
+  -
+  -
+* - 2.2.8.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Network Management Application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-network-management
+
+* -
+  - Score
+  - Response
+* - 2.2.9.
+  -
+  -
+* - 2.2.10.
+  -
+  -
+* - 2.2.11.
+  -
+  -
+* - 2.2.12.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Infrastructure analytics application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-analytics
+
+* -
+  - Score
+  - Response
+* - 2.2.13.
+  -
+  -
+* - 2.2.14.
+  -
+  -
+* - 2.2.15.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Capacity Planning Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-capacity-planning
+
+* -
+  - Score
+  - Response
+* - 2.3.1.
+  -
+  -
+* - 2.3.2.
+  -
+  -
+* - 2.3.3.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Billing Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-billing
+
+* -
+  - Score
+  - Response
+* - 2.3.4.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Configuration management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-configuration-management
+
+* -
+  - Score
+  - Response
+* - 2.4.1.
+  -
+  -
+* - 2.4.2.
+  -
+  -
+* - 2.4.3.
+  -
+  -
+* - 2.4.4.
+  -
+  -
+* - 2.4.5.
+  -
+  -
+* - 2.4.6.
+  -
+  -
+* - 2.4.7.
+  -
+  -
+* - **Capability met?**
+  - **YES**
+  -
+```
