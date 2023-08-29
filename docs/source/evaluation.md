@@ -7,12 +7,12 @@
 You should score your TRE against each statement in the SATRE specification.
 The scoring system is:
 
-- **0 (Not met)**
-  - The TRE does not meet this requirement
-- **1 (Sufficient)**
-  - The TRE meets this requirement met but there is substantial scope for improvement
-- **2 (Satisfied)**
-  - The TRE meets this requirement met but there may still be scope for improvement
+0 (Not met)
+: The TRE does not meet this requirement
+1 (Sufficient)
+: The TRE meets this requirement met but there is substantial scope for improvement
+2 (Satisfied)
+: The TRE meets this requirement met but there may still be scope for improvement
 
 Although both **1** and **2** indicate a TRE meets the requirement, they indicate different levels of possible improvement.
 
