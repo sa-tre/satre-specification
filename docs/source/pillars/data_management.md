@@ -149,6 +149,24 @@ The ability of the TRE operator to ensure outputs are safely published and share
     Results will be produced which address the project's purpose, some of which may be outputs that are removed from the TRE.
     Understanding what these outputs are likely to be and their sensitivity as early as possible will help prepare for their processing and publication.
   - Recommended
+* - 3.3.3.
+  - You must have a documented process for disclosure control of outputs from the TRE.
+  - This process should define expected risks and how to mitigate them.
+    All TRE outputs must be subject to this process.
+    You might choose to follow existing guidelines, for example around statistical disclosure.
+  - Mandatory
+* - 3.3.4.
+  - You must have a process for assigning responsibility for output checking.
+  - {ref}`Output checkers <admin_roles>` should be given responsibility for checking outputs.
+    They must follow your disclosure control process and will be responsible for any automated parts of this process.
+    Output checking can help mitigate against unintentional data disclosure or leaks.
+  - Mandatory
+* - 3.3.5.
+  - You must have a documented policy for handling disclosure risks associated with any outputs that cannot be manually checked.
+  - Some categories of output, for instance binary files or very large numeric files, can be difficult to manually check.
+    If egress of such files is permitted then the risks of inadvertent disclosure must be mitigated and documented.
+    Refusing to allow egress of such files is also a valid policy decision.
+  - Mandatory
 ```
 
 (information-search-and-discovery)=
