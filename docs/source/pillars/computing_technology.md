@@ -220,7 +220,7 @@ This requires development, installation, configuration, and validation.
   - This might involve a separate development environment or another system for testing.
   - Mandatory
 * - 2.2.5.
-  - You should have separate environments for development and testing infrastructure changes before they are committed to production.
+  - You should have a development environment that mirrors your production environment which you use to test infrastructure changes before committing them to production.
   - If possible, you should automate application of changes between development and production environments.
     Consider the costs and practicality of whether this will work for your situation.
   - Recommended

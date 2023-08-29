@@ -492,20 +492,34 @@
   - Score
   - Response
 * - 2.2.1.
-  -
-  -
+  - 2
+  - We have a detailed deployment guide which system managers follow to deploy a TRE instance.
 * - 2.2.2.
-  -
-  -
+  - 1
+  - We use reproducible Powershell scripts that are stored in GitHub to handle our deployments.
+    This code is regularly tested and new versions released.
+  ##### Potential Improvements
+  - We do not currently use third-party infrastructure-as-code tools but we are in the process of moving to them.
 * - 2.2.3.
-  -
-  -
+  - 1
+  - We have documented procedures to add/remove users and to resize, add or remove infrastructure components such as GPU-enabled machines.
+    We do not make ad-hoc or unusual changes to deployed infrastructure in the course of normal operation.
+    In emergencies, we would deploy a fix that had been tested in development and then hold an incident report meeting.
+  ##### Potential Improvements
+  - We do not currently have a formal process for making emergency changes to our production system.
 * - 2.2.4.
-  -
-  -
+  - 1
+  - We use separate development environments to test changes before they make it into a release.
+    Emergency fixes to our production environments are also tested on development environments before being deployed.
+    Production environments are created from known, tested releases of the codebase.
+  ##### Potential Improvements
+  - We do not currently have a formal process for making emergency changes to our production system.
 * - 2.2.5.
-  -
-  -
+  - 1
+  - We do have separate development environments, but these are not permanent clones of our production environment.
+    We do not automate promotion of development environments to production.
+  ##### Potential Improvements
+  - We would consider moving to a blue/green deployment environment as long as this is possible from a cost perspective.
 * - **Capability met?**
   - **YES**
   -
