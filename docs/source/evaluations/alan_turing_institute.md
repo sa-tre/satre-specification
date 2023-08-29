@@ -35,9 +35,9 @@
     - Our TRE organisation does not control staff numbers in the legal and data protection teams.
     ##### Potential Improvements
     - Ensure that staff time is explicitly allocated to TRE support.
-* - **Summary**
-  - **?**
-  - **Explanation**
+* - **Capability met?**
+  - **YES**
+  -
 ```
 
 ## Quality Management
@@ -119,9 +119,9 @@
 * - 1.2.12.
   - 0
   - - We do not use any quality management software.
-* - **Summary**
-  - **?**
-  - **Explanation**
+* - **Capability met?**
+  - **YES**
+  -
 ```
 
 ## Risk Management
@@ -159,9 +159,9 @@
     - We have not yet encountered risks that fall outside our known risk appetite.
     ##### Potential Improvements
     - Develop a procedure for handling opportunities outside our risk appetite
-* - **Summary**
-  - **?**
-  - **Explanation**
+* - **Capability met?**
+  - **YES**
+  -
 ```
 
 ## Study Management
@@ -214,9 +214,9 @@
     - Documents pertaining to each project are kept in a private Sharepoint folder.
     ##### Potential Improvements
     - Reduce manual steps in this process.
-* - **Summary**
-  - **?**
-  - **Explanation**
+* - **Capability met?**
+  - **YES**
+  -
 ```
 
 ## Member Accreditation
@@ -261,9 +261,9 @@
     - Other user documentation such as training records is associated to their name (not their username).
     ##### Potential Improvements
     - Develop a more comprehensive system for user records tracking.
-* - **Summary**
-  - **?**
-  - **Explanation**
+* - **Capability met?**
+  - **YES**
+  -
 ```
 
 ## Training Delivery and Management
@@ -329,7 +329,7 @@
     - We have not explored whether this information is available from our training providers.
     ##### Potential Improvements
     - Find out whether historical course content can be accessed.
-* - **Summary**
-  - **?**
-  - **Explanation**
+* - **Capability met?**
+  - **YES**
+  -
 ```
