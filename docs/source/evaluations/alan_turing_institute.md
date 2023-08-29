@@ -433,11 +433,16 @@
   - Score
   - Response
 * - 2.1.12.
-  -
-  -
+  - 2
+  - We provide proxied access to external software repositories, currently PyPI and CRAN, using Sonatype Nexus.
+    For our highest sensitivity projects we instead provide a local mirror.
+    In either case, we can support either access to every package in the remote repository or a pre-specified allowed list of approved packages.
 * - 2.1.13.
-  -
-  -
+  - 2
+  - We do restrict access to a pre-specified allowed list for higher sensitivity environments.
+    These allowed lists include a minimal set of well-used and useful packages plus their dependencies.
+    We have guidelines about how to request new packages which involve making a request on our GitHub repository.
+    Requests are then approved or denied by sysadmins based on whether their usefulness outweighs any potential risk to the project.
 * - **Capability met?**
   - **YES**
   -
