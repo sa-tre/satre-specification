@@ -368,23 +368,34 @@
   - Score
   - Response
 * - 2.1.4.
-  -
-  -
+  - 2
+  - We use a virtual Linux desktop, accessible via a web browser.
+    We use standard, open-source tools, like Apache Guacamole, to support this.
 * - 2.1.5.
-  -
-  -
+  - 1
+  - We have a user guide that explains how to use the installed software, as well as how to configure your user account.
+  ##### Potential Improvements
+  - We intend to iterate on the design of the user guide to make it easier to navigate, follow and understand - and separate it entirely from developer docs.
 * - 2.1.6.
-  -
-  -
+  - 2
+  - We use the Azure platform-level automation tools to run weekly software updates on all virtual machines that make up the TRE.
+    Any update failures are flagged by the automation software.
 * - 2.1.7.
-  -
-  -
+  - 2
+  - Within each project environment we have a range of shared services.
+    These include shared folders, user services such as GitLab, for collaborating on code, CodiMD, for collaborating on document writing and several database systems.
 * - 2.1.8.
-  -
-  -
+  - 2
+  - These shared services are only available to users working within the same environment.
 * - 2.1.9.
-  -
-  -
+  - 2
+  - User-facing software and tools are all open source.
+    We do not allow any software to contact external licensing servers.
+* - 2.1.10.
+  - 2
+  - We provide a wide range of tools and applications for data science, influenced by the needs of users.
+    Our users are typically data scientists working with data directly.
+    This data can only be accessed from inside the TRE, either via a database or a shared folder.
 * - **Capability met?**
   - **YES**
   -
@@ -399,7 +410,7 @@
 * -
   - Score
   - Response
-* - 2.1.10.
+* - 2.1.11.
   -
   -
 * - **Capability met?**
@@ -416,10 +427,10 @@
 * -
   - Score
   - Response
-* - 2.1.11.
-  -
-  -
 * - 2.1.12.
+  -
+  -
+* - 2.1.13.
   -
   -
 * - **Capability met?**
@@ -436,9 +447,6 @@
 * -
   - Score
   - Response
-* - 2.1.13.
-  -
-  -
 * - 2.1.14.
   -
   -
@@ -449,6 +457,9 @@
   -
   -
 * - 2.1.17.
+  -
+  -
+* - 2.1.18.
   -
   -
 * - **Capability met?**
