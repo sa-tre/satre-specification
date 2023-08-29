@@ -344,14 +344,15 @@
   - Score
   - Response
 * - 2.1.1.
-  -
-  -
+  - 2
+  - We do not allow data to move between the system clipboard and workspace in any instance.
 * - 2.1.2.
-  -
-  -
+  - 2
+  - We provide both virtual desktop and command line interfaces to Linux virtual machines.
+    Self-hosted web applications focused on collaborative work are accessible within the environment.
 * - 2.1.3.
-  -
-  -
+  - 2
+  - We do not provide a job-submission interface, all users have direct access to the data they are working with.
 * - **Capability met?**
   - **YES**
   -
