@@ -411,8 +411,13 @@
   - Score
   - Response
 * - 2.1.11.
-  -
-  -
+  - 1
+  - Version control tools are provided to users, including an internal GitLab instance.
+    Users are encouraged to version control their code and we provide training for those who are unfamiliar with git.
+  ##### Potential Improvements
+  - We do not provide specific tools to aid or encourage reproducibility or creating data analysis pipelines.
+    We do not support CI pipelines on our GitLab server.
+    We do not have a method, such as containerisation, to ensure that work done inside the environment can be reproduced outside.
 * - **Capability met?**
   - **YES**
   -
