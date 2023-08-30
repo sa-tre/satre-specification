@@ -901,11 +901,11 @@
   -
 ```
 
-### Vulnerability Management
+## Information security
 
 ```{list-table}
 :header-rows: 1
-:name: tab-turing-dsh-vulnerability-management
+:name: tab-turing-dsh-information-security
 
 * -
   - Score
@@ -915,20 +915,6 @@
   - We comply with the NHS DSPT standard which allows us to process anonymised patient-derived data.
     #### Potential improvements
     - We would like to gain accreditation for more wide-ranging standards, for instance CyberEssentials+, ISO27001 and DEA, which cover holistic safe data and research management above and beyond NHS patient data.
-* - **Capability met?**
-  - **YES**
-  -
-```
-
-### Security testing
-
-```{list-table}
-:header-rows: 1
-:name: tab-turing-dsh-security-testing
-
-* -
-  - Score
-  - Response
 * - 3.5.2.
   - 1
   - A thorough external penetration test is carried out upon each major release of the Data Safe Haven codebase used by our TRE.
@@ -954,20 +940,6 @@
     #### Potential improvements
     - We could try to find a way to securely run penetration tests on our production environments rather than setting up dedicated testing environments.
     - We should run regular security tests rather than only doing so at deployment time.
-* - **Capability met?**
-  - **YES**
-  -
-```
-
-### Encryption
-
-```{list-table}
-:header-rows: 1
-:name: tab-turing-dsh-encryption
-
-* -
-  - Score
-  - Response
 * - 3.5.6.
   - 2
   - We rely on Azure platform level encryption.
@@ -992,20 +964,6 @@
   - 2
   - We rely on Azure's secure key management practices and trust that these are kept up to date.
     Details are available [here](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest#azure-key-vault).
-* - **Capability met?**
-  - **YES**
-  -
-```
-
-### Physical security
-
-```{list-table}
-:header-rows: 1
-:name: tab-turing-dsh-physical-security
-
-* -
-  - Score
-  - Response
 * - 3.5.11.
   - 1
   - We do not apply physical protection methods.
