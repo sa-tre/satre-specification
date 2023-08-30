@@ -87,8 +87,8 @@ Such governance responsibilities typically involve establishing policies and pro
   - People responsible for ensuring the TRE is operating correctly and that all processes are working as intended, and being followed by other roles. See {ref}`quality_management`.
 * - Top Management
   - Person or group of persons who leads and controls an organization at the highest level. This definition is taken from *ISO 9000:2015* and in this context refers to the most senior governance official who own the risks associated with TRE research, can make decisions and allocate resources. See {ref}`risk_ownership_process`.
-* - Information Asset Owner/ Data Custodian
-  - Owner of a dataset, project or work package within a TRE.
+* - Information Asset Owner
+  - This could be the custodian or owner of a dataset, project or other information asset within a TRE.
 * - Lay panel
   - Members of the public charged with oversight of TRE operational decisions on behalf of parties affected by data usage.
 
