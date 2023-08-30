@@ -1125,8 +1125,9 @@
   - Score
   - Response
 * - 4.5.1.
-  - You must identify any goods or services that will be needed to operate the TRE and ensure that a plan is in place to purchase them as needed.
-  - These may include computing hardware, cloud credits or devices through which users access the TRE.
+  - 2
+  - We have systems in place for ensuring cloud credits required for TRE provision can be purchased by projects requiring a TRE.
+    We also have systems in place for providing Chromebooks to TREs users who require access to higher-security TREs where managed devices are required.
 * - **Capability met?**
   - **YES**
   -
