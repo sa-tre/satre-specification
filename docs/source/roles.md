@@ -87,8 +87,6 @@ Such governance responsibilities typically involve establishing policies and pro
   - Owner of a dataset, project or work package within a TRE.
 * - Internal Auditor
   - 
-* - Ethicist
-  -
 * - Lay panel
   - Members of the public charged with oversight of TRE operational decisions on behalf of parties affected by data usage.
 
