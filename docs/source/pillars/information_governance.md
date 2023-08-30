@@ -429,7 +429,7 @@ This {term}`data object <data object>` is a centralised record or database that 
   - Importance
 * - 1.4.7.
   - You should keep a complete record of all the research studies and projects within the TRE current and past.
-  - The study register should contain all data related to a study including a reference to data assets, members (researchers, owners _etc._) and any compliance activities required.
+  - The study register should contain all data related to a study including a reference to data assets, {ref}`project team members <project_roles>`, {ref}`information asset owners <data_roles>` and any compliance activities required.
   - Recommended
 ```
 
