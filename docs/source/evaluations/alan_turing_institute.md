@@ -1143,9 +1143,9 @@
   - Score
   - Response
 * - 4.6.1.
-  - You TRE must have a team in place to support projects working with TREs.
-  - This may be part of your organisation's IT support team, or separate.
-    Responsibility should be clear and stakeholders should easily be able to access support appropriate to their needs.
+  - 2
+  - We have a dedicated service team for deploying TREs and supporting processes.
+    This is well documented and made available to researchers via the company intranet - though the docs themselves are [publicly available online](https://alan-turing-institute.github.io/trusted-research/)
 * - **Capability met?**
   - **YES**
   -
