@@ -23,7 +23,7 @@ Roles for people using the TRE to conduct research or analyse data in the TRE.
 * - Researcher
   - People responsible for carrying out the research project using a TRE.
 * - Data Steward
-  - People who ensure data within a TRE is maintained and processed in ways useful to the researchers, including providing data extracts.
+  - People who ensure data within a TRE is maintained and processed in ways useful to researchers, including providing data extracts to specific projects or researchers. May also be known as Data Wranglers or Data Cleaners.
 
 ```
 
