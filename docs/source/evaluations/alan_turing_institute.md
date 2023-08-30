@@ -1060,14 +1060,20 @@
   - Score
   - Response
 * - 4.3.1.
-  - You must document all features of your TRE implementation.
-  - This includes ensuring all documentation is discoverable, clear, and able to be easily updated based on stakeholder feedback
+  - 2
+  - Our documentation is hosted across two public web sites.
+    There is one site for the codebase used for deploying infrastructure, and another for process handling for live projects.
+    These sites are generated from GitHub repositories which can be easily updated in response to feedback as needed.
 * - 4.3.2.
-  - You should have an education programme in place to upskill stakeholders in the use and management of your TRE.
-  - This may include learning modules, workshops and other resources on how to effectively access and use a TRE, FAQ pages, and accessible pathways for additional support
+  - 2
+  - We have documentation in place for using and managing our TRE.
+    #### Potential improvements
+    - We could offer a consistent training programme for all projects.
 * - 4.3.3.
-  - You should periodically carry out a training needs analysis (TNA) for all stakeholders included within your TRE provision.
-  - At least once every 12 months you should assess the training needs of your stakeholders, and ensure they have easy access to all required training materials
+  - 1
+  - We have identified training needs for stakeholders and made plans to address this, but we do not currently have plans for reviewing these.
+    #### Potential improvements
+    - We should perform a regular training needs analysis review.
 * - **Capability met?**
   - **YES**
   -
