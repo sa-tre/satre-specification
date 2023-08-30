@@ -743,49 +743,62 @@
   - Score
   - Response
 * - 3.1.1.
-  - You must have processes in place to assess the legal and regulatory implications of handling the data through its full lifecycle.
-  - This involves considering your obligations to data controllers and subjects, and whether any security controls may be legally or contractually required.
-    An assessment of the risks involved will also be needed.
-    It may involve classifying the project into a predefined sensitivity category or defining bespoke controls.
+  - 2
+  - Legal and regulatory implications are considered as part of the Data Protection Assessment Process (DPAP) when projects are first proposed.
+    Each project is classified into one of five pre-defined security tiers before any work starts.
+    Each tier has an associated set of security controls, although additional controls can be imposed on top of these if required.
 * - 3.1.2.
-  - You should keep records of data handling decisions.
-  - Decisions that are made as part of the process discussed above should be recorded and made available for inspection by all stakeholders.
+  - 2
+  - A signed approval form is required for each instance of ingress or egress.
+    A signed validation form must be filled out by the project team to confirm that any data that is ingressed or egressed is as expected.
+    A signed approval form for the security tier of each project is also required.
+    These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.3.
-  - You must have a data ingress process which enforces information governance rules/processes.
-  - The data ingress process needs to ensure that information governance is correctly followed.
-    In particular, it should require that an ingress request has been approved by all required parties.
+  - 2
+  - We implement data handling restrictions on data coming into the environment.
+    These involve getting agreement from the data provider, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
+    These stakeholders must sign a form detailing the requested ingress to confirm their agreement.
 * - 3.1.4.
-  - You must have a data egress process which enforces information governance rules/processes.
-  - The data egress process needs to ensure that information governance requirements are adhered to.
-    In particular, it should require that an egress request has been approved by all required parties.
+  - 2
+  - We implement data handling restrictions on data coming out of the environment.
+    These involve getting agreement from the data provider, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
+    These stakeholders must sign a form detailing the requested egress to confirm their agreement.
+    These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.5.
-  - Your data egress process could sometimes require project-independent approval.
-  - There may be cases where there are multiple stakeholders for a piece of analysis including data providers, data analysts, data subjects, the TRE operator.
-    A data egress process may then require approval from people not on the project team, for example an external referee or TRE operator representative
+  - 2
+  - Our data egress procedure requires signed agreement from representatives of all data providers, the project team and a referee external to the project.
 * - 3.1.6.
-  - You must keep a record of what data your TRE holds.
-  - Good records are important for ensuring compliance with legislation, understanding risk and aiding good data hygiene.
-    The record should include a description of the data, its source, contact details for the data owner, which projects use the data, the date it was received, when it is expected to no longer be needed.
+  - 2
+  - Data from ingress is recorded in the aforementioned forms.
+    The record includes a description of the data, its source (the data provider), contact details for the data owner.
+    This project initialisation document is specific to the particular TRE project that uses the data and will include the date that data was ingressed to the TRE.
+    At, or shortly after, the project end date stated in this document, the data is securely deleted from the TRE in a way that renders it unrecoverable.
 * - 3.1.7.
-  - You must have a policy on data deletion.
-  - There should be a clear, published policy on when data will be retained or deleted.
-    This may allow time for data owners to consider outputs they may want to extract from the TRE.
-    Any sensitive data, including all backups, should be deleted when they are no longer needed.
-    Having clear policies will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
+  - 2
+  - At the end of the project we require all relevant contact people to confirm that their environment can be torn down.
+    Doing this means that any data, code or other files that have not been egressed will be irretrievably lost and any users associated only with this project will have their accounts disabled.
+    #### Potential improvement
+    - We should draft a clear policy on data deletion in the case that communication breaks down between the project team and TRE operators.
+      In particular, this should ensure that any data in the scope of GDPR is not being held without a purpose.
 * - 3.1.8.
-  - You could keep backups of data and research environments, provided that this is permitted by law.
-  - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
-    TRE developers may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
+  - 1
+  - Some research environment data is backed up.
+    This includes virtual disks and object storage accounts which contain, users personal/configuration files and working data.
+    Backups are distributed across data centres within a single region.
+    Input data is only kept as a single, immutable copy which is not backed up (although users may make copies which would be).
+    Because input data is always a copy, we are not concerned about the loss of input data.
+    #### Potential improvement
+    - We could ensure that non-file working data, such as database contents are also backed up.
 * - 3.1.9.
-  - You should log how input data is modified.
-  - If the input data is mutable a TRE should keep records of its modification.
-    For example, when the data was modified and by who.
+  - 2
+  - The input data is immutable to users, it is kept in a folder that is read-only for TRE users.
+    The only way input data can be modified is through the ingress process, which is logged.
 * - 3.1.10.
-  - You must, to a reasonable extent, prevent unauthorised data ingress or egress.
-  - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
-    However, it is difficult to control for every possibility.
-    For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
-    An example of a reasonable measure would be for a remote desktop based TRE to prevent data being copied from a local machine's clipboard to a workspace.
+  - 2
+  - Ingress and egress are only possible by approved parties using a secure upload/download procedure.
+    This involves using secure email to share a time-limited upload/download token for use with Azure Storage Explorer.
+    Copying data into the TRE from the clipboard is not permitted.
+    All users must complete relevant training before accessing a TRE, and sign our terms-of-use, which make them aware that they must not attempt to move data in or out of the environment without authorisation.
 * - **Capability met?**
   - **YES**
   -
