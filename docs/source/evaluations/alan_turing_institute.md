@@ -1035,12 +1035,16 @@
   - Score
   - Response
 * - 4.2.1.
-  - You should ensure that all projects using your TRE have a named project manager.
-  - The project manager has responsibility to ensure the smooth running of the project.
-    Their responsibilities may include budget management, tracking TRE status, managing communications with the TRE operations team, and other project support tasks.
+  - 2
+  - All projects have a project manager named in a Sharepoint document that is signed by all stakeholders.
+    This individual is responsible for all project support tasks listed above.
+    They will liaise with the TRE operations team as necessary.
 * - 4.2.2.
-  - You should not give project managers direct access to the TRE.
-  - Doing so ensures a separation between those able to access sensitive data, and those overseeing access to sensitive data.
+  - 2
+  - Only a list of named researchers get access to to the TRE.
+    The project manager is not currently forbidden from being a project team member but this situation has never arisen.
+    #### Potential improvements
+    - We could create a policy that the project manager is not allowed to be part of the project team.
 * - **Capability met?**
   - **YES**
   -
