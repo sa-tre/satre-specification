@@ -13,6 +13,8 @@ SATRE Pillars Capability Map
 
 <!-- See all pillars of the SATRE Pillars Capability Map here: {ref}`satre_pillars` -->
 
+(data_lifecycle_management)=
+
 ## Data lifecycle management
 
 The ability of the {ref}`TRE operator <admin_roles>` to manage how and where data is stored, how it moves, changes and is removed.
