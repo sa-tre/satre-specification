@@ -668,8 +668,13 @@
   - Score
   - Response
 * - 2.3.4.
-  -
-  -
+  - 2
+  - We provide projects with estimates of their spend which are dependent on their requirements.
+    We track spending on a per-project basis and allow the project manager to monitor spending.
+    Spending alerts are sent out when spending reaches set thresholds: 50%, 90%, 100% of the pre-agreed limit.
+    Overspend is possible but the additional spending must still be recovered from the project.
+  ##### Potential Improvements
+  - We should be clearer about the consequences of overspending.
 * - **Capability met?**
   - **YES**
   -
