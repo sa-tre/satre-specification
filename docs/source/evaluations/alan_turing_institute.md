@@ -417,7 +417,7 @@
     ##### Potential Improvements
     - We do not provide specific tools to aid or encourage reproducibility or creating data analysis pipelines.
     - We do not support CI pipelines on our GitLab server.
-    - We do not have a method, such as containerisation, to ensure that work done inside the environment can be reproduced outside.
+    - We do not have a method to ensure that work done inside the environment can be reproduced outside such as containerisation.
 * - **Capability met?**
   - **YES**
   -
@@ -559,7 +559,7 @@
 * - 2.2.8.
   - 0
   - We do not have an availability target.
-    We do not make any guarantees to our users.
+    We do not make any availability guarantees to our users.
 * - **Capability met?**
   - **YES**
   -

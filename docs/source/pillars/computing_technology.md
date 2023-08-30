@@ -86,13 +86,14 @@ This {term}`application component <application component>` is the tools used by 
   - Optional
 * - 2.1.8
   - Your TRE must ensure that any shared services are only available to users working on the same project.
-  - Your TRE might not provide shared services.
-  - Mandatory (if applicable)
+  - Poorly designed shared services could enable the unintended mixing of data between projects.
+  To prevent this it is necessary that each instance is only shared between users of a single project.
+  - Mandatory
 * - 2.1.9.
   - You must mitigate and record any risks introduced by the use in your TRE of software that requires telemetry to function.
   - For example, some licenced commercial software must contact an external licensing server at start-up.
     You must be confident that only licensing information is sent to this server and that any network connections are secure.
-  - Mandatory (if applicable)
+  - Mandatory
 * - 2.1.10.
   - Your TRE must provide software applications that are relevant to working with the data in the TRE.
   - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
