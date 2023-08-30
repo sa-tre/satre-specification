@@ -535,8 +535,9 @@
   - Score
   - Response
 * - 2.2.6.
-  -
-  -
+  - 2
+  - We use Powershell scripts to automate the removal of unused infrastructure.
+    We have documented procedures that detail when this should be done.
 * - **Capability met?**
   - **YES**
   -
@@ -552,11 +553,13 @@
   - Score
   - Response
 * - 2.2.7.
-  -
-  -
+  - 2
+  - Azure publishes availability and uptime guarantees for relevant services.
+    We have chosen replication levels which balance high availability while keeping data within a single region.
 * - 2.2.8.
-  -
-  -
+  - 0
+  - We do not have an availability target.
+    We do not make any guarantees to our users.
 * - **Capability met?**
   - **YES**
   -
