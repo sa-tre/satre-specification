@@ -99,7 +99,23 @@ Such governance responsibilities typically involve establishing policies and pro
   - People who lead and control an organisation at the highest level. This definition is taken from *ISO 9000:2015* and in this context refers to the most senior governance official who own the risks associated with TRE research, can make decisions and allocate resources. See {ref}`risk_ownership_process`.
 * - Information Asset Owner
   - This could be the custodian or owner of a dataset, project or other information asset within a TRE.
-* - Lay panel
-  - Members of the public charged with oversight of TRE operational decisions on behalf of parties affected by data usage.
 
+```
+
+(public_roles)= 
+
+## Public roles
+
+Roles that concern members of the public with regard to TREs and TRE research.
+
+```{list-table}
+:header-rows: 1
+:name: tab-tre-role-public
+
+* - Role name
+  - Role description
+* - Lay Panel
+  - Members of the public charged with oversight of TRE operational decisions on behalf of parties affected by data usage.
+* - Data Subject
+  - People who are identifiable by data being used for research, e.g. patients in healthcare record data.
 ```
