@@ -221,20 +221,6 @@ The ability of the TRE operator to identify, assess, report on, manage and remed
   - Guidance
   - Importance
 * - 3.5.1.
-  - You should keep all TRE computing infrastructure up-to-date with security patches and antivirus (if appropriate).
-  - This might involve scheduling regular automated scanning and application of updates.
-    Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.
-  - Recommended
-* - 3.5.2.
-  - You should conduct regular vulnerability scans of TRE infrastructure.
-  - Ensuring that scans are done on a regular basis can enable TRE operators can identify and address weaknesses that may have been introduced during the operational lifetime of the TRE.
-  - Recommended
-* - 3.5.3.
-  - You should regularly check the compliance of machine and resource configurations.
-  - This might involve automated "desired state" enforcement or manual checks.
-    It might also include checks over what actions are possible, for example, whether or not certain network connections are allowed.
-  - Recommended
-* - 3.5.4.
   - Your TRE should adhere to one or more external security standards.
   - The TRE operator should identify appropriate security standards and best practices that it will adhere too.
     These should be stated to all stakeholders in advance of any data being brought in to the TRE.
