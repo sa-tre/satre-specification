@@ -56,6 +56,8 @@ What the {ref}`TRE operator <admin_roles>` does to ensure effective management o
   - Recommended
 ```
 
+(knowledge_management)=
+
 ## Knowledge management
 
 What the {ref}`TRE operator <admin_roles>` does to acquire, enrich, share, store, publish and enhance expertise across their organisation.

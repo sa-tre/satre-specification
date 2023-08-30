@@ -39,10 +39,10 @@ The IT and related professionals who will be responsible for deploying and manag
 
 * - Role name
   - Role description
-* - TRE operator
-  - People responsible for the management of the TRE's IT infrastructure and general processes. Examples include carrying out data ingress/egress and managing user access.
+* - TRE Operator
+  - People responsible for the management of the TRE's IT infrastructure and general processes. Examples include carrying out data ingress/egress and managing user access. TRE operators should expect to have access to documentation regarding all processes they are required to carry out, developed by themselves or (in partnership with) the TRE Developers. This documentation should be comprehensive and include troubleshooting steps. See {ref}`knowledge_management`.
 * - Infrastructure Deployment Role
-  - People responsible for carrying out (and documenting) the {ref}`infrastructure_deployment_process`.
+  - People responsible for carrying out the {ref}`infrastructure_deployment_process`. This role could be taken on by either the TRE Operators or the TRE Developers.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
 * - Database Administrator
