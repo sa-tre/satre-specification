@@ -20,8 +20,25 @@ Roles for people using the TRE to conduct research or analyse data in the TRE.
   - Role description
 * - Researcher
   - People responsible for carrying out the research project using a TRE. These could be programmers and data scientists, but could also be scientists working in fields where deep computing expertise is less common. Researchers working with TREs that meet the SATRE standard should to have a broadly similar user experience, at least where the type of researcher is consistent (e.g. data scientists). This includes both the user experience of the platforms themselves, and the associated documentation.
+
+```
+
+(data_roles)=
+
+## TRE data roles
+
+Roles for people managing data and databases used in a TRE.
+
+```{list-table}
+:header-rows: 1
+:name: tab-tre-role-data
+
+* - Role name
+  - Role description
 * - Data Steward
   - People who ensure data within a TRE is maintained and processed in ways useful to researchers, including providing data extracts to specific projects or researchers. May also be known as Data Wranglers or Data Cleaners.
+* - Database Administrator
+  - People responsible for managing any databases included in the TRE. Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects. See {ref}`advanced_CCC`.
 
 ```
 
@@ -43,8 +60,6 @@ The IT and related professionals who will be responsible for deploying and manag
   - People responsible for carrying out the {ref}`infrastructure_deployment_process`. This role could be taken on by either the TRE Operators or the TRE Developers.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
-* - Database Administrator
-  - People responsible for managing any databases included in the TRE. Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects. See {ref}`advanced_CCC`.
 ```
 
 (developer_roles)=
