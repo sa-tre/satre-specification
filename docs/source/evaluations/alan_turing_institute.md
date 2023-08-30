@@ -690,26 +690,40 @@
   - Score
   - Response
 * - 2.4.1.
-  -
-  -
+  - 1
+  - We have a detailed deployment guide which system managers follow to deploy and configure a TRE instance.
+    We have a limited set of documentation covering making common configuration changes after a TRE has been deployed.
 * - 2.4.2.
-  -
-  -
+  - 0
+  - We do not use configuration management tools.
+    We have a limited set of scripts to make some common configuration changes.
+    Some changes involve manual steps which may be documented.
 * - 2.4.3.
-  -
-  -
+  - 0
+  - There is no general, automated way to check the configuration of our TRE.
+    A manual check would be time consuming and no process for doing so has been established.
+    Security package update compliance for Ubuntu and Windows virtual machines can be confirmed.
 * - 2.4.4.
-  -
-  -
+  - 0
+  - We are unable to verify configuration and so do not regularly check for compliance.
 * - 2.4.5.
-  -
-  -
+  - 1
+  - We can replace non-compliant instances and/or components using out deployment processes and scripts.
+    We are able to do this in a manner which avoids data loss.
+    However, it will generally involve destruction and redeployment of infrastructure.
 * - 2.4.6.
-  -
-  -
+  - 1
+  - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
+    All Windows and Ubuntu virtual machines have system package updates automatically applied on a weekly schedule.
+    Other parts of the TRE infrastrcture, for example Docker images used by the remote desktop and package proxy servers, are not automatically updated.
+    Infrastructure changes may be made from an adminstrator's personal machine.
+  ##### Potential Improvements
+  - We should add a process for recognising when container images are out of date and for updating them.
 * - 2.4.7.
-  -
-  -
+  - 1
+  - Daily anti-virus definition updates and scans are carried out by ClamAV on all Linux VMs.
+  ##### Potential Improvements
+  - Extend anti-virus coverage to user-inacessible Windows machines, and also scan data (block and object storage) if possible.
 * - **Capability met?**
   - **YES**
   -
