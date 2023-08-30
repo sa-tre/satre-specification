@@ -929,22 +929,31 @@
 * -
   - Score
   - Response
+* - 3.5.2.
+  - 1
+  - A thorough external penetration test is carried out upon each major release of the Data Safe Haven codebase used by our TRE.
+    The results are used to identify and make security improvements to infrastructure, processes and documentation.
+    #### Potential improvements
+    - We could penetration test our production system instead of an equivalent dummy system.
+* - 3.5.3.
+  - 2
+  - The Data Safe Haven codebase used by our TRE has a system for creating internal security advisories and vulnerability reports.
+    After a penetration test these are updated and new advisories are added.
+    Each one is ranked for severity and it is decided whether they can be fixed technically or addressed with workarounds or mitigations.
+    #### Potential improvements
+    - Ensure that changes are made to production systems rather than simply incorporated into the next code release.
+* - 3.5.4.
+  - 2
+  - Our terms-of-use require users to report any potential data incident.
+    We have a process in place for managing data incidents, whether raised by users or discovered independently, that ensures we meet our legal requirements and also implement any necessary changes, such as disabling access to a TRE if necessary.
 * - 3.5.5.
-  - You should carry out penetration tests on your TRE.
-  - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously. Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents.
-* - 3.5.6.
-  - You should update the security controls of your TRE based on the results of security tests.
-  - Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE.
-    Regular testing will allow organisations to refine their TRE security controls and incident response capabilities.
-    It enables them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
-* - 3.5.7.
-  - You must have procedures in place for rapid incident response.
-  - There may be legal requirements to disclose details of any incidents, such as  data breaches for organisations subject to GDPR.
-    Having robust processes in place will ensure a swift and effective response when an incident occurs.
-* - 3.5.8.
-  - You should publish details of your security testing strategy and, where possible, the results of each test.
-  - Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and data providers, can trust that the data they work with or are responsible for is secure within a TRE.
-    If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
+  - 1
+  - The Data Safe Haven codebase used by our TRE makes public the overall results of our regular penetration tests, although the detailed report remains confidential.
+    We have a publicly available document that describes the security checks our code goes through before release.
+    These security checks are also carried out on our production systems.
+    #### Potential improvements
+    - We could try to find a way to securely run penetration tests on our production environments rather than setting up dedicated testing environments.
+    - We should run regular security tests rather than only doing so at deployment time.
 * - **Capability met?**
   - **YES**
   -

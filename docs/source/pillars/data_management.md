@@ -241,22 +241,22 @@ Security testing enables the TRE operator to gain assurance in the security of a
   - Statement
   - Guidance
   - Importance
-* - 3.5.5.
+* - 3.5.2.
   - You should carry out penetration tests on your TRE.
   - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously. Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents.
   - Recommended
-* - 3.5.6.
+* - 3.5.3.
   - You should update the security controls of your TRE based on the results of security tests.
   - Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE.
     Regular testing will allow organisations to refine their TRE security controls and incident response capabilities.
     It enables them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
   - Recommended
-* - 3.5.7.
+* - 3.5.4.
   - You must have procedures in place for rapid incident response.
   - There may be legal requirements to disclose details of any incidents, such as  data breaches for organisations subject to GDPR.
     Having robust processes in place will ensure a swift and effective response when an incident occurs.
   - Mandatory
-* - 3.5.8.
+* - 3.5.5.
   - You should publish details of your security testing strategy and, where possible, the results of each test.
   - Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and data providers, can trust that the data they work with or are responsible for is secure within a TRE.
     If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
