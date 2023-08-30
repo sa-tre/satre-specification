@@ -9,9 +9,9 @@
 SATRE Pillars Capability Map
 ```
 
-This pillar concerns actions taken by the TRE operator to ensure information risk is measured and managed to an acceptable level.
+This pillar concerns actions taken by the {ref}`TRE operator <admin_roles>` to ensure information risk is measured and managed to an acceptable level.
 
-Each TRE operator will have its own information governance requirements.
+Each {ref}`TRE operator <admin_roles>` will have its own information governance requirements.
 These will be informed by the context of the organisation, the work it performs and the nature of the data it processes.
 For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractural requirements from a specific data provider such as a company or research partner organisation.
 

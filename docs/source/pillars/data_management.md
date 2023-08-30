@@ -2,7 +2,7 @@
 
 # Data management
 
-This capability concerns the ability of the TRE operator to manage data assets and ensure information remains secure.
+This capability concerns the ability of the {ref}`TRE operator <admin_roles>` to manage data assets and ensure information remains secure.
 
 ```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
@@ -15,7 +15,7 @@ SATRE Pillars Capability Map
 
 ## Data lifecycle management
 
-The ability of the TRE operator to manage how and where data is stored, how it moves, changes and is removed.
+The ability of the {ref}`TRE operator <admin_roles>` to manage how and where data is stored, how it moves, changes and is removed.
 
 ```{list-table}
 :header-rows: 1
@@ -47,8 +47,8 @@ The ability of the TRE operator to manage how and where data is stored, how it m
   - Mandatory
 * - 3.1.5.
   - Your data egress process could sometimes require project-independent approval.
-  - There may be cases where there are multiple stakeholders for a piece of analysis including data providers, data analysts, data subjects, the TRE operator.
-    A data egress process may then require approval from people not on the project team, for example an external referee or TRE operator representative
+  - There may be cases where there are multiple stakeholders for a piece of analysis including data providers, data analysts, data subjects, the {ref}`TRE operator <admin_roles>`.
+    A data egress process may then require approval from people not on the project team, for example an external referee or {ref}`TRE operator <admin_roles>` representative
   - Optional
 * - 3.1.6.
   - You must keep a record of what data your TRE holds.
@@ -83,7 +83,7 @@ The ability of the TRE operator to manage how and where data is stored, how it m
 
 ## Identity and access management
 
-The ability of the TRE operator to ensure the right people (identities) can only access the tools and data they need.
+The ability of the {ref}`TRE operator <admin_roles>` to ensure the right people (identities) can only access the tools and data they need.
 
 ```{list-table}
 :header-rows: 1
@@ -129,7 +129,7 @@ The ability of the TRE operator to ensure the right people (identities) can only
 
 ## Output management
 
-The ability of the TRE operator to ensure outputs are safely published and shared.
+The ability of the {ref}`TRE operator <admin_roles>` to ensure outputs are safely published and shared.
 
 ```{list-table}
 :header-rows: 1
@@ -196,7 +196,7 @@ The ability to query and browse the data within an environment at various levels
 
 ## Information security
 
-The ability of the TRE operator to protect against the unauthorised use of information, especially electronic data.
+The ability of the {ref}`TRE operator <admin_roles>` to protect against the unauthorised use of information, especially electronic data.
 
 Measures taken to ensure information security can be further categorised into:
 
@@ -212,7 +212,7 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 ### Vulnerability Management
 
-The ability of the TRE operator to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
+The ability of the {ref}`TRE operator <admin_roles>` to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
 
 ```{list-table}
 :header-rows: 1
@@ -223,8 +223,22 @@ The ability of the TRE operator to identify, assess, report on, manage and remed
   - Guidance
   - Importance
 * - 3.5.1.
+  - You should keep all TRE computing infrastructure up-to-date with security patches and antivirus (if appropriate).
+  - This might involve scheduling regular automated scanning and application of updates.
+    Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.
+  - Recommended
+* - 3.5.2.
+  - You should conduct regular vulnerability scans of TRE infrastructure.
+  - Ensuring that scans are done on a regular basis can enable {ref}`TRE operator <admin_roles>`s can identify and address weaknesses that may have been introduced during the operational lifetime of the TRE.
+  - Recommended
+* - 3.5.3.
+  - You should regularly check the compliance of machine and resource configurations.
+  - This might involve automated "desired state" enforcement or manual checks.
+    It might also include checks over what actions are possible, for example, whether or not certain network connections are allowed.
+  - Recommended
+* - 3.5.4.
   - Your TRE should adhere to one or more external security standards.
-  - The TRE operator should identify appropriate security standards and best practices that it will adhere too.
+  - The {ref}`TRE operator <admin_roles>` should identify appropriate security standards and best practices that it will adhere too.
     These should be stated to all stakeholders in advance of any data being brought in to the TRE.
   - Recommended
 ```
@@ -233,7 +247,7 @@ The ability of the TRE operator to identify, assess, report on, manage and remed
 
 ### Security testing
 
-Security testing enables the TRE operator to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
+Security testing enables the {ref}`TRE operator <admin_roles>` to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
 
 ```{list-table}
 :header-rows: 1
@@ -269,7 +283,7 @@ Security testing enables the TRE operator to gain assurance in the security of a
 
 ### Encryption
 
-The ability of the TRE operator to deploy and manage encryption to protect information assets, including data for TRE research projects.
+The ability of the {ref}`TRE operator <admin_roles>` to deploy and manage encryption to protect information assets, including data for TRE research projects.
 
 Here we define 'project' data as the data brought in for work which is very likely to be sensitive and 'user' data, as the working files of a project which might hold copies of all or part of the project data or otherwise reveal sensitive data (_e.g._ through hard coded row/column names).
 
@@ -285,7 +299,7 @@ Here we define 'project' data as the data brought in for work which is very like
   - Your TRE must encrypt project and user data at rest.
   - This prevents unauthorised access to the data even if the storage media is compromised.
     This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
-    The encryption keys may be managed by the TRE operator or by a trusted external actor, for example a cloud provider.
+    The encryption keys may be managed by the {ref}`TRE operator <admin_roles>` or by a trusted external actor, for example a cloud provider.
   - Mandatory
 * - 3.5.7.
   - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
@@ -312,7 +326,7 @@ Here we define 'project' data as the data brought in for work which is very like
 
 ### Physical security
 
-The ability of the TRE operator to manage and protect physical assets from unauthorised access, damage or destruction.
+The ability of the {ref}`TRE operator <admin_roles>` to manage and protect physical assets from unauthorised access, damage or destruction.
 
 Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 

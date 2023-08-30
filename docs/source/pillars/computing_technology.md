@@ -9,9 +9,9 @@
 SATRE Pillars Capability Map
 ```
 
-This pillar concerns actions taken by the TRE operator to manage TRE computing systems.
+This pillar concerns actions taken by the {ref}`TRE operator <admin_roles>` to manage TRE computing systems.
 
-Each TRE operator will have its own computing technology requirements.
+Each {ref}`TRE operator <admin_roles>` will have its own computing technology requirements.
 The security controls needed by the computing infrastructure will depend on information governance requirements.
 Other computing requirements will be influenced by the technical knowledge and experience of those using the TRE, along with the work they need to perform within the system.
 For example, a data scientist will have very different requirements to a clinician.
@@ -21,7 +21,7 @@ The required compute resources will vary according to the scale of data and comp
 
 ## End user computing
 
-The ability of the TRE operator to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
+The ability of the {ref}`TRE operator <admin_roles>` to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
 
 ### End user computing interfaces
 
@@ -190,7 +190,7 @@ This {term}`application component <application component>` involves the use of a
 
 ## Infrastructure management
 
-The ability of the TRE operator to deploy, change or remove physical or virtual infrastructure.
+The ability of the {ref}`TRE operator <admin_roles>` to deploy, change or remove physical or virtual infrastructure.
 
 (infrastructure_deployment_process)=
 
@@ -263,7 +263,7 @@ This {term}`business process <business process>` involves ensuring all IT infras
   - Importance
 * - 2.2.7.
   - You should understand the availability and uptime guarantees of any providers that you rely on.
-  - For remote TREs this might include your cloud provider(s) and/or data centre operators.
+  - For remote TREs this might include your cloud provider(s) and/or data cen{ref}`TRE operator <admin_roles>`s.
     For on-premises TREs, it might be worth using an uninterruptable power supply (UPS) and planning how you would deal with internet outages.
   - Recommended
 * - 2.2.8.
@@ -309,7 +309,7 @@ This {term}`application component <application component>` is an application use
 
 ### Infrastructure analytics application
 
-This {term}`application component <application component>` is an application which enables the TRE operator to record and analyse data about the usage of the TRE.
+This {term}`application component <application component>` is an application which enables the {ref}`TRE operator <admin_roles>` to record and analyse data about the usage of the TRE.
 
 ```{list-table}
 :header-rows: 1
@@ -387,7 +387,7 @@ It involves calculation, issuance, and recording of payments and receipts.
 
 ### Configuration Management Process
 
-This {term}`business process <business process>` involves the TRE operator identifying, maintaining, and verifying information on IT assets and configurations in the TRE organisation.
+This {term}`business process <business process>` involves the {ref}`TRE operator <admin_roles>` identifying, maintaining, and verifying information on IT assets and configurations in the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
