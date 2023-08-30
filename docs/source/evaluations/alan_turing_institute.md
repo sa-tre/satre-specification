@@ -373,9 +373,9 @@
     We use standard, open-source tools, like Apache Guacamole, to support this.
 * - 2.1.5.
   - 1
-  - We have a user guide that explains how to use the installed software, as well as how to configure your user account.
-  ##### Potential Improvements
-  - We intend to iterate on the design of the user guide to make it easier to navigate, follow and understand - and separate it entirely from developer docs.
+  - - We have a user guide that explains how to use the installed software, as well as how to configure your user account.
+    ##### Potential Improvements
+    - We intend to iterate on the design of the user guide to make it easier to navigate, follow and understand - and separate it entirely from developer docs.
 * - 2.1.6.
   - 2
   - We use the Azure platform-level automation tools to run weekly software updates on all virtual machines that make up the TRE.
@@ -412,12 +412,12 @@
   - Response
 * - 2.1.11.
   - 1
-  - Version control tools are provided to users, including an internal GitLab instance.
-    Users are encouraged to version control their code and we provide training for those who are unfamiliar with git.
-  ##### Potential Improvements
-  - We do not provide specific tools to aid or encourage reproducibility or creating data analysis pipelines.
-    We do not support CI pipelines on our GitLab server.
-    We do not have a method, such as containerisation, to ensure that work done inside the environment can be reproduced outside.
+  - - Version control tools are provided to users, including an internal GitLab instance.
+    - Users are encouraged to version control their code and we provide training for those who are unfamiliar with git.
+    ##### Potential Improvements
+    - We do not provide specific tools to aid or encourage reproducibility or creating data analysis pipelines.
+    - We do not support CI pipelines on our GitLab server.
+    - We do not have a method, such as containerisation, to ensure that work done inside the environment can be reproduced outside.
 * - **Capability met?**
   - **YES**
   -
@@ -439,10 +439,10 @@
     In either case, we can support either access to every package in the remote repository or a pre-specified allowed list of approved packages.
 * - 2.1.13.
   - 2
-  - We do restrict access to a pre-specified allowed list for higher sensitivity environments.
-    These allowed lists include a minimal set of well-used and useful packages plus their dependencies.
-    We have guidelines about how to request new packages which involve making a request on our GitHub repository.
-    Requests are then approved or denied by sysadmins based on whether their usefulness outweighs any potential risk to the project.
+  - - We do restrict access to a pre-specified allowed list for higher sensitivity environments.
+      These allowed lists include a minimal set of well-used and useful packages plus their dependencies.
+    - We have guidelines about how to request new packages which involve making a request on our GitHub repository.
+      Requests are then approved or denied by sysadmins based on whether their usefulness outweighs any potential risk to the project.
 * - **Capability met?**
   - **YES**
   -
@@ -475,8 +475,8 @@
 * - 2.1.18.
   - 1
   - We do not currently support large-scale data analytics tools.
-  ##### Potential Improvements
-  - We would consider supporting Spark but it has not been requested by users.
+    ##### Potential Improvements
+    - We would consider supporting Spark but it has not been requested by users.
 * - **Capability met?**
   - **YES**
   -
@@ -496,30 +496,30 @@
   - We have a detailed deployment guide which system managers follow to deploy a TRE instance.
 * - 2.2.2.
   - 1
-  - We use reproducible Powershell scripts that are stored in GitHub to handle our deployments.
-    This code is regularly tested and new versions released.
-  ##### Potential Improvements
-  - We do not currently use third-party infrastructure-as-code tools but we are in the process of moving to them.
+  - - We use reproducible Powershell scripts that are stored in GitHub to handle our deployments.
+    - This code is regularly tested and new versions released.
+    ##### Potential Improvements
+    - We do not currently use third-party infrastructure-as-code tools but we are in the process of moving to them.
 * - 2.2.3.
   - 1
-  - We have documented procedures to add/remove users and to resize, add or remove infrastructure components such as GPU-enabled machines.
-    We do not make ad-hoc or unusual changes to deployed infrastructure in the course of normal operation.
-    In emergencies, we would deploy a fix that had been tested in development and then hold an incident report meeting.
-  ##### Potential Improvements
-  - We do not currently have a formal process for making emergency changes to our production system.
+  - - We have documented procedures to add/remove users and to resize, add or remove infrastructure components such as GPU-enabled machines.
+    - We do not make ad-hoc or unusual changes to deployed infrastructure in the course of normal operation.
+    - In emergencies, we would deploy a fix that had been tested in development and then hold an incident report meeting.
+    ##### Potential Improvements
+    - We do not currently have a formal process for making emergency changes to our production system.
 * - 2.2.4.
   - 1
-  - We use separate development environments to test changes before they make it into a release.
-    Emergency fixes to our production environments are also tested on development environments before being deployed.
-    Production environments are created from known, tested releases of the codebase.
-  ##### Potential Improvements
-  - We do not currently have a formal process for making emergency changes to our production system.
+  - - We use separate development environments to test changes before they make it into a release.
+    - Emergency fixes to our production environments are also tested on development environments before being deployed.
+    - Production environments are created from known, tested releases of the codebase.
+    ##### Potential Improvements
+    - We do not currently have a formal process for making emergency changes to our production system.
 * - 2.2.5.
   - 1
-  - We do have separate development environments, but these are not permanent clones of our production environment.
-    We do not automate promotion of development environments to production.
-  ##### Potential Improvements
-  - We would consider moving to a blue/green deployment environment as long as this is possible from a cost perspective.
+  - - We do have separate development environments, but these are not permanent clones of our production environment.
+    - We do not automate promotion of development environments to production.
+    ##### Potential Improvements
+    - We would consider moving to a blue/green deployment environment as long as this is possible from a cost perspective.
 * - **Capability met?**
   - **YES**
   -
@@ -609,15 +609,15 @@
 * - 2.2.13.
   - 1
   - We keep track of users in Microsoft Entra, projects on a GitHub project board, datasets associated with each project in Sharepoint and workspaces associated with each project on GitHub issues.
-  ##### Potential Improvements
-  - This data is not currently stored in one place, and the processes for tracking data are not clearly defined.
+    ##### Potential Improvements
+    - This data is not currently stored in one place, and the processes for tracking data are not clearly defined.
 * - 2.2.14.
   - 1
   - Each dataset is associated with a single project.
     Only users associated with that project are able to access it.
     We do not keep track of instances of individual users accessing particular datasets.
-  ##### Potential Improvements
-  - We can't think think of a better way to do this now, but are interested in exploring options with the community.
+    ##### Potential Improvements
+    - We can't think think of a better way to do this now, but are interested in exploring options with the community.
 * - 2.2.15.
   - 2
   - We record computational resource usage at the project level.
@@ -650,9 +650,9 @@
   - Our TRE is deployed on the Azure cloud.
     The availability of resources is therefore determined by the capacity of the cloud provider.
     Deciding on the distribution of resources between projects is not a large concern as the availability of resources, generally, greatly exceeds our need.
-  ##### Potential Improvements
-  - Allocating resources to projects is currently done on an ad-hoc basis depending on project needs.
-    We would like to make this process more formal and better documented.
+    ##### Potential Improvements
+    - Allocating resources to projects is currently done on an ad-hoc basis depending on project needs.
+      We would like to make this process more formal and better documented.
 * - **Capability met?**
   - **YES**
   -
@@ -673,8 +673,8 @@
     We track spending on a per-project basis and allow the project manager to monitor spending.
     Spending alerts are sent out when spending reaches set thresholds: 50%, 90%, 100% of the pre-agreed limit.
     Overspend is possible but the additional spending must still be recovered from the project.
-  ##### Potential Improvements
-  - We should be clearer about the consequences of overspending.
+    ##### Potential Improvements
+    - We should be clearer about the consequences of overspending.
 * - **Capability met?**
   - **YES**
   -
@@ -713,17 +713,16 @@
     However, it will generally involve destruction and redeployment of infrastructure.
 * - 2.4.6.
   - 1
-  - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
-    All Windows and Ubuntu virtual machines have system package updates automatically applied on a weekly schedule.
-    Other parts of the TRE infrastrcture, for example Docker images used by the remote desktop and package proxy servers, are not automatically updated.
-    Infrastructure changes may be made from an adminstrator's personal machine.
-  ##### Potential Improvements
-  - We should add a process for recognising when container images are out of date and for updating them.
+  - - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
+    - All Windows and Ubuntu virtual machines have system package updates automatically applied on a weekly schedule.
+    - Other parts of the TRE infrastrcture, for example Docker images used by the remote desktop and package proxy servers, are not automatically updated.
+    ##### Potential Improvements
+    - We should add a process for recognising when container images are out of date and for updating them.
 * - 2.4.7.
   - 1
   - Daily anti-virus definition updates and scans are carried out by ClamAV on all Linux VMs.
-  ##### Potential Improvements
-  - Extend anti-virus coverage to user-inacessible Windows machines, and also scan data (block and object storage) if possible.
+    ##### Potential Improvements
+    - Extend anti-virus coverage to user-inacessible Windows machines, and also scan data (block and object storage) if possible.
 * - **Capability met?**
   - **YES**
   -
