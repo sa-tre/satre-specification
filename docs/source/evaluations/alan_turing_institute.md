@@ -439,10 +439,8 @@
     In either case, we can support either access to every package in the remote repository or a pre-specified allowed list of approved packages.
 * - 2.1.13.
   - 2
-  - - We do restrict access to a pre-specified allowed list for higher sensitivity environments.
-      These allowed lists include a minimal set of well-used and useful packages plus their dependencies.
-    - We have guidelines about how to request new packages which involve making a request on our GitHub repository.
-      Requests are then approved or denied by sysadmins based on whether their usefulness outweighs any potential risk to the project.
+  - - For higher sensitivity environments, we restrict access to a pre-specified allowed list.
+      These allowed lists are configurable on a per-project basis and, by default, include a minimal set of well-used and useful packages plus their dependencies.
 * - **Capability met?**
   - **YES**
   -
