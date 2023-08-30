@@ -31,8 +31,6 @@ Roles for people using the TRE to conduct research or analyse data in the TRE.
 
 The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE specification.
 
-<!-- The document will explain that SATRE conforming TREs should have documentation and infrastructure deployment code/apps that conform to software engineering best practices, which are also defined here, making them "simple" for an IT professional to follow; troubleshooting steps included. -->
-
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-administrator
@@ -55,8 +53,6 @@ The IT and related professionals who will be responsible for deploying and manag
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance.
 
-<!-- The document will explain recommended practices suitable for developing a software of this complexity and reference learnings from existing TRE developers. -->
-
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-developer
@@ -64,7 +60,7 @@ The software engineers responsible for developing and maintaining TRE software, 
 * - Role name
   - Role description
 * - TRE Developer
-  - People responsible for building the software infrastructure that can be used as a TRE. These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research. Alternatively these could be developers who are contracted to build a TRE for a given insitution or project.
+  - People responsible for building the software infrastructure that can be used as a TRE. These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research. Alternatively these could be developers who are contracted to build a TRE for a given insitution or project. TRE developers include people creating bespoke platforms catering to the specific requirements of a project or dataset, as well as developers building generalisable solutions to TRE provision that can be configured based on the research context.
 ```
 
 (governance_roles)=
