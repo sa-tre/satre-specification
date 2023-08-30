@@ -220,7 +220,7 @@ This {term}`data object <data object>` consists of data, including training reco
 * - 1.2.11.
   - You should collect and maintain quality management data for measuring the effectiveness of a TRE.
   - Large amounts of data will be produced by elements within the TRE.
-    These data should be analysed with reports and dashboards provided to guide TRE implementer's improvements and provide re-assurance to data consumers and subjects.
+    These data should be analysed with reports and dashboards provided to guide TRE implementer's improvements and provide re-assurance to {ref}`data consumers <user_roles>` and {ref}`data subjects <public_roles>`.
   - Recommended
 ```
 
