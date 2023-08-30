@@ -125,6 +125,8 @@ The ability of the TRE operator to ensure the right people (identities) can only
   - Optional
 ```
 
+(output_management)=
+
 ## Output management
 
 The ability of the TRE operator to ensure outputs are safely published and shared.
