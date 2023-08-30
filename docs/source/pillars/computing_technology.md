@@ -299,7 +299,7 @@ This {term}`application component <application component>` is an application use
   - Recommended
 * - 2.2.13.
   - You should regularly monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
-  - This will involve following the monitoring procedure detailed above
+  - This will involve following the monitoring procedure detailed above.
   - Recommended
 ```
 
