@@ -1029,18 +1029,16 @@
   - Score
   - Response
 * - 3.6.1.
-  - You must be able to specify what categories of data your TRE is able to support.
-  - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
-    Relevant stakeholders may include data providers and project teams and they may have different levels of technical expertise.
+  - 2
+  - We categorise projects into one of five security tiers.
+    These are clearly defined in our documentation.
+    We are able to support four of those tiers and would reject any projects falling into the most sensitive tier.
 * - 3.6.2.
-  - Your TRE could support projects with differing security requirements through configurable security controls.
-  - This allows projects with different security requirements to each be met with a suitable level of controls.
-    It helps ensure that users can work effectively, with minimal barriers.
+  - 2
+  - We support projects with differing security requirements through security controls that are pre-defined for each tier.
 * - 3.6.3.
-  - Your TRE could offer a pre-defined set of security control tiers.
-  - Security control tiers can be designed to cover the types of project or data you expect to handle.
-    Projects may be placed into the most suitable tier rather than having a bespoke design.
-    This reduces the number of unique configurations that need to be supported.
+  - 2
+  - We support a documented set of security control tiers that projects can choose from at the outset.
 * - **Capability met?**
   - **YES**
   -
