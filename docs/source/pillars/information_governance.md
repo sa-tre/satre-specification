@@ -72,6 +72,8 @@ This {term}`business process <business process>` involves assigning, distributin
   - Mandatory
 ```
 
+(quality_management)=
+
 ## Quality Management
 
 What the organisation does to measure and control quality of processes, documentation and outputs.

@@ -81,10 +81,8 @@ Such governance responsibilities typically involve establishing policies and pro
 
 * - Role name
   - Role description
-* - Information Governance Role
-  - People responsible for designing and documenting processes for TRE information governance
 * - Quality Manager
-  - People responsible for ensuring the TRE is operating correctly and that all processes are working as intended, and being followed by other roles.
+  - People responsible for ensuring the TRE is operating correctly and that all processes are working as intended, and being followed by other roles. See {ref}`quality_management`.
 * - Top Management
   - Person or group of persons who leads and controls an organization at the highest level. This definition is taken from *ISO 9000:2015* and in this context refers to the most senior governance official who own the risks associated with TRE research, can make decisions and allocate resources.
 * - Information Asset Owner/ Data Custodian
