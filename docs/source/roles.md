@@ -66,8 +66,8 @@ The software engineers responsible for developing and maintaining TRE software, 
 
 * - Role name
   - Role description
-* - TRE Software Developer
-  - People responsible for building the software infrastructure that can be used as a TRE.
+* - TRE Developer
+  - People responsible for building the software infrastructure that can be used as a TRE. These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research. Alternatively these could be developers who are contracted to build a TRE for a given insitution or project.
 ```
 
 (governance_roles)=
