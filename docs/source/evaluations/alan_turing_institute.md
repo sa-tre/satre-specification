@@ -1161,8 +1161,9 @@
   - Score
   - Response
 * - 4.7.1.
-  - You should have a clear process in place for stakeholders to feedback on your TRE infrastructure.
-  - This may include a GitHub repository where people can open issues and discussions, communication streams like Slack or email, or forms stakeholders can fill in.
+  - 2
+  - The code that deploys our TRE infrastructure is fully open-source and open to contributions from anyone.
+    We also have a dedicated Slack channel and email address for stakeholders to engage with the project team.
 * - **Capability met?**
   - **YES**
   -
