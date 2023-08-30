@@ -575,19 +575,25 @@
   - Score
   - Response
 * - 2.2.9.
-  -
-  -
+  - 2
+  - We use Azure network security groups and firewalls to control network traffic between different parts of the TRE.
+    Only the minimum necessary categories of traffic are permitted.
+    The TRE gateway only permits connections from pre-approved IP addresses.
 * - 2.2.10.
-  -
-  -
+  - 2
+  - Different projects are isolated at the virtual network level.
+    Data sets belong to a single project only and are stored in storage accounts which only that project can access.
+    Normal users have no way to directly connect to other project environments even if they have valid accounts for them.
 * - 2.2.11.
-  -
-  -
+  - 2
+  - We block outbound connections to the internet unless these are required for functionality, such as system updates.
+    All outbound connections are monitored by the Azure firewall.
 * - 2.2.12.
-  -
-  -
+  - 0
+  - We do not actively monitor our TRE for misconfiguration.
+    Unexpected connections would show up in our firewall logs.
 * - **Capability met?**
-  - **YES**
+  - **NO**
   -
 ```
 
