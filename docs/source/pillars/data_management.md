@@ -49,7 +49,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to manage how and where dat
   - Mandatory
 * - 3.1.5.
   - Your data egress process could sometimes require project-independent approval.
-  - There may be cases where there are multiple stakeholders for a piece of analysis including data providers, data analysts, data subjects, the {ref}`TRE operator <admin_roles>`.
+  - There may be cases where there are multiple stakeholders for a piece of analysis including {ref}`data provider <data_roles>`s, data analysts, data subjects, the {ref}`TRE operator <admin_roles>`.
     A data egress process may then require approval from people not on the project team, for example an external referee or {ref}`TRE operator <admin_roles>` representative
   - Optional
 * - 3.1.6.
@@ -145,7 +145,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to ensure outputs are safel
   - You should have a system to help classify outputs.
   - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
     Having guidance, processes and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
-    Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact.
+    Encouraging openly published outputs rather than handing all outputs to the {ref}`data provider <data_roles>` will enhance a TRE's impact.
   - Recommended
 * - 3.3.2.
   - You should establish the intended outputs of each project from the outset.
@@ -190,7 +190,7 @@ The ability to query and browse the data within an environment at various levels
 * - 3.4.1.
   - You could make a catalogue of sensitive data that you make available to users.
   - This is particularly relevant for TREs that are an interface to a common data collection.
-    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more data providers.
+    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more {ref}`data provider <data_roles>`s.
   - Optional
 ```
 
@@ -276,7 +276,7 @@ Security testing enables the {ref}`TRE operator <admin_roles>` to gain assurance
   - Mandatory
 * - 3.5.5.
   - You should publish details of your security testing strategy and, where possible, the results of each test.
-  - Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and data providers, can trust that the data they work with or are responsible for is secure within a TRE.
+  - Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and {ref}`data provider <data_roles>`s, can trust that the data they work with or are responsible for is secure within a TRE.
     If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
   - Recommended
 ```
@@ -373,7 +373,7 @@ Throughout the rest of this document, we will refer to each pre-defined security
 * - 3.6.1.
   - You must be able to specify what categories of data your TRE is able to support.
   - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
-    Relevant stakeholders may include data providers and project teams and they may have different levels of technical expertise.
+    Relevant stakeholders may include {ref}`data provider <data_roles>`s and project teams and they may have different levels of technical expertise.
   - Mandatory
 * - 3.6.2.
   - Your TRE could support projects with differing security requirements through configurable security controls.

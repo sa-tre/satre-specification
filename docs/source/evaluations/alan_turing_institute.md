@@ -16,7 +16,7 @@
   - - We rely on the Alan Turing Institute legal and data protection teams to inform us of necessary legal requirements.
     - Our TRE (the Alan Turing Institute Data Safe Haven) is self-assessed against the NHS Data Security and Protection Toolkit.
     - The Institute has a centralised ethics approval procedure which all projects are required to follow.
-    - Project specific requirements are discussed with data providers before start of each project.
+    - Project specific requirements are discussed with {ref}`data provider <data_roles>`s before start of each project.
     ##### Potential Improvements
     - Be more proactive about trying to stay up-to-date with changes to requirements.
     - Hold an annual review with the Turing Legal and Data Protection teams to ensure all current requirements are still met by the TRE organisation.
@@ -141,7 +141,7 @@
 * - 1.3.2.
   - 2
   - - All Turing projects must carry out a Data Protection Assessment Process.
-    - We also have a flowchart that project teams and data providers must follow to agree on the security tier of their project before it starts.
+    - We also have a flowchart that project teams and {ref}`data provider <data_roles>`s must follow to agree on the security tier of their project before it starts.
 * - 1.3.3.
   - 1
   - - We decide on risk mitigations during our risk assessment process, but this tends to be an _ad-hoc_ process rather than anything formalised..
@@ -195,7 +195,7 @@
 * - 1.4.4.
   - 2
   - - We have processes in place to handle egressing results, removing access, securely deleting any data and destroying the infrastructure.
-    - Data egress needs to be agreed by the project stakeholders: the principal investigator, data provider and a referee representing the interests of the Institute.
+    - Data egress needs to be agreed by the project stakeholders: the principal investigator, {ref}`data provider <data_roles>` and a referee representing the interests of the Institute.
 * - 1.4.5.
   - 0
   - - We manage our projects using a GitHub project board.
@@ -247,7 +247,7 @@
   - 2
   - - We have a process for agreeing which people are able to take which actions involving sensitive data.
     - Delegation of approval authority is also included here.
-    - A document summarising these decisions must be signed by the principal investigator, data provider and referee before the project begins.
+    - A document summarising these decisions must be signed by the principal investigator, {ref}`data provider <data_roles>` and referee before the project begins.
 * - 1.5.5.
   - 2
   - - Initial log in is delegated to Microsoft Entra via OAuth.
