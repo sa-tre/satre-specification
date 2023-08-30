@@ -322,16 +322,16 @@ Physical security controls can provide TREs using highly sensitive data an extra
   - Statement
   - Guidance
   - Importance
-* - 3.5.14.
+* - 3.5.11.
   - Your TRE could offer physical protection measures against data leakage or theft via physical means.
   - Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
     Physical controls on access to a TRE could include surveillance systems, restricting physical access to authorised personnel only, visitor management systems and employee training.
   - Optional
-* - 3.5.15.
-  - Your TRE may need to comply with specific regulatory requirements if it is hosting particularly sensitive data.
-  - Regulatory frameworks such as GDPR emphasise the need for physical security controls to protect sensitive data.
-    Compliance with these regulations could require organisations to implement specific physical security measures to safeguard their TRE from unauthorised access.
-  - Optional
+* - 3.5.12
+  - Your TRE may need to comply with specific regulatory requirements due to the types of data it is hosting.
+  - Regulatory frameworks often emphasise the need for security controls to protect sensitive data.
+    Compliance with these regulations could require organisations to implement specific security measures to safeguard their TRE from unauthorised access.
+  - Mandatory (if applicable)
 ```
 
 (security-level)=
