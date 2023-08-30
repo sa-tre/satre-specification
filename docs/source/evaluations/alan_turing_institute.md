@@ -814,29 +814,31 @@
   - Score
   - Response
 * - 3.2.1.
-  - You must not create user accounts for use by more than one person.
-  - It is important that each user account should be used by one, and only one, person in order to facilitate the assignment of roles or permissions and to log the actions of individuals.
+  - 2
+  - Each user only has a single account.
+    We assume that only the authorised user will have possession of the correct username, password and physical MFA device
 * - 3.2.2.
-  - You must be reasonably convinced of the identity of each person being granted an account.
-  - It is important to ensure an account has been given to the correct person.
-    For example, multiple credentials may be used before account creation to verify identity or, when appropriate, photo ID checks may be required.
+  - 2
+  - Our user creation process involves multiple identification factors to reasonably convince us of the identity of the person holding access to an account.
+    #### Potential improvements
+    - We could perform more detailed ID checks, perhaps by requiring photo ID.
 * - 3.2.3.
-  - You must restrict a user's access to only data required in their work.
-  - There is no need to grant an individual access to data they do not require.
-    Access may be assigned in a manner appropriate to a TREs design, for example through roles granted to user accounts or through isolated project workspaces.
+  - 2
+  - Each project's data is held separately and users are only able to access data for one project at a time.
+    It is not possible to mix data between projects, even if an individual is a member of multiple projects.
 * - 3.2.4.
-  - You must ensure that multi-factor authentication is enabled for all users.
-  - Multi-factor authentication ensures that to successfully connect a user must have more than one piece of evidence in different categories.
-    Categories include something the user knows (_e.g._ a password), something the user possesses (_e.g._ a TOTP key) or something the user is (_e.g._ biometric data).
-    A TRE does not need to implement multi-factor authentication checks itself if it is provided by a third-party identity provider.
+  - 2
+  - MFA is enforced for all users through Microsoft Entra.
+    The second factor can be either push notification or a phone call.
 * - 3.2.5.
-  - You could use federated authentication or single sign-on (SSO) for user login.
-  - Institutions that use a SSO for other applications may wish to extend this login capability to a TRE.
-    This will simplify the login process for researchers using a TRE and prevent them having to remember or store multiple login credentials.
+  - 2
+  - We use dedicated credentials for our TRE that are separate from any other accounts.
+    A user who has is working on multiple projects will use the same credentials for each of them.
 * - 3.2.6.
-  - You could restrict access to particular networks or physical locations.
-  - Restricting access to a set of known, static, personal or institutional IP addresses can help avoid speculative attacks.
-    When appropriate, access could also be restricted to physical locations with security controls and access requirements.
+  - 2
+  - We are able to restrict access to known IP addresses.
+    Where appropriate, IP addresses are restricted to the static institutional or personal IP addresses of the users allowed to connect to the environment.
+    Where appropriate, users are required to only access the TRE from inside the Institute's office space.
 * - **Capability met?**
   - **YES**
   -
