@@ -1206,15 +1206,17 @@
   - Score
   - Response
 * - 4.9.1.
-  - You should have identify areas where legal advice may be required and ensure that you have ready access to it.
-  - It is likely that legal advice will be necessary for several issues around the handling of sensitive data, and managing project contracts.
-    TRE operators should have ready access to legal advice, including a way to solicit advice and carry out associated actions.
+  - 2
+  - The Institute has a legal team who can be contacted with matters relating to the handling of sensitive data, which includes TRE projects.
+    The TRE operators can get legal advice from this team as required.
 * - 4.9.2.
-  - You should identify areas where legal advice may be required and ensure that you have ready access to it.
-  - It is likely that data protection advice will be necessary for several issues around the handling of sensitive data.
+  - 2
+  - The Institute has a data protection team who can be contacted with matters relating to the handling of sensitive data, which includes TRE projects.
+    The TRE operators can get legal advice from this team as required.
 * - 4.9.3.
-  - You should identify who will be responsible for managing contracts related to the TRE.
-  - These contracts may include data sharing agreements, secondments of personnel or limitations on how results obtained with the data can be distributed.
+  - 2
+  - The project manager has responsibility for managing contracts related to data sharing and secondment agreements.
+    The TRE Operations team together with the project manager have responsibility for ensuring that user access terms-of-use are signed.
 * - **Capability met?**
   - **YES**
   -

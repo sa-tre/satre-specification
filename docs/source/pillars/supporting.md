@@ -234,7 +234,7 @@ Ability to ensure data is used fairly, lawfully and transparently; for specified
   - Guidance
   - Importance
 * - 4.9.2.
-  - You should identify areas where legal advice may be required and ensure that you have ready access to it.
+  - You should identify areas where advice on data protection issues may be required and ensure that you have ready access to it.
   - It is likely that data protection advice will be necessary for several issues around the handling of sensitive data.
   - Recommended
 ```
