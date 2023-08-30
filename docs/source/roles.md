@@ -8,7 +8,7 @@ One person can have multiple roles.
 
 (user_roles)=
 
-## TRE end-user roles
+## TRE Project Roles
 
 Roles for people using the TRE to conduct research or analyse data in the TRE.
 
@@ -29,7 +29,7 @@ Roles for people using the TRE to conduct research or analyse data in the TRE.
 
 (data_roles)=
 
-## TRE data roles
+## TRE Data Roles
 
 Roles for people managing data and databases used in a TRE.
 
@@ -52,7 +52,7 @@ Roles for people managing data and databases used in a TRE.
 
 (admin_roles)=
 
-## TRE administration roles
+## TRE Administration Roles
 
 The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE specification.
 
@@ -72,7 +72,7 @@ The IT and related professionals who will be responsible for deploying and manag
 
 (developer_roles)=
 
-## TRE developer roles
+## TRE Developer Roles
 
 The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance.
 
@@ -88,7 +88,7 @@ The software engineers responsible for developing and maintaining TRE software, 
 
 (governance_roles)=
 
-## TRE governance roles
+## TRE Governance Roles
 
 Roles that uphold the governance of TREs.
 Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities.
@@ -108,7 +108,7 @@ Such governance responsibilities typically involve establishing policies and pro
 
 (public_roles)= 
 
-## Public roles
+## Public Roles
 
 Roles that concern members of the public with regard to TREs and TRE research.
 
