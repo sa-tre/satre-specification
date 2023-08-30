@@ -607,14 +607,21 @@
   - Score
   - Response
 * - 2.2.13.
-  -
-  -
+  - 1
+  - We keep track of users in Microsoft Entra, projects on a GitHub project board, datasets associated with each project in Sharepoint and workspaces associated with each project on GitHub issues.
+  ##### Potential Improvements
+  - This data is not currently stored in one place, and the processes for tracking data are not clearly defined.
 * - 2.2.14.
-  -
-  -
+  - 1
+  - Each dataset is associated with a single project.
+    Only users associated with that project are able to access it.
+    We do not keep track of instances of individual users accessing particular datasets.
+  ##### Potential Improvements
+  - We can't think think of a better way to do this now, but are interested in exploring options with the community.
 * - 2.2.15.
-  -
-  -
+  - 2
+  - We record computational resource usage at the project level.
+    We have no way to break down usage at the per-user level and do not think this would be useful for us since costs are managed at the project level.
 * - **Capability met?**
   - **YES**
   -
