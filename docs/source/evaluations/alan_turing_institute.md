@@ -1089,18 +1089,27 @@
   - Score
   - Response
 * - 4.4.1.
-  - You must ensure that all projects using your TRE are aware of any associated costs and are able and willing to pay them.
-  - Costs may include provision of the underlying TRE infrastructure, additional resources required in a specific TRE (for instance memory or additional compute), hardware including managed devices, and staff support costs
+  - 2
+  - We make estimates of our infrastructure costs publicly available in advance and the project manager for each project is also able to see real-time infrastructure spending.
+    We do not currently charge for persontime, although we plan to do so in future.
+    Our charging structure is simple, publicly available on our webpage, and discussed with the project manager before each project starts.
 * - 4.4.2.
-  - You should be able to track the costs associated with each TRE project.
-  - This includes knowing which costs are associated with which project, and having an appropriate charging mechanism in place in line with your organisational policy.
+  - 2
+  - We make use of Azure's spending calculators and other bespoke tools developed by the Institute to manage this.
+    We have dedicated management professionals for charging costs back to projects.
 * - 4.4.3.
-  - You should have a process in place to ensure your TRE provision remains financially sustainable.
-  - This could include having a cost recovery process in place, or setting up a long-term funding mechanism to support projects with TREs.
-    At any given time, you should have funds free to cover all potential foreseen TRE provision for at least 12 months.
+  - 1
+  - We apply cost-recovery for the infrastructure used by each project.
+    Infrastructure common to all projects is centrally funded on a year-by-year basis.
+    We do not currently recover persontime costs.
+    We do not have a process in place for ensuring funding in the long-term.
+    #### Potential improvements
+    - We could look to secure longer-term commitments for ongoing funding.
 * - 4.4.4.
-  - You should minimise the cost of your TRE infrastructure wherever possible
-  - You should have regular reviews of your TRE provision and actively work to bring down costs, streamline provision, and optimise support.
+  - 2
+  - We use the Data Safe Haven codebase which is under active development and which considers cost-effectiveness as part of its update process.
+    We start by deploying cheaper resources and resize them to more powerful (and expensive) versions only when requested by end users, for instance, GPU-enabled machines are available only on request.
+    We turn off infrastructure components when not in use.
 * - **Capability met?**
   - **YES**
   -
