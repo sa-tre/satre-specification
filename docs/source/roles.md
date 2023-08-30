@@ -6,15 +6,15 @@ A TRE conforming to the SATRE specification should provide a broadly similar exp
 There is not necessarily a one-to-one mapping between roles and people.
 One person can have multiple roles.
 
-(user_roles)=
+(project_roles)=
 
 ## TRE Project Roles
 
-Roles for people using the TRE to conduct research or analyse data in the TRE.
+Roles for TRE end-users conducting research or analysing data in the TRE and others involved in managing this research.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-tre-role-users
+:name: tab-tre-role-project
 
 * - Role name
   - Role description
@@ -22,8 +22,10 @@ Roles for people using the TRE to conduct research or analyse data in the TRE.
   - People responsible for carrying out the research project using a TRE. These could be programmers and data scientists, but could also be scientists working in fields where deep computing expertise is less common. Researchers working with TREs that meet the SATRE standard should to have a broadly similar user experience, at least where the type of researcher is consistent (e.g. data scientists). This includes both the user experience of the platforms themselves, and the associated documentation.
 * - Data Consumer
   - General term for any individuals who will be provided access to data via a TRE.
+* - Project Manager
+  - The person in charge of coordinating other roles for the duration of a specific TRE project. See {ref}`project_management`.
 * - Project Team
-  - Refers to the team of researchers working on a specific project that uses a TRE.
+  - Refers to the team of researchers and manager(s) working on a specific project that uses a TRE.
 
 ```
 

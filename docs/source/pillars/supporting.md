@@ -33,6 +33,8 @@ What the {ref}`TRE operator <admin_roles>` does to ensure the development, testi
   - Recommended
 ```
 
+(project_management)=
+
 ## Project and programme management
 
 What the {ref}`TRE operator <admin_roles>` does to ensure effective management of programmes and projects.
