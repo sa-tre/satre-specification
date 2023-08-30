@@ -854,30 +854,31 @@
   - Score
   - Response
 * - 3.3.1.
-  - You should have a system to help classify outputs.
-  - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
-    Having guidance, processes and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
-    Encouraging openly published outputs rather than handing all outputs to the data provider will enhance a TRE's impact.
+  - 1
+  - All outputs from a TRE go through our security classification process, carried out by the project investigator, data provider representative and an independent referee at the Turing.
+    Different egress processes are required according to the sensitivity of the outputs.
+    #### Potential improvements
+    - We would like to create better guidance and documentation for classification, or possibly build tools to classify/create classification reports.
+    - We would also like to better document the different methods available for outputs, depending on the security level of the classification.
 * - 3.3.2.
-  - You should establish the intended outputs of each project from the outset.
-  - Identifying the purpose of a piece of work is important for compliance with data protection legislation.
-    Results will be produced which address the project's purpose, some of which may be outputs that are removed from the TRE.
-    Understanding what these outputs are likely to be and their sensitivity as early as possible will help prepare for their processing and publication.
+  - 1
+  - We require all projects to classify work packages, which considers all input data and the work to be done within the project.
+    This is done broadly, and doesn’t strictly enforce consideration for expected outputs.
+    #### Potential improvements
+    Ensure we more precisely define the expected outputs for projects before they begin.
 * - 3.3.3.
-  - You must have a documented process for disclosure control of outputs from the TRE.
-  - This process should define expected risks and how to mitigate them.
-    All TRE outputs must be subject to this process.
-    You might choose to follow existing guidelines, for example around statistical disclosure.
+  - 1
+  - We rely on the project stakeholders to collaboratively decide on output disclosure risks.
+    They must classify all outputs and, depending on the classification, the outputs might be made publicly available, available to named parties or available only inside another TRE.
+    We do not feel that existing statistical disclosure processes are sufficient for the types of data we encounter, for example, unlabelled image files.
+    #### Potential improvements
+    - We should improve documentation of this process
 * - 3.3.4.
-  - You must have a process for assigning responsibility for output checking.
-  - {ref}`Output checkers <admin_roles>` should be given responsibility for checking outputs.
-    They must follow your disclosure control process and will be responsible for any automated parts of this process.
-    Output checking can help mitigate against unintentional data disclosure or leaks.
+  - 2
+  - The principal investigator, data provider representative and referee are jointly responsible for output checking.
 * - 3.3.5.
-  - You must have a documented policy for handling disclosure risks associated with any outputs that cannot be manually checked.
-  - Some categories of output, for instance binary files or very large numeric files, can be difficult to manually check.
-    If egress of such files is permitted then the risks of inadvertent disclosure must be mitigated and documented.
-    Refusing to allow egress of such files is also a valid policy decision.
+  - 2
+  - We do not allow egress of files that cannot be manually checked except in the case of release back to the original data provider.
 * - **Capability met?**
   - **YES**
   -
