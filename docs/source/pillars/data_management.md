@@ -279,27 +279,28 @@ Here we define 'project' data as the data brought in for work which is very like
   - Statement
   - Guidance
   - Importance
-* - 3.5.9.
+* - 3.5.6.
   - Your TRE must encrypt project and user data at rest.
   - This prevents unauthorised access to the data even if the storage media is compromised.
     This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
     The encryption keys may be managed by the TRE operator or by a trusted external actor, for example a cloud provider.
   - Mandatory
-* - 3.5.10.
+* - 3.5.7.
   - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
   - Data encryption must be used to safeguard against interception or tampering during transmission.
     This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session.
   - Mandatory
-* - 3.5.11.
+* - 3.5.8.
   - Your TRE should encrypt data when in transit inside the TRE.
   - If possible, data transfers between different components of a TRE should also be encrypted.
   - Recommended
-* - 3.5.12.
-  - You should use the latest stable version of any software you use for encryption.
-  - The latest security patches and updates should be applied to any encryption software being used by the TRE.
+* - 3.5.9.
+  - You should use encryption algorithms and software that are widely accepted as secure.
+  - Encryption algorithms widely accepted as secure today may become insecure in the future, for instance due to newly-identified flaws, or advances in compute capabilities.
+    The latest security patches and updates should be applied to any encryption software being used by the TRE.
     This helps address any known vulnerabilities or weaknesses in the encryption implementation.
   - Recommended
-* - 3.5.13.
+* - 3.5.10.
   - Your TRE should use secure key management.
   - TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (_e.g._ Single Sign On) for key management systems.
   - Recommended

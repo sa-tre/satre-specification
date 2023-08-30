@@ -968,25 +968,30 @@
 * -
   - Score
   - Response
+* - 3.5.6.
+  - 2
+  - We rely on Azure platform level encryption.
+    This is done via platform managed keys rather than customer managed keys.
+    #### Potential improvements
+    - We could take over management of our own encryption keys but we would then need an independent solution for securing these.
+* - 3.5.7.
+  - 2
+  - We use Azure Storage Explorer to securely copy data from a local or cloud datasource to our TRE, and from our TRE to known external locations.
+    Connections made through Azure Storage Explorer are encrypted.
+    User connections to access the TRE are made over https.
+* - 3.5.8.
+  - 0
+  - Once a user has access to a TRE, they are able to work with any ingressed data in a collaborative space.
+    Any transfer of data within the TRE would be a movement from one folder to another on the same virtual machine.
+    This would be restricted to the approved users who already have access, and so encryption is not needed.
 * - 3.5.9.
-  - Your TRE must encrypt project and user data at rest.
-  - This prevents unauthorised access to the data even if the storage media is compromised.
-    This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
-    The encryption keys may be managed by the TRE operator or by a trusted external actor, for example a cloud provider.
+  - 2
+  - We rely on Azure's encryption implementation and trust that this is kept up to date.
+    Details are available [here](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest).
 * - 3.5.10.
-  - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
-  - Data encryption must be used to safeguard against interception or tampering during transmission.
-    This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session.
-* - 3.5.11.
-  - Your TRE should encrypt data when in transit inside the TRE.
-  - If possible, data transfers between different components of a TRE should also be encrypted.
-* - 3.5.12.
-  - You should use the latest stable version of any software you use for encryption.
-  - The latest security patches and updates should be applied to any encryption software being used by the TRE.
-    This helps address any known vulnerabilities or weaknesses in the encryption implementation.
-* - 3.5.13.
-  - Your TRE should use secure key management.
-  - TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (_e.g._ Single Sign On) for key management systems.
+  - 2
+  - We rely on Azure's secure key management practices and trust that these are kept up to date.
+    Details are available [here](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest#azure-key-vault).
 * - **Capability met?**
   - **YES**
   -
