@@ -1178,15 +1178,19 @@
   - Score
   - Response
 * - 4.8.1.
-  - You should ensure that all public engagement activities are representative and inclusive.
-  - Any public engagement activity carried out by TREs should make sure they are involving a representative sample where possible and that activities are accessible and open.
-    This could include following guidelines such as [PEDRI](https://www.pedri.org.uk/).
+  - 1
+  - All public engagement activities we have undertaken as a project have been led by public engagement professionals, and have followed best practice as outlined in PEDRI guidelines.
+    #### Potential improvements
+    - We should develop a public engagement strategy for the Turing DSH project in collaboration with the Institute's public engagement specialists.
 * - 4.8.2.
-  - You could publicly share the details of any projects which use the TRE.
-  - This may be via the TRE website or annual reports.
+  - 0
+  - We do not currently share the details of projects using our TRE.
+    #### Potential improvements
+    - We might consider doing this after discussion our legal team and other stakeholders.
 * - 4.8.3.
-  - You could include members of the public in your approvals process.
-  - This may be carried out via a separate public panel or by including members of the public on an approvals panel.
+  - 0
+  - We do not include members of the public in our approval process.
+    We do not think this is appropriate in the case of commercially-sensitive data and we already have an Institute-wide ethics approvals process.
 * - **Capability met?**
   - **YES**
   -
