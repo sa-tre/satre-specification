@@ -294,9 +294,13 @@ This {term}`application component <application component>` is an application use
   - Limited outbound connectivity may be allowed for some services.
   - Mandatory
 * - 2.2.12.
-  - You must monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
+  - You should be able to monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
   - This may include regular vulnerability scanning, and penetration testing.
-  - Mandatory
+  - Recommended
+* - 2.2.13.
+  - You should regularly monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
+  - This will involve following the monitoring procedure detailed above
+  - Recommended
 ```
 
 ### Infrastructure analytics application
@@ -311,15 +315,15 @@ This {term}`application component <application component>` is an application whi
   - Statement
   - Guidance
   - Importance
-* - 2.2.13.
+* - 2.2.14.
   - Your TRE must record usage data.
   - This may include the number of users, number of projects, the amount of data stored, number of datasets, the number of workspaces, etc.
   - Mandatory
-* - 2.2.14.
+* - 2.2.15.
   - Your TRE should record which datasets are accessed, when and by who.
   - This helps maintain auditability of how sensitive data has been used.
   - Recommended
-* - 2.2.15.
+* - 2.2.16.
   - Your TRE should record computational resource usage at the user or aggregate level.
   - This is useful for optimising allocation of resources, and managing costs.
   - Recommended
