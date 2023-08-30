@@ -12,8 +12,6 @@ One person can have multiple roles.
 
 Roles for people using the TRE to conduct research or analyse data in the TRE.
 
-<!-- The document will explain that user experience of the platform and associated documentation should feel similar across TREs conforming to SATRE specification. -->
-
 ```{list-table}
 :header-rows: 1
 :name: tab-tre-role-users
@@ -21,7 +19,7 @@ Roles for people using the TRE to conduct research or analyse data in the TRE.
 * - Role name
   - Role description
 * - Researcher
-  - People responsible for carrying out the research project using a TRE.
+  - People responsible for carrying out the research project using a TRE. These could be programmers and data scientists, but could also be scientists working in fields where deep computing expertise is less common. Researchers working with TREs that meet the SATRE standard should to have a broadly similar user experience, at least where the type of researcher is consistent (e.g. data scientists). This includes both the user experience of the platforms themselves, and the associated documentation.
 * - Data Steward
   - People who ensure data within a TRE is maintained and processed in ways useful to researchers, including providing data extracts to specific projects or researchers. May also be known as Data Wranglers or Data Cleaners.
 
