@@ -176,17 +176,6 @@ Activities aimed at engaging with TRE stakeholders.
 
 How the TRE operator involves the public in its processes and work in order to maintain trust in its operations.
 
-<!--
-Rationale:
-
-- PIE work is important to building and maintaining trust.
-- Use of public data is sometimes critical to research, for example health research.
-- The public can benefit from sharing their data, to trustworthy and safe research projects, for example in the development of better health treatments or social policies.
-- Meeting other parts of this specification helps ensure that data is secure and that data processing is legal, appropriate and ethical.
-- Optional as there are cases (for example research with purely non-personal, commercial data) where involving the public is less important and may even be undesirable.
-- We particularly encourage meeting this capability for work involving personal data belonging to the public such as health or administrative data.
--->
-
 ```{list-table}
 :header-rows: 1
 :name: tab-supporting-pie
@@ -212,8 +201,6 @@ Rationale:
 ## Legal services
 
 The ability of the TRE operator to access suitable and timely legal advice.
-
-<!-- Specific requirements? _e.g._ Article 32 of the GDPR requires organisations to regularly test and evaluate the effectiveness of the technical and organisational measures employed to protect personal data, and penetration testing is an effective way of assessing your technical defences. -->
 
 ### Legal advisory
 
