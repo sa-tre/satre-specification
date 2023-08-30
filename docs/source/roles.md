@@ -8,7 +8,7 @@ One person can have multiple roles.
 
 (user_roles)=
 
-## TRE user roles
+## TRE end-user roles
 
 Roles for people using the TRE to conduct research or analyse data in the TRE.
 
