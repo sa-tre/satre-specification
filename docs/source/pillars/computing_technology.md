@@ -179,7 +179,7 @@ This {term}`application component <application component>` involves the use of a
 * - 2.1.17.
   - Your TRE could make data available to researchers using common database systems such as PostgreSQL, MSSQL or MongoDB.
   - Databases must be secured and only accessible to users within the same project.
-    If shared (multi-tenant) database servers are used, database administrators must ensure that the database server enforces segregation of users and databases belonging to different projects.
+    If shared (multi-tenant) database servers are used, {ref}`database administrators <data_roles>` must ensure that the database server enforces segregation of users and databases belonging to different projects.
   - Optional
 * - 2.1.18.
   - Your TRE could integrate with large-scale data analytics tools for working with large datasets.
