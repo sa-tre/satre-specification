@@ -65,7 +65,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to manage how and where dat
 * - 3.1.8.
   - You could keep backups of data and research environments, provided that this is permitted by law.
   - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
-    TRE developers may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
+    {ref}`TRE developers <developer_roles>` may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
   - Optional
 * - 3.1.9.
   - You should log how input data is modified.
