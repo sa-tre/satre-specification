@@ -85,8 +85,8 @@ Such governance responsibilities typically involve establishing policies and pro
   - People responsible for designing and documenting processes for TRE information governance
 * - Quality Manager
   - People responsible for ensuring the TRE is operating correctly and that all processes are working as intended, and being followed by other roles.
-* - Top Management
-  - This is an ISO term for the most senior governance who own the risks, make decisions and allocate resources.
+* - Senior Governance Official
+  - The most senior governance official who is ultimately responsible for the risks associated with TRE research projects and can make decisions and allocate resources to TREs and TRE projects.
 * - Information Asset Owner/ Data Custodian
   - Owner of a dataset, project or work package within a TRE.
 * - Lay panel
