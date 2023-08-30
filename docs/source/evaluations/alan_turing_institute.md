@@ -637,14 +637,22 @@
   - Score
   - Response
 * - 2.3.1.
-  -
-  -
+  - 2
+  - At the planning stage, we make projects aware of possible resources, and associated costs.
+    This information includes common configurations and requirements (such as GPUs), possible additional resources, and their costs.
+    The costs of the shared aspects of the TRE and the TRE service (support, admin time) are also explained and broken down on a per-project basis.
 * - 2.3.2.
-  -
-  -
+  - 1
+  - For our projects, we rely on the Azure availability guarantees about compute resources.
+    We have limited control over the availability of Azure resources and sometimes there may not be available capacity.
 * - 2.3.3.
-  -
-  -
+  - 1
+  - Our TRE is deployed on the Azure cloud.
+    The availability of resources is therefore determined by the capacity of the cloud provider.
+    Deciding on the distribution of resources between projects is not a large concern as the availability of resources, generally, greatly exceeds our need.
+  ##### Potential Improvements
+  - Allocating resources to projects is currently done on an ad-hoc basis depending on project needs.
+    We would like to make this process more formal and better documented.
 * - **Capability met?**
   - **YES**
   -
