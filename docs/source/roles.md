@@ -48,6 +48,8 @@ These roles cover managing TRE computing infrastructure, but also administering 
   - People responsible for the management of the TRE's IT infrastructure and general processes. Examples include carrying out data ingress/egress and managing user access.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
+* - Database Administrator
+  - People responsible for managing any databases included in the TRE. Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects. See {ref}`advanced_CCC`.
 ```
 
 (developer_roles)=

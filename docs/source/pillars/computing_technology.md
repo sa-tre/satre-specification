@@ -145,6 +145,8 @@ This {term}`application component <application component>` is a service that man
   - Optional
 ```
 
+(advanced_CCC)=
+
 ### Advanced Computing Systems
 
 This {term}`application component <application component>` involves the use of advanced, powerful computer resources to solve complex problems and process large amounts of data, possibly using specialised hardware.
