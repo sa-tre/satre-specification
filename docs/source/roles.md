@@ -45,7 +45,7 @@ These roles cover managing TRE computing infrastructure, but also administering 
 * - Infrastructure Deployment Role
   - People responsible for carrying out (and documenting) the {ref}`infrastructure_deployment_process`.
 * - General Administrator
-  - People responsible for the management of the TRE's IT infrastructure and general processes. Examples include deploying a new TRE using an existing software or codebase, carrying out data ingress/egress and managing user access.
+  - People responsible for the management of the TRE's IT infrastructure and general processes. Examples include carrying out data ingress/egress and managing user access.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
 ```
