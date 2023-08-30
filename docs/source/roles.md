@@ -85,8 +85,6 @@ Such governance responsibilities typically involve establishing policies and pro
   - This is an ISO term for the most senior governance who own the risks, make decisions and allocate resources.
 * - Information Asset Owner/ Data Custodian
   - Owner of a dataset, project or work package within a TRE.
-* - Internal Auditor
-  - 
 * - Lay panel
   - Members of the public charged with oversight of TRE operational decisions on behalf of parties affected by data usage.
 
