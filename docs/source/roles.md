@@ -41,6 +41,8 @@ Roles for people managing data and databases used in a TRE.
   - People who ensure data within a TRE is maintained and processed in ways useful to researchers, including providing data extracts to specific projects or researchers. May also be known as Data Wranglers or Data Cleaners.
 * - Database Administrator
   - People responsible for managing any databases included in the TRE. Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects. See {ref}`advanced_CCC`.
+* - Information Asset Owner
+  - This could be the custodian or owner of a dataset, project or other information asset within a TRE.
 
 ```
 
@@ -97,8 +99,6 @@ Such governance responsibilities typically involve establishing policies and pro
   - People responsible for ensuring the TRE is operating correctly and that all processes are working as intended, and being followed by other roles. See {ref}`quality_management`.
 * - Top Management
   - People who lead and control an organisation at the highest level. This definition is taken from *ISO 9000:2015* and in this context refers to the most senior governance official who own the risks associated with TRE research, can make decisions and allocate resources. See {ref}`risk_ownership_process`.
-* - Information Asset Owner
-  - This could be the custodian or owner of a dataset, project or other information asset within a TRE.
 
 ```
 
