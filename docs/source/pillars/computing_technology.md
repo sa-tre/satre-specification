@@ -190,6 +190,8 @@ This {term}`application component <application component>` involves the use of a
 
 The ability of the TRE operator to deploy, change or remove physical or virtual infrastructure.
 
+(infrastructure_deployment_process)=
+
 ### Infrastructure Deployment Process
 
 This {term}`business process <business process>` involves setting up and configuring infrastructure components and resources to support applications or services.
