@@ -225,6 +225,8 @@ The ability of the {ref}`TRE operator <admin_roles>` to provide suitable and tim
   - Recommended
 ```
 
+(data_protection)=
+
 ### Data protection
 
 Ability to ensure data is used fairly, lawfully and transparently; for specified, explicit purposes; and in a way that is adequate, relevant and limited to only what is necessary.

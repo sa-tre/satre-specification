@@ -105,6 +105,8 @@ Such governance responsibilities typically involve establishing policies and pro
   - People responsible for ensuring the TRE is operating correctly and that all processes are working as intended, and being followed by other roles. See {ref}`quality_management`.
 * - Top Management
   - People who lead and control an organisation at the highest level. This definition is taken from *ISO 9000:2015* and in this context refers to the most senior governance official who own the risks associated with TRE research, can make decisions and allocate resources. See {ref}`risk_ownership_process`.
+* - Data Protection Team
+  - The team responsible for {ref}`data protection <data_protection>` at the organisation hosting the TRE.
 
 ```
 
