@@ -333,3 +333,402 @@
   - **YES**
   -
 ```
+
+## End user computing interfaces
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-end-user-interfaces
+
+* -
+  - Score
+  - Response
+* - 2.1.1.
+  - 2
+  - We do not allow data to move between the system clipboard and workspace in any instance.
+* - 2.1.2.
+  - 2
+  - We provide both virtual desktop and command line interfaces to Linux virtual machines.
+    Self-hosted web applications focused on collaborative work are accessible within the environment.
+* - 2.1.3.
+  - 2
+  - We do not provide a job-submission interface, all users have direct access to the data they are working with.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## End user software tools
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh--computing-end-user-software-tools
+
+* -
+  - Score
+  - Response
+* - 2.1.4.
+  - 2
+  - We use a virtual Linux desktop, accessible via a web browser.
+    We use standard, open-source tools, like Apache Guacamole, to support this.
+* - 2.1.5.
+  - 1
+  - - We have a user guide that explains how to use the installed software, as well as how to configure your user account.
+    ##### Potential Improvements
+    - We intend to iterate on the design of the user guide to make it easier to navigate, follow and understand - and separate it entirely from developer docs.
+* - 2.1.6.
+  - 2
+  - We use the Azure platform-level automation tools to run weekly software updates on all virtual machines that make up the TRE.
+    Any update failures are flagged by the automation software.
+* - 2.1.7.
+  - 2
+  - Within each project environment we have a range of shared services.
+    These include shared folders, user services such as GitLab, for collaborating on code, CodiMD, for collaborating on document writing and several database systems.
+* - 2.1.8.
+  - 2
+  - These shared services are only available to users working within the same environment.
+* - 2.1.9.
+  - 2
+  - User-facing software and tools are all open source.
+    We do not allow any software to contact external licensing servers.
+* - 2.1.10.
+  - 2
+  - We provide a wide range of tools and applications for data science, influenced by the needs of users.
+    Our users are typically data scientists working with data directly.
+    This data can only be accessed from inside the TRE, either via a database or a shared folder.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Code Version Control System
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-code-vcs
+
+* -
+  - Score
+  - Response
+* - 2.1.11.
+  - 1
+  - - Version control tools are provided to users, including an internal GitLab instance.
+    - Users are encouraged to version control their code and we provide training for those who are unfamiliar with git.
+    ##### Potential Improvements
+    - We do not provide specific tools to aid or encourage reproducibility or creating data analysis pipelines.
+    - We do not support CI pipelines on our GitLab server.
+    - We do not have a method to ensure that work done inside the environment can be reproduced outside such as containerisation.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Artefact Management Application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-artefact-management
+
+* -
+  - Score
+  - Response
+* - 2.1.12.
+  - 2
+  - We provide proxied access to external software repositories, currently PyPI and CRAN, using Sonatype Nexus.
+    For our highest sensitivity projects we instead provide a local mirror.
+    In either case, we can support either access to every package in the remote repository or a pre-specified allowed list of approved packages.
+* - 2.1.13.
+  - 2
+  - - For higher sensitivity environments, we restrict access to a pre-specified allowed list.
+      These allowed lists are configurable on a per-project basis and, by default, include a minimal set of well-used and useful packages plus their dependencies.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Advanced Computing Systems
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-advanced-computing-systems
+
+* -
+  - Score
+  - Response
+* - 2.1.14.
+  - 2
+  - Non-standard resources are segregated in the same way as standard resources.
+    We do not share any resources between projects.
+* - 2.1.15.
+  - 2
+  - We are able to deploy high capacity virtual machines if required.
+    These can have many cores and/or large amounts of RAM.
+* - 2.1.16.
+  - 2
+  - We are able to deploy VM sizes featuring GPUs within the limits of what is available on Azure and compatible with our pre-built x64 image.
+* - 2.1.17.
+  - 2
+  - We make Microsoft SQL server and/or PostgreSQL servers available to projects as needed.
+    These databases are only accessible from inside a single project environment.
+* - 2.1.18.
+  - 1
+  - We do not currently support large-scale data analytics tools.
+    ##### Potential Improvements
+    - We would consider supporting Spark but it has not been requested by users.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Infrastructure Deployment Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-deployment
+
+* -
+  - Score
+  - Response
+* - 2.2.1.
+  - 2
+  - We have a detailed deployment guide which system managers follow to deploy a TRE instance.
+* - 2.2.2.
+  - 1
+  - - We use reproducible Powershell scripts that are stored in GitHub to handle our deployments.
+    - This code is regularly tested and new versions released.
+    ##### Potential Improvements
+    - We do not currently use third-party infrastructure-as-code tools but we are in the process of moving to them.
+* - 2.2.3.
+  - 1
+  - - We have documented procedures to add/remove users and to resize, add or remove infrastructure components such as GPU-enabled machines.
+    - We do not make ad-hoc or unusual changes to deployed infrastructure in the course of normal operation.
+    - In emergencies, we would deploy a fix that had been tested in development and then hold an incident report meeting.
+    ##### Potential Improvements
+    - We do not currently have a formal process for making emergency changes to our production system.
+* - 2.2.4.
+  - 1
+  - - We use separate development environments to test changes before they make it into a release.
+    - Emergency fixes to our production environments are also tested on development environments before being deployed.
+    - Production environments are created from known, tested releases of the codebase.
+    ##### Potential Improvements
+    - We do not currently have a formal process for making emergency changes to our production system.
+* - 2.2.5.
+  - 1
+  - - We do have separate development environments, but these are not permanent clones of our production environment.
+    - We do not automate promotion of development environments to production.
+    ##### Potential Improvements
+    - We would consider moving to a blue/green deployment environment as long as this is possible from a cost perspective.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Infrastructure Removal Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-removal
+
+* -
+  - Score
+  - Response
+* - 2.2.6.
+  - 2
+  - We use Powershell scripts to automate the removal of unused infrastructure.
+    We have documented procedures that detail when this should be done.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Availability Management Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-availability-management
+
+* -
+  - Score
+  - Response
+* - 2.2.7.
+  - 2
+  - Azure publishes availability and uptime guarantees for relevant services.
+    We have chosen replication levels which balance high availability while keeping data within a single region.
+* - 2.2.8.
+  - 0
+  - We do not have an availability target.
+    We do not make any availability guarantees to our users.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Network Management Application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-network-management
+
+* -
+  - Score
+  - Response
+* - 2.2.9.
+  - 2
+  - We use Azure network security groups and firewalls to control network traffic between different parts of the TRE.
+    Only the minimum necessary categories of traffic are permitted.
+    The TRE gateway only permits connections from pre-approved IP addresses.
+* - 2.2.10.
+  - 2
+  - Different projects are isolated at the virtual network level.
+    Data sets belong to a single project only and are stored in storage accounts which only that project can access.
+    Normal users have no way to directly connect to other project environments even if they have valid accounts for them.
+* - 2.2.11.
+  - 2
+  - We block outbound connections to the internet unless these are required for functionality, such as system updates.
+    All outbound connections are monitored by the Azure firewall.
+* - 2.2.12.
+  - 0
+  - We do not actively monitor our TRE for misconfiguration.
+    Unexpected connections would show up in our firewall logs.
+    ##### Potential Improvements
+    - We are interested in hearing how other community members approach this.
+* - 2.2.13.
+  - 0
+  - We do not actively monitor our TRE for misconfiguration.
+    ##### Potential Improvements
+    - We are interested in hearing how other community members approach this.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Infrastructure analytics application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-infrastructure-analytics
+
+* -
+  - Score
+  - Response
+* - 2.2.14.
+  - 1
+  - We keep track of users in Microsoft Entra, projects on a GitHub project board, datasets associated with each project in Sharepoint and workspaces associated with each project on GitHub issues.
+    ##### Potential Improvements
+    - This data is not currently stored in one place, and the processes for tracking data are not clearly defined.
+* - 2.2.15.
+  - 1
+  - Each dataset is associated with a single project.
+    Only users associated with that project are able to access it.
+    We do not keep track of instances of individual users accessing particular datasets.
+    ##### Potential Improvements
+    - We cannot think think of a better way to do this now, but are interested in exploring options with the community.
+* - 2.2.16.
+  - 2
+  - We record computational resource usage at the project level.
+    We have no way to break down usage at the per-user level and do not think this would be useful for us since costs are managed at the project level.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Capacity Planning Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-capacity-planning
+
+* -
+  - Score
+  - Response
+* - 2.3.1.
+  - 2
+  - At the planning stage, we make projects aware of possible resources, and associated costs.
+    This information includes common configurations and requirements (such as GPUs), possible additional resources, and their costs.
+    The costs of the shared aspects of the TRE and the TRE service (support, admin time) are also explained and broken down on a per-project basis.
+* - 2.3.2.
+  - 1
+  - For our projects, we rely on the Azure availability guarantees about compute resources.
+    We have limited control over the availability of Azure resources and sometimes there may not be available capacity.
+* - 2.3.3.
+  - 1
+  - Our TRE is deployed on the Azure cloud.
+    The availability of resources is therefore determined by the capacity of the cloud provider.
+    Deciding on the distribution of resources between projects is not a large concern as the availability of resources, generally, greatly exceeds our need.
+    ##### Potential Improvements
+    - Allocating resources to projects is currently done on an ad-hoc basis depending on project needs.
+      We would like to make this process more formal and better documented.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Billing Process
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-billing
+
+* -
+  - Score
+  - Response
+* - 2.3.4.
+  - 2
+  - We provide projects with estimates of their spend which are dependent on their requirements.
+    We track spending on a per-project basis and allow the project manager to monitor spending.
+    Spending alerts are sent out when spending reaches set thresholds: 50%, 90%, 100% of the pre-agreed limit.
+    Overspend is possible but the additional spending must still be recovered from the project.
+    ##### Potential Improvements
+    - We should be clearer about the consequences of overspending.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Configuration management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-computing-configuration-management
+
+* -
+  - Score
+  - Response
+* - 2.4.1.
+  - 1
+  - We have a detailed deployment guide which system managers follow to deploy and configure a TRE instance.
+    We have a limited set of documentation covering making common configuration changes after a TRE has been deployed.
+* - 2.4.2.
+  - 0
+  - We do not use configuration management tools.
+    We have a limited set of scripts to make some common configuration changes.
+    Some changes involve manual steps which may be documented.
+* - 2.4.3.
+  - 0
+  - There is no general, automated way to check the configuration of our TRE.
+    A manual check would be time consuming and no process for doing so has been established.
+    Security package update compliance for Ubuntu and Windows virtual machines can be confirmed.
+* - 2.4.4.
+  - 0
+  - We are unable to verify configuration and so do not regularly check for compliance.
+* - 2.4.5.
+  - 1
+  - We can replace non-compliant instances and/or components using out deployment processes and scripts.
+    We are able to do this in a manner which avoids data loss.
+    However, it will generally involve destruction and redeployment of infrastructure.
+* - 2.4.6.
+  - 1
+  - - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
+    - All Windows and Ubuntu virtual machines have system package updates automatically applied on a weekly schedule.
+    - Other parts of the TRE infrastrcture, for example Docker images used by the remote desktop and package proxy servers, are not automatically updated.
+    ##### Potential Improvements
+    - We should add a process for recognising when container images are out of date and for updating them.
+* - 2.4.7.
+  - 1
+  - Daily anti-virus definition updates and scans are carried out by ClamAV on all Linux VMs.
+    ##### Potential Improvements
+    - Extend anti-virus coverage to user-inacessible Windows machines, and also scan data (block and object storage) if possible.
+* - **Capability met?**
+  - **YES**
+  -
+```
