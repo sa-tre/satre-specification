@@ -288,6 +288,8 @@ This {term}`business process <business process>` involves the selection and impl
   - Mandatory
 ```
 
+(risk_ownership_process)=
+
 ### Risk Ownership Process
 
 This {term}`business process <business process>` involves the assignment of responsibility and accountability to individuals or entities for managing and mitigating specific risks within the TRE organisation.
@@ -302,7 +304,7 @@ This {term}`business process <business process>` involves the assignment of resp
   - Importance
 * - 1.3.4.
   - You must have a clear set of roles and responsibilities relating to risk including who owns risks and how they are escalated and delegated.
-  - The highest level of risk ownership is the top management of the TRE organisation (see {ref}`governance_roles`).
+  - The highest level of risk ownership is the Top Management of the TRE organisation (see {ref}`governance_roles`).
     In order to ensure escalations to this level are rare, suitable structures should be put in place to own, mitigate and accept risk.
   - Mandatory
 * - 1.3.5.
