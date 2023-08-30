@@ -1013,11 +1013,13 @@
   - Score
   - Response
 * - 4.1.1.
-  - You should have a business continuity plan that includes consideration of loss of service for deployed TREs.
-  - This may be due to downtime from service providers, a breach, or loss of power. Your plan should detail your process for managing loss of service for deployed TREs, and evaluation of impact of such loss.
+  - 1
+  - We rely on redundancy options provided by Azure, such as load-balancing and geo-redundancy, to maximise the uptime of the TRE.
+    If there is a catastrophic failure of Azure, access to TREs will be lost until service is resumed.
+    We believe this is an acceptable risk that does not need further mitigation.
 * - 4.1.2.
-  - You should regularly test the aspects of your business continuity plan concerning TREs, and have a process in place to iterate the plan if required.
-  -
+  - 1
+  - No part of our business continuity plan depends on actions that we can take, so we are not able to test it.
 * - **Capability met?**
   - **YES**
   -
