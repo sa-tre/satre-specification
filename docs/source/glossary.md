@@ -2,7 +2,7 @@
 
 ```{glossary}
 Actor
-    A person, organization, or system that has one or more roles that initiates or interacts with activities.
+    A person, organization, or system that has one or more {ref}`roles <satre_roles>` that initiates or interacts with activities.
     Example: _The SATRE architecture needs actors such as researchers and internal auditors._
 
 Application component
@@ -39,7 +39,7 @@ Data Object
 
 Role
     A role is a set of connected behaviors, rights, obligations and norms within a TRE system.
-    Roles are occupied by individuals, who are called {term}`actors <actor>`.
+    {ref}`Roles <satre_roles>` are occupied by individuals, who are called {term}`actors <actor>`.
 
 Specification pillar
     A specification pillar is a group of related capabilities.
