@@ -838,7 +838,7 @@
   - 2
   - We are able to restrict access to known IP addresses.
     Where appropriate, IP addresses are restricted to the static institutional or personal IP addresses of the users allowed to connect to the environment.
-    Where appropriate, users are required to only access the TRE from inside the Institute's office space.
+    Sometimes, users are required to only access the TRE from inside the Institute's office space.
 * - **Capability met?**
   - **YES**
   -
