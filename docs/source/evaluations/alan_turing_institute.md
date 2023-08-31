@@ -779,7 +779,7 @@
     Any data, code or other files that have not been brought out through the egress process will be irretrievably lost and any users associated only with this project will have their accounts disabled.
     #### Potential improvement
     - We should draft a clear policy on data deletion in the case that communication breaks down between the project team and TRE operators.
-      In particular, this should ensure that any data in the scope of GDPR is not being held without a purpose.
+      In particular, this should focus on ensuring GDPR rules and data sharing agreements are not broken.
 * - 3.1.8.
   - 1
   - Some research environment data is backed up.
