@@ -178,7 +178,7 @@
   - - All Turing projects must carry out a Data Protection Assessment Process.
     - All projects must have an agreed security tier before starting.
     - We inform projects in advance of their estimated directly incurred infrastructure costs and require them to confirm that they will be able to pay for these.
-    - Data sharing agreements must be in place before any data is ingressed.
+    - Data sharing agreements must be in place before any data ingress.
 * - 1.4.2.
   - 1
   - - As soon as we are informed of the need to revoke user access, we will do so.
@@ -728,6 +728,276 @@
   - Daily anti-virus definition updates and scans are carried out by ClamAV on all Linux VMs.
     ##### Potential Improvements
     - Extend anti-virus coverage to user-inacessible Windows machines, and also scan data (block and object storage) if possible.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Data lifecycle management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-data-lifecycle-management
+
+* -
+  - Score
+  - Response
+* - 3.1.1.
+  - 2
+  - Legal and regulatory implications are considered as part of the Data Protection Assessment Process (DPAP) when projects are first proposed.
+    Each project is classified into one of five pre-defined security tiers before any work starts.
+    Each tier has an associated set of security controls, although additional controls can be imposed on top of these if required.
+* - 3.1.2.
+  - 2
+  - A signed approval form is required for each instance of data ingress or egress.
+    A signed validation form must be filled out by the project team to confirm that any data moved in or out of the environment is as expected.
+    A signed approval form for the security tier of each project is also required.
+    These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
+* - 3.1.3.
+  - 2
+  - We implement data handling restrictions on data coming into the environment.
+    These involve getting agreement from the data provider, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
+    These stakeholders must sign a form detailing the requested ingress to confirm their agreement.
+* - 3.1.4.
+  - 2
+  - We implement data handling restrictions on data coming out of the environment.
+    These involve getting agreement from the data provider, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
+    These stakeholders must sign a form detailing the requested egress to confirm their agreement.
+    These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
+* - 3.1.5.
+  - 2
+  - Our data egress procedure requires signed agreement from representatives of all data providers, the project team and a referee external to the project.
+* - 3.1.6.
+  - 2
+  - Input data is recorded in the aforementioned forms.
+    The record includes a description of the data, its source (the data provider) and the data owner's contact details.
+    This project initialisation document is specific to the particular TRE project that uses the data and will include the date of data ingress.
+    At, or shortly after, the project end date, the data is securely and irreversibly deleted from the TRE.
+* - 3.1.7.
+  - 2
+  - At the end of the project we require all relevant contact people to confirm that their environment can be torn down.
+    Any data, code or other files that have not been brought out through the egress process will be irretrievably lost and any users associated only with this project will have their accounts disabled.
+    #### Potential improvement
+    - We should draft a clear policy on data deletion in the case that communication breaks down between the project team and TRE operators.
+      In particular, this should focus on ensuring GDPR rules and data sharing agreements are not broken.
+* - 3.1.8.
+  - 1
+  - Some research environment data is backed up.
+    This includes virtual disks and object storage accounts which contain users personal/configuration files and working data.
+    Backups are distributed across data centres within a single region.
+    Input data is only kept as a single, immutable copy which is not backed up (although users may make copies which would be).
+    Because input data is always a copy, we are not concerned about the loss of input data.
+    #### Potential improvement
+    - We could ensure that non-file working data, such as database contents are also backed up.
+* - 3.1.9.
+  - 2
+  - The input data is immutable to users, it is kept in a folder that is read-only for TRE users.
+    The only way input data can be modified is through the ingress process, which is logged.
+* - 3.1.10.
+  - 2
+  - Ingress and egress are only possible by approved parties using a secure upload/download procedure.
+    This involves using secure email to share a time-limited upload/download token for use with Azure Storage Explorer.
+    Copying data into the TRE from the clipboard is not permitted.
+    All users must complete relevant training before accessing a TRE, and sign our terms-of-use, which make them aware that they must not attempt to move data in or out of the environment without authorisation.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Identity and access management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-identity-and-access-management
+
+* -
+  - Score
+  - Response
+* - 3.2.1.
+  - 2
+  - Each user only has a single account.
+    We assume that only the authorised user will have possession of the correct username, password and physical MFA device.
+* - 3.2.2.
+  - 2
+  - Our user creation process involves multiple identification factors to reasonably convince us of the identity of the person holding access to an account.
+    #### Potential improvements
+    - We could perform more detailed ID checks, perhaps by requiring photo ID.
+* - 3.2.3.
+  - 2
+  - Each project's data is held separately.
+    It is not possible to mix data between projects, even if an individual is a member of multiple projects.
+* - 3.2.4.
+  - 2
+  - MFA is enforced for all users through Microsoft Entra.
+    The second factor can be either push notification or a phone call.
+* - 3.2.5.
+  - 2
+  - We use dedicated credentials for our TRE that are separate from any other accounts.
+    A user who is working on multiple projects will use the same credentials for each of them.
+* - 3.2.6.
+  - 2
+  - We are able to restrict access to known IP addresses.
+    Where appropriate, IP addresses are restricted to the static institutional or personal IP addresses of the users allowed to connect to the environment.
+    Sometimes, users are required to only access the TRE from inside the Institute's office space.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Output management
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-output-management
+
+* -
+  - Score
+  - Response
+* - 3.3.1.
+  - 1
+  - All outputs from a TRE go through our security classification process, carried out by the project investigator, data provider representative and an independent referee at the Turing.
+    Different egress processes are required according to the sensitivity of the outputs.
+    #### Potential improvements
+    - We would like to create better guidance and documentation for classification, or possibly build tools to classify/create classification reports.
+    - We would also like to better document the different methods available for outputs, depending on the security level of the classification.
+* - 3.3.2.
+  - 1
+  - We require all projects to classify work packages, which considers all input data and the work to be done within the project.
+    This process does not require a detailed description of the outputs and it does not restrict what outputs may be suggested for egress.
+    #### Potential improvements
+    Ensure we more precisely define the expected outputs for projects before they begin.
+* - 3.3.3.
+  - 1
+  - We rely on the project stakeholders to reach a consensus on output disclosure risks.
+    They must classify all outputs and, depending on the classification, the outputs might be made publicly available, available to named parties or available only inside another TRE.
+    We do not feel that existing statistical disclosure processes are sufficient for the types of data we encounter, for example, unlabelled image files.
+    #### Potential improvements
+    - We should improve documentation of this process
+* - 3.3.4.
+  - 2
+  - The principal investigator, data provider representative and referee are jointly responsible for output checking.
+* - 3.3.5.
+  - 2
+  - We do not allow egress of files that cannot be manually checked except in the case of release back to the original data provider.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Information search and discovery
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-information-search-and-discovery
+
+* -
+  - Score
+  - Response
+* - 3.4.1.
+  - 2
+  - As each project brings its own data we do not have a catalogue of available datasets.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Information security
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-information-security
+
+* -
+  - Score
+  - Response
+* - 3.5.1.
+  - 1
+  - We comply with the NHS DSPT standard which allows us to process anonymised, patient-derived data.
+    #### Potential improvements
+    - We would like to gain accreditation for more wide-ranging standards, for instance CyberEssentials+, ISO27001 and DEA, which cover holistic safe data and research management.
+* - 3.5.2.
+  - 1
+  - A thorough external penetration test is carried out upon each major release of the Data Safe Haven codebase used by our TRE.
+    The results are used to identify and make security improvements to infrastructure, processes and documentation.
+    #### Potential improvements
+    - We could additionally test our production deployments.
+* - 3.5.3.
+  - 2
+  - The Data Safe Haven codebase used by our TRE has a system for creating internal security advisories and vulnerability reports.
+    After a penetration test these are updated and new advisories are added.
+    Each one is ranked for severity and it is decided whether they can be fixed technically or addressed with workarounds or mitigations.
+    #### Potential improvements
+    - Ensure that changes are made to production systems rather than simply incorporated into the next code release.
+* - 3.5.4.
+  - 2
+  - Our terms-of-use require users to report any potential data incident.
+    We have a process in place for managing data incidents, whether raised by users or discovered independently, that ensures we meet our legal requirements and also implement any necessary changes, such as disabling access to a TRE if necessary.
+* - 3.5.5.
+  - 1
+  - The Data Safe Haven codebase used by our TRE makes public the overall results of our regular penetration tests, although the detailed report remains confidential.
+    We have a publicly available document that describes the security checks our code goes through before release.
+    These security checks are also carried out on our production systems.
+    #### Potential improvements
+    - We could try to find a way to securely run penetration tests on our production environments rather than setting up dedicated testing environments.
+    - We should run regular security tests rather than only doing so at deployment time.
+* - 3.5.6.
+  - 2
+  - We rely on Azure platform level encryption.
+    This is done via platform managed keys rather than customer managed keys.
+    #### Potential improvements
+    - We could take over management of our own encryption keys but we would then need an independent solution for securing these.
+* - 3.5.7.
+  - 2
+  - We use Azure Storage Explorer to securely copy data from a local or cloud datasource to our TRE, and from our TRE to known external locations.
+    Connections made through Azure Storage Explorer are encrypted.
+    User connections to access the TRE are made over https.
+* - 3.5.8.
+  - 0
+  - Once a user has access to a TRE, they are able to work with any input data in a collaborative space.
+    Any transfer of data within the TRE would be a movement from one folder to another on the same virtual machine.
+    This would be restricted to the approved users who already have access, and so encryption is not needed.
+* - 3.5.9.
+  - 2
+  - We rely on Azure's encryption implementation and trust that this is kept up to date.
+    Details are available [here](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest).
+* - 3.5.10.
+  - 2
+  - We rely on Azure's secure key management practices and trust that these are kept up to date.
+    Details are available [here](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest#azure-key-vault).
+* - 3.5.11.
+  - 1
+  - We do not apply physical protection methods.
+    Our infrastructure is virtual and we allow users to connect on their own devices from an allowed IP address.
+    Our terms-of-use require that users take reasonable precautions against physical attack.
+    For example, connecting from a location that is as secure as practical such as via a VPN from a home office rather than insecure wifi in a public area.
+* - 3.5.12.
+  - 2
+  - We are not hosting data that has specific regulatory requirements.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Security Levels and Tiering
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-security-level
+
+* -
+  - Score
+  - Response
+* - 3.6.1.
+  - 2
+  - We categorise projects into one of five security tiers.
+    These are clearly defined in our documentation.
+    We are able to support four of those tiers and would reject any projects falling into the most sensitive tier.
+* - 3.6.2.
+  - 2
+  - We support projects with differing security requirements through security controls that are pre-defined for each tier.
+* - 3.6.3.
+  - 2
+  - We support a documented set of security control tiers that projects can choose from at the outset.
 * - **Capability met?**
   - **YES**
   -
