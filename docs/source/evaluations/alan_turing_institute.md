@@ -1219,7 +1219,7 @@
 * - 4.9.3.
   - 2
   - The project manager has responsibility for managing contracts related to data sharing and secondment agreements.
-    The TRE Operations team together with the project manager have responsibility for ensuring that user access terms-of-use are signed.
+    The TRE operations team together with the project manager have responsibility for ensuring that user-access terms-of-use are signed.
 * - **Capability met?**
   - **YES**
   -
