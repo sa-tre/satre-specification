@@ -769,10 +769,10 @@
   - Our data egress procedure requires signed agreement from representatives of all data providers, the project team and a referee external to the project.
 * - 3.1.6.
   - 2
-  - Data from ingress is recorded in the aforementioned forms.
-    The record includes a description of the data, its source (the data provider), contact details for the data owner.
+  - Input data is recorded in the aforementioned forms.
+    The record includes a description of the data, its source (the data provider) and the data owner's contact details.
     This project initialisation document is specific to the particular TRE project that uses the data and will include the date of data ingress.
-    At, or shortly after, the project end date stated in this document, the data is securely deleted from the TRE in a way that renders it unrecoverable.
+    At, or shortly after, the project end date, the data is securely and irreversibly deleted from the TRE.
 * - 3.1.7.
   - 2
   - At the end of the project we require all relevant contact people to confirm that their environment can be torn down.
