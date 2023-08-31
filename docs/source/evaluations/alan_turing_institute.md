@@ -863,7 +863,7 @@
 * - 3.3.2.
   - 1
   - We require all projects to classify work packages, which considers all input data and the work to be done within the project.
-    This is done broadly, and doesn’t strictly enforce consideration for expected outputs.
+    This process does not require a detailed description of the outputs and it does not restrict what outputs may be suggested for egress.
     #### Potential improvements
     Ensure we more precisely define the expected outputs for projects before they begin.
 * - 3.3.3.
