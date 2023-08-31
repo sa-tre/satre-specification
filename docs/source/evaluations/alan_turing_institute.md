@@ -816,7 +816,7 @@
 * - 3.2.1.
   - 2
   - Each user only has a single account.
-    We assume that only the authorised user will have possession of the correct username, password and physical MFA device
+    We assume that only the authorised user will have possession of the correct username, password and physical MFA device.
 * - 3.2.2.
   - 2
   - Our user creation process involves multiple identification factors to reasonably convince us of the identity of the person holding access to an account.
