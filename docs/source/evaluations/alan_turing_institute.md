@@ -1165,7 +1165,7 @@
   - Response
 * - 4.7.1.
   - 2
-  - The code that deploys our TRE infrastructure is fully open-source and open to contributions from anyone.
+  - The code that deploys our TRE infrastructure is open-source and open to contributions from anyone.
     We also have a dedicated Slack channel and email address for stakeholders to engage with the project team.
 * - **Capability met?**
   - **YES**
