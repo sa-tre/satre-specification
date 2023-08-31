@@ -1101,9 +1101,9 @@
     We have dedicated management professionals for charging costs back to projects.
 * - 4.4.3.
   - 1
-  - We apply cost-recovery for the infrastructure used by each project.
+  - We recover the infrastructure costs each project.
     Infrastructure common to all projects is centrally funded on a year-by-year basis.
-    We do not currently recover persontime costs.
+    We do not currently recover person-time costs.
     We do not have a process in place for ensuring funding in the long-term.
     #### Potential improvements
     - We could look to secure longer-term commitments for ongoing funding.
