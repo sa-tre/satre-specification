@@ -1182,7 +1182,7 @@
   - Response
 * - 4.8.1.
   - 1
-  - All public engagement activities we have undertaken as a project have been led by public engagement professionals, and have followed best practice as outlined in PEDRI guidelines.
+  - All public engagement activities we have undertaken as a project have been led by public engagement professionals and have followed best practice as outlined in PEDRI guidelines.
     #### Potential improvements
     - We should develop a public engagement strategy for the Turing DSH project in collaboration with the Institute's public engagement specialists.
 * - 4.8.2.
