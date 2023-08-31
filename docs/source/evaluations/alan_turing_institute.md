@@ -1091,9 +1091,10 @@
   - Response
 * - 4.4.1.
   - 2
-  - We make estimates of our infrastructure costs publicly available in advance and the project manager for each project is also able to see real-time infrastructure spending.
-    We do not currently charge for persontime, although we plan to do so in future.
-    Our charging structure is simple, publicly available on our webpage, and discussed with the project manager before each project starts.
+  - We make estimates of our infrastructure costs publicly available in advance.
+    The project manager for each project is also able to see real-time infrastructure spending.
+    We do not currently charge for person-time, although we plan to do so in future.
+    Our charging structure is simple, publicly available, and discussed with the project manager before each project starts.
 * - 4.4.2.
   - 2
   - We make use of Azure's spending calculators and other bespoke tools developed by the Institute to manage this.
