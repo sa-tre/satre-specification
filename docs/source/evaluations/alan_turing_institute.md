@@ -868,7 +868,7 @@
     Ensure we more precisely define the expected outputs for projects before they begin.
 * - 3.3.3.
   - 1
-  - We rely on the project stakeholders to collaboratively decide on output disclosure risks.
+  - We rely on the project stakeholders to reach a consensus on output disclosure risks.
     They must classify all outputs and, depending on the classification, the outputs might be made publicly available, available to named parties or available only inside another TRE.
     We do not feel that existing statistical disclosure processes are sufficient for the types of data we encounter, for example, unlabelled image files.
     #### Potential improvements
