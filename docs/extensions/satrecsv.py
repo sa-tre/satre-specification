@@ -29,6 +29,10 @@ logger = logging.getLogger(__name__)
 
 
 class SatreCsvWriter(writers.Writer):
+    """
+    Write the extracted SATRE evaluation statements to a tabular file.
+    """
+
     supported = ("text",)
     settings_spec = ("No options here.", "", ())
     settings_defaults: dict[str, Any] = {}
@@ -44,7 +48,9 @@ class SatreCsvWriter(writers.Writer):
         visitor = self.builder.create_translator(self.document, self.builder)
         self.document.walkabout(visitor)
 
-        tsv_lines = ["Section\tItem\tStatement\tGuidance\tImportance"]
+        tsv_lines = [
+            "Section\tItem\tStatement\tImportance\tScore\tResponse\tImprovements"
+        ]
         for section in visitor.interested:
             title = section["section"][1][1].strip()
             # print(title)
@@ -56,20 +62,30 @@ class SatreCsvWriter(writers.Writer):
                     for line in table.lines[1:]:
                         number = line[0].text.strip()
                         statement = line[1].text.strip()
-                        guidance = (
-                            line[2]
-                            .text.replace("\t", "    ")
-                            .replace("\n", "    ")
-                            .strip()
-                        )
+                        # guidance = (
+                        #     line[2]
+                        #     .text.replace("\t", "    ")
+                        #     .replace("\n", "    ")
+                        #     .strip()
+                        # )
                         importance = line[3].text.strip()
                         tsv_lines.append(
-                            f"{title}\t{number}\t{statement}\t{guidance}\t{importance}"
+                            f"{title}\t{number}\t{statement}\t{importance}\t\t\t"
                         )
         self.output = "\n".join(tsv_lines)
 
 
 class SatreCsvTranslator(TextTranslator):
+    """
+    Extract SATRE evaluation statements from the docs and save as tabular file.
+
+    sphinx.writers.text.TextTranslator converts a document into a single plain text file
+    https://github.com/sphinx-doc/sphinx/blob/v7.2.5/sphinx/writers/text.py#L384-L1305
+
+    This class extends TextTranslator to ignore everything apart from the relevant SATRE
+    evaluation tables.
+    """
+
     builder: SatreCsvBuilder
 
     def __init__(self, document: nodes.document, builder: SatreCsvBuilder) -> None:
@@ -121,6 +137,8 @@ class SatreCsvTranslator(TextTranslator):
 class SatreCsvBuilder(Builder):
     """
     Builds a SATRE evaluation TSV file.
+
+    Based on https://github.com/sphinx-doc/sphinx/blob/v7.2.5/sphinx/builders/manpage.py#L29-L106
     """
 
     name = "satrecsv"
@@ -179,6 +197,9 @@ class SatreCsvBuilder(Builder):
 
 
 def setup(app: Sphinx) -> dict[str, Any]:
+    """
+    Register the extension as a builder.
+    """
     app.add_builder(SatreCsvBuilder)
 
     return {

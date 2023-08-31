@@ -27,3 +27,5 @@ If all pillars are met then the SATRE specification is met.
 
 - Evaluation of {ref}`The Alan Turing Institute Data Safe Haven <evaluation_alan_turing_institute>`.
 - Evaluation of {ref}`Dundee/HIC TREEHOOSE <evaluation_dundee_hic>`.
+
+You can use this {download}`spreadsheet (tab separated values) <../build/satrecsv/satrecsv.tsv>` as a template for your evaluation
