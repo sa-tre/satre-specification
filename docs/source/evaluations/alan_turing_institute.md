@@ -968,7 +968,8 @@
   - 1
   - We do not apply physical protection methods.
     Our infrastructure is virtual and we allow users to connect on their own devices from an allowed IP address.
-    Our terms-of-use require that users take reasonable precautions against physical attack, for instance, by connecting from a location that is as secure as practical, such as using a VPN from a home office, rather than a public coffee shop.
+    Our terms-of-use require that users take reasonable precautions against physical attack.
+    For example, connecting from a location that is as secure as practical such as via a VPN from a home office rather than insecure wifi in a public area.
 * - 3.5.12.
   - 2
   - We are not hosting data that has specific regulatory requirements.
