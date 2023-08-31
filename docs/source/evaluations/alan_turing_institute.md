@@ -833,7 +833,7 @@
 * - 3.2.5.
   - 2
   - We use dedicated credentials for our TRE that are separate from any other accounts.
-    A user who has is working on multiple projects will use the same credentials for each of them.
+    A user who is working on multiple projects will use the same credentials for each of them.
 * - 3.2.6.
   - 2
   - We are able to restrict access to known IP addresses.
