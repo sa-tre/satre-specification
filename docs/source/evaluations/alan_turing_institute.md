@@ -920,7 +920,7 @@
   - A thorough external penetration test is carried out upon each major release of the Data Safe Haven codebase used by our TRE.
     The results are used to identify and make security improvements to infrastructure, processes and documentation.
     #### Potential improvements
-    - We could penetration test our production system instead of an equivalent dummy system.
+    - We could additionally test our production deployments.
 * - 3.5.3.
   - 2
   - The Data Safe Haven codebase used by our TRE has a system for creating internal security advisories and vulnerability reports.
