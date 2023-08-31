@@ -1,4 +1,4 @@
-"""Manual pages builder."""
+"""Create a SATRE evaluation CSV from the docs."""
 
 from __future__ import annotations
 
@@ -120,7 +120,7 @@ class SatreCsvTranslator(TextTranslator):
 
 class SatreCsvBuilder(Builder):
     """
-    Builds groff output in manual page format.
+    Builds a SATRE evaluation TSV file.
     """
 
     name = "satrecsv"
@@ -155,7 +155,8 @@ class SatreCsvBuilder(Builder):
 
         docname = self.config.root_doc
 
-        targetname = make_filename_from_project(self.config.project) + ".tsv"
+        # targetname = make_filename_from_project(self.config.project) + ".tsv"
+        targetname = "satrecsv.tsv"
 
         logger.info(darkgreen(targetname) + " { ", nonl=True)
         destination = FileOutput(
