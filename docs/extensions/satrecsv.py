@@ -20,6 +20,10 @@ from sphinx.util.nodes import inline_all_toctrees
 from sphinx.util.osutil import ensuredir, make_filename_from_project
 from sphinx.writers.text import TextTranslator, Table
 
+from io import BytesIO
+from openpyxl import Workbook
+from openpyxl.styles import Font
+
 if TYPE_CHECKING:
     from sphinx.application import Sphinx
     from docutils.nodes import Element, Text
@@ -28,16 +32,16 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 
-class SatreCsvWriter(writers.Writer):
+class SatreXlsxWriter(writers.Writer):
     """
-    Write the extracted SATRE evaluation statements to a tabular file.
+    Write the extracted SATRE evaluation statements to an Excel file.
     """
 
     supported = ("text",)
     settings_spec = ("No options here.", "", ())
     settings_defaults: dict[str, Any] = {}
 
-    output: str
+    output: bytes
 
     def __init__(self, builder: SatreCsvBuilder) -> None:
         super().__init__()
@@ -48,9 +52,17 @@ class SatreCsvWriter(writers.Writer):
         visitor = self.builder.create_translator(self.document, self.builder)
         self.document.walkabout(visitor)
 
-        tsv_lines = [
-            "Section\tItem\tStatement\tImportance\tScore\tResponse\tImprovements"
+        header_row = [
+            "Section",
+            "Item",
+            "Statement",
+            "Importance",
+            "Score",
+            "Response",
+            "Improvements",
         ]
+        column_widths = [10, 10, 10, 10, 10, 50, 50]
+        rows = []
         for section in visitor.interested:
             title = section["section"][1][1].strip()
             # print(title)
@@ -62,17 +74,28 @@ class SatreCsvWriter(writers.Writer):
                     for line in table.lines[1:]:
                         number = line[0].text.strip()
                         statement = line[1].text.strip()
-                        # guidance = (
-                        #     line[2]
-                        #     .text.replace("\t", "    ")
-                        #     .replace("\n", "    ")
-                        #     .strip()
-                        # )
+                        # guidance = line[2].strip()
                         importance = line[3].text.strip()
-                        tsv_lines.append(
-                            f"{title}\t{number}\t{statement}\t{importance}\t\t\t"
-                        )
-        self.output = "\n".join(tsv_lines)
+                        row = [title, number, statement, importance]
+                        rows.append(row)
+                        for i, cell in enumerate(row):
+                            column_widths[i] = max(column_widths[i], len(str(cell)))
+
+        wb = Workbook()
+        ws = wb.active
+        ws.append(header_row)
+        for cell in ws[1]:
+            cell.font = Font(bold=True)
+
+        for row in rows:
+            ws.append(row)
+
+        for c, cell in enumerate(ws[1]):
+            ws.column_dimensions[cell.column_letter].width = column_widths[c]
+
+        buffer = BytesIO()
+        wb.save(buffer)
+        self.output = buffer.getvalue()
 
 
 class SatreCsvTranslator(TextTranslator):
@@ -160,7 +183,7 @@ class SatreCsvBuilder(Builder):
 
     @progress_message(__("writing"))
     def write(self, *ignored: Any) -> None:
-        docwriter = SatreCsvWriter(self)
+        docwriter = SatreXlsxWriter(self)
         with warnings.catch_warnings():
             warnings.filterwarnings("ignore", category=DeprecationWarning)
             # DeprecationWarning: The frontend.OptionParser class will be replaced
@@ -173,8 +196,8 @@ class SatreCsvBuilder(Builder):
 
         docname = self.config.root_doc
 
-        # targetname = make_filename_from_project(self.config.project) + ".tsv"
-        targetname = "satrecsv.tsv"
+        # targetname = make_filename_from_project(self.config.project) + ".xlsx"
+        targetname = "satre.xlsx"
 
         logger.info(darkgreen(targetname) + " { ", nonl=True)
         destination = FileOutput(

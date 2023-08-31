@@ -14,7 +14,7 @@ help:
 
 .PHONY: help Makefile
 
-SATRE_CSV := build/satrecsv/satre.tsv
+SATRE_CSV := build/satrecsv/satre.xlsx
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
@@ -26,3 +26,5 @@ html: Makefile $(SATRE_CSV)
 
 $(SATRE_CSV): Makefile
 	@$(SPHINXBUILD) -M satrecsv "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+evaluationcsv: $(SATRE_CSV)
