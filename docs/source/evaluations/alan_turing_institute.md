@@ -1147,7 +1147,8 @@
 * - 4.6.1.
   - 2
   - We have a dedicated service team for deploying TREs and supporting processes.
-    This is well documented and made available to researchers via the company intranet - though the docs themselves are [publicly available online](https://alan-turing-institute.github.io/trusted-research/)
+    This is well documented and made available to researchers via the company intranet.
+    The documents themselves are [publicly available online](https://alan-turing-institute.github.io/trusted-research/).
 * - **Capability met?**
   - **YES**
   -
