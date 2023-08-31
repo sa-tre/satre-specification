@@ -1037,7 +1037,7 @@
 * - 4.2.1.
   - 2
   - All projects have a project manager named in a Sharepoint document that is signed by all stakeholders.
-    This individual is responsible for all project support tasks listed above.
+    This individual is responsible for all project support tasks.
     They will liaise with the TRE operations team as necessary.
 * - 4.2.2.
   - 2
