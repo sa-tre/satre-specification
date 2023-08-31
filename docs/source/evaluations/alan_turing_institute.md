@@ -1062,7 +1062,8 @@
 * - 4.3.1.
   - 2
   - Our documentation is hosted across two public web sites.
-    There is one site for the codebase used for deploying infrastructure, and another for process handling for live projects.
+    One site contains documentation for the TRE implementation, including deployment and user guides.
+    The other describes the Institutes particular processes for TRE operations.
     These sites are generated from GitHub repositories which can be easily updated in response to feedback as needed.
 * - 4.3.2.
   - 2
