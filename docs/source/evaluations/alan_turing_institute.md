@@ -912,7 +912,7 @@
   - Response
 * - 3.5.1.
   - 1
-  - We comply with the NHS DSPT standard which allows us to process anonymised patient-derived data.
+  - We comply with the NHS DSPT standard which allows us to process anonymised, patient-derived data.
     #### Potential improvements
     - We would like to gain accreditation for more wide-ranging standards, for instance CyberEssentials+, ISO27001 and DEA, which cover holistic safe data and research management above and beyond NHS patient data.
 * - 3.5.2.
