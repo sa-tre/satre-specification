@@ -331,7 +331,7 @@ Physical security controls can provide TREs using highly sensitive data an extra
   - Your TRE may need to comply with specific regulatory requirements due to the types of data it is hosting.
   - Regulatory frameworks often emphasise the need for security controls to protect sensitive data.
     Compliance with these regulations could require organisations to implement specific security measures to safeguard their TRE from unauthorised access.
-  - Mandatory (if applicable)
+  - Mandatory
 ```
 
 (security-level)=
