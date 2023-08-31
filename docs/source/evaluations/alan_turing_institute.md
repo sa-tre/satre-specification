@@ -178,7 +178,7 @@
   - - All Turing projects must carry out a Data Protection Assessment Process.
     - All projects must have an agreed security tier before starting.
     - We inform projects in advance of their estimated directly incurred infrastructure costs and require them to confirm that they will be able to pay for these.
-    - Data sharing agreements must be in place before any data is ingressed.
+    - Data sharing agreements must be in place before any data ingress.
 * - 1.4.2.
   - 1
   - - As soon as we are informed of the need to revoke user access, we will do so.
@@ -749,8 +749,8 @@
     Each tier has an associated set of security controls, although additional controls can be imposed on top of these if required.
 * - 3.1.2.
   - 2
-  - A signed approval form is required for each instance of ingress or egress.
-    A signed validation form must be filled out by the project team to confirm that any data that is ingressed or egressed is as expected.
+  - A signed approval form is required for each instance of data ingress or egress.
+    A signed validation form must be filled out by the project team to confirm that any data moved in or out of the environment is as expected.
     A signed approval form for the security tier of each project is also required.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.3.
@@ -771,12 +771,12 @@
   - 2
   - Data from ingress is recorded in the aforementioned forms.
     The record includes a description of the data, its source (the data provider), contact details for the data owner.
-    This project initialisation document is specific to the particular TRE project that uses the data and will include the date that data was ingressed to the TRE.
+    This project initialisation document is specific to the particular TRE project that uses the data and will include the date of data ingress.
     At, or shortly after, the project end date stated in this document, the data is securely deleted from the TRE in a way that renders it unrecoverable.
 * - 3.1.7.
   - 2
   - At the end of the project we require all relevant contact people to confirm that their environment can be torn down.
-    Doing this means that any data, code or other files that have not been egressed will be irretrievably lost and any users associated only with this project will have their accounts disabled.
+    Any data, code or other files that have not been brought out through the egress process will be irretrievably lost and any users associated only with this project will have their accounts disabled.
     #### Potential improvement
     - We should draft a clear policy on data deletion in the case that communication breaks down between the project team and TRE operators.
       In particular, this should ensure that any data in the scope of GDPR is not being held without a purpose.
@@ -953,7 +953,7 @@
     User connections to access the TRE are made over https.
 * - 3.5.8.
   - 0
-  - Once a user has access to a TRE, they are able to work with any ingressed data in a collaborative space.
+  - Once a user has access to a TRE, they are able to work with any input data in a collaborative space.
     Any transfer of data within the TRE would be a movement from one folder to another on the same virtual machine.
     This would be restricted to the approved users who already have access, and so encryption is not needed.
 * - 3.5.9.
