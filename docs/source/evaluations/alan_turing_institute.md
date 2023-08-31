@@ -914,7 +914,7 @@
   - 1
   - We comply with the NHS DSPT standard which allows us to process anonymised, patient-derived data.
     #### Potential improvements
-    - We would like to gain accreditation for more wide-ranging standards, for instance CyberEssentials+, ISO27001 and DEA, which cover holistic safe data and research management above and beyond NHS patient data.
+    - We would like to gain accreditation for more wide-ranging standards, for instance CyberEssentials+, ISO27001 and DEA, which cover holistic safe data and research management.
 * - 3.5.2.
   - 1
   - A thorough external penetration test is carried out upon each major release of the Data Safe Haven codebase used by our TRE.
