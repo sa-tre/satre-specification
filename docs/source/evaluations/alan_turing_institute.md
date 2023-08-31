@@ -824,7 +824,7 @@
     - We could perform more detailed ID checks, perhaps by requiring photo ID.
 * - 3.2.3.
   - 2
-  - Each project's data is held separately and users are only able to access data for one project at a time.
+  - Each project's data is held separately.
     It is not possible to mix data between projects, even if an individual is a member of multiple projects.
 * - 3.2.4.
   - 2
