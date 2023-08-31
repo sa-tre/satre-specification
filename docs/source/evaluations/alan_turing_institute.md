@@ -783,7 +783,7 @@
 * - 3.1.8.
   - 1
   - Some research environment data is backed up.
-    This includes virtual disks and object storage accounts which contain, users personal/configuration files and working data.
+    This includes virtual disks and object storage accounts which contain users personal/configuration files and working data.
     Backups are distributed across data centres within a single region.
     Input data is only kept as a single, immutable copy which is not backed up (although users may make copies which would be).
     Because input data is always a copy, we are not concerned about the loss of input data.
