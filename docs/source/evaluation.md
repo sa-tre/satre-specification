@@ -9,8 +9,10 @@ The scoring system is:
 
 0 (Not met)
 : The TRE does not meet this requirement
+
 1 (Sufficient)
 : The TRE meets this requirement met but there is substantial scope for improvement
+
 2 (Satisfied)
 : The TRE meets this requirement met but there may still be scope for improvement
 

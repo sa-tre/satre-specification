@@ -1002,3 +1002,225 @@
   - **YES**
   -
 ```
+
+## Business continuity management
+
+```{list-table}
+:header-rows: 1
+:name: tab-business-continuity-subject
+
+* -
+  - Score
+  - Response
+* - 4.1.1.
+  - 1
+  - We rely on redundancy options provided by Azure, such as load-balancing and geo-redundancy, to maximise the uptime of the TRE.
+    If there is a catastrophic failure of Azure, access to TREs will be lost until service is resumed.
+    We believe this is an acceptable risk that does not need further mitigation.
+* - 4.1.2.
+  - 1
+  - No part of our business continuity plan depends on actions that we can take, so we are not able to test it.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Project and programme management
+
+```{list-table}
+:header-rows: 1
+:name: tab-project-programme-management
+
+* -
+  - Score
+  - Response
+* - 4.2.1.
+  - 2
+  - All projects have a project manager named in a Sharepoint document that is signed by all stakeholders.
+    This individual is responsible for all project support tasks.
+    They will liaise with the TRE operations team as necessary.
+* - 4.2.2.
+  - 2
+  - Only a list of named researchers get access to to the TRE.
+    The project manager is not currently forbidden from being a project team member but this situation has never arisen.
+    #### Potential improvements
+    - We could create a policy that the project manager is not allowed to be part of the project team.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Knowledge management
+
+```{list-table}
+:header-rows: 1
+:name: tab-knowledge-management
+
+* -
+  - Score
+  - Response
+* - 4.3.1.
+  - 2
+  - Our documentation is hosted across two public web sites.
+    One site contains documentation for the TRE implementation, including deployment and user guides.
+    The other describes the Institutes particular processes for TRE operations.
+    These sites are generated from GitHub repositories which can be easily updated in response to feedback as needed.
+* - 4.3.2.
+  - 2
+  - We have documentation in place for using and managing our TRE.
+    #### Potential improvements
+    - We could offer a consistent training programme for all projects.
+* - 4.3.3.
+  - 1
+  - We have identified training needs for stakeholders and made plans to address this, but we do not currently have plans for reviewing these.
+    #### Potential improvements
+    - We should perform a regular training needs analysis review.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Financial management
+
+```{list-table}
+:header-rows: 1
+:name: tab-financial-management
+
+* -
+  - Score
+  - Response
+* - 4.4.1.
+  - 2
+  - We make estimates of our infrastructure costs publicly available in advance.
+    The project manager for each project is also able to see real-time infrastructure spending.
+    We do not currently charge for person-time, although we plan to do so in future.
+    Our charging structure is simple, publicly available, and discussed with the project manager before each project starts.
+* - 4.4.2.
+  - 2
+  - We make use of Azure's spending calculators and other bespoke tools developed by the Institute to manage this.
+    We have dedicated management professionals for charging costs back to projects.
+* - 4.4.3.
+  - 1
+  - We recover the infrastructure costs each project.
+    Infrastructure common to all projects is centrally funded on a year-by-year basis.
+    We do not currently recover person-time costs.
+    We do not have a process in place for ensuring funding in the long-term.
+    #### Potential improvements
+    - We could look to secure longer-term commitments for ongoing funding.
+* - 4.4.4.
+  - 2
+  - We use the Data Safe Haven codebase which is under active development and which considers cost-effectiveness as part of its update process.
+    We start by deploying cheaper resources and resize them to more powerful (and expensive) versions only when requested by end users, for instance, GPU-enabled machines are available only on request.
+    We turn off infrastructure components when not in use.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Procurement
+
+```{list-table}
+:header-rows: 1
+:name: tab-procurement
+
+* -
+  - Score
+  - Response
+* - 4.5.1.
+  - 2
+  - We have systems in place for ensuring cloud credits required for TRE provision can be purchased by projects requiring a TRE.
+    We also have systems in place for providing Chromebooks to TREs users who require access to higher-security TREs where managed devices are required.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## IT Service management
+
+```{list-table}
+:header-rows: 1
+:name: tab-it-service-management
+
+* -
+  - Score
+  - Response
+* - 4.6.1.
+  - 2
+  - We have a dedicated service team for deploying TREs and supporting processes.
+    This is well documented and made available to researchers via the company intranet.
+    The documents themselves are [publicly available online](https://alan-turing-institute.github.io/trusted-research/).
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Relationship management
+
+```{list-table}
+:header-rows: 1
+:name: tab-relationship-stakeholder
+
+* -
+  - Score
+  - Response
+* - 4.7.1.
+  - 2
+  - The code that deploys our TRE infrastructure is open-source and open to contributions from anyone.
+    We also have a dedicated Slack channel and email address for stakeholders to engage with the project team.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Public Involvement and Engagement
+
+```{list-table}
+:header-rows: 1
+:name: tab-supporting-pie
+* -
+  - Score
+  - Response
+* - 4.8.1.
+  - 1
+  - All public engagement activities we have undertaken as a project have been led by public engagement professionals and have followed best practice as outlined in PEDRI guidelines.
+    #### Potential improvements
+    - We should develop a public engagement strategy for the Turing DSH project in collaboration with the Institute's public engagement specialists.
+* - 4.8.2.
+  - 0
+  - We do not currently share the details of projects using our TRE.
+    #### Potential improvements
+    - We might consider doing this after discussion our legal team and other stakeholders.
+* - 4.8.3.
+  - 0
+  - We do not include members of the public in our approval process.
+    We do not think this is appropriate in the case of commercially-sensitive data and we already have an Institute-wide ethics approvals process.
+* - **Capability met?**
+  - **YES**
+  -
+```
+
+## Legal services
+
+```{list-table}
+:header-rows: 1
+:name: tab-legal-services
+
+* -
+  - Score
+  - Response
+* - 4.9.1.
+  - 2
+  - The Institute has a legal team who can be contacted with matters relating to the handling of sensitive data, which includes TRE projects.
+    The TRE operators can get legal advice from this team as required.
+* - 4.9.2.
+  - 2
+  - The Institute has a data protection team who can be contacted with matters relating to the handling of sensitive data, which includes TRE projects.
+    The TRE operators can get legal advice from this team as required.
+* - 4.9.3.
+  - 2
+  - The project manager has responsibility for managing contracts related to data sharing and secondment agreements.
+    The TRE operations team together with the project manager have responsibility for ensuring that user-access terms-of-use are signed.
+* - **Capability met?**
+  - **YES**
+  -
+```
