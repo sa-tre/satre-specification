@@ -25,7 +25,6 @@ If all the **Mandatory** statements in a capability are met, either at level **1
 If all capabilities in a pillar are met then the pillar is met.
 If all pillars are met then the SATRE specification is met.
 
-## Examples
+## Evaluation spreadsheet
 
-- Evaluation of {ref}`The Alan Turing Institute Data Safe Haven <evaluation_alan_turing_institute>`.
-- Evaluation of {ref}`Dundee/HIC TREEHOOSE <evaluation_dundee_hic>`.
+You can use this {download}`spreadsheet <../build/satrecsv/satre.xlsx>` as a template for your evaluation.

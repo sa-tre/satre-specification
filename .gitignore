@@ -41,3 +41,7 @@ Thumbs.db
 *~
 .DS_Store
 venv
+
+# Sphinx
+__pycache__
+
