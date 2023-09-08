@@ -110,7 +110,7 @@ Such governance responsibilities typically involve establishing policies and pro
 
 ```
 
-(public_roles)= 
+(public_roles)=
 
 ## Public Roles
 
