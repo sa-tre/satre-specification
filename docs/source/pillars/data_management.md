@@ -190,7 +190,7 @@ The ability to query and browse the data within an environment at various levels
 * - 3.4.1.
   - You could make a catalogue of sensitive data that you make available to users.
   - This is particularly relevant for TREs that are an interface to a common data collection.
-    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more {ref}`data provider <data_roles>`s.
+    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more {ref}`data providers <data_roles>`.
   - Optional
 ```
 
