@@ -16,7 +16,7 @@
   - - We rely on the Alan Turing Institute legal and data protection teams to inform us of necessary legal requirements.
     - Our TRE (the Alan Turing Institute Data Safe Haven) is self-assessed against the NHS Data Security and Protection Toolkit.
     - The Institute has a centralised ethics approval procedure which all projects are required to follow.
-    - Project specific requirements are discussed with {ref}`data provider <data_roles>`s before start of each project.
+    - Project specific requirements are discussed with {ref}`data providers <data_roles>` before start of each project.
     ##### Potential Improvements
     - Be more proactive about trying to stay up-to-date with changes to requirements.
     - Hold an annual review with the Turing Legal and Data Protection teams to ensure all current requirements are still met by the TRE organisation.
