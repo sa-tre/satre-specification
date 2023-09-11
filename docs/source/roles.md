@@ -52,7 +52,7 @@ Roles for people managing data and databases used in a TRE.
 
 ```
 
-(admin_roles)=
+(infrastructure_roles)=
 
 ## TRE Infrastructure Management Roles
 

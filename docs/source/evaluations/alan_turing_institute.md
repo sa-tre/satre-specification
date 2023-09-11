@@ -237,7 +237,7 @@
     - Consider making more detailed checks on user ID, possibly delegating to a trusted third-party.
 * - 1.5.2.
   - 2
-  - - Onboarding documentation exists for both {ref}`TRE operators <admin_roles>` and project teams.
+  - - Onboarding documentation exists for both {ref}`TRE operators <infrastructure_roles>` and project teams.
     - Users must complete appropriate training and sign our terms of use before being granted access to the TRE.
 * - 1.5.3.
   - 2
@@ -280,7 +280,7 @@
   - - Part of the project initiation process involves agreeing on appropriate user training.
     - All TRE users carry out GDPR and cyber security training.
     - Depending on the project, they may also complete eLfH data security awareness training (level 1) and MRC Research, GDPR & Confidentiality Training
-    - {ref}`TRE operators <admin_roles>` must pass all user training requirements as well as data handling and cyber security training.
+    - {ref}`TRE operators <infrastructure_roles>` must pass all user training requirements as well as data handling and cyber security training.
     ##### Potential Improvements
     - Put a regular systematic training needs analysis into place.
 * - 1.6.2.

@@ -2,7 +2,7 @@
 
 # Data management
 
-This capability concerns the ability of the {ref}`TRE operator <admin_roles>` to manage data assets and ensure information remains secure.
+This capability concerns the ability of the {ref}`TRE operator <infrastructure_roles>` to manage data assets and ensure information remains secure.
 
 ```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
@@ -17,7 +17,7 @@ SATRE Pillars Capability Map
 
 ## Data lifecycle management
 
-The ability of the {ref}`TRE operator <admin_roles>` to manage how and where data is stored, how it moves, changes and is removed.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and where data is stored, how it moves, changes and is removed.
 
 ```{list-table}
 :header-rows: 1
@@ -49,8 +49,8 @@ The ability of the {ref}`TRE operator <admin_roles>` to manage how and where dat
   - Mandatory
 * - 3.1.5.
   - Your data egress process could sometimes require project-independent approval.
-  - There may be cases where there are multiple stakeholders for a piece of analysis including {ref}`data providers <data_roles>`, data analysts, data subjects, the {ref}`TRE operator <admin_roles>`.
-    A data egress process may then require approval from people not on the project team, for example an external referee or {ref}`TRE operator <admin_roles>` representative
+  - There may be cases where there are multiple stakeholders for a piece of analysis including {ref}`data providers <data_roles>`, data analysts, data subjects, the {ref}`TRE operator <infrastructure_roles>`.
+    A data egress process may then require approval from people not on the project team, for example an external referee or {ref}`TRE operator <infrastructure_roles>` representative
   - Optional
 * - 3.1.6.
   - You must keep a record of what data your TRE holds.
@@ -67,7 +67,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to manage how and where dat
 * - 3.1.8.
   - You could keep backups of data and research environments, provided that this is permitted by law.
   - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
-    {ref}`TRE developers <admin_roles>` may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
+    {ref}`TRE developers <infrastructure_roles>` may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
   - Optional
 * - 3.1.9.
   - You should log how input data is modified.
@@ -85,7 +85,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to manage how and where dat
 
 ## Identity and access management
 
-The ability of the {ref}`TRE operator <admin_roles>` to ensure the right people (identities) can only access the tools and data they need.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure the right people (identities) can only access the tools and data they need.
 
 ```{list-table}
 :header-rows: 1
@@ -131,7 +131,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to ensure the right people 
 
 ## Output management
 
-The ability of the {ref}`TRE operator <admin_roles>` to ensure outputs are safely published and shared.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs are safely published and shared.
 
 ```{list-table}
 :header-rows: 1
@@ -161,7 +161,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to ensure outputs are safel
   - Mandatory
 * - 3.3.4.
   - You must have a process for assigning responsibility for output checking.
-  - {ref}`Output checkers <admin_roles>` should be given responsibility for checking outputs.
+  - {ref}`Output checkers <infrastructure_roles>` should be given responsibility for checking outputs.
     They must follow your disclosure control process and will be responsible for any automated parts of this process.
     Output checking can help mitigate against unintentional data disclosure or leaks.
   - Mandatory
@@ -198,7 +198,7 @@ The ability to query and browse the data within an environment at various levels
 
 ## Information security
 
-The ability of the {ref}`TRE operator <admin_roles>` to protect against the unauthorised use of information, especially electronic data.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to protect against the unauthorised use of information, especially electronic data.
 
 Measures taken to ensure information security can be further categorised into:
 
@@ -214,7 +214,7 @@ These measures include vulnerability management of TRE infrastructure (whether p
 
 ### Vulnerability Management
 
-The ability of the {ref}`TRE operator <admin_roles>` to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
 
 ```{list-table}
 :header-rows: 1
@@ -234,7 +234,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to identify, assess, report
 
 ### Security testing
 
-Security testing enables the {ref}`TRE operator <admin_roles>` to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
+Security testing enables the {ref}`TRE operator <infrastructure_roles>` to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
 
 ```{list-table}
 :header-rows: 1
@@ -270,7 +270,7 @@ Security testing enables the {ref}`TRE operator <admin_roles>` to gain assurance
 
 ### Encryption
 
-The ability of the {ref}`TRE operator <admin_roles>` to deploy and manage encryption to protect information assets, including data for TRE research projects.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to deploy and manage encryption to protect information assets, including data for TRE research projects.
 
 Here we define 'project' data as the data brought in for work which is very likely to be sensitive and 'user' data, as the working files of a project which might hold copies of all or part of the project data or otherwise reveal sensitive data (_e.g._ through hard coded row/column names).
 
@@ -286,7 +286,7 @@ Here we define 'project' data as the data brought in for work which is very like
   - Your TRE must encrypt project and user data at rest.
   - This prevents unauthorised access to the data even if the storage media is compromised.
     This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
-    The encryption keys may be managed by the {ref}`TRE operator <admin_roles>` or by a trusted external actor, for example a cloud provider.
+    The encryption keys may be managed by the {ref}`TRE operator <infrastructure_roles>` or by a trusted external actor, for example a cloud provider.
   - Mandatory
 * - 3.5.7.
   - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
@@ -313,7 +313,7 @@ Here we define 'project' data as the data brought in for work which is very like
 
 ### Physical security
 
-The ability of the {ref}`TRE operator <admin_roles>` to manage and protect physical assets from unauthorised access, damage or destruction.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to manage and protect physical assets from unauthorised access, damage or destruction.
 
 Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
 
