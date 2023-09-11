@@ -31,7 +31,7 @@ Roles for TRE end-users conducting research or analysing data in the TRE and oth
 
 (data_roles)=
 
-## TRE Data Roles
+## TRE Data Management Roles
 
 Roles for people managing data and databases used in a TRE.
 
