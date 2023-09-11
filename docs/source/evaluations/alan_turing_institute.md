@@ -237,7 +237,7 @@
     - Consider making more detailed checks on user ID, possibly delegating to a trusted third-party.
 * - 1.5.2.
   - 2
-  - - Onboarding documentation exists for both {ref}`TRE operator <admin_roles>`s and project teams.
+  - - Onboarding documentation exists for both {ref}`TRE operators <admin_roles>` and project teams.
     - Users must complete appropriate training and sign our terms of use before being granted access to the TRE.
 * - 1.5.3.
   - 2
