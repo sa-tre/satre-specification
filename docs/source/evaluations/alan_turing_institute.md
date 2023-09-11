@@ -141,7 +141,7 @@
 * - 1.3.2.
   - 2
   - - All Turing projects must carry out a Data Protection Assessment Process.
-    - We also have a flowchart that project teams and {ref}`data provider <data_roles>`s must follow to agree on the security tier of their project before it starts.
+    - We also have a flowchart that project teams and {ref}`data providers <data_roles>` must follow to agree on the security tier of their project before it starts.
 * - 1.3.3.
   - 1
   - - We decide on risk mitigations during our risk assessment process, but this tends to be an _ad-hoc_ process rather than anything formalised..
