@@ -280,7 +280,7 @@
   - - Part of the project initiation process involves agreeing on appropriate user training.
     - All TRE users carry out GDPR and cyber security training.
     - Depending on the project, they may also complete eLfH data security awareness training (level 1) and MRC Research, GDPR & Confidentiality Training
-    - {ref}`TRE operator <admin_roles>`s must pass all user training requirements as well as data handling and cyber security training.
+    - {ref}`TRE operators <admin_roles>` must pass all user training requirements as well as data handling and cyber security training.
     ##### Potential Improvements
     - Put a regular systematic training needs analysis into place.
 * - 1.6.2.
