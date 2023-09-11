@@ -221,7 +221,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to provide suitable and tim
 * - 4.9.1.
   - You should have identify areas where legal advice may be required and ensure that you have ready access to it.
   - It is likely that legal advice will be necessary for several issues around the handling of sensitive data, and managing project contracts.
-    {ref}`TRE operator <admin_roles>`s should have ready access to legal advice, including a way to solicit advice and carry out associated actions.
+    {ref}`TRE operators <admin_roles>` should have ready access to legal advice, including a way to solicit advice and carry out associated actions.
   - Recommended
 ```
 
