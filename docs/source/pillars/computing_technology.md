@@ -263,7 +263,7 @@ This {term}`business process <business process>` involves ensuring all IT infras
   - Importance
 * - 2.2.7.
   - You should understand the availability and uptime guarantees of any providers that you rely on.
-  - For remote TREs this might include your cloud provider(s) and/or data cen{ref}`TRE operator <admin_roles>`s.
+  - For remote TREs this might include your cloud provider(s) and/or data centres.
     For on-premises TREs, it might be worth using an uninterruptable power supply (UPS) and planning how you would deal with internet outages.
   - Recommended
 * - 2.2.8.
