@@ -54,9 +54,9 @@ Roles for people managing data and databases used in a TRE.
 
 (admin_roles)=
 
-## TRE Administration Roles
+## TRE Infrastructure Management Roles
 
-The IT and related professionals who will be responsible for deploying and managing instances of a TRE conforming to the SATRE specification.
+The IT professionals and software engineers who will be responsible for developing, deploying and managing instances of a TRE conforming to the SATRE specification.
 
 ```{list-table}
 :header-rows: 1
@@ -66,26 +66,12 @@ The IT and related professionals who will be responsible for deploying and manag
   - Role description
 * - TRE Operator
   - People responsible for the management of the TRE's IT infrastructure and general processes documented throughout the SATRE specification. Examples include carrying out data ingress/egress and managing user access. TRE operators should expect to have access to documentation regarding all processes they are required to carry out, developed by themselves or (in partnership with) the TRE Developers. This documentation should be comprehensive and include troubleshooting steps (see {ref}`knowledge_management`).
+* - TRE Developer
+  - People responsible for building the software infrastructure that can be used as a TRE. These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research. Alternatively these could be developers who are contracted to build a TRE for a given insitution or project. TRE developers include people creating bespoke platforms catering to the specific requirements of a project or dataset, as well as developers building generalisable solutions to TRE provision that can be configured based on the research context.
 * - Infrastructure Deployment Role
   - People responsible for carrying out the {ref}`infrastructure_deployment_process`. This role could be taken on by either the TRE Operators or the TRE Developers.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
-```
-
-(developer_roles)=
-
-## TRE Developer Roles
-
-The software engineers responsible for developing and maintaining TRE software, including adding functionality, bug fixes and general maintenance.
-
-```{list-table}
-:header-rows: 1
-:name: tab-tre-role-developer
-
-* - Role name
-  - Role description
-* - TRE Developer
-  - People responsible for building the software infrastructure that can be used as a TRE. These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research. Alternatively these could be developers who are contracted to build a TRE for a given insitution or project. TRE developers include people creating bespoke platforms catering to the specific requirements of a project or dataset, as well as developers building generalisable solutions to TRE provision that can be configured based on the research context.
 ```
 
 (governance_roles)=
