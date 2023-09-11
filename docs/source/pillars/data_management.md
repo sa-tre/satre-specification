@@ -49,7 +49,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to manage how and where dat
   - Mandatory
 * - 3.1.5.
   - Your data egress process could sometimes require project-independent approval.
-  - There may be cases where there are multiple stakeholders for a piece of analysis including {ref}`data provider <data_roles>`s, data analysts, data subjects, the {ref}`TRE operator <admin_roles>`.
+  - There may be cases where there are multiple stakeholders for a piece of analysis including {ref}`data providers <data_roles>`, data analysts, data subjects, the {ref}`TRE operator <admin_roles>`.
     A data egress process may then require approval from people not on the project team, for example an external referee or {ref}`TRE operator <admin_roles>` representative
   - Optional
 * - 3.1.6.
