@@ -373,7 +373,7 @@ Throughout the rest of this document, we will refer to each pre-defined security
 * - 3.6.1.
   - You must be able to specify what categories of data your TRE is able to support.
   - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
-    Relevant stakeholders may include {ref}`data provider <data_roles>`s and project teams and they may have different levels of technical expertise.
+    Relevant stakeholders may include {ref}`data providers <data_roles>` and project teams and they may have different levels of technical expertise.
   - Mandatory
 * - 3.6.2.
   - Your TRE could support projects with differing security requirements through configurable security controls.
