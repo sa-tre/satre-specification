@@ -49,7 +49,8 @@ Roles for people managing data and databases used in a TRE.
   - The custodian or owner of a dataset, who provides access to the data for research in a TRE. This could be done via liasing with the TRE Operator on {ref}`secure data ingress <data_lifecycle_management>`.
 * - Information Asset Owner
   - General term for custodians or owners of a datasets, projects or other information assets within a TRE.
-
+* - Output Checker
+  - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
 ```
 
 (infrastructure_roles)=
@@ -70,8 +71,6 @@ The IT professionals and software engineers who will be responsible for developi
   - People responsible for building the software infrastructure that can be used as a TRE. These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research. Alternatively these could be developers who are contracted to build a TRE for a given insitution or project. TRE developers include people creating bespoke platforms catering to the specific requirements of a project or dataset, as well as developers building generalisable solutions to TRE provision that can be configured based on the research context.
 * - Infrastructure Deployment Role
   - People responsible for carrying out the {ref}`infrastructure_deployment_process`. This role could be taken on by either the TRE Operators or the TRE Developers.
-* - Output Checker
-  - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
 ```
 
 (governance_roles)=

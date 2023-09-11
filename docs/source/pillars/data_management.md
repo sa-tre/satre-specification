@@ -161,7 +161,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs 
   - Mandatory
 * - 3.3.4.
   - You must have a process for assigning responsibility for output checking.
-  - {ref}`Output checkers <infrastructure_roles>` should be given responsibility for checking outputs.
+  - {ref}`Output checkers <data_roles>` should be given responsibility for checking outputs.
     They must follow your disclosure control process and will be responsible for any automated parts of this process.
     Output checking can help mitigate against unintentional data disclosure or leaks.
   - Mandatory
