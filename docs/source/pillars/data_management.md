@@ -231,7 +231,7 @@ The ability of the {ref}`TRE operator <admin_roles>` to identify, assess, report
   - Recommended
 * - 3.5.2.
   - You should conduct regular vulnerability scans of TRE infrastructure.
-  - Ensuring that scans are done on a regular basis can enable {ref}`TRE operator <admin_roles>`s can identify and address weaknesses that may have been introduced during the operational lifetime of the TRE.
+  - Ensuring that scans are done on a regular basis can enable {ref}`TRE operators <admin_roles>` can identify and address weaknesses that may have been introduced during the operational lifetime of the TRE.
   - Recommended
 * - 3.5.3.
   - You should regularly check the compliance of machine and resource configurations.
@@ -276,7 +276,7 @@ Security testing enables the {ref}`TRE operator <admin_roles>` to gain assurance
   - Mandatory
 * - 3.5.5.
   - You should publish details of your security testing strategy and, where possible, the results of each test.
-  - Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and {ref}`data provider <data_roles>`s, can trust that the data they work with or are responsible for is secure within a TRE.
+  - Knowledge that regular security testing occurs will help to ensure stakeholders, including researchers and {ref}`data providers <data_roles>`, can trust that the data they work with or are responsible for is secure within a TRE.
     If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
   - Recommended
 ```
