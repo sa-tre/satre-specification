@@ -18,14 +18,14 @@ Roles for TRE end-users conducting research or analysing data in the TRE and oth
 
 * - Role name
   - Role description
-* - Researcher
-  - People responsible for carrying out the research project using a TRE. These could be programmers and data scientists, but could also be scientists working in fields where deep computing expertise is less common. Researchers working with TREs that meet the SATRE standard should to have a broadly similar user experience, at least where the type of researcher is consistent (e.g. data scientists). This includes both the user experience of the platforms themselves, and the associated documentation.
 * - Data Consumer
   - General term for any individuals who will be provided access to data via a TRE.
+* - Data Analyst
+  - Specific term for people provided access to data via a TRE, who intend to carry out analysis or conduct research using the data. These could be programmers and data scientists, but could also be scientists working in fields where deep computing expertise is less common. Analysts working with TREs that meet the SATRE standard should to have a broadly similar user experience, at least where the type of analyst is consistent (e.g. data scientists). This includes both the user experience of the platforms themselves, and the associated documentation.
 * - Project Manager
   - The person in charge of coordinating other roles for the duration of a specific TRE project. See {ref}`project_management`.
 * - Project Team
-  - Refers to the team of researchers and manager(s) working on a specific project that uses a TRE.
+  - Refers to the team of data analysts and project manager(s) working on a specific project that uses a TRE.
 
 ```
 
