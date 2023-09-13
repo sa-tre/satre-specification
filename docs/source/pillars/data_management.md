@@ -50,7 +50,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
 * - 3.1.5.
   - Your data egress process could sometimes require project-independent approval.
   - There may be cases where there are multiple stakeholders for a piece of analysis including {ref}`information asset owners <data_roles>`, data analysts, data subjects, the {ref}`TRE operator <infrastructure_roles>`.
-    A data egress process may then require approval from people not on the project team, for example an external referee or {ref}`TRE operator <infrastructure_roles>` representative
+    A data egress process may then require approval from people not on the {ref}`project team <project_roles>`, for example an external referee or {ref}`TRE operator <infrastructure_roles>` representative
   - Optional
 * - 3.1.6.
   - You must keep a record of what data your TRE holds.
@@ -358,7 +358,7 @@ Throughout the rest of this document, we will refer to each pre-defined security
 * - 3.6.1.
   - You must be able to specify what categories of data your TRE is able to support.
   - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
-    Relevant stakeholders may include {ref}`information asset owners <data_roles>` and project teams and they may have different levels of technical expertise.
+    Relevant stakeholders may include {ref}`information asset owners <data_roles>` and {ref}`project teams <project_roles>` and they may have different levels of technical expertise.
   - Mandatory
 * - 3.6.2.
   - Your TRE could support projects with differing security requirements through configurable security controls.
