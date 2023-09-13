@@ -92,6 +92,8 @@ Such governance responsibilities typically involve establishing policies and pro
   - People who lead and control an organisation at the highest level. This definition is taken from *ISO 9000:2015* and in this context refers to the most senior governance official who own the risks associated with TRE research, can make decisions and allocate resources. See {ref}`risk_ownership_process`.
 * - Data Protection Manager
   - People responsible for {ref}`data protection <data_protection>` at the organisation hosting the TRE.
+* - Auditor
+  - General IT term for people who evaluate an organisation’s IT systems on whether they meet technology or cybersecurity regulatory requirements. For TREs, this may include requirements around sensitive data handling and information security controls. Auditors can be internal, or external people working for a consulting firm.
 
 ```
 
