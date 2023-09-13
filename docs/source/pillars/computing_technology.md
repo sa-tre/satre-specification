@@ -190,7 +190,7 @@ This {term}`application component <application component>` involves the use of a
 
 ## Infrastructure management
 
-The ability of the {ref}`Infrastructure Deployment Role <infrastructure_roles>` to deploy, change or remove physical or virtual infrastructure.
+The ability of the {ref}`TRE Builder <infrastructure_roles>` to deploy, change or remove physical or virtual infrastructure.
 
 (infrastructure_deployment_process)=
 

@@ -63,11 +63,11 @@ The IT professionals and software engineers who will be responsible for developi
 
 * - Role name
   - Role description
-* - TRE Operator
+* - Operator
   - People responsible for the management of the TRE's IT infrastructure and general processes documented throughout the SATRE specification. Examples include carrying out data ingress/egress and managing user access. TRE operators should expect to have access to documentation regarding all processes they are required to carry out, developed by themselves or (in partnership with) the TRE Developers. This documentation should be comprehensive and include troubleshooting steps (see {ref}`knowledge_management`).
-* - TRE Developer
+* - Developer
   - People responsible for building the software infrastructure that can be used as a TRE. These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research. Alternatively these could be developers who are contracted to build a TRE for a given insitution or project. TRE developers include people creating bespoke platforms catering to the specific requirements of a project or dataset, as well as developers building generalisable solutions to TRE provision that can be configured based on the research context.
-* - Infrastructure Deployment Role
+* - Builder
   - People responsible for carrying out the {ref}`infrastructure_deployment_process`. This role could be taken on by either the TRE Operators or the TRE Developers.
 ```
 
