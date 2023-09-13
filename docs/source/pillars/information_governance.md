@@ -13,7 +13,7 @@ This pillar concerns actions taken by the {ref}`TRE operator <infrastructure_rol
 
 Each {ref}`TRE operator <infrastructure_roles>` will have its own information governance requirements.
 These will be informed by the context of the organisation, the work it performs and the nature of the data it processes.
-For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractural requirements from a specific {ref}`data provider <data_roles>` such as a company or research partner organisation.
+For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractural requirements from a specific {ref}`information asset owner <data_roles>` such as a company or research partner organisation.
 
 ## Governance Requirements
 
@@ -553,7 +553,7 @@ This {term}`business process <business process>` involves designing, developing,
   - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
     Specialised roles are likely to need more tailored training.
     Identification of these specialities should be done through a systematic training needs analysis.
-    Specific training may also be required based on the data or {ref}`data provider <data_roles>` such as GCP.
+    Specific training may also be required based on the data or {ref}`information asset owner <data_roles>` such as GCP.
   - Mandatory
 * - 1.6.2.
   - You must ensure that relevant training is available for all roles within the TRE organisation.
@@ -634,7 +634,7 @@ This {term}`data object <data object>` consists of information or data associate
   - Optional
 * - 1.6.9.
   - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
-  - {ref}`Data providers <data_roles>` and regulators may be required to audit historical records, _e.g._ for clinical trials.
+  - {ref}`Information asset owners <data_roles>` and regulators may be required to audit historical records, _e.g._ for clinical trials.
     It may be necessary to retain copies of superseded training along with versions of certifications within the training record.
   - Optional
 ```

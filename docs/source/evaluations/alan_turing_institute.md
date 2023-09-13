@@ -16,7 +16,7 @@
   - - We rely on the Alan Turing Institute legal and data protection teams to inform us of necessary legal requirements.
     - Our TRE (the Alan Turing Institute Data Safe Haven) is self-assessed against the NHS Data Security and Protection Toolkit.
     - The Institute has a centralised ethics approval procedure which all projects are required to follow.
-    - Project specific requirements are discussed with {ref}`data providers <data_roles>` before start of each project.
+    - Project specific requirements are discussed with {ref}`information asset owners <data_roles>` before start of each project.
     ##### Potential Improvements
     - Be more proactive about trying to stay up-to-date with changes to requirements.
     - Hold an annual review with the Turing Legal and Data Protection teams to ensure all current requirements are still met by the TRE organisation.
@@ -141,7 +141,7 @@
 * - 1.3.2.
   - 2
   - - All Turing projects must carry out a Data Protection Assessment Process.
-    - We also have a flowchart that project teams and {ref}`data providers <data_roles>` must follow to agree on the security tier of their project before it starts.
+    - We also have a flowchart that project teams and {ref}`information asset owners <data_roles>` must follow to agree on the security tier of their project before it starts.
 * - 1.3.3.
   - 1
   - - We decide on risk mitigations during our risk assessment process, but this tends to be an _ad-hoc_ process rather than anything formalised..
@@ -195,7 +195,7 @@
 * - 1.4.4.
   - 2
   - - We have processes in place to handle egressing results, removing access, securely deleting any data and destroying the infrastructure.
-    - Data egress needs to be agreed by the project stakeholders: the principal investigator, {ref}`data provider <data_roles>` and a referee representing the interests of the Institute.
+    - Data egress needs to be agreed by the project stakeholders: the principal investigator, {ref}`information asset owner <data_roles>` and a referee representing the interests of the Institute.
 * - 1.4.5.
   - 0
   - - We manage our projects using a GitHub project board.
@@ -247,7 +247,7 @@
   - 2
   - - We have a process for agreeing which people are able to take which actions involving sensitive data.
     - Delegation of approval authority is also included here.
-    - A document summarising these decisions must be signed by the principal investigator, {ref}`data provider <data_roles>` and referee before the project begins.
+    - A document summarising these decisions must be signed by the principal investigator, {ref}`information asset owner <data_roles>` and referee before the project begins.
 * - 1.5.5.
   - 2
   - - Initial log in is delegated to Microsoft Entra via OAuth.
@@ -756,21 +756,21 @@
 * - 3.1.3.
   - 2
   - We implement data handling restrictions on data coming into the environment.
-    These involve getting agreement from the data provider, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
+    These involve getting agreement from the information asset owner, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
     These stakeholders must sign a form detailing the requested ingress to confirm their agreement.
 * - 3.1.4.
   - 2
   - We implement data handling restrictions on data coming out of the environment.
-    These involve getting agreement from the data provider, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
+    These involve getting agreement from the information asset owner, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
     These stakeholders must sign a form detailing the requested egress to confirm their agreement.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.5.
   - 2
-  - Our data egress procedure requires signed agreement from representatives of all data providers, the project team and a referee external to the project.
+  - Our data egress procedure requires signed agreement from representatives of all information asset owners, the project team and a referee external to the project.
 * - 3.1.6.
   - 2
   - Input data is recorded in the aforementioned forms.
-    The record includes a description of the data, its source (the data provider) and the data owner's contact details.
+    The record includes a description of the data, its source (the information asset owner) and the data owner's contact details.
     This project initialisation document is specific to the particular TRE project that uses the data and will include the date of data ingress.
     At, or shortly after, the project end date, the data is securely and irreversibly deleted from the TRE.
 * - 3.1.7.
@@ -855,7 +855,7 @@
   - Response
 * - 3.3.1.
   - 1
-  - All outputs from a TRE go through our security classification process, carried out by the project investigator, data provider representative and an independent referee at the Turing.
+  - All outputs from a TRE go through our security classification process, carried out by the project investigator, information asset owner representative and an independent referee at the Turing.
     Different egress processes are required according to the sensitivity of the outputs.
     #### Potential improvements
     - We would like to create better guidance and documentation for classification, or possibly build tools to classify/create classification reports.
@@ -875,10 +875,10 @@
     - We should improve documentation of this process
 * - 3.3.4.
   - 2
-  - The principal investigator, data provider representative and referee are jointly responsible for output checking.
+  - The principal investigator, information asset owner representative and referee are jointly responsible for output checking.
 * - 3.3.5.
   - 2
-  - We do not allow egress of files that cannot be manually checked except in the case of release back to the original data provider.
+  - We do not allow egress of files that cannot be manually checked except in the case of release back to the original information asset owner.
 * - **Capability met?**
   - **YES**
   -
