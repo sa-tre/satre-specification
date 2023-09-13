@@ -42,7 +42,7 @@ Roles for people managing data and databases used in a TRE.
 * - Role name
   - Role description
 * - Data Steward
-  - People who ensure data within a TRE is maintained and processed in ways useful to researchers, including providing data extracts to specific projects or researchers. May also be known as Data Wranglers or Data Cleaners.
+  - People who ensure data within a TRE is maintained and processed in ways useful to {ref}`data analysts <project_roles>`, including providing data extracts to specific projects or {ref}`data analysts <project_roles>`. May also be known as Data Wranglers or Data Cleaners.
 * - Database Administrator
   - People responsible for managing any databases included in the TRE. Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects. See {ref}`advanced_CCC`.
 * - Data provider
