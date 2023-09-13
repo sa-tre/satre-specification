@@ -45,10 +45,8 @@ Roles for people managing data and databases used in a TRE.
   - People who ensure data within a TRE is maintained and processed in ways useful to {ref}`data analysts <project_roles>`, including providing data extracts to specific projects or {ref}`data analysts <project_roles>`. May also be known as Data Wranglers or Data Cleaners.
 * - Database Administrator
   - People responsible for managing any databases included in the TRE. Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects. See {ref}`advanced_CCC`.
-* - Data provider
-  - The custodian or owner of a dataset, who provides access to the data for research in a TRE. This could be done via liasing with the TRE Operator on {ref}`secure data ingress <data_lifecycle_management>`.
 * - Information Asset Owner
-  - General term for custodians or owners of a datasets, projects or other information assets within a TRE.
+  - General term for custodians or owners of a datasets, projects or other information assets within a TRE. For example, the owner of a dataset who has liased with a TRE Operator on {ref}`secure data ingress <data_lifecycle_management>` to the TRE.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
 ```
