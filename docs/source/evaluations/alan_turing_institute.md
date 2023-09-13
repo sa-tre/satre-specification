@@ -195,7 +195,7 @@
 * - 1.4.4.
   - 2
   - - We have processes in place to handle egressing results, removing access, securely deleting any data and destroying the infrastructure.
-    - Data egress needs to be agreed by the project stakeholders: the principal investigator, {ref}`information asset owner <data_roles>` and a referee representing the interests of the Institute.
+    - Data egress needs to be agreed by the project stakeholders: the {ref}`project manager <project_roles>`, {ref}`information asset owner <data_roles>` and a referee representing the interests of the Institute.
 * - 1.4.5.
   - 0
   - - We manage our projects using a GitHub project board.
@@ -247,7 +247,7 @@
   - 2
   - - We have a process for agreeing which people are able to take which actions involving sensitive data.
     - Delegation of approval authority is also included here.
-    - A document summarising these decisions must be signed by the principal investigator, {ref}`information asset owner <data_roles>` and referee before the project begins.
+    - A document summarising these decisions must be signed by the {ref}`project manager <project_roles>`, {ref}`information asset owner <data_roles>` and referee before the project begins.
 * - 1.5.5.
   - 2
   - - Initial log in is delegated to Microsoft Entra via OAuth.
@@ -756,12 +756,12 @@
 * - 3.1.3.
   - 2
   - We implement data handling restrictions on data coming into the environment.
-    These involve getting agreement from the information asset owner, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
+    These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
     These stakeholders must sign a form detailing the requested ingress to confirm their agreement.
 * - 3.1.4.
   - 2
   - We implement data handling restrictions on data coming out of the environment.
-    These involve getting agreement from the information asset owner, principal investigator of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
+    These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
     These stakeholders must sign a form detailing the requested egress to confirm their agreement.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.5.
@@ -875,7 +875,7 @@
     - We should improve documentation of this process
 * - 3.3.4.
   - 2
-  - The principal investigator, information asset owner representative and referee are jointly responsible for output checking.
+  - The {ref}`project manager <project_roles>`, information asset owner representative and referee are jointly responsible for output checking.
 * - 3.3.5.
   - 2
   - We do not allow egress of files that cannot be manually checked except in the case of release back to the original information asset owner.
