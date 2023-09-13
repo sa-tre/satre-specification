@@ -46,7 +46,7 @@ Roles for people managing data and databases used in a TRE.
 * - Database Administrator
   - People responsible for managing any databases included in the TRE. Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects. See {ref}`advanced_CCC`.
 * - Information Asset Owner
-  - General term for custodians or owners of a datasets, projects or other information assets within a TRE. For example, the owner of a dataset who has liased with a TRE Operator on {ref}`secure data ingress <data_lifecycle_management>` to the TRE.
+  - General term for custodians or owners of a datasets, projects or other information assets within a TRE. For example, the owner of a dataset who has liased with a {ref}`TRE Operator <infrastructure_roles>` on {ref}`secure data ingress <data_lifecycle_management>` to the TRE.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process. See {ref}`output_management`.
 ```
