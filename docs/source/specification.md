@@ -6,6 +6,7 @@
 
 The SATRE specification follows a capability-evaluation model.
 The specification is presented in terms of the capabilities that a team running a TRE should aim for across all aspects of TRE provision.
+This page explains what the specification is, and how it's structured. Consult the {ref}`FAQs <faqs>` for more on what the specification *is not*.
 
 :::{note}
 Throughout this document, we will use the term "TRE operator" to refer to the team running a particular TRE.
