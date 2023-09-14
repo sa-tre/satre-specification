@@ -6,6 +6,7 @@
 
 specification.md
 roles.md
+faqs.md
 ```
 
 ```{toctree}
