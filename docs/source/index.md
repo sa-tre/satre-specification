@@ -53,6 +53,8 @@ SATRE is our attempt to provide a standard reference architecture for trusted re
 We have developed a {ref}`comprehensive specification <specification>` which describes the features that a TRE should have.
 We have also performed {ref}`evaluations of existing open TREs <evaluation>` against the SATRE specification.
 
+(satre_why)=
+
 ## ❓ Why are we doing this?
 
 <!-- Motivation: Why a TRE specification is needed/ useful and a description of the broader SATRE project, conception and goals -->
