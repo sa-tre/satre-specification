@@ -17,5 +17,5 @@
 * - How has the SATRE specification been developed and why?
   - See the information on the homepage of {ref}`these docs <satre_why>`.
 * - Who has developed the SATRE specification?
-  - Take a look at out {ref}`contributors` page.
+  - Take a look at our {ref}`contributors` page.
 ```
