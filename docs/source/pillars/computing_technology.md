@@ -21,7 +21,7 @@ The required compute resources will vary according to the scale of data and comp
 
 ## End user computing
 
-The ability of the {ref}`TRE operator <infrastructure_roles>` to provide and manage devices, workspaces, interfaces and applications used by {ref}`data analysts <project_roles>` to interact with underlying systems and data.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to provide and manage devices, workspaces, interfaces and applications used by {ref}`data consumers <project_roles>` to interact with underlying systems and data.
 
 ### End user computing interfaces
 
@@ -48,14 +48,14 @@ This may include desktop, command-line and/or code-submission interfaces.
     Bespoke TRE-specific software should be avoided when widely used alternatives already exist.
   - Recommended
 * - 2.1.3.
-  - A TRE could restrict data access from {ref}`data analysts <project_roles>` entirely and provide an interface for submitting code.
+  - A TRE could restrict data access from {ref}`data consumers <project_roles>` entirely and provide an interface for submitting code.
   - For example, you might use a system where users submit jobs that run over the data and return results without allowing direct data access.
   - Optional
 ```
 
 ### End user software tools
 
-This {term}`application component <application component>` is the tools used by {ref}`data analysts <project_roles>` inside a TRE, such as programming languages, IDEs and desktop applications.
+This {term}`application component <application component>` is the tools used by {ref}`data consumers <project_roles>` inside a TRE, such as programming languages, IDEs and desktop applications.
 
 ```{list-table}
 :header-rows: 1
@@ -72,7 +72,7 @@ This {term}`application component <application component>` is the tools used by 
   - Recommended
 * - 2.1.5.
   - Your TRE must provide clear guidance on how to use software tools and work with data in the TRE.
-  - TREs that provide a virtual desktop environment for {ref}`data analysts <project_roles>` to work in should provide documentation detailing the available tools.
+  - TREs that provide a virtual desktop environment for {ref}`data consumers <project_roles>` to work in should provide documentation detailing the available tools.
     TREs where the analysis code is developed on the access machine (as opppose to within the TRE) should provide documentation detailing the mechanism by which code is submitted to the TRE.
   - Mandatory
 * - 2.1.6.
@@ -98,7 +98,7 @@ This {term}`application component <application component>` is the tools used by 
   - Your TRE must provide software applications that are relevant to working with the data in the TRE.
   - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
     For users working in a TRE via a virtual desktop, this may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
-    TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the {ref}`data analysts <project_roles>` needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
+    TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the {ref}`data consumers <project_roles>` needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
     The set of tools should be reviewed regularly to ensure they are up to date.
   - Mandatory
 ```
@@ -177,7 +177,7 @@ This {term}`application component <application component>` involves the use of a
     TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
   - Recommended
 * - 2.1.17.
-  - Your TRE could make data available to {ref}`data analysts <project_roles>` using common database systems such as PostgreSQL, MSSQL or MongoDB.
+  - Your TRE could make data available to {ref}`data consumers <project_roles>` using common database systems such as PostgreSQL, MSSQL or MongoDB.
   - Databases must be secured and only accessible to users within the same project.
     If shared (multi-tenant) database servers are used, {ref}`database administrators <data_roles>` must ensure that the database server enforces segregation of users and databases belonging to different projects.
   - Optional

@@ -1041,7 +1041,7 @@
     They will liaise with the TRE operations team as necessary.
 * - 4.2.2.
   - 2
-  - Only a list of named {ref}`data analysts <project_roles>` get access to to the TRE.
+  - Only a list of named {ref}`data consumers <project_roles>` get access to to the TRE.
     The project manager is not currently forbidden from being a project team member but this situation has never arisen.
     #### Potential improvements
     - We could create a policy that the project manager is not allowed to be part of the project team.
@@ -1147,7 +1147,7 @@
 * - 4.6.1.
   - 2
   - We have a dedicated service team for deploying TREs and supporting processes.
-    This is well documented and made available to {ref}`data analysts <project_roles>` via the company intranet.
+    This is well documented and made available to {ref}`data consumers <project_roles>` via the company intranet.
     The documents themselves are [publicly available online](https://alan-turing-institute.github.io/trusted-research/).
 * - **Capability met?**
   - **YES**

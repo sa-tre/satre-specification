@@ -118,7 +118,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure the righ
 * - 3.2.5.
   - You could use federated authentication or single sign-on (SSO) for user login.
   - Institutions that use a SSO for other applications may wish to extend this login capability to a TRE.
-    This will simplify the login process for {ref}`data analysts <project_roles>` using a TRE and prevent them having to remember or store multiple login credentials.
+    This will simplify the login process for {ref}`data consumers <project_roles>` using a TRE and prevent them having to remember or store multiple login credentials.
   - Optional
 * - 3.2.6.
   - You could restrict access to particular networks or physical locations.
@@ -261,7 +261,7 @@ Security testing enables the {ref}`TRE operator <infrastructure_roles>` to gain 
   - Mandatory
 * - 3.5.5.
   - You should publish details of your security testing strategy and, where possible, the results of each test.
-  - Knowledge that regular security testing occurs will help to ensure stakeholders, including {ref}`data analysts <project_roles>` and {ref}`information asset owners <data_roles>`, can trust that the data they work with or are responsible for is secure within a TRE.
+  - Knowledge that regular security testing occurs will help to ensure stakeholders, including {ref}`data consumers <project_roles>` and {ref}`information asset owners <data_roles>`, can trust that the data they work with or are responsible for is secure within a TRE.
     If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
   - Recommended
 ```

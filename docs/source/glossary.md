@@ -15,7 +15,7 @@ Architectural principle
 
 Business process
     A set of actions which produce a specific desired outcome.
-    Example: _to access the TRE a {ref}`data analyst <project_roles>` needs to complete an onboarding business process._
+    Example: _to access the TRE a {ref}`data consumer <project_roles>` needs to complete an onboarding business process._
 
 Capability
     An ability that a system possesses.

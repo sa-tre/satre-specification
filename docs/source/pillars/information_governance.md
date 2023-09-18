@@ -457,7 +457,7 @@ This {term}`business process <business process>` involves confirming or authenti
 
 ### User Onboarding Process
 
-This {term}`business process <business process>` involves introducing and integrating {ref}`data analysts <project_roles>` and {ref}`data consumer <project_roles>`s onto a TRE's systems, processes, including training, access provisioning, and orientation.
+This {term}`business process <business process>` involves introducing and integrating {ref}`data consumers <project_roles>` onto a TRE's systems, processes, including training, access provisioning, and orientation.
 
 ```{list-table}
 :header-rows: 1
