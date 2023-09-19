@@ -188,10 +188,10 @@ The ability to query and browse the data within an environment at various levels
   - Guidance
   - Importance
 * - 3.4.1.
-  - You could make a catalogue of sensitive data that you make available to users.
-  - This is particularly relevant for TREs that are an interface to a common data collection.
-    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more {ref}`information asset owners <data_roles>`.
-  - Optional
+  - You should provide an open metadata catalogue of available datasets for users.
+  - This is particularly relevant for TREs with population-level data collection of general interest.
+    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more {ref}`information asset owner <data_roles>` or very sensitive datasets.
+  - Recommended
 ```
 
 (standard_capability_information_security)=
