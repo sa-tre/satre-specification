@@ -63,17 +63,36 @@ Together, these provide a framework that {ref}`TRE operator <infrastructure_role
 
 (satre_principles)=
 
-## Architectural Principles
+### Architectural Principles
 
-The SATRE specification has been developed based on the following principles:
-
-- TREs should be as easy as possible for end-users to use (_e.g._ {ref}`data consumers <project_roles>`) whilst still remaining secure.
-- TREs should take accessibility for all users, including those with disabilities, into account.
-- TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
-- TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
-- The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
+Architectural principles influence and shape the way you design and deliver a SATRE-aligned TRE. 
+They are a set of guiding considerations that sit above any specific architectural requirement, and can be applied across the entire architecture.
 
 Finally, the {ref}`TRE operator <infrastructure_roles>`s will need to consider different {ref}`roles <satre_roles>` with which individuals might interact with the TRE.
+
+They consist of the following parts:
+**Statement**: A singular sentence that summarises the principle
+**Rationale**: Justification as to why this principle is important for the specification
+**Implications**: Things you need to consider or do to practise this principle
+
+#### Usability
+##### Statement
+A TRE instance that works for everyone minimises barriers to use, and provides a productive and accessible analysis environment for research.
+
+##### Rationale
+There is often a trade-off between increased operational security and the usability of a TRE. 
+In order to maintain productivity, a TRE must balance these two competing aims. 
+The design and configuration of a TRE should allow all individuals involved with a TRE to effectively fulfil their roles.
+
+##### Implications
+- Robust TRE design and implementation should start by understanding users’ diverse expectations, needs, existing skillsets and preferences and responsibilities.
+- Design, configuration and testing of TREs must recognise a diversity of users. For instance, not all users are researchers and not all researchers are users. Other users include TRE operators, information governance officers, and TRE builders/developers.
+- Because of diverse user needs, it is unlikely that a specific TRE instance will perfectly match the needs of all users.
+- A TRE that is overly strict on tool and software provision may risk becoming unusable for users with different and varied backgrounds and skillsets.
+- Working environments can differ significantly from users’ preferred setups. This has design and resource implications for supporting new users, and consideration should be given to resources and time required to help users get up to speed with new and unfamiliar TRE instances.
+- Improving user experience takes time and resource, and will involve trade-offs between investing time in improved standards, better functional design, improving work and organisational culture, boosting users' skills and knowledge through training and making help more readily available at an organisational level. These trade-offs will need to be addressed at an organisational level, and teams may want to consider resourcing staff to focus specifically on these questions, for instance in the positions of product managers or service functions.
+
+
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
 
