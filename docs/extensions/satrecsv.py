@@ -44,7 +44,7 @@ def get_version() -> str:
     """
     git_sha = check_output(["git", "rev-parse", "HEAD"]).strip().decode()[:7]
 
-    # https://docs.readthedocs.io/en/stable/reference/environment-variables.html
+    # https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar-READTHEDOCS_VERSION
     rtd_version_slug = getenv("READTHEDOCS_VERSION")
     rtd_version_type = getenv("READTHEDOCS_VERSION_TYPE")
 
@@ -52,7 +52,7 @@ def get_version() -> str:
         if rtd_version_type == "tag":
             return rtd_version_slug
         else:
-            return f"{rtd_version_slug}-{git_sha}"
+            return f"{rtd_version_type}-{rtd_version_slug}-{git_sha}"
     else:
         return check_output(["git", "describe", "--always"]).strip().decode()
 
