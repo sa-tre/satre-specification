@@ -13,7 +13,7 @@ SATRE Pillars Capability Map
 
 ## Business continuity management
 
-What the TRE operator does to ensure the development, testing, and maintenance of business continuity plans.
+What the {ref}`TRE operator <infrastructure_roles>` does to ensure the development, testing, and maintenance of business continuity plans.
 
 ```{list-table}
 :header-rows: 1
@@ -33,9 +33,11 @@ What the TRE operator does to ensure the development, testing, and maintenance o
   - Recommended
 ```
 
+(project_management)=
+
 ## Project and programme management
 
-What the TRE operator does to ensure effective management of programmes and projects.
+What the {ref}`TRE operator <infrastructure_roles>` does to ensure effective management of programmes and projects.
 
 ```{list-table}
 :header-rows: 1
@@ -56,9 +58,11 @@ What the TRE operator does to ensure effective management of programmes and proj
   - Recommended
 ```
 
+(knowledge_management)=
+
 ## Knowledge management
 
-What the TRE operator does to acquire, enrich, share, store, publish and enhance expertise across their organisation.
+What the {ref}`TRE operator <infrastructure_roles>` does to acquire, enrich, share, store, publish and enhance expertise across their organisation.
 
 ```{list-table}
 :header-rows: 1
@@ -84,7 +88,7 @@ What the TRE operator does to acquire, enrich, share, store, publish and enhance
 
 ## Financial management
 
-All activities aimed at the efficient and effective management of money (funds) in such a manner as to allow the TRE operator to accomplish its objectives.
+All activities aimed at the efficient and effective management of money (funds) in such a manner as to allow the {ref}`TRE operator <infrastructure_roles>` to accomplish its objectives.
 
 ```{list-table}
 :header-rows: 1
@@ -115,7 +119,7 @@ All activities aimed at the efficient and effective management of money (funds) 
 
 ## Procurement
 
-What the TRE operator does to ensure the effective sourcing, purchasing and supply of the goods and services that enable them to operate.
+What the {ref}`TRE operator <infrastructure_roles>` does to ensure the effective sourcing, purchasing and supply of the goods and services that enable them to operate.
 
 ```{list-table}
 :header-rows: 1
@@ -133,7 +137,7 @@ What the TRE operator does to ensure the effective sourcing, purchasing and supp
 
 ## IT Service management
 
-The implementation and management of quality IT services that meet the needs of the TRE operator.
+The implementation and management of quality IT services that meet the needs of the {ref}`TRE operator <infrastructure_roles>`.
 
 ```{list-table}
 :header-rows: 1
@@ -152,7 +156,7 @@ The implementation and management of quality IT services that meet the needs of 
 
 ## Relationship management
 
-All activities aimed at ensuring a continuous level of engagement is maintained between the TRE operator and its customers, stakeholders and other interested parties.
+All activities aimed at ensuring a continuous level of engagement is maintained between the {ref}`TRE operator <infrastructure_roles>` and its customers, stakeholders and other interested parties.
 
 ### Stakeholder relationships
 
@@ -174,18 +178,7 @@ Activities aimed at engaging with TRE stakeholders.
 
 ## Public Involvement and Engagement
 
-How the TRE operator involves the public in its processes and work in order to maintain trust in its operations.
-
-<!--
-Rationale:
-
-- PIE work is important to building and maintaining trust.
-- Use of public data is sometimes critical to research, for example health research.
-- The public can benefit from sharing their data, to trustworthy and safe research projects, for example in the development of better health treatments or social policies.
-- Meeting other parts of this specification helps ensure that data is secure and that data processing is legal, appropriate and ethical.
-- Optional as there are cases (for example research with purely non-personal, commercial data) where involving the public is less important and may even be undesirable.
-- We particularly encourage meeting this capability for work involving personal data belonging to the public such as health or administrative data.
--->
+How the {ref}`TRE operator <infrastructure_roles>` involves the public in its processes and work in order to maintain trust in its operations.
 
 ```{list-table}
 :header-rows: 1
@@ -211,13 +204,11 @@ Rationale:
 
 ## Legal services
 
-The ability of the TRE operator to access suitable and timely legal advice.
-
-<!-- Specific requirements? _e.g._ Article 32 of the GDPR requires organisations to regularly test and evaluate the effectiveness of the technical and organisational measures employed to protect personal data, and penetration testing is an effective way of assessing your technical defences. -->
+The ability of the {ref}`TRE operator <infrastructure_roles>` to access suitable and timely legal advice.
 
 ### Legal advisory
 
-The ability of the TRE operator to provide suitable and timely legal advice.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to provide suitable and timely legal advice.
 
 ```{list-table}
 :header-rows: 1
@@ -230,9 +221,11 @@ The ability of the TRE operator to provide suitable and timely legal advice.
 * - 4.9.1.
   - You should have identify areas where legal advice may be required and ensure that you have ready access to it.
   - It is likely that legal advice will be necessary for several issues around the handling of sensitive data, and managing project contracts.
-    TRE operators should have ready access to legal advice, including a way to solicit advice and carry out associated actions.
+    {ref}`TRE operators <infrastructure_roles>` should have ready access to legal advice, including a way to solicit advice and carry out associated actions.
   - Recommended
 ```
+
+(data_protection)=
 
 ### Data protection
 
@@ -247,7 +240,7 @@ Ability to ensure data is used fairly, lawfully and transparently; for specified
   - Guidance
   - Importance
 * - 4.9.2.
-  - You should identify areas where legal advice may be required and ensure that you have ready access to it.
+  - You should identify areas where advice on data protection issues may be required and ensure that you have ready access to it.
   - It is likely that data protection advice will be necessary for several issues around the handling of sensitive data.
   - Recommended
 ```

@@ -9,9 +9,9 @@
 SATRE Pillars Capability Map
 ```
 
-This pillar concerns actions taken by the TRE operator to manage TRE computing systems.
+This pillar concerns actions taken by the {ref}`TRE operator <infrastructure_roles>` to manage TRE computing systems.
 
-Each TRE operator will have its own computing technology requirements.
+Each {ref}`TRE operator <infrastructure_roles>` will have its own computing technology requirements.
 The security controls needed by the computing infrastructure will depend on information governance requirements.
 Other computing requirements will be influenced by the technical knowledge and experience of those using the TRE, along with the work they need to perform within the system.
 For example, a data scientist will have very different requirements to a clinician.
@@ -21,7 +21,7 @@ The required compute resources will vary according to the scale of data and comp
 
 ## End user computing
 
-The ability of the TRE operator to provide and manage devices, workspaces, interfaces and applications used by researchers to interact with underlying systems and data.
+The ability of the {ref}`TRE operator <infrastructure_roles>` to provide and manage devices, workspaces, interfaces and applications used by {ref}`data consumers <project_roles>` to interact with underlying systems and data.
 
 ### End user computing interfaces
 
@@ -30,7 +30,7 @@ This may include desktop, command-line and/or code-submission interfaces.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-computing-interfaces
+:name: tab-computing-end-user-interfaces
 
 * -
   - Statement
@@ -48,18 +48,18 @@ This may include desktop, command-line and/or code-submission interfaces.
     Bespoke TRE-specific software should be avoided when widely used alternatives already exist.
   - Recommended
 * - 2.1.3.
-  - A TRE could restrict data access from researchers entirely and provide an interface for submitting code.
+  - A TRE could restrict data access from {ref}`data consumers <project_roles>` entirely and provide an interface for submitting code.
   - For example, you might use a system where users submit jobs that run over the data and return results without allowing direct data access.
   - Optional
 ```
 
-### Software tools
+### End user software tools
 
-This {term}`application component <application component>` is the tools used by researchers inside a TRE, such as programming languages, IDEs and desktop applications.
+This {term}`application component <application component>` is the tools used by {ref}`data consumers <project_roles>` inside a TRE, such as programming languages, IDEs and desktop applications.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-software-tools
+:name: tab-computing-end-user-software-tools
 
 * -
   - Statement
@@ -72,7 +72,7 @@ This {term}`application component <application component>` is the tools used by 
   - Recommended
 * - 2.1.5.
   - Your TRE must provide clear guidance on how to use software tools and work with data in the TRE.
-  - TREs that provide a virtual desktop environment for researchers to work in should provide documentation detailing the available tools.
+  - TREs that provide a virtual desktop environment for {ref}`data consumers <project_roles>` to work in should provide documentation detailing the available tools.
     TREs where the analysis code is developed on the access machine (as opppose to within the TRE) should provide documentation detailing the mechanism by which code is submitted to the TRE.
   - Mandatory
 * - 2.1.6.
@@ -84,15 +84,21 @@ This {term}`application component <application component>` is the tools used by 
   - This may include shared file storage, databases, collaborative writing, and other web applications.
     This must only be shared amongst users within the same project.
   - Optional
-* - 2.1.8.
-  - Your TRE could include licenced commercial software if required by researchers, but additional risks must be recorded and mitigated where neccesary.
-  - For example, if an application must connect to an external licensing server, you must be confident that only licensing information is sent to this server, and that any network connections are secure.
-  - Optional
+* - 2.1.8
+  - Your TRE must ensure that any shared services are only available to users working on the same project.
+  - Poorly designed shared services could enable the unintended mixing of data between projects.
+  To prevent this it is necessary that each instance is only shared between users of a single project.
+  - Mandatory
 * - 2.1.9.
+  - You must mitigate and record any risks introduced by the use in your TRE of software that requires telemetry to function.
+  - For example, some licenced commercial software must contact an external licensing server at start-up.
+    You must be confident that only licensing information is sent to this server and that any network connections are secure.
+  - Mandatory
+* - 2.1.10.
   - Your TRE must provide software applications that are relevant to working with the data in the TRE.
   - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
     For users working in a TRE via a virtual desktop, this may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
-    TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the researchers needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
+    TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the {ref}`data consumers <project_roles>` needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
     The set of tools should be reviewed regularly to ensure they are up to date.
   - Mandatory
 ```
@@ -103,13 +109,13 @@ This {term}`application component <application component>` is the systems and to
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-code-vcs
+:name: tab-computing-code-vcs
 
 * -
   - Statement
   - Guidance
   - Importance
-* - 2.1.10.
+* - 2.1.11.
   - Your TRE should provide tools to encourage best-practice in reproducibly analysing data.
   - Reproducibility of analyses improves auditability and accountability of how data has been used, as well as being best-practice in research.
     This may include version control software, and tools for developing and running data analysis pipelines.
@@ -122,58 +128,60 @@ This {term}`application component <application component>` is a service that man
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-artefact-management
+:name: tab-computing-artefact-management
 
 * -
   - Statement
   - Guidance
   - Importance
-* - 2.1.11.
+* - 2.1.12.
   - Your TRE could provide access to some public software repositories or container registries.
   - For example, a TRE may allow direct installation of packages from Python or R repositories, or provide an internal mirror.
   - Optional
-* - 2.1.12.
+* - 2.1.13.
   - Your TRE could tightly control which packages are available.
   - For example, a TRE may only allow installation of a pre-defined set of approved packages.
     You might also choose to scan for malicious packages and/or go through an approval process before allowing code into the technical environment.
   - Optional
 ```
 
-### Advanced or Cluster Computing System
+(advanced_CCC)=
+
+### Advanced Computing Systems
 
 This {term}`application component <application component>` involves the use of advanced, powerful computer resources to solve complex problems and process large amounts of data, possibly using specialised hardware.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-advanced-cluster-computing
+:name: tab-computing-advanced-computing-systems
 
 * -
   - Statement
   - Guidance
   - Importance
-* - 2.1.13.
+* - 2.1.14.
   - Your TRE must maintain segregation of users and data from different projects when using non-standard compute.
   - High performance or specialist compute is often shared amongst multiple users.
     Users and data must remain segregated at all times.
     For example, when using physical compute resources, all sensitive data could be securely wiped before another user is given access to that same node.
     In a cloud hosted TRE virtual machines could be destroyed and recreated.
   - Mandatory
-* - 2.1.14.
+* - 2.1.15.
   - Your TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
   - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
     For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
   - Recommended
-* - 2.1.15.
+* - 2.1.16.
   - Your TRE should be able to provide access to accelerators such as GPUs if required by users.
   - GPUs and other accelerators are commonly used in machine learning and other computationally intensive research.
     TREs should make it clear to users whether GPUs and other resources are available whilst projects are being assessed.
   - Recommended
-* - 2.1.16.
-  - Your TRE could make data available to researchers using common database systems such as PostgreSQL, MSSQL or MongoDB.
-  - Databases must be secured and only accessible to users within the same project.
-    If shared (multi-tenant) database servers are used, database administrators must ensure that the database server enforces segregation of users and databases belonging to different projects.
-  - Optional
 * - 2.1.17.
+  - Your TRE could make data available to {ref}`data consumers <project_roles>` using common database systems such as PostgreSQL, MSSQL or MongoDB.
+  - Databases must be secured and only accessible to users within the same project.
+    If shared (multi-tenant) database servers are used, {ref}`database administrators <data_roles>` must ensure that the database server enforces segregation of users and databases belonging to different projects.
+  - Optional
+* - 2.1.18.
   - Your TRE could integrate with large-scale data analytics tools for working with large datasets.
   - For example, Spark and Hadoop can be used for distributed computing across a cluster.
     This may be an advantage where a TRE is using an amount of data that is too large for single-machine computing to be practical.
@@ -182,7 +190,9 @@ This {term}`application component <application component>` involves the use of a
 
 ## Infrastructure management
 
-The ability of the TRE operator to deploy, change or remove physical or virtual infrastructure.
+The ability of the {ref}`TRE Builder <infrastructure_roles>` to deploy, change or remove physical or virtual infrastructure.
+
+(infrastructure_deployment_process)=
 
 ### Infrastructure Deployment Process
 
@@ -191,7 +201,7 @@ This requires development, installation, configuration, and validation.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-deployment
+:name: tab-computing-infrastructure-deployment
 
 * -
   - Statement
@@ -215,7 +225,7 @@ This requires development, installation, configuration, and validation.
   - This might involve a separate development environment or another system for testing.
   - Mandatory
 * - 2.2.5.
-  - You should have separate environments for development and testing infrastructure changes before they are committed to production.
+  - You should have a development environment that mirrors your production environment which you use to test infrastructure changes before committing them to production.
   - If possible, you should automate application of changes between development and production environments.
     Consider the costs and practicality of whether this will work for your situation.
   - Recommended
@@ -227,7 +237,7 @@ This {term}`business process <business process>` involves retiring or removing i
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-removal
+:name: tab-computing-infrastructure-removal
 
 * -
   - Statement
@@ -245,7 +255,7 @@ This {term}`business process <business process>` involves ensuring all IT infras
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-availability
+:name: tab-computing-infrastructure-availability-management
 
 * -
   - Statement
@@ -268,7 +278,7 @@ This {term}`application component <application component>` is an application use
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-network
+:name: tab-computing-infrastructure-network-management
 
 * -
   - Statement
@@ -288,32 +298,36 @@ This {term}`application component <application component>` is an application use
   - Limited outbound connectivity may be allowed for some services.
   - Mandatory
 * - 2.2.12.
-  - You must monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
+  - You should be able to monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
   - This may include regular vulnerability scanning, and penetration testing.
-  - Mandatory
+  - Recommended
+* - 2.2.13.
+  - You should regularly monitor the network configuration of your TRE to check for misconfigurations and vulnerabilities.
+  - This will involve following the monitoring procedure detailed above.
+  - Recommended
 ```
 
 ### Infrastructure analytics application
 
-This {term}`application component <application component>` is an application which enables the TRE operator to record and analyse data about the usage of the TRE.
+This {term}`application component <application component>` is an application which enables the {ref}`TRE operator <infrastructure_roles>` to record and analyse data about the usage of the TRE.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-end-user-infrastructure-analytics
+:name: tab-computing-infrastructure-analytics
 
 * -
   - Statement
   - Guidance
   - Importance
-* - 2.2.13.
+* - 2.2.14.
   - Your TRE must record usage data.
   - This may include the number of users, number of projects, the amount of data stored, number of datasets, the number of workspaces, etc.
   - Mandatory
-* - 2.2.14.
+* - 2.2.15.
   - Your TRE should record which datasets are accessed, when and by who.
   - This helps maintain auditability of how sensitive data has been used.
   - Recommended
-* - 2.2.15.
+* - 2.2.16.
   - Your TRE should record computational resource usage at the user or aggregate level.
   - This is useful for optimising allocation of resources, and managing costs.
   - Recommended
@@ -327,7 +341,7 @@ This {term}`business process <business process>` involves forecasting and determ
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-capacity
+:name: tab-computing-capacity-planning
 
 * -
   - Statement
@@ -356,7 +370,7 @@ It involves calculation, issuance, and recording of payments and receipts.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-billing
+:name: tab-computing-billing
 
 * -
   - Statement
@@ -373,11 +387,11 @@ It involves calculation, issuance, and recording of payments and receipts.
 
 ### Configuration Management Process
 
-This {term}`business process <business process>` involves the TRE operator identifying, maintaining, and verifying information on IT assets and configurations in the TRE organisation.
+This {term}`business process <business process>` involves the {ref}`TRE operator <infrastructure_roles>` identifying, maintaining, and verifying information on IT assets and configurations in the TRE organisation.
 
 ```{list-table}
 :header-rows: 1
-:name: tab-infrastructure-configuration
+:name: tab-computing-configuration-management
 
 * -
   - Statement

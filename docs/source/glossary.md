@@ -2,12 +2,12 @@
 
 ```{glossary}
 Actor
-    A person, organization, or system that has one or more roles that initiates or interacts with activities.
-    Example: _The SATRE architecture needs actors such as researchers and internal auditors._
+    A person, organization, or system that has one or more {ref}`roles <satre_roles>` that initiates or interacts with activities.
+    Example: _The SATRE architecture needs actors such as {ref}`data analysts <project_roles>` and internal auditors._
 
 Application component
     An encapsulation of application functionality which is modular and replaceable.
-    Example: _To perform work within a TRE a researcher might need access to a Desktop or command line interface application component._
+    Example: _To perform work within a TRE a {ref}`data analyst <project_roles>` might need access to a Desktop or command line interface application component._
 
 Architectural principle
     Fundamental guidelines that inform the design, decision making and implementation of a TRE.
@@ -15,7 +15,7 @@ Architectural principle
 
 Business process
     A set of actions which produce a specific desired outcome.
-    Example: _to access the TRE a researcher needs to complete an onboarding business process._
+    Example: _to access the TRE a {ref}`data consumer <project_roles>` needs to complete an onboarding business process._
 
 Capability
     An ability that a system possesses.
@@ -39,7 +39,7 @@ Data Object
 
 Role
     A role is a set of connected behaviors, rights, obligations and norms within a TRE system.
-    Roles are occupied by individuals, who are called {term}`actors <actor>`.
+    {ref}`Roles <satre_roles>` are occupied by individuals, who are called {term}`actors <actor>`.
 
 Specification pillar
     A specification pillar is a group of related capabilities.

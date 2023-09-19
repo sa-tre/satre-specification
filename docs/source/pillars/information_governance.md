@@ -9,11 +9,11 @@
 SATRE Pillars Capability Map
 ```
 
-This pillar concerns actions taken by the TRE operator to ensure information risk is measured and managed to an acceptable level.
+This pillar concerns actions taken by the {ref}`TRE operator <infrastructure_roles>` to ensure information risk is measured and managed to an acceptable level.
 
-Each TRE operator will have its own information governance requirements.
+Each {ref}`TRE operator <infrastructure_roles>` will have its own information governance requirements.
 These will be informed by the context of the organisation, the work it performs and the nature of the data it processes.
-For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractural requirements from a specific data provider such as a company or research partner organisation.
+For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractural requirements from a specific {ref}`information asset owner <data_roles>` such as a company or research partner organisation.
 
 ## Governance Requirements
 
@@ -71,6 +71,8 @@ This {term}`business process <business process>` involves assigning, distributin
   - Ensuring information governance controls are suitable and enforced requires an investment of funding and people appropriate to the size of the TRE.
   - Mandatory
 ```
+
+(quality_management)=
 
 ## Quality Management
 
@@ -218,7 +220,7 @@ This {term}`data object <data object>` consists of data, including training reco
 * - 1.2.11.
   - You should collect and maintain quality management data for measuring the effectiveness of a TRE.
   - Large amounts of data will be produced by elements within the TRE.
-    These data should be analysed with reports and dashboards provided to guide TRE implementer's improvements and provide re-assurance to data consumers and subjects.
+    These data should be analysed with reports and dashboards provided to guide TRE implementer's improvements and provide re-assurance to {ref}`data consumers <project_roles>` and {ref}`data subjects <public_roles>`.
   - Recommended
 ```
 
@@ -286,6 +288,8 @@ This {term}`business process <business process>` involves the selection and impl
   - Mandatory
 ```
 
+(risk_ownership_process)=
+
 ### Risk Ownership Process
 
 This {term}`business process <business process>` involves the assignment of responsibility and accountability to individuals or entities for managing and mitigating specific risks within the TRE organisation.
@@ -300,7 +304,7 @@ This {term}`business process <business process>` involves the assignment of resp
   - Importance
 * - 1.3.4.
   - You must have a clear set of roles and responsibilities relating to risk including who owns risks and how they are escalated and delegated.
-  - The highest level of risk ownership is the top management of the TRE organisation.
+  - The highest level of risk ownership is the Top Management of the TRE organisation (see {ref}`governance_roles`).
     In order to ensure escalations to this level are rare, suitable structures should be put in place to own, mitigate and accept risk.
   - Mandatory
 * - 1.3.5.
@@ -425,7 +429,7 @@ This {term}`data object <data object>` is a centralised record or database that 
   - Importance
 * - 1.4.7.
   - You should keep a complete record of all the research studies and projects within the TRE current and past.
-  - The study register should contain all data related to a study including a reference to data assets, members (researchers, owners _etc._) and any compliance activities required.
+  - The study register should contain all data related to a study including a reference to data assets, {ref}`project team members <project_roles>`, {ref}`information asset owners <data_roles>` and any compliance activities required.
   - Recommended
 ```
 
@@ -453,7 +457,7 @@ This {term}`business process <business process>` involves confirming or authenti
 
 ### User Onboarding Process
 
-This {term}`business process <business process>` involves introducing and integrating researchers and data consumers onto a TRE's systems, processes, including training, access provisioning, and orientation.
+This {term}`business process <business process>` involves introducing and integrating {ref}`data consumers <project_roles>` onto a TRE's systems, processes, including training, access provisioning, and orientation.
 
 ```{list-table}
 :header-rows: 1
@@ -549,7 +553,7 @@ This {term}`business process <business process>` involves designing, developing,
   - This may include, for instance, cyber security training, GDPR training, and higher level training for system operators.
     Specialised roles are likely to need more tailored training.
     Identification of these specialities should be done through a systematic training needs analysis.
-    Specific training may also be required based on the data or data provider such as GCP.
+    Specific training may also be required based on the data or {ref}`information asset owner <data_roles>` such as GCP.
   - Mandatory
 * - 1.6.2.
   - You must ensure that relevant training is available for all roles within the TRE organisation.
@@ -630,7 +634,7 @@ This {term}`data object <data object>` consists of information or data associate
   - Optional
 * - 1.6.9.
   - You could keep historical copies of courses in order to demonstrate competency at a given point in time.
-  - Data providers and regulators may be required to audit historical records, _e.g._ for clinical trials.
+  - {ref}`Information asset owners <data_roles>` and regulators may be required to audit historical records, _e.g._ for clinical trials.
     It may be necessary to retain copies of superseded training along with versions of certifications within the training record.
   - Optional
 ```
