@@ -5,6 +5,7 @@
 - {ref}`is_standard`
 - {ref}`is_everything`
 - {ref}`how_build`
+- {ref}`support_federation`
 - {ref}`how_developed`
 - {ref}`who_developed`
 
@@ -25,6 +26,14 @@ No. The SATRE specification defines a set of stakeholder {ref}`roles <satre_role
 ## How do I build and run a SATRE compliant TRE?
 
 We encourage TRE Operators and Builders to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`. TRE Developers can use the specification and published TRE evaluations as a starting point. Some of evaluated TREs such as the Alan Turing Institute's "Data Safe Haven" and Dundee HIC's "TREEHOOSE" are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
+
+(support_federation)=
+
+## Does SATRE support federation, interoperability, and related work?
+
+No, however SATRE can form the foundation for future standards and guidance on federation, interoperability, etc.
+
+<!-- If you are interested in getting involved in these discussion please .... contact DARE? A federation WG? Another project? UKTRE mailing list? -->
 
 (how_developed)=
 
