@@ -24,7 +24,7 @@ If you have experience designing or using Trusted/Secure Research Environments a
 
 The need for trusted research environments (TREs) is clear.
 Personal or sensitive data which have been collected for operational, commercial or governmental reasons need to be managed securely and safely for research use in an environment that encourages best practice.
-TREs are designed to enable access to sensitive data only for authorised projects and researchers, whilst minimising risk of data release or exposure.
+TREs are designed to enable access to sensitive data only for authorised projects and data consumers, whilst minimising risk of data release or exposure.
 Influential reports from DARE UK and Health Data Research UK, together with the UK Government Goldacre review and ‘Data Saves Lives’ policy paper, have all highlighted the need for change in how sensitive data are handled.
 
 SATRE will compare openly available UK TREs hosting health, manufacturing, commercial, science and humanities data and bring them into alignment with a standardised TRE reference architecture (or structural template).
