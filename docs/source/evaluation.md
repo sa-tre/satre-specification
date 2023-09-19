@@ -21,7 +21,7 @@ A score of 1 or above means you have met the requirement.
 Although both 1 and 2 indicate a TRE meets the requirement, the distinction lies in the quality of the components which address the requirement.
 
 An evaluation may simply give your TRE scores for each statement.
-We recommend a more detailed evaluation, which includes a score, supporting text and, where applicable, explicit areas of potential improvement.
+We recommend a more detailed evaluation, which includes a score, a justification and, where applicable, suggestions for improvement.
 
 In the examples we go into detail with our supporting text.
 We hope you find this useful as a reference point when evaluating your TRE.
