@@ -20,7 +20,7 @@ The scoring system is:
 A score of 1 or above means you have met the requirement.
 Although both 1 and 2 indicate a TRE meets the requirement, the distinction lies in the quality of the components which address the requirement.
 
-The simplest form of evaluation is to simply give your TRE scores for each statement.
+An evaluation may simply give your TRE scores for each statement.
 We recommend a more detailed evaluation, which includes a score, supporting text and, where applicable, explicit areas of potential improvement.
 
 In the examples we go into detail with our supporting text.
