@@ -2,8 +2,10 @@
 
 # Evaluating TREs against SATRE
 
-Use this guide to evaluate your organisation's TRE provision against the SATRE specification.
-Below you can find both the method for evaluation, and example evaluations for your reference from the Alan Turing Institute and the Health Informatics Centre.
+This section details the method for evaluating a TRE against the SATRE specification.
+
+This document also includes two example evaluations for {ref}`The Alan Turing Institute's Data Safe Haven <evaluation_alan_turing_institute>` and {ref}`The University of Dundee/HIC's TREEHOOSE <evaluation_dundee_hic>`.
+We hope that these examples will help you to write your own evaluation.
 
 ## Method
 
