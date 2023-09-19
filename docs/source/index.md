@@ -6,6 +6,7 @@
 
 specification.md
 roles.md
+faqs.md
 ```
 
 ```{toctree}
@@ -51,6 +52,8 @@ contributing/contributors.md
 SATRE is our attempt to provide a standard reference architecture for trusted research environments (TREs).
 We have developed a {ref}`comprehensive specification <specification>` which describes the features that a TRE should have.
 We have also performed {ref}`evaluations of existing open TREs <evaluation>` against the SATRE specification.
+
+(satre_why)=
 
 ## ❓ Why are we doing this?
 
