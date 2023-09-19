@@ -24,7 +24,6 @@ An evaluation may simply give your TRE scores for each statement.
 We recommend a more detailed evaluation, which includes a score, a justification and, where applicable, suggestions for improvement.
 
 The example evaluations are detailed, including the supporting text as well as scores.
-We hope you find this useful as a reference point when evaluating your TRE.
 
 ## Meeting the specification
 
