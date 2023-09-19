@@ -23,7 +23,7 @@ Although both 1 and 2 indicate a TRE meets the requirement, the distinction lies
 An evaluation may simply give your TRE scores for each statement.
 We recommend a more detailed evaluation, which includes a score, a justification and, where applicable, suggestions for improvement.
 
-In the examples we go into detail with our supporting text.
+The example evaluations are detailed, including the supporting text as well as scores.
 We hope you find this useful as a reference point when evaluating your TRE.
 
 ## Meeting the specification
