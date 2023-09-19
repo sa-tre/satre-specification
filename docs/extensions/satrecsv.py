@@ -42,7 +42,7 @@ def get_version() -> str:
     If this is readthedocs use the RTD environment variables (and the git SHA if this isn't a tag), otherwise attempt to
     lookup the git version
     """
-    git_sha = check_output(["git", "rev-parse", "HEAD"]).strip().decode()
+    git_sha = check_output(["git", "rev-parse", "HEAD"]).strip().decode()[:7]
 
     # https://docs.readthedocs.io/en/stable/reference/environment-variables.html
     rtd_version_slug = getenv("READTHEDOCS_VERSION")
