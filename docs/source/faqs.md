@@ -37,4 +37,3 @@ See the information on the homepage of {ref}`these docs <satre_why>`.
 ## Who has developed the SATRE specification?
 
 Take a look at our {ref}`contributors` page.
-
