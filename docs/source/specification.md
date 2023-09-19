@@ -111,8 +111,21 @@ Being transparent about the data held and the projects or organisations who acce
 - TREs open to consultation by impacted parties should be auditable, and impacted parties should be part of any decision making processes. This may include the provision of documentation and educational resources for a diverse audience.
 -  Access to public sector data should be reviewed by an independent panel and follow agreed-upon governance to ensure projects using this data are in the public benefit, and provide clarity around any commercial access.
 
+#### Observability
+##### Statement 
+Human initiated and automated processes resulting in change within the TRE should be observable.
 
+##### Rationale
+System/process observability is key to understanding whether your policies and controls are actually doing what is intended.
 
+It also allows operators to continuously improve their systems and processes, measure their effectiveness, and identify the causes of incidents. Data can also be made available to other parties such as auditors, data subjects and data providers as part of the assurance process.
+
+This applies to both technical systems and policies/processes.
+
+##### Implications
+- In order to understand what is happening within the TRE, both automated and human initiated processes should generate sufficient data. Any generated data should follow standards for provenance and transparency for audit trails.
+- Different levels of observability may be needed for different users. Any data collected from an observability perspective should consider the needs of those who will use it, and minimise collection accordingly.
+- There may be ethical and confidential issues to consider when implemeting the observability principle.
 
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
