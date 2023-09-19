@@ -138,6 +138,27 @@ This applies to both technical systems and policies/processes.
 - Different levels of observability may be needed for different users. Any data collected from an observability perspective should consider the needs of those who will use it, and minimise collection accordingly.
 - There may be ethical and confidential issues to consider when implemeting the observability principle.
 
+#### Standardisation
+
+##### Statement
+
+TREs should adhere to standards or well-known patterns wherever possible.
+
+##### Rationale
+
+Standardisation makes it easier to design, operate, use and understand TREs, and reduces duplication of work.
+This includes making TREs easier to use, deploy, and audit.
+
+TREs should be built in such a way that they do not restrict or prevent interoperability where this may be desirable in future, by identifying and avoiding or removing barriers to interoperability.
+
+Standardisation is also linked to the public trust principle, as a standard approach to TRE provision will make it eaiser for impacted parties to understand how their data will be used within TREs.
+
+##### Implications
+
+- Standards for TREs don't currently exist, and may be developed in the future. TRE teams should be prepared to adapt their provision to fit the latest agreed upon standard.
+- Standards TREs adhere to may range in scope, including technical, operational and governance requirements. All agreed upon standards should align to ensure there is no contradiction in requirements.
+- Any developments in standards should reuse or incorporate pre-existing content and resources wherever possible.
+
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
 
 (satre_pillars)=
