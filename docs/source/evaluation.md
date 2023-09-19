@@ -2,7 +2,12 @@
 
 # Evaluating TREs against SATRE
 
-## How to score
+This section details the method for evaluating a TRE against the SATRE specification.
+
+This document also includes two example evaluations for {ref}`The Alan Turing Institute's Data Safe Haven <evaluation_alan_turing_institute>` and {ref}`The University of Dundee/HIC's TREEHOOSE <evaluation_dundee_hic>`.
+We hope that these examples will help you to write your own evaluation.
+
+## Method
 
 You should score your TRE against each statement in the SATRE specification.
 The scoring system is:
@@ -16,7 +21,14 @@ The scoring system is:
 2 (Satisfied)
 : The TRE meets this requirement met but there may still be scope for improvement
 
+**0** means you have failed to meet the requirement.
+A score of **1** or above means you have met the requirement.
 Although both **1** and **2** indicate a TRE meets the requirement, they indicate different levels of possible improvement.
+
+An evaluation may simply give your TRE scores for each statement.
+We recommend a more detailed evaluation, which includes a score, a justification and, where applicable, suggestions for improvement.
+
+The example evaluations are detailed, including the supporting text as well as scores.
 
 ### Combining scores
 
