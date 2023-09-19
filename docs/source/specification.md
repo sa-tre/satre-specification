@@ -92,9 +92,31 @@ The design and configuration of a TRE should allow all individuals involved with
 - Working environments can differ significantly from users’ preferred setups. This has design and resource implications for supporting new users, and consideration should be given to resources and time required to help users get up to speed with new and unfamiliar TRE instances.
 - Improving user experience takes time and resource, and will involve trade-offs between investing time in improved standards, better functional design, improving work and organisational culture, boosting users' skills and knowledge through training and making help more readily available at an organisational level. These trade-offs will need to be addressed at an organisational level, and teams may want to consider resourcing staff to focus specifically on these questions, for instance in the positions of product managers or service functions.
 
+#### Maintaining public trust
+##### Statement
+TREs holding public data should build and maintain the trust of data subjects and any other impacted individuals, groups, communities and organisations by protecting privacy, keeping data secure and being transparent about their work.
+
+##### Rationale
+Maintaining trust in TREs to hold and use data is essential to prevent backlash or resistance to the use of data. 
+This can include maintaining the trust of members of the public who are impacted by research, as well as the trust of commercial data providers.
+
+In the case of public sector data, public engagement work has indicated there is widespread support for the use of regulated and ethical TREs working for the public benefit. 
+Consulting impacted parties, including the public, can help ensure TREs are being used for positive, impactful and agreed-upon purposes. 
+Being transparent about the data held and the projects or organisations who access the data can also help maintain trust.
+
+##### Implications
+
+- Being as transparent as possible is key to building trust. TREs holding public data should practice transparency, for instance making adherence to any accreditation body, or framework (for instance the Five Safes) publicly available information, and making information on the projects or organisations which access their data available to impacted parties.
+- A strong public engagement programme takes time and resource. TREs holding public data should consider allocating specific staffing to public engagement activities. 
+- TREs open to consultation by impacted parties should be auditable, and impacted parties should be part of any decision making processes. This may include the provision of documentation and educational resources for a diverse audience.
+-  Access to public sector data should be reviewed by an independent panel and follow agreed-upon governance to ensure projects using this data are in the public benefit, and provide clarity around any commercial access.
+
+
+
 
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
+
 
 (satre_pillars)=
 
