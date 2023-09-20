@@ -225,8 +225,8 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to identify, asses
   - Guidance
   - Importance
 * - 3.5.1.
-  - You should keep all TRE computing infrastructure up-to-date with security patches and antivirus (if appropriate).
-  - This might involve scheduling regular automated scanning and application of updates.
+  - You should keep all TRE computing infrastructure up to date with relevant security patches and antivirus definitions.
+  - This might involve scheduling regular automated scanning and updating.
     Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.
   - Recommended
 * - 3.5.2
