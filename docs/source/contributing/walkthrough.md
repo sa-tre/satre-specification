@@ -371,4 +371,4 @@ Please review the project’s [Code of Conduct](https://github.com/sa-tre/satre-
 
 ## Contact
 
-If you have any questions or concerns, reach out to SATRE project team member Hari Sood (@harisood, hsood@turing.ac.uk) or Arron Lacey (@arronlacey, alacey@turing.ac.uk).
+If you have any questions or concerns, reach out to SATRE project team member Hari Sood (@harisood, hsood@turing.ac.uk).
