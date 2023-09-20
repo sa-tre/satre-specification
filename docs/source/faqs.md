@@ -29,9 +29,9 @@ We encourage TRE Operators and Builders to publicly evaluate their TREs against 
 
 (support_federation)=
 
-## Does SATRE support federation, interoperability, and related work?
+## Does SATRE describe approaches to TRE federation or interoperability of TREs?
 
-No, however SATRE can form the foundation for future standards and guidance on federation, interoperability, etc.
+No, however it's intended that SATRE could form the foundation for future standards and guidance on federation, interoperability, and related work.
 
 <!-- If you are interested in getting involved in these discussion please .... contact DARE? A federation WG? Another project? UKTRE mailing list? -->
 
