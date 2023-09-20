@@ -224,12 +224,16 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to identify, asses
   - Statement
   - Guidance
   - Importance
+
 * - 3.5.1.
-  - You should keep all TRE computing infrastructure up to date with relevant security patches and antivirus definitions.
-  - This might involve scheduling regular automated scanning and updating.
-    Infrastructure that is isolated from the internet or immutable in some way may not need to be updated.
-  - Recommended
-* - 3.5.2
+  - You must have a process in place for applying security updates to all software that forms part of the TRE infrastructure.
+  - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
+  - Mandatory
+* - 3.5.2.
+  - You must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
+  - Virus and malware scans will help identify malicious code which may compromise the security, or correct operation, of the TRE.
+  - Mandatory
+* - 3.5.3.
   - Your TRE should adhere to one or more external security standards.
   - These should be stated to all stakeholders in advance of any data being brought in to the TRE.
   - Recommended
@@ -249,22 +253,22 @@ Security testing enables the {ref}`TRE operator <infrastructure_roles>` to gain 
   - Statement
   - Guidance
   - Importance
-* - 3.5.3.
+* - 3.5.4.
   - You should carry out penetration tests on your TRE.
   - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously. Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents.
   - Recommended
-* - 3.5.4.
+* - 3.5.5.
   - You should update the security controls of your TRE based on the results of security tests.
   - Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE.
     Regular testing will allow organisations to refine their TRE security controls and incident response capabilities.
     It enables them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
   - Recommended
-* - 3.5.5.
+* - 3.5.6.
   - You must have procedures in place for rapid incident response.
   - There may be legal requirements to disclose details of any incidents, such as  data breaches for organisations subject to GDPR.
     Having robust processes in place will ensure a swift and effective response when an incident occurs.
   - Mandatory
-* - 3.5.6.
+* - 3.5.7.
   - You should publish details of your security testing strategy and, where possible, the results of each test.
   - Knowledge that regular security testing occurs will help to ensure stakeholders, including {ref}`data consumers <project_roles>` and {ref}`information asset owners <data_roles>`, can trust that the data they work with or are responsible for is secure within a TRE.
     If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
@@ -287,28 +291,28 @@ Here we define 'project' data as the data brought in for work which is very like
   - Statement
   - Guidance
   - Importance
-* - 3.5.7.
+* - 3.5.8.
   - Your TRE must encrypt project and user data at rest.
   - This prevents unauthorised access to the data even if the storage media is compromised.
     This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
     The encryption keys may be managed by the {ref}`TRE operator <infrastructure_roles>` or by a trusted external actor, for example a cloud provider.
   - Mandatory
-* - 3.5.8.
+* - 3.5.9.
   - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
   - Data encryption must be used to safeguard against interception or tampering during transmission.
     This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session.
   - Mandatory
-* - 3.5.9.
+* - 3.5.10.
   - Your TRE should encrypt data when in transit inside the TRE.
   - If possible, data transfers between different components of a TRE should also be encrypted.
   - Recommended
-* - 3.5.10.
+* - 3.5.11.
   - You should use encryption algorithms and software that are widely accepted as secure.
   - Encryption algorithms widely accepted as secure today may become insecure in the future, for instance due to newly-identified flaws, or advances in compute capabilities.
     The latest security patches and updates should be applied to any encryption software being used by the TRE.
     This helps address any known vulnerabilities or weaknesses in the encryption implementation.
   - Recommended
-* - 3.5.11.
+* - 3.5.12.
   - Your TRE should use secure key management.
   - TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (_e.g._ Single Sign On) for key management systems.
   - Recommended
@@ -330,12 +334,12 @@ Physical security controls can provide TREs using highly sensitive data an extra
   - Statement
   - Guidance
   - Importance
-* - 3.5.12.
+* - 3.5.13.
   - Your TRE could offer physical protection measures against data leakage or theft via physical means.
   - Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
     Physical controls on access to a TRE could include surveillance systems, restricting physical access to authorised personnel only, visitor management systems and employee training.
   - Optional
-* - 3.5.13
+* - 3.5.14.
   - Your TRE may need to comply with specific regulatory requirements due to the types of data it is hosting.
   - Regulatory frameworks often emphasise the need for security controls to protect sensitive data.
     Compliance with these regulations could require organisations to implement specific security measures to safeguard their TRE from unauthorised access.
