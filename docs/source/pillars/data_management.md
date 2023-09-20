@@ -145,7 +145,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs 
   - You should have a system to help classify outputs.
   - Removing data from a TRE can be a difficult process as there is potential for sensitive data to be revealed.
     Having guidance, processes and methods will help ensure that outputs are correctly classified and, furthermore, that outputs due to be openly published are identified.
-    Encouraging openly published outputs rather than handing all outputs to the {ref}`information asset owner <data_roles>` will enhance a TRE's impact.
+    Encouraging openly published outputs will enhance a TRE's impact and transparency.
   - Recommended
 * - 3.3.2.
   - You should establish the intended outputs of each project from the outset.
@@ -188,10 +188,10 @@ The ability to query and browse the data within an environment at various levels
   - Guidance
   - Importance
 * - 3.4.1.
-  - You could make a catalogue of sensitive data that you make available to users.
-  - This is particularly relevant for TREs that are an interface to a common data collection.
-    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more {ref}`information asset owners <data_roles>`.
-  - Optional
+  - You should provide a metadata catalogue of available datasets for users.
+  - This is particularly relevant for TREs with population-level data collection of general interest.
+    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more data provider or very sensitive datasets.
+  - Recommended
 ```
 
 (standard_capability_information_security)=
