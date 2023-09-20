@@ -190,7 +190,7 @@ The ability to query and browse the data within an environment at various levels
 * - 3.4.1.
   - You should provide an open metadata catalogue of available datasets for users.
   - This is particularly relevant for TREs with population-level data collection of general interest.
-    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more {ref}`information asset owner <data_roles>` or very sensitive datasets.
+    This may not be appropriate for TREs where each project has its own data sharing agreement with one or more data provider or very sensitive datasets.
   - Recommended
 ```
 
