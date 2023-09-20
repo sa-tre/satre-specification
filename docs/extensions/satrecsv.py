@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import warnings
 from os import path
+from os import getenv
+from subprocess import check_output
 from typing import TYPE_CHECKING, Any, Sequence
 
 from docutils import nodes, writers
@@ -24,12 +26,35 @@ from io import BytesIO
 from openpyxl import Workbook
 from openpyxl.styles import Font
 
+
 if TYPE_CHECKING:
     from sphinx.application import Sphinx
     from docutils.nodes import Element, Text
 
 
 logger = logging.getLogger(__name__)
+
+
+def get_version() -> str:
+    """
+    Obtain a version to use in documentation.
+
+    If this is readthedocs use the RTD environment variables (and the git SHA if this isn't a tag), otherwise attempt to
+    lookup the git version
+    """
+    git_sha = check_output(["git", "rev-parse", "HEAD"]).strip().decode()[:7]
+
+    # https://docs.readthedocs.io/en/stable/reference/environment-variables.html#envvar-READTHEDOCS_VERSION
+    rtd_version_slug = getenv("READTHEDOCS_VERSION")
+    rtd_version_type = getenv("READTHEDOCS_VERSION_TYPE")
+
+    if rtd_version_slug and rtd_version_type:
+        if rtd_version_type == "tag":
+            return rtd_version_slug
+        else:
+            return f"{rtd_version_type}-{rtd_version_slug}-{git_sha}"
+    else:
+        return check_output(["git", "describe", "--always"]).strip().decode()
 
 
 class SatreXlsxWriter(writers.Writer):
@@ -49,6 +74,8 @@ class SatreXlsxWriter(writers.Writer):
         self.interested = None
 
     def translate(self) -> None:
+        version = get_version()
+
         visitor = self.builder.create_translator(self.document, self.builder)
         self.document.walkabout(visitor)
 
@@ -92,6 +119,9 @@ class SatreXlsxWriter(writers.Writer):
 
         for c, cell in enumerate(ws[1]):
             ws.column_dimensions[cell.column_letter].width = column_widths[c]
+
+        ws.append([])
+        ws.append(["Version", version])
 
         buffer = BytesIO()
         wb.save(buffer)
