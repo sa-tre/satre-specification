@@ -83,6 +83,7 @@ class SatreXlsxWriter(writers.Writer):
             "Section",
             "Item",
             "Statement",
+            "Guidance",
             "Importance",
             "Score",
             "Response",
@@ -101,9 +102,9 @@ class SatreXlsxWriter(writers.Writer):
                     for line in table.lines[1:]:
                         number = line[0].text.strip()
                         statement = line[1].text.strip()
-                        # guidance = line[2].strip()
+                        guidance = line[2].text.strip()
                         importance = line[3].text.strip()
-                        row = [title, number, statement, importance]
+                        row = [title, number, statement, guidance, importance]
                         rows.append(row)
                         for i, cell in enumerate(row):
                             column_widths[i] = max(column_widths[i], len(str(cell)))
