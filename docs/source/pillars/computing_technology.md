@@ -41,7 +41,7 @@ This may include desktop, command-line and/or code-submission interfaces.
   - A TRE user must not be able to copy sensitive data out of a workspace using the system clipboard.
     A TRE may allow user to paste text into a workspace.
     This might not be relevant to your TRE, for example if your user interface does not have a clipboard.
-  - Required
+  - Mandatory
 * - 2.1.2.
   - Your TRE workspace should provide an environment familiar to your users.
   - This may take the form of a virtual Windows or Linux desktops, non-desktop interfaces such as JupyterLab and other web applications, or a terminal.
