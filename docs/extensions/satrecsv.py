@@ -34,13 +34,15 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
+MAX_COLUMN_WIDTH = 70
+
 
 def get_version() -> str:
     """
     Obtain a version to use in documentation.
 
-    If this is readthedocs use the RTD environment variables (and the git SHA if this isn't a tag), otherwise attempt to
-    lookup the git version
+    If this is readthedocs use the RTD environment variables and the git SHA,
+    otherwise lookup the git version
     """
     git_sha = check_output(["git", "rev-parse", "HEAD"]).strip().decode()[:7]
 
@@ -50,7 +52,7 @@ def get_version() -> str:
 
     if rtd_version_slug and rtd_version_type:
         if rtd_version_type == "tag":
-            return rtd_version_slug
+            return f"{rtd_version_slug}-{git_sha}"
         else:
             return f"{rtd_version_type}-{rtd_version_slug}-{git_sha}"
     else:
