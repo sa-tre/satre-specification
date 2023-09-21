@@ -24,7 +24,7 @@ from sphinx.writers.text import TextTranslator, Table
 
 from io import BytesIO
 from openpyxl import Workbook
-from openpyxl.styles import Font
+from openpyxl.styles import Alignment, Font
 
 
 if TYPE_CHECKING:
@@ -89,7 +89,7 @@ class SatreXlsxWriter(writers.Writer):
             "Response",
             "Improvements",
         ]
-        column_widths = [10, 10, 10, 10, 10, 50, 50]
+        column_widths = [10, 10, 10, 10, 10, 10, 50, 50]
         rows = []
         for section in visitor.interested:
             title = section["section"][1][1].strip()
@@ -107,7 +107,9 @@ class SatreXlsxWriter(writers.Writer):
                         row = [title, number, statement, guidance, importance]
                         rows.append(row)
                         for i, cell in enumerate(row):
-                            column_widths[i] = max(column_widths[i], len(str(cell)))
+                            column_widths[i] = min(
+                                max(column_widths[i], len(str(cell))), MAX_COLUMN_WIDTH
+                            )
 
         wb = Workbook()
         ws = wb.active
@@ -123,6 +125,11 @@ class SatreXlsxWriter(writers.Writer):
 
         ws.append([])
         ws.append(["Version", version])
+
+        # Set word-wrap on all cells
+        for row in ws.iter_rows():
+            for cell in row:
+                cell.alignment = Alignment(wrap_text=True, vertical="top")
 
         buffer = BytesIO()
         wb.save(buffer)
