@@ -49,7 +49,7 @@ contributing/contributors.md
 
 <!-- What are TREs, how many exist, the broad categories -->
 
-SATRE is our attempt to provide a standard reference architecture for trusted research environments (TREs).
+SATRE is our attempt to provide a standard reference architecture for Trusted Research Environments (TREs).
 We have developed a {ref}`comprehensive specification <specification>` which describes the features that a TRE should have.
 We have also performed {ref}`evaluations of existing open TREs <evaluation>` against the SATRE specification.
 
