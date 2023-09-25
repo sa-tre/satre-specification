@@ -1,4 +1,4 @@
-# Standard Architecture for Trusted Research Environments
+# Standard Architecture for Trusted Research Environments (SATRE)
 
 ```{toctree}
 :hidden:
