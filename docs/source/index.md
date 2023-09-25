@@ -45,6 +45,8 @@ contributing/walkthrough.md
 contributing/contributors.md
 ```
 
+(what_is_satre)=
+
 ## 👀 What is SATRE?
 
 <!-- What are TREs, how many exist, the broad categories -->

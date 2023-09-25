@@ -23,6 +23,8 @@ We recognise that in the UK several other names such a "Secure Data Environment"
 
 ## Why do we need a Standard Architecture for TREs
 
+A variety of approaches have been taken to building computing infrastruture and designing processes and policies for research with sensitive data. In recognition of this, SATRE aims to find the commonalities and compile a resource for TRE {ref}`Operators, Builders and Developers <infrastructure_roles>` to refer to and benefit from. See {ref}`what_is_satre` for more information.
+
 (is_standard)=
 
 ## Is SATRE an ISO technical standard?
