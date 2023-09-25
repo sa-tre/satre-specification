@@ -2,12 +2,22 @@
 
 # Frequently Asked Questions
 
+- {ref}`what_tre`
+- {ref}`why_satre`
 - {ref}`is_standard`
 - {ref}`is_everything`
 - {ref}`how_build`
 - {ref}`support_federation`
 - {ref}`how_developed`
 - {ref}`who_developed`
+
+(what_tre)=
+
+## What is a TRE?
+
+(why_satre)=
+
+## Why do we need a Standard Architecture for TREs
 
 (is_standard)=
 
