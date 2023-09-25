@@ -7,6 +7,10 @@ This section details the method for evaluating a TRE against the SATRE specifica
 This document also includes two example evaluations for {ref}`The Alan Turing Institute's Data Safe Haven <evaluation_alan_turing_institute>` and {ref}`The University of Dundee/HIC's TREEHOOSE <evaluation_dundee_hic>`.
 We hope that these examples will help you to write your own evaluation.
 
+## Who should evaluate a TRE against SATRE?
+
+This section is broadly aimed at {ref}`Operators <infrastructure_roles>` of TREs at institutions hosting sensitive data research projects. The example evaluations provided may also be of use to TRE {ref}`Developers <infrastructure_roles>` who wish to review existing implementations as well as the specification.
+
 (why_evaluate)=
 
 ## Why should I evaluate my institution's TRE?
