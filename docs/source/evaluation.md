@@ -15,8 +15,11 @@ The SATRE specification has been compiled from the knowledge around successful T
 
 By scoring your institutions' TRE against the specification using the method below, you can:
 
-1. Identify any oversights in the way your TRE is designed or operated, helping to minimise the risks associated with sensitive data research (and maximise productivity)
-2. 
+1. Identify any technical oversights in the way your TRE is designed that could lead to unintended disclosure of sensitive data or inappropriate user access.
+2. Identify any operating procedures that could be improved for your TRE and how to improve them, which will also minimise risks and ensure the smooth operation of TRE-based research projects.
+3. Compile a wish list of capabilities that your TRE lacks (or could be improved). You could for example, cite the SATRE specification as evidence for resources (computational or human) needing to be allocated by your institution.
+
+Note: SATRE is however *not* a technical standard for which formal accreditation can be achived. For more info see: {ref}`is_standard`
 
 ## Method
 
