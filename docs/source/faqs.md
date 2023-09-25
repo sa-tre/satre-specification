@@ -6,6 +6,8 @@
 - {ref}`why_satre`
 - {ref}`is_standard`
 - {ref}`is_everything`
+- {ref}`developer_gain`
+- {ref}`operator_gain`
 - {ref}`how_build`
 - {ref}`support_federation`
 - {ref}`how_developed`
@@ -29,7 +31,7 @@ A variety of approaches have been taken to building computing infrastruture and 
 
 ## Is SATRE an ISO technical standard?
 
-No. The SATRE specification aims to provide a helpful guide for TRE Operators, Developers and Builders. It can be used to inform the development process of new TREs, or to evaluate existing TREs and inform how they could be improved. Evaluating a TRE with the SATRE specification may help to identify which technical standards (e.g. ISO 27001) are already met and which (if any) are desirable to work towards meeting.
+No. The SATRE specification aims to provide a helpful guide for TRE {ref}`Operators, Builders and Developers <infrastructure_roles>`. It can be used to inform the development process of new TREs, or to evaluate existing TREs and inform how they could be improved. Evaluating a TRE with the SATRE specification may help to identify which technical standards (e.g. ISO 27001) are already met and which (if any) are desirable to work towards meeting.
 
 (is_everything)=
 
@@ -37,13 +39,17 @@ No. The SATRE specification aims to provide a helpful guide for TRE Operators, D
 
 No. The SATRE specification defines a set of stakeholder {ref}`roles <satre_roles>` and feature {ref}`capabilities <satre_pillars>` for TREs, which were decided according to these {ref}`architectural principles <satre_principles>`. It does not dictate which specific technologies could or should be used to build a TRE.
 
-## What do TRE Developers gain by reading the SATRE specification?
+(developer_gain)=
 
+## What do TRE {ref}`Builders/Developers <infrastructure_roles>` gain by reading the SATRE specification?
 
+By reading through the SATRE specificartion, developers tasked by their institution with designing and building 
 
-## What do TRE Operators gain by evaluating their TRE with SATRE?
+(operator_gain)=
 
-See {ref}`why_evaluate`.
+## What do TRE {ref}`Operators <infrastructure_roles>` gain by evaluating their TRE with SATRE?
+
+See: {ref}`why_evaluate`
 
 (how_build)=
 
