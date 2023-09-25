@@ -24,7 +24,7 @@ from sphinx.writers.text import TextTranslator, Table
 
 from io import BytesIO
 from openpyxl import Workbook
-from openpyxl.styles import Font
+from openpyxl.styles import Alignment, Font
 
 
 if TYPE_CHECKING:
@@ -34,13 +34,15 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
+MAX_COLUMN_WIDTH = 70
+
 
 def get_version() -> str:
     """
     Obtain a version to use in documentation.
 
-    If this is readthedocs use the RTD environment variables (and the git SHA if this isn't a tag), otherwise attempt to
-    lookup the git version
+    If this is readthedocs use the RTD environment variables and the git SHA,
+    otherwise lookup the git version
     """
     git_sha = check_output(["git", "rev-parse", "HEAD"]).strip().decode()[:7]
 
@@ -50,7 +52,7 @@ def get_version() -> str:
 
     if rtd_version_slug and rtd_version_type:
         if rtd_version_type == "tag":
-            return rtd_version_slug
+            return f"{rtd_version_slug}-{git_sha}"
         else:
             return f"{rtd_version_type}-{rtd_version_slug}-{git_sha}"
     else:
@@ -83,12 +85,13 @@ class SatreXlsxWriter(writers.Writer):
             "Section",
             "Item",
             "Statement",
+            "Guidance",
             "Importance",
             "Score",
             "Response",
             "Improvements",
         ]
-        column_widths = [10, 10, 10, 10, 10, 50, 50]
+        column_widths = [10, 10, 10, 10, 10, 10, 50, 50]
         rows = []
         for section in visitor.interested:
             title = section["section"][1][1].strip()
@@ -101,12 +104,14 @@ class SatreXlsxWriter(writers.Writer):
                     for line in table.lines[1:]:
                         number = line[0].text.strip()
                         statement = line[1].text.strip()
-                        # guidance = line[2].strip()
+                        guidance = line[2].text.strip()
                         importance = line[3].text.strip()
-                        row = [title, number, statement, importance]
+                        row = [title, number, statement, guidance, importance]
                         rows.append(row)
                         for i, cell in enumerate(row):
-                            column_widths[i] = max(column_widths[i], len(str(cell)))
+                            column_widths[i] = min(
+                                max(column_widths[i], len(str(cell))), MAX_COLUMN_WIDTH
+                            )
 
         wb = Workbook()
         ws = wb.active
@@ -122,6 +127,11 @@ class SatreXlsxWriter(writers.Writer):
 
         ws.append([])
         ws.append(["Version", version])
+
+        # Set word-wrap on all cells
+        for row in ws.iter_rows():
+            for cell in row:
+                cell.alignment = Alignment(wrap_text=True, vertical="top")
 
         buffer = BytesIO()
         wb.save(buffer)
