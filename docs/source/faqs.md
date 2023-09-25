@@ -43,7 +43,7 @@ No. The SATRE specification defines a set of stakeholder {ref}`roles <satre_role
 
 ## What do TRE {ref}`Builders/Developers <infrastructure_roles>` gain by reading the SATRE specification?
 
-By reading through the SATRE specificartion, developers tasked by their institution with designing and building 
+By reading through the SATRE specification, developers tasked by their institution with designing and/or building a TRE for sensitive data projects can avoid re-inventing the wheel. The specification does not dictate answers to the specific technology or policy choices that need to be made when developing a TRE, but it does provide a guide for thinking about which choices need to be made and what {ref}`capabilities <satre_pillars>` the TRE should possess.
 
 (operator_gain)=
 
