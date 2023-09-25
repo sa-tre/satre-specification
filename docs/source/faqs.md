@@ -68,7 +68,7 @@ See: {ref}`why_evaluate`
 
 ## How do I build and run a SATRE compliant TRE?
 
-We encourage TRE Operators and Builders to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`. TRE Developers can use the specification and published TRE evaluations as a starting point. Some of evaluated TREs such as the Alan Turing Institute's "[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)" and Dundee HIC's "[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)" are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
+We encourage TRE {ref}`Operators and Builders <infrastructure_roles>` to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`. TRE {ref}`Developers <infrastructure_roles>` can use the specification and published TRE evaluations as a starting point. Some of evaluated TREs such as the Alan Turing Institute's "[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)" and Dundee HIC's "[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)" are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
 
 (set_in_stone)=
 
