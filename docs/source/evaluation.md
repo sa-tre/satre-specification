@@ -7,6 +7,12 @@ This section details the method for evaluating a TRE against the SATRE specifica
 This document also includes two example evaluations for {ref}`The Alan Turing Institute's Data Safe Haven <evaluation_alan_turing_institute>` and {ref}`The University of Dundee/HIC's TREEHOOSE <evaluation_dundee_hic>`.
 We hope that these examples will help you to write your own evaluation.
 
+(why_evaluate)=
+
+## Why should I evaluate my institution's TRE?
+
+
+
 ## Method
 
 You should score your TRE against each statement in the SATRE specification.
