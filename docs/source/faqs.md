@@ -4,14 +4,14 @@
 
 - {ref}`what_tre`
 - {ref}`why_satre`
+- {ref}`how_developed`
+- {ref}`who_developed`
 - {ref}`is_standard`
 - {ref}`is_everything`
 - {ref}`developer_gain`
 - {ref}`operator_gain`
 - {ref}`how_build`
 - {ref}`support_federation`
-- {ref}`how_developed`
-- {ref}`who_developed`
 
 (what_tre)=
 
@@ -26,6 +26,18 @@ We recognise that in the UK several other names such a "Secure Data Environment"
 ## Why do we need a Standard Architecture for TREs
 
 A variety of approaches have been taken to building computing infrastruture and designing processes and policies for research with sensitive data. In recognition of this, SATRE aims to find the commonalities and compile a resource for TRE {ref}`Operators, Builders and Developers <infrastructure_roles>` to refer to and benefit from. See {ref}`what_is_satre` for more information.
+
+(how_developed)=
+
+## How has the SATRE specification been developed and why?
+
+See the information on the homepage of {ref}`these docs <satre_why>`.
+
+(who_developed)=
+
+## Who has developed the SATRE specification?
+
+Take a look at our {ref}`contributors` page.
 
 (is_standard)=
 
@@ -64,15 +76,3 @@ We encourage TRE Operators and Builders to publicly evaluate their TREs against 
 No. However, it's intended that SATRE could form the foundation for future standards and guidance on federation, interoperability, and related work.
 
 <!-- If you are interested in getting involved in these discussion please .... contact DARE? A federation WG? Another project? UKTRE mailing list? -->
-
-(how_developed)=
-
-## How has the SATRE specification been developed and why?
-
-See the information on the homepage of {ref}`these docs <satre_why>`.
-
-(who_developed)=
-
-## Who has developed the SATRE specification?
-
-Take a look at our {ref}`contributors` page.
