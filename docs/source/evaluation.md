@@ -11,7 +11,12 @@ We hope that these examples will help you to write your own evaluation.
 
 ## Why should I evaluate my institution's TRE?
 
+The SATRE specification has been compiled from the knowledge around successful TRE provisison from a variety of insitutions; this includes information governance procedures, computing technology, data management and other capabilities.
 
+By scoring your institutions' TRE against the specification using the method below, you can:
+
+1. Identify any oversights in the way your TRE is designed or operated, helping to minimise the risks associated with sensitive data research (and maximise productivity)
+2. 
 
 ## Method
 
