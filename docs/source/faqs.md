@@ -11,6 +11,7 @@
 - {ref}`developer_gain`
 - {ref}`operator_gain`
 - {ref}`how_build`
+- {ref}`set_in_stone`
 - {ref}`support_federation`
 
 (what_tre)=
@@ -68,6 +69,12 @@ See: {ref}`why_evaluate`
 ## How do I build and run a SATRE compliant TRE?
 
 We encourage TRE Operators and Builders to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`. TRE Developers can use the specification and published TRE evaluations as a starting point . Some of evaluated TREs such as the Alan Turing Institute's "[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)" and Dundee HIC's "[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)" are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
+
+(set_in_stone)=
+
+## Is the SATRE specification set in stone?
+
+Absolutely not. We know that TREs vary greatly in their design architecture, purposes for being built, the kinds of research they support and data they handle. We have tried to build a specification with as broadly useful a set of capabilities as possible, whilst acknowledging these different approaches. We won't have covered everything, and if you find SATRE valuable but think there is something we've missed, please consider {ref}`contributing <contributing>`. Additionally, the best practices in TRE provision may evolve over time as technologies and regulations change. We hope that the SATRE specification will be maintained in the future and accommodate these changes as appropriate.
 
 (support_federation)=
 
