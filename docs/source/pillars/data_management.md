@@ -73,6 +73,11 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
     Any sensitive data, including all backups, should be deleted when they are no longer needed.
     Having clear policies will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
   - Mandatory
+* - 3.1.X.
+  - You should have a method of providing proof of deletion/removal of files.
+  - {ref}`information asset owners <data_roles>` may require certification of the deletion of files.
+    You should have a method of providing proof of deletion if challenged.
+  - Recommended
 * - 3.1.8.
   - You could keep backups of data and research environments, provided that this is permitted by law.
   - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
