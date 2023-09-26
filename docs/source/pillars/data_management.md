@@ -230,7 +230,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to identify, asses
   - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
   - Mandatory
 * - 3.5.2.
-  - You must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
+  - You must run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
   - Virus and malware scans will help identify malicious code which may compromise the security, or correct operation, of the TRE.
   - Mandatory
 * - 3.5.3.

@@ -903,7 +903,7 @@
   - 1
   - - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
     - All Windows and Ubuntu virtual machines have system package updates automatically applied on a weekly schedule.
-    - Other parts of the TRE infrastrcture, for example Docker images used by the remote desktop and package proxy servers, are not automatically updated.
+    - Other parts of the TRE infrastructure, for example Docker images used by the remote desktop and package proxy servers, are not automatically updated.
     ##### Potential Improvements
     - We should add a process for recognising when container images are out of date and for updating them.
 * - 3.5.2.
