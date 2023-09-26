@@ -37,6 +37,11 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - You should keep records of data handling decisions.
   - Decisions that are made as part of the process discussed above should be recorded and made available for inspection by all stakeholders.
   - Recommended
+* - 3.1.X
+  - {ref}`Information asset owners <data_roles>` must classify data sets acourding to a common process and data classification methodology.
+  - To classify the data, information asset owners must have a good understanding of the data sets and the process of classification.
+    Once classified, data can be stored in a TRE with an appropriate security controls (see {ref}`later section on security levels and tiering <security-level>`), which can factor in the requirements for confidentiality, integrity and availability of the data.
+  - Mandatory
 * - 3.1.3.
   - You must have a data ingress process which enforces information governance rules/processes.
   - The data ingress process needs to ensure that information governance is correctly followed.
