@@ -429,3 +429,26 @@ Throughout the rest of this document, we will refer to each pre-defined security
     This reduces the number of unique configurations that need to be supported.
   - Optional
 ```
+
+## Research Meta-Data
+
+Descriptive information about research data, helping researchers understand and manage the data effectively.
+
+```{list-table}
+:header-rows: 1
+:name: tab-meta-data
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 3.7.1.
+  - You should have a consistent and easily accessible meta-data data model or similar to describe what a data asset contains.
+  - Where possible existing data models should be employed potentially extended.
+    More detailed information on the data schema for data assets should also be provided to assist researchers in understanding what data may be available without the need to see the underlying data.
+  - Recommended
+* - 3.7.2.
+  - You could provide summary, abstracted or synthetic data to researchers without exposing the underlying data set. 
+  - To reduce the need for access to row level data researchers could be provided with non-sensitive versions of the data either as summary data or using synthetic version of the data for activities such as code development and cohort planning.
+  - Optional
+```
