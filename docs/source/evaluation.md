@@ -15,7 +15,8 @@ This section is broadly aimed at {ref}`Operators <infrastructure_roles>` of TREs
 
 ## Why should I evaluate my institution's TRE?
 
-The SATRE specification has been compiled from the knowledge around successful TRE provisison from a variety of insitutions; this includes information governance procedures, computing technology, data management and other capabilities.
+The SATRE specification has been compiled from the knowledge around successful TRE provision from a variety of insitutions.
+This includes information governance procedures, computing technology, data management and other capabilities.
 
 By scoring your institutions' TRE against the specification using the method below, you can:
 
