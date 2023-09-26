@@ -216,7 +216,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs 
     Refusing to allow egress of such files is also a valid policy decision.
   - Mandatory
 * - 3.3.6
-  - You should have a statistical basis to guide the decisions of an output checker on the safety of outputs. 
+  - You should have a statistical basis to guide the decisions of an output checker on the safety of outputs.
   - There should be a solid basis to allow decision to be made about data based on risk factors such as re-identification of an individual or risk to commercial operations posed by outputs from the TRE.
   - Recommended
 * - 3.3.7
@@ -448,7 +448,7 @@ Descriptive information about research data, helping researchers understand and 
     More detailed information on the data schema for data assets should also be provided to assist researchers in understanding what data may be available without the need to see the underlying data.
   - Recommended
 * - 3.7.2.
-  - You could provide summary, abstracted or synthetic data to researchers without exposing the underlying data set. 
+  - You could provide summary, abstracted or synthetic data to researchers without exposing the underlying data set.
   - To reduce the need for access to row level data researchers could be provided with non-sensitive versions of the data either as summary data or using synthetic version of the data for activities such as code development and cohort planning.
   - Optional
 ```
@@ -467,6 +467,6 @@ Software designed to help users locate and retrieve specific metadata or informa
   - Importance
 * - 3.8.1.
   - You could provide an interface application for {ref}`data consumers <project_roles>` and {ref}`data subjects <public_roles>` to query elements of the data.
-  - In order to make data findable, an application which queries the meta-data or elements of the research data could be made more easily accessible than the data itself. 
+  - In order to make data findable, an application which queries the meta-data or elements of the research data could be made more easily accessible than the data itself.
   - Optional
 ```
