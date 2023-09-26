@@ -97,6 +97,31 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - Recommended
 ```
 
+## Data Archiving
+
+The practice of storing data that is no longer actively used but needs to be retained for historical or compliance reasons.
+
+```{list-table}
+:header-rows: 1
+:name: tab-data-archiving
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 3.X.X.
+  - Archive data within the TRE should be read only.
+  - Archive data by its very nature should not change and therefore be maintained as a read only store.
+    If an update is required, it may be pulled from archive into a separate operational store.
+  - Recommended
+* - 3.X.X.
+  - Long-term archives must be held in simple, standard formats to ensure accessibility.
+  - Some data archives may be required by policy or legislation to be kept for very long periods within the scope of the TRE.
+    Such data should be held in the simplest possible file format conforming to international standards to ensure they are platform and application agnostic.
+  - Recommended
+
+```
+
 ## Identity and access management
 
 The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure the right people (identities) can only access the tools and data they need.
