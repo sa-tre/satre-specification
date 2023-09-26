@@ -52,6 +52,10 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - The data egress process needs to ensure that information governance requirements are adhered to.
     In particular, it should require that an egress request has been approved by all required parties.
   - Mandatory
+* - 3.1.X
+  - Egress must be limited to the {ref}`information asset owners <data_roles>` or their delegates.
+  - Egress of data from a TRE must be a specific permission associated with individual users. This permission must be given by information asset owners. Egress may still require further approval (see 3.1.5).
+  - Mandatory
 * - 3.1.5.
   - Your data egress process could sometimes require project-independent approval.
   - There may be cases where there are multiple stakeholders for a piece of analysis including {ref}`information asset owners <data_roles>`, data analysts, data subjects, the {ref}`TRE operator <infrastructure_roles>`.
