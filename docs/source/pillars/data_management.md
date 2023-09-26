@@ -452,3 +452,21 @@ Descriptive information about research data, helping researchers understand and 
   - To reduce the need for access to row level data researchers could be provided with non-sensitive versions of the data either as summary data or using synthetic version of the data for activities such as code development and cohort planning.
   - Optional
 ```
+
+## Meta-Data Search and Discovery Application
+
+Software designed to help users locate and retrieve specific metadata or information within a database or system.
+
+```{list-table}
+:header-rows: 1
+:name: tab-meta-data-search
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 3.8.1.
+  - You could provide an interface application for {ref}`data consumers <project_roles>` and {ref}`data subjects <public_roles>` to query elements of the data.
+  - In order to make data findable, an application which queries the meta-data or elements of the research data could be made more easily accessible than the data itself. 
+  - Optional
+```
