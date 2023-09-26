@@ -79,7 +79,7 @@ They consist of the following parts:
 
 ##### Statement
 
-A TRE instance that works for everyone minimises barriers to use, and provides a productive and accessible analysis environment for research.
+A TRE instance that works for all users minimises barriers to use, and provides a productive and accessible analysis environment for research.
 
 ##### Rationale
 
