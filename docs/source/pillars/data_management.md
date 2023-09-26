@@ -90,6 +90,11 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
     For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
     An example of a reasonable measure would be for a remote desktop based TRE to prevent data being copied from a local machine's clipboard to a workspace.
   - Mandatory
+* - 3.1.X.
+  - Data held within the TRE should be the minimum required for analysis or research.
+  - Data stored and processed within the TRE should be limited to the amount required for that purpose.
+    This increases the level of protection for {ref}`data subjects <public_roles>`, makes it easier to comply with data protection legislation (e.g. GDPR) and could reduce the overhead of storage and processing.
+  - Recommended
 ```
 
 ## Identity and access management
@@ -180,6 +185,10 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs 
     If egress of such files is permitted then the risks of inadvertent disclosure must be mitigated and documented.
     Refusing to allow egress of such files is also a valid policy decision.
   - Mandatory
+* - 3.3.6.
+  - TRE outputs should be limited to the minimum required for sharing results of any analyses.
+  - This reduces the burden on {ref}`output checkers <data_roles>`, decreases the risk of inadvertent disclosure, and makes it easier to comply with data protection legislation (e.g. GDPR).
+  - Recommended
 ```
 
 (information-search-and-discovery)=
