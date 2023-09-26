@@ -219,7 +219,12 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs 
   - You should have a statistical basis to guide the decisions of an output checker on the safety of outputs. 
   - There should be a solid basis to allow decision to be made about data based on risk factors such as re-identification of an individual or risk to commercial operations posed by outputs from the TRE.
   - Recommended
-* - 3.3.7.
+* - 3.3.7
+  - You could create a semi-automated system for checks on common research outputs.
+  - Automation helps make decisions on outputs more consistent and reduces the overhead for output checkers.
+    It’s unlikely however that a fully automated output checking system (without humans in the loop) would be appropriate, given the risks associated with accidental data disclosure.
+  - Optional
+* - 3.3.8.
   - TRE outputs should be limited to the minimum required for sharing results of any analyses.
   - This reduces the burden on {ref}`output checkers <data_roles>`, decreases the risk of inadvertent disclosure, and makes it easier to comply with data protection legislation (e.g. GDPR).
   - Recommended
