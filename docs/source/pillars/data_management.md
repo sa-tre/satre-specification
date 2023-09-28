@@ -217,7 +217,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs 
   - Mandatory
 * - 3.3.6
   - You should have a statistical basis to guide the decisions of an output checker on the safety of outputs.
-  - There should be a solid basis to allow decision to be made about data based on risk factors such as re-identification of an individual or risk to commercial operations posed by outputs from the TRE.
+  - There should be a solid basis to allow decisions to be made about data based on risk factors such as re-identification of an individual or risk to commercial operations posed by outputs from the TRE.
   - Recommended
 * - 3.3.7
   - You could create a semi-automated system for checks on common research outputs.
