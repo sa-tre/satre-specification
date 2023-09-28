@@ -55,7 +55,7 @@ The SATRE project aims to provide a Standard Architecture for {ref}`Trusted Rese
 
 The **project goals** are to:
 
-1. Crowd-source, compile, and document knowledge, best practices and capabilities around TRE building and operation from different institutions; this includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
+1. Compile and document knowledge, best practices and capabilities around TRE building and operation from different institutions; this includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
 2. Enable the {ref}`Operators <infrastructure_roles>` of TREs to benefit from this knowledge, and empower them to improve their TREs with the suggested capabilities.
 3. Aid the {ref}`Developers and Builders <infrastructure_roles>` of new TREs in their thinking and decision making.
 
