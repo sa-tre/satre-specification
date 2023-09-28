@@ -7,6 +7,27 @@ This section details the method for evaluating a TRE against the SATRE specifica
 This document also includes two example evaluations for {ref}`The Alan Turing Institute's Data Safe Haven <evaluation_alan_turing_institute>` and {ref}`The University of Dundee/HIC's TREEHOOSE <evaluation_dundee_hic>`.
 We hope that these examples will help you to write your own evaluation.
 
+## Who should evaluate a TRE against SATRE?
+
+This section is aimed at {ref}`Operators <infrastructure_roles>` and {ref}`Information Governance Managers <governance_roles>` of TREs at institutions hosting sensitive data research projects. The example evaluations provided may also be of use to TRE {ref}`Developers <infrastructure_roles>` who wish to review existing implementations as well as the specification.
+
+(why_evaluate)=
+
+## Why should I evaluate my institution's TRE?
+
+The SATRE specification has been compiled from the knowledge around successful TRE provision from a variety of insitutions.
+This includes information governance procedures, computing technology, data management and other capabilities.
+
+By scoring your institutions' TRE against the specification using the method below, you can:
+
+1. Identify any technical oversights in the way your TRE is designed that could lead to unintended disclosure of sensitive data or inappropriate user access.
+2. Identify any operating procedures that could be improved for your TRE and how to improve them, which will also minimise risks and ensure the smooth operation of TRE-based research projects.
+3. Compile a wish list of capabilities that your TRE lacks (or could be improved). You could for example, cite the SATRE specification as evidence for resources (computational or human) needing to be allocated by your institution.
+
+:::{note}
+SATRE is _not_ a technical standard for which formal accreditation can be achived. For more info see: {ref}`is_standard`
+:::
+
 ## Method
 
 You should score your TRE against each statement in the SATRE specification.
