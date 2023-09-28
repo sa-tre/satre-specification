@@ -4,7 +4,8 @@
 
 <!-- What this document intends to do (and what it doesn't), the level of detail we aim for contrasted with other technical standards -->
 
-The SATRE specification is our attempt to crowd-source, compile, and document knowledge, best practices and capabilities around TRE building and operation from different institutions; this includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
+The SATRE specification is our attempt to compile and document knowledge, best practices and capabilities around TRE building and operation from different institutions.
+This includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
 
 The specification follows a capability-evaluation model.
 The specification is presented in terms of the capabilities that a team running a TRE should aim for across all aspects of TRE provision.
