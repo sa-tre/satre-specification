@@ -156,7 +156,7 @@ Standardisation is also linked to the public trust principle, as a standard appr
 ##### Implications
 
 - Standards for TREs don't currently exist, and may be developed in the future. TRE teams should be prepared to adapt their provision to fit the latest agreed upon standard.
-- Standards TREs adhere to may range in scope, including technical, operational and governance requirements. All agreed upon standards should align to ensure there is no contradiction in requirements.
+- Standards that TREs adhere to may range in scope, including technical, operational and governance requirements. All agreed upon standards should align to ensure there is no contradiction in requirements.
 - Any developments in standards should reuse or incorporate pre-existing content and resources wherever possible.
 
 There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
