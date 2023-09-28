@@ -1025,6 +1025,63 @@
   -
 ```
 
+## Research Meta-Data
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-meta-data
+
+* -
+  - Score
+  - Response
+* - 3.7.1.
+  - ?
+  - ?
+* - 3.7.2.
+  - ?
+  - ?
+* - **Capability met?**
+  - ?
+  -
+```
+
+## Meta-Data Search and Discovery Application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-meta-data-search
+
+* -
+  - Score
+  - Response
+* - 3.8.1.
+  - ?
+  - ?
+* - **Capability met?**
+  - ?
+  -
+```
+
+## Data Archiving
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-data-archiving
+
+* -
+  - Score
+  - Response
+* - 3.9.1.
+  - ?
+  - ?
+* - 3.9.2.
+  - ?
+  - ?
+* - **Capability met?**
+  - ?
+  -
+```
+
 ## Business continuity management
 
 ```{list-table}
