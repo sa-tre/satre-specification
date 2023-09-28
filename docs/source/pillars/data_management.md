@@ -98,7 +98,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
 * - 3.1.X.
   - Data held within the TRE should be the minimum required for analysis or research.
   - Data stored and processed within the TRE should be limited to the amount required for that purpose.
-    This increases the level of protection for {ref}`data subjects <public_roles>`, makes it easier to comply with data protection legislation (e.g. GDPR) and could reduce the overhead of storage and processing.
+    This increases the level of protection for {ref}`data subjects <public_roles>`, makes it easier to comply with data protection legislation and could reduce the overhead of storage and processing.
   - Recommended
 ```
 
