@@ -774,7 +774,10 @@
     #### Potential improvement
     - We should draft a clear policy on data deletion in the case that communication breaks down between the project team and TRE operators.
       In particular, this should focus on ensuring GDPR rules and data sharing agreements are not broken.
-* - 3.1.8.
+* - 3.1.10.
+  - ?
+  - ?
+* - 3.1.11.
   - 1
   - Some research environment data is backed up.
     This includes virtual disks and object storage accounts which contain users personal/configuration files and working data.
@@ -783,16 +786,19 @@
     Because input data is always a copy, we are not concerned about the loss of input data.
     #### Potential improvement
     - We could ensure that non-file working data, such as database contents are also backed up.
-* - 3.1.9.
+* - 3.1.12.
   - 2
   - The input data is immutable to users, it is kept in a folder that is read-only for TRE users.
     The only way input data can be modified is through the ingress process, which is logged.
-* - 3.1.10.
+* - 3.1.13.
   - 2
   - Ingress and egress are only possible by approved parties using a secure upload/download procedure.
     This involves using secure email to share a time-limited upload/download token for use with Azure Storage Explorer.
     Copying data into the TRE from the clipboard is not permitted.
     All users must complete relevant training before accessing a TRE, and sign our terms-of-use, which make them aware that they must not attempt to move data in or out of the environment without authorisation.
+* - 3.1.14.
+  - ?
+  - ?
 * - **Capability met?**
   - **YES**
   -

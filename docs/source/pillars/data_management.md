@@ -73,29 +73,29 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
     Any sensitive data, including all backups, should be deleted when they are no longer needed.
     Having clear policies will help to avoid problems with data being kept longer than necessary or accidental deletion of outputs.
   - Mandatory
-* - 3.1.X.
+* - 3.1.10.
   - You should have a method of providing proof of deletion/removal of files.
   - {ref}`information asset owners <data_roles>` may require certification of the deletion of files.
     You should have a method of providing proof of deletion if challenged.
   - Recommended
-* - 3.1.8.
+* - 3.1.11.
   - You could keep backups of data and research environments, provided that this is permitted by law.
   - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
     {ref}`TRE developers <infrastructure_roles>` may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
   - Optional
-* - 3.1.9.
+* - 3.1.12.
   - You should log how input data is modified.
   - If the input data is mutable a TRE should keep records of its modification.
     For example, when the data was modified and by who.
   - Recommended
-* - 3.1.10.
+* - 3.1.13.
   - You must, to a reasonable extent, prevent unauthorised data ingress or egress.
   - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
     However, it is difficult to control for every possibility.
     For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
     An example of a reasonable measure would be for a remote desktop based TRE to prevent data being copied from a local machine's clipboard to a workspace.
   - Mandatory
-* - 3.1.X.
+* - 3.1.14.
   - Data held within the TRE should be the minimum required for analysis or research.
   - Data stored and processed within the TRE should be limited to the amount required for that purpose.
     This increases the level of protection for {ref}`data subjects <public_roles>`, makes it easier to comply with data protection legislation and could reduce the overhead of storage and processing.
