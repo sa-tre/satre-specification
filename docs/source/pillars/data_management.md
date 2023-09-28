@@ -444,7 +444,7 @@ Descriptive information about research data, helping researchers understand and 
   - Importance
 * - 3.7.1.
   - You should have a consistent and easily accessible meta-data data model or similar to describe what a data asset contains.
-  - Where possible existing data models should be employed potentially extended.
+  - Where possible, existing data models should be employed (and extended if necessary).
     More detailed information on the data schema for data assets should also be provided to assist researchers in understanding what data may be available without the need to see the underlying data.
   - Recommended
 * - 3.7.2.
