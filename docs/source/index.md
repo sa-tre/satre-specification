@@ -1,4 +1,4 @@
-# Standard Architecture for Trusted Research Environments
+# Standard Architecture for Trusted Research Environments (SATRE)
 
 ```{toctree}
 :hidden:
@@ -45,13 +45,24 @@ contributing/walkthrough.md
 contributing/contributors.md
 ```
 
+(what_is_satre)=
+
 ## 👀 What is SATRE?
 
 <!-- What are TREs, how many exist, the broad categories -->
 
-SATRE is our attempt to provide a standard reference architecture for trusted research environments (TREs).
-We have developed a {ref}`comprehensive specification <specification>` which describes the features that a TRE should have.
-We have also performed {ref}`evaluations of existing open TREs <evaluation>` against the SATRE specification.
+The SATRE project aims to provide a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`.
+
+The **project goals** are to:
+
+1. Compile and document knowledge, best practices and capabilities around TRE building and operation from different institutions; this includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
+2. Enable the {ref}`Operators <infrastructure_roles>` of TREs to benefit from this knowledge, and empower them to improve their TREs with the suggested capabilities.
+3. Aid the {ref}`Developers and Builders <infrastructure_roles>` of new TREs in their thinking and decision making.
+
+To _achieve_ these goals we have:
+
+1. Written a {ref}`comprehensive architecture specification <specification>` which describes the features and capabilities that a TRE should have.
+2. Documented a method for {ref}`evaluating TREs against this specification <evaluation>` and performed example evaluations of existing TREs with this method.
 
 (satre_why)=
 
@@ -59,7 +70,7 @@ We have also performed {ref}`evaluations of existing open TREs <evaluation>` aga
 
 <!-- Motivation: Why a TRE specification is needed/ useful and a description of the broader SATRE project, conception and goals -->
 
-The need for trusted research environments (TREs) is clear.
+The need for TREs is clear.
 Personal or sensitive data which have been collected for operational, commercial or governmental reasons need to be managed securely and safely for research use in an environment that encourages best practice.
 
 TREs are designed to enable access to sensitive data only for authorised projects and {ref}`data consumers <project_roles>`, whilst minimising risk of data release or exposure.
