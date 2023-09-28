@@ -122,7 +122,7 @@ The practice of storing data that is no longer actively used but needs to be ret
 * - 3.X.X.
   - Long-term archives must be held in simple, standard formats to ensure accessibility.
   - Some data archives may be required by policy or legislation to be kept for very long periods within the scope of the TRE.
-    Such data should be held in the simplest possible file format conforming to international standards to ensure they are platform and application agnostic.
+    Such data should be held in the simplest possible file format, conforming to international standards if available, to ensure they are platform and application agnostic.
   - Recommended
 
 ```
