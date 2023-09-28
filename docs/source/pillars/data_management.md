@@ -449,7 +449,7 @@ Descriptive information about research data, helping researchers understand and 
   - Recommended
 * - 3.7.2.
   - You could provide summary, abstracted or synthetic data to researchers without exposing the underlying data set.
-  - To reduce the need for access to row level data researchers could be provided with non-sensitive versions of the data either as summary data or using synthetic version of the data for activities such as code development and cohort planning.
+  - To reduce the need for access to row level data researchers could be provided with non-sensitive versions of the data either as summary data or using synthetic versions of the data for activities such as code development and cohort planning.
   - Optional
 ```
 
