@@ -467,12 +467,12 @@ The practice of storing data that is no longer actively used but needs to be ret
   - Statement
   - Guidance
   - Importance
-* - 3.X.X.
+* - 3.9.1.
   - Archived data within the TRE should be read only.
   - Archived data by its very nature should not change and therefore be maintained as a read only store.
     If an update is required, it may be pulled from archive into a separate operational store.
   - Recommended
-* - 3.X.X.
+* - 3.9.2.
   - Long-term archives must be held in simple, standard formats to ensure accessibility.
   - Some data archives may be required by policy or legislation to be kept for very long periods within the scope of the TRE.
     Such data should be held in the simplest possible file format, conforming to international standards if available, to ensure they are platform and application agnostic.
