@@ -755,16 +755,19 @@
     These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
     These stakeholders must sign a form detailing the requested egress to confirm their agreement.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
-* - 3.1.5.
+* - 3.1.6.
+  - ?
+  - ?
+* - 3.1.7.
   - 2
   - Our data egress procedure requires signed agreement from representatives of all information asset owners, the project team and a referee external to the project.
-* - 3.1.6.
+* - 3.1.8.
   - 2
   - Input data is recorded in the aforementioned forms.
     The record includes a description of the data, its source (the information asset owner) and the data owner's contact details.
     This project initialisation document is specific to the particular TRE project that uses the data and will include the date of data ingress.
     At, or shortly after, the project end date, the data is securely and irreversibly deleted from the TRE.
-* - 3.1.7.
+* - 3.1.9.
   - 2
   - At the end of the project we require all relevant contact people to confirm that their environment can be torn down.
     Any data, code or other files that have not been brought out through the egress process will be irretrievably lost and any users associated only with this project will have their accounts disabled.
