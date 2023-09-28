@@ -115,8 +115,8 @@ The practice of storing data that is no longer actively used but needs to be ret
   - Guidance
   - Importance
 * - 3.X.X.
-  - Archive data within the TRE should be read only.
-  - Archive data by its very nature should not change and therefore be maintained as a read only store.
+  - Archived data within the TRE should be read only.
+  - Archived data by its very nature should not change and therefore be maintained as a read only store.
     If an update is required, it may be pulled from archive into a separate operational store.
   - Recommended
 * - 3.X.X.
