@@ -879,6 +879,15 @@
 * - 3.3.5.
   - 2
   - We do not allow egress of files that cannot be manually checked except in the case of release back to the original information asset owner.
+* - 3.3.6.
+  - ?
+  - ?
+* - 3.3.7.
+  - ?
+  - ?
+* - 3.3.8.
+  - ?
+  - ?
 * - **Capability met?**
   - **YES**
   -
