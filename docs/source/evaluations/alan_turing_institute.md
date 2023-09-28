@@ -742,11 +742,14 @@
     A signed approval form for the security tier of each project is also required.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.3.
+  - ?
+  - ?
+* - 3.1.4.
   - 2
   - We implement data handling restrictions on data coming into the environment.
     These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
     These stakeholders must sign a form detailing the requested ingress to confirm their agreement.
-* - 3.1.4.
+* - 3.1.5.
   - 2
   - We implement data handling restrictions on data coming out of the environment.
     These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
