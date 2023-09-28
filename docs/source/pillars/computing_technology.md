@@ -417,12 +417,4 @@ This {term}`business process <business process>` involves the {ref}`TRE operator
   - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
   - Mandatory
-* - 2.4.6.
-  - You must have a process in place for applying security updates to all software that forms part of the TRE infrastructure.
-  - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
-  - Mandatory
-* - 2.4.7.
-  - You must also run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
-  - Virus and malware scans will help identify malicious code which may compromise the security, or correct operation, of the TRE.
-  - Mandatory
 ```
