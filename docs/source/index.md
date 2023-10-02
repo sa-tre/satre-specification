@@ -45,11 +45,30 @@ contributing/walkthrough.md
 contributing/contributors.md
 ```
 
+The SATRE project provides a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`, incorporating knowledge and best practices from multiple institutions and sectors across the UK.
+
+It aims to standardise the capabilities of TREs, making it easier for users, operators, and developers to work with sensitive data, and making the operation of TREs more transparent to data owners and the general public.
+
+We encourage all TREs in the UK to {ref}`evaluate <evaluation>` themselves against the SATRE specification, and to {ref}`contribute <contributing>` to the project.
+
+## Getting started
+
+If you are familiar with SATRE and want to evaluate your own TRE you can jump straight to the {ref}`evaluation section <evaluation>` which includes an {ref}`Excel spreadsheet <evaluate_spreadsheet>` you can use for your evaluation.
+
+If this is your first time here we recommend reading:
+
+- {ref}`Frequently asked questions <faqs>`
+- {ref}`Background to the specification <specification>`
+- The specification, which is split into four pillars:
+  - {ref}`pillar_information_governance`
+  - {ref}`pillar_computing_technology`
+  - {ref}`pillar_data_management`
+  - {ref}`pillar_supporting`
+- {ref}`How to evaluate your TRE <evaluation>`
+
 (what_is_satre)=
 
 ## 👀 What is SATRE?
-
-<!-- What are TREs, how many exist, the broad categories -->
 
 The SATRE project aims to provide a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`.
 

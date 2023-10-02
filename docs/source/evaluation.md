@@ -58,6 +58,8 @@ If all the **Mandatory** statements in a capability are met, either at level **1
 If all capabilities in a pillar are met then the pillar is met.
 If all pillars are met then the SATRE specification is met.
 
+(evaluate_spreadsheet)=
+
 ## Evaluation spreadsheet
 
 You can use this {download}`spreadsheet <../build/satrecsv/satre.xlsx>` as a template for your evaluation.
