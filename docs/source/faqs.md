@@ -12,6 +12,7 @@
 - {ref}`operator_gain`
 - {ref}`how_build`
 - {ref}`set_in_stone`
+- {ref}`other_tre_types`
 - {ref}`support_federation`
 
 (what_tre)=
@@ -75,6 +76,13 @@ We encourage TRE {ref}`Operators and Builders <infrastructure_roles>` to publicl
 ## Is the SATRE specification set in stone?
 
 Absolutely not. We know that TREs vary greatly in their design architecture, purposes for being built, the kinds of research they support and data they handle. We have tried to build a specification with as broadly useful a set of capabilities as possible, whilst acknowledging these different approaches. We won't have covered everything, and if you find SATRE valuable but think there is something we've missed, please consider {ref}`contributing <contributing>`. Additionally, the best practices in TRE provision may evolve over time as technologies and regulations change. We hope that the SATRE specification will be maintained in the future and accommodate these changes as appropriate.
+
+(other_tre_types)=
+
+## My TRE is designed for data that doesn't require this level of protection. Should I still follow SATRE?
+
+At the moment SATRE is a single specification that is relevant to many TREs.
+A future specification may include the idea of different archetypes of TREs, or data sensitivity tiers, with different requirements for each.
 
 (support_federation)=
 
