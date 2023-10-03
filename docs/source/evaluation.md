@@ -28,23 +28,18 @@ By scoring your institutions' TRE against the specification using the method bel
 SATRE is _not_ a technical standard for which formal accreditation can be achived. For more info see: {ref}`is_standard`
 :::
 
+(scoring_method)=
+
 ## Method
 
-You should score your TRE against each statement in the SATRE specification.
-The scoring system is:
+You should score your TRE against each statement in the SATRE specification using this scoring system:
 
-0 (Not met)
-: The TRE does not meet this requirement
+:0 Not met: The TRE does not meet this requirement (the TRE is not SATRE compliant)
+:1 Sufficient: The TRE meets this requirement met but there is substantial scope for improvement
+:2 Satisfied: The TRE meets this requirement met but there may still be scope for improvement
 
-1 (Sufficient)
-: The TRE meets this requirement met but there is substantial scope for improvement
-
-2 (Satisfied)
-: The TRE meets this requirement met but there may still be scope for improvement
-
-**0** means you have failed to meet the requirement.
 A score of **1** or above means you have met the requirement.
-Although both **1** and **2** indicate a TRE meets the requirement, they indicate different levels of possible improvement.
+Optionally you can use **1** and **2** to indicate potential areas of improvement in your TRE.
 
 An evaluation may simply give your TRE scores for each statement.
 We recommend a more detailed evaluation, which includes a score, a justification and, where applicable, suggestions for improvement.
@@ -57,6 +52,8 @@ The scores for each statement can be easily combined at the capability, pillar o
 If all the **Mandatory** statements in a capability are met, either at level **1** or level **2**, then the capability is met.
 If all capabilities in a pillar are met then the pillar is met.
 If all pillars are met then the SATRE specification is met.
+
+(evaluate_spreadsheet)=
 
 ## Evaluation spreadsheet
 

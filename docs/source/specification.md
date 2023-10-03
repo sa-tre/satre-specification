@@ -1,13 +1,13 @@
 (specification)=
 
-# What is the SATRE specification?
-
-<!-- What this document intends to do (and what it doesn't), the level of detail we aim for contrasted with other technical standards -->
-
-The SATRE specification is our attempt to compile and document knowledge, best practices and capabilities around TRE building and operation from different institutions.
-This includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
+# The SATRE specification
 
 The specification is presented in terms of the capabilities that a team running a TRE should aim for across all aspects of TRE provision.
+
+The specification is split into {ref}`four pillars <satre_pillars>`.
+
+## Structure of the specification
+
 This page explains what the specification is, and how it's structured. Consult the {ref}`FAQs <faqs>` for more on what the specification _is not_.
 
 :::{note}
@@ -16,26 +16,16 @@ Throughout this document, we will use the term "{ref}`TRE operator <infrastructu
 
 The TRE capabilities are broken down into components.
 Each component is a statement of a process, method or practice that the operators should have in place to ensure they fulfil the capability requirements.
-These components are each labelled with an importance.
-The importance is one of **mandatory**, **recommended** or **optional**.
+These components are each labelled with an importance:
 
-:::{note}
-The intended meaning of the capability component importance labels is as follows:
-
-Mandatory
-: This is required. If this component is not supported, then the capability, and the specification, is not met.
-
-Recommended
-: We believe that TREs should have this component. It makes a TRE better.
-
-Optional
-: We believe many TREs would benefit from this component. However, we recognise there are reasons a {ref}`TRE operator <infrastructure_roles>` may actively choose not to support this component.
-:::
+:Mandatory: This is required. If this component is not supported, then the capability, and therefore the specification, is not met.
+:Recommended: Most TREs should have this component, but it is not essential.
+:Optional: Many TREs would benefit from this component. However, we recognise there are reasons a {ref}`TRE operator <infrastructure_roles>` may actively choose not to support this component.
 
 {ref}`TRE operator <infrastructure_roles>`s are able to demonstrate that they meet the specification by showing they can fulfil all **mandatory** components.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
 
-Any particular TRE implementation should be able to score itself against each capability as either **supported**, **partially supported** or **unsupported** (see {ref}`evaluation` for details).
+Any particular TRE implementation should be able to {ref}`score itself against each capability <scoring_method>`.
 
 ## Structure
 
@@ -48,20 +38,14 @@ The SATRE specification contains four key parts:
 SATRE Specification Architecture
 ```
 
-{ref}`Architectural Principles <satre_principles>`
-: The {term}`principles <architectural principle>` that all {ref}`TRE operator <infrastructure_roles>`s looking to use the specification should hold themselves accountable to.
-
-{ref}`Specification Pillars <satre_pillars>`
-: The broad areas of TRE provisioning the specification covers.
-
-Each pillar is broken down into several {term}`TRE Capabilities <capability>`.
-
-Each capability consists of one or more {term}`TRE Capability Components <component>`.
+:{ref}`Architectural Principles <satre_principles>`: The {term}`principles <architectural principle>` that all {ref}`TRE operator <infrastructure_roles>`s looking to use the specification should hold themselves accountable to.
+:{ref}`Specification Pillars <satre_pillars>`: The broad areas of TRE provisioning the specification covers.
+:TRE Capabilities: Pillars are broken down into {term}`capabilities <capability>`
+:TRE Capability Components: Capabilities are broken down into one or more {term}`components <component>`
 
 Together, these provide a framework that {ref}`TRE operator <infrastructure_roles>`s can measure themselves against.
 
-{ref}`Roles <satre_roles>`
-: In addition, we also describe some {term}`roles <role>` that are necessary for the operation and use of a TRE.
+:{ref}`Roles <satre_roles>`: We also describe some {term}`roles <role>` that are necessary for the operation and use of a TRE.
 
 (satre_principles)=
 
@@ -81,9 +65,9 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 (satre_pillars)=
 
-### Specification Pillars and Capabilities
+## Specification Pillars and Capabilities
 
-The SATRE specification contains three core pillars for a TRE:
+The SATRE specification contains three core pillars for a TRE, plus supporting capabilities:
 
 ```{figure} ../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
@@ -92,14 +76,14 @@ The SATRE specification contains three core pillars for a TRE:
 SATRE Pillars Capability Map
 ```
 
-{ref}`Information governance <pillar_information_governance>`
+{ref}`1. Information governance <pillar_information_governance>`
 : What the {ref}`TRE operator <infrastructure_roles>`s do to ensure information risk is measured and managed to an acceptable level.
 
-{ref}`Computing technology <pillar_computing_technology>`
+{ref}`2. Computing technology <pillar_computing_technology>`
 : What the {ref}`TRE operator <infrastructure_roles>`s do to manage systems for storing, retrieving, and sending information.
 
-{ref}`Data management <pillar_data_management>`
+{ref}`3. Data management <pillar_data_management>`
 : What the {ref}`TRE operator <infrastructure_roles>`s do to manage data assets and ensure information remains secure.
 
-In addition to these capabilities, any {ref}`TRE operator <infrastructure_roles>` will need to possess various {ref}`supporting capabilities <pillar_supporting>`.
-Examples of supporting capabilities include complying with legal requirements and managing relationships with stakeholders.
+{ref}`4. Supporting capabilities <pillar_supporting>`
+: A {ref}`TRE operator <infrastructure_roles>` will need to possess various supporting capabilities, such as complying with legal requirements and managing relationships with stakeholders.

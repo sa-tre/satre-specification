@@ -45,24 +45,35 @@ contributing/walkthrough.md
 contributing/contributors.md
 ```
 
+The SATRE project provides a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`, incorporating knowledge and best practices from multiple institutions and sectors across the UK.
+
+It aims to standardise the capabilities of TREs, making it easier for users, operators, and developers to work with sensitive data, and making the operation of TREs more transparent to data owners and the general public.
+
+We encourage all TREs in the UK to {ref}`evaluate <evaluation>` themselves against the SATRE specification, and to {ref}`contribute <contributing>` to the project.
+
+## Getting started
+
+If you are familiar with SATRE and want to evaluate your own TRE you can jump straight to the {ref}`evaluation section <evaluation>` which includes an {ref}`Excel spreadsheet <evaluate_spreadsheet>` you can use for your evaluation.
+
+If this is your first time here we recommend reading the rest of this page to understand the background behind SATRE, followed by:
+
+- {ref}`Frequently asked questions <faqs>`
+- {ref}`The specification <specification>`
+- {ref}`How to evaluate your TRE <evaluation>`
+
 (what_is_satre)=
 
 ## 👀 What is SATRE?
 
-<!-- What are TREs, how many exist, the broad categories -->
-
 The SATRE project aims to provide a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`.
 
-The **project goals** are to:
+The SATRE specification is our attempt to compile and document knowledge, best practices and capabilities around TRE building and operation from different institutions.
+This includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
 
-1. Compile and document knowledge, best practices and capabilities around TRE building and operation from different institutions; this includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
-2. Enable the {ref}`Operators <infrastructure_roles>` of TREs to benefit from this knowledge, and empower them to improve their TREs with the suggested capabilities.
-3. Aid the {ref}`Developers and Builders <infrastructure_roles>` of new TREs in their thinking and decision making.
+SATRE should
 
-To _achieve_ these goals we have:
-
-1. Written a {ref}`comprehensive architecture specification <specification>` which describes the features and capabilities that a TRE should have.
-2. Documented a method for {ref}`evaluating TREs against this specification <evaluation>` and performed example evaluations of existing TREs with this method.
+- Enable the {ref}`Operators <infrastructure_roles>` of TREs to benefit from this knowledge, and empower them to improve their TREs with the suggested capabilities.
+- Aid the {ref}`Developers and Builders <infrastructure_roles>` of new TREs in their thinking and decision making.
 
 (satre_why)=
 
