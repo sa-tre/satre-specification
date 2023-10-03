@@ -89,7 +89,7 @@ This applies to both technical systems and policies/processes.
   Any generated data should follow standards for provenance and transparency for audit trails.
 - Different levels of observability may be needed for different users.
   Any data collected from an observability perspective should consider the needs of those who will use it, and minimise collection accordingly.
-- There may be ethical and confidential issues to consider when implemeting the observability principle.
+- There may be ethical and confidential issues to consider when implementing the observability principle.
 
 (principle_standardisation)=
 
@@ -106,7 +106,7 @@ This includes making TREs easier to use, deploy, and audit.
 
 TREs should be built in such a way that they do not restrict or prevent interoperability where this may be desirable in future, by identifying and avoiding or removing barriers to interoperability.
 
-Standardisation is also linked to the public trust principle, as a standard approach to TRE provision will make it eaiser for impacted parties to understand how their data will be used within TREs.
+Standardisation is also linked to the public trust principle, as a standard approach to TRE provision will make it easier for impacted parties to understand how their data will be used within TREs.
 
 ### Implications
 

@@ -54,7 +54,7 @@ Roles for people managing data and databases used in a TRE.
     See {ref}`advanced_CCC`.
 * - Information Asset Owner
   - General term for custodians or owners of a datasets, projects or other information assets within a TRE.
-    For example, the owner of a dataset who has liased with a {ref}`TRE Operator <infrastructure_roles>` on {ref}`secure data ingress <data_lifecycle_management>` to the TRE.
+    For example, the owner of a dataset who has liaised with a {ref}`TRE Operator <infrastructure_roles>` on {ref}`secure data ingress <data_lifecycle_management>` to the TRE.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process.
     See {ref}`output_management`.
@@ -80,7 +80,7 @@ The IT professionals and software engineers who will be responsible for developi
 * - Developer
   - People responsible for building the software infrastructure that can be used as a TRE.
     These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research.
-    Alternatively, these could be developers who are contracted to build a TRE for a given insitution or project.
+    Alternatively, these could be developers who are contracted to build a TRE for a given institution or project.
     TRE developers include people creating bespoke platforms catering to the specific requirements of a project or dataset, as well as developers building generalisable solutions to TRE provision that can be configured based on the research context.
 * - Builder
   - People responsible for carrying out the {ref}`infrastructure_deployment_process`.

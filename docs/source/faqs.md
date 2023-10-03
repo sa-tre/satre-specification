@@ -29,7 +29,7 @@ For more information about TREs, visit the [UK TRE Community website](https://ww
 
 ## Why do we need a Standard Architecture for TREs
 
-A variety of approaches have been taken to building computing infrastruture and designing processes and policies for research with sensitive data.
+A variety of approaches have been taken to building computing infrastructure and designing processes and policies for research with sensitive data.
 In recognition of this, SATRE aims to find the commonalities and compile a resource for TRE {ref}`Operators, Builders and Developers <infrastructure_roles>` to refer to and benefit from.
 See {ref}`what_is_satre` for more information.
 
