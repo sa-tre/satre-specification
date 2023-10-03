@@ -65,7 +65,7 @@ There might be good reasons why any particular TRE does not possess one or more 
 
 (satre_pillars)=
 
-### Specification Pillars and Capabilities
+## Specification Pillars and Capabilities
 
 The SATRE specification contains three core pillars for a TRE, plus supporting capabilities:
 
