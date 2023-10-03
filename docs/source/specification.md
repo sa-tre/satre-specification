@@ -8,7 +8,8 @@ The specification is split into {ref}`four pillars <satre_pillars>`.
 
 ## Structure of the specification
 
-This page explains what the specification is, and how it's structured. Consult the {ref}`FAQs <faqs>` for more on what the specification _is not_.
+This page explains what the specification is, and how it's structured.
+Consult the {ref}`FAQs <faqs>` for more on what the specification _is not_.
 
 :::{note}
 Throughout this document, we will use the term "{ref}`TRE operator <infrastructure_roles>`" to refer to the team running a particular TRE.
@@ -18,9 +19,9 @@ The TRE capabilities are broken down into components.
 Each component is a statement of a process, method or practice that the operators should have in place to ensure they fulfil the capability requirements.
 These components are each labelled with an importance:
 
-:Mandatory: This is required. If this component is not supported, then the capability, and therefore the specification, is not met.
+:Mandatory: This is required: if this component is not supported, then the capability, and therefore the specification, is not met.
 :Recommended: Most TREs should have this component, but it is not essential.
-:Optional: Many TREs would benefit from this component. However, we recognise there are reasons a {ref}`TRE operator <infrastructure_roles>` may actively choose not to support this component.
+:Optional: Many TREs would benefit from this component, however, we recognise there are reasons a {ref}`TRE operator <infrastructure_roles>` may actively choose not to implement it.
 
 {ref}`TRE operator <infrastructure_roles>`s are able to demonstrate that they meet the specification by showing they can fulfil all **mandatory** components.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
@@ -39,29 +40,19 @@ SATRE Specification Architecture
 ```
 
 :{ref}`Architectural Principles <satre_principles>`: The {term}`principles <architectural principle>` that all {ref}`TRE operator <infrastructure_roles>`s looking to use the specification should hold themselves accountable to.
-:{ref}`Specification Pillars <satre_pillars>`: The broad areas of TRE provisioning the specification covers.
-:TRE Capabilities: Pillars are broken down into {term}`capabilities <capability>`
-:TRE Capability Components: Capabilities are broken down into one or more {term}`components <component>`
+:{ref}`Specification Pillars <satre_pillars>`: The broad areas of TRE provisioning the specification covers. Each pillar is broken down into one or more {term}`capabilities <capability>`. Each capability is broken down into one or more {term}`components <component>`.
+:{ref}`Roles <satre_roles>`: {term}`Roles <role>` that are necessary for the operation and use of a TRE.
 
 Together, these provide a framework that {ref}`TRE operator <infrastructure_roles>`s can measure themselves against.
-
-:{ref}`Roles <satre_roles>`: We also describe some {term}`roles <role>` that are necessary for the operation and use of a TRE.
-
-(satre_principles)=
 
 ## Architectural Principles
 
 The SATRE specification has been developed based on the following principles:
 
-- TREs should be as easy as possible for end-users to use (_e.g._ {ref}`data consumers <project_roles>`) whilst still remaining secure.
-- TREs should take accessibility for all users, including those with disabilities, into account.
-- TRE deployments should be offered that support data of different levels of sensitivity (_e.g._ through a tiered system of technical controls and policies).
-- TREs conforming to the specification should be interoperable and provide a familiar end-user experience.
-- The specification will be managed and updated following an open, community-driven process, and will not be tied to a single vendor or implementation.
-
-Finally, the {ref}`TRE operator <infrastructure_roles>`s will need to consider different {ref}`roles <satre_roles>` with which individuals might interact with the TRE.
-
-There might be good reasons why any particular TRE does not possess one or more of the capabilities listed in this specification, but most TREs should aspire to meet them in the long-term.
+- {ref}`Usability <principle_usability>`
+- {ref}`Maintaining public trust <principle_maintaining_trust>`
+- {ref}`Observability <principle_observability>`
+- {ref}`Standardisation <principle_standardisation>`
 
 (satre_pillars)=
 

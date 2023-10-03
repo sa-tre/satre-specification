@@ -5,6 +5,7 @@
 :caption: Overview
 
 specification.md
+principles.md
 roles.md
 faqs.md
 ```

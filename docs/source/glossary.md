@@ -46,6 +46,7 @@ Specification pillar
     SATRE has four specification pillars: Information governance, Computing technology, Data management and Supporting Capabilities.
 
 Trusted Research Environment (TRE)
+    A Trusted Research Environment.
     See our {ref}`FAQs page <what_tre>`.
 
 TRE organisation

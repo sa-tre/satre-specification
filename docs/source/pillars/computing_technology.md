@@ -73,7 +73,7 @@ This {term}`application component <application component>` is the tools used by 
 * - 2.1.5.
   - Your TRE must provide clear guidance on how to use software tools and work with data in the TRE.
   - TREs that provide a virtual desktop environment for {ref}`data consumers <project_roles>` to work in should provide documentation detailing the available tools.
-    TREs where the analysis code is developed on the access machine (as opppose to within the TRE) should provide documentation detailing the mechanism by which code is submitted to the TRE.
+    TREs where the analysis code is developed on the access machine (as oppose to within the TRE) should provide documentation detailing the mechanism by which code is submitted to the TRE.
   - Mandatory
 * - 2.1.6.
   - Your TRE should, where possible, automatically apply security related updates for user software.
@@ -167,8 +167,8 @@ This {term}`application component <application component>` involves the use of a
     In a cloud hosted TRE virtual machines could be destroyed and recreated.
   - Mandatory
 * - 2.1.15.
-  - Your TRE should be able to provide access to high performance computing or other scaleable compute resource if required by users.
-  - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scaleable compute or the equivalent.
+  - Your TRE should be able to provide access to high performance computing or other scalable compute resource if required by users.
+  - If a TRE supports users conducting computationally intensive research it should provide access to dynamically scalable compute or the equivalent.
     For example this may be in the form of a batch scheduler on a HPC cluster, or a dynamically created compute nodes on a cloud platform.
   - Recommended
 * - 2.1.16.
@@ -349,7 +349,8 @@ This {term}`business process <business process>` involves forecasting and determ
   - Importance
 * - 2.3.1.
   - You must ensure that all projects understand what resources are available and what the associated costs will be before the project starts.
-  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used. Projects should use this information to understand whether the available resources will be sufficient for their requirements.
+  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used
+    Projects should use this information to understand whether the available resources will be sufficient for their requirements.
   - Mandatory
 * - 2.3.2.
   - You should ensure that the anticipated needs of projects can be satisfied using available resources.

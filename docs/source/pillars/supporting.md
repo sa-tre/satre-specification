@@ -25,7 +25,8 @@ What the {ref}`TRE operator <infrastructure_roles>` does to ensure the developme
   - Importance
 * - 4.1.1.
   - You should have a business continuity plan that includes consideration of loss of service for deployed TREs.
-  - This may be due to downtime from service providers, a breach, or loss of power. Your plan should detail your process for managing loss of service for deployed TREs, and evaluation of impact of such loss.
+  - This may be due to downtime from service providers, a breach, or loss of power.
+    Your plan should detail your process for managing loss of service for deployed TREs, and evaluation of impact of such loss.
   - Recommended
 * - 4.1.2.
   - You should regularly test the aspects of your business continuity plan concerning TREs, and have a process in place to iterate the plan if required.

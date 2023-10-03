@@ -13,7 +13,7 @@ This pillar concerns actions taken by the {ref}`TRE operator <infrastructure_rol
 
 Each {ref}`TRE operator <infrastructure_roles>` will have its own information governance requirements.
 These will be informed by the context of the organisation, the work it performs and the nature of the data it processes.
-For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractural requirements from a specific {ref}`information asset owner <data_roles>` such as a company or research partner organisation.
+For example, some requirements will arise from national legislation such as GDPR, discipline specific regulation like GCP, or contractual requirements from a specific {ref}`information asset owner <data_roles>` such as a company or research partner organisation.
 
 ## Governance Requirements
 
