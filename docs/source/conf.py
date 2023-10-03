@@ -28,7 +28,8 @@ extensions = [
     "satrecsv",
 ]
 
-myst_enable_extensions = ["colon_fence", "deflist"]
+# https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
+myst_enable_extensions = ["colon_fence", "deflist", "fieldlist"]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
