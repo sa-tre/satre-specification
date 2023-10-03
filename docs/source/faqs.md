@@ -18,11 +18,11 @@
 
 ## What is a TRE?
 
-TRE stands for "Trusted Research Environment".
+TRE stands for _Trusted Research Environment_.
 The simplest definition tends to be _any_ kind of computing environment set up for research with sensitive data that has built-in security controls and user access management features.
 The definition of TRE relevant to SATRE encompasses the set of information governance and data management processes alongside the computing technology used to support research with sensitive data; the definition of sensitive data being broadly any data for which there may be considerations around disclosure control, for any reason.
 
-We recognise that in the UK several other names such a "Secure Data Environment" or "Data Safe Haven" have been used in the literature on computing with sensitive data, and that these systems may go by other names elsewhere.
+We recognise that in the UK several other names such a _Secure Data Environment_ or _Data Safe Haven_ have been used in the literature on computing with sensitive data, and that these systems may go by other names elsewhere.
 For more information about TREs, visit the [UK TRE Community website](https://www.uktre.org/en/latest/).
 
 (why_satre)=
@@ -81,7 +81,7 @@ See: {ref}`why_evaluate`
 
 We encourage TRE {ref}`Operators and Builders <infrastructure_roles>` to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`.
 TRE {ref}`Developers <infrastructure_roles>` can use the specification and published TRE evaluations as a starting point.
-Some of evaluated TREs such as the Alan Turing Institute's "[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)" and Dundee HIC's "[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)" are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
+Some of evaluated TREs such as the Alan Turing Institute's _[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)_ and the University of Dundee Health Informatics Centre's _[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)_ are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
 
 (set_in_stone)=
 
