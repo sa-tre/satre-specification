@@ -134,7 +134,7 @@ This applies to both technical systems and policies/processes.
 
 ##### Implications
 
-- In order to understand what is happening within the TRE, both automated and human initiated processes should generate sufficient data. Any generated data should follow standards for provenance and transparency for audit trails.
+- In order to understand what is happening within the TRE, both automated and human initiated processes should generate sufficient data, for instance through audit logs. Any generated data should follow standards for provenance and transparency for audit trails.
 - Different levels of observability may be needed for different users. Any data collected from an observability perspective should consider the needs of those who will use it, and minimise collection accordingly.
 - There may be ethical and confidential issues to consider when implemeting the observability principle.
 
