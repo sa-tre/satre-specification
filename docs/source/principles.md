@@ -100,7 +100,7 @@ Standardisation is also linked to the public trust principle, as a standard appr
 
 ### Implications
 
-- Owing to the broad definition of {ref}`TREs <what_tre>`, there are no specific TRE technical standards. The SATRE specification has therefore been designed to help {ref}`Developers and Operators <infrastructure_roles>` with a variety of technical/policy requirements consider their options
+- Owing to the broad definition of {term}`TREs <tre>`, there are no specific TRE technical standards. The SATRE specification has therefore been designed to help {ref}`Developers and Operators <infrastructure_roles>` with a variety of technical/policy requirements consider their options
 - TRE {ref}`Developers and Operators <infrastructure_roles>` should be prepared identify the technical standards that are appropriate for them to work towards meeting whilst developing or maintaining their particular TRE(s).
 - Standards that TREs adhere to may range in scope, including technical, operational and governance requirements.
 - TRE {ref}`Developers and Operators <infrastructure_roles>` should ensure that when they aim to meet multiple standards, those standards align with one another to ensure there is no contradiction in requirements.
