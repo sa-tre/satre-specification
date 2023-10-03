@@ -108,7 +108,7 @@ Standardisation is also linked to the public trust principle, as a standard appr
 
 ### Implications
 
-- Owing to the broad definition of {term}`TREs <trusted research environment (TRE)>`, there are no specific TRE technical standards.
+- Owing to the broad definition of {term}`TREs <trusted research environment (TRE)>`, there are currently no technical or information governance standards focused on TREs.
   The SATRE specification has therefore been designed to help {ref}`Developers and Operators <infrastructure_roles>` with a variety of technical/policy requirements consider their options
 - TRE {ref}`Developers and Operators <infrastructure_roles>` should be prepared identify the technical standards that are appropriate for them to work towards meeting whilst developing or maintaining their particular TRE(s).
 - Standards that TREs adhere to may range in scope, including technical, operational and governance requirements.
