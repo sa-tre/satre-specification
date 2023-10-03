@@ -742,33 +742,42 @@
     A signed approval form for the security tier of each project is also required.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.3.
+  - ?
+  - ?
+* - 3.1.4.
   - 2
   - We implement data handling restrictions on data coming into the environment.
     These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
     These stakeholders must sign a form detailing the requested ingress to confirm their agreement.
-* - 3.1.4.
+* - 3.1.5.
   - 2
   - We implement data handling restrictions on data coming out of the environment.
     These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
     These stakeholders must sign a form detailing the requested egress to confirm their agreement.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
-* - 3.1.5.
+* - 3.1.6.
+  - ?
+  - ?
+* - 3.1.7.
   - 2
   - Our data egress procedure requires signed agreement from representatives of all information asset owners, the project team and a referee external to the project.
-* - 3.1.6.
+* - 3.1.8.
   - 2
   - Input data is recorded in the aforementioned forms.
     The record includes a description of the data, its source (the information asset owner) and the data owner's contact details.
     This project initialisation document is specific to the particular TRE project that uses the data and will include the date of data ingress.
     At, or shortly after, the project end date, the data is securely and irreversibly deleted from the TRE.
-* - 3.1.7.
+* - 3.1.9.
   - 2
   - At the end of the project we require all relevant contact people to confirm that their environment can be torn down.
     Any data, code or other files that have not been brought out through the egress process will be irretrievably lost and any users associated only with this project will have their accounts disabled.
     #### Potential improvement
     - We should draft a clear policy on data deletion in the case that communication breaks down between the project team and TRE operators.
       In particular, this should focus on ensuring GDPR rules and data sharing agreements are not broken.
-* - 3.1.8.
+* - 3.1.10.
+  - ?
+  - ?
+* - 3.1.11.
   - 1
   - Some research environment data is backed up.
     This includes virtual disks and object storage accounts which contain users personal/configuration files and working data.
@@ -777,16 +786,19 @@
     Because input data is always a copy, we are not concerned about the loss of input data.
     #### Potential improvement
     - We could ensure that non-file working data, such as database contents are also backed up.
-* - 3.1.9.
+* - 3.1.12.
   - 2
   - The input data is immutable to users, it is kept in a folder that is read-only for TRE users.
     The only way input data can be modified is through the ingress process, which is logged.
-* - 3.1.10.
+* - 3.1.13.
   - 2
   - Ingress and egress are only possible by approved parties using a secure upload/download procedure.
     This involves using secure email to share a time-limited upload/download token for use with Azure Storage Explorer.
     Copying data into the TRE from the clipboard is not permitted.
     All users must complete relevant training before accessing a TRE, and sign our terms-of-use, which make them aware that they must not attempt to move data in or out of the environment without authorisation.
+* - 3.1.14.
+  - ?
+  - ?
 * - **Capability met?**
   - **YES**
   -
@@ -867,6 +879,15 @@
 * - 3.3.5.
   - 2
   - We do not allow egress of files that cannot be manually checked except in the case of release back to the original information asset owner.
+* - 3.3.6.
+  - ?
+  - ?
+* - 3.3.7.
+  - ?
+  - ?
+* - 3.3.8.
+  - ?
+  - ?
 * - **Capability met?**
   - **YES**
   -
@@ -1001,6 +1022,63 @@
   - We support a documented set of security control tiers that projects can choose from at the outset.
 * - **Capability met?**
   - **YES**
+  -
+```
+
+## Research Meta-Data
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-meta-data
+
+* -
+  - Score
+  - Response
+* - 3.7.1.
+  - ?
+  - ?
+* - 3.7.2.
+  - ?
+  - ?
+* - **Capability met?**
+  - ?
+  -
+```
+
+## Meta-Data Search and Discovery Application
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-meta-data-search
+
+* -
+  - Score
+  - Response
+* - 3.8.1.
+  - ?
+  - ?
+* - **Capability met?**
+  - ?
+  -
+```
+
+## Data Archiving
+
+```{list-table}
+:header-rows: 1
+:name: tab-turing-dsh-data-archiving
+
+* -
+  - Score
+  - Response
+* - 3.9.1.
+  - ?
+  - ?
+* - 3.9.2.
+  - ?
+  - ?
+* - **Capability met?**
+  - ?
   -
 ```
 
