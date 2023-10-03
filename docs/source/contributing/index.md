@@ -7,7 +7,8 @@ _We're excited that you want to contribute_ 🚀
 Some ways to immediately get involved are:
 
 - [**Join a Collaboration Cafe**](https://forms.office.com/e/HdaVSj2V0c):
-  These are online events where we discuss the specification and other TRE topics. They are a great way to meet other members of the community, find out more about the project, and are open to everyone.
+  These are online events where we discuss the specification and other TRE topics.
+  They are a great way to meet other members of the community, find out more about the project, and are open to everyone.
 - [**Sign-up for email updates**](https://forms.office.com/e/FuFyNGx3hw) from the SATRE project
 - [**Read the current SATRE specification**](https://satre-specification.readthedocs.io/en/stable/)
 - **Provide feedback and suggestions** on the specification:

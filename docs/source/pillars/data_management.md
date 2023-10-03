@@ -54,7 +54,9 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - Mandatory
 * - 3.1.6
   - Egress must be limited to the {ref}`information asset owners <data_roles>` or their delegates.
-  - Egress of data from a TRE must be a specific permission associated with individual users. This permission must be given by information asset owners. Egress may still require further approval (see 3.1.5).
+  - Egress of data from a TRE must be a specific permission associated with individual users
+    This permission must be given by information asset owners.
+    Egress may still require further approval (see 3.1.5).
   - Mandatory
 * - 3.1.7.
   - Your data egress process could sometimes require project-independent approval.
@@ -287,7 +289,8 @@ Security testing enables the {ref}`TRE operator <infrastructure_roles>` to gain 
   - Importance
 * - 3.5.4.
   - You should carry out penetration tests on your TRE.
-  - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously. Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents.
+  - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously.
+    Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents.
   - Recommended
 * - 3.5.5.
   - You should update the security controls of your TRE based on the results of security tests.

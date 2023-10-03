@@ -30,7 +30,8 @@ For more information about TREs, visit the [UK TRE Community website](https://ww
 ## Why do we need a Standard Architecture for TREs
 
 A variety of approaches have been taken to building computing infrastruture and designing processes and policies for research with sensitive data.
-In recognition of this, SATRE aims to find the commonalities and compile a resource for TRE {ref}`Operators, Builders and Developers <infrastructure_roles>` to refer to and benefit from. See {ref}`what_is_satre` for more information.
+In recognition of this, SATRE aims to find the commonalities and compile a resource for TRE {ref}`Operators, Builders and Developers <infrastructure_roles>` to refer to and benefit from.
+See {ref}`what_is_satre` for more information.
 
 (how_developed)=
 
@@ -78,7 +79,8 @@ See: {ref}`why_evaluate`
 
 ## How do I build and run a SATRE compliant TRE?
 
-We encourage TRE {ref}`Operators and Builders <infrastructure_roles>` to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`. TRE {ref}`Developers <infrastructure_roles>` can use the specification and published TRE evaluations as a starting point.
+We encourage TRE {ref}`Operators and Builders <infrastructure_roles>` to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`.
+TRE {ref}`Developers <infrastructure_roles>` can use the specification and published TRE evaluations as a starting point.
 Some of evaluated TREs such as the Alan Turing Institute's "[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)" and Dundee HIC's "[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)" are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
 
 (set_in_stone)=

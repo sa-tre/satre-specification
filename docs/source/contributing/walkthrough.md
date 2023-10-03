@@ -79,7 +79,8 @@ GitHub homepage
 
 1. Once you are logged in, navigate to the [SATRE Specification page](https://github.com/sa-tre/satre-specification)
 
-2. This is the SATRE specification **repository**. You can think of this like a directory containing all files to do with the SATRE specification.
+2. This is the SATRE specification **repository**.
+   You can think of this like a directory containing all files to do with the SATRE specification.
    The main things to know about are the link in the `About` Section, and the `Code`, `Issues` and `Pull requests` tabs.
    Let's look at these in turn.
 
@@ -215,7 +216,8 @@ View discussion on a SATRE specification pull request
 ##### Create your own Pull Request
 
 If you would like to directly author a change to the specification yourself, then you can create a Pull Request.
-Currently, you will need to make a Fork of the SATRE repository to make a Pull Request. Here's how it works:
+Currently, you will need to make a `Fork` of the SATRE repository to make a Pull Request.
+Here's how it works:
 
 1. **Create a Fork of the SATRE specification repository:**
 
@@ -341,7 +343,8 @@ If this becomes annoying, you can always come back to this page to turn them off
 
 When you are commenting on Issues/PRs, there are a couple of handy things to know:
 
-- You can mention others by tagging them with `@` followed by their GitHub username. For instance, to tag and notify Hari (GitHub username `harisood`), you can write `@harisood`
+- You can mention others by tagging them with `@` followed by their GitHub username.
+  For instance, to tag and notify Hari (GitHub username `harisood`), you can write `@harisood`
 - All Issues and PR have a number associated with them.
   For instance, the number associated with the below issue is `85`.
   In any of your comments, you can reference an issue or PR by typing `#` followed by the number of the issue/PR you want to reference.

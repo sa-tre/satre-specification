@@ -349,7 +349,8 @@ This {term}`business process <business process>` involves forecasting and determ
   - Importance
 * - 2.3.1.
   - You must ensure that all projects understand what resources are available and what the associated costs will be before the project starts.
-  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used. Projects should use this information to understand whether the available resources will be sufficient for their requirements.
+  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used
+    Projects should use this information to understand whether the available resources will be sufficient for their requirements.
   - Mandatory
 * - 2.3.2.
   - You should ensure that the anticipated needs of projects can be satisfied using available resources.
