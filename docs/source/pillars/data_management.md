@@ -85,14 +85,14 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - If the input data is mutable a TRE should keep records of its modification.
     For example, when the data was modified and by who.
   - Recommended
-* - 3.1.13.
+* - 3.1.12.
   - You must, to a reasonable extent, prevent unauthorised data ingress or egress.
   - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
     However, it is difficult to control for every possibility.
     For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
     An example of a reasonable measure would be for a remote desktop based TRE to prevent data being copied from a local machine's clipboard to a workspace.
   - Mandatory
-* - 3.1.14.
+* - 3.1.13.
   - Data held within the TRE should be the minimum required for analysis or research.
   - Data stored and processed within the TRE should be limited to the amount required for that purpose.
     This increases the level of protection for {ref}`data subjects <public_roles>`, makes it easier to comply with data protection legislation and could reduce the overhead of storage and processing.
@@ -241,17 +241,17 @@ Throughout the rest of this document, we will refer to each pre-defined security
   - Statement
   - Guidance
   - Importance
-* - 3.6.1.
+* - 3.5.1.
   - You must be able to specify what categories of data your TRE is able to support.
   - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
     Relevant stakeholders may include {ref}`information asset owners <data_roles>` and {ref}`project teams <project_roles>` and they may have different levels of technical expertise.
   - Mandatory
-* - 3.6.2.
+* - 3.5.2.
   - Your TRE could support projects with differing security requirements through configurable security controls.
   - This allows projects with different security requirements to each be met with a suitable level of controls.
     It helps ensure that users can work effectively, with minimal barriers.
   - Optional
-* - 3.6.3.
+* - 3.5.3.
   - Your TRE could offer a pre-defined set of security control tiers.
   - Security control tiers can be designed to cover the types of project or data you expect to handle.
     Projects may be placed into the most suitable tier rather than having a bespoke design.
@@ -271,12 +271,12 @@ Descriptive information about research data, helping researchers understand and 
   - Statement
   - Guidance
   - Importance
-* - 3.7.1.
+* - 3.6.1.
   - You should have a consistent and easily accessible meta-data data model or similar to describe what a data asset contains.
   - Where possible, existing data models should be employed (and extended if necessary).
     More detailed information on the data schema for data assets should also be provided to assist researchers in understanding what data may be available without the need to see the underlying data.
   - Recommended
-* - 3.7.2.
+* - 3.6.2.
   - You could provide summary, abstracted or synthetic data to researchers without exposing the underlying data set.
   - To reduce the need for access to row level data researchers could be provided with non-sensitive versions of the data either as summary data or using synthetic versions of the data for activities such as code development and cohort planning.
   - Optional
@@ -294,7 +294,7 @@ Software designed to help users locate and retrieve specific metadata or informa
   - Statement
   - Guidance
   - Importance
-* - 3.8.1.
+* - 3.7.1.
   - You could provide an interface application for {ref}`data consumers <project_roles>` and {ref}`data subjects <public_roles>` to query elements of the data.
   - In order to make data findable, an application which queries the meta-data or elements of the research data could be made more easily accessible than the data itself.
   - Optional
@@ -312,12 +312,12 @@ The practice of storing data that is no longer actively used but needs to be ret
   - Statement
   - Guidance
   - Importance
-* - 3.9.1.
+* - 3.8.1.
   - Archived data within the TRE should be read only.
   - Archived data by its very nature should not change and therefore be maintained as a read only store.
     If an update is required, it may be pulled from archive into a separate operational store.
   - Recommended
-* - 3.9.2.
+* - 3.8.2.
   - Long-term archives must be held in simple, standard formats to ensure accessibility.
   - Some data archives may be required by policy or legislation to be kept for very long periods within the scope of the TRE.
     Such data should be held in the simplest possible file format, conforming to international standards if available, to ensure they are platform and application agnostic.
