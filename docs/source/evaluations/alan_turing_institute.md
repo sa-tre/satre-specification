@@ -742,8 +742,9 @@
     A signed approval form for the security tier of each project is also required.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.3.
-  - ?
-  - ?
+  - 2
+  - Data providers must undergo a data classification process by following a flow chart to determine which of five sensitivity tiers data falls into.
+    The data will then only be used within a TRE of an equivalent security tier (or higher).
 * - 3.1.4.
   - 2
   - We implement data handling restrictions on data coming into the environment.
@@ -756,8 +757,9 @@
     These stakeholders must sign a form detailing the requested egress to confirm their agreement.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.6.
-  - ?
-  - ?
+  - 2
+  - Egress can only be performed by individuals with a secure access token, provided by secure email.
+    Administrators will only provide access to named egress contact(s) that are signed off on by the data provider, amongst other stakeholders.
 * - 3.1.7.
   - 2
   - Our data egress procedure requires signed agreement from representatives of all information asset owners, the project team and a referee external to the project.
@@ -775,8 +777,10 @@
     - We should draft a clear policy on data deletion in the case that communication breaks down between the project team and TRE operators.
       In particular, this should focus on ensuring GDPR rules and data sharing agreements are not broken.
 * - 3.1.10.
-  - ?
-  - ?
+  - 2
+  - The platform is based on Microsoft Azure cloud service and data is held within an Azure Storage Account.
+    We have process forms in place for data deletion during the TRE project duration, and end-project termination whereby all data and TRE cloud infrastructure is deleted.
+    An administrator could provide proof that the data has been deleted by showing the Azure Storage Account no longer exists, or that it is empty.
 * - 3.1.11.
   - 1
   - Some research environment data is backed up.
@@ -797,8 +801,9 @@
     Copying data into the TRE from the clipboard is not permitted.
     All users must complete relevant training before accessing a TRE, and sign our terms-of-use, which make them aware that they must not attempt to move data in or out of the environment without authorisation.
 * - 3.1.14.
-  - ?
-  - ?
+  - 2
+  - Before data is added to the TRE, the research PI and other stakeholders must complete an ingress request form detailing the data to be included.
+    The decision on what data is required for the project is with the data provider and project PI.
 * - **Capability met?**
   - **YES**
   -
@@ -880,14 +885,18 @@
   - 2
   - We do not allow egress of files that cannot be manually checked except in the case of release back to the original information asset owner.
 * - 3.3.6.
-  - ?
-  - ?
+  - 1
+  - There is a process in place to decide on the security tier of outputs before egress.
+    This involves following a flowchart.
+    There are no specific statistical rules.
 * - 3.3.7.
-  - ?
-  - ?
+  - 0
+  - All output checking is manual.
 * - 3.3.8.
-  - ?
-  - ?
+  - 1
+  - There is a process in place for tracking everything destined for egress, which requires sign off from relevant stakeholders.
+    It should be possible for output checkers (project team) to make a call on what is the minimum requirement for results sharing.
+    The process itself does not prevent the project team exporting more data, provided it has been signed off by stakeholders (including the data provider).
 * - **Capability met?**
   - **YES**
   -
@@ -1035,13 +1044,16 @@
   - Score
   - Response
 * - 3.7.1.
-  - ?
-  - ?
+  - 0
+  - We do not hold a catalogue of data in this format for this purpose.
+    The data is provided to us by the data provider for a specific purpose.
+    Researchers do not apply to us to access specific datasets and thus do not need to have access to a description of the data.
 * - 3.7.2.
-  - ?
-  - ?
+  - 0
+  - This is something we would expect the data provider to do, rather than implement ourselves.
+    For example, they could use a high-security tier 3 TRE to summarise or produce a synthetic version of a sensitive dataset for use in a lower security, tier 2 TRE.
 * - **Capability met?**
-  - ?
+  - **YES (no mandatory statements)**
   -
 ```
 
@@ -1055,10 +1067,11 @@
   - Score
   - Response
 * - 3.8.1.
-  - ?
-  - ?
+  - 0
+  - We do not provide such an application.
+    We do not maintain meta-data for sets of available datasets, since we do not maintain a corpus of datasets for people to apply for access to.
 * - **Capability met?**
-  - ?
+  - **YES (no mandatory statements)**
   -
 ```
 
@@ -1072,13 +1085,14 @@
   - Score
   - Response
 * - 3.9.1.
-  - ?
-  - ?
+  - 1
+  - We don’t have a particular method for data archiving in the TRE, though administrators do have the ability to move data to a read-only location if needed.
 * - 3.9.2.
-  - ?
-  - ?
+  - 0
+  - We don’t have a particular method for archiving data in the TRE, though it is possible to keep data in the Azure Storage Accounts whilst restricting access to users.
+    We don’t handle formatting or maintaining of datasets, which is up to project teams using the TRE.
 * - **Capability met?**
-  - ?
+  - **YES (no mandatory statements)**
   -
 ```
 
