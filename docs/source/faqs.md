@@ -81,7 +81,8 @@ Absolutely not. We know that TREs vary greatly in their design architecture, pur
 
 ## My TRE is designed for data that doesn't require this level of protection. Should I still follow SATRE?
 
-Yes. At the moment, the SATRE specification contains a set of capabilities marked as "Mandatory" which we believe are essential for a system to be defined as a TRE, as well as many "Recommended" and "Optional" capabilities.
+Yes.
+At the moment, the SATRE specification contains a set of capabilities marked as "Mandatory" which we believe are essential for a system to be defined as a TRE, as well as many "Recommended" and "Optional" capabilities.
 Some of the non-mandatory capabilities will likely not be needed for TREs containing data that does not require all the possible protections, and there may well be tradeoffs to be made in terms of accessibility vs security that depend on the data the TRE holds.
 A future specification may include the idea of different archetypes of TREs, or data sensitivity tiers, with different requirements for each.
 
