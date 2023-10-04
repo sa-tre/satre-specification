@@ -743,30 +743,30 @@
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.3.
   - 2
-  - Data providers must undergo a data classification process by following a flow chart to determine which of five sensitivity tiers data falls into.
+  - {ref}`Information asset owners <data_roles>` must undergo a data classification process by following a flow chart to determine which of five sensitivity tiers data falls into.
     The data will then only be used within a TRE of an equivalent security tier (or higher).
 * - 3.1.4.
   - 2
   - We implement data handling restrictions on data coming into the environment.
-    These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
+    These involve getting agreement from the {ref}`information asset owner <data_roles>`, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved into the TRE.
     These stakeholders must sign a form detailing the requested ingress to confirm their agreement.
 * - 3.1.5.
   - 2
   - We implement data handling restrictions on data coming out of the environment.
-    These involve getting agreement from the information asset owner, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
+    These involve getting agreement from the {ref}`information asset owner <data_roles>`, {ref}`project manager <project_roles>` of the project and an independent representative from the Institute before any data or outputs are moved out of the TRE.
     These stakeholders must sign a form detailing the requested egress to confirm their agreement.
     These signed forms are kept in a private sharepoint folder, maintained by the TRE operators.
 * - 3.1.6.
   - 2
   - Egress can only be performed by individuals with a secure access token, provided by secure email.
-    Administrators will only provide access to named egress contact(s) that are signed off on by the data provider, amongst other stakeholders.
+    Administrators will only provide access to named egress contact(s) that are signed off on by the {ref}`information asset owner <data_roles>`, amongst other stakeholders.
 * - 3.1.7.
   - 2
-  - Our data egress procedure requires signed agreement from representatives of all information asset owners, the project team and a referee external to the project.
+  - Our data egress procedure requires signed agreement from representatives of all {ref}`information asset owners <data_roles>`, the project team and a referee external to the project.
 * - 3.1.8.
   - 2
   - Input data is recorded in the aforementioned forms.
-    The record includes a description of the data, its source (the information asset owner) and the data owner's contact details.
+    The record includes a description of the data, its source (the {ref}`information asset owner <data_roles>`) and the data owner's contact details.
     This project initialisation document is specific to the particular TRE project that uses the data and will include the date of data ingress.
     At, or shortly after, the project end date, the data is securely and irreversibly deleted from the TRE.
 * - 3.1.9.
@@ -803,7 +803,7 @@
 * - 3.1.14.
   - 2
   - Before data is added to the TRE, the research PI and other stakeholders must complete an ingress request form detailing the data to be included.
-    The decision on what data is required for the project is with the data provider and project PI.
+    The decision on what data is required for the project is with the {ref}`information asset owner <data_roles>` and project PI.
 * - **Capability met?**
   - **YES**
   -
@@ -860,7 +860,7 @@
   - Response
 * - 3.3.1.
   - 1
-  - All outputs from a TRE go through our security classification process, carried out by the project investigator, information asset owner representative and an independent referee at the Turing.
+  - All outputs from a TRE go through our security classification process, carried out by the project investigator, {ref}`information asset owner <data_roles>` representative and an independent referee at the Turing.
     Different egress processes are required according to the sensitivity of the outputs.
     #### Potential improvements
     - We would like to create better guidance and documentation for classification, or possibly build tools to classify/create classification reports.
@@ -880,10 +880,10 @@
     - We should improve documentation of this process
 * - 3.3.4.
   - 2
-  - The {ref}`project manager <project_roles>`, information asset owner representative and referee are jointly responsible for output checking.
+  - The {ref}`project manager <project_roles>`, {ref}`information asset owner <data_roles>` representative and referee are jointly responsible for output checking.
 * - 3.3.5.
   - 2
-  - We do not allow egress of files that cannot be manually checked except in the case of release back to the original information asset owner.
+  - We do not allow egress of files that cannot be manually checked except in the case of release back to the original {ref}`information asset owner <data_roles>`.
 * - 3.3.6.
   - 1
   - There is a process in place to decide on the security tier of outputs before egress.
@@ -896,7 +896,7 @@
   - 1
   - There is a process in place for tracking everything destined for egress, which requires sign off from relevant stakeholders.
     It should be possible for output checkers (project team) to make a call on what is the minimum requirement for results sharing.
-    The process itself does not prevent the project team exporting more data, provided it has been signed off by stakeholders (including the data provider).
+    The process itself does not prevent the project team exporting more data, provided it has been signed off by stakeholders (including the {ref}`information asset owner <data_roles>`).
 * - **Capability met?**
   - **YES**
   -
@@ -1046,11 +1046,11 @@
 * - 3.7.1.
   - 0
   - We do not hold a catalogue of data in this format for this purpose.
-    The data is provided to us by the data provider for a specific purpose.
+    The data is provided to us by the {ref}`information asset owner <data_roles>` for a specific purpose.
     Researchers do not apply to us to access specific datasets and thus do not need to have access to a description of the data.
 * - 3.7.2.
   - 0
-  - This is something we would expect the data provider to do, rather than implement ourselves.
+  - This is something we would expect the {ref}`information asset owner <data_roles>` to do, rather than implement ourselves.
     For example, they could use a high-security tier 3 TRE to summarise or produce a synthetic version of a sensitive dataset for use in a lower security, tier 2 TRE.
 * - **Capability met?**
   - **YES (no mandatory statements)**
