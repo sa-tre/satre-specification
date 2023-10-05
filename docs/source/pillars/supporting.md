@@ -194,9 +194,12 @@ How the {ref}`TRE operator <infrastructure_roles>` involves the public in its pr
     This could include following guidelines such as [PEDRI](https://www.pedri.org.uk/).
   - Recommended
 * - 4.8.2.
-  - You could publicly share the details of any projects which use the TRE.
-  - This may be via the TRE website or annual reports.
-  - Optional
+  - Details of TRE operations, data available and projects which have accessed the data should be publicly available.
+  - TREs should be as transparent as possible by providing information online.
+    Where information is made available online this should be written in clear language understandable to general public.
+    A record of projects which have accessed data via the TRE should be kept and made available.
+    Where possible it should include name, summaries, public benefit (if relevant) and organisations involved
+  - Mandatory (for TREs with public sector data), otherwise Optional
 * - 4.8.3.
   - Members of the public should be included in TRE operations and/or oversight.
   - Members of the public can be involved via presence on steering groups or project approvals panels.
