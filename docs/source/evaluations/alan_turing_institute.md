@@ -28,6 +28,9 @@
     ##### Potential Improvements
     - Improve our document handling workflow by developing an Information Governance App through which all projects can be managed directly by approved users.
 * - 1.1.3.
+  -
+  -
+* - 1.1.4.
   - 1
   - - The Institute has Legal and Data Protection Teams who ensure that projects meet our institutional requirements.
     - Our sysadmin team is currently appropriately sized for the number of projects we are handling.
