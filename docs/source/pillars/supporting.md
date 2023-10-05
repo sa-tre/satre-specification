@@ -201,6 +201,10 @@ How the {ref}`TRE operator <infrastructure_roles>` involves the public in its pr
   - You could include members of the public in your approvals process.
   - This may be carried out via a separate public panel or by including members of the public on an approvals panel.
   - Optional
+* - 4.8.4.
+  - You could publicly share details of incidents, near misses, and what has been done to mitigate them.
+  - This may be via the TRE website or annual reports.
+  - Recommended (for TREs with public sector data), otherwise Optional
 ```
 
 ## Legal services
