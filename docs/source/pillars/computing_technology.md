@@ -335,6 +335,8 @@ This {term}`application component <application component>` is an application whi
 
 ## Capacity management
 
+The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure the right amount of resources are available at the right time to provide a cost-effective service.
+
 ### Capacity Planning Process
 
 This {term}`business process <business process>` involves forecasting and determining the resources required to meet the demands of an application or system, ensuring that adequate resources are available when needed.
