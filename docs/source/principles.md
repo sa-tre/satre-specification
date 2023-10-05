@@ -57,12 +57,13 @@ Being transparent about the data held and the projects or organisations who acce
 ### Implications
 
 - Being as transparent as possible is key to building trust.
-  TREs holding public data should practice transparency, for instance making adherence to any accreditation body, or framework (for instance the Five Safes) publicly available information, and making information on the projects or organisations which access their data available to impacted parties.
-- A strong public engagement programme takes time and resource.
-  TREs holding public data should consider allocating specific staffing to public engagement activities.
+  TREs holding public data should practice transparency, for instance making adherence to any accreditation body, or framework (for instance the Five Safes) publicly available information, and making information on the projects or organisations which access their data available.
+  This should be written in an accessible way.
+- In addition to transparency, actively involving members of the public in oversight of TREs and their processes is important for accountability.
+  Public involvement and engagement takes time and resource. TREs holding public data should consider allocating specific staffing and budget to public engagement activities.
 - TREs open to consultation by impacted parties should be auditable, and impacted parties should be part of any decision making processes.
   This may include the provision of documentation and educational resources for a diverse audience.
-- Access to public sector data should be reviewed by an independent panel and follow agreed-upon governance to ensure projects using this data are in the public benefit, and provide clarity around any commercial access.
+- Access to public sector data should be reviewed by an independent panel, which includes members of the public where possible, and follow agreed-upon governance to ensure projects using this data are in the public benefit, and provide clarity around any commercial access.
 
 (principle_observability)=
 
