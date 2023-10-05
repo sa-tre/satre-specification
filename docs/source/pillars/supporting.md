@@ -189,10 +189,11 @@ How the {ref}`TRE operator <infrastructure_roles>` involves the public in its pr
   - Guidance
   - Importance
 * - 4.8.1.
-  - You should ensure that all public engagement activities are representative and inclusive.
-  - Any public engagement activity carried out by TREs should make sure they are involving a representative sample where possible and that activities are accessible and open.
+  - All public engagement activities must be representative and inclusive.
+  - Any public engagement activity carried out by TREs should involve diverse participants and that activities are accessible.
+    Recruitment plans should consider how to proactively reach a representative sample of people or target particular groups of people where relevant
     This could include following guidelines such as [PEDRI](https://www.pedri.org.uk/).
-  - Recommended
+  - Mandatory (for TREs with public sector data), otherwise Optional
 * - 4.8.2.
   - Details of TRE operations, data available and projects which have accessed the data should be publicly available.
   - TREs should be as transparent as possible by providing information online.
