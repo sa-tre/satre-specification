@@ -731,7 +731,7 @@
   - Score
   - Response
 
-* - 3.1.11.
+* - 2.5.1.
   - 1
   - Some research environment data is backed up.
     This includes virtual disks and object storage accounts which contain users personal/configuration files and working data.
@@ -740,41 +740,56 @@
     Because input data is always a copy, we are not concerned about the loss of input data.
     #### Potential improvement
     - We could ensure that non-file working data, such as database contents are also backed up.
-* - 3.5.1.
+* - 2.5.2.
+  - ?
+  - ?
+* - 2.5.3.
+  - ?
+  - ?
+* - 2.5.4
+  - 2
+  - Our terms-of-use require users to report any potential data incident.
+    We have a process in place for managing data incidents, whether raised by users or discovered independently, that ensures we meet our legal requirements and also implement any necessary changes, such as disabling access to a TRE if necessary.
+* - 2.5.5.
+  - ?
+  - ?
+* - 2.5.6.
+  - ?
+  - ?
+* - 2.5.7.
   - 1
   - - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
     - All Windows and Ubuntu virtual machines have system package updates automatically applied on a weekly schedule.
     - Other parts of the TRE infrastructure, for example Docker images used by the remote desktop and package proxy servers, are not automatically updated.
     ##### Potential Improvements
     - We should add a process for recognising when container images are out of date and for updating them.
-* - 3.5.2.
+* - 2.5.8.
+  - ?
+  - ?
+* - ?.?.? (used to be 3.5.2.)
   - 1
   - Daily anti-virus definition updates and scans are carried out by ClamAV on all Linux VMs.
     ##### Potential Improvements
     - Extend anti-virus coverage to user-inacessible Windows machines, and also scan data (block and object storage) if possible.
-* - 3.5.3.
+* - ?.?.? (used to be 3.5.3.)
   - 1
   - We comply with the NHS DSPT standard which allows us to process anonymised, patient-derived data.
     #### Potential improvements
     - We would like to gain accreditation for more wide-ranging standards, for instance CyberEssentials+, ISO27001 and DEA, which cover holistic safe data and research management.
-* - 3.5.4.
+* - 2.5.9.
   - 1
   - A thorough external penetration test is carried out upon each major release of the Data Safe Haven codebase used by our TRE.
     The results are used to identify and make security improvements to infrastructure, processes and documentation.
     #### Potential improvements
     - We could additionally test our production deployments.
-* - 3.5.5.
+* - 2.5.10.
   - 2
   - The Data Safe Haven codebase used by our TRE has a system for creating internal security advisories and vulnerability reports.
     After a penetration test these are updated and new advisories are added.
     Each one is ranked for severity and it is decided whether they can be fixed technically or addressed with workarounds or mitigations.
     #### Potential improvements
     - Ensure that changes are made to production systems rather than simply incorporated into the next code release.
-* - 3.5.6.
-  - 2
-  - Our terms-of-use require users to report any potential data incident.
-    We have a process in place for managing data incidents, whether raised by users or discovered independently, that ensures we meet our legal requirements and also implement any necessary changes, such as disabling access to a TRE if necessary.
-* - 3.5.7.
+* - 2.5.11.
   - 1
   - The Data Safe Haven codebase used by our TRE makes public the overall results of our regular penetration tests, although the detailed report remains confidential.
     We have a publicly available document that describes the security checks our code goes through before release.
@@ -782,37 +797,37 @@
     #### Potential improvements
     - We could try to find a way to securely run penetration tests on our production environments rather than setting up dedicated testing environments.
     - We should run regular security tests rather than only doing so at deployment time.
-* - 3.5.8.
+* - 2.5.12.
   - 2
   - We rely on Azure platform level encryption.
     This is done via platform managed keys rather than customer managed keys.
     #### Potential improvements
     - We could take over management of our own encryption keys but we would then need an independent solution for securing these.
-* - 3.5.9.
+* - 2.5.13.
   - 2
   - We use Azure Storage Explorer to securely copy data from a local or cloud datasource to our TRE, and from our TRE to known external locations.
     Connections made through Azure Storage Explorer are encrypted.
     User connections to access the TRE are made over https.
-* - 3.5.10.
+* - 2.5.14.
   - 0
   - Once a user has access to a TRE, they are able to work with any input data in a collaborative space.
     Any transfer of data within the TRE would be a movement from one folder to another on the same virtual machine.
     This would be restricted to the approved users who already have access, and so encryption is not needed.
-* - 3.5.11.
+* - 2.5.15.
   - 2
   - We rely on Azure's encryption implementation and trust that this is kept up to date.
     Details are available [here](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest).
-* - 3.5.12.
+* - 2.5.16.
   - 2
   - We rely on Azure's secure key management practices and trust that these are kept up to date.
     Details are available [here](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest#azure-key-vault).
-* - 3.5.13.
+* - 2.5.17.
   - 1
   - We do not apply physical protection methods.
     Our infrastructure is virtual and we allow users to connect on their own devices from an allowed IP address.
     Our terms-of-use require that users take reasonable precautions against physical attack.
     For example, connecting from a location that is as secure as practical such as via a VPN from a home office rather than insecure wifi in a public area.
-* - 3.5.14.
+* - 2.5.18.
   - 2
   - We are not hosting data that has specific regulatory requirements.
 * - **Capability met?**
