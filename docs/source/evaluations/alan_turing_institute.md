@@ -755,8 +755,8 @@
   - 0
   - Although we have have a process for incidents, we don't have a incident response simulation process.
 * - 2.5.6.
-  - ?
-  - ?
+  - 0
+  - Azure handles update automation, but not vulnerability scanning specifically.
 * - 2.5.7.
   - 1
   - - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
