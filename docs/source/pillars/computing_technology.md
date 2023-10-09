@@ -1,6 +1,6 @@
 (pillar_computing_technology)=
 
-# Computing technology
+# Computing technology and Information Security
 
 ```{figure} ../../images/Capability_Map/full.drawio.svg
 :alt: SATRE Pillars Capability Map
@@ -419,5 +419,238 @@ This {term}`business process <business process>` involves the {ref}`TRE operator
 * - 2.4.5.
   - You must be able to replace a non-compliant TRE with a compliant system.
   - This might involve reconfiguring a running system or by replacing it with a compliant one.
+  - Mandatory
+```
+
+## Information security
+
+What the {ref}`organisation <infrastructure_roles>` does to safeguard research to ensure the confidentiality, integrity and availability of research resources and data.
+
+Measures taken to ensure information security can be further categorised into:
+
+- {ref}`vulnerability management <vulnerability-management>`: applying security updates or fixes for identified vulnerabilities
+- {ref}`security testing <security-testing>`: proactive penetration testing of a deployed system
+- {ref}`encryption <encryption>`: ensuring that data is protected even if the TRE is compromised
+- {ref}`physical security <physical-security>`: restricting TRE access to known secure locations
+
+A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorised use of information, especially electronic data.
+These measures include vulnerability management of TRE infrastructure (whether physical or virtual/cloud-based), carrying out compliance checks and security tests of the TRE, common approaches to data encryption, and (where appropriate) physical security measures to prevent unauthorised access to the TRE.
+
+(vulnerability-management)=
+
+### Vulnerability Management
+
+The ability of the {ref}`TRE operator <infrastructure_roles>` to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
+
+### Vulnerability Management: Resilience Processes
+
+A set of processes which ensures the TRE infrastructure can withstand disruption from incidents that risk confidentiality, integrity or availability of data.
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-vulnerability-resilience
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.1.
+  - You should keep backups of data and research environments, provided that this is permitted by law.
+  - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
+    {ref}`TRE developers <infrastructure_roles>` may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
+  - Recommended
+* - 2.5.2.
+  - You should build redundancy into infrastructure and storage.
+  - Infrastructure should be as resilient as necessary to interruption.
+    This could include redundant infrastructure in different physical locations, load balancing and replication of data between multiple storage locations.
+  - Recommended
+* - 2.5.3.
+  - You should keep backups of infrastructure, applications and configurations.
+  - This may include virtualised infrastructure snapshots which can restored as needed to recover from failure.
+  - Recommended
+```
+
+### Vulnerability Management: Response Process
+
+A process which ensures the organisation can quickly deal with incidents that risk confidentiality, integrity or availability of data.
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-vulnerability-response
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.4.
+  - You must have procedures in place for rapid incident response.
+  - There may be legal requirements to disclose details of any incidents, such as data breaches for organisations subject to GDPR.
+    Having robust processes in place will ensure a swift and effective response when an incident occurs.
+  - Mandatory
+* - 2.5.5.
+  - You should test your incident response through simulation.
+  - During simulated incidents the TRE organisation can measure their effectiveness.
+    This may involve people across the broader enterprise and/or external suppliers.
+  -	Recommended
+
+```
+
+### Vulnerability Scanning
+
+The automated process of scanning computer systems or networks to identify and assess potential security vulnerabilities.
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-vulnerability-scanning
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.6.
+  - You should have an application in place to scan for vulnerabilities across infrastructure.
+  - Software used to identify vulnerabilities should also report and alert.
+    Such an alert should be triaged, risk assessed and treated accordingly.
+  -	Recommended
+
+```
+
+### Security Patching
+
+The process of applying updates or patches to software and systems to address known security vulnerabilities and flaws.
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-vulnerability-patching
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.7.
+  - You must have a process in place for applying security updates to all software that forms part of the TRE infrastructure.
+  - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
+  - Mandatory
+* - 2.5.8.
+  - Infrastructure and should be automatically patched for vulnerabilities.
+  -	Planning will be required across infrastructure and software systems to ensure security patches remain available from suppliers.
+    Many systems may be isolated from the internet making TRE infrastructure more difficult to automatically patch.
+  - Recommended
+```
+
+(security-testing)=
+
+### Security testing
+
+Security testing enables the {ref}`TRE operator <infrastructure_roles>` to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-security-testing
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.9.
+  - You should carry out penetration tests on your TRE.
+  - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously.
+    Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents.
+  - Recommended
+* - 2.5.10.
+  - You should update the security controls of your TRE based on the results of security tests.
+  - Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE.
+    Regular testing will allow organisations to refine their TRE security controls and incident response capabilities.
+    It enables them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
+  - Recommended
+* - 2.5.11.
+  - You should publish details of your security testing strategy and, where possible, the results of each test.
+  - Knowledge that regular security testing occurs will help to ensure stakeholders, including {ref}`data consumers <project_roles>` and {ref}`information asset owners <data_roles>`, can trust that the data they work with or are responsible for is secure within a TRE.
+    If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
+  - Recommended
+```
+
+(encryption)=
+
+### Encryption
+
+The ability of the {ref}`TRE operator <infrastructure_roles>` to deploy and manage encryption to protect information assets, including data for TRE research projects.
+
+Here we define 'project' data as the data brought in for work which is very likely to be sensitive and 'user' data, as the working files of a project which might hold copies of all or part of the project data or otherwise reveal sensitive data (_e.g._ through hard coded row/column names).
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-encryption
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.12.
+  - Your TRE must encrypt project and user data at rest.
+  - This prevents unauthorised access to the data even if the storage media is compromised.
+    This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
+    The encryption keys may be managed by the {ref}`TRE operator <infrastructure_roles>` or by a trusted external actor, for example a cloud provider.
+  - Mandatory
+* - 2.5.13.
+  - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
+  - Data encryption must be used to safeguard against interception or tampering during transmission.
+    This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session.
+  - Mandatory
+* - 2.5.14.
+  - Your TRE should encrypt data when in transit inside the TRE.
+  - If possible, data transfers between different components of a TRE should also be encrypted.
+  - Recommended
+* - 2.5.15.
+  - You should use encryption algorithms and software that are widely accepted as secure.
+  - Encryption algorithms widely accepted as secure today may become insecure in the future, for instance due to newly-identified flaws, or advances in compute capabilities.
+    The latest security patches and updates should be applied to any encryption software being used by the TRE.
+    This helps address any known vulnerabilities or weaknesses in the encryption implementation.
+  - Recommended
+```
+
+### Key Management Application
+
+Software or tools dedicated to generating, storing, and managing encryption keys securely, ensuring their availability and protection.
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-keymanagement
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.16.
+  - Your TRE should use secure key management.
+  - TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (_e.g._ Single Sign On) for key management systems.
+  - Recommended
+```
+
+(physical-security)=
+
+### Physical security
+
+The ability of the {ref}`TRE operator <infrastructure_roles>` to manage and protect physical assets from unauthorised access, damage or destruction.
+
+Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
+
+```{list-table}
+:header-rows: 1
+:name: tab-computing-physical-security
+
+* -
+  - Statement
+  - Guidance
+  - Importance
+* - 2.5.17.
+  - Your TRE could offer physical protection measures against data leakage or theft via physical means.
+  - Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
+    Physical controls on access to a TRE could include surveillance systems, restricting physical access to authorised personnel only, visitor management systems and employee training.
+  - Optional
+* - 2.5.18.
+  - Your TRE may need to comply with specific regulatory requirements due to the types of data it is hosting.
+  - Regulatory frameworks often emphasise the need for security controls to protect sensitive data.
+    Compliance with these regulations could require organisations to implement specific security measures to safeguard their TRE from unauthorised access.
   - Mandatory
 ```

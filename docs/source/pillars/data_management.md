@@ -81,23 +81,18 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
     You should have a method of providing proof of deletion if challenged.
   - Recommended
 * - 3.1.11.
-  - You could keep backups of data and research environments, provided that this is permitted by law.
-  - Keeping backups could help reduce the impact of events like accidental deletion and data corruption on work in a TRE.
-    {ref}`TRE developers <infrastructure_roles>` may want to consider how different elements such as sensitive input data or users' workspaces may be backed up, and whether they should be.
-  - Optional
-* - 3.1.12.
   - You should log how input data is modified.
   - If the input data is mutable a TRE should keep records of its modification.
     For example, when the data was modified and by who.
   - Recommended
-* - 3.1.13.
+* - 3.1.12.
   - You must, to a reasonable extent, prevent unauthorised data ingress or egress.
   - Movement of data which has not been subject to information governance processes risks breaking rules and is more likely to result in a data breach.
     However, it is difficult to control for every possibility.
     For example, a user may take pictures of their computer screen to remove data, or use a device presenting as a USB HID keyboard to input large amounts of text.
     An example of a reasonable measure would be for a remote desktop based TRE to prevent data being copied from a local machine's clipboard to a workspace.
   - Mandatory
-* - 3.1.14.
+* - 3.1.13.
   - Data held within the TRE should be the minimum required for analysis or research.
   - Data stored and processed within the TRE should be limited to the amount required for that purpose.
     This increases the level of protection for {ref}`data subjects <public_roles>`, makes it easier to comply with data protection legislation and could reduce the overhead of storage and processing.
@@ -228,159 +223,6 @@ The ability to query and browse the data within an environment at various levels
   - Recommended
 ```
 
-(standard_capability_information_security)=
-
-## Information security
-
-The ability of the {ref}`TRE operator <infrastructure_roles>` to protect against the unauthorised use of information, especially electronic data.
-
-Measures taken to ensure information security can be further categorised into:
-
-- {ref}`vulnerability management <vulnerability-management>`: applying security updates or fixes for identified vulnerabilities
-- {ref}`security testing <security-testing>`: proactive penetration testing of a deployed system
-- {ref}`encryption <encryption>`: ensuring that data is protected even if the TRE is compromised
-- {ref}`physical security <physical-security>`: restricting TRE access to known secure locations
-
-A TRE conforming to the SATRE standard should enact broadly similar measures to protect against the unauthorised use of information, especially electronic data.
-These measures include vulnerability management of TRE infrastructure (whether physical or virtual/cloud-based), carrying out compliance checks and security tests of the TRE, common approaches to data encryption, and (where appropriate) physical security measures to prevent unauthorised access to the TRE.
-
-(vulnerability-management)=
-
-### Vulnerability Management
-
-The ability of the {ref}`TRE operator <infrastructure_roles>` to identify, assess, report on, manage and remediate technical vulnerabilities across endpoints, workloads, and systems.
-
-```{list-table}
-:header-rows: 1
-:name: tab-vulnerability-management
-
-* -
-  - Statement
-  - Guidance
-  - Importance
-
-* - 3.5.1.
-  - You must have a process in place for applying security updates to all software that forms part of the TRE infrastructure.
-  - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
-  - Mandatory
-* - 3.5.2.
-  - You must run regular anti-virus/malware scans on all TRE systems where infection could be a problem.
-  - Virus and malware scans will help identify malicious code which may compromise the security, or correct operation, of the TRE.
-  - Mandatory
-* - 3.5.3.
-  - Your TRE should adhere to one or more external security standards.
-  - These should be stated to all stakeholders in advance of any data being brought in to the TRE.
-  - Recommended
-```
-
-(security-testing)=
-
-### Security testing
-
-Security testing enables the {ref}`TRE operator <infrastructure_roles>` to gain assurance in the security of a TRE by testing or attempting to breach some or all of that system's security.
-
-```{list-table}
-:header-rows: 1
-:name: tab-security-testing
-
-* -
-  - Statement
-  - Guidance
-  - Importance
-* - 3.5.4.
-  - You should carry out penetration tests on your TRE.
-  - By intentionally attempting to breach their TRE, organisations can proactively discover unnoticed vulnerabilities before they are exploited maliciously.
-    Tests can evaluate the effectiveness of security controls in preventing data breaches, unauthorised access, or other security incidents.
-  - Recommended
-* - 3.5.5.
-  - You should update the security controls of your TRE based on the results of security tests.
-  - Security testing can reveal bugs and discrepancies in the TRE architecture which should be addressed in advance of sensitive data being uploaded, or with urgency in the case of an operational TRE.
-    Regular testing will allow organisations to refine their TRE security controls and incident response capabilities.
-    It enables them to adapt to any new security concerns that may arise as a result of changes in the underlying software.
-  - Recommended
-* - 3.5.6.
-  - You must have procedures in place for rapid incident response.
-  - There may be legal requirements to disclose details of any incidents, such as  data breaches for organisations subject to GDPR.
-    Having robust processes in place will ensure a swift and effective response when an incident occurs.
-  - Mandatory
-* - 3.5.7.
-  - You should publish details of your security testing strategy and, where possible, the results of each test.
-  - Knowledge that regular security testing occurs will help to ensure stakeholders, including {ref}`data consumers <project_roles>` and {ref}`information asset owners <data_roles>`, can trust that the data they work with or are responsible for is secure within a TRE.
-    If security flaws are identified in a test, it may not be sensible to publicise these until a fix is in place.
-  - Recommended
-```
-
-(encryption)=
-
-### Encryption
-
-The ability of the {ref}`TRE operator <infrastructure_roles>` to deploy and manage encryption to protect information assets, including data for TRE research projects.
-
-Here we define 'project' data as the data brought in for work which is very likely to be sensitive and 'user' data, as the working files of a project which might hold copies of all or part of the project data or otherwise reveal sensitive data (_e.g._ through hard coded row/column names).
-
-```{list-table}
-:header-rows: 1
-:name: tab-encryption
-
-* -
-  - Statement
-  - Guidance
-  - Importance
-* - 3.5.8.
-  - Your TRE must encrypt project and user data at rest.
-  - This prevents unauthorised access to the data even if the storage media is compromised.
-    This may involve encrypted filesystems or tools to encrypt and decrypt data on demand.
-    The encryption keys may be managed by the {ref}`TRE operator <infrastructure_roles>` or by a trusted external actor, for example a cloud provider.
-  - Mandatory
-* - 3.5.9.
-  - Your TRE must encrypt data when in transit between the TRE and external networks or computers.
-  - Data encryption must be used to safeguard against interception or tampering during transmission.
-    This includes both data ingress and egress and users accessing the TRE, for example over a remote desktop or shell session.
-  - Mandatory
-* - 3.5.10.
-  - Your TRE should encrypt data when in transit inside the TRE.
-  - If possible, data transfers between different components of a TRE should also be encrypted.
-  - Recommended
-* - 3.5.11.
-  - You should use encryption algorithms and software that are widely accepted as secure.
-  - Encryption algorithms widely accepted as secure today may become insecure in the future, for instance due to newly-identified flaws, or advances in compute capabilities.
-    The latest security patches and updates should be applied to any encryption software being used by the TRE.
-    This helps address any known vulnerabilities or weaknesses in the encryption implementation.
-  - Recommended
-* - 3.5.12.
-  - Your TRE should use secure key management.
-  - TREs should employ secure key management practices, including storing encryption keys separately from the encrypted data and implementing strong access controls (_e.g._ Single Sign On) for key management systems.
-  - Recommended
-```
-
-(physical-security)=
-
-### Physical security
-
-The ability of the {ref}`TRE operator <infrastructure_roles>` to manage and protect physical assets from unauthorised access, damage or destruction.
-
-Physical security controls can provide TREs using highly sensitive data an extra layer of security, even if technical controls are already in place for less sensitive data:
-
-```{list-table}
-:header-rows: 1
-:name: tab-physical-security
-
-* -
-  - Statement
-  - Guidance
-  - Importance
-* - 3.5.13.
-  - Your TRE could offer physical protection measures against data leakage or theft via physical means.
-  - Restricting access to research facilities containing computers logged into TREs can help prevent malicious actors from viewing or stealing sensitive data, for example by photographing a computer screen.
-    Physical controls on access to a TRE could include surveillance systems, restricting physical access to authorised personnel only, visitor management systems and employee training.
-  - Optional
-* - 3.5.14.
-  - Your TRE may need to comply with specific regulatory requirements due to the types of data it is hosting.
-  - Regulatory frameworks often emphasise the need for security controls to protect sensitive data.
-    Compliance with these regulations could require organisations to implement specific security measures to safeguard their TRE from unauthorised access.
-  - Mandatory
-```
-
 (security-level)=
 
 ## Security Levels and Tiering
@@ -399,17 +241,17 @@ Throughout the rest of this document, we will refer to each pre-defined security
   - Statement
   - Guidance
   - Importance
-* - 3.6.1.
+* - 3.5.1.
   - You must be able to specify what categories of data your TRE is able to support.
   - Your TRE must provide an explanation of the kinds of data it has been designed to hold, with reference to its security capabilities, that can be understood by all stakeholders.
     Relevant stakeholders may include {ref}`information asset owners <data_roles>` and {ref}`project teams <project_roles>` and they may have different levels of technical expertise.
   - Mandatory
-* - 3.6.2.
+* - 3.5.2.
   - Your TRE could support projects with differing security requirements through configurable security controls.
   - This allows projects with different security requirements to each be met with a suitable level of controls.
     It helps ensure that users can work effectively, with minimal barriers.
   - Optional
-* - 3.6.3.
+* - 3.5.3.
   - Your TRE could offer a pre-defined set of security control tiers.
   - Security control tiers can be designed to cover the types of project or data you expect to handle.
     Projects may be placed into the most suitable tier rather than having a bespoke design.
@@ -429,12 +271,12 @@ Descriptive information about research data, helping researchers understand and 
   - Statement
   - Guidance
   - Importance
-* - 3.7.1.
+* - 3.6.1.
   - You should have a consistent and easily accessible meta-data data model or similar to describe what a data asset contains.
   - Where possible, existing data models should be employed (and extended if necessary).
     More detailed information on the data schema for data assets should also be provided to assist researchers in understanding what data may be available without the need to see the underlying data.
   - Recommended
-* - 3.7.2.
+* - 3.6.2.
   - You could provide summary, abstracted or synthetic data to researchers without exposing the underlying data set.
   - To reduce the need for access to row level data researchers could be provided with non-sensitive versions of the data either as summary data or using synthetic versions of the data for activities such as code development and cohort planning.
   - Optional
@@ -452,7 +294,7 @@ Software designed to help users locate and retrieve specific metadata or informa
   - Statement
   - Guidance
   - Importance
-* - 3.8.1.
+* - 3.7.1.
   - You could provide an interface application for {ref}`data consumers <project_roles>` and {ref}`data subjects <public_roles>` to query elements of the data.
   - In order to make data findable, an application which queries the meta-data or elements of the research data could be made more easily accessible than the data itself.
   - Optional
@@ -470,12 +312,12 @@ The practice of storing data that is no longer actively used but needs to be ret
   - Statement
   - Guidance
   - Importance
-* - 3.9.1.
+* - 3.8.1.
   - Archived data within the TRE should be read only.
   - Archived data by its very nature should not change and therefore be maintained as a read only store.
     If an update is required, it may be pulled from archive into a separate operational store.
   - Recommended
-* - 3.9.2.
+* - 3.8.2.
   - Long-term archives must be held in simple, standard formats to ensure accessibility.
   - Some data archives may be required by policy or legislation to be kept for very long periods within the scope of the TRE.
     Such data should be held in the simplest possible file format, conforming to international standards if available, to ensure they are platform and application agnostic.
