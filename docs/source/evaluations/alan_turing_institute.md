@@ -765,8 +765,8 @@
     ##### Potential Improvements
     - We should add a process for recognising when container images are out of date and for updating them.
 * - 2.5.8.
-  - ?
-  - ?
+  - 2
+  - Any security patches will get automatically applied to VMs during Azure's update management process.
 * - ?.?.? (used to be 3.5.2.)
   - 1
   - Daily anti-virus definition updates and scans are carried out by ClamAV on all Linux VMs.
