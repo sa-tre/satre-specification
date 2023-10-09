@@ -731,6 +731,15 @@
   - Score
   - Response
 
+* - 3.1.11.
+  - 1
+  - Some research environment data is backed up.
+    This includes virtual disks and object storage accounts which contain users personal/configuration files and working data.
+    Backups are distributed across data centres within a single region.
+    Input data is only kept as a single, immutable copy which is not backed up (although users may make copies which would be).
+    Because input data is always a copy, we are not concerned about the loss of input data.
+    #### Potential improvement
+    - We could ensure that non-file working data, such as database contents are also backed up.
 * - 3.5.1.
   - 1
   - - Many cloud services, for example virtual networks, are kept up to date by the cloud provider.
@@ -871,15 +880,6 @@
   - The platform is based on Microsoft Azure cloud service and data is held within an Azure Storage Account.
     We have process forms in place for data deletion during the TRE project duration, and end-project termination whereby all data and TRE cloud infrastructure is deleted.
     An administrator could provide proof that the data has been deleted by showing the Azure Storage Account no longer exists, or that it is empty.
-* - 3.1.11.
-  - 1
-  - Some research environment data is backed up.
-    This includes virtual disks and object storage accounts which contain users personal/configuration files and working data.
-    Backups are distributed across data centres within a single region.
-    Input data is only kept as a single, immutable copy which is not backed up (although users may make copies which would be).
-    Because input data is always a copy, we are not concerned about the loss of input data.
-    #### Potential improvement
-    - We could ensure that non-file working data, such as database contents are also backed up.
 * - 3.1.12.
   - 2
   - The input data is immutable to users, it is kept in a folder that is read-only for TRE users.
