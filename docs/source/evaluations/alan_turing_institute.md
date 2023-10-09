@@ -752,8 +752,8 @@
   - Our terms-of-use require users to report any potential data incident.
     We have a process in place for managing data incidents, whether raised by users or discovered independently, that ensures we meet our legal requirements and also implement any necessary changes, such as disabling access to a TRE if necessary.
 * - 2.5.5.
-  - ?
-  - ?
+  - 0
+  - Although we have have a process for incidents, we don't have a incident response simulation process.
 * - 2.5.6.
   - ?
   - ?
