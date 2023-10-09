@@ -12,6 +12,7 @@
 - {ref}`operator_gain`
 - {ref}`how_build`
 - {ref}`set_in_stone`
+- {ref}`other_tre_types`
 - {ref}`support_federation`
 
 (what_tre)=
@@ -93,6 +94,15 @@ We have tried to build a specification with as broadly useful a set of capabilit
 We won't have covered everything, and if you find SATRE valuable but think there is something we've missed, please consider {ref}`contributing <contributing>`.
 Additionally, the best practices in TRE provision may evolve over time as technologies and regulations change.
 We hope that the SATRE specification will be maintained in the future and accommodate these changes as appropriate.
+
+(other_tre_types)=
+
+## My TRE is designed for data that doesn't require this level of protection. Should I still follow SATRE?
+
+Yes.
+At the moment, the SATRE specification contains a set of capabilities marked as "Mandatory" which we believe are essential for a system to be defined as a TRE, as well as many "Recommended" and "Optional" capabilities.
+Some of the non-mandatory capabilities will likely not be needed for TREs containing data that does not require all the possible protections, and there may well be tradeoffs to be made in terms of accessibility vs security that depend on the data the TRE holds.
+A future specification may include the idea of different archetypes of TREs, or data sensitivity tiers, with different requirements for each.
 
 (support_federation)=
 
