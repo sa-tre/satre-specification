@@ -532,7 +532,7 @@ The process of applying updates or patches to software and systems to address kn
   - This includes any software used for remote desktop portals, databases, webapps, creating and destroying compute infrastructure, configuration management, or software used for monitoring the TRE.
   - Mandatory
 * - 2.5.8.
-  - Infrastructure and should be automatically patched for vulnerabilities.
+  - Infrastructure should be automatically patched for vulnerabilities.
   -	Planning will be required across infrastructure and software systems to ensure security patches remain available from suppliers.
     Many systems may be isolated from the internet making TRE infrastructure more difficult to automatically patch.
   - Recommended
