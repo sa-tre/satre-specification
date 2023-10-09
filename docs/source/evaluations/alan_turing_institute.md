@@ -745,8 +745,8 @@
   - We use Microsoft Azure's features for geo-redundant storage for data, which can handle load balancing and replication of data between multiple storage locations.
   For TRE computng infrastructure, components are replicable via infrastructure as code.
 * - 2.5.3.
-  - ?
-  - ?
+  - 2
+  - Infrastructure is defined by configuration files and replicable via infrastructure as code.
 * - 2.5.4
   - 2
   - Our terms-of-use require users to report any potential data incident.
