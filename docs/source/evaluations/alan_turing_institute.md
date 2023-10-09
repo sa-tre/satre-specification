@@ -741,8 +741,9 @@
     #### Potential improvement
     - We could ensure that non-file working data, such as database contents are also backed up.
 * - 2.5.2.
-  - ?
-  - ?
+  - 2
+  - We use Microsoft Azure's features for geo-redundant storage for data, which can handle load balancing and replication of data between multiple storage locations.
+  For TRE computng infrastructure, components are replicable via infrastructure as code.
 * - 2.5.3.
   - ?
   - ?
