@@ -767,16 +767,6 @@
 * - 2.5.8.
   - 2
   - Any security patches will get automatically applied to VMs during Azure's update management process.
-* - ?.?.? (used to be 3.5.2.)
-  - 1
-  - Daily anti-virus definition updates and scans are carried out by ClamAV on all Linux VMs.
-    ##### Potential Improvements
-    - Extend anti-virus coverage to user-inacessible Windows machines, and also scan data (block and object storage) if possible.
-* - ?.?.? (used to be 3.5.3.)
-  - 1
-  - We comply with the NHS DSPT standard which allows us to process anonymised, patient-derived data.
-    #### Potential improvements
-    - We would like to gain accreditation for more wide-ranging standards, for instance CyberEssentials+, ISO27001 and DEA, which cover holistic safe data and research management.
 * - 2.5.9.
   - 1
   - A thorough external penetration test is carried out upon each major release of the Data Safe Haven codebase used by our TRE.
