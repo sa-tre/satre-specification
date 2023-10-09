@@ -1033,15 +1033,15 @@
 * -
   - Score
   - Response
-* - 3.6.1.
+* - 3.5.1.
   - 2
   - We categorise projects into one of five security tiers.
     These are clearly defined in our documentation.
     We are able to support four of those tiers and would reject any projects falling into the most sensitive tier.
-* - 3.6.2.
+* - 3.5.2.
   - 2
   - We support projects with differing security requirements through security controls that are pre-defined for each tier.
-* - 3.6.3.
+* - 3.5.3.
   - 2
   - We support a documented set of security control tiers that projects can choose from at the outset.
 * - **Capability met?**
@@ -1058,12 +1058,12 @@
 * -
   - Score
   - Response
-* - 3.7.1.
+* - 3.6.1.
   - 0
   - We do not hold a catalogue of data in this format for this purpose.
     The data is provided to us by the {ref}`information asset owner <data_roles>` for a specific purpose.
     Researchers do not apply to us to access specific datasets and thus do not need to have access to a description of the data.
-* - 3.7.2.
+* - 3.6.2.
   - 0
   - This is something we would expect the {ref}`information asset owner <data_roles>` to do, rather than implement ourselves.
     For example, they could use a high-security tier 3 TRE to summarise or produce a synthetic version of a sensitive dataset for use in a lower security, tier 2 TRE.
@@ -1081,7 +1081,7 @@
 * -
   - Score
   - Response
-* - 3.8.1.
+* - 3.7.1.
   - 0
   - We do not provide such an application.
     We do not maintain meta-data for sets of available datasets, since we do not maintain a corpus of datasets for people to apply for access to.
@@ -1099,10 +1099,10 @@
 * -
   - Score
   - Response
-* - 3.9.1.
+* - 3.8.1.
   - 1
   - We don’t have a particular method for data archiving in the TRE, though administrators do have the ability to move data to a read-only location if needed.
-* - 3.9.2.
+* - 3.8.2.
   - 0
   - We don’t have a particular method for archiving data in the TRE, though it is possible to keep data in the Azure Storage Accounts whilst restricting access to users.
     We don’t handle formatting or maintaining of datasets, which is up to project teams using the TRE.
