@@ -28,8 +28,12 @@ extensions = [
     "satrecsv",
 ]
 
+# The :download: roles inserts a hash into the URL which varies between builds
+# This allows us to use a consistent URL
+html_extra_path = ["../build/satrecsv/satre.xlsx"]
+
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
-myst_enable_extensions = ["colon_fence", "deflist", "fieldlist"]
+myst_enable_extensions = ["attrs_inline", "colon_fence", "deflist", "fieldlist"]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
