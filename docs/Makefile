@@ -12,17 +12,18 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile
+.PHONY: help Makefile cleanall
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+# satre.xls is excluded from linkcheck, so check that it was copied to build/html
 html: Makefile satrecsv
-# The :download: role inserts a hash into the URL which varies between builds
-# Instead copy it into the source directory
-	cp build/satrecsv/satre.xlsx source/
+	cp -f build/satrecsv/satre.xlsx generated/
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	if [ ! -f build/html/satre.xlsx ]; then echo "ERROR: satre.xlsx not found in build/html/"; exit 1; fi
 
-# satrecsv: Automatically handled by the catch-all target
+cleanall: clean
+	rm -f source/downloads/*
