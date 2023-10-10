@@ -20,6 +20,8 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 html: Makefile satrecsv
+	mkdir -p build/html
+	cp build/satrecsv/satre.xlsx build/html
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # satrecsv: Automatically handled by the catch-all target

@@ -29,11 +29,9 @@ extensions = [
 ]
 
 # The :download: role inserts a hash into the URL which varies between builds
-# Along with
+# attrs_inline allows us to use a consistent URL by copying in satre.xlsx
+# outside sphinx and treating it as an external URL
 # https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#customising-external-url-resolution
-# this allows us to use a consistent URL
-html_extra_path = ["../build/satrecsv/satre.xlsx"]
-
 linkcheck_ignore = [
     # satre.xlsx is a local file that's copied into place, but since we treat the hyperlink
     # as an external link (to bypass the :download: role that inserts a hash into the path)
