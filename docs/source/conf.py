@@ -28,9 +28,19 @@ extensions = [
     "satrecsv",
 ]
 
-# The :download: roles inserts a hash into the URL which varies between builds
-# This allows us to use a consistent URL
+# The :download: role inserts a hash into the URL which varies between builds
+# Along with
+# https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#customising-external-url-resolution
+# this allows us to use a consistent URL
 html_extra_path = ["../build/satrecsv/satre.xlsx"]
+
+linkcheck_ignore = [
+    # satre.xlsx is a local file that's copied into place, but since we treat the hyperlink
+    # as an external link (to bypass the :download: role that inserts a hash into the path)
+    # we need to exclude it from the linkchecker
+    r"\./satre\.xlsx",
+]
+
 
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
 myst_enable_extensions = ["attrs_inline", "colon_fence", "deflist", "fieldlist"]
