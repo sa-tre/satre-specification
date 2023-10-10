@@ -198,7 +198,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to ensure outputs 
   - Optional
 * - 3.3.8.
   - TRE outputs should be limited to the minimum required for sharing results of any analyses.
-  - This reduces the burden on {ref}`output checkers <data_roles>`, decreases the risk of inadvertent disclosure, and makes it easier to comply with data protection legislation (e.g. GDPR).
+  - This decreases the risk of inadvertent disclosure, and makes it easier to comply with data protection legislation (e.g. GDPR).
   - Recommended
 ```
 
