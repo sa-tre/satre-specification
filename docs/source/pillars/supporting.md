@@ -202,7 +202,7 @@ How the {ref}`TRE operator <infrastructure_roles>` involves the public in its pr
   - This may be carried out via a separate public panel or by including members of the public on an approvals panel.
   - Optional
 * - 4.8.4.
-  - You should publicly share details of incidents, near misses, and mitigations.
+  - You should publicly share details of incidents, near misses, and mitigations in a timely fashion, in line with good practices for responsible disclosure.
   - This may be via the TRE website or annual reports.
     Sharing this information is particularly important when a TRE holds public sector data.
   - Recommended
