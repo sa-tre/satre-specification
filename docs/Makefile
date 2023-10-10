@@ -20,8 +20,9 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 html: Makefile satrecsv
-	mkdir -p build/html
-	cp build/satrecsv/satre.xlsx build/html
+# The :download: role inserts a hash into the URL which varies between builds
+# Instead copy it into the source directory
+	cp build/satrecsv/satre.xlsx source/
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # satrecsv: Automatically handled by the catch-all target

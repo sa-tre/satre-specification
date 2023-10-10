@@ -60,4 +60,4 @@ If all pillars are met then the SATRE specification is met.
 
 ## Evaluation spreadsheet
 
-You can use this [spreadsheet](./satre.xlsx){.external} as a template for your evaluation.
+You can use this [spreadsheet](satre.xlsx) as a template for your evaluation.
