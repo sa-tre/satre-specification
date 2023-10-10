@@ -12,18 +12,26 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help Makefile cleanall
+.PHONY: help Makefile cleanall check-satrecsv
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-# satre.xls is excluded from linkcheck, so check that it was copied to build/html
-html: Makefile satrecsv
+# satrecsv is written to build/satrecsv and not READTHEDOCS_OUTPUT
+# because it's run by us in build.jobs.pre_build, not by readthedocs
+satrecsv-copy: satrecsv
 	cp -f build/satrecsv/satre.xlsx generated/
-	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	if [ ! -f build/html/satre.xlsx ]; then echo "ERROR: satre.xlsx not found in build/html/"; exit 1; fi
 
-cleanall: clean
-	rm -f source/downloads/*
+html: Makefile satrecsv-copy
+	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# If READTHEDOCS_OUTPUT is not set default to build
+OUTPUT_DIR := $(if $(READTHEDOCS_OUTPUT),$(READTHEDOCS_OUTPUT),build)
+# satre.xls is excluded from linkcheck, so check that it was copied to build/html
+check-satrecsv:
+	if [ ! -f "$(OUTPUT_DIR)/html/satre.xlsx" ]; then echo "ERROR: $(OUTPUT_DIR)/html/satre.xlsx not found"; exit 1; fi
+
+clean-all: clean
+	rm -f generated/*
