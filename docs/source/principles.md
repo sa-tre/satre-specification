@@ -47,22 +47,23 @@ TREs holding public data should build and maintain the trust of data subjects an
 
 ### Rationale
 
-Maintaining trust in TREs to hold and use data is essential to prevent backlash or resistance to the use of data.
-This can include maintaining the trust of members of the public who are impacted by research, as well as the trust of commercial data providers.
+To ensure continued public support both for the use of data and TREs to facilitate research, it is vital to maintain public trust in the ways TREs hold and use data and to alleviate possible concerns.
+This could include maintaining the trust of members of the public whose data is held, those who are impacted by research conducted using TREs, and the trust of commercial data providers.
 
-In the case of public sector data, public engagement work has indicated there is widespread support for the use of regulated and ethical TREs working for the public benefit.
+In the case of public sector data, public engagement work has indicated there is support for the use of regulated and ethical TREs working for the public benefit as long as conditions are met surrounding security and transparency.
 Consulting impacted parties, including the public, can help ensure TREs are being used for positive, impactful and agreed-upon purposes.
 Being transparent about the data held and the projects or organisations who access the data can also help maintain trust.
 
 ### Implications
 
 - Being as transparent as possible is key to building trust.
-  TREs holding public data should practice transparency, for instance making adherence to any accreditation body, or framework (for instance the Five Safes) publicly available information, and making information on the projects or organisations which access their data available to impacted parties.
-- A strong public engagement programme takes time and resource.
-  TREs holding public data should consider allocating specific staffing to public engagement activities.
-- TREs open to consultation by impacted parties should be auditable, and impacted parties should be part of any decision making processes.
+  TREs holding public data should practice transparency. For instance, accreditation from an external body, adherence to a specific design framework (such as the Five Safes), and details of the projects or organisations that access their data should be publicly available information.
+  This should be provided in an accessible way.
+- In addition to transparency, actively involving members of the public in oversight of TREs and their processes is important for accountability.
+  Public involvement and engagement takes time and resources. TREs holding public data should consider allocating specific staffing and budget to public engagement activities.
+- Where TREs have consulted impacted parties, they should be auditable by those parties, and consult them as part of any decision making processes.
   This may include the provision of documentation and educational resources for a diverse audience.
-- Access to public sector data should be reviewed by an independent panel and follow agreed-upon governance to ensure projects using this data are in the public benefit, and provide clarity around any commercial access.
+- Access to public sector data should be reviewed by an independent panel, which includes members of the public where possible, and follow agreed-upon governance to ensure projects using this data are in the public benefit, and provide clarity around any commercial access.
 
 (principle_observability)=
 
