@@ -47,9 +47,20 @@ contributing/walkthrough.md
 contributing/contributors.md
 ```
 
-The SATRE project provides a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`, incorporating knowledge and best practices from multiple institutions and sectors across the UK.
+(what_is_satre)=
+
+## 👀 What is SATRE?
+
+The SATRE project provides a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`.
+It incorporates knowledge and best practices from multiple institutions and sectors across the UK.
+This includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
 
 It aims to standardise the capabilities of TREs, making it easier for users, operators, and developers to work with sensitive data, and making the operation of TREs more transparent to data owners and the general public.
+
+This specification should be useful if you are:
+
+- a {ref}`TRE Operator <infrastructure_roles>` wanting to evaluate or improve their TRE with the suggested capabilities
+- a {ref}`Developer or Builder <infrastructure_roles>` of new TREs looking for guidance in their thinking and decision making
 
 We encourage all TREs in the UK to {ref}`evaluate <evaluation>` themselves against the SATRE specification, and to {ref}`contribute <contributing>` to the project.
 
@@ -63,31 +74,39 @@ If this is your first time here we recommend reading the rest of this page to un
 - {ref}`The specification <specification>`
 - {ref}`How to evaluate your TRE <evaluation>`
 
-(what_is_satre)=
-
-## 👀 What is SATRE?
-
-The SATRE project aims to provide a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`.
-
-The SATRE specification is our attempt to compile and document knowledge, best practices and capabilities around TRE building and operation from different institutions.
-This includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
-
-SATRE should
-
-- Enable the {ref}`Operators <infrastructure_roles>` of TREs to benefit from this knowledge, and empower them to improve their TREs with the suggested capabilities.
-- Aid the {ref}`Developers and Builders <infrastructure_roles>` of new TREs in their thinking and decision making.
-
 (satre_why)=
 
-## ❓ Why are we doing this?
+## ❓ Why do we need TREs?
+
+Personal or sensitive data which have been collected for operational, commercial or governmental reasons need to be managed securely and safely.
+A TRE enables researchers to access the data in a secure environment following best practice.
+This should ensure that research projects and {ref}`data consumers <project_roles>` are properly authorised and that researchers only access the data they need, whilst minimising risk of data release or exposure.
+
+## ❓ Why are we doing this now?
 
 <!-- Motivation: Why a TRE specification is needed/ useful and a description of the broader SATRE project, conception and goals -->
 
-The need for TREs is clear.
-Personal or sensitive data which have been collected for operational, commercial or governmental reasons need to be managed securely and safely for research use in an environment that encourages best practice.
+The need for trusted research environments (TREs) is clear.
+Influential reports including the UK Government's [Goldacre review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) and [‘Data Saves Lives’](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data) policy paper, have highlighted the need for change in how sensitive data are handled.
+These papers set out a vision for the potential impact of research enabled by TREs.
 
-TREs are designed to enable access to sensitive data only for authorised projects and {ref}`data consumers <project_roles>`, whilst minimising risk of data release or exposure.
-Influential reports from DARE UK and Health Data Research UK, together with the UK Government Goldacre review and ‘Data Saves Lives’ policy paper, have all highlighted the need for change in how sensitive data are handled.
+At present operators have to interpret a range of frameworks, legislation and guidance when building and running a TRE.
+These include:
+
+- [Office for National Statistics: 5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)
+- [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/record/4594704)
+- [UK Health Data Research Alliance: TRE Principles and Best Practices](https://zenodo.org/record/5767586)
+- [Design choices for productive, secure, data-intensive research at scale in the cloud](https://arxiv.org/abs/1908.08737)
+- [ISO27001](https://www.iso.org/standard/27001)
+- [Digital Economy Act](https://www.legislation.gov.uk/ukpga/2017/30/contents/enacted)
+- [Handbook on Statistical Disclosure Control for Outputs](https://ukdataservice.ac.uk/app/uploads/thf_datareport_aw_web.pdf)
+
+This makes for inconsistent governance standards and makes it hard for researchers to work consistently in different environments.
+
+A common specification for TREs will improve governance and practice across the sector, simplify researcher and operator journeys.
+Furthermore, it will lay a foundation for interoperability that is required to maximise the impact of research by providing a trusted ecosystem for working with currently disparate and siloed data.
+
+## ❓ Who are we?
 
 The SATRE team contains representatives from several existing UK TREs, which host many different types of sensitive data.
 We will use the reference architecture specified here to bring these into closer alignment and make it easy for others to do the same.
