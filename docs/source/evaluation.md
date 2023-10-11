@@ -37,9 +37,10 @@ For more info see: {ref}`is_standard`
 
 You should score your TRE against each statement in the SATRE specification using this scoring system:
 
-:0 Not met: The TRE does not meet this requirement (the TRE is not SATRE compliant)
+:0 Not met: The TRE does not meet this requirement (if this is **Mandatory** this means the TRE is not SATRE compliant)
 :1 Sufficient: The TRE meets this requirement met but there is substantial scope for improvement
 :2 Satisfied: The TRE meets this requirement met but there may still be scope for improvement
+:N/A: Not applicable: The statement is not relevant to a TRE, may apply to **Recommended** or **Optional** statements
 
 A score of **1** or above means you have met the requirement.
 Optionally you can use **1** and **2** to indicate potential areas of improvement in your TRE.
