@@ -28,9 +28,11 @@ For more information about TREs, visit the [UK TRE Community website](https://ww
 
 (why_satre)=
 
-## Why do we need a Standard Architecture for TREs
+## Why do we need a Standard Architecture for TREs?
 
 A variety of approaches have been taken to building computing infrastructure and designing processes and policies for research with sensitive data.
+There are also a range of standards or frameworks that may apply to TREs such as [ISO27001](https://www.iso.org/standard/27001) or [5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/).
+However, they don't provide prescriptive guidance on how TREs comply or achieve accreditation.
 In recognition of this, SATRE aims to find the commonalities and compile a resource for TRE {ref}`Operators, Builders and Developers <infrastructure_roles>` to refer to and benefit from.
 See {ref}`what_is_satre` for more information.
 
