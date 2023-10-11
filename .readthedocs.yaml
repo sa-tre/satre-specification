@@ -10,7 +10,10 @@ build:
     python: "3.11"
   jobs:
     pre_build:
-      - cd docs && make satrecsv
+      - cd docs && make satrecsv-copy
+    post_build:
+      # Check satre.xlsx was correctly copied
+      - cd docs && make check-satrecsv
 
 sphinx:
   configuration: docs/source/conf.py

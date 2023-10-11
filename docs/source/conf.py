@@ -28,8 +28,18 @@ extensions = [
     "satrecsv",
 ]
 
+# The :download: role inserts a hash into the URL which varies between builds
+# html_extra_pathand attrs_inline allows us to use a consistent URL by copying
+# in satre.xlsx outside sphinx and treating it as an external URL
+# https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html#customising-external-url-resolution
+html_extra_path = ["../generated/"]
+
+linkcheck_ignore = [
+    "satre.xlsx",
+]
+
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
-myst_enable_extensions = ["colon_fence", "deflist", "fieldlist"]
+myst_enable_extensions = ["attrs_inline", "colon_fence", "deflist", "fieldlist"]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
