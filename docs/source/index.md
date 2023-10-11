@@ -58,8 +58,8 @@ It aims to standardise the capabilities of TREs, making it easier for users, ope
 
 This specification should be useful if you are:
 
-- a {ref}`TRE Operator <infrastructure_roles>` wanting to evaluate or improve their TRE with the suggested capabilities.
-- a {ref}`Developer or Builder <infrastructure_roles>` of new TREs looking for guidance in their thinking and decision making.
+- a {ref}`TRE Operator <infrastructure_roles>` wanting to evaluate or improve their TRE with the suggested capabilities
+- a {ref}`Developer or Builder <infrastructure_roles>` of new TREs looking for guidance in their thinking and decision making
 
 We encourage all TREs in the UK to {ref}`evaluate <evaluation>` themselves against the SATRE specification, and to {ref}`contribute <contributing>` to the project.
 
@@ -94,7 +94,7 @@ These papers set out a vision for the potential impact of research enabled by TR
  - [Office for National Statistics: 5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)
  - [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/record/4594704#.Yd8RRdHP1zq)
  - [UK Health Data Research Alliance: TRE Principles and Best Practices](https://zenodo.org/record/5767586)
- - [Design choices for productive, secure, data-intensive research at scale in the cloud](https://arxiv.org/pdf/1908.08737.pdf)
+ - [Design choices for productive, secure, data-intensive research at scale in the cloud](https://arxiv.org/abs/1908.08737)
  - [ISO27001](https://www.iso.org/standard/27001)
  - [Digital Economy Act](https://www.legislation.gov.uk/ukpga/2017/30/contents/enacted)
  - [Handbook on Statistical Disclosure Control for Outputs](https://ukdataservice.ac.uk/app/uploads/thf_datareport_aw_web.pdf)
@@ -102,7 +102,7 @@ These papers set out a vision for the potential impact of research enabled by TR
 This makes for inconsistent governance standards and makes it hard for researchers to work consistently in different environments.
 
 A common specification for TREs will improve governance and practice across the sector, simplify researcher and operator journeys. 
-Furthermore it will lay a foundation for interoperability that is required to maximise the impact of research by providing a trusted ecosystem for providing access to currently disparate and siloed data.
+Furthermore, it will lay a foundation for interoperability that is required to maximise the impact of research by providing a trusted ecosystem for working with currently disparate and siloed data.
 
 ## ❓ Who are we?
 
