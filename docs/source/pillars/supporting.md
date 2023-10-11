@@ -225,7 +225,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to provide suitabl
   - Guidance
   - Importance
 * - 4.9.1.
-  - You should have identify areas where legal advice may be required and ensure that you have ready access to it.
+  - You should identify areas where legal advice may be required and ensure that you have ready access to it.
   - It is likely that legal advice will be necessary for several issues around the handling of sensitive data, and managing project contracts.
     {ref}`TRE operators <infrastructure_roles>` should have ready access to legal advice, including a way to solicit advice and carry out associated actions.
   - Recommended

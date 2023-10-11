@@ -37,9 +37,9 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - You should keep records of data handling decisions.
   - Decisions that are made as part of the process discussed above should be recorded and made available for inspection by all stakeholders.
   - Recommended
-* - 3.1.3
+* - 3.1.3.
   - {ref}`Information asset owners <data_roles>` must classify data sets according to a common process and data classification methodology.
-  - To classify the data, information asset owners must have a good understanding of the data sets and the process of classification.
+  - To classify the data, information asset owners must have a good understanding of the datasets and the process of classification.
     Once classified, data can be stored in a TRE with an appropriate security controls (see {ref}`later section on security levels and tiering <security-level>`), which can factor in the requirements for confidentiality, integrity and availability of the data.
   - Mandatory
 * - 3.1.4.
@@ -52,7 +52,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - The data egress process needs to ensure that information governance requirements are adhered to.
     In particular, it should require that an egress request has been approved by all required parties.
   - Mandatory
-* - 3.1.6
+* - 3.1.6.
   - Egress must be limited to the {ref}`information asset owners <data_roles>` or their delegates.
   - Egress of data from a TRE must be a specific permission associated with individual users
     This permission must be given by information asset owners.
@@ -77,7 +77,7 @@ The ability of the {ref}`TRE operator <infrastructure_roles>` to manage how and 
   - Mandatory
 * - 3.1.10.
   - You should have a method of providing proof of deletion/removal of files.
-  - {ref}`information asset owners <data_roles>` may require certification of the deletion of files.
+  - {ref}`Information asset owners <data_roles>` may require certification of the deletion of files.
     You should have a method of providing proof of deletion if challenged.
   - Recommended
 * - 3.1.11.
