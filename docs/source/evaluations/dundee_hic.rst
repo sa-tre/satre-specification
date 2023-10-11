@@ -1,5 +1,9 @@
 .. _evaluation_dundee_hic:
 
+..
+   This is written in RST not Markdown because the datatemplate extension
+   only generates `list-table` RST syntax.
+
 Health Informatics Centre Trusted Research Environment (HIC-TRE), University of Dundee
 ======================================================================================
 
