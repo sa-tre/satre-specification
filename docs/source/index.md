@@ -92,7 +92,7 @@ These papers set out a vision for the potential impact of research enabled by TR
  At present operators have to interpret a range of frameworks, legislation and guidance when building and running a TRE. 
   These include:
  - [Office for National Statistics: 5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)
- - [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/record/4594704#.Yd8RRdHP1zq)
+ - [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/record/4594704)
  - [UK Health Data Research Alliance: TRE Principles and Best Practices](https://zenodo.org/record/5767586)
  - [Design choices for productive, secure, data-intensive research at scale in the cloud](https://arxiv.org/abs/1908.08737)
  - [ISO27001](https://www.iso.org/standard/27001)
