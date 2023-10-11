@@ -23,7 +23,7 @@ Roles for TRE end-users conducting research or analysing data in the TRE and oth
 * - Data Analyst
   - Specific term for people provided access to data via a TRE, who intend to carry out analysis or conduct research using the data.
     These could be programmers and data scientists, but could also be scientists working in fields where deep computing expertise is less common.
-    Analysts working with TREs that meet the SATRE standard should to have a broadly similar user experience, at least where the type of analyst is consistent (e.g. data scientists).
+    Analysts working with TREs that meet the SATRE standard should have a broadly similar user experience, at least where the type of analyst is consistent (e.g. data scientists).
     This includes both the user experience of the platforms themselves, and the associated documentation.
 * - Project Manager
   - The person in charge of coordinating other roles for the duration of a specific TRE project.
@@ -46,8 +46,8 @@ Roles for people managing data and databases used in a TRE.
 * - Role name
   - Role description
 * - Data Steward
-  - People who ensure data within a TRE is maintained and processed in ways useful to {ref}`data analysts <project_roles>`, including providing data extracts to specific projects or {ref}`data analysts <project_roles>`.
-    May also be known as Data Wranglers or Data Cleaners.
+  - People who ensure data within a TRE is maintained and processed in ways useful to {ref}`data analysts <project_roles>`, including providing data extracts.
+    May also be known as Data Wranglers, Data Engineers or Data Cleaners.
 * - Database Administrator
   - People responsible for managing any databases included in the TRE.
     Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects.
