@@ -36,6 +36,8 @@ html_extra_path = ["../generated/"]
 
 linkcheck_ignore = [
     "satre.xlsx",
+    # DOS/bot protection returns 403 for clients like curl, httpie
+    "^https://www.turing.ac.uk/.*",
 ]
 
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
