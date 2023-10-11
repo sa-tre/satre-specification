@@ -8,7 +8,7 @@ The project maintains an [open-source TRE project](https://github.com/alan-turin
 Data Safe Haven can be freely used and adapted to deploy a TRE to Microsoft Azure.
 
 The Turing hosts a deployment of the Data Safe Haven TRE that is used for sensitive data projects at the institute.
-The SATRE evaluation has been carried out for the Turing TRE inclusive of the Data Safe Haven deployment _and_ institutional governance processes.
+The SATRE evaluation has been carried out for the Turing TRE inclusive of the Data Safe Haven deployment _and_ [institutional governance processes](https://alan-turing-institute.github.io/trusted-research).
 
 ## Governance Requirements
 
