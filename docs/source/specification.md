@@ -29,7 +29,6 @@ SATRE Specification Architecture
 
 Together, these provide a framework that {ref}`TRE operator <infrastructure_roles>`s can measure themselves against.
 
-
 ## Architectural Principles
 
 The SATRE specification has been developed based on the following principles:
