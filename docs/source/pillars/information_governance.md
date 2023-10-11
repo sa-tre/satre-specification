@@ -17,6 +17,8 @@ For example, some requirements will arise from national legislation such as GDPR
 
 ## Governance Requirements
 
+How the organisation approaches its governance commitment.
+
 ### Requirements Gathering and Monitoring
 
 This {term}`business process <business process>` involves collecting, documenting, and managing the functional and non-functional requirements for the TRE based on the TRE organisation's goals and data assets.
@@ -49,7 +51,7 @@ This {term}`business process <business process>` involves measures, safeguards, 
   - Guidance
   - Importance
 * - 1.1.2.
-  - You must ensure controls are implemented to ensure the requirements are met.
+  - You must ensure controls are implemented to meet stakeholder requirements.
   - Control implementation should be systematic and directly aligned to the internal and stakeholder requirements.
   - Mandatory
 ```
@@ -260,7 +262,7 @@ This {term}`business process <business process>` involves the systematic evaluat
   - Guidance
   - Importance
 * - 1.3.1.
-  - You must have a way to score risk to understand the underlying severity.
+  - You must have a way to quantify risk to understand the underlying severity.
   - You have a risk assessment methodology for scoring risks on multiple axes such as impact and likelihood.
   - Mandatory
 * - 1.3.2.
@@ -378,7 +380,7 @@ This {term}`business process <business process>` involves the formal conclusion 
 
 ### Study Management Portal
 
-This {term}`application component <application component>` is an online platform that provides centralised access to manage research studies including onboarding studies, control of access and administration of compliance tasks.
+This {term}`application component <application component>` is an online platform for managing research studies including onboarding studies, controlling access and administering compliance tasks.
 
 ```{list-table}
 :header-rows: 1
@@ -389,7 +391,7 @@ This {term}`application component <application component>` is an online platform
   - Guidance
   - Importance
 * - 1.4.5.
-  - You could implement a portal that can provide a workflow engine and database which automates the processes within this capability.
+  - You could implement a portal that can provide a workflow engine and database which automates components relating to study management.
   - A portal should automate as much of the processes within the capability as possible.
     Where processes are automated, process maturity is easier to achieve, with more consistent completion and automatic production of quality control and monitoring data.
   - Optional
@@ -409,8 +411,8 @@ This {term}`data object <data object>` is a database or other electronic record 
   - Importance
 * - 1.4.6.
   - You must keep a complete record of all the data assets held within the system.
-  - Details of all data assets (current and past) held by the system should be retained along with meta-data useful for ensuring compliance can be demonstrated.
-    This would include ownership, data lifecycle, contracts, risk assessments and other quality data.
+  - Details of all data assets (current and past) held by the system should be retained along with meta-data required to demonstrate compliance. 
+    This should include ownership, data lifecycle, contracts, risk assessments and other quality data. 
     This is likely to already exist within the wider organisation but may require augmenting for the TRE.
   - Mandatory
 ```
