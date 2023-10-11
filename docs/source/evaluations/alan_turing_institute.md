@@ -2,7 +2,7 @@
 
 # Alan Turing Institute Data Safe Haven
 
-The Alan Turing Institute is the UK's national institute for data science and artificial intelligence.
+[The Alan Turing Institute](https://www.turing.ac.uk/) is the UK's national institute for data science and artificial intelligence.
 Software engineers at the Turing have developed the [Turing Data Safe Haven](https://github.com/alan-turing-institute/data-safe-haven), an open-source framework for creating Trusted Research Environments hosted on Microsoft Azure.
 The open codebase includes a set of scripts and templates that will allow you to deploy, administer and use a TRE at your institution.
 
