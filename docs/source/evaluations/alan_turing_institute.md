@@ -7,7 +7,8 @@ The Data Safe Haven project's goal is to remove barriers to working safely and e
 The project maintains an [open-source TRE project](https://github.com/alan-turing-institute/data-safe-haven) which covers governance, documentation and programmatic deployment of a TRE.
 Data Safe Haven can be freely used and adapted to deploy a TRE to Microsoft Azure.
 
-The Turing hosts a deployment of the Data Safe Haven TRE that is used for sensitive data projects at the institute.
+The Turing uses the Data Safe Haven TRE and governance to enable research on sensitive data.
+This includes work with external partners and our [Data Study Group](https://www.turing.ac.uk/collaborate-turing/data-study-groups) collaborative hackathons.
 The SATRE evaluation has been carried out for the Turing TRE inclusive of the Data Safe Haven deployment _and_ [institutional governance processes](https://alan-turing-institute.github.io/trusted-research).
 
 ## Governance Requirements
