@@ -92,8 +92,7 @@ The IT professionals and software engineers who will be responsible for developi
 ## Governance Roles
 
 Roles that uphold the governance of TREs.
-Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data.
-This should protect the privacy and confidentiality of research participants, as well as promote transparency and accountability in research activities.
+Such governance responsibilities typically involve establishing policies and procedures to ensure the responsible use of data, protecting the privacy and confidentiality of research participants, and promoting transparency and accountability in research activities.
 
 ```{list-table}
 :header-rows: 1
