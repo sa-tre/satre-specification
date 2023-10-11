@@ -3,4 +3,4 @@ openpyxl
 Sphinx
 sphinx-rtd-theme
 # Fork of sphinxcontrib.datatemplates
-git+https://github.com/manics/sphinx-datatemplates@multiline-table-item
+git+https://github.com/sa-tre/sphinx-datatemplates@multiline-table-item

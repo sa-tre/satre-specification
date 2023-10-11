@@ -72,7 +72,7 @@ sphinx-rtd-theme==1.3.0
     # via -r requirements.in
 sphinxcontrib-applehelp==1.0.7
     # via sphinx
-sphinxcontrib-datatemplates @ git+https://github.com/manics/sphinx-datatemplates@multiline-table-item
+sphinxcontrib-datatemplates @ git+https://github.com/sa-tre/sphinx-datatemplates@multiline-table-item
     # via -r requirements.in
 sphinxcontrib-devhelp==1.0.5
     # via sphinx
