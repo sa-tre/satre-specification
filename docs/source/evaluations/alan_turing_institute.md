@@ -1293,6 +1293,10 @@
   - 0
   - We do not include members of the public in our approval process.
     We do not think this is appropriate in the case of commercially-sensitive data and we already have an Institute-wide ethics approvals process.
+* - 4.8.4.
+  - 0
+  - There is a clear process in place for internal incident reporting.
+    There is no process for publicly sharing this information.
 * - **Capability met?**
   - **YES**
   -
