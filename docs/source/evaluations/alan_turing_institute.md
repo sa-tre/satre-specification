@@ -9,7 +9,7 @@ Data Safe Haven can be freely used and adapted to deploy a TRE to Microsoft Azur
 
 The Turing uses the Data Safe Haven TRE and governance to enable research on sensitive data.
 This includes work with external partners and our [Data Study Group](https://www.turing.ac.uk/collaborate-turing/data-study-groups) collaborative hackathons.
-The SATRE evaluation has been carried out for the Turing TRE inclusive of the Data Safe Haven deployment _and_ [institutional governance processes](https://alan-turing-institute.github.io/trusted-research).
+The evaluation below has been carried out for the Turing's production TRE, using the Data Safe Haven technical implementation and [institutional governance processes](https://alan-turing-institute.github.io/trusted-research).
 
 ## Governance Requirements
 
