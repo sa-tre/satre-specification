@@ -9,7 +9,6 @@ Data Safe Haven can be freely used and adapted to deploy a TRE to Microsoft Azur
 
 The Turing hosts a deployment of the Data Safe Haven TRE that is used for sensitive data projects at the institute.
 The SATRE evaluation has been carried out for the Turing TRE inclusive of the Data Safe Haven deployment _and_ institutional governance processes.
-See the {ref}`FAQs page <what_tre>` for how SATRE defines a TRE.
 
 ## Governance Requirements
 
