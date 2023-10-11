@@ -4,7 +4,7 @@ Health Informatics Centre Trusted Research Environment (HIC-TRE), University of 
 ======================================================================================
 
 [Health Informatics Centre (HIC)](https://www.dundee.ac.uk/hic) supports high impact research through the collection and management of population based data.
-HIC runs a TRE based on an older fork of the open-source [TREEHOOSE](https://github.com/HicResearch/TREEHOOSE) platform.
+HIC runs a cloud based TRE based on an older fork of the open-source [TREEHOOSE](https://github.com/HicResearch/TREEHOOSE) platform.
 This evaluation applies to the HIC-TRE, but it should be possible to satisfy all **Mandatory** SATRE technical requirements using TREEHOOSE.
 
 .. datatemplate:csv:: satre-uod-evaluation-20231011.csv
