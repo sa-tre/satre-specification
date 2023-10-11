@@ -50,8 +50,8 @@ contributing/contributors.md
 
 ## 👀 What is SATRE?
 
-The SATRE project provides a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`. 
-It incorporates knowledge and best practices from multiple institutions and sectors across the UK. 
+The SATRE project provides a Standard Architecture for {ref}`Trusted Research Environments (TREs) <what_tre>`.
+It incorporates knowledge and best practices from multiple institutions and sectors across the UK.
 This includes all aspects of TRE provision such as information governance procedures, computing technology, data management and other capabilities.
 
 It aims to standardise the capabilities of TREs, making it easier for users, operators, and developers to work with sensitive data, and making the operation of TREs more transparent to data owners and the general public.
@@ -76,32 +76,33 @@ If this is your first time here we recommend reading the rest of this page to un
 (satre_why)=
 
 ## ❓ Why do we need TREs?
-Personal or sensitive data which have been collected for operational, commercial or governmental reasons need to be managed securely and safely. 
-A TRE enables researchers to access the data in a secure environment following best practice. 
-This should ensure that research projects and {ref}`data consumers <project_roles>` are properly authorised and that researchers only access the data they need, whilst minimising risk of data release or exposure.
 
+Personal or sensitive data which have been collected for operational, commercial or governmental reasons need to be managed securely and safely.
+A TRE enables researchers to access the data in a secure environment following best practice.
+This should ensure that research projects and {ref}`data consumers <project_roles>` are properly authorised and that researchers only access the data they need, whilst minimising risk of data release or exposure.
 
 ## ❓ Why are we doing this now?
 
 <!-- Motivation: Why a TRE specification is needed/ useful and a description of the broader SATRE project, conception and goals -->
 
-The need for trusted research environments (TREs) is clear. 
-Influential reports including the UK Government's [Goldacre review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) and [‘Data Saves Lives’](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data) policy paper, have  highlighted the need for change in how sensitive data are handled. 
+The need for trusted research environments (TREs) is clear.
+Influential reports including the UK Government's [Goldacre review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) and [‘Data Saves Lives’](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data/data-saves-lives-reshaping-health-and-social-care-with-data) policy paper, have highlighted the need for change in how sensitive data are handled.
 These papers set out a vision for the potential impact of research enabled by TREs.
 
- At present operators have to interpret a range of frameworks, legislation and guidance when building and running a TRE. 
-  These include:
- - [Office for National Statistics: 5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)
- - [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/record/4594704)
- - [UK Health Data Research Alliance: TRE Principles and Best Practices](https://zenodo.org/record/5767586)
- - [Design choices for productive, secure, data-intensive research at scale in the cloud](https://arxiv.org/abs/1908.08737)
- - [ISO27001](https://www.iso.org/standard/27001)
- - [Digital Economy Act](https://www.legislation.gov.uk/ukpga/2017/30/contents/enacted)
- - [Handbook on Statistical Disclosure Control for Outputs](https://ukdataservice.ac.uk/app/uploads/thf_datareport_aw_web.pdf)
- 
+At present operators have to interpret a range of frameworks, legislation and guidance when building and running a TRE.
+These include:
+
+- [Office for National Statistics: 5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)
+- [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/record/4594704)
+- [UK Health Data Research Alliance: TRE Principles and Best Practices](https://zenodo.org/record/5767586)
+- [Design choices for productive, secure, data-intensive research at scale in the cloud](https://arxiv.org/abs/1908.08737)
+- [ISO27001](https://www.iso.org/standard/27001)
+- [Digital Economy Act](https://www.legislation.gov.uk/ukpga/2017/30/contents/enacted)
+- [Handbook on Statistical Disclosure Control for Outputs](https://ukdataservice.ac.uk/app/uploads/thf_datareport_aw_web.pdf)
+
 This makes for inconsistent governance standards and makes it hard for researchers to work consistently in different environments.
 
-A common specification for TREs will improve governance and practice across the sector, simplify researcher and operator journeys. 
+A common specification for TREs will improve governance and practice across the sector, simplify researcher and operator journeys.
 Furthermore, it will lay a foundation for interoperability that is required to maximise the impact of research by providing a trusted ecosystem for working with currently disparate and siloed data.
 
 ## ❓ Who are we?
