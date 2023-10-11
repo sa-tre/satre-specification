@@ -8,7 +8,16 @@ Dundee/HIC
     :dialect: excel
 
     {{ make_list_table_from_mappings(
-        [("Section","Section"),("Item","Item"),("Statement","Statement"),("Guidance","Guidance")],
+        [
+            ("Section", "Section"),
+            ("Item", "Item"),
+            ("Statement", "Statement"),
+            ("Guidance", "Guidance"),
+            ("Importance", "Importance"),
+            ("Score", "Score"),
+            ("Response", "Response"),
+            ("Improvements", "Improvements"),
+        ],
         data,
         title="",
     ) }}
