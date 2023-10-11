@@ -24,3 +24,6 @@ Dundee/HIC
 
 
 :download:`satre-uod-evaluation-20231011.csv`
+
+Note the HIC-TRE is related to but not the same as the open-source [TREEHOOSE](https://github.com/HicResearch/TREEHOOSE) platform.
+However it should be possible to satisfy all **Mandatory** SATRE technical requirements using TREEHOOSE.
