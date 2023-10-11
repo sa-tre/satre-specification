@@ -4,8 +4,8 @@
 
 The specification is presented in terms of the capabilities that a team running a TRE should aim for across all aspects of TRE provision.
 
-This page explains what the specification is and how it’s structured. 
-It also describes how the importance of components is categorised. 
+This page explains what the specification is and how it’s structured.
+It also describes how the importance of components is categorised.
 Consult the {ref}`FAQs <faqs>` for more on what the specification _is not_.
 
 :::{note}
@@ -81,9 +81,9 @@ Any particular TRE implementation should be able to {ref}`score itself against e
 
 ## Roles
 
-A TRE needs to consider many different stakeholders. 
-SATRE provides specific roles which may or may not match titles used in your organisation. 
-However each of these are important to the successful operation of a TRE. 
+A TRE needs to consider many different stakeholders.
+SATRE provides specific roles which may or may not match titles used in your organisation.
+However each of these are important to the successful operation of a TRE.
 Roles are grouped into:
 
 {ref}`1. Project Roles <project_roles>`
