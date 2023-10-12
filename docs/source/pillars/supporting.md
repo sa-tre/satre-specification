@@ -189,20 +189,20 @@ How the {ref}`TRE operator <infrastructure_roles>` involves the public in its pr
   - Guidance
   - Importance
 * - 4.8.1.
-  - All public engagement activities must be representative and inclusive (\*optional for TREs without public sector data).
+  - All public engagement activities must include a range of perspectives and be inclusive (\*optional for TREs without personal data).
   - Any public engagement activity carried out by TREs should involve diverse participants and that activities are accessible.
     Recruitment plans should consider how to proactively reach a representative sample of people or target particular groups of people where relevant
     This could include following guidelines such as [PEDRI](https://www.pedri.org.uk/).
   - Mandatory\*
 * - 4.8.2.
-  - Details of TRE operations, data available and projects which have accessed the data should be publicly available (\*optional for TREs without public sector data).
+  - Details of TRE operations, data available and projects which have accessed the data should be publicly available (\*optional for TREs without personal data).
   - TREs should be as transparent as possible by providing information online.
     Where information is made available online this should be written in clear language understandable to general public.
     A record of projects which have accessed data via the TRE should be kept and made available.
     Where possible it should include name, summaries, public benefit (if relevant) and organisations involved
   - Mandatory\*
 * - 4.8.3.
-  - Members of the public should be included in TRE operations and/or oversight (\*optional for TREs without public sector data).
+  - Members of the public should be included in TRE operations and/or oversight (\*optional for TREs without personal data).
   - Members of the public can be involved via presence on steering groups or project approvals panels.
     Alternatively TRE's can establish separate public panels available for both researchers and TRE staff to consult.
     This is especially relevant for TREs with public sector data.
