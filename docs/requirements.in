@@ -2,3 +2,6 @@ myst-parser
 openpyxl
 Sphinx
 sphinx-rtd-theme
+# Fork of sphinxcontrib.datatemplates
+# https://github.com/sa-tre/sphinx-datatemplates/tree/multiline-table-item
+git+https://github.com/sa-tre/sphinx-datatemplates@eab83229550a19756b23d6f2d21212138f509ebb
