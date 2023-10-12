@@ -73,6 +73,9 @@ These components are each labelled with an importance:
 :Recommended: Most TREs should have this component, but it is not essential.
 :Optional: Many TREs would benefit from this component, however, we recognise there are reasons a {ref}`TRE operator <infrastructure_roles>` may actively choose not to implement it.
 
+Some components are mandatory in some circumstances but not others.
+These are indicated by an asterisk `Mandatory*`, with details provided in the statement.
+
 {ref}`TRE operator <infrastructure_roles>`s are able to demonstrate that they meet the specification by showing they can fulfil all **mandatory** components.
 Future versions of the specification may introduce more granular levels of evaluation, for instance tiered level of accreditation based on fulfilment of mandatory, recommended and optional components respectively.
 

@@ -189,18 +189,23 @@ How the {ref}`TRE operator <infrastructure_roles>` involves the public in its pr
   - Guidance
   - Importance
 * - 4.8.1.
-  - You should ensure that all public engagement activities are representative and inclusive.
-  - Any public engagement activity carried out by TREs should make sure they are involving a representative sample where possible and that activities are accessible and open.
+  - All public engagement activities must include a range of perspectives and be inclusive (\*optional for TREs without personal data).
+  - Any public engagement activity carried out by TREs should involve diverse participants and that activities are accessible.
+    Recruitment plans should consider how to proactively reach a representative sample of people or target particular groups of people where relevant
     This could include following guidelines such as [PEDRI](https://www.pedri.org.uk/).
-  - Recommended
+  - Mandatory\*
 * - 4.8.2.
-  - You could publicly share the details of any projects which use the TRE.
-  - This may be via the TRE website or annual reports.
-  - Optional
+  - Details of TRE operations, data available and projects which have accessed the data should be publicly available (\*optional for TREs without personal data).
+  - TREs should be as transparent as possible by providing information online.
+    Where information is made available online this should be written in clear language understandable to general public.
+    A record of projects which have accessed data via the TRE should be kept and made available.
+    Where possible it should include name, summaries, public benefit (if relevant) and organisations involved
+  - Mandatory\*
 * - 4.8.3.
-  - You could include members of the public in your approvals process.
-  - This may be carried out via a separate public panel or by including members of the public on an approvals panel.
-  - Optional
+  - Members of the public should be included in TRE operations and/or oversight (\*optional for TREs without personal data).
+  - Members of the public can be involved via presence on steering groups or project approvals panels.
+    Alternatively TRE's can establish separate public panels available for both researchers and TRE staff to consult.
+  - Mandatory\*
 * - 4.8.4.
   - You should publicly share details of incidents, near misses, and mitigations in a timely fashion, in line with good practices for responsible disclosure.
   - This may be via the TRE website or annual reports.
