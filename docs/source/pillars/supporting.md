@@ -205,7 +205,6 @@ How the {ref}`TRE operator <infrastructure_roles>` involves the public in its pr
   - Members of the public should be included in TRE operations and/or oversight (\*optional for TREs without personal data).
   - Members of the public can be involved via presence on steering groups or project approvals panels.
     Alternatively TRE's can establish separate public panels available for both researchers and TRE staff to consult.
-    This is especially relevant for TREs with public sector data.
   - Mandatory\*
 * - 4.8.4.
   - You should publicly share details of incidents, near misses, and mitigations in a timely fashion, in line with good practices for responsible disclosure.
