@@ -895,17 +895,17 @@ The evaluation below has been carried out for the Turing's production TRE, using
   - The platform is based on Microsoft Azure cloud service and data is held within an Azure Storage Account.
     We have process forms in place for data deletion during the TRE project duration, and end-project termination whereby all data and TRE cloud infrastructure is deleted.
     An administrator could provide proof that the data has been deleted by showing the Azure Storage Account no longer exists, or that it is empty.
-* - 3.1.12.
+* - 3.1.11.
   - 2
   - The input data is immutable to users, it is kept in a folder that is read-only for TRE users.
     The only way input data can be modified is through the ingress process, which is logged.
-* - 3.1.13.
+* - 3.1.12.
   - 2
   - Ingress and egress are only possible by approved parties using a secure upload/download procedure.
     This involves using secure email to share a time-limited upload/download token for use with Azure Storage Explorer.
     Copying data into the TRE from the clipboard is not permitted.
     All users must complete relevant training before accessing a TRE, and sign our terms-of-use, which make them aware that they must not attempt to move data in or out of the environment without authorisation.
-* - 3.1.14.
+* - 3.1.13.
   - 2
   - Before data is added to the TRE, the research PI and other stakeholders must complete an ingress request form detailing the data to be included.
     The decision on what data is required for the project is with the {ref}`information asset owner <data_roles>` and project PI.
