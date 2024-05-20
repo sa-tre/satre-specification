@@ -57,6 +57,7 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jawsgrant"><img src="https://avatars.githubusercontent.com/u/105919569?v=4?s=100" width="100px;" alt="jawsgrant"/><br /><sub><b>jawsgrant</b></sub></a><br /><a href="#ideas-jawsgrant" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/machintim"><img src="https://avatars.githubusercontent.com/u/86052684?v=4?s=100" width="100px;" alt="machintim"/><br /><sub><b>machintim</b></sub></a><br /><a href="#ideas-machintim" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-machintim" title="Content">🖋</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Amachintim" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/willc-RISG"><img src="https://avatars.githubusercontent.com/u/100122086?v=4?s=100" width="100px;" alt="willc-RISG"/><br /><sub><b>willc-RISG</b></sub></a><br /><a href="#ideas-willc-RISG" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ywharton"><img src="https://avatars.githubusercontent.com/u/12757716?v=4?s=100" width="100px;" alt="ywharton"/><br /><sub><b>ywharton</b></sub></a><br /><a href="https://github.com/sa-tre/satre-specification/issues?q=author%3Aywharton" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>

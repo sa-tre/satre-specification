@@ -390,6 +390,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "ywharton",
+      "name": "ywharton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12757716?v=4",
+      "profile": "https://github.com/ywharton",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
