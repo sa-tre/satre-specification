@@ -2,7 +2,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 
@@ -131,9 +131,10 @@ Instructions for building the specification document locally can be found [here]
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/snewho"><img src="https://avatars.githubusercontent.com/u/53340893?v=4?s=100" width="100px;" alt="Steven Newhouse"/><br /><sub><b>Steven Newhouse</b></sub></a><br /><a href="#ideas-snewho" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/briancrogers"><img src="https://avatars.githubusercontent.com/u/15003276?v=4?s=100" width="100px;" alt="briancrogers"/><br /><sub><b>briancrogers</b></sub></a><br /><a href="#ideas-briancrogers" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/crickpetebarnsley"><img src="https://avatars.githubusercontent.com/u/56251897?v=4?s=100" width="100px;" alt="crickpetebarnsley"/><br /><sub><b>crickpetebarnsley</b></sub></a><br /><a href="#ideas-crickpetebarnsley" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/fadeniyi123"><img src="https://avatars.githubusercontent.com/u/91486205?v=4?s=100" width="100px;" alt="fadeniyi123"/><br /><sub><b>fadeniyi123</b></sub></a><br /><a href="#ideas-fadeniyi123" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Davsarper"><img src="https://avatars.githubusercontent.com/u/118986872?v=4?s=100" width="100px;" alt="davsarper"/><br /><sub><b>davsarper</b></sub></a><br /><a href="#content-davsarper" title="Content">🖋</a></td>
     </tr>
     <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/fadeniyi123"><img src="https://avatars.githubusercontent.com/u/91486205?v=4?s=100" width="100px;" alt="fadeniyi123"/><br /><sub><b>fadeniyi123</b></sub></a><br /><a href="#ideas-fadeniyi123" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/harisood"><img src="https://avatars.githubusercontent.com/u/67151373?v=4?s=100" width="100px;" alt="harisood"/><br /><sub><b>harisood</b></sub></a><br /><a href="#content-harisood" title="Content">🖋</a> <a href="#ideas-harisood" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Aharisood" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jawsgrant"><img src="https://avatars.githubusercontent.com/u/105919569?v=4?s=100" width="100px;" alt="jawsgrant"/><br /><sub><b>jawsgrant</b></sub></a><br /><a href="#ideas-jawsgrant" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/machintim"><img src="https://avatars.githubusercontent.com/u/86052684?v=4?s=100" width="100px;" alt="machintim"/><br /><sub><b>machintim</b></sub></a><br /><a href="#ideas-machintim" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-machintim" title="Content">🖋</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Amachintim" title="Reviewed Pull Requests">👀</a></td>
