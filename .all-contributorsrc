@@ -399,6 +399,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "davsarper",
+      "name": "davsarper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118986872?v=4",
+      "profile": "https://github.com/Davsarper",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsSortAlphabetically": true,
