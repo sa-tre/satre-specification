@@ -52,6 +52,10 @@ This {term}`business process <business process>` involves measures, safeguards, 
   - You must ensure controls are implemented to ensure the requirements are met.
   - Control implementation should be systematic and directly aligned to the internal and stakeholder requirements.
   - Mandatory
+* - 1.1.3.
+  - Your TRE should adhere to one or more external security standards.
+  - These should be stated to all stakeholders.
+  - Recommended
 ```
 
 ### Resource Allocation Process
@@ -66,7 +70,7 @@ This {term}`business process <business process>` involves assigning, distributin
   - Statement
   - Guidance
   - Importance
-* - 1.1.3.
+* - 1.1.4.
   - You must ensure there are adequate resources to meet information governance requirements.
   - Ensuring information governance controls are suitable and enforced requires an investment of funding and people appropriate to the size of the TRE.
   - Mandatory
