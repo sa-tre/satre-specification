@@ -473,7 +473,7 @@ This {term}`business process <business process>` involves introducing and integr
   - Mandatory
 ```
 
-### Identity and Access Management Services
+### Identity and Access Management Application
 
 This {term}`application component <application component>` is a system to govern and control user identities, access privileges, authentication, and authorization within an organisation.
 
