@@ -43,7 +43,7 @@ We know that it can be daunting to start using Git and GitHub if you haven't wor
 We are here to help you figure out any of the jargon or confusing instructions you encounter ❤️!
 
 In order to contribute via GitHub, you'll need to set up a free account and sign in.
-Here are some [instructions](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to help you get going.
+Here are some [instructions](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) to help you get going.
 Remember that you can ask us any questions you need to along the way.
 
 (contributing-alternative-comment)=
