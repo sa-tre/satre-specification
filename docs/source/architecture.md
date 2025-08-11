@@ -1,20 +1,14 @@
 (architecture)=
 
-# The Architecture
+# SATRE Architecture
 
-This Standard Architecture for Trusted Research Environments (TREs) provides a comprehensive high-level architecture for research organisations handling sensitive data safely.
+The current version of the architecture can be viewed [here](https://satre-archimate.readthedocs.io/latest/).
 
-You can find an online version of the architecture [here](https://github-pages.arc.ucl.ac.uk/SATRE_Report/).
-
-A report on the architecture is available on [zenodo](https://zenodo.org/records/10053383).
+ This Standard Architecture for Trusted Research Environments (TREs) provides a comprehensive high-level architecture for research organisations handling sensitive data safely.
 
 The architecture is documented using the [ArchiMate](https://pubs.opengroup.org/architecture/archimate3-doc/) modelling language with models created using the open source modelling tool [Archi](https://www.archimatetool.com/).
 
 Capabilities an organisation requires to run a TRE are documented and deconstructed to show the elements (Roles, processes, applications and data) needed to realise those capabilities.
-
-Views are provided aligned to the capabilities and additional views show alignment external frameworks such as the [Five Safes](https://ukdataservice.ac.uk/help/secure-lab/what-is-the-five-safes-framework/).
-
-The Archimate files are managed in the [Architecture Repository](https://github.com/sa-tre/satre-archimate).
 
 The architecture and SATRE standard maps to the architecture meta-model below.
 
@@ -24,3 +18,17 @@ The architecture and SATRE standard maps to the architecture meta-model below.
 
 SATRE Architecture meta-model
 ```
+
+Views are provided aligned to the capabilities and additional views show alignment external frameworks such as the [Five Safes](https://ukdataservice.ac.uk/help/secure-lab/what-is-the-five-safes-framework/).
+
+The Archimate files are managed in the [Architecture Repository](https://github.com/sa-tre/satre-archimate).
+
+A report on the architecture is available on [zenodo](https://zenodo.org/records/10053383).
+
+## Versions
+
+Version | Release Date | Release Notes
+--------|---------------|--------------
+[Version 1.1](./Report_SATRE_1.1/index.html)| 2025-7-01| * Output Management added as capability as per specification.<br>* Specification Statements added as requirements and linked to capabilities.<br>* Added URL to specification statements in "documentation" where possible<br>* Supporting Capabilities pillar aligned to specification.<br>* Views created for all supporting capabilities.<br>* All requirements added to views.
+[Version 1.0](./Report_SATRE_1.1/index.html) | 2023-10-05 | 
+
