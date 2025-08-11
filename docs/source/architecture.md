@@ -2,7 +2,7 @@
 
 # SATRE Architecture
 
-The current version of the architecture can be viewed [here](https://satre-archimate.readthedocs.io/).
+The current version of the architecture can be viewed [here](https://satre-archimate.readthedocs.io/en/latest/?view=id-4349bc52159b48e9b785e9809a876c03).
 
 This Standard Architecture for Trusted Research Environments (TREs) provides a comprehensive high-level architecture for research organisations handling sensitive data safely.
 
