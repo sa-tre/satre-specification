@@ -94,12 +94,12 @@ At present operators have to interpret a range of frameworks, legislation and gu
 These include:
 
 - [Office for National Statistics: 5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/)
-- [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/record/4594704)
-- [UK Health Data Research Alliance: TRE Principles and Best Practices](https://zenodo.org/record/5767586)
+- [UK Health Data Research Alliance: TRE Green Paper](https://zenodo.org/records/4594704)
+- [UK Health Data Research Alliance: TRE Principles and Best Practices](https://zenodo.org/records/5767586)
 - [Design choices for productive, secure, data-intensive research at scale in the cloud](https://arxiv.org/abs/1908.08737)
 - [ISO27001](https://www.iso.org/standard/27001)
 - [Digital Economy Act](https://www.legislation.gov.uk/ukpga/2017/30/contents/enacted)
-- [Handbook on Statistical Disclosure Control for Outputs](https://ukdataservice.ac.uk/app/uploads/thf_datareport_aw_web.pdf)
+- [Handbook on Statistical Disclosure Control for Outputs](https://ukdataservice.ac.uk/app/uploads/sdc-handbook-v2.0.pdf)
 
 This makes for inconsistent governance standards and makes it hard for researchers to work consistently in different environments.
 
@@ -122,4 +122,4 @@ Find out more about how to {ref}`contribute to the SATRE Specification <contribu
 
 We are grateful for the following support for this project:
 
-- UKRI via the DARE UK Phase 1 driver projects programme ([SATRE](https://dareuk.org.uk/driver-project-satre/))
+- UKRI via the DARE UK Phase 1 driver projects programme ([SATRE](https://dareuk.org.uk/how-we-work/previous-activities/dare-uk-phase-1-driver-projects/satre-standardised-architecture-for-trusted-research-environments/))
