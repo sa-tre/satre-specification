@@ -39,6 +39,11 @@ linkcheck_ignore = [
     "satre.xlsx",
     # DOS/bot protection returns 403 for clients like curl, httpie
     "^https://www.turing.ac.uk/.*",
+    # These MSOffice forms are public, but seem to be blocked to the CI check
+    "https://forms.office.com/e/FuFyNGx3hw",
+    "https://forms.office.com/e/HdaVSj2V0c",
+    # Blocked in CI
+    "https://www.dundee.ac.uk/hic",
 ]
 
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html

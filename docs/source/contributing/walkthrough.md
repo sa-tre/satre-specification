@@ -25,8 +25,7 @@ Collaboration Cafés happen at 3pm on the 1st Tuesday and 3rd Thursday of the mo
 Please fill in [this form](https://forms.office.com/pages/responsepage.aspx?id=p_SVQ1XklU-Knx-672OE-XMfskt9FY5HraQ6BiwaEGBUNUg1T05DNEJMNEtaN0JOOURKTDBFUENFQi4u) to register your attendance in advance.
 
 Collaboration Cafés are run using HackMD documents that will contain the meeting agenda and a place to share notes.
-If you are unfamiliar with HackMD, please see [this guide](https://hackmd.io/@turingway/hackmd-guide) on how to use it.
-Please also see a [sample HackMD](https://hackmd.io/N7EBtM6iS2OQsWCPWC-ojg) from our Collaboration Café on the 18th May 2023.
+Please see a [sample HackMD](https://hackmd.io/N7EBtM6iS2OQsWCPWC-ojg) from our Collaboration Café on the 18th May 2023.
 Each Collaboration Café uses Breakout Rooms where participants will work on themes, e.g. Risk Management or Training Requirements.
 Typically, each Breakout Room is linked to an Issue on the [SATRE GitHub Issues Board](https://github.com/sa-tre/satre-specification/issues).
 
@@ -117,7 +116,7 @@ SATRE repository docs directory
 ```
 
 You can find this by navigating to `docs` → `source` → `specification.md`.
-This is the specification, written in [Markdown](https://hackmd.io/@turingway/hackmd-guide), that renders into a website (which you can access from the `About` section).
+This is the specification, written in [Markdown](https://jupyterbook.org/en/stable/content/myst.html), that renders into a website (which you can access from the `About` section).
 
 Most `Issues` and `Pull requests` will be related to this file specifically - and this file is the official specification.
 You can read more about `Issues` and `Pull requests` below.
