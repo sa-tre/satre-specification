@@ -179,6 +179,9 @@ To report Code-of-Conduct violations, please use the contact [specified in the C
 
 We welcome and recognise all kinds of contributions, from discussing ideas, suggesting features, improving governance, maintaining the project, and more.
 
+<!-- Uncomment when https://github.com/orgs/the-turing-way/discussions/4245 is resolved -->
+
+<!--
 This project follows the [All Contributors specification](https://allcontributors.org/docs/en/overview).
 The All Contributors bot usage is described [here](https://allcontributors.org/docs/en/bot/usage).
 
@@ -203,3 +206,4 @@ What happens if you accidentally run the bot before the previous run was merged 
 Simply close the pull request and delete the branch (`all-contributors/add-<username>`).
 If you are unable to do this for any reason, please let us know by opening an issue, and SATRE team members will be very happy to help!
 :::
+-->
