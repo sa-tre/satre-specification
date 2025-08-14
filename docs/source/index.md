@@ -9,6 +9,7 @@ architecture.md
 principles.md
 roles.md
 faqs.md
+changes.md
 ```
 
 ```{toctree}
