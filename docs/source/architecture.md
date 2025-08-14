@@ -34,7 +34,7 @@ A report on the architecture is available on [zenodo](https://zenodo.org/records
 * - Version
   - Release Date
   - Release Notes
-* - [1.1.0](https://satre-archimate.readthedocs.io/v1.1.0/)
+* - [1.1.0](https://satre-archimate.readthedocs.io/en/v1.1.0/)
   - 2025-07-01
   - - Output Management added as capability as per specification.
     - Specification Statements added as requirements and linked to capabilities.
