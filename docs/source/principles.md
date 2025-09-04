@@ -12,7 +12,7 @@ They consist of the following parts:
 
 (principle_usability)=
 
-## Usability
+## Principle 1 - Usability
 
 ### Statement
 
@@ -39,7 +39,7 @@ The design and configuration of a TRE should allow all individuals involved with
 
 (principle_maintaining_trust)=
 
-## Maintaining public trust
+## Principle 2 - Maintaining public trust
 
 ### Statement
 
@@ -67,7 +67,7 @@ Being transparent about the data held and the projects or organisations who acce
 
 (principle_observability)=
 
-## Observability
+## Principle 3 - Observability
 
 ### Statement
 
@@ -92,7 +92,7 @@ This applies to both technical systems and policies/processes.
 
 (principle_standardisation)=
 
-## Standardisation
+## Principle 4 - Standardisation
 
 ### Statement
 
