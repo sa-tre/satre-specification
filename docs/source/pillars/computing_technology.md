@@ -55,7 +55,7 @@ This may include desktop, command-line and/or code-submission interfaces.
 
 ### End user software tools
 
-This {term}`application component <application component>` is the tools used by {ref}`data consumers <project_roles>` inside a TRE, such as programming languages, IDEs and desktop applications.
+This {term}`application component <application component>` concerns the tools used by {ref}`data consumers <project_roles>` inside a TRE, such as programming languages, IDEs and desktop applications.
 
 ```{list-table}
 :header-rows: 1
@@ -66,7 +66,7 @@ This {term}`application component <application component>` is the tools used by 
   - Guidance
   - Importance
 * - 2.1.4.
-  - Your TRE should be accessed via a user interface accessible using commonly available applications.
+  - Your TRE should be accessed via a user interface using commonly available applications.
   - TREs which allow users to connect from their own devices should not require the installation of any bespoke TRE application on the user's device.
     In practice a web browser is the most common way to achieve this.
   - Recommended
@@ -95,7 +95,7 @@ This {term}`application component <application component>` is the tools used by 
     You must be confident that only licensing information is sent to this server and that any network connections are secure.
   - Mandatory
 * - 2.1.10.
-  - Your TRE must provide software applications that are relevant to working with the data in the TRE.
+  - Your TRE must provide software applications that are required by the {ref}`data consumers <project_roles>` working in the TRE.
   - The tools provided will depend on the types of data in the TRE, and the expectations of users of the TRE.
     For users working in a TRE via a virtual desktop, this may include programming languages such as Python and R, integrated development environments, Jupyter notebooks, office type applications such as word processors and spreadsheets, command line tools, etc.
     TREs with non-desktop interfaces should similarly consider carefully which applications are best suited for the {ref}`data consumers <project_roles>` needs when interacting with the data, for example "point and click" GUI tools for querying a database and generating plots of data.
@@ -350,8 +350,8 @@ This {term}`business process <business process>` involves forecasting and determ
   - Guidance
   - Importance
 * - 2.3.1.
-  - You must ensure that all projects understand what resources are available and what the associated costs will be before the project starts.
-  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used
+  - You must ensure that all project members understand what resources are available and what the associated costs will be before the project starts.
+  - For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (_e.g._ GPUs) can be used.
     Projects should use this information to understand whether the available resources will be sufficient for their requirements.
   - Mandatory
 * - 2.3.2.
