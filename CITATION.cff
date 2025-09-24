@@ -1,0 +1,21 @@
+# https://citation-file-format.github.io/
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
+
+cff-version: 1.2.0
+title: Standard Architecture for Trusted Research Environments (SATRE)
+message: Please cite SATRE using the metadata from this file
+type: software
+authors:
+  - {}
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.8233509
+repository-code: "https://github.com/sa-tre/satre-specification"
+url: "https://satre-specification.readthedocs.io"
+abstract: description
+keywords:
+  - safehaven
+  - securedata
+  - tre
+  - trustedresearchenvironment
+license: CC-BY-4.0
