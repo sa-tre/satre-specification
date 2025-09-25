@@ -8,6 +8,7 @@ specification.md
 architecture.md
 principles.md
 roles.md
+alignment.md
 faqs.md
 changes.md
 ```
