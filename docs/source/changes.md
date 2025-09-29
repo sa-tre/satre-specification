@@ -1,5 +1,12 @@
 # Changes
 
+## v1.1.1 - 2025-10-01
+
+### Alignment and Architecture
+
+- Added the SATRE Centric Control Alignment Table for Trusted Research Environments which compares controls across other assurance and accreditation models
+- Fixes some minor typographical errors
+
 ## v1.1.0 - 2025-08-18
 
 ### Architecture
