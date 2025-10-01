@@ -7,7 +7,7 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
       - uses: pre-commit/action@v3.0.1
 
@@ -18,7 +18,7 @@ jobs:
       run:
         working-directory: ./docs/
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with:
           python-version: 3.13
@@ -36,7 +36,7 @@ jobs:
         working-directory: ./docs/
     needs: build
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with:
           python-version: 3.13
