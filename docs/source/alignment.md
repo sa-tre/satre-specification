@@ -1,4 +1,4 @@
-(aligntment)=
+(alignment)=
 
 # SATRE Control Alignment
 
