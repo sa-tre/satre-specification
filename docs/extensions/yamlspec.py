@@ -74,7 +74,7 @@ class YamlSpecDirective(SphinxDirective):
         header_row = nodes.row()
         for title, _ in COLUMNS:
             entry = nodes.entry(classes=["head"])
-            entry += nodes.paragraph(text=title.capitalize())
+            entry += nodes.paragraph(text=title.replace("_", " ").capitalize())
             header_row += entry
         thead += header_row
         tgroup += thead
@@ -87,7 +87,7 @@ class YamlSpecDirective(SphinxDirective):
             row = nodes.row()
             for key, _ in COLUMNS:
                 entry = nodes.entry()
-                content_text = str(item.get(key, ""))
+                content_text = str(item[key] or "")
 
                 # Use nested_parse for multi-line fields to process reST content (like links)
                 if key in ["statement", "guidance"]:
@@ -106,6 +106,17 @@ class YamlSpecDirective(SphinxDirective):
 
                     # Add the children (paragraphs, links, etc.) of the parsed container to the entry
                     entry.extend(content_node.children)
+                elif key == "architecture_url" and content_text:
+                    reference_node = nodes.reference(
+                        "",  # The raw source text (often left empty for programmatic generation)
+                        nodes.Text(content_text),
+                        refuri=content_text,
+                        # 'external' is a common class to ensure Sphinx/docutils treats it as an external link
+                        classes=["external"],
+                    )
+                    paragraph_node = nodes.paragraph("")
+                    paragraph_node.append(reference_node)
+                    entry += paragraph_node
                 else:
                     # Simple text fields (requirement, importance) are wrapped in a paragraph
                     entry += nodes.paragraph(text=content_text)
