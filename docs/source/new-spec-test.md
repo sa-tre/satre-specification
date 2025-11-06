@@ -1,5 +1,5 @@
 # Previewing the new spec YAML
 
-```{yaml-specification} spec/specification-test.yaml
+```{yaml-specification} spec/specification.yaml
 
 ```

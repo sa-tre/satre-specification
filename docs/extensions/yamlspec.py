@@ -6,11 +6,13 @@ from sphinx.util.docutils import SphinxDirective
 
 # Define the columns and their proportional widths for the table
 COLUMNS = [
-    ("requirement", 10),
-    ("importance", 10),
-    ("capability", 25),
+    ("pillar", 10),
+    ("capability_index", 10),
+    ("requirement_index", 10),
     ("statement", 40),
     ("guidance", 15),
+    ("importance", 10),
+    ("architecture_url", 10),
 ]
 
 
@@ -88,7 +90,7 @@ class YamlSpecDirective(SphinxDirective):
                 content_text = str(item.get(key, ""))
 
                 # Use nested_parse for multi-line fields to process reST content (like links)
-                if key in ["capability", "statement", "guidance"]:
+                if key in ["statement", "guidance"]:
                     # Create a ViewList of lines for nested parsing
                     view_list = ViewList()
                     # Add content line by line, ensuring correct source/line references
