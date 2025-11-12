@@ -4,6 +4,8 @@
 :hidden:
 :caption: Overview
 
+new-spec-test.md
+
 specification.md
 architecture.md
 principles.md
