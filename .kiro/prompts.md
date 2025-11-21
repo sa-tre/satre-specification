@@ -4,6 +4,59 @@ This file records all prompts and AI interactions for this project.
 
 ## Session: 2025-11-21
 
+### Prompt 9: Generate YAML Files from New Source
+**Date:** 2025-11-21  
+**Request:** Create the YAML files using the new SATRE_source.xlsx file
+
+**Action Taken:**
+- Created Python scripts from the Jupyter notebooks (create_yaml.py and create_hierarchy.py)
+- Installed required package: ruamel.yaml
+- Fixed script to handle cells without hyperlinks
+- Successfully ran create_yaml.py to generate specification.yaml (160 requirements)
+- Successfully ran create_hierarchy.py to generate specification-pillars.yaml (4 pillars)
+
+**Notes:**
+- The YAML files are now generated from SATRE_source.xlsx
+- specification.yaml contains flat list of all requirements
+- specification-pillars.yaml contains hierarchical structure organized by pillars
+- Python scripts can be used instead of Jupyter notebooks for easier automation
+
+---
+
+### Prompt 8: Update Source Excel File Reference
+**Date:** 2025-11-21  
+**Request:** Update the Jupyter notebooks to use the new SATRE_source.xlsx file as the source for generating YAML
+
+**Action Taken:**
+- Updated docs/source/spec/createyaml.ipynb to reference SATRE_source.xlsx instead of SATRE.2.0.-.Reorg.xlsx (2 occurrences)
+- hierarchy.ipynb doesn't need updating as it reads from the generated specification.yaml file
+
+**Notes:**
+- createyaml.ipynb reads the Excel file and generates specification.yaml
+- hierarchy.ipynb then processes specification.yaml to create specification-pillars.yaml
+- The old Excel file (SATRE.2.0.-.Reorg.xlsx) can potentially be removed once confirmed the new file works
+
+---
+
+### Prompt 7: Specification Scripts Location
+**Date:** 2025-11-21  
+**Request:** User indicated that the scripts that create the YAML file with the specification are in docs/source/spec
+
+**Action Taken:**
+- Listed contents of docs/source/spec folder
+- Found key files:
+  - createyaml.ipynb - Jupyter notebook for creating YAML
+  - hierarchy.ipynb - Jupyter notebook for hierarchy processing
+  - SATRE.2.0.-.Reorg.xlsx - Excel source file
+  - specification-pillars.yaml - YAML output (pillars version)
+  - specification.yaml - YAML output (main specification)
+
+**Notes:**
+- The workflow appears to be: Excel → Jupyter notebooks → YAML files
+- Two YAML outputs suggest different formats/structures of the specification
+
+---
+
 ### Prompt 6: Add SATRE Control Alignment Link
 **Date:** 2025-11-21  
 **Request:** Add a link to alignment.md under the Specification heading in index.md, labeled as "SATRE Control Alignment"
