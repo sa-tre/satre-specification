@@ -314,3 +314,40 @@ This file records all prompts and AI interactions for this project.
 - Better readability for the main content columns
 
 ---
+
+### Prompt 20: Make Statement and Guidance Columns Equal Width
+**Date:** 2025-11-21  
+**Request:** Make the statement and guidance columns the same width
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py column widths:
+  - Statement: 50 → 38
+  - Guidance: 26 → 38
+  - Both columns now have equal width of 38 units
+
+**Notes:**
+- Statement and guidance columns are now balanced at 38 units each
+- Total width for these two columns: 76 units (76% of table)
+- Other columns remain: SATRE Ref (4), Capability (12), Importance (8)
+- Equal width provides visual balance and consistency
+
+---
+
+### Prompt 21: Restore Sidebar to Default Width
+**Date:** 2025-11-21  
+**Request:** Put the sidebar back to the default
+
+**Action Taken:**
+- Updated docs/source/_static/custom.css:
+  - Removed custom .wy-nav-side width styling
+  - Removed custom .wy-nav-content-wrap margin styling
+  - Removed responsive media query for sidebar
+  - Sidebar will now use default 300px width
+
+**Notes:**
+- Sidebar restored to default 300px width
+- Main content area still has 1200px max-width (wider than default)
+- Table styling remains (full width, optimized columns)
+- Only sidebar customization removed, other improvements kept
+
+---

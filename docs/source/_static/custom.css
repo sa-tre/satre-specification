@@ -1,12 +1,4 @@
-/* Narrow the left sidebar menu */
-.wy-nav-side {
-    width: 200px;  /* Default is 300px, reducing to 200px */
-}
-
-/* Adjust the main content area to account for narrower sidebar */
-.wy-nav-content-wrap {
-    margin-left: 200px;  /* Match the sidebar width */
-}
+/* Sidebar at default width - no custom styling */
 
 /* Make the main viewing frame wider */
 .wy-nav-content {
@@ -24,12 +16,4 @@
     overflow-wrap: break-word;
 }
 
-/* On smaller screens, keep responsive behavior */
-@media screen and (max-width: 768px) {
-    .wy-nav-side {
-        width: 300px;  /* Keep original width on mobile */
-    }
-    .wy-nav-content-wrap {
-        margin-left: 0;
-    }
-}
+

@@ -7,12 +7,12 @@ from sphinx.util.docutils import SphinxDirective
 # Define the columns and their proportional widths for the table
 # Format: (field_name, width, display_name)
 # Note: pillar column removed as it will be shown as section headings
-# Widths optimized to maximize statement and guidance columns
+# Statement and guidance columns have equal width for balance
 COLUMNS = [
     ("requirement_index", 4, "SATRE Ref"),
     ("capability", 12, None),
-    ("statement", 50, None),
-    ("guidance", 26, None),
+    ("statement", 38, None),
+    ("guidance", 38, None),
     ("importance", 8, None),
 ]
 
