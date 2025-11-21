@@ -27,6 +27,7 @@ extensions = [
     "sphinxcontrib.datatemplates",
     "myst_parser",
     "satrecsv",
+    "yamlspec",
 ]
 
 # The :download: role inserts a hash into the URL which varies between builds
