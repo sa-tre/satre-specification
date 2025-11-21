@@ -675,3 +675,42 @@ This file records all prompts and AI interactions for this project.
 - Better visual hierarchy in the sidebar
 
 ---
+
+### Prompt 37: Fix TRE Logo Path in Sidebar
+**Date:** 2025-11-21  
+**Request:** The TRE logo file is not found/working
+
+**Action Taken:**
+- Copied TRE_LIGHT_STACKED.png to docs/source/_static/ folder
+- Updated docs/source/_static/custom.js:
+  - Changed image path from `../_images/TRE_LIGHT_STACKED.png` to `_static/TRE_LIGHT_STACKED.png`
+  - _static path is more reliable and always available in Sphinx builds
+  - Simpler path resolution without complex relative paths
+
+**Notes:**
+- Image now in _static folder alongside CSS and JS files
+- _static files are copied directly to build output
+- More reliable path for JavaScript to reference
+- Should work correctly in both local and ReadTheDocs builds
+
+---
+
+### Prompt 38: Make Sidebar Logo Section Smaller with Grey Background
+**Date:** 2025-11-21  
+**Request:** Make the section at the top of the sidebar smaller and put a light grey background on it
+
+**Action Taken:**
+- Updated docs/source/_static/custom.css:
+  - Changed background-color from #ffffff to #f5f5f5 (light grey)
+  - Reduced padding on .wy-side-nav-search from default to 10px vertical
+  - Reduced padding on logo link from 15px to 5px
+  - Reduced padding on logo image from 15px to 5px
+  - Added padding: 5px 0 to logo link for tighter spacing
+
+**Notes:**
+- Light grey background (#f5f5f5) provides subtle visual separation
+- Reduced padding makes the logo section more compact
+- Logo still centered and properly sized
+- More space for navigation menu below
+
+---
