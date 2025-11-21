@@ -8,6 +8,22 @@
     margin-left: 200px;  /* Match the sidebar width */
 }
 
+/* Make the main viewing frame wider */
+.wy-nav-content {
+    max-width: 1200px;  /* Default is 800px, increasing to 1200px */
+}
+
+/* Make specification tables use full width */
+.spec-table {
+    width: 100% !important;
+}
+
+/* Ensure table cells wrap text properly */
+.spec-table td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
 /* On smaller screens, keep responsive behavior */
 @media screen and (max-width: 768px) {
     .wy-nav-side {

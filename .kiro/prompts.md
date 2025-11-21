@@ -274,3 +274,43 @@ This file records all prompts and AI interactions for this project.
 - Custom CSS will be applied when documentation is built
 
 ---
+
+### Prompt 18: Make Main Viewing Frame Wider
+**Date:** 2025-11-21  
+**Request:** Make the main viewing frame wider
+
+**Action Taken:**
+- Updated docs/source/_static/custom.css:
+  - Added style for .wy-nav-content to increase max-width from 800px to 1200px
+  - This gives 50% more width for the main content area
+
+**Notes:**
+- Main content area now has max-width of 1200px (was 800px)
+- Combined with narrower sidebar (200px), provides much more space for content
+- Particularly beneficial for wide tables like the specification table
+- Responsive behavior maintained on smaller screens
+
+---
+
+### Prompt 19: Maximize Table Width and Statement/Guidance Columns
+**Date:** 2025-11-21  
+**Request:** Make the specification table wider, maximizing space for statement and guidance columns
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py column widths:
+  - SATRE Ref: 5 → 4 (narrower)
+  - Capability: 15 → 12 (narrower)
+  - Statement: 45 → 50 (wider, +5 units)
+  - Guidance: 20 → 26 (wider, +6 units)
+  - Importance: 10 → 8 (narrower)
+- Updated docs/source/_static/custom.css:
+  - Added .spec-table width: 100% to use full available width
+  - Added word-wrap styles to ensure text wraps properly in cells
+
+**Notes:**
+- Statement and guidance columns now get 76% of table width (50+26 out of 100)
+- Other columns minimized to essential widths
+- Table now uses full width of the 1200px content area
+- Better readability for the main content columns
+
+---

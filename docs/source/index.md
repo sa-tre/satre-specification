@@ -5,7 +5,7 @@
 :caption: Specification
 
 The SATRE Specification <new-spec-test.md>
-evaluation.md
+Evaluating against SATRE <evaluation.md>
 SATRE Control Alignment <alignment.md>
 Glossary <https://glossary.uktre.org/en/stable/>
 ```
