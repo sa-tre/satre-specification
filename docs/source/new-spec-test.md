@@ -1,4 +1,4 @@
-# Previewing the new spec YAML
+# The SATRE Specification
 
 ```{yaml-specification} spec/specification.yaml
 

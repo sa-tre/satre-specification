@@ -478,3 +478,26 @@ This file records all prompts and AI interactions for this project.
 - FAQs now appears as a proper section below Architecture
 
 ---
+
+### Prompt 28: Make Pillar Headings Clickable in TOC
+**Date:** 2025-11-21  
+**Request:** Make the pillars on the specification page subtitles clickable from the index menu
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py:
+  - Changed pillar headings from nodes.rubric to nodes.section
+  - Created proper section nodes with IDs (e.g., "information-governance")
+  - Added nodes.title for the heading text
+  - Tables now added to sections instead of directly to result_nodes
+  - Sections appear in the document TOC automatically
+- Updated docs/source/new-spec-test.md:
+  - Changed title from "Previewing the new spec YAML" to "The SATRE Specification"
+
+**Notes:**
+- Pillar sections now have proper IDs for linking
+- Will appear in the page's table of contents
+- Can be linked directly (e.g., #information-governance)
+- Sphinx automatically generates TOC entries for section nodes
+- Four pillar sections will be clickable subsections
+
+---

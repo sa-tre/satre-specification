@@ -187,9 +187,13 @@ class YamlSpecDirective(SphinxDirective):
         result_nodes = []
 
         for pillar_name, pillar_items in pillars.items():
-            # Add pillar heading
-            heading = nodes.rubric(text=pillar_name)
-            result_nodes.append(heading)
+            # Add pillar heading as a proper section so it appears in TOC
+            section = nodes.section(ids=[pillar_name.lower().replace(" ", "-")])
+            section['names'] = [pillar_name]
+            
+            # Create the heading
+            title = nodes.title(text=pillar_name)
+            section += title
 
             # Create table for this pillar
             table = nodes.table(classes=["spec-table", "colwidths-given"])
@@ -265,9 +269,14 @@ class YamlSpecDirective(SphinxDirective):
                 tbody += row
 
             tgroup += tbody
-            result_nodes.append(table)
+            
+            # Add table to the section
+            section += table
+            
+            # Add section to result nodes
+            result_nodes.append(section)
 
-        # 5. Return all nodes (headings + tables)
+        # 5. Return all nodes (sections with headings + tables)
         return result_nodes
 
 
