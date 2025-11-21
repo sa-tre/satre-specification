@@ -253,3 +253,24 @@ This file records all prompts and AI interactions for this project.
 - No YAML changes needed (only display logic)
 
 ---
+
+### Prompt 17: Narrow Left Sidebar Menu
+**Date:** 2025-11-21  
+**Request:** Narrow the menu on the left of the index page
+
+**Action Taken:**
+- Created docs/source/_static/custom.css with custom styles:
+  - Reduced sidebar width from 300px to 200px
+  - Adjusted main content margin to match new sidebar width
+  - Added responsive media query to maintain usability on mobile devices
+- Updated docs/source/conf.py:
+  - Added html_static_path = ["_static"]
+  - Added html_css_files = ["custom.css"]
+
+**Notes:**
+- Sidebar is now 200px wide (was 300px)
+- Gives more space to the main content area
+- Maintains responsive behavior on smaller screens
+- Custom CSS will be applied when documentation is built
+
+---
