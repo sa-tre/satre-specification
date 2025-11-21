@@ -42,7 +42,7 @@ SATRE (Standard Architecture for Trusted Research Environments) is the UK's firs
 
 TREs are secure computing environments specifically designed for research using sensitive or personal data. They enable researchers to access and analyze data safely while minimizing the risk of data exposure or release. SATRE brings consistency and best practice to how these environments are designed, operated, and governed.
 
-SATRE is built on four guiding principles: **Usability, Maintaining Public Trust, Observability, and Standardisation.** These principles ensure that TREs are not only secure and compliant but also accessible to researchers and trustworthy to the public.
+SATRE is built on four [guiding principles](principles.md): **Usability, Maintaining Public Trust, Observability, and Standardisation.** These principles ensure that TREs are not only secure and compliant but also accessible to researchers and trustworthy to the public.
 
 ### Introduction to the SATRE Project
 
@@ -77,13 +77,13 @@ The requirements are structured across four interconnected pillars.
 
 ### Four Pillars of SATRE
 
-**1. Information Governance**
+**1. [Information Governance](new-spec-test.md#information-governance)**
 Quality management, risk management, training delivery, member accreditation, and governance procedures that ensure TREs operate safely and ethically.<br>
-**2. Computing Technology**
+**2. [Computing Technology](new-spec-test.md#computing-technology-and-information-security)**
 End-user computing experience, infrastructure management, information security, and configuration management for secure data analysis environments.<br>
-**3. Data Management**
+**3. [Data Management](new-spec-test.md#data-management)**
 Data lifecycle management, identity and access management, output management, information discovery, and research metadata capabilities.<br>
-**4. Supporting Capabilities**
+**4. [Supporting Capabilities](new-spec-test.md#supporting-capabilities)**
 Financial management, public engagement and involvement, project management, procurement, and other essential operational functions.
 
 ## The SATRE Architecture
