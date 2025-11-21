@@ -399,3 +399,23 @@ This file records all prompts and AI interactions for this project.
 - More robust handling of edge cases (overlaps, existing links)
 
 ---
+
+### Prompt 24: Add Debugging and Multiple Path Resolution
+**Date:** 2025-11-21  
+**Request:** Glossary links still didn't work
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py with debugging and better path resolution:
+  - Added multiple possible paths for glossary file location
+  - Added print statements to debug glossary loading
+  - Tries: extensions/../.kiro/, extensions/../../.kiro/, cwd/.kiro/
+  - Prints which path was found and how many terms loaded
+  - Prints if term map is empty
+  - Added debug parameter to add_glossary_links_to_node
+
+**Notes:**
+- Need to check Sphinx build output to see debug messages
+- May need to verify glossary file is included in ReadTheDocs build
+- Path resolution might be different in ReadTheDocs environment
+
+---

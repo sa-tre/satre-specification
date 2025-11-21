@@ -23,8 +23,22 @@ GLOSSARY_BASE_URL = "https://glossary.uktre.org/en/stable/#term-"
 
 def load_glossary_terms():
     """Load glossary terms from the YAML file."""
-    glossary_path = Path(__file__).parent.parent / ".kiro" / "sourcefiles" / "uktre-glossary.yaml"
-    if not glossary_path.exists():
+    # Try multiple possible paths
+    possible_paths = [
+        Path(__file__).parent.parent / ".kiro" / "sourcefiles" / "uktre-glossary.yaml",
+        Path(__file__).parent.parent.parent / ".kiro" / "sourcefiles" / "uktre-glossary.yaml",
+        Path.cwd() / ".kiro" / "sourcefiles" / "uktre-glossary.yaml",
+    ]
+    
+    glossary_path = None
+    for path in possible_paths:
+        if path.exists():
+            glossary_path = path
+            print(f"Found glossary at: {glossary_path}")
+            break
+    
+    if not glossary_path:
+        print(f"Warning: Could not find glossary file. Tried: {[str(p) for p in possible_paths]}")
         return []
     
     try:
@@ -33,6 +47,7 @@ def load_glossary_terms():
             if "glossary" in data and isinstance(data["glossary"], list):
                 # Extract terms and sort by length (longest first) to match longer terms first
                 terms = [item["term"] for item in data["glossary"] if "term" in item]
+                print(f"Loaded {len(terms)} glossary terms")
                 return sorted(terms, key=len, reverse=True)
     except Exception as e:
         print(f"Warning: Could not load glossary: {e}")
@@ -49,7 +64,7 @@ def create_glossary_term_map(glossary_terms):
         term_map[term.lower()] = (term, url)
     return term_map
 
-def add_glossary_links_to_node(node, term_map):
+def add_glossary_links_to_node(node, term_map, debug=False):
     """
     Recursively process a docutils node tree and add glossary links.
     Replaces text nodes containing glossary terms with reference nodes.
@@ -107,7 +122,7 @@ def add_glossary_links_to_node(node, term_map):
     else:
         # Recursively process child nodes
         for child in list(node.children):
-            add_glossary_links_to_node(child, term_map)
+            add_glossary_links_to_node(child, term_map, debug)
 
 
 class YamlSpecDirective(SphinxDirective):
@@ -155,6 +170,10 @@ class YamlSpecDirective(SphinxDirective):
         # 3. Load glossary terms for linking
         glossary_terms = load_glossary_terms()
         term_map = create_glossary_term_map(glossary_terms)
+        if term_map:
+            print(f"Created term map with {len(term_map)} terms")
+        else:
+            print("Warning: No glossary terms loaded")
 
         # 4. Group specifications by pillar
         pillars = {}
