@@ -5,6 +5,7 @@
 :caption: Specification
 
 The SATRE Specification <new-spec-test.md>
+The SATRE Specification - pillars <new-spec-test-pillar.md>
 evaluation.md
 SATRE Control Alignment <alignment.md>
 Glossary <https://glossary.uktre.org/en/stable/>
