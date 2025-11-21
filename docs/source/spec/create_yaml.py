@@ -15,9 +15,16 @@ assert ws.cell(1,4).value == "Link to Architecture View"
 urls = []
 for n in range(1, 161):
     c = ws.cell(n + 1, 4)
-    if c.value and c.hyperlink:
-        print(c.hyperlink.target)
-        urls.append(c.hyperlink.target)
+    if c.hyperlink:
+        # Use hyperlink target if available
+        url = c.hyperlink.target
+        print(url)
+        urls.append(url)
+    elif c.value and isinstance(c.value, str) and c.value.startswith('http'):
+        # Use cell value if it's a URL string
+        url = c.value
+        print(url)
+        urls.append(url)
     else:
         urls.append(None)
 
@@ -25,6 +32,7 @@ for n in range(1, 161):
 def row_to_dict(r):
     d = {
         "pillar": r["Pillar"],
+        "capability": r["Capability"],
         "capability_index": str(r["Capability No."]),
         "requirement_index": r["Requirement No"].rstrip("."),
         "statement": r["Statement"],

@@ -12,14 +12,16 @@ specification:
               legislation, contractual obligations and ethical standards.\nRequirements
               must be monitored to ensure the TRE controls remain appropriate."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
           - requirement_index: 1.0.2
             statement: You must ensure controls are implemented to ensure the 
               requirements are met.
             guidance: Control implementation should be systematic and directly 
               aligned to the internal and stakeholder requirements.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad4
           - requirement_index: 1.0.3
             statement: You must ensure there are adequate resources to meet 
               information governance requirements.
@@ -27,7 +29,8 @@ specification:
               enforced requires an investment of funding and people appropriate 
               to the size of the TRE.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad5
       - capability_index: '1.2'
         statements:
           - requirement_index: 1.1.1
@@ -197,7 +200,8 @@ specification:
               project, and responsibilities concerning data handling are 
               understood by all parties.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339164
           - requirement_index: 1.3.2
             statement: You must have checks in place to ensure that any time 
               limited compliance requirements are maintained.
@@ -206,13 +210,15 @@ specification:
               responsible persons should also be monitored, for example a data owner
               leaving an organisation."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
           - requirement_index: 1.3.3
             statement: You must have checks in place to ensure that changes in 
               regulations are met for a project.
             guidance: .nan
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339166
           - requirement_index: 1.3.4
             statement: You must have standard processes in place for the end of 
               a project, that follow all legal requirements and data security 
@@ -220,7 +226,8 @@ specification:
             guidance: This includes the archiving of quality and log data along 
               with the archiving or deletion of data sets.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339167
           - requirement_index: 1.3.5
             statement: You could implement a portal that can provide a workflow 
               engine and database which automates the processes within this 
@@ -230,7 +237,8 @@ specification:
               is easier to achieve, with more consistent completion and automatic
               production of quality control and monitoring data."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339168
           - requirement_index: 1.3.6
             statement: You must keep a complete record of all the data assets 
               held within the system.
@@ -241,7 +249,8 @@ specification:
               to already exist within the wider organisation but may require augmenting
               for the TRE."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339169
           - requirement_index: 1.3.7
             statement: You should keep a complete record of all the research 
               studies and projects within the TRE current and past.
@@ -249,7 +258,8 @@ specification:
               study including a reference to data assets, project team members, 
               information asset owners and any compliance activities required.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339170
       - capability_index: '1.4'
         statements:
           - requirement_index: 1.4.1
@@ -258,7 +268,8 @@ specification:
               sensitive data.
             guidance: This may include ID checks or email/phone verification.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
           - requirement_index: 1.4.2
             statement: You must have clear onboarding processes in place for all
               roles within your TRE organisation.
@@ -266,7 +277,8 @@ specification:
               of use or confirming that they have completed role specific 
               training.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a1
           - requirement_index: 1.4.3
             statement: You must have a set of services to manage access to 
               resources based on identity.
@@ -274,13 +286,15 @@ specification:
               with technical controls to ensure the principle of least privilege
               is enforced.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a2
           - requirement_index: 1.4.4
             statement: You must not give anyone access to datasets without 
               agreement from the Data Controller.
             guidance: The Data Controller may choose to delegate this authority.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a3
           - requirement_index: 1.4.5
             statement: You must have robust and secure applications in place to 
               authenticate users (and services) within the TRE.
@@ -288,7 +302,8 @@ specification:
               to a minimum with common controls and standards applied across all
               such as MFA, password complexity *etc.*.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a4
           - requirement_index: 1.4.6
             statement: You must give each user of the TRE a unique logon with 
               changes to any records strictly controlled.
@@ -297,7 +312,8 @@ specification:
               records, affiliations, contract agreements and ethics approvals where
               required."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a5
       - capability_index: '1.5'
         statements:
           - requirement_index: 1.5.1
@@ -310,7 +326,8 @@ specification:
               analysis.\nSpecific training may also be required based on the data
               or information asset owner such as GCP."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
           - requirement_index: 1.5.2
             statement: You must ensure that relevant training is available for 
               all roles within the TRE organisation.
@@ -319,7 +336,8 @@ specification:
               or guidance to enable them to do so.\nDetails of what training is needed
               will have been determined above."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b8
           - requirement_index: 1.5.3
             statement: You must provide repeat or updated training where 
               necessary to account for changes in competency requirements.
@@ -328,7 +346,8 @@ specification:
               relevant and so policies and processes should enable people to demonstrate
               competency rather than unnecessarily repeating training."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b9
           - requirement_index: 1.5.4
             statement: You must maintain accurate training records that are 
               directly tied to the role and access levels within the TRE.
@@ -337,14 +356,16 @@ specification:
               people have completed the required training and that repeat training
               happens regularly."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b10
           - requirement_index: 1.5.5
             statement: You should accept proof of relevant training 
               certifications from trusted third parties.
             guidance: You might choose to trust certifications provided by known
               training providers or your institution’s partner organisations.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b11
           - requirement_index: 1.5.6
             statement: You could have a training platform capable of delivering 
               online training in a variety of formats.
@@ -353,14 +374,16 @@ specification:
               delivery formats, and accessible training modules for those with access
               requirements."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b12
           - requirement_index: 1.5.7
             statement: You could implement a learning management system (LMS) to
               manage courses and deliver training as required.
             guidance: Where possible an LMS should support a variety of course 
               content and testing.
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b13
           - requirement_index: 1.5.8
             statement: You could ensure that any courses you use are available 
               in standard, transferable formats.
@@ -368,7 +391,8 @@ specification:
               be shared between providers.\nThis could help facilitate standardisation
               of training provision for TRE users across organisations."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b14
           - requirement_index: 1.5.9
             statement: You could keep historical copies of courses in order to 
               demonstrate competency at a given point in time.
@@ -377,7 +401,8 @@ specification:
               to retain copies of superseded training along with versions of certifications
               within the training record."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b15
   - pillar_index: 2
     pillar: Computing technology and Information Security
     capabilities:
@@ -391,7 +416,8 @@ specification:
               text into a workspace.\nThis might not be relevant to your TRE, for
               example if your user interface does not have a clipboard."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
           - requirement_index: 2.1.2
             statement: Your TRE workspace should provide an environment familiar
               to your users.
@@ -400,7 +426,8 @@ specification:
               or a terminal.\nBespoke TRE-specific software should be avoided when
               widely used alternatives already exist."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b52
           - requirement_index: 2.1.3
             statement: A TRE could restrict data access from data consumers 
               entirely and provide an interface for submitting code.
@@ -408,7 +435,8 @@ specification:
               jobs that run over the data and return results without allowing 
               direct data access.
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b53
           - requirement_index: 2.1.4
             statement: Your TRE should be accessed via a user interface 
               accessible using commonly available applications.
@@ -417,7 +445,8 @@ specification:
               device.\nIn practice a web browser is the most common way to achieve
               this."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b54
           - requirement_index: 2.1.5
             statement: Your TRE must provide clear guidance on how to use 
               software tools and work with data in the TRE.
@@ -427,14 +456,16 @@ specification:
               oppose to within the TRE) should provide documentation detailing the
               mechanism by which code is submitted to the TRE."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b55
           - requirement_index: 2.1.6
             statement: Your TRE should, where possible, automatically apply 
               security related updates for user software.
             guidance: Reducing the risk of exploitable vulnerabilities in 
               installed software will increase the security of your TRE.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b56
           - requirement_index: 2.1.7
             statement: Your TRE could provide shared services that are 
               accessible to users in the same project.
@@ -442,7 +473,8 @@ specification:
               writing, and other web applications.\nThis must only be shared amongst
               users within the same project."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b57
           - requirement_index: 2.1.8
             statement: Your TRE must ensure that any shared services are only 
               available to users working on the same project.
@@ -450,7 +482,8 @@ specification:
               mixing of data between projects.\nTo prevent this it is necessary that
               each instance is only shared between users of a single project."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b58
           - requirement_index: 2.1.9
             statement: You must mitigate and record any risks introduced by the 
               use in your TRE of software that requires telemetry to function.
@@ -459,7 +492,8 @@ specification:
               only licensing information is sent to this server and that any network
               connections are secure."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b59
           - requirement_index: 2.1.10
             statement: Your TRE must provide software applications that are 
               relevant to working with the data in the TRE.
@@ -474,7 +508,8 @@ specification:
               GUI tools for querying a database and generating plots of data.\nThe
               set of tools should be reviewed regularly to ensure they are up to date."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b60
           - requirement_index: 2.1.11
             statement: Your TRE should provide tools to encourage best-practice 
               in reproducibly analysing data.
@@ -483,7 +518,8 @@ specification:
               This may include version control software, and tools for developing
               and running data analysis pipelines."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b61
           - requirement_index: 2.1.12
             statement: Your TRE could provide access to some public software 
               repositories or container registries.
@@ -491,7 +527,8 @@ specification:
               packages from Python or R repositories, or provide an internal 
               mirror.
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b62
           - requirement_index: 2.1.13
             statement: Your TRE could tightly control which packages are 
               available.
@@ -500,7 +537,8 @@ specification:
               packages and/or go through an approval process before allowing code
               into the technical environment."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b63
           - requirement_index: 2.1.14
             statement: Your TRE must maintain segregation of users and data from
               different projects when using non-standard compute.
@@ -511,7 +549,8 @@ specification:
               same node.\nIn a cloud hosted TRE virtual machines could be destroyed
               and recreated."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b64
           - requirement_index: 2.1.15
             statement: Your TRE should be able to provide access to high 
               performance computing or other scalable compute resource if 
@@ -522,7 +561,8 @@ specification:
               on a HPC cluster, or a dynamically created compute nodes on a cloud
               platform."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b65
           - requirement_index: 2.1.16
             statement: Your TRE should be able to provide access to accelerators
               such as GPUs if required by users.
@@ -531,7 +571,8 @@ specification:
               to users whether GPUs and other resources are available whilst projects
               are being assessed."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b66
           - requirement_index: 2.1.17
             statement: Your TRE could make data available to data consumers 
               using common database systems such as PostgreSQL, MSSQL or 
@@ -541,7 +582,8 @@ specification:
               database administrators must ensure that the database server enforces
               segregation of users and databases belonging to different projects."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b67
           - requirement_index: 2.1.18
             statement: Your TRE could integrate with large-scale data analytics 
               tools for working with large datasets.
@@ -550,7 +592,8 @@ specification:
               amount of data that is too large for single-machine computing to be
               practical."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b68
       - capability_index: '2.2'
         statements:
           - requirement_index: 2.2.1
@@ -559,14 +602,16 @@ specification:
             guidance: This might, for instance, be a handbook that is followed 
               or a set of automated scripts.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
           - requirement_index: 2.2.2
             statement: You should, where possible, automate any repeatable 
               aspects of your deployment.
             guidance: This might involve using infrastructure-as-code tools or a
               series of scripts.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689274
           - requirement_index: 2.2.3
             statement: You must have a documented procedure for making changes 
               to deployed infrastructure.
@@ -575,13 +620,15 @@ specification:
               change management process may form part of a wider accreditation such
               as ISO 27001."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689275
           - requirement_index: 2.2.4
             statement: You must test changes before they are used in production.
             guidance: This might involve a separate development environment or 
               another system for testing.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689276
           - requirement_index: 2.2.5
             statement: You should have a development environment that mirrors 
               your production environment which you use to test infrastructure 
@@ -590,7 +637,8 @@ specification:
               development and production environments.\nConsider the costs and practicality
               of whether this will work for your situation."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689277
           - requirement_index: 2.2.6
             statement: You must have a documented procedure for removing 
               infrastructure when it is no longer needed.
@@ -598,7 +646,8 @@ specification:
               management burden but also reduces the attack surface of a TRE and
               reduces the risk of unaddressed vulnerabilities.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689278
           - requirement_index: 2.2.7
             statement: You should understand the availability and uptime 
               guarantees of any providers that you rely on.
@@ -607,14 +656,16 @@ specification:
               an uninterruptable power supply (UPS) and planning how you would deal
               with internet outages."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689279
           - requirement_index: 2.2.8
             statement: You should develop an availability target or statement 
               and share this with your users.
             guidance: Understanding how and when the TRE might be unavailable 
               will help your projects in planning their work.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689280
           - requirement_index: 2.2.9
             statement: Your TRE must control and manage all of its network 
               infrastructure in order to protect information in systems and 
@@ -623,7 +674,8 @@ specification:
               resources on the network.\nThis may include firewalls, network segmentation,
               and restricting connections to the network."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689281
           - requirement_index: 2.2.10
             statement: Your TRE must not allow connectivity between users in 
               different projects, or with access to different datasets.
@@ -631,49 +683,56 @@ specification:
               allowed, for example to support shared network services within the
               project.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689282
           - requirement_index: 2.2.11
             statement: Your TRE must block outbound connections to the internet 
               by default.
             guidance: Limited outbound connectivity may be allowed for some 
               services.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689283
           - requirement_index: 2.2.12
             statement: You should be able to monitor the network configuration 
               of your TRE to check for misconfigurations and vulnerabilities.
             guidance: This may include regular vulnerability scanning, and 
               penetration testing.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689284
           - requirement_index: 2.2.13
             statement: You should regularly monitor the network configuration of
               your TRE to check for misconfigurations and vulnerabilities.
             guidance: This will involve following the monitoring procedure 
               detailed above.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689285
           - requirement_index: 2.2.14
             statement: Your TRE must record usage data.
             guidance: This may include the number of users, number of projects, 
               the amount of data stored, number of datasets, the number of 
               workspaces, etc.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689286
           - requirement_index: 2.2.15
             statement: Your TRE should record which datasets are accessed, when 
               and by who.
             guidance: This helps maintain auditability of how sensitive data has
               been used.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689287
           - requirement_index: 2.2.16
             statement: Your TRE should record computational resource usage at 
               the user or aggregate level.
             guidance: This is useful for optimising allocation of resources, and
               managing costs.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689288
       - capability_index: '2.3'
         statements:
           - requirement_index: 2.3.1
@@ -686,7 +745,8 @@ specification:
               should use this information to understand whether the available resources
               will be sufficient for their requirements."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
           - requirement_index: 2.3.2
             statement: You should ensure that the anticipated needs of projects 
               can be satisfied using available resources.
@@ -695,7 +755,8 @@ specification:
               availability before a project starts should be honoured wherever 
               possible.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf7
           - requirement_index: 2.3.3
             statement: You must have a procedure for allocating available 
               resources among projects.
@@ -707,7 +768,8 @@ specification:
               help projects understand when/why/how they can make use of additional
               capacity."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf8
           - requirement_index: 2.3.4
             statement: You must ensure that the anticipated resource 
               requirements will not result in overspending by the TRE.
@@ -715,7 +777,8 @@ specification:
               resource consumption on a project-by-project basis.\nFor on-premises
               TREs this may involve managing expectations to match the available resource."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf9
       - capability_index: '2.4'
         statements:
           - requirement_index: 2.4.1
@@ -724,7 +787,8 @@ specification:
             guidance: This might, for instance, be a handbook that is followed 
               or a set of automated scripts.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
           - requirement_index: 2.4.2
             statement: You should use configuration management tools to automate
               application of your configuration wherever possible.
@@ -732,27 +796,31 @@ specification:
               Ansible, Chef, Puppet or Windows Desired State Configuration or 
               simply automated scripts.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
           - requirement_index: 2.4.3
             statement: You should be able to verify whether the configuration is
               valid.
             guidance: This might, for instance, involve running your 
               configuration management tool in ‘check’ mode.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
           - requirement_index: 2.4.4
             statement: You should regularly verify your TRE configuration.
             guidance: This will limit the amount of time the TRE can spend in a 
               non-compliant state.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
           - requirement_index: 2.4.5
             statement: You must be able to replace a non-compliant TRE with a 
               compliant system.
             guidance: This might involve reconfiguring a running system or by 
               replacing it with a compliant one.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
       - capability_index: '2.5'
         statements:
           - requirement_index: 2.5.1
@@ -764,7 +832,8 @@ specification:
               data or users’ workspaces may be backed up, and whether they should
               be."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
           - requirement_index: 2.5.2
             statement: You should build redundancy into infrastructure and 
               storage.
@@ -772,14 +841,16 @@ specification:
               This could include redundant infrastructure in different physical locations,
               load balancing and replication of data between multiple storage locations."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f5
           - requirement_index: 2.5.3
             statement: You should keep backups of infrastructure, applications 
               and configurations.
             guidance: This may include virtualised infrastructure snapshots 
               which can restored as needed to recover from failure.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f6
           - requirement_index: 2.5.4
             statement: You must have procedures in place for rapid incident 
               response.
@@ -788,7 +859,8 @@ specification:
               Having robust processes in place will ensure a swift and effective response
               when an incident occurs."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f7
           - requirement_index: 2.5.5
             statement: You should test your incident response through 
               simulation.
@@ -796,7 +868,8 @@ specification:
               their effectiveness.\nThis may involve people across the broader enterprise
               and/or external suppliers."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f8
           - requirement_index: 2.5.6
             statement: You should have an application in place to scan for 
               vulnerabilities across infrastructure.
@@ -804,7 +877,8 @@ specification:
               and alert.\nSuch an alert should be triaged, risk assessed and treated
               accordingly."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f9
           - requirement_index: 2.5.7
             statement: You must have a process in place for applying security 
               updates to all software that forms part of the TRE infrastructure.
@@ -813,7 +887,8 @@ specification:
               infrastructure, configuration management, or software used for 
               monitoring the TRE.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f10
           - requirement_index: 2.5.8
             statement: Infrastructure should be automatically patched for 
               vulnerabilities.
@@ -822,7 +897,8 @@ specification:
               Many systems may be isolated from the internet making TRE infrastructure
               more difficult to automatically patch."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f11
           - requirement_index: 2.5.9
             statement: You should carry out penetration tests on your TRE.
             guidance: "By intentionally attempting to breach their TRE, organisations
@@ -831,7 +907,8 @@ specification:
               in preventing data breaches, unauthorised access, or other security
               incidents."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f12
           - requirement_index: 2.5.10
             statement: You should update the security controls of your TRE based
               on the results of security tests.
@@ -843,7 +920,8 @@ specification:
               to any new security concerns that may arise as a result of changes in
               the underlying software."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f13
           - requirement_index: 2.5.11
             statement: You should publish details of your security testing 
               strategy and, where possible, the results of each test.
@@ -853,7 +931,8 @@ specification:
               is secure within a TRE.\nIf security flaws are identified in a test,
               it may not be sensible to publicise these until a fix is in place."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f14
           - requirement_index: 2.5.12
             statement: Your TRE must encrypt project and user data at rest.
             guidance: "This prevents unauthorised access to the data even if the storage
@@ -862,7 +941,8 @@ specification:
               by the TRE operator or by a trusted external actor, for example a cloud
               provider."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f15
           - requirement_index: 2.5.13
             statement: Your TRE must encrypt data when in transit between the 
               TRE and external networks or computers.
@@ -871,14 +951,16 @@ specification:
               egress and users accessing the TRE, for example over a remote desktop
               or shell session."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f16
           - requirement_index: 2.5.14
             statement: Your TRE should encrypt data when in transit inside the 
               TRE.
             guidance: If possible, data transfers between different components 
               of a TRE should also be encrypted.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f17
           - requirement_index: 2.5.15
             statement: You should use encryption algorithms and software that 
               are widely accepted as secure.
@@ -889,7 +971,8 @@ specification:
               TRE.\nThis helps address any known vulnerabilities or weaknesses in
               the encryption implementation."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f18
           - requirement_index: 2.5.16
             statement: Your TRE should use secure key management.
             guidance: TREs should employ secure key management practices, 
@@ -897,7 +980,8 @@ specification:
               data and implementing strong access controls (*e.g.* Single Sign 
               On) for key management systems.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f19
           - requirement_index: 2.5.17
             statement: Your TRE could offer physical protection measures against
               data leakage or theft via physical means.
@@ -908,7 +992,8 @@ specification:
               physical access to authorised personnel only, visitor management systems
               and employee training."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f20
           - requirement_index: 2.5.18
             statement: Your TRE may need to comply with specific regulatory 
               requirements due to the types of data it is hosting.
@@ -917,7 +1002,8 @@ specification:
               could require organisations to implement specific security measures
               to safeguard their TRE from unauthorised access."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f21
   - pillar_index: 3
     pillar: Data management
     capabilities:
@@ -933,14 +1019,16 @@ specification:
               It may involve classifying the project into a predefined sensitivity
               category or defining bespoke controls."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.2
             statement: You should keep records of data handling decisions.
             guidance: Decisions that are made as part of the process discussed 
               above should be recorded and made available for inspection by all 
               stakeholders.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.3
             statement: Information asset owners must classify data sets 
               according to a common process and data classification methodology.
@@ -951,7 +1039,8 @@ specification:
               factor in the requirements for confidentiality, integrity and availability
               of the data."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.4
             statement: You must have a data ingress process which enforces 
               information governance rules/processes.
@@ -959,7 +1048,8 @@ specification:
               is correctly followed.\nIn particular, it should require that an ingress
               request has been approved by all required parties."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.5
             statement: You must have a data egress process which enforces 
               information governance rules/processes.
@@ -967,7 +1057,8 @@ specification:
               requirements are adhered to.\nIn particular, it should require that
               an egress request has been approved by all required parties."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.6
             statement: Egress must be limited to the information asset owners or
               their delegates.
@@ -975,7 +1066,8 @@ specification:
               with individual users\nThis permission must be given by information
               asset owners.\nEgress may still require further approval (see 3.1.5)."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.7
             statement: Your data egress process could sometimes require 
               project-independent approval.
@@ -985,7 +1077,8 @@ specification:
               approval from people not on the project team, for example an external
               referee or TRE operator representative"
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.8
             statement: You must keep a record of what data your TRE holds.
             guidance: "Good records are important for ensuring compliance with legislation,
@@ -994,7 +1087,8 @@ specification:
               data owner, which projects use the data, the date it was received, when
               it is expected to no longer be needed."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.9
             statement: You must have a policy on data deletion.
             guidance: "There should be a clear, published policy on when data will
@@ -1004,7 +1098,8 @@ specification:
               Having clear policies will help to avoid problems with data being kept
               longer than necessary or accidental deletion of outputs."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.10
             statement: You should have a method of providing proof of 
               deletion/removal of files.
@@ -1012,13 +1107,15 @@ specification:
               of files.\nYou should have a method of providing proof of deletion if
               challenged."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.11
             statement: You should log how input data is modified.
             guidance: "If the input data is mutable a TRE should keep records of its
               modification.\nFor example, when the data was modified and by who."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.12
             statement: You must, to a reasonable extent, prevent unauthorised 
               data ingress or egress.
@@ -1031,7 +1128,8 @@ specification:
               remote desktop based TRE to prevent data being copied from a local machine’s
               clipboard to a workspace."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.1.13
             statement: Data held within the TRE should be the minimum required 
               for analysis or research.
@@ -1040,14 +1138,16 @@ specification:
               protection for data subjects, makes it easier to comply with data protection
               legislation and could reduce the overhead of storage and processing."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.8.1
             statement: Archived data within the TRE should be read only.
             guidance: "Archived data by its very nature should not change and therefore
               be maintained as a read only store.\nIf an update is required, it may
               be pulled from archive into a separate operational store."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
           - requirement_index: 3.8.2
             statement: Long-term archives must be held in simple, standard 
               formats to ensure accessibility.
@@ -1057,7 +1157,8 @@ specification:
               to international standards if available, to ensure they are platform
               and application agnostic."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
       - capability_index: '3.2'
         statements:
           - requirement_index: 3.2.1
@@ -1067,7 +1168,8 @@ specification:
               one, and only one, person in order to facilitate the assignment of
               roles or permissions and to log the actions of individuals.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
           - requirement_index: 3.2.2
             statement: You must be reasonably convinced of the identity of each 
               person being granted an account.
@@ -1076,7 +1178,8 @@ specification:
               account creation to verify identity or, when appropriate, photo ID checks
               may be required."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34505
           - requirement_index: 3.2.3
             statement: You must restrict a user’s access to only data required 
               in their work.
@@ -1085,7 +1188,8 @@ specification:
               TREs design, for example through roles granted to user accounts or through
               isolated project workspaces."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34506
           - requirement_index: 3.2.4
             statement: You must ensure that multi-factor authentication is 
               enabled for all users.
@@ -1096,7 +1200,8 @@ specification:
               biometric data).\nA TRE does not need to implement multi-factor authentication
               checks itself if it is provided by a third-party identity provider."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34507
           - requirement_index: 3.2.5
             statement: You could use federated authentication or single sign-on 
               (SSO) for user login.
@@ -1105,7 +1210,8 @@ specification:
               process for data consumers using a TRE and prevent them having to remember
               or store multiple login credentials."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34508
           - requirement_index: 3.2.6
             statement: You could restrict access to particular networks or 
               physical locations.
@@ -1114,7 +1220,8 @@ specification:
               access could also be restricted to physical locations with security
               controls and access requirements."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34509
       - capability_index: '3.3'
         statements:
           - requirement_index: 3.3.1
@@ -1126,7 +1233,8 @@ specification:
               Encouraging openly published outputs will enhance a TRE’s impact and
               transparency."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
           - requirement_index: 3.3.2
             statement: You should establish the intended outputs of each project
               from the outset.
@@ -1137,7 +1245,8 @@ specification:
               to be and their sensitivity as early as possible will help prepare for
               their processing and publication."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
           - requirement_index: 3.3.3
             statement: You must have a documented process for disclosure control
               of outputs from the TRE.
@@ -1145,7 +1254,8 @@ specification:
               them.\nAll TRE outputs must be subject to this process.\nYou might choose
               to follow existing guidelines, for example around statistical disclosure."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
           - requirement_index: 3.3.4
             statement: You must have a process for assigning responsibility for 
               output checking.
@@ -1154,7 +1264,8 @@ specification:
               be responsible for any automated parts of this process.\nOutput checking
               can help mitigate against unintentional data disclosure or leaks."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
           - requirement_index: 3.3.5
             statement: You must have a documented policy for handling disclosure
               risks associated with any outputs that cannot be manually checked.
@@ -1164,7 +1275,8 @@ specification:
               must be mitigated and documented.\nRefusing to allow egress of such
               files is also a valid policy decision."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
           - requirement_index: 3.3.6
             statement: You should have a statistical basis to guide the 
               decisions of an output checker on the safety of outputs.
@@ -1173,7 +1285,8 @@ specification:
               an individual or risk to commercial operations posed by outputs 
               from the TRE.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
           - requirement_index: 3.3.7
             statement: You could create a semi-automated system for checks on 
               common research outputs.
@@ -1183,7 +1296,8 @@ specification:
               loop) would be appropriate, given the risks associated with accidental
               data disclosure."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
           - requirement_index: 3.3.8
             statement: TRE outputs should be limited to the minimum required for
               sharing results of any analyses.
@@ -1191,7 +1305,8 @@ specification:
               makes it easier to comply with data protection legislation (e.g. 
               GDPR).
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
       - capability_index: '3.4'
         statements:
           - requirement_index: 3.4.1
@@ -1202,7 +1317,8 @@ specification:
               TREs where each project has its own data sharing agreement with one
               or more data provider or very sensitive datasets."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-176cdec84e4c4db59c8d9ac973c1b857
           - requirement_index: 3.6.1
             statement: You should have a consistent and easily accessible 
               meta-data data model or similar to describe what a data asset 
@@ -1212,7 +1328,8 @@ specification:
               for data assets should also be provided to assist researchers in understanding
               what data may be available without the need to see the underlying data."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
           - requirement_index: 3.6.2
             statement: You could provide summary, abstracted or synthetic data 
               to researchers without exposing the underlying data set.
@@ -1221,7 +1338,8 @@ specification:
               data either as summary data or using synthetic versions of the 
               data for activities such as code development and cohort planning.
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
           - requirement_index: 3.7.1
             statement: You could provide an interface application for data 
               consumers and data subjects to query elements of the data.
@@ -1229,7 +1347,8 @@ specification:
               queries the meta-data or elements of the research data could be 
               made more easily accessible than the data itself.
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-e02301f9b1314503934a377bf5642b15
       - capability_index: '3.5'
         statements:
           - requirement_index: 3.5.1
@@ -1241,7 +1360,8 @@ specification:
               include information asset owners and project teams and they may have
               different levels of technical expertise."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
           - requirement_index: 3.5.2
             statement: Your TRE could support projects with differing security 
               requirements through configurable security controls.
@@ -1249,7 +1369,8 @@ specification:
               each be met with a suitable level of controls.\nIt helps ensure that
               users can work effectively, with minimal barriers."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
           - requirement_index: 3.5.3
             statement: Your TRE could offer a pre-defined set of security 
               control tiers.
@@ -1258,7 +1379,8 @@ specification:
               most suitable tier rather than having a bespoke design.\nThis reduces
               the number of unique configurations that need to be supported."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
   - pillar_index: 4
     pillar: Supporting Capabilities
     capabilities:
@@ -1272,14 +1394,16 @@ specification:
               loss of service for deployed TREs, and evaluation of impact of such
               loss."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6936
           - requirement_index: 4.1.2
             statement: You should regularly test the aspects of your business 
               continuity plan concerning TREs, and have a process in place to 
               iterate the plan if required.
             guidance: .nan
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6937
       - capability_index: '4.2'
         statements:
           - requirement_index: 4.2.1
@@ -1290,14 +1414,16 @@ specification:
               tracking TRE status, managing communications with the TRE operations
               team, and other project support tasks."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6938
           - requirement_index: 4.2.2
             statement: You should not give project managers direct access to the
               TRE.
             guidance: Doing so ensures a separation between those able to access
               sensitive data, and those overseeing access to sensitive data.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6939
       - capability_index: '4.3'
         statements:
           - requirement_index: 4.3.1
@@ -1306,7 +1432,8 @@ specification:
             guidance: This includes ensuring all documentation is discoverable, 
               clear, and able to be easily updated based on stakeholder feedback
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
           - requirement_index: 4.3.2
             statement: You should have an education programme in place to 
               upskill stakeholders in the use and management of your TRE.
@@ -1314,7 +1441,8 @@ specification:
               resources on how to effectively access and use a TRE, FAQ pages, 
               and accessible pathways for additional support
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6941
           - requirement_index: 4.3.3
             statement: You should periodically carry out a training needs 
               analysis (TNA) for all stakeholders included within your TRE 
@@ -1323,7 +1451,8 @@ specification:
               training needs of your stakeholders, and ensure they have easy 
               access to all required training materials
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6942
       - capability_index: '4.4'
         statements:
           - requirement_index: 4.4.1
@@ -1335,7 +1464,8 @@ specification:
               (for instance memory or additional compute), hardware including 
               managed devices, and staff support costs
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
           - requirement_index: 4.4.2
             statement: You should be able to track the costs associated with 
               each TRE project.
@@ -1343,7 +1473,8 @@ specification:
               which project, and having an appropriate charging mechanism in 
               place in line with your organisational policy.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6944
           - requirement_index: 4.4.3
             statement: You should have a process in place to ensure your TRE 
               provision remains financially sustainable.
@@ -1352,7 +1483,8 @@ specification:
               TREs.\nAt any given time, you should have funds free to cover all potential
               foreseen TRE provision for at least 12 months."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6945
           - requirement_index: 4.4.4
             statement: You should minimise the cost of your TRE infrastructure 
               wherever possible
@@ -1360,7 +1492,8 @@ specification:
               actively work to bring down costs, streamline provision, and 
               optimise support.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6946
       - capability_index: '4.5'
         statements:
           - requirement_index: 4.5.1
@@ -1370,7 +1503,8 @@ specification:
             guidance: These may include computing hardware, cloud credits or 
               devices through which users access the TRE.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6947
       - capability_index: '4.6'
         statements:
           - requirement_index: 4.6.1
@@ -1380,7 +1514,8 @@ specification:
               separate.\nResponsibility should be clear and stakeholders should easily
               be able to access support appropriate to their needs."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6948
       - capability_index: '4.7'
         statements:
           - requirement_index: 4.7.1
@@ -1390,7 +1525,8 @@ specification:
               issues and discussions, communication streams like Slack or email,
               or forms stakeholders can fill in.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6949
       - capability_index: '4.8'
         statements:
           - requirement_index: 4.8.1
@@ -1403,7 +1539,8 @@ specification:
               of people or target particular groups of people where relevant\nThis
               could include following guidelines such as PEDRI."
             importance: Mandatory*
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
           - requirement_index: 4.8.2
             statement: Details of TRE operations, data available and projects 
               which have accessed the data should be publicly available 
@@ -1415,7 +1552,8 @@ specification:
               Where possible it should include name, summaries, public benefit (if
               relevant) and organisations involved"
             importance: Mandatory*
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6951
           - requirement_index: 4.8.3
             statement: Members of the public should be included in TRE 
               operations and/or oversight (*optional for TREs without personal 
@@ -1425,7 +1563,8 @@ specification:
               separate public panels available for both researchers and TRE staff
               to consult."
             importance: Mandatory*
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6952
           - requirement_index: 4.8.4
             statement: You should publicly share details of incidents, near 
               misses, and mitigations in a timely fashion, in line with good 
@@ -1434,7 +1573,8 @@ specification:
               this information is particularly important when a TRE holds public sector
               data."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6953
       - capability_index: '4.9'
         statements:
           - requirement_index: 4.9.1
@@ -1445,7 +1585,8 @@ specification:
               TRE operators should have ready access to legal advice, including a
               way to solicit advice and carry out associated actions."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
           - requirement_index: 4.9.2
             statement: You should identify areas where advice on data protection
               issues may be required and ensure that you have ready access to 
@@ -1453,7 +1594,8 @@ specification:
             guidance: It is likely that data protection advice will be necessary
               for several issues around the handling of sensitive data.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6955
           - requirement_index: 4.9.3
             statement: You should identify who will be responsible for managing 
               contracts related to the TRE.
@@ -1461,4 +1603,5 @@ specification:
               secondments of personnel or limitations on how results obtained 
               with the data can be distributed.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6956

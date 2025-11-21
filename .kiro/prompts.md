@@ -166,3 +166,45 @@ This file records all prompts and AI interactions for this project.
 - Scripts are ready for future regeneration when Excel file is updated
 
 ---
+
+### Prompt 13: Fix Missing Architecture URLs
+**Date:** 2025-11-21  
+**Request:** Some architecture URLs were missing from the YAML (e.g., requirement 1.0.1)
+
+**Action Taken:**
+- Created diagnostic script (check_excel.py) to investigate the Excel file structure
+- Discovered that some cells have URL text but no hyperlink object
+- Updated create_yaml.py to extract URLs from both:
+  - Hyperlink objects (c.hyperlink.target)
+  - Cell text values (c.value) when they start with 'http'
+- Regenerated both YAML files successfully
+- Verified that requirement 1.0.1 now has its architecture URL
+
+**Notes:**
+- Excel file has mixed format: some cells have hyperlinks, others just have URL text
+- Script now handles both cases to ensure all URLs are captured
+- All 160 requirements now have their architecture URLs properly extracted
+
+---
+
+### Prompt 14: Improve Table Columns - Replace Capability Index with Clickable Capability
+**Date:** 2025-11-21  
+**Request:** Remove capability_index column and replace with capability from spreadsheet, making it a clickable link to architecture view URL
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py:
+  - Changed COLUMNS to replace capability_index with capability
+  - Added logic to render capability as a clickable link using architecture_url
+  - Removed architecture_url from displayed columns (now used for capability link)
+- Updated docs/source/spec/create_yaml.py:
+  - Added "Capability" field extraction from Excel
+  - YAML now includes both capability (name) and capability_index (for reference)
+- Regenerated both YAML files with new structure
+
+**Notes:**
+- Table now shows: Pillar | Capability (clickable) | Requirement Index | Statement | Guidance | Importance
+- Capability column links to the architecture view for that capability
+- More user-friendly than showing numeric capability_index
+- capability_index still in YAML for backward compatibility/reference
+
+---

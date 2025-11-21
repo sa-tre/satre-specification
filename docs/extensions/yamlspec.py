@@ -7,12 +7,11 @@ from sphinx.util.docutils import SphinxDirective
 # Define the columns and their proportional widths for the table
 COLUMNS = [
     ("pillar", 10),
-    ("capability_index", 10),
+    ("capability", 15),
     ("requirement_index", 10),
     ("statement", 40),
     ("guidance", 15),
     ("importance", 10),
-    ("architecture_url", 10),
 ]
 
 
@@ -87,7 +86,7 @@ class YamlSpecDirective(SphinxDirective):
             row = nodes.row()
             for key, _ in COLUMNS:
                 entry = nodes.entry()
-                content_text = str(item[key] or "")
+                content_text = str(item.get(key, "") or "")
 
                 # Use nested_parse for multi-line fields to process reST content (like links)
                 if key in ["statement", "guidance"]:
@@ -106,19 +105,24 @@ class YamlSpecDirective(SphinxDirective):
 
                     # Add the children (paragraphs, links, etc.) of the parsed container to the entry
                     entry.extend(content_node.children)
-                elif key == "architecture_url" and content_text:
-                    reference_node = nodes.reference(
-                        "",  # The raw source text (often left empty for programmatic generation)
-                        nodes.Text(content_text),
-                        refuri=content_text,
-                        # 'external' is a common class to ensure Sphinx/docutils treats it as an external link
-                        classes=["external"],
-                    )
-                    paragraph_node = nodes.paragraph("")
-                    paragraph_node.append(reference_node)
-                    entry += paragraph_node
+                elif key == "capability":
+                    # Make capability a clickable link to architecture_url
+                    arch_url = item.get("architecture_url", "")
+                    if arch_url and content_text:
+                        reference_node = nodes.reference(
+                            "",
+                            nodes.Text(content_text),
+                            refuri=arch_url,
+                            classes=["external"],
+                        )
+                        paragraph_node = nodes.paragraph("")
+                        paragraph_node.append(reference_node)
+                        entry += paragraph_node
+                    else:
+                        # No URL, just display text
+                        entry += nodes.paragraph(text=content_text)
                 else:
-                    # Simple text fields (requirement, importance) are wrapped in a paragraph
+                    # Simple text fields (pillar, requirement, importance) are wrapped in a paragraph
                     entry += nodes.paragraph(text=content_text)
 
                 row += entry
