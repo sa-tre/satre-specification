@@ -229,3 +229,27 @@ This file records all prompts and AI interactions for this project.
 - No YAML regeneration needed (only display changes)
 
 ---
+
+### Prompt 16: Split Table by Pillar with Subheadings
+**Date:** 2025-11-21  
+**Request:** Split the table into 4 separate tables (one per pillar) with subheadings for each pillar, and remove the pillar column
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py:
+  - Removed pillar from COLUMNS definition
+  - Added logic to group specifications by pillar
+  - Modified to create multiple tables instead of one
+  - Added rubric (subheading) node for each pillar name
+  - Returns list of nodes (heading + table for each pillar)
+  - Increased statement column width from 40 to 45 (reclaimed from pillar column)
+  - Increased guidance column width from 15 to 20
+
+**Notes:**
+- Now creates 4 separate tables, one for each pillar
+- Each table has a heading with the pillar name
+- Pillar column removed from table (redundant with heading)
+- More space for content columns (statement and guidance)
+- Better visual organization and readability
+- No YAML changes needed (only display logic)
+
+---

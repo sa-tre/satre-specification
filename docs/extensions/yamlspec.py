@@ -6,12 +6,12 @@ from sphinx.util.docutils import SphinxDirective
 
 # Define the columns and their proportional widths for the table
 # Format: (field_name, width, display_name)
+# Note: pillar column removed as it will be shown as section headings
 COLUMNS = [
     ("requirement_index", 5, "SATRE Ref"),
-    ("pillar", 10, None),
     ("capability", 15, None),
-    ("statement", 40, None),
-    ("guidance", 15, None),
+    ("statement", 45, None),
+    ("guidance", 20, None),
     ("importance", 10, None),
 ]
 
@@ -58,83 +58,97 @@ class YamlSpecDirective(SphinxDirective):
 
         specifications = data["specification"]
 
-        # 3. Create Table Structure
-        # Ensure only keyword arguments are used for table/tgroup
-        table = nodes.table(classes=["spec-table", "colwidths-given"])
-        tgroup = nodes.tgroup(cols=len(COLUMNS))
-        table += tgroup
-
-        # Add column specifications (colspec)
-        for _, width, _ in COLUMNS:
-            tgroup += nodes.colspec(colwidth=width)
-
-        # Table Header (thead)
-        # FIX: Removed empty positional arguments from structural nodes (thead, row, entry)
-        thead = nodes.thead()
-        header_row = nodes.row()
-        for field_name, _, display_name in COLUMNS:
-            entry = nodes.entry(classes=["head"])
-            # Use custom display name if provided, otherwise format field name
-            header_text = display_name if display_name else field_name.replace("_", " ").capitalize()
-            entry += nodes.paragraph(text=header_text)
-            header_row += entry
-        thead += header_row
-        tgroup += thead
-
-        # Table Body (tbody)
-        # FIX: Removed empty positional arguments from structural nodes (tbody, row, entry)
-        tbody = nodes.tbody()
-
+        # 3. Group specifications by pillar
+        pillars = {}
         for item in specifications:
-            row = nodes.row()
-            for key, _, _ in COLUMNS:
-                entry = nodes.entry()
-                content_text = str(item.get(key, "") or "")
+            pillar_name = item.get("pillar", "Unknown")
+            if pillar_name not in pillars:
+                pillars[pillar_name] = []
+            pillars[pillar_name].append(item)
 
-                # Use nested_parse for multi-line fields to process reST content (like links)
-                if key in ["statement", "guidance"]:
-                    # Create a ViewList of lines for nested parsing
-                    view_list = ViewList()
-                    # Add content line by line, ensuring correct source/line references
-                    for line in content_text.splitlines():
-                        view_list.append(line, yaml_filename, self.lineno)
+        # 4. Create a list of nodes (headings + tables) for each pillar
+        result_nodes = []
 
-                    # FIX: Use nodes.container instead of nodes.section to avoid the
-                    # AssertionError when children are appended to the entry node.
-                    content_node = nodes.container()
+        for pillar_name, pillar_items in pillars.items():
+            # Add pillar heading
+            heading = nodes.rubric(text=pillar_name)
+            result_nodes.append(heading)
 
-                    # Nested parse the content
-                    self.state.nested_parse(view_list, 0, content_node)
+            # Create table for this pillar
+            table = nodes.table(classes=["spec-table", "colwidths-given"])
+            tgroup = nodes.tgroup(cols=len(COLUMNS))
+            table += tgroup
 
-                    # Add the children (paragraphs, links, etc.) of the parsed container to the entry
-                    entry.extend(content_node.children)
-                elif key == "capability":
-                    # Make capability a clickable link to architecture_url
-                    arch_url = item.get("architecture_url", "")
-                    if arch_url and content_text:
-                        reference_node = nodes.reference(
-                            "",
-                            nodes.Text(content_text),
-                            refuri=arch_url,
-                            classes=["external"],
-                        )
-                        paragraph_node = nodes.paragraph("")
-                        paragraph_node.append(reference_node)
-                        entry += paragraph_node
+            # Add column specifications (colspec)
+            for _, width, _ in COLUMNS:
+                tgroup += nodes.colspec(colwidth=width)
+
+            # Table Header (thead)
+            thead = nodes.thead()
+            header_row = nodes.row()
+            for field_name, _, display_name in COLUMNS:
+                entry = nodes.entry(classes=["head"])
+                # Use custom display name if provided, otherwise format field name
+                header_text = display_name if display_name else field_name.replace("_", " ").capitalize()
+                entry += nodes.paragraph(text=header_text)
+                header_row += entry
+            thead += header_row
+            tgroup += thead
+
+            # Table Body (tbody)
+            tbody = nodes.tbody()
+
+            for item in pillar_items:
+                row = nodes.row()
+                for key, _, _ in COLUMNS:
+                    entry = nodes.entry()
+                    content_text = str(item.get(key, "") or "")
+
+                    # Use nested_parse for multi-line fields to process reST content (like links)
+                    if key in ["statement", "guidance"]:
+                        # Create a ViewList of lines for nested parsing
+                        view_list = ViewList()
+                        # Add content line by line, ensuring correct source/line references
+                        for line in content_text.splitlines():
+                            view_list.append(line, yaml_filename, self.lineno)
+
+                        # FIX: Use nodes.container instead of nodes.section to avoid the
+                        # AssertionError when children are appended to the entry node.
+                        content_node = nodes.container()
+
+                        # Nested parse the content
+                        self.state.nested_parse(view_list, 0, content_node)
+
+                        # Add the children (paragraphs, links, etc.) of the parsed container to the entry
+                        entry.extend(content_node.children)
+                    elif key == "capability":
+                        # Make capability a clickable link to architecture_url
+                        arch_url = item.get("architecture_url", "")
+                        if arch_url and content_text:
+                            reference_node = nodes.reference(
+                                "",
+                                nodes.Text(content_text),
+                                refuri=arch_url,
+                                classes=["external"],
+                            )
+                            paragraph_node = nodes.paragraph("")
+                            paragraph_node.append(reference_node)
+                            entry += paragraph_node
+                        else:
+                            # No URL, just display text
+                            entry += nodes.paragraph(text=content_text)
                     else:
-                        # No URL, just display text
+                        # Simple text fields (requirement, importance) are wrapped in a paragraph
                         entry += nodes.paragraph(text=content_text)
-                else:
-                    # Simple text fields (pillar, requirement, importance) are wrapped in a paragraph
-                    entry += nodes.paragraph(text=content_text)
 
-                row += entry
-            tbody += row
+                    row += entry
+                tbody += row
 
-        tgroup += tbody
+            tgroup += tbody
+            result_nodes.append(table)
 
-        # 4. Return the completed table node
-        return [table]
+        # 5. Return all nodes (headings + tables)
+        return result_nodes
 
 
 # Setup function to register the directive
