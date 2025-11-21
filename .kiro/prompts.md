@@ -129,3 +129,21 @@ This file records all prompts and AI interactions for this project.
 - Could create a separate directive for hierarchical format if needed in the future
 
 ---
+
+### Prompt 11: Delete Incompatible Pillar File
+**Date:** 2025-11-21  
+**Request:** Still getting KeyError for 'capability_index' in ReadTheDocs build
+
+**Action Taken:**
+- Validated that specification.yaml has all required fields (160 items, all valid)
+- Discovered that ReadTheDocs builds all .md files in the source directory, not just those in toctree
+- Deleted docs/source/new-spec-test-pillar.md file completely to prevent it from being built
+- This file was using specification-pillars.yaml which has incompatible hierarchical structure
+
+**Notes:**
+- ReadTheDocs processes all markdown files in docs/source/, not just those referenced in index
+- Removing from toctree wasn't enough - file needed to be deleted
+- specification-pillars.yaml remains for potential future use with a different directive
+- The build should now succeed with only new-spec-test.md using specification.yaml
+
+---
