@@ -419,3 +419,62 @@ This file records all prompts and AI interactions for this project.
 - Path resolution might be different in ReadTheDocs environment
 
 ---
+
+### Prompt 25: Make External Menu Links Open in New Tab
+**Date:** 2025-11-21  
+**Request:** Make external links in the index menu open in a new browser tab
+
+**Action Taken:**
+- Created docs/source/_static/custom.js with JavaScript to:
+  - Find all external links in the navigation sidebar (.wy-menu)
+  - Find all external links in the table of contents
+  - Add target="_blank" to open in new tab
+  - Add rel="noopener noreferrer" for security
+  - Only affects links to external domains (not same hostname)
+- Updated docs/source/conf.py:
+  - Added html_js_files = ["custom.js"]
+
+**Notes:**
+- Runs on DOMContentLoaded to ensure page is fully loaded
+- Checks if link is external by comparing hostname
+- Applies to both sidebar menu and TOC links
+- Security best practice: rel="noopener noreferrer" prevents window.opener access
+- Links like SATRE Architecture and Glossary will now open in new tabs
+
+---
+
+### Prompt 26: Add "About SATRE" Link Above Specification
+**Date:** 2025-11-21  
+**Request:** Add a link above Specification called "About SATRE" that links to the index
+
+**Action Taken:**
+- Updated docs/source/index.md:
+  - Added new toctree section with caption "About SATRE"
+  - Used "self" keyword to link to the index page itself
+  - Positioned above the Specification section
+
+**Notes:**
+- "self" is a special Sphinx keyword that refers to the current document
+- Creates a link back to the index/home page
+- Appears as first item in the navigation menu
+- Useful for users to return to the overview/introduction
+
+---
+
+### Prompt 27: Fix FAQs Section in Menu
+**Date:** 2025-11-21  
+**Request:** Add a link below the Architecture section in the menu to FAQs
+
+**Action Taken:**
+- Updated docs/source/index.md:
+  - Fixed the FAQs toctree section (was using incorrect syntax)
+  - Changed from `:caption: FAQs <faqs.md>` to proper format
+  - Now has `:caption: FAQs` with `faqs.md` as content
+
+**Notes:**
+- FAQs section was already present but had incorrect syntax
+- Caption should not include the file link
+- File link goes inside the toctree block
+- FAQs now appears as a proper section below Architecture
+
+---

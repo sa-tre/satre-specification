@@ -2,6 +2,13 @@
 
 ```{toctree}
 :hidden:
+:caption: About SATRE
+
+self
+```
+
+```{toctree}
+:hidden:
 :caption: Specification
 
 The SATRE Specification <new-spec-test.md>
@@ -22,8 +29,9 @@ roles.md
 
 ```{toctree}
 :hidden:
-:caption: FAQs <faqs.md>
+:caption: FAQs
 
+faqs.md
 ```
 
 (what_is_satre)=
