@@ -147,3 +147,22 @@ This file records all prompts and AI interactions for this project.
 - The build should now succeed with only new-spec-test.md using specification.yaml
 
 ---
+
+### Prompt 12: Regenerate YAML from Updated Excel File
+**Date:** 2025-11-21  
+**Request:** User updated SATRE.2.0.-.Reorg.xlsx and requested to regenerate YAML files
+
+**Action Taken:**
+- Updated create_yaml.py to use SATRE.2.0.-.Reorg.xlsx as source
+- Added UTF-8 encoding to file operations to prevent encoding errors
+- Recreated create_hierarchy.py script with UTF-8 encoding
+- Successfully generated specification.yaml (160 requirements)
+- Successfully generated specification-pillars.yaml (4 pillars)
+
+**Notes:**
+- Had to wait for user to close Excel file (permission error when file was open)
+- UTF-8 encoding was critical to avoid UnicodeDecodeError
+- Both YAML files now reflect the updated Excel data
+- Scripts are ready for future regeneration when Excel file is updated
+
+---

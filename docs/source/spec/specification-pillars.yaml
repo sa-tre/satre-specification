@@ -2,233 +2,239 @@ specification:
   - pillar_index: 1
     pillar: Information governance
     capabilities:
-      - capability_index: "1.1"
+      - capability_index: '1.1'
         statements:
           - requirement_index: 1.0.1
-            statement: You must gather and monitor the information governance
-              requirements needed to fulfil any legal, regulatory and ethical
+            statement: You must gather and monitor the information governance 
+              requirements needed to fulfil any legal, regulatory and ethical 
               standards.
-            guidance:
-              "Requirements will come from a variety of sources including
+            guidance: "Requirements will come from a variety of sources including
               legislation, contractual obligations and ethical standards.\nRequirements
               must be monitored to ensure the TRE controls remain appropriate."
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+            architecture_url:
           - requirement_index: 1.0.2
-            statement: You must ensure controls are implemented to ensure the
+            statement: You must ensure controls are implemented to ensure the 
               requirements are met.
-            guidance: Control implementation should be systematic and directly
+            guidance: Control implementation should be systematic and directly 
               aligned to the internal and stakeholder requirements.
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+            architecture_url:
           - requirement_index: 1.0.3
-            statement: You must ensure there are adequate resources to meet
+            statement: You must ensure there are adequate resources to meet 
               information governance requirements.
-            guidance: Ensuring information governance controls are suitable and
-              enforced requires an investment of funding and people appropriate
+            guidance: Ensuring information governance controls are suitable and 
+              enforced requires an investment of funding and people appropriate 
               to the size of the TRE.
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
-      - capability_index: "1.2"
+            architecture_url:
+      - capability_index: '1.2'
         statements:
           - requirement_index: 1.1.1
-            statement: You must ensure that changes to policies and standard
+            statement: You must ensure that changes to policies and standard 
               operating procedures can only be made by trusted individuals.
-            guidance: It is important to ensure that policies and SOPs are
-              relevant, up-to-date and carefully controlled to maintain the
+            guidance: It is important to ensure that policies and SOPs are 
+              relevant, up-to-date and carefully controlled to maintain the 
               integrity and security of your TRE organisation.
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.2
-            statement: You must use versioning and a codified change procedure
+            statement: You must use versioning and a codified change procedure 
               for all policies and standard operating procedures.
-            guidance: This includes recording dates of changes, person
+            guidance: This includes recording dates of changes, person 
               responsible for carrying out changes, and summary of changes.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.3
-            statement: You should measure the performance of information
+            statement: You should measure the performance of information 
               governance within the TRE with regular reporting available to your
               TRE organisation’s management team.
-            guidance: This may include reports and dashboards showing security
+            guidance: This may include reports and dashboards showing security 
               incidents, quality management deviations and audit findings.
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.4
-            statement: You must audit your TRE organisation against relevant
+            statement: You must audit your TRE organisation against relevant 
               requirements and standards.
-            guidance: If you are publicly accredited against a standard, for
-              instance ISO27001, DSPT, CE+ *etc.*, you must have processes in
+            guidance: If you are publicly accredited against a standard, for 
+              instance ISO27001, DSPT, CE+ *etc.*, you must have processes in 
               place to ensure you remain compliant.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.5
-            statement: You must report on and share outcomes of each audit of
+            statement: You must report on and share outcomes of each audit of 
               your TRE organisation with the required bodies.
-            guidance: This may include regulatory bodies or the organisations
+            guidance: This may include regulatory bodies or the organisations 
               that manage accreditations you have.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.6
-            statement: You must ensure that suppliers, contractors and
-              sub-contractors with access to your TRE align with your security
+            statement: You must ensure that suppliers, contractors and 
+              sub-contractors with access to your TRE align with your security 
               requirements.
-            guidance:
-              "These should be included as mandatory, non-functional requirements
+            guidance: "These should be included as mandatory, non-functional requirements
               in during procurement and contracting.\nThis will also include contractor
               staff contracts for example, legal liability and NDAs."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.7
-            statement: You must monitor compliance of your suppliers with the
+            statement: You must monitor compliance of your suppliers with the 
               terms of the contracts.
-            guidance:
-              "This will include monitoring changes in the services and infrastructure
+            guidance: "This will include monitoring changes in the services and infrastructure
               being delivered and quality management within the contractor’s organisation.\n\
               This may be done through formal audit or by monitoring change and quality
               documentation provided by the supplier."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.8
-            statement: You must track and maintain any physical assets used by
+            statement: You must track and maintain any physical assets used by 
               your TRE.
-            guidance:
-              "All physical assets should be maintained and covered by warranty
+            guidance: "All physical assets should be maintained and covered by warranty
               if applicable.\nAt the end of their lifetime, assets should be securely
               disposed of in such a way that data cannot be recovered from them."
             importance: Mandatory (where physical assets are in scope)
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.9
             statement: You must log, track and resolve any issues resulting from
               deviations from processes, incidents and audit findings.
-            guidance: This process could, for example, be tracked through an
+            guidance: This process could, for example, be tracked through an 
               electronic record and workflow system with records retained.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.10
-            statement: You must use reported issues to inform changes, such as
+            statement: You must use reported issues to inform changes, such as 
               for process improvement and risk management.
-            guidance: All issues should be analysed for their root cause and
+            guidance: All issues should be analysed for their root cause and 
               improvements put in place to prevent further occurrence.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.11
-            statement: You should collect and maintain quality management data
+            statement: You should collect and maintain quality management data 
               for measuring the effectiveness of a TRE.
-            guidance:
-              "Large amounts of data will be produced by elements within the
+            guidance: "Large amounts of data will be produced by elements within the
               TRE.\nThese data should be analysed with reports and dashboards provided
               to guide TRE implementer’s improvements and provide re-assurance to
               data consumers and data subjects."
             importance: Recommended
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.1.12
-            statement: You could use a QMS (Quality Management System) to
-              standardise and automate quality management tasks and workflows,
+            statement: You could use a QMS (Quality Management System) to 
+              standardise and automate quality management tasks and workflows, 
               and to generate quality data and reports automatically.
-            guidance:
-              "A basic QMS could be a set of spreadsheets or documents held
+            guidance: "A basic QMS could be a set of spreadsheets or documents held
               in a repository which are manually maintained.\nMore mature applications
               will provide workflows and generate quality data through manual and
               automated actions."
             importance: Optional
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
           - requirement_index: 1.2.1
-            statement: You must have a way to score risk to understand the
+            statement: You must have a way to score risk to understand the 
               underlying severity.
-            guidance: You have a risk assessment methodology for scoring risks
+            guidance: You have a risk assessment methodology for scoring risks 
               on multiple axes such as impact and likelihood.
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
           - requirement_index: 1.2.2
-            statement: You must carry out a data processing assessment for all
+            statement: You must carry out a data processing assessment for all 
               projects requiring a TRE.
-            guidance:
-              "A data processing assessment is a process designed to identify
+            guidance: "A data processing assessment is a process designed to identify
               risks arising out of the processing of sensitive data and to minimise
               these risks as far and as early as possible.\nThis may take the form
               of an existing regulatory requirements such as Data Protection Impact
               Assessment."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
           - requirement_index: 1.2.3
-            statement: You must have a process for designing, implementing and
+            statement: You must have a process for designing, implementing and 
               recording risk mitigations where indicated by a risk assessment.
-            guidance: Actions that are taken or not taken following a risk
+            guidance: Actions that are taken or not taken following a risk 
               assessment must be recorded.
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
           - requirement_index: 1.2.4
-            statement: You must have a clear set of roles and responsibilities
-              relating to risk including who owns risks and how they are
+            statement: You must have a clear set of roles and responsibilities 
+              relating to risk including who owns risks and how they are 
               escalated and delegated.
-            guidance:
-              "The highest level of risk ownership is the Top Management of
+            guidance: "The highest level of risk ownership is the Top Management of
               the TRE organisation (see Governance Roles).\nIn order to ensure escalations
               to this level are rare, suitable structures should be put in place to
               own, mitigate and accept risk."
             importance: Mandatory
-            architecture_url:
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
           - requirement_index: 1.2.5
-            statement: You must understand the risk appetite of your TRE
+            statement: You must understand the risk appetite of your TRE 
               organisation.
             guidance: This includes understanding ownership of risk, and ability
-              to accept risk which falls outside of the appetite should that
+              to accept risk which falls outside of the appetite should that 
               become necessary.
             importance: Mandatory
-            architecture_url:
-      - capability_index: "1.3"
+            architecture_url: 
+              https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
+      - capability_index: '1.3'
         statements:
           - requirement_index: 1.3.1
             statement: You must have checks in place to ensure a project has the
-              legal, financial and ethical requirements in place for the
+              legal, financial and ethical requirements in place for the 
               duration of the project.
-            guidance: This includes checks that contracts are in place where
-              required, adequate funding is available for the duration of the
-              project, and responsibilities concerning data handling are
+            guidance: This includes checks that contracts are in place where 
+              required, adequate funding is available for the duration of the 
+              project, and responsibilities concerning data handling are 
               understood by all parties.
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+            architecture_url:
           - requirement_index: 1.3.2
-            statement: You must have checks in place to ensure that any time
+            statement: You must have checks in place to ensure that any time 
               limited compliance requirements are maintained.
-            guidance:
-              "This includes ensuring contracts remain in valid and action
+            guidance: "This includes ensuring contracts remain in valid and action
               is promptly taken should they expire.\nAny changes in the status of
               responsible persons should also be monitored, for example a data owner
               leaving an organisation."
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.3.3
-            statement: You must have checks in place to ensure that changes in
+            statement: You must have checks in place to ensure that changes in 
               regulations are met for a project.
             guidance: .nan
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.3.4
-            statement: You must have standard processes in place for the end of
-              a project, that follow all legal requirements and data security
+            statement: You must have standard processes in place for the end of 
+              a project, that follow all legal requirements and data security 
               best practice.
-            guidance: This includes the archiving of quality and log data along
+            guidance: This includes the archiving of quality and log data along 
               with the archiving or deletion of data sets.
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.3.5
-            statement: You could implement a portal that can provide a workflow
-              engine and database which automates the processes within this
+            statement: You could implement a portal that can provide a workflow 
+              engine and database which automates the processes within this 
               capability.
-            guidance:
-              "A portal should automate as much of the processes within the
+            guidance: "A portal should automate as much of the processes within the
               capability as possible.\nWhere processes are automated, process maturity
               is easier to achieve, with more consistent completion and automatic
               production of quality control and monitoring data."
             importance: Optional
             architecture_url:
           - requirement_index: 1.3.6
-            statement: You must keep a complete record of all the data assets
+            statement: You must keep a complete record of all the data assets 
               held within the system.
-            guidance:
-              "Details of all data assets (current and past) held by the system
+            guidance: "Details of all data assets (current and past) held by the system
               should be retained along with meta-data useful for ensuring compliance
               can be demonstrated.\nThis would include ownership, data lifecycle,
               contracts, risk assessments and other quality data.\nThis is likely
@@ -237,118 +243,112 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.3.7
-            statement: You should keep a complete record of all the research
+            statement: You should keep a complete record of all the research 
               studies and projects within the TRE current and past.
-            guidance: The study register should contain all data related to a
-              study including a reference to data assets, project team members,
+            guidance: The study register should contain all data related to a 
+              study including a reference to data assets, project team members, 
               information asset owners and any compliance activities required.
             importance: Recommended
             architecture_url:
-      - capability_index: "1.4"
+      - capability_index: '1.4'
         statements:
           - requirement_index: 1.4.1
-            statement: You must have a robust method for identifying accredited
-              members of your TRE organisation, prior to their accessing of
+            statement: You must have a robust method for identifying accredited 
+              members of your TRE organisation, prior to their accessing of 
               sensitive data.
             guidance: This may include ID checks or email/phone verification.
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
+            architecture_url:
           - requirement_index: 1.4.2
             statement: You must have clear onboarding processes in place for all
               roles within your TRE organisation.
-            guidance: This may include all members signing role-specific terms
-              of use or confirming that they have completed role specific
+            guidance: This may include all members signing role-specific terms 
+              of use or confirming that they have completed role specific 
               training.
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.4.3
-            statement: You must have a set of services to manage access to
+            statement: You must have a set of services to manage access to 
               resources based on identity.
-            guidance: This will include a security model for role based access
+            guidance: This will include a security model for role based access 
               with technical controls to ensure the principle of least privilege
               is enforced.
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.4.4
-            statement: You must not give anyone access to datasets without
+            statement: You must not give anyone access to datasets without 
               agreement from the Data Controller.
             guidance: The Data Controller may choose to delegate this authority.
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.4.5
-            statement: You must have robust and secure applications in place to
+            statement: You must have robust and secure applications in place to 
               authenticate users (and services) within the TRE.
-            guidance: The number of authentication applications should be kept
+            guidance: The number of authentication applications should be kept 
               to a minimum with common controls and standards applied across all
               such as MFA, password complexity *etc.*.
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.4.6
-            statement: You must give each user of the TRE a unique logon with
+            statement: You must give each user of the TRE a unique logon with 
               changes to any records strictly controlled.
-            guidance:
-              "The unique identifier and all associated records for a user
+            guidance: "The unique identifier and all associated records for a user
               should be traceable across the entire TRE.\nThis will include training
               records, affiliations, contract agreements and ethics approvals where
               required."
             importance: Mandatory
             architecture_url:
-      - capability_index: "1.5"
+      - capability_index: '1.5'
         statements:
           - requirement_index: 1.5.1
-            statement: You must determine what training is relevant for all
+            statement: You must determine what training is relevant for all 
               roles within the TRE organisation.
-            guidance:
-              "This may include, for instance, cyber security training, GDPR
+            guidance: "This may include, for instance, cyber security training, GDPR
               training, and higher level training for system operators.\nSpecialised
               roles are likely to need more tailored training.\nIdentification of
               these specialities should be done through a systematic training needs
               analysis.\nSpecific training may also be required based on the data
               or information asset owner such as GCP."
             importance: Mandatory
-            architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+            architecture_url:
           - requirement_index: 1.5.2
-            statement: You must ensure that relevant training is available for
+            statement: You must ensure that relevant training is available for 
               all roles within the TRE organisation.
-            guidance:
-              "All TRE organisation members need to complete all relevant
+            guidance: "All TRE organisation members need to complete all relevant
               training and keep their training current.\nYou may need to provide help
               or guidance to enable them to do so.\nDetails of what training is needed
               will have been determined above."
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.5.3
-            statement: You must provide repeat or updated training where
+            statement: You must provide repeat or updated training where 
               necessary to account for changes in competency requirements.
-            guidance:
-              "Training is not a one-off event.\nElectronic reminders for
+            guidance: "Training is not a one-off event.\nElectronic reminders for
               refresher training should be considered.\nIdeally, training should remain
               relevant and so policies and processes should enable people to demonstrate
               competency rather than unnecessarily repeating training."
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.5.4
-            statement: You must maintain accurate training records that are
+            statement: You must maintain accurate training records that are 
               directly tied to the role and access levels within the TRE.
-            guidance:
-              "Training records should be tied to a user record and carefully
+            guidance: "Training records should be tied to a user record and carefully
               maintained.\nMaintaining training records enables you to ensure all
               people have completed the required training and that repeat training
               happens regularly."
             importance: Mandatory
             architecture_url:
           - requirement_index: 1.5.5
-            statement: You should accept proof of relevant training
+            statement: You should accept proof of relevant training 
               certifications from trusted third parties.
             guidance: You might choose to trust certifications provided by known
               training providers or your institution’s partner organisations.
             importance: Recommended
             architecture_url:
           - requirement_index: 1.5.6
-            statement: You could have a training platform capable of delivering
+            statement: You could have a training platform capable of delivering 
               online training in a variety of formats.
-            guidance:
-              "This could be a simple content delivery platform or a more
+            guidance: "This could be a simple content delivery platform or a more
               comprehensive LMS platform.\nIt could also include a range of multimedia
               delivery formats, and accessible training modules for those with access
               requirements."
@@ -357,24 +357,22 @@ specification:
           - requirement_index: 1.5.7
             statement: You could implement a learning management system (LMS) to
               manage courses and deliver training as required.
-            guidance: Where possible an LMS should support a variety of course
+            guidance: Where possible an LMS should support a variety of course 
               content and testing.
             importance: Optional
             architecture_url:
           - requirement_index: 1.5.8
-            statement: You could ensure that any courses you use are available
+            statement: You could ensure that any courses you use are available 
               in standard, transferable formats.
-            guidance:
-              "Support for standard formats such as SCORM allows courses to
+            guidance: "Support for standard formats such as SCORM allows courses to
               be shared between providers.\nThis could help facilitate standardisation
               of training provision for TRE users across organisations."
             importance: Optional
             architecture_url:
           - requirement_index: 1.5.9
-            statement: You could keep historical copies of courses in order to
+            statement: You could keep historical copies of courses in order to 
               demonstrate competency at a given point in time.
-            guidance:
-              "Information asset owners and regulators may be required to
+            guidance: "Information asset owners and regulators may be required to
               audit historical records, *e.g.* for clinical trials.\nIt may be necessary
               to retain copies of superseded training along with versions of certifications
               within the training record."
@@ -383,13 +381,12 @@ specification:
   - pillar_index: 2
     pillar: Computing technology and Information Security
     capabilities:
-      - capability_index: "2.1"
+      - capability_index: '2.1'
         statements:
           - requirement_index: 2.1.1
             statement: You must not allow users to copy data out of your TRE via
               the system clipboard.
-            guidance:
-              "A TRE user must not be able to copy sensitive data out of a
+            guidance: "A TRE user must not be able to copy sensitive data out of a
               workspace using the system clipboard.\nA TRE may allow user to paste
               text into a workspace.\nThis might not be relevant to your TRE, for
               example if your user interface does not have a clipboard."
@@ -398,36 +395,33 @@ specification:
           - requirement_index: 2.1.2
             statement: Your TRE workspace should provide an environment familiar
               to your users.
-            guidance:
-              "This may take the form of a virtual Windows or Linux desktops,
+            guidance: "This may take the form of a virtual Windows or Linux desktops,
               non-desktop interfaces such as JupyterLab and other web applications,
               or a terminal.\nBespoke TRE-specific software should be avoided when
               widely used alternatives already exist."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.1.3
-            statement: A TRE could restrict data access from data consumers
+            statement: A TRE could restrict data access from data consumers 
               entirely and provide an interface for submitting code.
-            guidance: For example, you might use a system where users submit
-              jobs that run over the data and return results without allowing
+            guidance: For example, you might use a system where users submit 
+              jobs that run over the data and return results without allowing 
               direct data access.
             importance: Optional
             architecture_url:
           - requirement_index: 2.1.4
-            statement: Your TRE should be accessed via a user interface
+            statement: Your TRE should be accessed via a user interface 
               accessible using commonly available applications.
-            guidance:
-              "TREs which allow users to connect from their own devices should
+            guidance: "TREs which allow users to connect from their own devices should
               not require the installation of any bespoke TRE application on the user’s
               device.\nIn practice a web browser is the most common way to achieve
               this."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.1.5
-            statement: Your TRE must provide clear guidance on how to use
+            statement: Your TRE must provide clear guidance on how to use 
               software tools and work with data in the TRE.
-            guidance:
-              "TREs that provide a virtual desktop environment for data consumers
+            guidance: "TREs that provide a virtual desktop environment for data consumers
               to work in should provide documentation detailing the available tools.\n\
               TREs where the analysis code is developed on the access machine (as
               oppose to within the TRE) should provide documentation detailing the
@@ -435,45 +429,41 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.1.6
-            statement: Your TRE should, where possible, automatically apply
+            statement: Your TRE should, where possible, automatically apply 
               security related updates for user software.
-            guidance: Reducing the risk of exploitable vulnerabilities in
+            guidance: Reducing the risk of exploitable vulnerabilities in 
               installed software will increase the security of your TRE.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.1.7
-            statement: Your TRE could provide shared services that are
+            statement: Your TRE could provide shared services that are 
               accessible to users in the same project.
-            guidance:
-              "This may include shared file storage, databases, collaborative
+            guidance: "This may include shared file storage, databases, collaborative
               writing, and other web applications.\nThis must only be shared amongst
               users within the same project."
             importance: Optional
             architecture_url:
           - requirement_index: 2.1.8
-            statement: Your TRE must ensure that any shared services are only
+            statement: Your TRE must ensure that any shared services are only 
               available to users working on the same project.
-            guidance:
-              "Poorly designed shared services could enable the unintended
+            guidance: "Poorly designed shared services could enable the unintended
               mixing of data between projects.\nTo prevent this it is necessary that
               each instance is only shared between users of a single project."
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.1.9
-            statement: You must mitigate and record any risks introduced by the
+            statement: You must mitigate and record any risks introduced by the 
               use in your TRE of software that requires telemetry to function.
-            guidance:
-              "For example, some licenced commercial software must contact
+            guidance: "For example, some licenced commercial software must contact
               an external licensing server at start-up.\nYou must be confident that
               only licensing information is sent to this server and that any network
               connections are secure."
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.1.10
-            statement: Your TRE must provide software applications that are
+            statement: Your TRE must provide software applications that are 
               relevant to working with the data in the TRE.
-            guidance:
-              "The tools provided will depend on the types of data in the
+            guidance: "The tools provided will depend on the types of data in the
               TRE, and the expectations of users of the TRE.\nFor users working in
               a TRE via a virtual desktop, this may include programming languages
               such as Python and R, integrated development environments, Jupyter notebooks,
@@ -486,28 +476,26 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.1.11
-            statement: Your TRE should provide tools to encourage best-practice
+            statement: Your TRE should provide tools to encourage best-practice 
               in reproducibly analysing data.
-            guidance:
-              "Reproducibility of analyses improves auditability and accountability
+            guidance: "Reproducibility of analyses improves auditability and accountability
               of how data has been used, as well as being best-practice in research.\n\
               This may include version control software, and tools for developing
               and running data analysis pipelines."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.1.12
-            statement: Your TRE could provide access to some public software
+            statement: Your TRE could provide access to some public software 
               repositories or container registries.
-            guidance: For example, a TRE may allow direct installation of
-              packages from Python or R repositories, or provide an internal
+            guidance: For example, a TRE may allow direct installation of 
+              packages from Python or R repositories, or provide an internal 
               mirror.
             importance: Optional
             architecture_url:
           - requirement_index: 2.1.13
-            statement: Your TRE could tightly control which packages are
+            statement: Your TRE could tightly control which packages are 
               available.
-            guidance:
-              "For example, a TRE may only allow installation of a pre-defined
+            guidance: "For example, a TRE may only allow installation of a pre-defined
               set of approved packages.\nYou might also choose to scan for malicious
               packages and/or go through an approval process before allowing code
               into the technical environment."
@@ -516,8 +504,7 @@ specification:
           - requirement_index: 2.1.14
             statement: Your TRE must maintain segregation of users and data from
               different projects when using non-standard compute.
-            guidance:
-              "High performance or specialist compute is often shared amongst
+            guidance: "High performance or specialist compute is often shared amongst
               multiple users.\nUsers and data must remain segregated at all times.\n\
               For example, when using physical compute resources, all sensitive data
               could be securely wiped before another user is given access to that
@@ -526,11 +513,10 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.1.15
-            statement: Your TRE should be able to provide access to high
-              performance computing or other scalable compute resource if
+            statement: Your TRE should be able to provide access to high 
+              performance computing or other scalable compute resource if 
               required by users.
-            guidance:
-              "If a TRE supports users conducting computationally intensive
+            guidance: "If a TRE supports users conducting computationally intensive
               research it should provide access to dynamically scalable compute or
               the equivalent.\nFor example this may be in the form of a batch scheduler
               on a HPC cluster, or a dynamically created compute nodes on a cloud
@@ -540,55 +526,51 @@ specification:
           - requirement_index: 2.1.16
             statement: Your TRE should be able to provide access to accelerators
               such as GPUs if required by users.
-            guidance:
-              "GPUs and other accelerators are commonly used in machine learning
+            guidance: "GPUs and other accelerators are commonly used in machine learning
               and other computationally intensive research.\nTREs should make it clear
               to users whether GPUs and other resources are available whilst projects
               are being assessed."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.1.17
-            statement: Your TRE could make data available to data consumers
-              using common database systems such as PostgreSQL, MSSQL or
+            statement: Your TRE could make data available to data consumers 
+              using common database systems such as PostgreSQL, MSSQL or 
               MongoDB.
-            guidance:
-              "Databases must be secured and only accessible to users within
+            guidance: "Databases must be secured and only accessible to users within
               the same project.\nIf shared (multi-tenant) database servers are used,
               database administrators must ensure that the database server enforces
               segregation of users and databases belonging to different projects."
             importance: Optional
             architecture_url:
           - requirement_index: 2.1.18
-            statement: Your TRE could integrate with large-scale data analytics
+            statement: Your TRE could integrate with large-scale data analytics 
               tools for working with large datasets.
-            guidance:
-              "For example, Spark and Hadoop can be used for distributed computing
+            guidance: "For example, Spark and Hadoop can be used for distributed computing
               across a cluster.\nThis may be an advantage where a TRE is using an
               amount of data that is too large for single-machine computing to be
               practical."
             importance: Optional
             architecture_url:
-      - capability_index: "2.2"
+      - capability_index: '2.2'
         statements:
           - requirement_index: 2.2.1
-            statement: You must have a documented procedure for deploying
+            statement: You must have a documented procedure for deploying 
               infrastructure.
-            guidance: This might, for instance, be a handbook that is followed
+            guidance: This might, for instance, be a handbook that is followed 
               or a set of automated scripts.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.2.2
-            statement: You should, where possible, automate any repeatable
+            statement: You should, where possible, automate any repeatable 
               aspects of your deployment.
             guidance: This might involve using infrastructure-as-code tools or a
               series of scripts.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.2.3
-            statement: You must have a documented procedure for making changes
+            statement: You must have a documented procedure for making changes 
               to deployed infrastructure.
-            guidance:
-              "This refers both to changes that might be expected in the course
+            guidance: "This refers both to changes that might be expected in the course
               of normal operation and emergency changes that might be needed.\nYour
               change management process may form part of a wider accreditation such
               as ISO 27001."
@@ -596,113 +578,109 @@ specification:
             architecture_url:
           - requirement_index: 2.2.4
             statement: You must test changes before they are used in production.
-            guidance: This might involve a separate development environment or
+            guidance: This might involve a separate development environment or 
               another system for testing.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.2.5
-            statement: You should have a development environment that mirrors
-              your production environment which you use to test infrastructure
+            statement: You should have a development environment that mirrors 
+              your production environment which you use to test infrastructure 
               changes before committing them to production.
-            guidance:
-              "If possible, you should automate application of changes between
+            guidance: "If possible, you should automate application of changes between
               development and production environments.\nConsider the costs and practicality
               of whether this will work for your situation."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.2.6
-            statement: You must have a documented procedure for removing
+            statement: You must have a documented procedure for removing 
               infrastructure when it is no longer needed.
-            guidance: Removing unused infrastructure not only reduces costs and
+            guidance: Removing unused infrastructure not only reduces costs and 
               management burden but also reduces the attack surface of a TRE and
               reduces the risk of unaddressed vulnerabilities.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.2.7
-            statement: You should understand the availability and uptime
+            statement: You should understand the availability and uptime 
               guarantees of any providers that you rely on.
-            guidance:
-              "For remote TREs this might include your cloud provider(s) and/or
+            guidance: "For remote TREs this might include your cloud provider(s) and/or
               data centre operators.\nFor on-premises TREs, it might be worth using
               an uninterruptable power supply (UPS) and planning how you would deal
               with internet outages."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.2.8
-            statement: You should develop an availability target or statement
+            statement: You should develop an availability target or statement 
               and share this with your users.
-            guidance: Understanding how and when the TRE might be unavailable
+            guidance: Understanding how and when the TRE might be unavailable 
               will help your projects in planning their work.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.2.9
-            statement: Your TRE must control and manage all of its network
-              infrastructure in order to protect information in systems and
+            statement: Your TRE must control and manage all of its network 
+              infrastructure in order to protect information in systems and 
               applications.
-            guidance:
-              "Network infrastructure must prevent unauthorised access to
+            guidance: "Network infrastructure must prevent unauthorised access to
               resources on the network.\nThis may include firewalls, network segmentation,
               and restricting connections to the network."
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.2.10
-            statement: Your TRE must not allow connectivity between users in
+            statement: Your TRE must not allow connectivity between users in 
               different projects, or with access to different datasets.
-            guidance: Connectivity between users in the same project may be
+            guidance: Connectivity between users in the same project may be 
               allowed, for example to support shared network services within the
               project.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.2.11
-            statement: Your TRE must block outbound connections to the internet
+            statement: Your TRE must block outbound connections to the internet 
               by default.
-            guidance: Limited outbound connectivity may be allowed for some
+            guidance: Limited outbound connectivity may be allowed for some 
               services.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.2.12
-            statement: You should be able to monitor the network configuration
+            statement: You should be able to monitor the network configuration 
               of your TRE to check for misconfigurations and vulnerabilities.
-            guidance: This may include regular vulnerability scanning, and
+            guidance: This may include regular vulnerability scanning, and 
               penetration testing.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.2.13
             statement: You should regularly monitor the network configuration of
               your TRE to check for misconfigurations and vulnerabilities.
-            guidance: This will involve following the monitoring procedure
+            guidance: This will involve following the monitoring procedure 
               detailed above.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.2.14
             statement: Your TRE must record usage data.
-            guidance: This may include the number of users, number of projects,
-              the amount of data stored, number of datasets, the number of
+            guidance: This may include the number of users, number of projects, 
+              the amount of data stored, number of datasets, the number of 
               workspaces, etc.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.2.15
-            statement: Your TRE should record which datasets are accessed, when
+            statement: Your TRE should record which datasets are accessed, when 
               and by who.
             guidance: This helps maintain auditability of how sensitive data has
               been used.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.2.16
-            statement: Your TRE should record computational resource usage at
+            statement: Your TRE should record computational resource usage at 
               the user or aggregate level.
             guidance: This is useful for optimising allocation of resources, and
               managing costs.
             importance: Recommended
             architecture_url:
-      - capability_index: "2.3"
+      - capability_index: '2.3'
         statements:
           - requirement_index: 2.3.1
-            statement: You must ensure that all projects understand what
-              resources are available and what the associated costs will be
+            statement: You must ensure that all projects understand what 
+              resources are available and what the associated costs will be 
               before the project starts.
-            guidance:
-              "For on-premises systems this might be related to the available
+            guidance: "For on-premises systems this might be related to the available
               hardware, for cloud-based systems there might be limits on how many
               instances of a particular resource (*e.g.* GPUs) can be used\nProjects
               should use this information to understand whether the available resources
@@ -710,19 +688,18 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.3.2
-            statement: You should ensure that the anticipated needs of projects
+            statement: You should ensure that the anticipated needs of projects 
               can be satisfied using available resources.
             guidance: Note that this does not require you to accept requests for
               additional resources, but rather that promises made about resource
-              availability before a project starts should be honoured wherever
+              availability before a project starts should be honoured wherever 
               possible.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.3.3
-            statement: You must have a procedure for allocating available
+            statement: You must have a procedure for allocating available 
               resources among projects.
-            guidance:
-              "For cloud-based TREs this may involve scaling resources, such
+            guidance: "For cloud-based TREs this may involve scaling resources, such
               as virtual machines or databases, or deploying additional resources.\n\
               For on-premises TREs this may involve a procurement process to ensure
               that necessary resources are available.\nNot all requests for capacity
@@ -732,58 +709,56 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.3.4
-            statement: You must ensure that the anticipated resource
+            statement: You must ensure that the anticipated resource 
               requirements will not result in overspending by the TRE.
-            guidance:
-              "For cloud-based TREs this may involve budgeting and/or restricting
+            guidance: "For cloud-based TREs this may involve budgeting and/or restricting
               resource consumption on a project-by-project basis.\nFor on-premises
               TREs this may involve managing expectations to match the available resource."
             importance: Mandatory
             architecture_url:
-      - capability_index: "2.4"
+      - capability_index: '2.4'
         statements:
           - requirement_index: 2.4.1
-            statement: You must have a documented procedure for configuring
+            statement: You must have a documented procedure for configuring 
               infrastructure.
-            guidance: This might, for instance, be a handbook that is followed
+            guidance: This might, for instance, be a handbook that is followed 
               or a set of automated scripts.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.4.2
             statement: You should use configuration management tools to automate
               application of your configuration wherever possible.
-            guidance: This might involve configuration-as-code tools such as
-              Ansible, Chef, Puppet or Windows Desired State Configuration or
+            guidance: This might involve configuration-as-code tools such as 
+              Ansible, Chef, Puppet or Windows Desired State Configuration or 
               simply automated scripts.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.4.3
             statement: You should be able to verify whether the configuration is
               valid.
-            guidance: This might, for instance, involve running your
+            guidance: This might, for instance, involve running your 
               configuration management tool in ‘check’ mode.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.4.4
             statement: You should regularly verify your TRE configuration.
-            guidance: This will limit the amount of time the TRE can spend in a
+            guidance: This will limit the amount of time the TRE can spend in a 
               non-compliant state.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.4.5
-            statement: You must be able to replace a non-compliant TRE with a
+            statement: You must be able to replace a non-compliant TRE with a 
               compliant system.
-            guidance: This might involve reconfiguring a running system or by
+            guidance: This might involve reconfiguring a running system or by 
               replacing it with a compliant one.
             importance: Mandatory
             architecture_url:
-      - capability_index: "2.5"
+      - capability_index: '2.5'
         statements:
           - requirement_index: 2.5.1
-            statement: You should keep backups of data and research
+            statement: You should keep backups of data and research 
               environments, provided that this is permitted by law.
-            guidance:
-              "Keeping backups could help reduce the impact of events like
+            guidance: "Keeping backups could help reduce the impact of events like
               accidental deletion and data corruption on work in a TRE.\nTRE developers
               may want to consider how different elements such as sensitive input
               data or users’ workspaces may be backed up, and whether they should
@@ -791,63 +766,58 @@ specification:
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.2
-            statement: You should build redundancy into infrastructure and
+            statement: You should build redundancy into infrastructure and 
               storage.
-            guidance:
-              "Infrastructure should be as resilient as necessary to interruption.\n\
+            guidance: "Infrastructure should be as resilient as necessary to interruption.\n\
               This could include redundant infrastructure in different physical locations,
               load balancing and replication of data between multiple storage locations."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.3
-            statement: You should keep backups of infrastructure, applications
+            statement: You should keep backups of infrastructure, applications 
               and configurations.
-            guidance: This may include virtualised infrastructure snapshots
+            guidance: This may include virtualised infrastructure snapshots 
               which can restored as needed to recover from failure.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.4
-            statement: You must have procedures in place for rapid incident
+            statement: You must have procedures in place for rapid incident 
               response.
-            guidance:
-              "There may be legal requirements to disclose details of any
+            guidance: "There may be legal requirements to disclose details of any
               incidents, such as data breaches for organisations subject to GDPR.\n\
               Having robust processes in place will ensure a swift and effective response
               when an incident occurs."
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.5.5
-            statement: You should test your incident response through
+            statement: You should test your incident response through 
               simulation.
-            guidance:
-              "During simulated incidents the TRE organisation can measure
+            guidance: "During simulated incidents the TRE organisation can measure
               their effectiveness.\nThis may involve people across the broader enterprise
               and/or external suppliers."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.6
-            statement: You should have an application in place to scan for
+            statement: You should have an application in place to scan for 
               vulnerabilities across infrastructure.
-            guidance:
-              "Software used to identify vulnerabilities should also report
+            guidance: "Software used to identify vulnerabilities should also report
               and alert.\nSuch an alert should be triaged, risk assessed and treated
               accordingly."
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.7
-            statement: You must have a process in place for applying security
+            statement: You must have a process in place for applying security 
               updates to all software that forms part of the TRE infrastructure.
-            guidance: This includes any software used for remote desktop
-              portals, databases, webapps, creating and destroying compute
-              infrastructure, configuration management, or software used for
+            guidance: This includes any software used for remote desktop 
+              portals, databases, webapps, creating and destroying compute 
+              infrastructure, configuration management, or software used for 
               monitoring the TRE.
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.5.8
-            statement: Infrastructure should be automatically patched for
+            statement: Infrastructure should be automatically patched for 
               vulnerabilities.
-            guidance:
-              "Planning will be required across infrastructure and software
+            guidance: "Planning will be required across infrastructure and software
               systems to ensure security patches remain available from suppliers.\n\
               Many systems may be isolated from the internet making TRE infrastructure
               more difficult to automatically patch."
@@ -855,8 +825,7 @@ specification:
             architecture_url:
           - requirement_index: 2.5.9
             statement: You should carry out penetration tests on your TRE.
-            guidance:
-              "By intentionally attempting to breach their TRE, organisations
+            guidance: "By intentionally attempting to breach their TRE, organisations
               can proactively discover unnoticed vulnerabilities before they are exploited
               maliciously.\nTests can evaluate the effectiveness of security controls
               in preventing data breaches, unauthorised access, or other security
@@ -866,8 +835,7 @@ specification:
           - requirement_index: 2.5.10
             statement: You should update the security controls of your TRE based
               on the results of security tests.
-            guidance:
-              "Security testing can reveal bugs and discrepancies in the TRE
+            guidance: "Security testing can reveal bugs and discrepancies in the TRE
               architecture which should be addressed in advance of sensitive data
               being uploaded, or with urgency in the case of an operational TRE.\n\
               Regular testing will allow organisations to refine their TRE security
@@ -877,10 +845,9 @@ specification:
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.11
-            statement: You should publish details of your security testing
+            statement: You should publish details of your security testing 
               strategy and, where possible, the results of each test.
-            guidance:
-              "Knowledge that regular security testing occurs will help to
+            guidance: "Knowledge that regular security testing occurs will help to
               ensure stakeholders, including data consumers and information asset
               owners, can trust that the data they work with or are responsible for
               is secure within a TRE.\nIf security flaws are identified in a test,
@@ -889,8 +856,7 @@ specification:
             architecture_url:
           - requirement_index: 2.5.12
             statement: Your TRE must encrypt project and user data at rest.
-            guidance:
-              "This prevents unauthorised access to the data even if the storage
+            guidance: "This prevents unauthorised access to the data even if the storage
               media is compromised.\nThis may involve encrypted filesystems or tools
               to encrypt and decrypt data on demand.\nThe encryption keys may be managed
               by the TRE operator or by a trusted external actor, for example a cloud
@@ -898,27 +864,25 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.5.13
-            statement: Your TRE must encrypt data when in transit between the
+            statement: Your TRE must encrypt data when in transit between the 
               TRE and external networks or computers.
-            guidance:
-              "Data encryption must be used to safeguard against interception
+            guidance: "Data encryption must be used to safeguard against interception
               or tampering during transmission.\nThis includes both data ingress and
               egress and users accessing the TRE, for example over a remote desktop
               or shell session."
             importance: Mandatory
             architecture_url:
           - requirement_index: 2.5.14
-            statement: Your TRE should encrypt data when in transit inside the
+            statement: Your TRE should encrypt data when in transit inside the 
               TRE.
-            guidance: If possible, data transfers between different components
+            guidance: If possible, data transfers between different components 
               of a TRE should also be encrypted.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.15
-            statement: You should use encryption algorithms and software that
+            statement: You should use encryption algorithms and software that 
               are widely accepted as secure.
-            guidance:
-              "Encryption algorithms widely accepted as secure today may become
+            guidance: "Encryption algorithms widely accepted as secure today may become
               insecure in the future, for instance due to newly-identified flaws,
               or advances in compute capabilities.\nThe latest security patches and
               updates should be applied to any encryption software being used by the
@@ -928,17 +892,16 @@ specification:
             architecture_url:
           - requirement_index: 2.5.16
             statement: Your TRE should use secure key management.
-            guidance: TREs should employ secure key management practices,
-              including storing encryption keys separately from the encrypted
-              data and implementing strong access controls (*e.g.* Single Sign
+            guidance: TREs should employ secure key management practices, 
+              including storing encryption keys separately from the encrypted 
+              data and implementing strong access controls (*e.g.* Single Sign 
               On) for key management systems.
             importance: Recommended
             architecture_url:
           - requirement_index: 2.5.17
             statement: Your TRE could offer physical protection measures against
               data leakage or theft via physical means.
-            guidance:
-              "Restricting access to research facilities containing computers
+            guidance: "Restricting access to research facilities containing computers
               logged into TREs can help prevent malicious actors from viewing or stealing
               sensitive data, for example by photographing a computer screen.\nPhysical
               controls on access to a TRE could include surveillance systems, restricting
@@ -947,10 +910,9 @@ specification:
             importance: Optional
             architecture_url:
           - requirement_index: 2.5.18
-            statement: Your TRE may need to comply with specific regulatory
+            statement: Your TRE may need to comply with specific regulatory 
               requirements due to the types of data it is hosting.
-            guidance:
-              "Regulatory frameworks often emphasise the need for security
+            guidance: "Regulatory frameworks often emphasise the need for security
               controls to protect sensitive data.\nCompliance with these regulations
               could require organisations to implement specific security measures
               to safeguard their TRE from unauthorised access."
@@ -959,14 +921,13 @@ specification:
   - pillar_index: 3
     pillar: Data management
     capabilities:
-      - capability_index: "3.1"
+      - capability_index: '3.1'
         statements:
           - requirement_index: 3.1.1
-            statement: You must have processes in place to assess the legal and
-              regulatory implications of handling the data through its full
+            statement: You must have processes in place to assess the legal and 
+              regulatory implications of handling the data through its full 
               lifecycle.
-            guidance:
-              "This involves considering your obligations to data controllers
+            guidance: "This involves considering your obligations to data controllers
               and subjects, and whether any security controls may be legally or contractually
               required.\nAn assessment of the risks involved will also be needed.\n\
               It may involve classifying the project into a predefined sensitivity
@@ -975,16 +936,15 @@ specification:
             architecture_url:
           - requirement_index: 3.1.2
             statement: You should keep records of data handling decisions.
-            guidance: Decisions that are made as part of the process discussed
-              above should be recorded and made available for inspection by all
+            guidance: Decisions that are made as part of the process discussed 
+              above should be recorded and made available for inspection by all 
               stakeholders.
             importance: Recommended
             architecture_url:
           - requirement_index: 3.1.3
-            statement: Information asset owners must classify data sets
+            statement: Information asset owners must classify data sets 
               according to a common process and data classification methodology.
-            guidance:
-              "To classify the data, information asset owners must have a
+            guidance: "To classify the data, information asset owners must have a
               good understanding of the datasets and the process of classification.\n\
               Once classified, data can be stored in a TRE with an appropriate security
               controls (see later section on security levels and tiering), which can
@@ -993,19 +953,17 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.1.4
-            statement: You must have a data ingress process which enforces
+            statement: You must have a data ingress process which enforces 
               information governance rules/processes.
-            guidance:
-              "The data ingress process needs to ensure that information governance
+            guidance: "The data ingress process needs to ensure that information governance
               is correctly followed.\nIn particular, it should require that an ingress
               request has been approved by all required parties."
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.1.5
-            statement: You must have a data egress process which enforces
+            statement: You must have a data egress process which enforces 
               information governance rules/processes.
-            guidance:
-              "The data egress process needs to ensure that information governance
+            guidance: "The data egress process needs to ensure that information governance
               requirements are adhered to.\nIn particular, it should require that
               an egress request has been approved by all required parties."
             importance: Mandatory
@@ -1013,17 +971,15 @@ specification:
           - requirement_index: 3.1.6
             statement: Egress must be limited to the information asset owners or
               their delegates.
-            guidance:
-              "Egress of data from a TRE must be a specific permission associated
+            guidance: "Egress of data from a TRE must be a specific permission associated
               with individual users\nThis permission must be given by information
               asset owners.\nEgress may still require further approval (see 3.1.5)."
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.1.7
-            statement: Your data egress process could sometimes require
+            statement: Your data egress process could sometimes require 
               project-independent approval.
-            guidance:
-              "There may be cases where there are multiple stakeholders for
+            guidance: "There may be cases where there are multiple stakeholders for
               a piece of analysis including information asset owners, data analysts,
               data subjects, the TRE operator.\nA data egress process may then require
               approval from people not on the project team, for example an external
@@ -1032,8 +988,7 @@ specification:
             architecture_url:
           - requirement_index: 3.1.8
             statement: You must keep a record of what data your TRE holds.
-            guidance:
-              "Good records are important for ensuring compliance with legislation,
+            guidance: "Good records are important for ensuring compliance with legislation,
               understanding risk and aiding good data hygiene.\nThe record should
               include a description of the data, its source, contact details for the
               data owner, which projects use the data, the date it was received, when
@@ -1042,8 +997,7 @@ specification:
             architecture_url:
           - requirement_index: 3.1.9
             statement: You must have a policy on data deletion.
-            guidance:
-              "There should be a clear, published policy on when data will
+            guidance: "There should be a clear, published policy on when data will
               be retained or deleted.\nThis may allow time for data owners to consider
               outputs they may want to extract from the TRE.\nAny sensitive data,
               including all backups, should be deleted when they are no longer needed.\n\
@@ -1052,26 +1006,23 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.1.10
-            statement: You should have a method of providing proof of
+            statement: You should have a method of providing proof of 
               deletion/removal of files.
-            guidance:
-              "Information asset owners may require certification of the deletion
+            guidance: "Information asset owners may require certification of the deletion
               of files.\nYou should have a method of providing proof of deletion if
               challenged."
             importance: Recommended
             architecture_url:
           - requirement_index: 3.1.11
             statement: You should log how input data is modified.
-            guidance:
-              "If the input data is mutable a TRE should keep records of its
+            guidance: "If the input data is mutable a TRE should keep records of its
               modification.\nFor example, when the data was modified and by who."
             importance: Recommended
             architecture_url:
           - requirement_index: 3.1.12
-            statement: You must, to a reasonable extent, prevent unauthorised
+            statement: You must, to a reasonable extent, prevent unauthorised 
               data ingress or egress.
-            guidance:
-              "Movement of data which has not been subject to information
+            guidance: "Movement of data which has not been subject to information
               governance processes risks breaking rules and is more likely to result
               in a data breach.\nHowever, it is difficult to control for every possibility.\n\
               For example, a user may take pictures of their computer screen to remove
@@ -1082,10 +1033,9 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.1.13
-            statement: Data held within the TRE should be the minimum required
+            statement: Data held within the TRE should be the minimum required 
               for analysis or research.
-            guidance:
-              "Data stored and processed within the TRE should be limited
+            guidance: "Data stored and processed within the TRE should be limited
               to the amount required for that purpose.\nThis increases the level of
               protection for data subjects, makes it easier to comply with data protection
               legislation and could reduce the overhead of storage and processing."
@@ -1093,58 +1043,53 @@ specification:
             architecture_url:
           - requirement_index: 3.8.1
             statement: Archived data within the TRE should be read only.
-            guidance:
-              "Archived data by its very nature should not change and therefore
+            guidance: "Archived data by its very nature should not change and therefore
               be maintained as a read only store.\nIf an update is required, it may
               be pulled from archive into a separate operational store."
             importance: Recommended
             architecture_url:
           - requirement_index: 3.8.2
-            statement: Long-term archives must be held in simple, standard
+            statement: Long-term archives must be held in simple, standard 
               formats to ensure accessibility.
-            guidance:
-              "Some data archives may be required by policy or legislation
+            guidance: "Some data archives may be required by policy or legislation
               to be kept for very long periods within the scope of the TRE.\nSuch
               data should be held in the simplest possible file format, conforming
               to international standards if available, to ensure they are platform
               and application agnostic."
             importance: Recommended
             architecture_url:
-      - capability_index: "3.2"
+      - capability_index: '3.2'
         statements:
           - requirement_index: 3.2.1
-            statement: You must not create user accounts for use by more than
+            statement: You must not create user accounts for use by more than 
               one person.
-            guidance: It is important that each user account should be used by
+            guidance: It is important that each user account should be used by 
               one, and only one, person in order to facilitate the assignment of
               roles or permissions and to log the actions of individuals.
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.2.2
-            statement: You must be reasonably convinced of the identity of each
+            statement: You must be reasonably convinced of the identity of each 
               person being granted an account.
-            guidance:
-              "It is important to ensure an account has been given to the
+            guidance: "It is important to ensure an account has been given to the
               correct person.\nFor example, multiple credentials may be used before
               account creation to verify identity or, when appropriate, photo ID checks
               may be required."
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.2.3
-            statement: You must restrict a user’s access to only data required
+            statement: You must restrict a user’s access to only data required 
               in their work.
-            guidance:
-              "There is no need to grant an individual access to data they
+            guidance: "There is no need to grant an individual access to data they
               do not require.\nAccess may be assigned in a manner appropriate to a
               TREs design, for example through roles granted to user accounts or through
               isolated project workspaces."
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.2.4
-            statement: You must ensure that multi-factor authentication is
+            statement: You must ensure that multi-factor authentication is 
               enabled for all users.
-            guidance:
-              "Multi-factor authentication ensures that to successfully connect
+            guidance: "Multi-factor authentication ensures that to successfully connect
               a user must have more than one piece of evidence in different categories.\n\
               Categories include something the user knows (*e.g.* a password), something
               the user possesses (*e.g.* a TOTP key) or something the user is (*e.g.*
@@ -1153,31 +1098,28 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.2.5
-            statement: You could use federated authentication or single sign-on
+            statement: You could use federated authentication or single sign-on 
               (SSO) for user login.
-            guidance:
-              "Institutions that use a SSO for other applications may wish
+            guidance: "Institutions that use a SSO for other applications may wish
               to extend this login capability to a TRE.\nThis will simplify the login
               process for data consumers using a TRE and prevent them having to remember
               or store multiple login credentials."
             importance: Optional
             architecture_url:
           - requirement_index: 3.2.6
-            statement: You could restrict access to particular networks or
+            statement: You could restrict access to particular networks or 
               physical locations.
-            guidance:
-              "Restricting access to a set of known, static, personal or institutional
+            guidance: "Restricting access to a set of known, static, personal or institutional
               IP addresses can help avoid speculative attacks.\nWhen appropriate,
               access could also be restricted to physical locations with security
               controls and access requirements."
             importance: Optional
             architecture_url:
-      - capability_index: "3.3"
+      - capability_index: '3.3'
         statements:
           - requirement_index: 3.3.1
             statement: You should have a system to help classify outputs.
-            guidance:
-              "Removing data from a TRE can be a difficult process as there
+            guidance: "Removing data from a TRE can be a difficult process as there
               is potential for sensitive data to be revealed.\nHaving guidance, processes
               and methods will help ensure that outputs are correctly classified and,
               furthermore, that outputs due to be openly published are identified.\n\
@@ -1188,8 +1130,7 @@ specification:
           - requirement_index: 3.3.2
             statement: You should establish the intended outputs of each project
               from the outset.
-            guidance:
-              "Identifying the purpose of a piece of work is important for
+            guidance: "Identifying the purpose of a piece of work is important for
               compliance with data protection legislation.\nResults will be produced
               which address the project’s purpose, some of which may be outputs that
               are removed from the TRE.\nUnderstanding what these outputs are likely
@@ -1200,17 +1141,15 @@ specification:
           - requirement_index: 3.3.3
             statement: You must have a documented process for disclosure control
               of outputs from the TRE.
-            guidance:
-              "This process should define expected risks and how to mitigate
+            guidance: "This process should define expected risks and how to mitigate
               them.\nAll TRE outputs must be subject to this process.\nYou might choose
               to follow existing guidelines, for example around statistical disclosure."
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.3.4
-            statement: You must have a process for assigning responsibility for
+            statement: You must have a process for assigning responsibility for 
               output checking.
-            guidance:
-              "Output checkers should be given responsibility for checking
+            guidance: "Output checkers should be given responsibility for checking
               outputs.\nThey must follow your disclosure control process and will
               be responsible for any automated parts of this process.\nOutput checking
               can help mitigate against unintentional data disclosure or leaks."
@@ -1219,8 +1158,7 @@ specification:
           - requirement_index: 3.3.5
             statement: You must have a documented policy for handling disclosure
               risks associated with any outputs that cannot be manually checked.
-            guidance:
-              "Some categories of output, for instance binary files or very
+            guidance: "Some categories of output, for instance binary files or very
               large numeric files, can be difficult to manually check.\nIf egress
               of such files is permitted then the risks of inadvertent disclosure
               must be mitigated and documented.\nRefusing to allow egress of such
@@ -1228,19 +1166,18 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.3.6
-            statement: You should have a statistical basis to guide the
+            statement: You should have a statistical basis to guide the 
               decisions of an output checker on the safety of outputs.
-            guidance: There should be a solid basis to allow decisions to be
+            guidance: There should be a solid basis to allow decisions to be 
               made about data based on risk factors such as re-identification of
-              an individual or risk to commercial operations posed by outputs
+              an individual or risk to commercial operations posed by outputs 
               from the TRE.
             importance: Recommended
             architecture_url:
           - requirement_index: 3.3.7
-            statement: You could create a semi-automated system for checks on
+            statement: You could create a semi-automated system for checks on 
               common research outputs.
-            guidance:
-              "Automation helps make decisions on outputs more consistent
+            guidance: "Automation helps make decisions on outputs more consistent
               and reduces the overhead for output checkers.\nIt’s unlikely however
               that a fully automated output checking system (without humans in the
               loop) would be appropriate, given the risks associated with accidental
@@ -1250,58 +1187,55 @@ specification:
           - requirement_index: 3.3.8
             statement: TRE outputs should be limited to the minimum required for
               sharing results of any analyses.
-            guidance: This decreases the risk of inadvertent disclosure, and
-              makes it easier to comply with data protection legislation (e.g.
+            guidance: This decreases the risk of inadvertent disclosure, and 
+              makes it easier to comply with data protection legislation (e.g. 
               GDPR).
             importance: Recommended
             architecture_url:
-      - capability_index: "3.4"
+      - capability_index: '3.4'
         statements:
           - requirement_index: 3.4.1
-            statement: You should provide a metadata catalogue of available
+            statement: You should provide a metadata catalogue of available 
               datasets for users.
-            guidance:
-              "This is particularly relevant for TREs with population-level
+            guidance: "This is particularly relevant for TREs with population-level
               data collection of general interest.\nThis may not be appropriate for
               TREs where each project has its own data sharing agreement with one
               or more data provider or very sensitive datasets."
             importance: Recommended
             architecture_url:
           - requirement_index: 3.6.1
-            statement: You should have a consistent and easily accessible
-              meta-data data model or similar to describe what a data asset
+            statement: You should have a consistent and easily accessible 
+              meta-data data model or similar to describe what a data asset 
               contains.
-            guidance:
-              "Where possible, existing data models should be employed (and
+            guidance: "Where possible, existing data models should be employed (and
               extended if necessary).\nMore detailed information on the data schema
               for data assets should also be provided to assist researchers in understanding
               what data may be available without the need to see the underlying data."
             importance: Recommended
             architecture_url:
           - requirement_index: 3.6.2
-            statement: You could provide summary, abstracted or synthetic data
+            statement: You could provide summary, abstracted or synthetic data 
               to researchers without exposing the underlying data set.
-            guidance: To reduce the need for access to row level data
-              researchers could be provided with non-sensitive versions of the
-              data either as summary data or using synthetic versions of the
+            guidance: To reduce the need for access to row level data 
+              researchers could be provided with non-sensitive versions of the 
+              data either as summary data or using synthetic versions of the 
               data for activities such as code development and cohort planning.
             importance: Optional
             architecture_url:
           - requirement_index: 3.7.1
-            statement: You could provide an interface application for data
+            statement: You could provide an interface application for data 
               consumers and data subjects to query elements of the data.
-            guidance: In order to make data findable, an application which
-              queries the meta-data or elements of the research data could be
+            guidance: In order to make data findable, an application which 
+              queries the meta-data or elements of the research data could be 
               made more easily accessible than the data itself.
             importance: Optional
             architecture_url:
-      - capability_index: "3.5"
+      - capability_index: '3.5'
         statements:
           - requirement_index: 3.5.1
-            statement: You must be able to specify what categories of data your
+            statement: You must be able to specify what categories of data your 
               TRE is able to support.
-            guidance:
-              "Your TRE must provide an explanation of the kinds of data it
+            guidance: "Your TRE must provide an explanation of the kinds of data it
               has been designed to hold, with reference to its security capabilities,
               that can be understood by all stakeholders.\nRelevant stakeholders may
               include information asset owners and project teams and they may have
@@ -1309,19 +1243,17 @@ specification:
             importance: Mandatory
             architecture_url:
           - requirement_index: 3.5.2
-            statement: Your TRE could support projects with differing security
+            statement: Your TRE could support projects with differing security 
               requirements through configurable security controls.
-            guidance:
-              "This allows projects with different security requirements to
+            guidance: "This allows projects with different security requirements to
               each be met with a suitable level of controls.\nIt helps ensure that
               users can work effectively, with minimal barriers."
             importance: Optional
             architecture_url:
           - requirement_index: 3.5.3
-            statement: Your TRE could offer a pre-defined set of security
+            statement: Your TRE could offer a pre-defined set of security 
               control tiers.
-            guidance:
-              "Security control tiers can be designed to cover the types of
+            guidance: "Security control tiers can be designed to cover the types of
               project or data you expect to handle.\nProjects may be placed into the
               most suitable tier rather than having a bespoke design.\nThis reduces
               the number of unique configurations that need to be supported."
@@ -1330,32 +1262,30 @@ specification:
   - pillar_index: 4
     pillar: Supporting Capabilities
     capabilities:
-      - capability_index: "4.1"
+      - capability_index: '4.1'
         statements:
           - requirement_index: 4.1.1
-            statement: You should have a business continuity plan that includes
+            statement: You should have a business continuity plan that includes 
               consideration of loss of service for deployed TREs.
-            guidance:
-              "This may be due to downtime from service providers, a breach,
+            guidance: "This may be due to downtime from service providers, a breach,
               or loss of power.\nYour plan should detail your process for managing
               loss of service for deployed TREs, and evaluation of impact of such
               loss."
             importance: Recommended
             architecture_url:
           - requirement_index: 4.1.2
-            statement: You should regularly test the aspects of your business
-              continuity plan concerning TREs, and have a process in place to
+            statement: You should regularly test the aspects of your business 
+              continuity plan concerning TREs, and have a process in place to 
               iterate the plan if required.
             guidance: .nan
             importance: Recommended
             architecture_url:
-      - capability_index: "4.2"
+      - capability_index: '4.2'
         statements:
           - requirement_index: 4.2.1
             statement: You should ensure that all projects using your TRE have a
               named project manager.
-            guidance:
-              "The project manager has responsibility to ensure the smooth
+            guidance: "The project manager has responsibility to ensure the smooth
               running of the project.\nTheir responsibilities may include budget management,
               tracking TRE status, managing communications with the TRE operations
               team, and other project support tasks."
@@ -1368,92 +1298,90 @@ specification:
               sensitive data, and those overseeing access to sensitive data.
             importance: Recommended
             architecture_url:
-      - capability_index: "4.3"
+      - capability_index: '4.3'
         statements:
           - requirement_index: 4.3.1
-            statement: You must document all features of your TRE
+            statement: You must document all features of your TRE 
               implementation.
-            guidance: This includes ensuring all documentation is discoverable,
+            guidance: This includes ensuring all documentation is discoverable, 
               clear, and able to be easily updated based on stakeholder feedback
             importance: Mandatory
             architecture_url:
           - requirement_index: 4.3.2
-            statement: You should have an education programme in place to
+            statement: You should have an education programme in place to 
               upskill stakeholders in the use and management of your TRE.
-            guidance: This may include learning modules, workshops and other
-              resources on how to effectively access and use a TRE, FAQ pages,
+            guidance: This may include learning modules, workshops and other 
+              resources on how to effectively access and use a TRE, FAQ pages, 
               and accessible pathways for additional support
             importance: Recommended
             architecture_url:
           - requirement_index: 4.3.3
-            statement: You should periodically carry out a training needs
-              analysis (TNA) for all stakeholders included within your TRE
+            statement: You should periodically carry out a training needs 
+              analysis (TNA) for all stakeholders included within your TRE 
               provision.
-            guidance: At least once every 12 months you should assess the
-              training needs of your stakeholders, and ensure they have easy
+            guidance: At least once every 12 months you should assess the 
+              training needs of your stakeholders, and ensure they have easy 
               access to all required training materials
             importance: Recommended
             architecture_url:
-      - capability_index: "4.4"
+      - capability_index: '4.4'
         statements:
           - requirement_index: 4.4.1
-            statement: You must ensure that all projects using your TRE are
-              aware of any associated costs and are able and willing to pay
+            statement: You must ensure that all projects using your TRE are 
+              aware of any associated costs and are able and willing to pay 
               them.
-            guidance: Costs may include provision of the underlying TRE
-              infrastructure, additional resources required in a specific TRE
-              (for instance memory or additional compute), hardware including
+            guidance: Costs may include provision of the underlying TRE 
+              infrastructure, additional resources required in a specific TRE 
+              (for instance memory or additional compute), hardware including 
               managed devices, and staff support costs
             importance: Mandatory
             architecture_url:
           - requirement_index: 4.4.2
-            statement: You should be able to track the costs associated with
+            statement: You should be able to track the costs associated with 
               each TRE project.
-            guidance: This includes knowing which costs are associated with
-              which project, and having an appropriate charging mechanism in
+            guidance: This includes knowing which costs are associated with 
+              which project, and having an appropriate charging mechanism in 
               place in line with your organisational policy.
             importance: Recommended
             architecture_url:
           - requirement_index: 4.4.3
-            statement: You should have a process in place to ensure your TRE
+            statement: You should have a process in place to ensure your TRE 
               provision remains financially sustainable.
-            guidance:
-              "This could include having a cost recovery process in place,
+            guidance: "This could include having a cost recovery process in place,
               or setting up a long-term funding mechanism to support projects with
               TREs.\nAt any given time, you should have funds free to cover all potential
               foreseen TRE provision for at least 12 months."
             importance: Recommended
             architecture_url:
           - requirement_index: 4.4.4
-            statement: You should minimise the cost of your TRE infrastructure
+            statement: You should minimise the cost of your TRE infrastructure 
               wherever possible
-            guidance: You should have regular reviews of your TRE provision and
-              actively work to bring down costs, streamline provision, and
+            guidance: You should have regular reviews of your TRE provision and 
+              actively work to bring down costs, streamline provision, and 
               optimise support.
             importance: Recommended
             architecture_url:
-      - capability_index: "4.5"
+      - capability_index: '4.5'
         statements:
           - requirement_index: 4.5.1
-            statement: You must identify any goods or services that will be
-              needed to operate the TRE and ensure that a plan is in place to
+            statement: You must identify any goods or services that will be 
+              needed to operate the TRE and ensure that a plan is in place to 
               purchase them as needed.
-            guidance: These may include computing hardware, cloud credits or
+            guidance: These may include computing hardware, cloud credits or 
               devices through which users access the TRE.
             importance: Mandatory
             architecture_url:
-      - capability_index: "4.6"
+      - capability_index: '4.6'
         statements:
           - requirement_index: 4.6.1
-            statement: Your TRE must have a team of Operators in place to
+            statement: Your TRE must have a team of Operators in place to 
               support projects working with TREs.
-            guidance:
-              "This may be part of your organisation’s IT support team, or
+            guidance: "This may be part of your organisation’s IT support team, or
               separate.\nResponsibility should be clear and stakeholders should easily
               be able to access support appropriate to their needs."
             importance: Mandatory
             architecture_url:
-      - capability_index: "4.7"
+      - capability_index: '4.7'
         statements:
           - requirement_index: 4.7.1
             statement: You should have a clear process in place for stakeholders
@@ -1463,14 +1391,13 @@ specification:
               or forms stakeholders can fill in.
             importance: Recommended
             architecture_url:
-      - capability_index: "4.8"
+      - capability_index: '4.8'
         statements:
           - requirement_index: 4.8.1
-            statement: All public engagement activities must include a range of
+            statement: All public engagement activities must include a range of 
               perspectives and be inclusive (*optional for TREs without personal
               data).
-            guidance:
-              "Any public engagement activity carried out by TREs should involve
+            guidance: "Any public engagement activity carried out by TREs should involve
               diverse participants and that activities are accessible.\nRecruitment
               plans should consider how to proactively reach a representative sample
               of people or target particular groups of people where relevant\nThis
@@ -1478,11 +1405,10 @@ specification:
             importance: Mandatory*
             architecture_url:
           - requirement_index: 4.8.2
-            statement: Details of TRE operations, data available and projects
-              which have accessed the data should be publicly available
+            statement: Details of TRE operations, data available and projects 
+              which have accessed the data should be publicly available 
               (*optional for TREs without personal data).
-            guidance:
-              "TREs should be as transparent as possible by providing information
+            guidance: "TREs should be as transparent as possible by providing information
               online.\nWhere information is made available online this should be written
               in clear language understandable to general public.\nA record of projects
               which have accessed data via the TRE should be kept and made available.\n\
@@ -1491,33 +1417,30 @@ specification:
             importance: Mandatory*
             architecture_url:
           - requirement_index: 4.8.3
-            statement: Members of the public should be included in TRE
-              operations and/or oversight (*optional for TREs without personal
+            statement: Members of the public should be included in TRE 
+              operations and/or oversight (*optional for TREs without personal 
               data).
-            guidance:
-              "Members of the public can be involved via presence on steering
+            guidance: "Members of the public can be involved via presence on steering
               groups or project approvals panels.\nAlternatively TRE’s can establish
               separate public panels available for both researchers and TRE staff
               to consult."
             importance: Mandatory*
             architecture_url:
           - requirement_index: 4.8.4
-            statement: You should publicly share details of incidents, near
-              misses, and mitigations in a timely fashion, in line with good
+            statement: You should publicly share details of incidents, near 
+              misses, and mitigations in a timely fashion, in line with good 
               practices for responsible disclosure.
-            guidance:
-              "This may be via the TRE website or annual reports.\nSharing
+            guidance: "This may be via the TRE website or annual reports.\nSharing
               this information is particularly important when a TRE holds public sector
               data."
             importance: Recommended
             architecture_url:
-      - capability_index: "4.9"
+      - capability_index: '4.9'
         statements:
           - requirement_index: 4.9.1
-            statement: You should identify areas where legal advice may be
+            statement: You should identify areas where legal advice may be 
               required and ensure that you have ready access to it.
-            guidance:
-              "It is likely that legal advice will be necessary for several
+            guidance: "It is likely that legal advice will be necessary for several
               issues around the handling of sensitive data, and managing project contracts.\n\
               TRE operators should have ready access to legal advice, including a
               way to solicit advice and carry out associated actions."
@@ -1525,17 +1448,17 @@ specification:
             architecture_url:
           - requirement_index: 4.9.2
             statement: You should identify areas where advice on data protection
-              issues may be required and ensure that you have ready access to
+              issues may be required and ensure that you have ready access to 
               it.
             guidance: It is likely that data protection advice will be necessary
               for several issues around the handling of sensitive data.
             importance: Recommended
             architecture_url:
           - requirement_index: 4.9.3
-            statement: You should identify who will be responsible for managing
+            statement: You should identify who will be responsible for managing 
               contracts related to the TRE.
-            guidance: These contracts may include data sharing agreements,
-              secondments of personnel or limitations on how results obtained
+            guidance: These contracts may include data sharing agreements, 
+              secondments of personnel or limitations on how results obtained 
               with the data can be distributed.
             importance: Recommended
             architecture_url:
