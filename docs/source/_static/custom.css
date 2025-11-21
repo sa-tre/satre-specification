@@ -1,5 +1,22 @@
 /* Sidebar at default width - no custom styling */
 
+/* Logo styling */
+.wy-side-nav-search {
+    background-color: #ffffff;
+}
+
+.wy-side-nav-search > a img.logo {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+/* Center the TRE logo on index page */
+.document img[alt="TRE Logo"] {
+    display: block;
+    margin: 20px auto;
+}
+
 /* Make the main viewing frame wider */
 .wy-nav-content {
     max-width: 1200px;  /* Default is 800px, increasing to 1200px */

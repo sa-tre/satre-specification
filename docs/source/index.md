@@ -1,3 +1,9 @@
+```{image} ../images/TRE_LIGHT_STACKED.png
+:alt: TRE Logo
+:width: 300px
+:align: center
+```
+
 # Standard Architecture for Trusted Research Environments (SATRE)
 
 ```{toctree}

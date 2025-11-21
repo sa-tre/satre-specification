@@ -540,3 +540,30 @@ This file records all prompts and AI interactions for this project.
 - Video functionality remains the same for users
 
 ---
+
+### Prompt 31: Add SATRE and TRE Logos for Branding
+**Date:** 2025-11-21  
+**Request:** Add logos (TRE_LIGHT_STACKED.png and SATRE_Light.png) to brand the pages
+
+**Action Taken:**
+- Updated docs/source/conf.py:
+  - Added html_logo = "../images/SATRE_Light.png" for sidebar logo
+  - Added html_theme_options with logo_only=False, display_version=False
+  - SATRE logo will appear in the navigation sidebar
+- Updated docs/source/index.md:
+  - Added TRE_LIGHT_STACKED.png at the top of the index page
+  - Centered, 300px width
+  - Positioned above the main heading
+- Updated docs/source/_static/custom.css:
+  - Styled sidebar logo area with white background
+  - Added padding to sidebar logo
+  - Centered TRE logo on index page with margin
+
+**Notes:**
+- SATRE_Light.png appears in sidebar navigation (all pages)
+- TRE_LIGHT_STACKED.png appears at top of index/home page
+- Both logos use relative paths from docs/images/
+- Responsive sizing for different screen sizes
+- White background in sidebar for logo visibility
+
+---
