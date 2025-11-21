@@ -1,5 +1,10 @@
 /* Sidebar at default width - no custom styling */
 
+/* Hide the site title/home link text at the top of the sidebar */
+.wy-side-nav-search > a.icon.icon-home {
+    font-size: 0;  /* Hide the text */
+}
+
 /* Logo styling */
 .wy-side-nav-search {
     background-color: #eeeee4;
