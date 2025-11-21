@@ -1,16 +1,5 @@
 # SATRE Specification Repository
 
-<!-- prettier-ignore-start -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- prettier-ignore-end -->
-
-[![Slack](https://img.shields.io/badge/Slack-Join%20Our%20Channel-blue?logo=slack&style=flat-square)](https://ukrse.slack.com/archives/rse-tre-wg)
-[![Licence](https://img.shields.io/github/license/sa-tre/satre-specification?style=flat-square)](https://github.com/sa-tre/satre-specification/blob/main/LICENSE.md)
-[![CoC](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-blue?style=flat-square)](https://github.com/sa-tre/satre-specification/blob/main/CODE_OF_CONDUCT.md)
-[![Docs](https://img.shields.io/readthedocs/satre-specification?label=build&style=flat-square)](https://satre-specification.readthedocs.io/en/latest/)
-
 **[View the SATRE Specification on Read the Docs](https://satre-specification.readthedocs.io/en/latest/)**
 
 This repository contains the source files for the SATRE (Standard Architecture for Trusted Research Environments) specification documentation, built with Sphinx and hosted on Read the Docs.

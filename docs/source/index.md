@@ -42,6 +42,8 @@ SATRE (Standard Architecture for Trusted Research Environments) is the UK's firs
 
 TREs are secure computing environments specifically designed for research using sensitive or personal data. They enable researchers to access and analyze data safely while minimizing the risk of data exposure or release. SATRE brings consistency and best practice to how these environments are designed, operated, and governed.
 
+SATRE is built on four guiding principles: **Usability, Maintaining Public Trust, Observability, and Standardisation.** These principles ensure that TREs are not only secure and compliant but also accessible to researchers and trustworthy to the public.
+
 ### Introduction to the SATRE Project
 
 ```{raw} html
@@ -69,8 +71,9 @@ Personal and sensitive data collected for operational, commercial, or government
 
 ## The SATRE Specification
 
-The SATRE specification is built on four guiding principles: **Usability, Maintaining Public Trust, Observability, and Standardisation.** These principles ensure that TREs are not only secure and compliant but also accessible to researchers and trustworthy to the public.
+The [SATRE specification](new-spec-test.md) defines 160 requirements organized into capabilities that TREs should implement to ensure safe, secure, and effective research with sensitive data. Each requirement is classified as either Mandatory or Optional, providing flexibility while maintaining essential standards.
 
+The requirements are structured across four interconnected pillars.
 
 ### Four Pillars of SATRE
 
@@ -82,6 +85,10 @@ End-user computing experience, infrastructure management, information security, 
 Data lifecycle management, identity and access management, output management, information discovery, and research metadata capabilities.<br>
 **4. Supporting Capabilities**
 Financial management, public engagement and involvement, project management, procurement, and other essential operational functions.
+
+## The SATRE Architecture
+
+The [Architecture](architecture.md) provides a comprehensive high-level architecture for research organisations handling sensitive data. Required capabilities are documented along with the key roles, processes, data and applications that realise those capabilities. By providing this architecture, TRE designers and implementers will be able to identify additions and changes within their organisation to ensure sensitive data research can be conducted safely.
 
 ## Public Trust at the Core
 
@@ -99,6 +106,27 @@ Two public members served on the core SATRE project team from the beginning, ens
 
 - [Contribute on GitHub](https://github.com/sa-tre/satre-specification)
 - [Join the UK TRE Community](https://www.uktre.org/)
+
+## Releases
+
+```{list-table}
+:header-rows: 1
+
+* - Version
+  - Release Date
+  - Release Notes
+* - [1.1.0](https://satre-archimate.readthedocs.io/en/v1.1.0/)
+  - 2025-07-01
+  - - Output Management added as capability as per specification.
+    - Specification Statements added as requirements and linked to capabilities.
+    - Added URL to specification statements in "documentation" where possible
+    - Supporting Capabilities pillar aligned to specification.
+    - Views created for all supporting capabilities.
+    - All requirements added to views.
+* - 1.0.0
+  - 2023-10-05
+  -
+```
 
 ## 🙇 Acknowledgements
 
