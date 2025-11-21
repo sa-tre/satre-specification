@@ -376,3 +376,26 @@ This file records all prompts and AI interactions for this project.
 - Glossary file location: .kiro/sourcefiles/uktre-glossary.yaml
 
 ---
+
+### Prompt 23: Fix Glossary Links - Use Docutils Nodes
+**Date:** 2025-11-21  
+**Request:** Glossary links didn't work when rendered in ReadTheDocs
+
+**Action Taken:**
+- Rewrote glossary linking approach in docs/extensions/yamlspec.py:
+  - Changed from markdown-style links to direct docutils node manipulation
+  - Created create_glossary_term_map() to build term-to-URL mapping
+  - Created add_glossary_links_to_node() to recursively process parsed content
+  - Processes nodes AFTER markdown parsing, not before
+  - Finds text nodes and replaces glossary terms with reference nodes
+  - Handles overlapping matches (uses first match)
+  - Avoids linking terms that are already inside links
+  - Adds CSS class "glossary-term" to links for styling
+
+**Notes:**
+- Previous approach tried to add markdown links before parsing (didn't work)
+- New approach manipulates the docutils node tree directly
+- Works with Sphinx/ReadTheDocs rendering pipeline
+- More robust handling of edge cases (overlaps, existing links)
+
+---

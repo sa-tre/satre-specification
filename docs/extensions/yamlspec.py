@@ -39,33 +39,75 @@ def load_glossary_terms():
     
     return []
 
-def add_glossary_links(text, glossary_terms):
-    """
-    Add glossary links to text by replacing terms with markdown-style links.
-    Returns the text with glossary terms linked.
-    """
-    if not text or not glossary_terms:
-        return text
-    
-    # Create a pattern that matches whole words only
+def create_glossary_term_map(glossary_terms):
+    """Create a mapping of terms to their URLs."""
+    term_map = {}
     for term in glossary_terms:
         # Create URL-safe version of term (lowercase, replace spaces with hyphens)
         term_url = term.lower().replace(" ", "-").replace("(", "").replace(")", "")
         url = f"{GLOSSARY_BASE_URL}{term_url}"
+        term_map[term.lower()] = (term, url)
+    return term_map
+
+def add_glossary_links_to_node(node, term_map):
+    """
+    Recursively process a docutils node tree and add glossary links.
+    Replaces text nodes containing glossary terms with reference nodes.
+    """
+    if isinstance(node, nodes.Text):
+        # Process text node
+        text = str(node)
+        parent = node.parent
         
-        # Match the term as a whole word (case-insensitive)
-        # Use word boundaries to avoid partial matches
-        pattern = r'\b' + re.escape(term) + r'\b'
+        if parent is None or isinstance(parent, nodes.reference):
+            # Don't process if already in a link
+            return
         
-        # Replace with markdown link format that Sphinx can parse
-        # Only replace if not already in a link
-        def replace_if_not_linked(match):
-            # Simple check: if preceded by [ or ], it's likely already a link
-            return f"[{match.group(0)}]({url})"
+        # Find all glossary terms in this text
+        new_nodes = []
+        last_end = 0
         
-        text = re.sub(pattern, replace_if_not_linked, text, flags=re.IGNORECASE)
-    
-    return text
+        # Sort terms by position in text
+        matches = []
+        for term_lower, (term_original, url) in term_map.items():
+            pattern = r'\b' + re.escape(term_original) + r'\b'
+            for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+                matches.append((match.start(), match.end(), match.group(0), url))
+        
+        # Sort by position and remove overlaps
+        matches.sort()
+        filtered_matches = []
+        last_match_end = -1
+        for start, end, matched_text, url in matches:
+            if start >= last_match_end:
+                filtered_matches.append((start, end, matched_text, url))
+                last_match_end = end
+        
+        # Build new node list
+        for start, end, matched_text, url in filtered_matches:
+            # Add text before match
+            if start > last_end:
+                new_nodes.append(nodes.Text(text[last_end:start]))
+            
+            # Add reference node for the match
+            ref_node = nodes.reference("", matched_text, refuri=url, classes=["glossary-term"])
+            new_nodes.append(ref_node)
+            last_end = end
+        
+        # Add remaining text
+        if last_end < len(text):
+            new_nodes.append(nodes.Text(text[last_end:]))
+        
+        # Replace the text node with new nodes if we found any matches
+        if new_nodes:
+            index = parent.index(node)
+            parent.remove(node)
+            for i, new_node in enumerate(new_nodes):
+                parent.insert(index + i, new_node)
+    else:
+        # Recursively process child nodes
+        for child in list(node.children):
+            add_glossary_links_to_node(child, term_map)
 
 
 class YamlSpecDirective(SphinxDirective):
@@ -112,6 +154,7 @@ class YamlSpecDirective(SphinxDirective):
 
         # 3. Load glossary terms for linking
         glossary_terms = load_glossary_terms()
+        term_map = create_glossary_term_map(glossary_terms)
 
         # 4. Group specifications by pillar
         pillars = {}
@@ -161,13 +204,10 @@ class YamlSpecDirective(SphinxDirective):
 
                     # Use nested_parse for multi-line fields to process reST content (like links)
                     if key in ["statement", "guidance"]:
-                        # Add glossary links to the text
-                        content_with_links = add_glossary_links(content_text, glossary_terms)
-                        
                         # Create a ViewList of lines for nested parsing
                         view_list = ViewList()
                         # Add content line by line, ensuring correct source/line references
-                        for line in content_with_links.splitlines():
+                        for line in content_text.splitlines():
                             view_list.append(line, yaml_filename, self.lineno)
 
                         # FIX: Use nodes.container instead of nodes.section to avoid the
@@ -176,6 +216,9 @@ class YamlSpecDirective(SphinxDirective):
 
                         # Nested parse the content
                         self.state.nested_parse(view_list, 0, content_node)
+
+                        # Add glossary links to the parsed content
+                        add_glossary_links_to_node(content_node, term_map)
 
                         # Add the children (paragraphs, links, etc.) of the parsed container to the entry
                         entry.extend(content_node.children)
