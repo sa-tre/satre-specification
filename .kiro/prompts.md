@@ -501,3 +501,42 @@ This file records all prompts and AI interactions for this project.
 - Four pillar sections will be clickable subsections
 
 ---
+
+### Prompt 29: Embed YouTube Video in Index Page
+**Date:** 2025-11-21  
+**Request:** Embed YouTube video "Introduction to the SATRE Project" (https://www.youtube.com/watch?v=auExNHEGwcc) under the "What is SATRE?" section
+
+**Action Taken:**
+- Updated docs/source/index.md:
+  - Added new subsection "Introduction to the SATRE Project"
+  - Embedded YouTube video using raw HTML with responsive iframe
+  - Video ID: auExNHEGwcc
+  - Used responsive container (16:9 aspect ratio)
+  - Positioned after the introductory text about SATRE
+
+**Notes:**
+- Used MyST markdown `{raw} html` directive to embed HTML
+- Responsive design: video scales with page width
+- 16:9 aspect ratio maintained (padding-bottom: 56.25%)
+- Includes standard YouTube iframe attributes (allowfullscreen, etc.)
+- 20px margin top/bottom for spacing
+
+---
+
+### Prompt 30: Enable Privacy-Enhanced Mode for YouTube Video
+**Date:** 2025-11-21  
+**Request:** Make sure the video uses privacy-enhanced mode to prevent tracking cookies
+
+**Action Taken:**
+- Updated docs/source/index.md:
+  - Changed iframe src from `youtube.com` to `youtube-nocookie.com`
+  - This enables YouTube's privacy-enhanced mode
+  - Prevents YouTube from setting tracking cookies unless user plays the video
+
+**Notes:**
+- youtube-nocookie.com is YouTube's privacy-enhanced domain
+- Cookies are only set when user actively plays the video
+- Complies with GDPR and privacy best practices
+- Video functionality remains the same for users
+
+---
