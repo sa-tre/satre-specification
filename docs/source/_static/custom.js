@@ -20,19 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
             link.setAttribute('rel', 'noopener noreferrer');
         }
     });
-    
-    // Add TRE logo to the bottom of the sidebar
-    const sidebar = document.querySelector('.wy-side-nav-search');
-    if (sidebar) {
-        const treLogoDiv = document.createElement('div');
-        treLogoDiv.className = 'tre-logo-bottom';
-        // Use _static path which is always available
-        treLogoDiv.innerHTML = '<img src="_static/TRE_DARK2_STACKED.png" alt="TRE Logo" />';
-        
-        // Insert after the main navigation menu
-        const navMenu = document.querySelector('.wy-menu-vertical');
-        if (navMenu && navMenu.parentNode) {
-            navMenu.parentNode.appendChild(treLogoDiv);
-        }
-    }
 });
