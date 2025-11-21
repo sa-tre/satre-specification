@@ -351,3 +351,28 @@ This file records all prompts and AI interactions for this project.
 - Only sidebar customization removed, other improvements kept
 
 ---
+
+### Prompt 22: Add Automatic Glossary Links to Specification
+**Date:** 2025-11-21  
+**Request:** Make glossary terms in the specification clickable links to the UK TRE glossary
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py:
+  - Added import for re and Path modules
+  - Created load_glossary_terms() function to read .kiro/sourcefiles/uktre-glossary.yaml
+  - Created add_glossary_links() function to automatically link terms to glossary
+  - Glossary URL format: https://glossary.uktre.org/en/stable/#term-{term}
+  - Terms sorted by length (longest first) to match longer phrases before shorter ones
+  - Uses word boundaries to avoid partial matches
+  - Applied to both statement and guidance columns
+  - Links are added before markdown parsing
+
+**Notes:**
+- Automatically links any glossary term found in statement or guidance text
+- Case-insensitive matching
+- Whole word matching only (won't match partial words)
+- Terms like "AAI", "Access Control", "TRE" etc. will be automatically linked
+- No manual markup needed in the specification YAML
+- Glossary file location: .kiro/sourcefiles/uktre-glossary.yaml
+
+---

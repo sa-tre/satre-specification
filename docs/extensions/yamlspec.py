@@ -1,8 +1,10 @@
 import os
+import re
 import yaml
 from docutils import nodes
 from docutils.statemachine import ViewList
 from sphinx.util.docutils import SphinxDirective
+from pathlib import Path
 
 # Define the columns and their proportional widths for the table
 # Format: (field_name, width, display_name)
@@ -15,6 +17,55 @@ COLUMNS = [
     ("guidance", 38, None),
     ("importance", 8, None),
 ]
+
+# Glossary base URL
+GLOSSARY_BASE_URL = "https://glossary.uktre.org/en/stable/#term-"
+
+def load_glossary_terms():
+    """Load glossary terms from the YAML file."""
+    glossary_path = Path(__file__).parent.parent / ".kiro" / "sourcefiles" / "uktre-glossary.yaml"
+    if not glossary_path.exists():
+        return []
+    
+    try:
+        with open(glossary_path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+            if "glossary" in data and isinstance(data["glossary"], list):
+                # Extract terms and sort by length (longest first) to match longer terms first
+                terms = [item["term"] for item in data["glossary"] if "term" in item]
+                return sorted(terms, key=len, reverse=True)
+    except Exception as e:
+        print(f"Warning: Could not load glossary: {e}")
+    
+    return []
+
+def add_glossary_links(text, glossary_terms):
+    """
+    Add glossary links to text by replacing terms with markdown-style links.
+    Returns the text with glossary terms linked.
+    """
+    if not text or not glossary_terms:
+        return text
+    
+    # Create a pattern that matches whole words only
+    for term in glossary_terms:
+        # Create URL-safe version of term (lowercase, replace spaces with hyphens)
+        term_url = term.lower().replace(" ", "-").replace("(", "").replace(")", "")
+        url = f"{GLOSSARY_BASE_URL}{term_url}"
+        
+        # Match the term as a whole word (case-insensitive)
+        # Use word boundaries to avoid partial matches
+        pattern = r'\b' + re.escape(term) + r'\b'
+        
+        # Replace with markdown link format that Sphinx can parse
+        # Only replace if not already in a link
+        def replace_if_not_linked(match):
+            # Simple check: if preceded by [ or ], it's likely already a link
+            return f"[{match.group(0)}]({url})"
+        
+        text = re.sub(pattern, replace_if_not_linked, text, flags=re.IGNORECASE)
+    
+    return text
 
 
 class YamlSpecDirective(SphinxDirective):
@@ -59,7 +110,10 @@ class YamlSpecDirective(SphinxDirective):
 
         specifications = data["specification"]
 
-        # 3. Group specifications by pillar
+        # 3. Load glossary terms for linking
+        glossary_terms = load_glossary_terms()
+
+        # 4. Group specifications by pillar
         pillars = {}
         for item in specifications:
             pillar_name = item.get("pillar", "Unknown")
@@ -67,7 +121,7 @@ class YamlSpecDirective(SphinxDirective):
                 pillars[pillar_name] = []
             pillars[pillar_name].append(item)
 
-        # 4. Create a list of nodes (headings + tables) for each pillar
+        # 5. Create a list of nodes (headings + tables) for each pillar
         result_nodes = []
 
         for pillar_name, pillar_items in pillars.items():
@@ -107,10 +161,13 @@ class YamlSpecDirective(SphinxDirective):
 
                     # Use nested_parse for multi-line fields to process reST content (like links)
                     if key in ["statement", "guidance"]:
+                        # Add glossary links to the text
+                        content_with_links = add_glossary_links(content_text, glossary_terms)
+                        
                         # Create a ViewList of lines for nested parsing
                         view_list = ViewList()
                         # Add content line by line, ensuring correct source/line references
-                        for line in content_text.splitlines():
+                        for line in content_with_links.splitlines():
                             view_list.append(line, yaml_filename, self.lineno)
 
                         # FIX: Use nodes.container instead of nodes.section to avoid the
