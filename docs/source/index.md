@@ -1,9 +1,3 @@
-```{image} ../images/TRE_LIGHT_STACKED.png
-:alt: TRE Logo
-:width: 300px
-:align: center
-```
-
 # Standard Architecture for Trusted Research Environments (SATRE)
 
 ```{toctree}
@@ -51,13 +45,15 @@ TREs are secure computing environments specifically designed for research using 
 ### Introduction to the SATRE Project
 
 ```{raw} html
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
-  <iframe src="https://www.youtube-nocookie.com/embed/auExNHEGwcc" 
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-  </iframe>
+<div style="max-width: 640px; margin: 20px auto;">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube-nocookie.com/embed/auExNHEGwcc" 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
+  </div>
 </div>
 ```
 

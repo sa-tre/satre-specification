@@ -70,7 +70,7 @@ html_theme_options = {
 }
 
 # Logo configuration
-html_logo = "../images/SATRE_Light.png"
+html_logo = "../images/SATRE_Stacked_Dark.png"
 
 # Add custom CSS and JavaScript
 html_static_path = ["_static"]

@@ -11,10 +11,19 @@
     padding: 10px;
 }
 
-/* Center the TRE logo on index page */
-.document img[alt="TRE Logo"] {
-    display: block;
-    margin: 20px auto;
+/* TRE logo at bottom of sidebar */
+.tre-logo-bottom {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid #e1e4e5;
+    margin-top: 20px;
+}
+
+.tre-logo-bottom img {
+    max-width: 150px;
+    height: auto;
+    opacity: 0.8;
 }
 
 /* Make the main viewing frame wider */

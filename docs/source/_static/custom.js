@@ -20,4 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
             link.setAttribute('rel', 'noopener noreferrer');
         }
     });
+    
+    // Add TRE logo to the bottom of the sidebar
+    const sidebar = document.querySelector('.wy-side-nav-search');
+    if (sidebar) {
+        const treLogoDiv = document.createElement('div');
+        treLogoDiv.className = 'tre-logo-bottom';
+        treLogoDiv.innerHTML = '<img src="../_images/TRE_LIGHT_STACKED.png" alt="TRE Logo" />';
+        
+        // Insert after the main navigation menu
+        const navMenu = document.querySelector('.wy-menu-vertical');
+        if (navMenu && navMenu.parentNode) {
+            navMenu.parentNode.appendChild(treLogoDiv);
+        }
+    }
 });

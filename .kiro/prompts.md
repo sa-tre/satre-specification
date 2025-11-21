@@ -567,3 +567,66 @@ This file records all prompts and AI interactions for this project.
 - White background in sidebar for logo visibility
 
 ---
+
+### Prompt 32: Make Embedded Video Smaller
+**Date:** 2025-11-21  
+**Request:** Make the embedded video smaller
+
+**Action Taken:**
+- Updated docs/source/index.md:
+  - Added outer container with max-width: 640px
+  - Centered the video with margin: 20px auto
+  - Kept responsive 16:9 aspect ratio
+  - Video now limited to 640px width instead of full page width
+
+**Notes:**
+- Video is now 640px wide (standard YouTube medium size)
+- Still responsive - will scale down on smaller screens
+- Centered on the page for better visual balance
+- Maintains 16:9 aspect ratio
+- More appropriate size for embedded content
+
+---
+
+### Prompt 33: Replace SATRE Logo with Dark Version
+**Date:** 2025-11-21  
+**Request:** Replace SATRE_Light.png with SATRE_Stacked_Dark.png
+
+**Action Taken:**
+- Updated docs/source/conf.py:
+  - Changed html_logo from "../images/SATRE_Light.png" to "../images/SATRE_Stacked_Dark.png"
+  - Dark logo will now appear in the sidebar navigation
+
+**Notes:**
+- SATRE_Stacked_Dark.png now used for sidebar branding
+- Better contrast with white sidebar background
+- Stacked version may be more suitable for narrow sidebar
+
+---
+
+### Prompt 34: Move TRE Logo from Index to Sidebar Bottom
+**Date:** 2025-11-21  
+**Request:** Remove logo from top of main frame and add smaller TRE_LIGHT_STACKED.png to bottom of menu pane
+
+**Action Taken:**
+- Updated docs/source/index.md:
+  - Removed TRE logo image from top of page
+  - Cleaner page header with just the title
+- Updated docs/source/_static/custom.js:
+  - Added JavaScript to insert TRE logo at bottom of sidebar
+  - Creates div with class 'tre-logo-bottom'
+  - Appends after navigation menu
+- Updated docs/source/_static/custom.css:
+  - Styled TRE logo at bottom of sidebar
+  - Max width 150px (smaller than before)
+  - Centered with padding
+  - White background with subtle border
+  - Slight opacity (0.8) for subtle appearance
+
+**Notes:**
+- TRE logo now appears at bottom of sidebar on all pages
+- Smaller and more subtle than previous placement
+- SATRE logo remains at top of sidebar
+- Both logos now in sidebar for consistent branding
+
+---
