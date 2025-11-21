@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const treLogoDiv = document.createElement('div');
         treLogoDiv.className = 'tre-logo-bottom';
         // Use _static path which is always available
-        treLogoDiv.innerHTML = '<img src="_static/TRE_LIGHT_STACKED.png" alt="TRE Logo" />';
+        treLogoDiv.innerHTML = '<img src="_static/TRE_DARK2_STACKED.png" alt="TRE Logo" />';
         
         // Insert after the main navigation menu
         const navMenu = document.querySelector('.wy-menu-vertical');

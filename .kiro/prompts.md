@@ -714,3 +714,92 @@ This file records all prompts and AI interactions for this project.
 - More space for navigation menu below
 
 ---
+
+### Prompt 39: Change TRE Logo to Dark Version
+**Date:** 2025-11-21  
+**Request:** Change the TRE logo to TRE_DARK2_STACKED.png
+
+**Action Taken:**
+- Copied TRE_DARK2_STACKED.png to docs/source/_static/ folder
+- Updated docs/source/_static/custom.js:
+  - Changed image filename from TRE_LIGHT_STACKED.png to TRE_DARK2_STACKED.png
+  - Dark version will appear at bottom of sidebar
+
+**Notes:**
+- Dark TRE logo provides better contrast with white sidebar background
+- Matches the dark SATRE logo at the top
+- Consistent branding with dark color scheme
+
+---
+
+### Prompt 40: Archive Old Files
+**Date:** 2025-11-21  
+**Request:** Create an archive folder at the root and move README, evaluations folder, pillars folder, and glossary
+
+**Action Taken:**
+- Created archive/ folder at repository root
+- Moved the following items to archive/:
+  - docs/README.md
+  - docs/source/evaluations/ (folder with old evaluation examples)
+  - docs/source/pillars/ (folder with old pillar documentation)
+  - docs/source/glossary.md
+
+**Notes:**
+- Archive folder created at root level for easy access
+- Old documentation preserved but removed from active docs
+- Evaluations now hosted externally (as noted in evaluation.md)
+- Pillars now generated dynamically from YAML (yamlspec.py)
+- Glossary now external link to glossary.uktre.org
+- Keeps repository clean while preserving history
+
+---
+
+### Prompt 41: Update Root README with New Repository Information
+**Date:** 2025-11-21  
+**Request:** Update README.md in the root with information about the repository based on new content, keeping only Tim Machin, Simon Li, Chris Cole, and Rob Baxter in contacts
+
+**Action Taken:**
+- Completely rewrote README.md with updated information:
+  - Added clear repository structure diagram
+  - Documented key features (dynamic specification tables, automated YAML generation, custom styling)
+  - Updated building instructions
+  - Added section on updating the specification
+  - Simplified contributing section
+  - Created "Technical Contacts" section with only the 4 specified people
+  - Removed outdated project timeline information
+  - Kept all contributors list intact
+  - Added information about custom Sphinx extensions
+  - Documented the YAML generation workflow
+
+**Notes:**
+- README now reflects current repository structure
+- Technical contacts section separate from general project contacts
+- Focus on repository/technical documentation rather than project overview
+- Links to Read the Docs for full specification content
+- Clear instructions for developers working with the repository
+
+---
+
+### Prompt 42: Move Contributing Section and Simplify
+**Date:** 2025-11-21  
+**Request:** Move Contributing section above Repository Structure and make it easier, emphasizing logging issues and contacting team directly
+
+**Action Taken:**
+- Moved Contributing section to appear right after "About SATRE"
+- Rewrote Contributing section with clearer, simpler approach:
+  - Added "Report an Issue" as primary contribution method
+  - Explained that issues are reviewed by team and shared with community
+  - Added "Contact the Team" section linking to technical contacts
+  - Kept other contribution methods (collaboration cafes, Slack, PRs)
+  - Added reference to CONTRIBUTING.md for more details
+- Removed duplicate Contributing section that appeared later
+- Contributing now appears before technical details, making it more prominent
+
+**Notes:**
+- Contributing is now the second section (after About)
+- Emphasizes accessibility - anyone can log an issue
+- Clear path: issue → team review → community discussion
+- Direct contact option for those who prefer it
+- More welcoming and less intimidating for new contributors
+
+---
