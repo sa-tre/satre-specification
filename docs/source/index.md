@@ -2,53 +2,28 @@
 
 ```{toctree}
 :hidden:
-:caption: Overview
-
-new-spec-test.md
-
-specification.md
-architecture.md
-principles.md
-roles.md
-alignment.md
-faqs.md
-changes.md
-```
-
-```{toctree}
-:hidden:
-:numbered: 2
 :caption: Specification
 
-pillars/information_governance.md
-pillars/computing_technology.md
-pillars/data_management.md
-pillars/supporting.md
-```
-
-```{toctree}
-:hidden:
-:caption: Evaluation
-
+The SATRE Specification <new-spec-test.md>
 evaluation.md
-evaluations/alan_turing_institute.md
-evaluations/dundee_hic.md
+SATRE Control Alignment <alignment.md>
+Glossary <https://glossary.uktre.org/en/stable/>
 ```
 
 ```{toctree}
 :hidden:
-:caption: Glossary
+:caption: Architecture
 
-glossary.md
+Architecture Overview <architecture.md>
+SATRE Architecture <https://satre-archimate.readthedocs.io/en/latest/?view=id-4349bc52159b48e9b785e9809a876c03>
+principles.md
+roles.md
 ```
 
 ```{toctree}
 :hidden:
-:caption: Contributing
+:caption: FAQs <faqs.md>
 
-contributing/index.md
-contributing/walkthrough.md
-contributing/contributors.md
 ```
 
 (what_is_satre)=
