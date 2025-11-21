@@ -111,3 +111,21 @@ This file records all prompts and AI interactions for this project.
 - [Any relevant observations or follow-up items]
 
 ---
+
+### Prompt 10: Fix ReadTheDocs Build Error
+**Date:** 2025-11-21  
+**Request:** Fix KeyError: 'capability_index' error in ReadTheDocs build from yamlspec.py extension
+
+**Action Taken:**
+- Identified the issue: new-spec-test-pillar.md was using specification-pillars.yaml which has a hierarchical structure
+- The yamlspec.py extension expects a flat structure with all fields (pillar, capability_index, etc.) at the top level
+- specification-pillars.yaml has nested structure: pillar → capabilities → statements (missing pillar and capability_index in statements)
+- Removed the pillar version link from docs/source/index.md to fix the build error
+
+**Notes:**
+- specification.yaml (flat structure) works fine with yamlspec.py
+- specification-pillars.yaml (hierarchical) is incompatible with current yamlspec.py
+- new-spec-test-pillar.md file still exists but is no longer referenced
+- Could create a separate directive for hierarchical format if needed in the future
+
+---
