@@ -630,3 +630,48 @@ This file records all prompts and AI interactions for this project.
 - Both logos now in sidebar for consistent branding
 
 ---
+
+### Prompt 35: Add Pillar Quick Links to Specification Page
+**Date:** 2025-11-21  
+**Request:** Add links to the pillar subsections at the top of the specification page
+
+**Action Taken:**
+- Updated docs/source/new-spec-test.md:
+  - Added introductory text explaining the four pillars
+  - Added "Jump to a pillar:" section with links to each pillar
+  - Links use anchor format (#pillar-name) to jump to sections
+  - Added horizontal rule separator before the specification table
+  - Four pillar links:
+    - Information governance
+    - Computing technology and Information Security
+    - Data management
+    - Supporting capabilities
+
+**Notes:**
+- Links match the section IDs created by yamlspec.py
+- Provides quick navigation to specific pillars
+- Improves user experience for long specification page
+- Users can jump directly to relevant pillar without scrolling
+
+---
+
+### Prompt 36: Make Navigation Logo Smaller and Centered
+**Date:** 2025-11-21  
+**Request:** Make the logo in the navigation pane smaller but aligned central in the pane
+
+**Action Taken:**
+- Updated docs/source/_static/custom.css:
+  - Reduced logo max-width from 100% to 70%
+  - Added text-align: center to .wy-side-nav-search
+  - Made logo link display: block with text-align: center
+  - Added margin: 0 auto to center the logo image
+  - Increased padding from 10px to 15px for better spacing
+  - Added display: block to logo image
+
+**Notes:**
+- SATRE logo now 70% of sidebar width (was 100%)
+- Centered horizontally in the navigation pane
+- More balanced appearance with white space on sides
+- Better visual hierarchy in the sidebar
+
+---

@@ -22,9 +22,9 @@ Glossary <https://glossary.uktre.org/en/stable/>
 :caption: Architecture
 
 Architecture Overview <architecture.md>
-SATRE Architecture <https://satre-archimate.readthedocs.io/en/latest/?view=id-4349bc52159b48e9b785e9809a876c03>
 principles.md
 roles.md
+SATRE Architecture <https://satre-archimate.readthedocs.io/en/latest/?view=id-4349bc52159b48e9b785e9809a876c03>
 ```
 
 ```{toctree}
@@ -75,11 +75,11 @@ The SATRE specification is built on four guiding principles: **Usability, Mainta
 ### Four Pillars of SATRE
 
 **1. Information Governance**
-Quality management, risk management, training delivery, member accreditation, and governance procedures that ensure TREs operate safely and ethically.
+Quality management, risk management, training delivery, member accreditation, and governance procedures that ensure TREs operate safely and ethically.<br>
 **2. Computing Technology**
-End-user computing experience, infrastructure management, information security, and configuration management for secure data analysis environments.
+End-user computing experience, infrastructure management, information security, and configuration management for secure data analysis environments.<br>
 **3. Data Management**
-Data lifecycle management, identity and access management, output management, information discovery, and research metadata capabilities.
+Data lifecycle management, identity and access management, output management, information discovery, and research metadata capabilities.<br>
 **4. Supporting Capabilities**
 Financial management, public engagement and involvement, project management, procurement, and other essential operational functions.
 
@@ -87,7 +87,7 @@ Financial management, public engagement and involvement, project management, pro
 
 SATRE embeds public involvement and engagement throughout its development and within the specification itself. Through workshops with members of the public, we identified that cybersecurity, oversight, transparency, and public involvement were essential for maintaining trust in TREs.
 
-**Public Voice in Action**
+**Public Voice in Action**<br>
 Two public members served on the core SATRE project team from the beginning, ensuring public perspectives shaped all work packages. Public workshop feedback directly led to:
 
 - Upgrading Public Involvement and Engagement statements from Optional to Mandatory* for TREs using personal data
@@ -97,10 +97,8 @@ Two public members served on the core SATRE project team from the beginning, ens
 
 ## Get Involved with SATRE
 
-- The SATRE Specification <new-spec-test.md>
 - [Contribute on GitHub](https://github.com/sa-tre/satre-specification)
 - [Join the UK TRE Community](https://www.uktre.org/)
-
 
 ## 🙇 Acknowledgements
 

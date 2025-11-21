@@ -30,7 +30,7 @@ For more info see: {ref}`is_standard`
 
 ## Publicly available evaluations
 
-Example evaluations from UK TREs are now hosted on the [Standard Architecture for Trusted Research Environments](https://satre-specification.readthedocs.io/en/latest/) site.
+Example evaluations from UK TREs are now hosted on the [SATRE UKTRE Community site](https://satre.uktre.org/en/) site.
 These examples demonstrate how different institutions have evaluated their TREs against the SATRE specification and can help guide your own evaluation process.
 
 We encourage organisations to share their evaluations to benefit the community and contribute towards openness.
