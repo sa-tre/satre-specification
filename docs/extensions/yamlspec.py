@@ -5,13 +5,14 @@ from docutils.statemachine import ViewList
 from sphinx.util.docutils import SphinxDirective
 
 # Define the columns and their proportional widths for the table
+# Format: (field_name, width, display_name)
 COLUMNS = [
-    ("pillar", 10),
-    ("capability", 15),
-    ("requirement_index", 10),
-    ("statement", 40),
-    ("guidance", 15),
-    ("importance", 10),
+    ("requirement_index", 5, "SATRE Ref"),
+    ("pillar", 10, None),
+    ("capability", 15, None),
+    ("statement", 40, None),
+    ("guidance", 15, None),
+    ("importance", 10, None),
 ]
 
 
@@ -64,16 +65,18 @@ class YamlSpecDirective(SphinxDirective):
         table += tgroup
 
         # Add column specifications (colspec)
-        for _, width in COLUMNS:
+        for _, width, _ in COLUMNS:
             tgroup += nodes.colspec(colwidth=width)
 
         # Table Header (thead)
         # FIX: Removed empty positional arguments from structural nodes (thead, row, entry)
         thead = nodes.thead()
         header_row = nodes.row()
-        for title, _ in COLUMNS:
+        for field_name, _, display_name in COLUMNS:
             entry = nodes.entry(classes=["head"])
-            entry += nodes.paragraph(text=title.replace("_", " ").capitalize())
+            # Use custom display name if provided, otherwise format field name
+            header_text = display_name if display_name else field_name.replace("_", " ").capitalize()
+            entry += nodes.paragraph(text=header_text)
             header_row += entry
         thead += header_row
         tgroup += thead
@@ -84,7 +87,7 @@ class YamlSpecDirective(SphinxDirective):
 
         for item in specifications:
             row = nodes.row()
-            for key, _ in COLUMNS:
+            for key, _, _ in COLUMNS:
                 entry = nodes.entry()
                 content_text = str(item.get(key, "") or "")
 

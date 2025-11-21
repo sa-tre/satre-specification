@@ -208,3 +208,24 @@ This file records all prompts and AI interactions for this project.
 - capability_index still in YAML for backward compatibility/reference
 
 ---
+
+### Prompt 15: Move and Rename Requirement Index Column
+**Date:** 2025-11-21  
+**Request:** Move requirement_index column to the left (first position), rename to "SATRE Ref", and make it as narrow as possible
+
+**Action Taken:**
+- Updated docs/extensions/yamlspec.py:
+  - Modified COLUMNS structure to include display names: (field_name, width, display_name)
+  - Moved requirement_index to first position (leftmost column)
+  - Reduced width from 10 to 5 to make it narrower
+  - Added custom display name "SATRE Ref" for requirement_index
+  - Updated header rendering logic to use custom display names when provided
+  - Updated all column iteration code to handle new 3-tuple format
+
+**Notes:**
+- New column order: SATRE Ref | Pillar | Capability | Statement | Guidance | Importance
+- SATRE Ref column is now 5 units wide (half the previous width)
+- Makes it easier to reference specific requirements by their SATRE reference number
+- No YAML regeneration needed (only display changes)
+
+---
