@@ -175,9 +175,21 @@ class YamlSpecDirective(SphinxDirective):
         else:
             print("Warning: No glossary terms loaded")
 
-        # 4. Group specifications by pillar
+        # 4. Validate and group specifications by pillar
         pillars = {}
-        for item in specifications:
+        for idx, item in enumerate(specifications):
+            # Validate required fields
+            if not isinstance(item, dict):
+                error_msg = f"Item {idx} in specification is not a dictionary: {type(item)}"
+                return [nodes.error("", nodes.paragraph(text=error_msg))]
+            
+            # Check for required fields and provide helpful error messages
+            required_fields = ["pillar", "capability", "requirement_index", "statement", "importance"]
+            missing_fields = [f for f in required_fields if f not in item]
+            if missing_fields:
+                error_msg = f"Item {idx} (requirement {item.get('requirement_index', 'unknown')}) is missing required fields: {', '.join(missing_fields)}"
+                return [nodes.error("", nodes.paragraph(text=error_msg))]
+            
             pillar_name = item.get("pillar", "Unknown")
             if pillar_name not in pillars:
                 pillars[pillar_name] = []
@@ -223,7 +235,12 @@ class YamlSpecDirective(SphinxDirective):
                 row = nodes.row()
                 for key, _, _ in COLUMNS:
                     entry = nodes.entry()
+                    # Use .get() with empty string default to avoid KeyError
                     content_text = str(item.get(key, "") or "")
+                    
+                    # Debug: log if capability_index is missing (though we don't display it)
+                    if key == "capability" and "capability_index" not in item:
+                        print(f"Warning: Item {item.get('requirement_index', 'unknown')} missing capability_index")
 
                     # Use nested_parse for multi-line fields to process reST content (like links)
                     if key in ["statement", "guidance"]:
