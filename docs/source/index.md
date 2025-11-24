@@ -128,7 +128,18 @@ Two public members served on the core SATRE project team from the beginning, ens
   -
 ```
 
-## 🙇 Acknowledgements
+## Publications
+
+- Ed Chalstrey, Jim Madge, James Robinson, Simon Li, Hari Sood, Arron Lacey, Matt Craddock, Tim Machin, Chris Cole, & Martin O'Reilly. (2025). sa-tre/satre-specification: Version 1.1.1 (v1.1.1). Zenodo. https://doi.org/10.5281/zenodo.17353472
+- Simon, L. (2025, October 15). A standard architecture for TREs: why is it important in a federated world?. Health Data Research UK Conference 2025, Glasgow. Zenodo. https://doi.org/10.5281/zenodo.17305295
+- Johnston, J., Sheane, S., Almond, E., Whiting, A., Higgins, D., Nadin, R., Hagen, J.-A., & Billins, T. (2025). SATRE Centric Control Alignment Table for Trusted Research Environments. TRE Community, Leeds. Zenodo. https://doi.org/10.5281/zenodo.16837077
+- Machin, T., Chalstrey, E., Cole, C., Craddock, M., Hetherington, J., Li, S., Madge, J., O'Reilly, M., Robinson, J., Swanepoel, N., & Hari, S. (2023). A Standard Architecture for Trusted Research Environments (1.01). Zenodo. https://doi.org/10.5281/zenodo.10053383
+- Katie Oldfield, Dr Christian Cole, Jillian Beggs, & Antony Chuter. (2023). SATRE Public Involvement and Engagement Final Report. Zenodo. https://doi.org/10.5281/zenodo.10084354
+- Dr Christian Cole, Hari Sood, Dr Simon Li, Katie Oldfield, Matt Craddock, Nel Swanepoel, Professor Sonya Coleman, Dr Martin O'Reilly, Dr Dermot Kerr, Dr Cian O'Donovan, Professor James Hetherington, Dr Jim Madge, David Sarmiento-Perez, Ed Chalstrey, Dr James Robinson, Jillian Beggs, Tim Machin, & Antony Chuter. (2023). SATRE: Standardised Architecture for Trusted Research Environments. Zenodo. https://doi.org/10.5281/zenodo.10055345
+- Li, S., Christian, C., O'Reilly, M., Jim, M., Craddock, M., Chalstrey, E., & Sarmiento-Perez, D. (2023, October 25). SATRE Evaluation workshop: Evaluating your TRE. Zenodo. https://doi.org/10.5281/zenodo.10040590
+- Chalstrey, E., Cole, C., Coleman, S., Craddock, M., Hetherington, J., Kerr, D., Li, S., Madge, J., O'Donovan, C., Oldfield, K., O'Reilly, M., Sarmiento-Perez, D., Sood, H., & Swanepoel, N. (2023, April 18). SATRE – Standardised Architecture for Trusted Research Environments (Kick off). Zenodo. https://doi.org/10.5281/zenodo.7853186
+
+## Acknowledgements
 
 We are grateful for the following support for this project:
 
