@@ -40,7 +40,7 @@ faqs.md
 
 SATRE (Standard Architecture for Trusted Research Environments) is the UK's first open, community-led specification for Trusted Research Environments (TREs). Developed through extensive collaboration with over 60 organizations and informed by public engagement, SATRE provides a comprehensive framework for building, operating, and evaluating TREs across academia, healthcare, industry, and government.
 
-TREs are secure computing environments specifically designed for research using sensitive or personal data. They enable researchers to access and analyze data safely while minimizing the risk of data exposure or release. SATRE brings consistency and best practice to how these environments are designed, operated, and governed.
+TREs are secure computing environments specifically designed for research using sensitive or personal data. They enable researchers to access and analyse data safely while minimising the risk of data exposure or release. SATRE brings consistency and best practice to how these environments are designed, operated, and governed.
 
 SATRE is built on four [guiding principles](principles.md): **Usability, Maintaining Public Trust, Observability, and Standardisation.** These principles ensure that TREs are not only secure and compliant but also accessible to researchers and trustworthy to the public.
 
