@@ -45,3 +45,6 @@ venv
 # Sphinx
 __pycache__
 
+# Kiro AI assistant files
+.kiro/
+
