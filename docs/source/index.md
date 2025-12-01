@@ -11,7 +11,7 @@ self
 :hidden:
 :caption: Specification
 
-The SATRE Specification <new-spec-test.md>
+The SATRE Specification <specification.md>
 Evaluating against SATRE <evaluation.md>
 SATRE Control Alignment <alignment.md>
 Glossary <https://glossary.uktre.org/en/stable/>
@@ -71,19 +71,19 @@ Personal and sensitive data collected for operational, commercial, or government
 
 ## The SATRE Specification
 
-The [SATRE specification](new-spec-test.md) defines 160 requirements organized into capabilities that TREs should implement to ensure safe, secure, and effective research with sensitive data. Each requirement is classified as either Mandatory or Optional, providing flexibility while maintaining essential standards.
+The [SATRE specification](specification.md) defines 160 requirements organized into capabilities that TREs should implement to ensure safe, secure, and effective research with sensitive data. Each requirement is classified as either Mandatory or Optional, providing flexibility while maintaining essential standards.
 
 The requirements are structured across four interconnected pillars.
 
 ### Four Pillars of SATRE
 
-**1. [Information Governance](new-spec-test.md#information-governance)**
+**1. [Information Governance](specification.md#information-governance)**
 Quality management, risk management, training delivery, member accreditation, and governance procedures that ensure TREs operate safely and ethically.<br>
-**2. [Computing Technology](new-spec-test.md#computing-technology-and-information-security)**
+**2. [Computing Technology](specification.md#computing-technology-and-information-security)**
 End-user computing experience, infrastructure management, information security, and configuration management for secure data analysis environments.<br>
-**3. [Data Management](new-spec-test.md#data-management)**
+**3. [Data Management](specification.md#data-management)**
 Data lifecycle management, identity and access management, output management, information discovery, and research metadata capabilities.<br>
-**4. [Supporting Capabilities](new-spec-test.md#supporting-capabilities)**
+**4. [Supporting Capabilities](specification.md#supporting-capabilities)**
 Financial management, public engagement and involvement, project management, procurement, and other essential operational functions.
 
 ## The SATRE Architecture

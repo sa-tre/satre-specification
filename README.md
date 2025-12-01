@@ -33,7 +33,7 @@ satre-specification/
 │   │   ├── _static/         # Custom CSS, JavaScript, and images
 │   │   ├── spec/            # Specification YAML and generation scripts
 │   │   ├── index.md         # Main documentation index
-│   │   ├── new-spec-test.md # Specification page
+│   │   ├── specification.md # Specification page
 │   │   ├── evaluation.md    # Evaluation guidance
 │   │   ├── alignment.md     # Control alignment
 │   │   ├── architecture.md  # Architecture overview
