@@ -2,7 +2,7 @@ specification:
   - pillar: Information governance
     capability: Information Governance
     capability_index: '1.1'
-    requirement_index: 1.0.1
+    requirement_index: 1.1.1
     statement: You must gather and monitor the information governance 
       requirements needed to fulfil any legal, regulatory and ethical standards.
     guidance: "Requirements will come from a variety of sources including legislation,
@@ -14,7 +14,7 @@ specification:
   - pillar: Information governance
     capability: Information Governance
     capability_index: '1.1'
-    requirement_index: 1.0.2
+    requirement_index: 1.1.2
     statement: You must ensure controls are implemented to ensure the 
       requirements are met.
     guidance: Control implementation should be systematic and directly aligned 
@@ -25,7 +25,7 @@ specification:
   - pillar: Information governance
     capability: Information Governance
     capability_index: '1.1'
-    requirement_index: 1.0.3
+    requirement_index: 1.1.3
     statement: You must ensure there are adequate resources to meet information 
       governance requirements.
     guidance: Ensuring information governance controls are suitable and enforced
@@ -37,7 +37,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.1
+    requirement_index: 1.2.1
     statement: You must ensure that changes to policies and standard operating 
       procedures can only be made by trusted individuals.
     guidance: It is important to ensure that policies and SOPs are relevant, 
@@ -60,7 +60,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.3
+    requirement_index: 1.2.3
     statement: You should measure the performance of information governance 
       within the TRE with regular reporting available to your TRE organisation’s
       management team.
@@ -72,7 +72,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.4
+    requirement_index: 1.2.4
     statement: You must audit your TRE organisation against relevant 
       requirements and standards.
     guidance: If you are publicly accredited against a standard, for instance 
@@ -84,7 +84,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.5
+    requirement_index: 1.2.5
     statement: You must report on and share outcomes of each audit of your TRE 
       organisation with the required bodies.
     guidance: This may include regulatory bodies or the organisations that 
@@ -95,7 +95,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.6
+    requirement_index: 1.2.6
     statement: You must ensure that suppliers, contractors and sub-contractors 
       with access to your TRE align with your security requirements.
     guidance: "These should be included as mandatory, non-functional requirements
@@ -107,7 +107,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.7
+    requirement_index: 1.2.7
     statement: You must monitor compliance of your suppliers with the terms of 
       the contracts.
     guidance: "This will include monitoring changes in the services and infrastructure
@@ -120,7 +120,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.8
+    requirement_index: 1.2.8
     statement: You must track and maintain any physical assets used by your TRE.
     guidance: "All physical assets should be maintained and covered by warranty if
       applicable.\nAt the end of their lifetime, assets should be securely disposed
@@ -131,7 +131,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.9
+    requirement_index: 1.2.9
     statement: You must log, track and resolve any issues resulting from 
       deviations from processes, incidents and audit findings.
     guidance: This process could, for example, be tracked through an electronic 
@@ -142,7 +142,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.10
+    requirement_index: 1.2.10
     statement: You must use reported issues to inform changes, such as for 
       process improvement and risk management.
     guidance: All issues should be analysed for their root cause and 
@@ -153,7 +153,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.11
+    requirement_index: 1.2.11
     statement: You should collect and maintain quality management data for 
       measuring the effectiveness of a TRE.
     guidance: "Large amounts of data will be produced by elements within the TRE.\n\
@@ -166,7 +166,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: '1.2'
-    requirement_index: 1.1.12
+    requirement_index: 1.2.12
     statement: You could use a QMS (Quality Management System) to standardise 
       and automate quality management tasks and workflows, and to generate 
       quality data and reports automatically.
@@ -178,8 +178,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Risk Management
-    capability_index: '1.2'
-    requirement_index: 1.2.1
+    capability_index: '1.3'
+    requirement_index: 1.3.1
     statement: You must have a way to score risk to understand the underlying 
       severity.
     guidance: You have a risk assessment methodology for scoring risks on 
@@ -189,8 +189,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
-    capability_index: '1.2'
-    requirement_index: 1.2.2
+    capability_index: '1.3'
+    requirement_index: 1.3.2
     statement: You must carry out a data processing assessment for all projects 
       requiring a TRE.
     guidance: "A data processing assessment is a process designed to identify risks
@@ -202,8 +202,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
-    capability_index: '1.2'
-    requirement_index: 1.2.3
+    capability_index: '1.3'
+    requirement_index: 1.3.3
     statement: You must have a process for designing, implementing and recording
       risk mitigations where indicated by a risk assessment.
     guidance: Actions that are taken or not taken following a risk assessment 
@@ -213,8 +213,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
-    capability_index: '1.2'
-    requirement_index: 1.2.4
+    capability_index: '1.3'
+    requirement_index: 1.3.4
     statement: You must have a clear set of roles and responsibilities relating 
       to risk including who owns risks and how they are escalated and delegated.
     guidance: "The highest level of risk ownership is the Top Management of the TRE
@@ -226,8 +226,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
-    capability_index: '1.2'
-    requirement_index: 1.2.5
+    capability_index: '1.3'
+    requirement_index: 1.3.5
     statement: You must understand the risk appetite of your TRE organisation.
     guidance: This includes understanding ownership of risk, and ability to 
       accept risk which falls outside of the appetite should that become 
@@ -237,8 +237,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Study Management
-    capability_index: '1.3'
-    requirement_index: 1.3.1
+    capability_index: '1.4'
+    requirement_index: 1.4.1
     statement: You must have checks in place to ensure a project has the legal, 
       financial and ethical requirements in place for the duration of the 
       project.
@@ -250,8 +250,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339164
   - pillar: Information governance
     capability: Study Management
-    capability_index: '1.3'
-    requirement_index: 1.3.2
+    capability_index: '1.4'
+    requirement_index: 1.4.2
     statement: You must have checks in place to ensure that any time limited 
       compliance requirements are maintained.
     guidance: "This includes ensuring contracts remain in valid and action is promptly
@@ -262,18 +262,18 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
-    capability_index: '1.3'
-    requirement_index: 1.3.3
+    capability_index: '1.4'
+    requirement_index: 1.4.3
     statement: You must have checks in place to ensure that changes in 
       regulations are met for a project.
-    guidance: .nan
+    guidance: 
     importance: Mandatory
     architecture_url: 
       https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339166
   - pillar: Information governance
     capability: Study Management
-    capability_index: '1.3'
-    requirement_index: 1.3.4
+    capability_index: '1.4'
+    requirement_index: 1.4.4
     statement: You must have standard processes in place for the end of a 
       project, that follow all legal requirements and data security best 
       practice.
@@ -284,8 +284,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339167
   - pillar: Information governance
     capability: Study Management
-    capability_index: '1.3'
-    requirement_index: 1.3.5
+    capability_index: '1.4'
+    requirement_index: 1.4.5
     statement: You could implement a portal that can provide a workflow engine 
       and database which automates the processes within this capability.
     guidance: "A portal should automate as much of the processes within the capability
@@ -297,8 +297,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339168
   - pillar: Information governance
     capability: Study Management
-    capability_index: '1.3'
-    requirement_index: 1.3.6
+    capability_index: '1.4'
+    requirement_index: 1.4.6
     statement: You must keep a complete record of all the data assets held 
       within the system.
     guidance: "Details of all data assets (current and past) held by the system should
@@ -311,8 +311,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339169
   - pillar: Information governance
     capability: Study Management
-    capability_index: '1.3'
-    requirement_index: 1.3.7
+    capability_index: '1.4'
+    requirement_index: 1.4.7
     statement: You should keep a complete record of all the research studies and
       projects within the TRE current and past.
     guidance: The study register should contain all data related to a study 
@@ -323,8 +323,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339170
   - pillar: Information governance
     capability: Member Accreditation
-    capability_index: '1.4'
-    requirement_index: 1.4.1
+    capability_index: '1.5'
+    requirement_index: 1.5.1
     statement: You must have a robust method for identifying accredited members 
       of your TRE organisation, prior to their accessing of sensitive data.
     guidance: This may include ID checks or email/phone verification.
@@ -333,8 +333,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
     capability: Member Accreditation
-    capability_index: '1.4'
-    requirement_index: 1.4.2
+    capability_index: '1.5'
+    requirement_index: 1.5.2
     statement: You must have clear onboarding processes in place for all roles 
       within your TRE organisation.
     guidance: This may include all members signing role-specific terms of use or
@@ -344,8 +344,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a1
   - pillar: Information governance
     capability: Member Accreditation
-    capability_index: '1.4'
-    requirement_index: 1.4.3
+    capability_index: '1.5'
+    requirement_index: 1.5.3
     statement: You must have a set of services to manage access to resources 
       based on identity.
     guidance: This will include a security model for role based access with 
@@ -355,8 +355,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a2
   - pillar: Information governance
     capability: Member Accreditation
-    capability_index: '1.4'
-    requirement_index: 1.4.4
+    capability_index: '1.5'
+    requirement_index: 1.5.4
     statement: You must not give anyone access to datasets without agreement 
       from the Data Controller.
     guidance: The Data Controller may choose to delegate this authority.
@@ -365,8 +365,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a3
   - pillar: Information governance
     capability: Member Accreditation
-    capability_index: '1.4'
-    requirement_index: 1.4.5
+    capability_index: '1.5'
+    requirement_index: 1.5.5
     statement: You must have robust and secure applications in place to 
       authenticate users (and services) within the TRE.
     guidance: The number of authentication applications should be kept to a 
@@ -377,8 +377,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a4
   - pillar: Information governance
     capability: Member Accreditation
-    capability_index: '1.4'
-    requirement_index: 1.4.6
+    capability_index: '1.5'
+    requirement_index: 1.5.6
     statement: You must give each user of the TRE a unique logon with changes to
       any records strictly controlled.
     guidance: "The unique identifier and all associated records for a user should
@@ -389,8 +389,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a5
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.1
+    capability_index: '1.6'
+    requirement_index: 1.6.1
     statement: You must determine what training is relevant for all roles within
       the TRE organisation.
     guidance: "This may include, for instance, cyber security training, GDPR training,
@@ -403,8 +403,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.2
+    capability_index: '1.6'
+    requirement_index: 1.6.2
     statement: You must ensure that relevant training is available for all roles
       within the TRE organisation.
     guidance: "All TRE organisation members need to complete all relevant training
@@ -416,8 +416,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b8
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.3
+    capability_index: '1.6'
+    requirement_index: 1.6.3
     statement: You must provide repeat or updated training where necessary to 
       account for changes in competency requirements.
     guidance: "Training is not a one-off event.\nElectronic reminders for refresher
@@ -429,8 +429,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b9
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.4
+    capability_index: '1.6'
+    requirement_index: 1.6.4
     statement: You must maintain accurate training records that are directly 
       tied to the role and access levels within the TRE.
     guidance: "Training records should be tied to a user record and carefully maintained.\n\
@@ -441,8 +441,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b10
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.5
+    capability_index: '1.6'
+    requirement_index: 1.6.5
     statement: You should accept proof of relevant training certifications from 
       trusted third parties.
     guidance: You might choose to trust certifications provided by known 
@@ -452,8 +452,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b11
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.6
+    capability_index: '1.6'
+    requirement_index: 1.6.6
     statement: You could have a training platform capable of delivering online 
       training in a variety of formats.
     guidance: "This could be a simple content delivery platform or a more comprehensive
@@ -464,8 +464,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b12
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.7
+    capability_index: '1.6'
+    requirement_index: 1.6.7
     statement: You could implement a learning management system (LMS) to manage 
       courses and deliver training as required.
     guidance: Where possible an LMS should support a variety of course content 
@@ -475,8 +475,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b13
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.8
+    capability_index: '1.6'
+    requirement_index: 1.6.8
     statement: You could ensure that any courses you use are available in 
       standard, transferable formats.
     guidance: "Support for standard formats such as SCORM allows courses to be shared
@@ -487,8 +487,8 @@ specification:
       https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b14
   - pillar: Information governance
     capability: Training Management and Delivery
-    capability_index: '1.5'
-    requirement_index: 1.5.9
+    capability_index: '1.6'
+    requirement_index: 1.6.9
     statement: You could keep historical copies of courses in order to 
       demonstrate competency at a given point in time.
     guidance: "Information asset owners and regulators may be required to audit historical
@@ -1704,7 +1704,7 @@ specification:
     statement: You should regularly test the aspects of your business continuity
       plan concerning TREs, and have a process in place to iterate the plan if 
       required.
-    guidance: .nan
+    guidance: 
     importance: Recommended
     architecture_url: 
       https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6937
