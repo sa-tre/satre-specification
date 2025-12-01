@@ -47,6 +47,9 @@ linkcheck_ignore = [
     "https://www.dundee.ac.uk/hic",
 ]
 
+# Exclude archive directory from linkcheck
+exclude_patterns = ["archive/**"]
+
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
 myst_enable_extensions = ["attrs_inline", "colon_fence", "deflist", "fieldlist"]
 

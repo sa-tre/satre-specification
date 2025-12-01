@@ -20,3 +20,10 @@ jobs:
       - name: Sphinx build
         run: |
           make html
+      - name: Sphinx linkcheck
+        run: |
+          make linkcheck
+      - name: Summarise linkcheck output
+        if: always()
+        run: |
+          ../ci/summarise-linkcheck-output build/linkcheck/output.json
