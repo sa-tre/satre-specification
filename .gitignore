@@ -41,6 +41,7 @@ Thumbs.db
 *~
 .DS_Store
 venv
+.vscode/settings.json
 
 # Sphinx
 __pycache__
