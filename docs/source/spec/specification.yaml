@@ -1,5 +1,5 @@
 specification:
- Information governance
+  - pillar: Information governance
     capability: Information Governance
     capability_index: '1.1'
     requirement_index: 1.1.1
