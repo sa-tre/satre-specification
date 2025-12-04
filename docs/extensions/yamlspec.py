@@ -116,7 +116,11 @@ class YamlSpecDirective(SphinxDirective):
             for field_name, _, display_name in COLUMNS:
                 entry = nodes.entry(classes=["head"])
                 # Use custom display name if provided, otherwise format field name
-                header_text = display_name if display_name else field_name.replace("_", " ").capitalize()
+                header_text = (
+                    display_name
+                    if display_name
+                    else field_name.replace("_", " ").capitalize()
+                )
                 entry += nodes.paragraph(text=header_text)
                 header_row += entry
             thead += header_row
@@ -131,10 +135,12 @@ class YamlSpecDirective(SphinxDirective):
                     entry = nodes.entry()
                     # Use .get() with empty string default to avoid KeyError
                     content_text = str(item.get(key, "") or "")
-                    
+
                     # Debug: log if capability_index is missing (though we don't display it)
                     if key == "capability" and "capability_index" not in item:
-                        print(f"Warning: Item {item.get('requirement_index', 'unknown')} missing capability_index")
+                        print(
+                            f"Warning: Item {item.get('requirement_index', 'unknown')} missing capability_index"
+                        )
 
                     # Use nested_parse for multi-line fields to process reST content (like links)
                     if key in ["statement", "guidance"]:
@@ -177,10 +183,10 @@ class YamlSpecDirective(SphinxDirective):
                 tbody += row
 
             tgroup += tbody
-            
+
             # Add table to the section
             section += table
-            
+
             # Add section to result nodes
             result_nodes.append(section)
 

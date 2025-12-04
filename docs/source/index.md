@@ -49,10 +49,10 @@ SATRE is built on four [guiding principles](principles.md): **Usability, Maintai
 ```{raw} html
 <div style="max-width: 640px; margin: 20px auto;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-    <iframe src="https://www.youtube-nocookie.com/embed/auExNHEGwcc" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    <iframe src="https://www.youtube-nocookie.com/embed/auExNHEGwcc"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
     </iframe>
   </div>
@@ -146,4 +146,3 @@ We are grateful for the following support for this project:
 
 - UKRI via the DARE Phase 2 - TREvolution Programme [DARE Phase 2](https://dareuk.org.uk/news-and-events/dare-uk-phase-2-is-underway-but-what-does-this-mean-for-everyone/)
 - UKRI via the DARE UK Phase 1 driver projects programme ([SATRE](https://dareuk.org.uk/how-we-work/previous-activities/dare-uk-phase-1-driver-projects/satre-standardised-architecture-for-trusted-research-environments/))
-
