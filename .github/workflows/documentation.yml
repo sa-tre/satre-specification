@@ -3,6 +3,13 @@ on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: write
 jobs:
+  pre-commit:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+      - uses: pre-commit/action@v3.0.1
   build:
     name: Build
     runs-on: ubuntu-latest
