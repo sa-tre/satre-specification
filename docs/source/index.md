@@ -94,7 +94,8 @@ The [Architecture](architecture.md) provides a comprehensive high-level architec
 
 SATRE embeds public involvement and engagement throughout its development and within the specification itself. Through workshops with members of the public, we identified that cybersecurity, oversight, transparency, and public involvement were essential for maintaining trust in TREs.
 
-**Public Voice in Action**<br>
+### Public Voice in Action
+
 Two public members served on the core SATRE project team from the beginning, ensuring public perspectives shaped all work packages. Public workshop feedback directly led to:
 
 - Upgrading Public Involvement and Engagement statements from Optional to Mandatory* for TREs using personal data
