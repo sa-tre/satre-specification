@@ -66,16 +66,24 @@ class YamlSpecDirective(SphinxDirective):
         for idx, item in enumerate(specifications):
             # Validate required fields
             if not isinstance(item, dict):
-                error_msg = f"Item {idx} in specification is not a dictionary: {type(item)}"
+                error_msg = (
+                    f"Item {idx} in specification is not a dictionary: {type(item)}"
+                )
                 return [nodes.error("", nodes.paragraph(text=error_msg))]
-            
+
             # Check for required fields and provide helpful error messages
-            required_fields = ["pillar", "capability", "requirement_index", "statement", "importance"]
+            required_fields = [
+                "pillar",
+                "capability",
+                "requirement_index",
+                "statement",
+                "importance",
+            ]
             missing_fields = [f for f in required_fields if f not in item]
             if missing_fields:
                 error_msg = f"Item {idx} (requirement {item.get('requirement_index', 'unknown')}) is missing required fields: {', '.join(missing_fields)}"
                 return [nodes.error("", nodes.paragraph(text=error_msg))]
-            
+
             pillar_name = item.get("pillar", "Unknown")
             if pillar_name not in pillars:
                 pillars[pillar_name] = []
@@ -87,8 +95,8 @@ class YamlSpecDirective(SphinxDirective):
         for pillar_name, pillar_items in pillars.items():
             # Add pillar heading as a proper section so it appears in TOC
             section = nodes.section(ids=[pillar_name.lower().replace(" ", "-")])
-            section['names'] = [pillar_name]
-            
+            section["names"] = [pillar_name]
+
             # Create the heading
             title = nodes.title(text=pillar_name)
             section += title
