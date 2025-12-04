@@ -98,7 +98,7 @@ SATRE embeds public involvement and engagement throughout its development and wi
 
 Two public members served on the core SATRE project team from the beginning, ensuring public perspectives shaped all work packages. Public workshop feedback directly led to:
 
-- Upgrading Public Involvement and Engagement statements from Optional to Mandatory* for TREs using personal data
+- Upgrading Public Involvement and Engagement statements from Optional to Mandatory for TREs using personal data
 - Including requirements for TREs to publicly report on incidents and near-misses
 - Adding detailed specifications on transparency and public-facing information
 - Strengthening oversight and governance requirements
