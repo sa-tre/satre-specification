@@ -27,6 +27,7 @@ extensions = [
     "sphinxcontrib.datatemplates",
     "myst_parser",
     "satrecsv",
+    "yamlspec",
 ]
 
 # The :download: role inserts a hash into the URL which varies between builds
@@ -46,6 +47,9 @@ linkcheck_ignore = [
     "https://www.dundee.ac.uk/hic",
 ]
 
+# Exclude archive directory from linkcheck
+exclude_patterns = ["archive/**"]
+
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
 myst_enable_extensions = ["attrs_inline", "colon_fence", "deflist", "fieldlist"]
 
@@ -61,6 +65,20 @@ templates_path = ["_templates"]
 # -- Options for HTML output
 
 html_theme = "sphinx_rtd_theme"
+
+# Theme options for logo
+html_theme_options = {
+    "logo_only": False,
+    "display_version": False,
+}
+
+# Logo configuration
+html_logo = "../images/SATRE_Stacked_Dark.png"
+
+# Add custom CSS and JavaScript
+# html_static_path = ["_static"]
+# html_css_files = ["custom.css"]
+# html_js_files = ["custom.js"]
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"

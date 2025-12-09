@@ -41,7 +41,11 @@ Thumbs.db
 *~
 .DS_Store
 venv
+.vscode/settings.json
 
 # Sphinx
 __pycache__
+
+# Kiro AI assistant files
+.kiro/
 

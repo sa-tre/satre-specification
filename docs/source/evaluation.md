@@ -4,9 +4,6 @@
 
 This section details the method for evaluating a TRE against the SATRE specification.
 
-This document also includes two example evaluations for {ref}`The Alan Turing Institute's Data Safe Haven <evaluation_alan_turing_institute>` and {ref}`The University of Dundee/HIC's TREEHOOSE <evaluation_dundee_hic>`.
-We hope that these examples will help you to write your own evaluation.
-
 ## Who should evaluate a TRE against SATRE?
 
 This section is aimed at {ref}`Operators <infrastructure_roles>` and {ref}`Information Governance Managers <governance_roles>` of TREs at institutions hosting sensitive data research projects.
@@ -30,6 +27,14 @@ By scoring your institutions' TRE against the specification using the method bel
 SATRE is _not_ a technical standard for which formal accreditation can be achieved.
 For more info see: {ref}`is_standard`
 :::
+
+## Publicly available evaluations
+
+Example evaluations from UK TREs are now hosted on the [SATRE UKTRE Community site](https://satre.uktre.org/en/) site.
+These examples demonstrate how different institutions have evaluated their TREs against the SATRE specification and can help guide your own evaluation process.
+
+We encourage organisations to share their evaluations to benefit the community and contribute towards openness.
+By making evaluations publicly available, we can collectively improve TRE provision across the sector and learn from each other's experiences and approaches.
 
 (scoring_method)=
 

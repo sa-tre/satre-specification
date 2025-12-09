@@ -62,7 +62,7 @@ Evaluating a TRE with the SATRE specification may help to identify which technic
 ## Does SATRE provide everything I need to build a TRE?
 
 No.
-The SATRE specification defines a set of stakeholder {ref}`roles <satre_roles>` and feature {term}`capabilities <capability>` for TREs, which were decided according to our {ref}`architectural principles <satre_principles>`.
+The SATRE specification defines a set of stakeholder {ref}`roles <satre_roles>` and feature capabilities for TREs, which were decided according to our {ref}`architectural principles <satre_principles>`.
 It does not dictate which specific technologies could or should be used to build a TRE.
 
 (developer_gain)=

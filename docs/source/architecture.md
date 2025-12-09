@@ -24,25 +24,3 @@ Views are provided aligned to the capabilities and additional views show alignme
 The Archimate files are managed in the [Architecture Repository](https://github.com/sa-tre/satre-archimate).
 
 A report on the architecture is available on [zenodo](https://zenodo.org/records/10053383).
-
-## Versions
-
-```{list-table}
-:header-rows: 1
-:name: tab-information-search-and-discovery
-
-* - Version
-  - Release Date
-  - Release Notes
-* - [1.1.0](https://satre-archimate.readthedocs.io/en/v1.1.0/)
-  - 2025-07-01
-  - - Output Management added as capability as per specification.
-    - Specification Statements added as requirements and linked to capabilities.
-    - Added URL to specification statements in "documentation" where possible
-    - Supporting Capabilities pillar aligned to specification.
-    - Views created for all supporting capabilities.
-    - All requirements added to views.
-* - 1.0.0
-  - 2023-10-05
-  -
-```
