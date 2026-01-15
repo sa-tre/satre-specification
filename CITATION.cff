@@ -9,99 +9,99 @@ authors:
   - affiliation: University of Dundee
     given-names: Christian
     family-names: Cole
-    orcid: 0000-0002-2560-2484
+    orcid: https://orcid.org/0000-0002-2560-2484
   - affiliation: The Alan Turing Institute
     given-names: Hari
     family-names: Sood
-    orcid: 0000-0003-1029-1510
+    orcid: https://orcid.org/0000-0003-1029-1510
   - affiliation: University of Dundee
     given-names: Simon
     family-names: Li
-    orcid: 0000-0002-7929-2442
+    orcid: https://orcid.org/0000-0002-7929-2442
   - affiliation: Research Data Scotland
     given-names: Katie
     family-names: Oldfield
-    orcid: 0009-0000-2941-5662
+    orcid: https://orcid.org/0009-0000-2941-5662
   - affiliation: The Alan Turing Institute
     given-names: Matt
     family-names: Craddock
-    orcid: 0000-0002-2199-3705
+    orcid: https://orcid.org/0000-0002-2199-3705
   - affiliation: University College London
     given-names: Nel
     family-names: Swanepoel
-    orcid: 0000-0003-0330-9460
+    orcid: https://orcid.org/0000-0003-0330-9460
   - affiliation: University of Ulster
     given-names: Sonya
     family-names: Coleman
-    orcid: 0000-0002-4676-7640
+    orcid: https://orcid.org/0000-0002-4676-7640
   - affiliation: The Alan Turing Institute
     given-names: Martin
     family-names: O'Reilly
-    orcid: 0000-0002-1191-3492
+    orcid: https://orcid.org/0000-0002-1191-3492
   - affiliation: University of Ulster
     given-names: Dermot
     family-names: Kerr
-    orcid: 0000-0002-5077-0658
+    orcid: https://orcid.org/0000-0002-5077-0658
   - affiliation: University College London
     given-names: Cian
     family-names: O'Donovan
-    orcid: 0000-0003-4467-9687
+    orcid: https://orcid.org/0000-0003-4467-9687
   - affiliation: University College London
     given-names: James
     family-names: Hetherington
-    orcid: 0000-0001-6993-0319
+    orcid: https://orcid.org/0000-0001-6993-0319
   - affiliation: The Alan Turing Institute
     given-names: Jim
     family-names: Madge
-    orcid: 0000-0001-6044-164X
+    orcid: https://orcid.org/0000-0001-6044-164X
   - affiliation: The Alan Turing Institute
     given-names: David
     family-names: Sarmiento-Perez
-    orcid: 0000-0002-0170-9009
+    orcid: https://orcid.org/0000-0002-0170-9009
   - affiliation: The Alan Turing Institute
     given-names: Ed
     family-names: Chalstrey
-    orcid: 0000-0003-2560-1294
+    orcid: https://orcid.org/0000-0003-2560-1294
   - affiliation: The Alan Turing Institute
     given-names: James
     family-names: Robinson
-    orcid: 0000-0002-2856-9413
+    orcid: https://orcid.org/0000-0002-2856-9413
   - given-names: Jillian
     family-names: Beggs
-    orcid: 0000-0002-7591-3256
+    orcid: https://orcid.org/0000-0002-7591-3256
   - affiliation: University College London
     given-names: Tim
     family-names: Machin
-    orcid: 0009-0001-3963-0275
+    orcid: https://orcid.org/0009-0001-3963-0275
   - given-names: Antony
     family-names: Chuter
-    orcid: 0000-0002-0646-5939
+    orcid: https://orcid.org/0000-0002-0646-5939
   - affiliation: The Alan Turing Institute
     given-names: Arron
     family-names: Lacey
   - affiliation: DARE UK
     given-names: Rob
     family-names: Baxter
-    orcid: 0000-0002-3693-8725
+    orcid: https://orcid.org/0000-0002-3693-8725
   - affiliation: University of Dundee
     given-names: Gordon
     family-names: Milligan
-    orcid: 0000-0002-1171-5234
+    orcid: https://orcid.org/0000-0002-1171-5234
   - affiliation: University of Dundee
     given-names: Jenny
     family-names: Johnston
-    orcid: 0000-0002-6755-1267
+    orcid: https://orcid.org/0000-0002-6755-1267
   - affiliation: University of Dundee
     given-names: Judith
     family-names: Fisher
-    orcid: 0009-0002-8182-9904
+    orcid: https://orcid.org/0009-0002-8182-9904
   - affiliation: University of Manchester
     given-names: Alexander
     family-names: Hambley
-    orcid: 0000-0003-1193-6632
+    orcid: https://orcid.org/0000-0003-1193-6632
 
 cff-version: 1.2.0
-license: cc-by-4.0
+license: CC-BY-4.0
 repository-code: https://github.com/sa-tre/satre-specification
 url: https://satre-specification.readthedocs.io
 message: If you use this work, please cite it using the metadata from this file.
