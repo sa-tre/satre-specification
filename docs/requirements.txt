@@ -65,7 +65,7 @@ sphinx==8.2.3
     #   sphinxcontrib-datatemplates
     #   sphinxcontrib-jquery
     #   sphinxcontrib-runcmd
-sphinx-rtd-theme==3.0.2
+sphinx-rtd-theme==3.1.0
     # via -r requirements.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
