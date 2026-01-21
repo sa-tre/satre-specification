@@ -130,7 +130,9 @@ class YamlSpecDirective(SphinxDirective):
             tbody = nodes.tbody()
 
             for item in pillar_items:
-                row = nodes.row()
+                # Create a unique ID for this requirement based on requirement_index
+                req_id = str(item.get("requirement_index", "")).replace(".", "-")
+                row = nodes.row(ids=[f"req-{req_id}"])
                 for key, _, _ in COLUMNS:
                     entry = nodes.entry()
                     # Use .get() with empty string default to avoid KeyError
