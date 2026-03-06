@@ -49,3 +49,6 @@ __pycache__
 # Kiro AI assistant files
 .kiro/
 
+# Local source files directory
+sourcefiles/
+
