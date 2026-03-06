@@ -1874,7 +1874,7 @@ specification:
       distributed.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.01
@@ -1882,7 +1882,7 @@ specification:
     guidance: 2 levels top management making decisions around risk, resources and things like contracts with an operation group making day-to-day decsions related to the running of the federation.
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.02
@@ -1890,7 +1890,7 @@ specification:
     guidance: Define a responsibility framework for different individual and group roles. The defineds when the authority rests with a central federation body versus with individual members.
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.03
@@ -1898,7 +1898,7 @@ specification:
     guidance: Standards and rules expected or reuired by the federaiton may be specific to the federation or require meeting external standards (EG. DSPT, ISO 27001,CAF)  these should be tracked and be accessible by the federaiton and it's members.
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.2"
     requirement_index: 5.1.04
@@ -1906,7 +1906,7 @@ specification:
     guidance: including lessons learned
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.05
@@ -1914,7 +1914,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.06
@@ -1922,7 +1922,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.07
@@ -1930,7 +1930,7 @@ specification:
     guidance: These processes should include the credential management /revocation etc.
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.08
@@ -1938,7 +1938,7 @@ specification:
     guidance: It is likely that different organisations will have different risk matracies and risk tollerance. The federatiion should assess combined risk, treat where possible and accept any residual risk.
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.09
@@ -1946,7 +1946,7 @@ specification:
     guidance: Example data access request, data classification, output checking and release, project initiation and termination. This ensures decisions are portable across federation (EG. output approved in one TRE is recognized by others)
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.10
@@ -1954,7 +1954,7 @@ specification:
     guidance: The re-use of existing glossaries is preferable such as https://glossary.uktre.org/
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.11
@@ -1962,7 +1962,7 @@ specification:
     guidance: Example DPIA, DSA, Collaboration agreements, researcher access agreements
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.12
@@ -1970,7 +1970,7 @@ specification:
     guidance: 
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.13
@@ -1978,7 +1978,7 @@ specification:
     guidance: 
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Member Accreditation
     capability_index: "5.3"
     requirement_index: 5.2.01
@@ -1986,7 +1986,7 @@ specification:
     guidance: Competency ensures a consistent defintion of a "Safe Researcher". Ideally all federations an existing registry such as https://safepeopleregistry.org/en. Alternatively, standardised training could be provided by the federation or multiple trainings could be acceptable. Training status of users should be accessible programmatically.
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.4"
     requirement_index: 5.3.01
@@ -1994,7 +1994,7 @@ specification:
     guidance: The project register should be accessible programmatically by all member TREs.
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.4"
     requirement_index: 5.3.02
@@ -2002,7 +2002,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.4"
     requirement_index: 5.3.03
@@ -2010,7 +2010,7 @@ specification:
     guidance: Query across registers via API?
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.4"
     requirement_index: 5.3.04
@@ -2018,7 +2018,7 @@ specification:
     guidance: HDR, Alliance Data Repository, RDS
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.4.01
@@ -2026,7 +2026,7 @@ specification:
     guidance: Automated secrets management
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.4.02
@@ -2034,7 +2034,7 @@ specification:
     guidance: Use VPNs, dedicated circuits, or encrypted tunnels for inter-TRE communication.
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.02
@@ -2042,7 +2042,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.03
@@ -2050,7 +2050,7 @@ specification:
     guidance: Identity provider federation with agreed, shared attributes for each user
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.04
@@ -2058,7 +2058,7 @@ specification:
     guidance: 
     importance: Optional
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.06
@@ -2066,7 +2066,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.07
@@ -2074,7 +2074,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.08
@@ -2082,7 +2082,7 @@ specification:
     guidance: 
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Infrastructure management
     capability_index: "5.6"
     requirement_index: 5.6.01
@@ -2090,7 +2090,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Infrastructure management
     capability_index: "5.6"
     requirement_index: 5.6.02
@@ -2098,7 +2098,7 @@ specification:
     guidance: 
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.01
@@ -2106,7 +2106,7 @@ specification:
     guidance: 
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.02
@@ -2114,7 +2114,7 @@ specification:
     guidance: (data ingress, analysis outputs, model artifacts, trained algorithms)
     importance: Mandatory
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.03
@@ -2122,7 +2122,7 @@ specification:
     guidance: 
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.04
@@ -2130,7 +2130,7 @@ specification:
     guidance: 
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.05
@@ -2138,7 +2138,7 @@ specification:
     guidance: 
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.08
@@ -2146,7 +2146,7 @@ specification:
     guidance: Provenience and impact tracking
     importance: Recommended
     architecture_url: 
-  - pillar: 
+  - pillar: Federation
     capability: Federation Financial Management
     capability_index: "5.8"
     requirement_index: 5.8.01
