@@ -1878,213 +1878,176 @@ specification:
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.01
-    statement: The federation must define a scope and governance structure for the federation made up of member TREs and interested parties.
-    guidance: A federation may have 2 levels of management with top management making decisions around risk, and resources with an operation group making day-to-day decisions related to the running of the federation.
-
-Interested parties might include PPIE, Data Providers, member TRE operators etc.
-
-Establish best-practice decision-making processes that ensure all stakeholders have an equal opportunity to contribute, underpinned by a commitment to transparency and meaningful public representation at every stage.
+    statement: "The federation must define a scope and governance structure for the federation made up of member TREs and interested parties."
+    guidance: "A federation may have 2 levels of management with top management making decisions around risk, and resources with an operation group making day-to-day decisions related to the running of the federation.  Interested parties might include PPIE, Data Providers, member TRE operators etc.  Establish best-practice decision-making processes that ensure all stakeholders have an equal opportunity to contribute, underpinned by a commitment to transparency and meaningful public representation at every stage."
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.02
-    statement: The federation must define key roles (individual and group) and agree a shared responsibility model for the federation.
-    guidance: Define a responsibility framework for different individual and group roles. This defines when the authority rests with a central federation body versus with individual members. Key roles might include TRE provider organisation, infrastructure provider, researcher, top management etc.
-
-A document covering responsibilities assigned to these roles could include RACI or be based on established model such as those used by public cloud providers.
-
-Example of key roles can be found here: https://satre-specification.readthedocs.io/en/latest/roles.html
-
-
+    statement: "The federation must define key roles (individual and group) and agree a shared responsibility model for the federation."
+    guidance: "Define a responsibility framework for different individual and group roles. This defines when the authority rests with a central federation body versus with individual members. Key roles might include TRE provider organisation, infrastructure provider, researcher, top management etc.  A document covering responsibilities assigned to these roles could include RACI or be based on established model such as those used by public cloud providers.  Example of key roles can be found here: https://satre-specification.readthedocs.io/en/latest/roles.html  "
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.03
-    statement: The federation must agree a standard set of rules required for each member TRE. Member TREs must make their compliance status with these rules available for audit by the federation, other members and external parties as appropriate.
-    guidance: Standards and rules expected or required by the federation may be specific to the federation or require meeting external standards (EG. SATRE, DSPT, ISO 27001,CAF)  these should be tracked and be accessible by the federation and it's members.
-
-These rules are likely to be a mix of high-level organisational requirements and specific controls.
-
+    statement: "The federation must agree a standard set of rules required for each member TRE. Member TREs must make their compliance status with these rules available for audit by the federation, other members and external parties as appropriate."
+    guidance: "Standards and rules expected or required by the federation may be specific to the federation or require meeting external standards (EG. SATRE, DSPT, ISO 27001,CAF)  these should be tracked and be accessible by the federation and it's members.  These rules are likely to be a mix of high-level organisational requirements and specific controls. "
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.2"
     requirement_index: 5.1.04
-    statement: Federation members must share any relevant incident, audit and other quality management data with members.
-    guidance: While organisations may not share all such details widely any information that has a potential effect on other member TREs or the federation as a whole must be shared.
+    statement: "Federation members must share any relevant incident, audit and other quality management data with members."
+    guidance: "While organisations may not share all such details widely any information that has a potential effect on other member TREs or the federation as a whole must be shared."
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.05
-    statement: The federation must agree a process to create, update and retire rules formal rules and standard operating procedures and make them available to TRE members.
-    guidance: Some shared processes will be critical to the operation of the federation such as data access requests, data classification, output checking and release, project initiation and termination. There must be a process to implementing, changing and removing such processes.
-
-This ensures decisions are portable across federation (EG. output approved in one TRE is recognized by others)
-
-
+    statement: "The federation must agree a process to create, update and retire rules formal rules and standard operating procedures and make them available to TRE members."
+    guidance: "Some shared processes will be critical to the operation of the federation such as data access requests, data classification, output checking and release, project initiation and termination. There must be a process to implementing, changing and removing such processes.  This ensures decisions are portable across federation (EG. output approved in one TRE is recognized by others)  "
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.06
-    statement: The federation must define processes for TREs joining and leaving the federation
-    guidance: Federations may be long-standing and stable or short lived and project based the processes should reflect the impact of a member TRE joining/leaving. The federation may include passive or default processes, like removal through inactivity or non-compliance.
-
-These processes should include the credential management /revocation etc.
+    statement: "The federation must define processes for TREs joining and leaving the federation"
+    guidance: "Federations may be long-standing and stable or short lived and project based the processes should reflect the impact of a member TRE joining/leaving. The federation may include passive or default processes, like removal through inactivity or non-compliance.  These processes should include the credential management /revocation etc."
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.07
-    statement: The federation should agree a consistent approach to risk assessment and treatment. Where multiple approaches are used equivalence must be established.
-    guidance: It is likely that different organisations will have different risk matrices and risk tolerance. The federation should assess combined risk, treat where possible and accept any residual risk.
+    statement: "The federation should agree a consistent approach to risk assessment and treatment. Where multiple approaches are used equivalence must be established."
+    guidance: "It is likely that different organisations will have different risk matrices and risk tolerance. The federation should assess combined risk, treat where possible and accept any residual risk."
     importance: Recommended
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.08
-    statement: The federation should agree standard terminology for use in agreements and documentation with a glossary as needed.
-    guidance: Where possible organisations should re-use of existing glossaries such as https://glossary.uktre.org/
+    statement: "The federation should agree standard terminology for use in agreements and documentation with a glossary as needed."
+    guidance: "Where possible organisations should re-use of existing glossaries such as https://glossary.uktre.org/"
     importance: Recommended
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.09
-    statement: Access requests to the federation should use common or single templates for legal or administration purposes.
-
-    guidance: Examples of standard agreements are Data Protection Impact Assessment, Collaboration agreements, researcher access agreements.
-
-Should be managed by the "Front Door" node.
+    statement: "Access requests to the federation should use common or single templates for legal or administration purposes.
+"
+    guidance: "Examples of standard agreements are Data Protection Impact Assessment, Collaboration agreements, researcher access agreements.  Should be managed by the \"Front Door\" node."
     importance: Recommended
     architecture_url: 
   - pillar: Federation
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.10
-    statement: Where federation involves members of the public there should be representation from across all member TREs areas
-    guidance: When moving from a single TRE to a federation it is important to consider public representation coving data across the entire federation. This is especially relevant for where member TREs cover different populations (e.g. regions, counties) or data domains (e.g. Health, financial data).
+    statement: "Where federation involves members of the public there should be representation from across all member TREs areas"
+    guidance: "When moving from a single TRE to a federation it is important to consider public representation coving data across the entire federation. This is especially relevant for where member TREs cover different populations (e.g. regions, counties) or data domains (e.g. Health, financial data)."
     importance: Recommended
     architecture_url: 
   - pillar: Federation
     capability: Member Accreditation
     capability_index: "5.3"
     requirement_index: 5.2.01
-    statement: The federation must agree baseline competency requirements for all users.
-    guidance: Competency ensures a consistent definition of a "Safe Researcher". Ideally all federations use an existing registry such as https://safepeopleregistry.org/en. Alternatively, standardised training could be provided by the federation or multiple trainings could be acceptable. Training status of users should be accessible programmatically by all member TREs.
+    statement: "The federation must agree baseline competency requirements for all users."
+    guidance: "Competency ensures a consistent definition of a \"Safe Researcher\". Ideally all federations use an existing registry such as https://safepeopleregistry.org/en. Alternatively, standardised training could be provided by the federation or multiple trainings could be acceptable. Training status of users should be accessible programmatically by all member TREs."
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.4"
     requirement_index: 5.3.01
-    statement: The federation must maintain a register of "Safe Projects"
-    guidance: The project register should be accessible programmatically by all member TREs, good practice to make it available to public.
-
-
+    statement: "The federation must maintain a register of \"Safe Projects\""
+    guidance: "The project register should be accessible programmatically by all member TREs, good practice to make it available to public.  "
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.4"
     requirement_index: 5.3.02
-    statement: The federation must agree the legal, ethical and compliance standards required for a safe federated project.
-    guidance:  
-All central registries of projects must adhere to agreed data standards and be accessible as needed by federation members.
-HDR UK provide recommendations for a data use registry as a  guide
-https://zenodo.org/records/5902743#.YfAI__7P2Uk
+    statement: "The federation must agree the legal, ethical and compliance standards required for a safe federated project."
+    guidance: "  All central registries of projects must adhere to agreed data standards and be accessible as needed by federation members. HDR UK provide recommendations for a data use registry as a  guide https://zenodo.org/records/5902743#.YfAI__7P2Uk"
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.4.01
-    statement: The federation must implement network-level standards for cryptographic key and secrets management.
-    guidance: Automated secrets management
+    statement: "The federation must implement network-level standards for cryptographic key and secrets management."
+    guidance: "Automated secrets management"
     importance: Recommended
     architecture_url: 
   - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.02
-    statement: The federation must define and agree, implement and regularly test a shared incident response process.
-    guidance: a federation wide incident response process should cover incidents affecting member TREs, the federation and federation projects and include confidentiality, integrity and availability.
-
-Examples of such incidents are data quality issues or availability or data at  a member TRE.
-
+    statement: "The federation must define and agree, implement and regularly test a shared incident response process."
+    guidance: "a federation wide incident response process should cover incidents affecting member TREs, the federation and federation projects and include confidentiality, integrity and availability.  Examples of such incidents are data quality issues or availability or data at  a member TRE. "
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.03
-    statement: The federation should support a common user and machine identities with a defined set of attributes for use across the federation.
-    guidance: Identity provider federation with agreed, shared attributes for each user or machine identities. 
+    statement: "The federation should support a common user and machine identities with a defined set of attributes for use across the federation."
+    guidance: "Identity provider federation with agreed, shared attributes for each user or machine identities. "
     importance: Recommended
     architecture_url: 
   - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.04
-    statement: The federation could use threat modelling definition to identify areas of risk to infrastructure.
-    guidance: Understanding cross threat across multiple organisations may be challenging. Threat modelling provides a structured process for members TREs to discuss and assess threats across a federation.
-
-Information on threat models here:
-https://owasp.org/www-community/Threat_Modeling
+    statement: "The federation could use threat modelling definition to identify areas of risk to infrastructure."
+    guidance: "Understanding cross threat across multiple organisations may be challenging. Threat modelling provides a structured process for members TREs to discuss and assess threats across a federation.  Information on threat models here: https://owasp.org/www-community/Threat_Modeling"
     importance: optional
     architecture_url: 
   - pillar: Federation
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.06
-    statement: Shared federation services must maintain security logs of events including authentication and data transfer.
-    guidance: The federation should implement shared visibility of security logs where appropriate for federation-wide threat detection.
+    statement: "Shared federation services must maintain security logs of events including authentication and data transfer."
+    guidance: "The federation should implement shared visibility of security logs where appropriate for federation-wide threat detection."
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Infrastructure management
     capability_index: "5.6"
     requirement_index: 5.6.01
-    statement: Federation members must maintain accurate configuration information on federation services and make it available to appropriate parties.
-    guidance: Examples would be access to code repositories used to deploy shared infrastructure or network routing and firewall information for federation network traffic.
+    statement: "Federation members must maintain accurate configuration information on federation services and make it available to appropriate parties."
+    guidance: "Examples would be access to code repositories used to deploy shared infrastructure or network routing and firewall information for federation network traffic."
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.01
-    statement: The federation must implement a single, consistent output classification (definition of a safe output)
-    guidance: Output rule must cover data moving between federation members (outputs from a TRE to the next environment) and research outputs suitable for transfer out of a member TRE.
-
-Check PIE statement to the right
-
-
+    statement: "The federation must implement a single, consistent output classification (definition of a safe output)"
+    guidance: "Output rule must cover data moving between federation members (outputs from a TRE to the next environment) and research outputs suitable for transfer out of a member TRE.  Check PIE statement to the right  "
     importance: mandatory
     architecture_url: 
   - pillar: Federation
     capability: Federation Data Management
     capability_index: "5.7"
     requirement_index: 5.7.02
-    statement: The Federation should provide searchable catalogue(s) of metadata describing data assets across federation members
-    guidance: Metadata catalogues describing data across a federation should support semantic searches across diverse data types.
-The Federation should agree a minimum level of metadata completeness.
+    statement: "The Federation should provide searchable catalogue(s) of metadata describing data assets across federation members"
+    guidance: "Metadata catalogues describing data across a federation should support semantic searches across diverse data types. The Federation should agree a minimum level of metadata completeness."
     importance: Recommended
     architecture_url: 
   - pillar: Federation
     capability: Federation Financial Management
     capability_index: "5.8"
     requirement_index: 5.8.01
-    statement: The federation should agree a pricing model for federation projects.
-    guidance: A consistent charging mechanism prevents differential charging and competition between member TREs for similar data.
+    statement: "The federation should agree a pricing model for federation projects."
+    guidance: "A consistent charging mechanism prevents differential charging and competition between member TREs for similar data."
     importance: Recommended
     architecture_url: 
