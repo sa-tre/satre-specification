@@ -2,7 +2,7 @@ specification:
   - pillar: Information governance
     capability: Information Governance
     capability_index: "1.1"
-    requirement_index: 1.1.1
+    requirement_index: 1.1.01
     statement: You must gather and monitor the information governance
       requirements needed to fulfil any legal, regulatory and ethical standards.
     guidance:
@@ -14,7 +14,7 @@ specification:
   - pillar: Information governance
     capability: Information Governance
     capability_index: "1.1"
-    requirement_index: 1.1.2
+    requirement_index: 1.1.02
     statement: You must ensure controls are implemented to ensure the
       requirements are met.
     guidance: Control implementation should be systematic and directly aligned
@@ -22,9 +22,19 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
   - pillar: Information governance
+    capability: Quality Management
+    capability_index: "1.2"
+    requirement_index: 1.1.02
+    statement: You must use versioning and a codified change procedure for all
+      policies and standard operating procedures.
+    guidance: This includes recording dates of changes, person responsible for
+      carrying out changes, and summary of changes.
+    importance: Mandatory
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Information governance
     capability: Information Governance
     capability_index: "1.1"
-    requirement_index: 1.1.3
+    requirement_index: 1.1.03
     statement: You must ensure there are adequate resources to meet information
       governance requirements.
     guidance: Ensuring information governance controls are suitable and enforced
@@ -35,7 +45,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.2.1
+    requirement_index: 1.2.01
     statement: You must ensure that changes to policies and standard operating
       procedures can only be made by trusted individuals.
     guidance: It is important to ensure that policies and SOPs are relevant,
@@ -46,17 +56,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.1.2
-    statement: You must use versioning and a codified change procedure for all
-      policies and standard operating procedures.
-    guidance: This includes recording dates of changes, person responsible for
-      carrying out changes, and summary of changes.
-    importance: Mandatory
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
-  - pillar: Information governance
-    capability: Quality Management
-    capability_index: "1.2"
-    requirement_index: 1.2.3
+    requirement_index: 1.2.03
     statement: You should measure the performance of information governance
       within the TRE with regular reporting available to your TRE organisation’s
       management team.
@@ -67,7 +67,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.2.4
+    requirement_index: 1.2.04
     statement: You must audit your TRE organisation against relevant
       requirements and standards.
     guidance: If you are publicly accredited against a standard, for instance
@@ -78,7 +78,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.2.5
+    requirement_index: 1.2.05
     statement: You must report on and share outcomes of each audit of your TRE
       organisation with the required bodies.
     guidance: This may include regulatory bodies or the organisations that
@@ -88,7 +88,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.2.6
+    requirement_index: 1.2.06
     statement: You must ensure that suppliers, contractors and sub-contractors
       with access to your TRE align with your security requirements.
     guidance:
@@ -100,7 +100,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.2.7
+    requirement_index: 1.2.07
     statement: You must monitor compliance of your suppliers with the terms of
       the contracts.
     guidance:
@@ -113,7 +113,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.2.8
+    requirement_index: 1.2.08
     statement: You must track and maintain any physical assets used by your TRE.
     guidance:
       "All physical assets should be maintained and covered by warranty if
@@ -124,7 +124,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.2.9
+    requirement_index: 1.2.09
     statement: You must log, track and resolve any issues resulting from
       deviations from processes, incidents and audit findings.
     guidance: This process could, for example, be tracked through an electronic
@@ -170,7 +170,7 @@ specification:
   - pillar: Information governance
     capability: Risk Management
     capability_index: "1.3"
-    requirement_index: 1.3.1
+    requirement_index: 1.3.01
     statement: You must have a way to score risk to understand the underlying
       severity.
     guidance: You have a risk assessment methodology for scoring risks on
@@ -180,7 +180,7 @@ specification:
   - pillar: Information governance
     capability: Risk Management
     capability_index: "1.3"
-    requirement_index: 1.3.2
+    requirement_index: 1.3.02
     statement: You must carry out a data processing assessment for all projects
       requiring a TRE.
     guidance:
@@ -193,7 +193,7 @@ specification:
   - pillar: Information governance
     capability: Risk Management
     capability_index: "1.3"
-    requirement_index: 1.3.3
+    requirement_index: 1.3.03
     statement: You must have a process for designing, implementing and recording
       risk mitigations where indicated by a risk assessment.
     guidance: Actions that are taken or not taken following a risk assessment
@@ -203,7 +203,7 @@ specification:
   - pillar: Information governance
     capability: Risk Management
     capability_index: "1.3"
-    requirement_index: 1.3.4
+    requirement_index: 1.3.04
     statement: You must have a clear set of roles and responsibilities relating
       to risk including who owns risks and how they are escalated and delegated.
     guidance:
@@ -216,7 +216,7 @@ specification:
   - pillar: Information governance
     capability: Risk Management
     capability_index: "1.3"
-    requirement_index: 1.3.5
+    requirement_index: 1.3.05
     statement: You must understand the risk appetite of your TRE organisation.
     guidance: This includes understanding ownership of risk, and ability to
       accept risk which falls outside of the appetite should that become
@@ -226,7 +226,7 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.1
+    requirement_index: 1.4.01
     statement: You must have checks in place to ensure a project has the legal,
       financial and ethical requirements in place for the duration of the
       project.
@@ -238,7 +238,7 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.2
+    requirement_index: 1.4.02
     statement: You must have checks in place to ensure that any time limited
       compliance requirements are maintained.
     guidance:
@@ -250,7 +250,7 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.3
+    requirement_index: 1.4.03
     statement: You must have checks in place to ensure that changes in
       regulations are met for a project.
     guidance:
@@ -259,7 +259,7 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.4
+    requirement_index: 1.4.04
     statement: You must have standard processes in place for the end of a
       project, that follow all legal requirements and data security best
       practice.
@@ -270,7 +270,7 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.5
+    requirement_index: 1.4.05
     statement: You could implement a portal that can provide a workflow engine
       and database which automates the processes within this capability.
     guidance:
@@ -283,7 +283,7 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.6
+    requirement_index: 1.4.06
     statement: You must keep a complete record of all the data assets held
       within the system.
     guidance:
@@ -297,7 +297,7 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.7
+    requirement_index: 1.4.07
     statement: You should keep a complete record of all the research studies and
       projects within the TRE current and past.
     guidance: The study register should contain all data related to a study
@@ -308,7 +308,7 @@ specification:
   - pillar: Information governance
     capability: Member Accreditation
     capability_index: "1.5"
-    requirement_index: 1.5.1
+    requirement_index: 1.5.01
     statement: You must have a robust method for identifying accredited members
       of your TRE organisation, prior to their accessing of sensitive data.
     guidance: This may include ID checks or email/phone verification.
@@ -317,7 +317,7 @@ specification:
   - pillar: Information governance
     capability: Member Accreditation
     capability_index: "1.5"
-    requirement_index: 1.5.2
+    requirement_index: 1.5.02
     statement: You must have clear onboarding processes in place for all roles
       within your TRE organisation.
     guidance: This may include all members signing role-specific terms of use or
@@ -327,7 +327,7 @@ specification:
   - pillar: Information governance
     capability: Member Accreditation
     capability_index: "1.5"
-    requirement_index: 1.5.3
+    requirement_index: 1.5.03
     statement: You must have a set of services to manage access to resources
       based on identity.
     guidance: This will include a security model for role based access with
@@ -337,7 +337,7 @@ specification:
   - pillar: Information governance
     capability: Member Accreditation
     capability_index: "1.5"
-    requirement_index: 1.5.4
+    requirement_index: 1.5.04
     statement: You must not give anyone access to datasets without agreement
       from the Data Controller.
     guidance: The Data Controller may choose to delegate this authority.
@@ -346,7 +346,7 @@ specification:
   - pillar: Information governance
     capability: Member Accreditation
     capability_index: "1.5"
-    requirement_index: 1.5.5
+    requirement_index: 1.5.05
     statement: You must have robust and secure applications in place to
       authenticate users (and services) within the TRE.
     guidance: The number of authentication applications should be kept to a
@@ -357,7 +357,7 @@ specification:
   - pillar: Information governance
     capability: Member Accreditation
     capability_index: "1.5"
-    requirement_index: 1.5.6
+    requirement_index: 1.5.06
     statement: You must give each user of the TRE a unique logon with changes to
       any records strictly controlled.
     guidance:
@@ -369,7 +369,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.1
+    requirement_index: 1.6.01
     statement: You must determine what training is relevant for all roles within
       the TRE organisation.
     guidance:
@@ -383,7 +383,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.2
+    requirement_index: 1.6.02
     statement: You must ensure that relevant training is available for all roles
       within the TRE organisation.
     guidance:
@@ -396,7 +396,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.3
+    requirement_index: 1.6.03
     statement: You must provide repeat or updated training where necessary to
       account for changes in competency requirements.
     guidance:
@@ -409,7 +409,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.4
+    requirement_index: 1.6.04
     statement: You must maintain accurate training records that are directly
       tied to the role and access levels within the TRE.
     guidance:
@@ -421,7 +421,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.5
+    requirement_index: 1.6.05
     statement: You should accept proof of relevant training certifications from
       trusted third parties.
     guidance: You might choose to trust certifications provided by known
@@ -431,7 +431,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.6
+    requirement_index: 1.6.06
     statement: You could have a training platform capable of delivering online
       training in a variety of formats.
     guidance:
@@ -443,7 +443,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.7
+    requirement_index: 1.6.07
     statement: You could implement a learning management system (LMS) to manage
       courses and deliver training as required.
     guidance: Where possible an LMS should support a variety of course content
@@ -453,7 +453,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.8
+    requirement_index: 1.6.08
     statement: You could ensure that any courses you use are available in
       standard, transferable formats.
     guidance:
@@ -465,7 +465,7 @@ specification:
   - pillar: Information governance
     capability: Training Management and Delivery
     capability_index: "1.6"
-    requirement_index: 1.6.9
+    requirement_index: 1.6.09
     statement: You could keep historical copies of courses in order to
       demonstrate competency at a given point in time.
     guidance:
@@ -478,7 +478,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.1
+    requirement_index: 2.1.01
     statement: You must not allow users to copy data out of your TRE via the
       system clipboard.
     guidance:
@@ -491,7 +491,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.2
+    requirement_index: 2.1.02
     statement: Your TRE workspace should provide an environment familiar to your
       users.
     guidance:
@@ -504,7 +504,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.3
+    requirement_index: 2.1.03
     statement: A TRE could restrict data access from data consumers entirely and
       provide an interface for submitting code.
     guidance: For example, you might use a system where users submit jobs that
@@ -514,7 +514,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.4
+    requirement_index: 2.1.04
     statement: Your TRE should be accessed via a user interface accessible using
       commonly available applications.
     guidance:
@@ -526,7 +526,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.5
+    requirement_index: 2.1.05
     statement: Your TRE must provide clear guidance on how to use software tools
       and work with data in the TRE.
     guidance:
@@ -540,7 +540,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.6
+    requirement_index: 2.1.06
     statement: Your TRE should, where possible, automatically apply security
       related updates for user software.
     guidance: Reducing the risk of exploitable vulnerabilities in installed
@@ -550,7 +550,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.7
+    requirement_index: 2.1.07
     statement: Your TRE could provide shared services that are accessible to
       users in the same project.
     guidance:
@@ -562,7 +562,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.8
+    requirement_index: 2.1.08
     statement: Your TRE must ensure that any shared services are only available
       to users working on the same project.
     guidance:
@@ -574,7 +574,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
-    requirement_index: 2.1.9
+    requirement_index: 2.1.09
     statement: You must mitigate and record any risks introduced by the use in
       your TRE of software that requires telemetry to function.
     guidance:
@@ -703,7 +703,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.1
+    requirement_index: 2.2.01
     statement: You must have a documented procedure for deploying
       infrastructure.
     guidance: This might, for instance, be a handbook that is followed or a set
@@ -713,7 +713,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.2
+    requirement_index: 2.2.02
     statement: You should, where possible, automate any repeatable aspects of
       your deployment.
     guidance: This might involve using infrastructure-as-code tools or a series
@@ -723,7 +723,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.3
+    requirement_index: 2.2.03
     statement: You must have a documented procedure for making changes to
       deployed infrastructure.
     guidance:
@@ -735,7 +735,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.4
+    requirement_index: 2.2.04
     statement: You must test changes before they are used in production.
     guidance: This might involve a separate development environment or another
       system for testing.
@@ -744,7 +744,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.5
+    requirement_index: 2.2.05
     statement: You should have a development environment that mirrors your
       production environment which you use to test infrastructure changes before
       committing them to production.
@@ -757,7 +757,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.6
+    requirement_index: 2.2.06
     statement: You must have a documented procedure for removing infrastructure
       when it is no longer needed.
     guidance: Removing unused infrastructure not only reduces costs and
@@ -768,7 +768,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.7
+    requirement_index: 2.2.07
     statement: You should understand the availability and uptime guarantees of
       any providers that you rely on.
     guidance:
@@ -780,7 +780,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.8
+    requirement_index: 2.2.08
     statement: You should develop an availability target or statement and share
       this with your users.
     guidance: Understanding how and when the TRE might be unavailable will help
@@ -790,7 +790,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.9
+    requirement_index: 2.2.09
     statement: Your TRE must control and manage all of its network
       infrastructure in order to protect information in systems and
       applications.
@@ -871,7 +871,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
-    requirement_index: 2.3.1
+    requirement_index: 2.3.01
     statement: You must ensure that all projects understand what resources are
       available and what the associated costs will be before the project starts.
     guidance:
@@ -884,7 +884,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
-    requirement_index: 2.3.2
+    requirement_index: 2.3.02
     statement: You should ensure that the anticipated needs of projects can be
       satisfied using available resources.
     guidance: Note that this does not require you to accept requests for
@@ -895,7 +895,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
-    requirement_index: 2.3.3
+    requirement_index: 2.3.03
     statement: You must have a procedure for allocating available resources
       among projects.
     guidance:
@@ -910,7 +910,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
-    requirement_index: 2.3.4
+    requirement_index: 2.3.04
     statement: You must ensure that the anticipated resource requirements will
       not result in overspending by the TRE.
     guidance:
@@ -922,7 +922,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
-    requirement_index: 2.4.1
+    requirement_index: 2.4.01
     statement: You must have a documented procedure for configuring
       infrastructure.
     guidance: This might, for instance, be a handbook that is followed or a set
@@ -932,7 +932,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
-    requirement_index: 2.4.2
+    requirement_index: 2.4.02
     statement: You should use configuration management tools to automate
       application of your configuration wherever possible.
     guidance: This might involve configuration-as-code tools such as Ansible,
@@ -943,7 +943,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
-    requirement_index: 2.4.3
+    requirement_index: 2.4.03
     statement: You should be able to verify whether the configuration is valid.
     guidance: This might, for instance, involve running your configuration
       management tool in ‘check’ mode.
@@ -952,7 +952,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
-    requirement_index: 2.4.4
+    requirement_index: 2.4.04
     statement: You should regularly verify your TRE configuration.
     guidance: This will limit the amount of time the TRE can spend in a
       non-compliant state.
@@ -961,7 +961,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
-    requirement_index: 2.4.5
+    requirement_index: 2.4.05
     statement: You must be able to replace a non-compliant TRE with a compliant
       system.
     guidance: This might involve reconfiguring a running system or by replacing
@@ -971,7 +971,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.1
+    requirement_index: 2.5.01
     statement: You should keep backups of data and research environments,
       provided that this is permitted by law.
     guidance:
@@ -984,7 +984,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.2
+    requirement_index: 2.5.02
     statement: You should build redundancy into infrastructure and storage.
     guidance:
       "Infrastructure should be as resilient as necessary to interruption.\n\
@@ -995,7 +995,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.3
+    requirement_index: 2.5.03
     statement: You should keep backups of infrastructure, applications and
       configurations.
     guidance: This may include virtualised infrastructure snapshots which can
@@ -1005,7 +1005,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.4
+    requirement_index: 2.5.04
     statement: You must have procedures in place for rapid incident response.
     guidance:
       "There may be legal requirements to disclose details of any incidents,
@@ -1016,7 +1016,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.5
+    requirement_index: 2.5.05
     statement: You should test your incident response through simulation.
     guidance:
       "During simulated incidents the TRE organisation can measure their effectiveness.\n\
@@ -1026,7 +1026,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.6
+    requirement_index: 2.5.06
     statement: You should have an application in place to scan for
       vulnerabilities across infrastructure.
     guidance:
@@ -1037,7 +1037,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.7
+    requirement_index: 2.5.07
     statement: You must have a process in place for applying security updates to
       all software that forms part of the TRE infrastructure.
     guidance: This includes any software used for remote desktop portals,
@@ -1048,7 +1048,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.8
+    requirement_index: 2.5.08
     statement: Infrastructure should be automatically patched for
       vulnerabilities.
     guidance:
@@ -1061,7 +1061,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Information Security
     capability_index: "2.5"
-    requirement_index: 2.5.9
+    requirement_index: 2.5.09
     statement: You should carry out penetration tests on your TRE.
     guidance:
       "By intentionally attempting to breach their TRE, organisations can
@@ -1187,7 +1187,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.1
+    requirement_index: 3.1.01
     statement: You must have processes in place to assess the legal and
       regulatory implications of handling the data through its full lifecycle.
     guidance:
@@ -1201,7 +1201,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.2
+    requirement_index: 3.1.02
     statement: You should keep records of data handling decisions.
     guidance: Decisions that are made as part of the process discussed above
       should be recorded and made available for inspection by all stakeholders.
@@ -1210,7 +1210,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.3
+    requirement_index: 3.1.03
     statement: Information asset owners must classify data sets according to a
       common process and data classification methodology.
     guidance:
@@ -1224,7 +1224,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.4
+    requirement_index: 3.1.04
     statement: You must have a data ingress process which enforces information
       governance rules/processes.
     guidance:
@@ -1236,7 +1236,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.5
+    requirement_index: 3.1.05
     statement: You must have a data egress process which enforces information
       governance rules/processes.
     guidance:
@@ -1248,7 +1248,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.6
+    requirement_index: 3.1.06
     statement: Egress must be limited to the information asset owners or their
       delegates.
     guidance:
@@ -1260,7 +1260,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.7
+    requirement_index: 3.1.07
     statement: Your data egress process could sometimes require
       project-independent approval.
     guidance:
@@ -1273,7 +1273,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.8
+    requirement_index: 3.1.08
     statement: You must keep a record of what data your TRE holds.
     guidance:
       "Good records are important for ensuring compliance with legislation,
@@ -1286,7 +1286,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.1"
-    requirement_index: 3.1.9
+    requirement_index: 3.1.09
     statement: You must have a policy on data deletion.
     guidance:
       "There should be a clear, published policy on when data will be retained
@@ -1350,7 +1350,7 @@ specification:
   - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
-    requirement_index: 3.2.1
+    requirement_index: 3.2.01
     statement: You must not create user accounts for use by more than one
       person.
     guidance: It is important that each user account should be used by one, and
@@ -1361,7 +1361,7 @@ specification:
   - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
-    requirement_index: 3.2.2
+    requirement_index: 3.2.02
     statement: You must be reasonably convinced of the identity of each person
       being granted an account.
     guidance:
@@ -1373,7 +1373,7 @@ specification:
   - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
-    requirement_index: 3.2.3
+    requirement_index: 3.2.03
     statement: You must restrict a user’s access to only data required in their
       work.
     guidance:
@@ -1385,7 +1385,7 @@ specification:
   - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
-    requirement_index: 3.2.4
+    requirement_index: 3.2.04
     statement: You must ensure that multi-factor authentication is enabled for
       all users.
     guidance:
@@ -1400,7 +1400,7 @@ specification:
   - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
-    requirement_index: 3.2.5
+    requirement_index: 3.2.05
     statement: You could use federated authentication or single sign-on (SSO)
       for user login.
     guidance:
@@ -1413,7 +1413,7 @@ specification:
   - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
-    requirement_index: 3.2.6
+    requirement_index: 3.2.06
     statement: You could restrict access to particular networks or physical
       locations.
     guidance:
@@ -1425,7 +1425,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.1
+    requirement_index: 3.3.01
     statement: You should have a system to help classify outputs.
     guidance:
       "Removing data from a TRE can be a difficult process as there is potential
@@ -1438,7 +1438,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.2
+    requirement_index: 3.3.02
     statement: You should establish the intended outputs of each project from
       the outset.
     guidance:
@@ -1452,7 +1452,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.3
+    requirement_index: 3.3.03
     statement: You must have a documented process for disclosure control of
       outputs from the TRE.
     guidance:
@@ -1464,7 +1464,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.4
+    requirement_index: 3.3.04
     statement: You must have a process for assigning responsibility for output
       checking.
     guidance:
@@ -1477,7 +1477,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.5
+    requirement_index: 3.3.05
     statement: You must have a documented policy for handling disclosure risks
       associated with any outputs that cannot be manually checked.
     guidance:
@@ -1490,7 +1490,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.6
+    requirement_index: 3.3.06
     statement: You should have a statistical basis to guide the decisions of an
       output checker on the safety of outputs.
     guidance: There should be a solid basis to allow decisions to be made about
@@ -1501,7 +1501,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.7
+    requirement_index: 3.3.07
     statement: You could create a semi-automated system for checks on common
       research outputs.
     guidance:
@@ -1514,7 +1514,7 @@ specification:
   - pillar: Data management
     capability: Output Management
     capability_index: "3.3"
-    requirement_index: 3.3.8
+    requirement_index: 3.3.08
     statement: TRE outputs should be limited to the minimum required for sharing
       results of any analyses.
     guidance: This decreases the risk of inadvertent disclosure, and makes it
@@ -1524,7 +1524,7 @@ specification:
   - pillar: Data management
     capability: Information search and discovery
     capability_index: "3.4"
-    requirement_index: 3.4.1
+    requirement_index: 3.4.01
     statement: You should provide a metadata catalogue of available datasets for
       users.
     guidance:
@@ -1537,7 +1537,7 @@ specification:
   - pillar: Data management
     capability: Security Levels and Tiering
     capability_index: "3.5"
-    requirement_index: 3.5.1
+    requirement_index: 3.5.01
     statement: You must be able to specify what categories of data your TRE is
       able to support.
     guidance:
@@ -1550,7 +1550,7 @@ specification:
   - pillar: Data management
     capability: Security Levels and Tiering
     capability_index: "3.5"
-    requirement_index: 3.5.2
+    requirement_index: 3.5.02
     statement: Your TRE could support projects with differing security
       requirements through configurable security controls.
     guidance:
@@ -1562,7 +1562,7 @@ specification:
   - pillar: Data management
     capability: Security Levels and Tiering
     capability_index: "3.5"
-    requirement_index: 3.5.3
+    requirement_index: 3.5.03
     statement: Your TRE could offer a pre-defined set of security control tiers.
     guidance:
       "Security control tiers can be designed to cover the types of project
@@ -1574,7 +1574,7 @@ specification:
   - pillar: Data management
     capability: Research Meta-Data
     capability_index: "3.6"
-    requirement_index: 3.6.1
+    requirement_index: 3.6.01
     statement: You should have a consistent and easily accessible meta-data data
       model or similar to describe what a data asset contains.
     guidance:
@@ -1587,7 +1587,7 @@ specification:
   - pillar: Data management
     capability: Research Meta-Data
     capability_index: "3.6"
-    requirement_index: 3.6.2
+    requirement_index: 3.6.02
     statement: You could provide summary, abstracted or synthetic data to
       researchers without exposing the underlying data set.
     guidance: To reduce the need for access to row level data researchers could
@@ -1599,7 +1599,7 @@ specification:
   - pillar: Data management
     capability: Meta-Data Search and Discovery Application
     capability_index: "3.7"
-    requirement_index: 3.7.1
+    requirement_index: 3.7.01
     statement: You could provide an interface application for data consumers and
       data subjects to query elements of the data.
     guidance: In order to make data findable, an application which queries the
@@ -1610,7 +1610,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.8"
-    requirement_index: 3.8.1
+    requirement_index: 3.8.01
     statement: Archived data within the TRE should be read only.
     guidance:
       "Archived data by its very nature should not change and therefore be
@@ -1621,7 +1621,7 @@ specification:
   - pillar: Data management
     capability: Data Lifecycle Management
     capability_index: "3.8"
-    requirement_index: 3.8.2
+    requirement_index: 3.8.02
     statement: Long-term archives must be held in simple, standard formats to
       ensure accessibility.
     guidance:
@@ -1634,7 +1634,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Business Continuity
     capability_index: "4.1"
-    requirement_index: 4.1.1
+    requirement_index: 4.1.01
     statement: You should have a business continuity plan that includes
       consideration of loss of service for deployed TREs.
     guidance:
@@ -1646,7 +1646,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Business Continuity
     capability_index: "4.1"
-    requirement_index: 4.1.2
+    requirement_index: 4.1.02
     statement: You should regularly test the aspects of your business continuity
       plan concerning TREs, and have a process in place to iterate the plan if
       required.
@@ -1656,7 +1656,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Projectect and Programme Management
     capability_index: "4.2"
-    requirement_index: 4.2.1
+    requirement_index: 4.2.01
     statement: You should ensure that all projects using your TRE have a named
       project manager.
     guidance:
@@ -1669,7 +1669,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Projectect and Programme Management
     capability_index: "4.2"
-    requirement_index: 4.2.2
+    requirement_index: 4.2.02
     statement: You should not give project managers direct access to the TRE.
     guidance: Doing so ensures a separation between those able to access
       sensitive data, and those overseeing access to sensitive data.
@@ -1678,7 +1678,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Knowledge Management
     capability_index: "4.3"
-    requirement_index: 4.3.1
+    requirement_index: 4.3.01
     statement: You must document all features of your TRE implementation.
     guidance: This includes ensuring all documentation is discoverable, clear,
       and able to be easily updated based on stakeholder feedback
@@ -1687,7 +1687,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Knowledge Management
     capability_index: "4.3"
-    requirement_index: 4.3.2
+    requirement_index: 4.3.02
     statement: You should have an education programme in place to upskill
       stakeholders in the use and management of your TRE.
     guidance: This may include learning modules, workshops and other resources
@@ -1698,7 +1698,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Knowledge Management
     capability_index: "4.3"
-    requirement_index: 4.3.3
+    requirement_index: 4.3.03
     statement: You should periodically carry out a training needs analysis (TNA)
       for all stakeholders included within your TRE provision.
     guidance: At least once every 12 months you should assess the training needs
@@ -1709,7 +1709,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Financial Management
     capability_index: "4.4"
-    requirement_index: 4.4.1
+    requirement_index: 4.4.01
     statement: You must ensure that all projects using your TRE are aware of any
       associated costs and are able and willing to pay them.
     guidance: Costs may include provision of the underlying TRE infrastructure,
@@ -1721,7 +1721,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Financial Management
     capability_index: "4.4"
-    requirement_index: 4.4.2
+    requirement_index: 4.4.02
     statement: You should be able to track the costs associated with each TRE
       project.
     guidance: This includes knowing which costs are associated with which
@@ -1732,7 +1732,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Financial Management
     capability_index: "4.4"
-    requirement_index: 4.4.3
+    requirement_index: 4.4.03
     statement: You should have a process in place to ensure your TRE provision
       remains financially sustainable.
     guidance:
@@ -1745,7 +1745,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Financial Management
     capability_index: "4.4"
-    requirement_index: 4.4.4
+    requirement_index: 4.4.04
     statement: You should minimise the cost of your TRE infrastructure wherever
       possible
     guidance: You should have regular reviews of your TRE provision and actively
@@ -1755,7 +1755,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Procurement
     capability_index: "4.5"
-    requirement_index: 4.5.1
+    requirement_index: 4.5.01
     statement: You must identify any goods or services that will be needed to
       operate the TRE and ensure that a plan is in place to purchase them as
       needed.
@@ -1766,7 +1766,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: IT Service Management
     capability_index: "4.6"
-    requirement_index: 4.6.1
+    requirement_index: 4.6.01
     statement: Your TRE must have a team of Operators in place to support
       projects working with TREs.
     guidance:
@@ -1778,7 +1778,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Relationship Management
     capability_index: "4.7"
-    requirement_index: 4.7.1
+    requirement_index: 4.7.01
     statement: You should have a clear process in place for stakeholders to
       feedback on your TRE infrastructure.
     guidance: This may include a GitHub repository where people can open issues
@@ -1789,7 +1789,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Public Involvement and Engagement
     capability_index: "4.8"
-    requirement_index: 4.8.1
+    requirement_index: 4.8.01
     statement: All public engagement activities must include a range of
       perspectives and be inclusive (*optional for TREs without personal data).
     guidance:
@@ -1803,7 +1803,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Public Involvement and Engagement
     capability_index: "4.8"
-    requirement_index: 4.8.2
+    requirement_index: 4.8.02
     statement: Details of TRE operations, data available and projects which have
       accessed the data should be publicly available (*optional for TREs without
       personal data).
@@ -1819,7 +1819,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Public Involvement and Engagement
     capability_index: "4.8"
-    requirement_index: 4.8.3
+    requirement_index: 4.8.03
     statement: Members of the public should be included in TRE operations and/or
       oversight (*optional for TREs without personal data).
     guidance:
@@ -1831,7 +1831,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Public Involvement and Engagement
     capability_index: "4.8"
-    requirement_index: 4.8.4
+    requirement_index: 4.8.04
     statement: You should publicly share details of incidents, near misses, and
       mitigations in a timely fashion, in line with good practices for
       responsible disclosure.
@@ -1843,7 +1843,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Legal Services
     capability_index: "4.9"
-    requirement_index: 4.9.1
+    requirement_index: 4.9.01
     statement: You should identify areas where legal advice may be required and
       ensure that you have ready access to it.
     guidance:
@@ -1856,7 +1856,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Legal Services
     capability_index: "4.9"
-    requirement_index: 4.9.2
+    requirement_index: 4.9.02
     statement: You should identify areas where advice on data protection issues
       may be required and ensure that you have ready access to it.
     guidance: It is likely that data protection advice will be necessary for
@@ -1866,7 +1866,7 @@ specification:
   - pillar: Supporting Capabilities
     capability: Legal Services
     capability_index: "4.9"
-    requirement_index: 4.9.3
+    requirement_index: 4.9.03
     statement: You should identify who will be responsible for managing
       contracts related to the TRE.
     guidance: These contracts may include data sharing agreements, secondments
@@ -1874,3 +1874,283 @@ specification:
       distributed.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.01
+    statement: The federaiton must define a scope and governance structure for the federation made up of members and interested parties.
+    guidance: 2 levels top management making decisions around risk, resources and things like contracts with an operation group making day-to-day decsions related to the running of the federation.
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.02
+    statement: The federation must define key roles (individual and group) and agree a shared responibility model for the federation.
+    guidance: Define a responsibility framework for different individual and group roles. The defineds when the authority rests with a central federation body versus with individual members.
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.03
+    statement: The federation must agree a standard set of rules and/or standards required for each member. Members must make their compliance status with these rules available for audit by the federation, other members and external parties as appropriate.
+    guidance: Standards and rules expected or reuired by the federaiton may be specific to the federation or require meeting external standards (EG. DSPT, ISO 27001,CAF)  these should be tracked and be accessible by the federaiton and it's members.
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.2"
+    requirement_index: 5.1.04
+    statement: Federation members must share any relevant incident, audit and other quality management data with members.
+    guidance: including lessons learned
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.05
+    statement: The federation must agree a process to create, update and retire rules and standards for the federation and make them available to members.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.06
+    statement: The federaiton must implement a consensus mechanism for decision making.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.07
+    statement: The federation must define a processes for TREs joining and leaving the federation
+    guidance: These processes should include the credential management /revocation etc.
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.08
+    statement: The federation should agree a consistent approach to risk assessment and treatment. Where multiple approaches are used equivalence must be established.
+    guidance: It is likely that different organisations will have different risk matracies and risk tollerance. The federatiion should assess combined risk, treat where possible and accept any residual risk.
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.09
+    statement: The federation must agree and implement standard operating procedures for key activities.
+    guidance: Example data access request, data classification, output checking and release, project initiation and termination. This ensures decisions are portable across federation (EG. output approved in one TRE is recognized by others)
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.10
+    statement: The federation should agree standard terminology for use in agreements and documentation with a glossary as needed.
+    guidance: The re-use of existing glossaries is preferable such as https://glossary.uktre.org/
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.11
+    statement: The federation should provide legal and administrative templates where possible
+    guidance: Example DPIA, DSA, Collaboration agreements, researcher access agreements
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.12
+    statement: The federation should have ongoing public engagement including the review of pubic trust.
+    guidance: 
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Governance
+    capability_index: "5.1"
+    requirement_index: 5.1.13
+    statement: The federation should adopt standards for public communication and engagement describing how data is used.
+    guidance: 
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Member Accreditation
+    capability_index: "5.3"
+    requirement_index: 5.2.01
+    statement: The federation must agree baseline competency requirements for all users.
+    guidance: Competency ensures a consistent defintion of a "Safe Researcher". Ideally all federations an existing registry such as https://safepeopleregistry.org/en. Alternatively, standardised training could be provided by the federation or multiple trainings could be acceptable. Training status of users should be accessible programmatically.
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Study Management
+    capability_index: "5.4"
+    requirement_index: 5.3.01
+    statement: The federation must maintain register of "Safe Projects"
+    guidance: The project register should be accessible programmatically by all member TREs.
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Study Management
+    capability_index: "5.4"
+    requirement_index: 5.3.02
+    statement: The federation must agree the legal, ethical and compliance standards required for a safe federated project.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Study Management
+    capability_index: "5.4"
+    requirement_index: 5.3.03
+    statement: All central registries of projects must adhere to agreed data standards and be accessible as needed by federation members.
+    guidance: Query across registers via API?
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Study Management
+    capability_index: "5.4"
+    requirement_index: 5.3.04
+    statement: Where possible, central registries of people and projects and data should adhere to existing standards
+    guidance: HDR, Alliance Data Repository, RDS
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.4.01
+    statement: The federation must implement network-level standards for cryptographic key and secrets management.
+    guidance: Automated secrets management
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.4.02
+    statement: Federation network traffic must be isolated from other communications.
+    guidance: Use VPNs, dedicated circuits, or encrypted tunnels for inter-TRE communication.
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.5.02
+    statement: The federation must define and agree, implement and regularly test a shared incident response process.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.5.03
+    statement: The federation should support a common user and machine identities with a defined set of attributes for use across the federation.
+    guidance: Identity provider federation with agreed, shared attributes for each user
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.5.04
+    statement: The federation could use threat modelling to identify areas of risk to infrastructure.
+    guidance: 
+    importance: Optional
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.5.06
+    statement: The federation must use modern encryption at all times and support zero-trust architecture principles for inter-TRE communication.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.5.07
+    statement: The federation must collect and maintain security logs of events including authentication and data transfer.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Information Security
+    capability_index: "5.5"
+    requirement_index: 5.5.08
+    statement: The federation should implement shared visibility of security logs where appropriate for federation-wide threat detection
+    guidance: 
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Infrastructure management
+    capability_index: "5.6"
+    requirement_index: 5.6.01
+    statement: Federation members must maintain accurate configuration information on relevant infrastructure and make it available to appropriate parties.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Infrastructure management
+    capability_index: "5.6"
+    requirement_index: 5.6.02
+    statement: The federation should use a single federation network topology and technology standards for securing communication between all members
+    guidance: 
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Data Management
+    capability_index: "5.7"
+    requirement_index: 5.7.01
+    statement: The federation must implement a single, consistent output classification and release process.
+    guidance: 
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Data Management
+    capability_index: "5.7"
+    requirement_index: 5.7.02
+    statement: The federation must define how data transfers are authorised including automated and manual processes.
+    guidance: (data ingress, analysis outputs, model artifacts, trained algorithms)
+    importance: Mandatory
+    architecture_url: 
+  - pillar: 
+    capability: Federation Data Management
+    capability_index: "5.7"
+    requirement_index: 5.7.03
+    statement: Metadata catalogues describing data across a federation should support intelligent semantic searches across diverse data types.
+    guidance: 
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Data Management
+    capability_index: "5.7"
+    requirement_index: 5.7.04
+    statement: The Federation should provide searchable catalogue(s) of metadata describing data assets across federation members
+    guidance: 
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Data Management
+    capability_index: "5.7"
+    requirement_index: 5.7.05
+    statement: The Federation should agree a minimum level of metadata completeness
+    guidance: 
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Data Management
+    capability_index: "5.7"
+    requirement_index: 5.7.08
+    statement: The federation should maintain a registry of research outputs including reference to source projects and datasets.
+    guidance: Provenience and impact tracking
+    importance: Recommended
+    architecture_url: 
+  - pillar: 
+    capability: Federation Financial Management
+    capability_index: "5.8"
+    requirement_index: 5.8.01
+    statement: The federation should agree a transparent pricing model for federation projects.
+    guidance: The federaiton needs to avoid differential charging and competition between member TREs for similar data.
+    importance: Recommended
+    architecture_url: 
