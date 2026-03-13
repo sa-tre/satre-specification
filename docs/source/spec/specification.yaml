@@ -2000,7 +2000,7 @@ specification:
     capability_index: "5.1"
     requirement_index: 5.1.10
     statement: Where federation involves members of the public there should be
-      representation from across all member TREs areas
+      representation from across all member TRE population areas
     guidance: "When moving from a single TRE to a federation it is important to
       consider public representation coving data across the entire federation. This
       is especially relevant for where member TREs cover different populations (e.g.
