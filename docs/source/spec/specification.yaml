@@ -1880,8 +1880,7 @@ specification:
     requirement_index: 5.1.01
     statement: The federation must define a scope and governance structure for
       the federation made up of member TREs and interested parties.
-    guidance:
-      "A federation may have 2 levels of management with top management
+    guidance: "A federation may have 2 levels of management with top management
       making decisions around risk, and resources with an operation group making
       day-to-day decisions related to the running of the federation.\n\nInterested
       parties might include PPIE, Data Providers, member TRE operators etc.\n\nEstablish
@@ -1915,8 +1914,7 @@ specification:
       each member TRE. Member TREs must make their compliance status with these
       rules available for audit by the federation, other members and external
       parties as appropriate.
-    guidance:
-      "Standards and rules expected or required by the federation may be
+    guidance: "Standards and rules expected or required by the federation may be
       specific to the federation or require meeting external standards (EG. SATRE,
       DSPT, ISO 27001,CAF)  these should be tracked and be accessible by the federation
       and it's members.\n\nThese rules are likely to be a mix of high-level organisational
@@ -1939,7 +1937,7 @@ specification:
     capability_index: "5.1"
     requirement_index: 5.1.05
     statement: The federation must agree a process to create, update and retire
-      rules formal rules and standard operating procedures and make them
+      rules formal and standard operating procedures and make them
       available to TRE members.
     guidance:
       "Some shared processes will be critical to the operation of the federation
@@ -1968,7 +1966,7 @@ specification:
     capability_index: "5.1"
     requirement_index: 5.1.07
     statement: The federation should agree a consistent approach to risk
-      assessment and treatment. Where multiple approaches are used equivalence
+      assessment and treatment. Where multiple approaches are used, equivalence
       must be established.
     guidance: It is likely that different organisations will have different risk
       matrices and risk tolerance. The federation should assess combined risk,
@@ -2003,8 +2001,7 @@ specification:
     requirement_index: 5.1.10
     statement: Where federation involves members of the public there should be
       representation from across all member TREs areas
-    guidance:
-      "When moving from a single TRE to a federation it is important to
+    guidance: "When moving from a single TRE to a federation it is important to
       consider public representation coving data across the entire federation. This
       is especially relevant for where member TREs cover different populations (e.g.
       regions, counties) or data domains (e.g. Health, financial data)."
@@ -2017,11 +2014,11 @@ specification:
     statement: The federation must agree baseline competency requirements for
       all users.
     guidance:
-      "Competency ensures a consistent definition of a \"Safe Researcher\".
+      'Competency ensures a consistent definition of a "Safe Researcher".
       Ideally all federations use an existing registry such as https://safepeopleregistry.org/en.
       Alternatively, standardised training could be provided by the federation or
       multiple trainings could be acceptable. Training status of users should be accessible
-      programmatically by all member TREs."
+      programmatically by all member TREs.'
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-member-accreditation
   - pillar: Federation
@@ -2029,8 +2026,7 @@ specification:
     capability_index: "5.4"
     requirement_index: 5.3.01
     statement: The federation must maintain a register of "Safe Projects"
-    guidance:
-      "The project register should be accessible programmatically by all
+    guidance: "The project register should be accessible programmatically by all
       member TREs, good practice to make it available to public."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
@@ -2072,7 +2068,7 @@ specification:
     capability: Federation Information Security
     capability_index: "5.5"
     requirement_index: 5.5.03
-    statement: The federation should support a common user and machine
+    statement: The federation should support common user and machine
       identities with a defined set of attributes for use across the federation.
     guidance: Identity provider federation with agreed, shared attributes for
       each user or machine identities.
