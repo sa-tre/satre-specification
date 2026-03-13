@@ -2044,7 +2044,7 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
   - pillar: Federation
     capability: Federation Information Security
-    capability_index: "5.5"
+    capability_index: "5.4"
     requirement_index: 5.4.01
     statement: The federation must implement network-level standards for
       cryptographic key and secrets management.
@@ -2053,8 +2053,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Information Security
-    capability_index: "5.5"
-    requirement_index: 5.5.02
+    capability_index: "5.4"
+    requirement_index: 5.4.02
     statement: The federation must define and agree, implement and regularly
       test a shared incident response process.
     guidance:
@@ -2066,8 +2066,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Information Security
-    capability_index: "5.5"
-    requirement_index: 5.5.03
+    capability_index: "5.4"
+    requirement_index: 5.4.03
     statement: The federation should support common user and machine
       identities with a defined set of attributes for use across the federation.
     guidance: Identity provider federation with agreed, shared attributes for
@@ -2076,8 +2076,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Information Security
-    capability_index: "5.5"
-    requirement_index: 5.5.04
+    capability_index: "5.4"
+    requirement_index: 5.4.04
     statement: The federation could use threat modelling definition to identify
       areas of risk to infrastructure.
     guidance:
@@ -2088,8 +2088,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Information Security
-    capability_index: "5.5"
-    requirement_index: 5.5.06
+    capability_index: "5.4"
+    requirement_index: 5.4.06
     statement: Shared federation services must maintain security logs of events
       including authentication and data transfer.
     guidance: The federation should implement shared visibility of security logs
@@ -2098,8 +2098,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Infrastructure management
-    capability_index: "5.6"
-    requirement_index: 5.6.01
+    capability_index: "5.5"
+    requirement_index: 5.5.01
     statement: Federation members must maintain accurate configuration
       information on federation services and make it available to appropriate
       parties.
@@ -2110,8 +2110,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-infrastructure-management
   - pillar: Federation
     capability: Federation Data Management
-    capability_index: "5.7"
-    requirement_index: 5.7.01
+    capability_index: "5.6"
+    requirement_index: 5.6.01
     statement: The federation must implement a single, consistent output
       classification (definition of a safe output)
     guidance:
@@ -2122,8 +2122,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-data-management
   - pillar: Federation
     capability: Federation Data Management
-    capability_index: "5.7"
-    requirement_index: 5.7.02
+    capability_index: "5.6"
+    requirement_index: 5.6.02
     statement: The Federation should provide searchable catalogue(s) of metadata
       describing data assets across federation members
     guidance:
@@ -2134,8 +2134,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-data-management
   - pillar: Federation
     capability: Federation Financial Management
-    capability_index: "5.8"
-    requirement_index: 5.8.01
+    capability_index: "5.7"
+    requirement_index: 5.7.01
     statement: The federation should agree a pricing model for federation
       projects.
     guidance: A consistent charging mechanism prevents differential charging and
