@@ -303,6 +303,8 @@ specification:
     guidance: The study register should contain all data related to a study
       including a reference to data assets, project team members, information
       asset owners and any compliance activities required.
+    importance: Recommended
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
