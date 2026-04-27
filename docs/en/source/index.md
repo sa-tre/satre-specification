@@ -111,6 +111,7 @@ Two public members served on the core SATRE project team from the beginning, ens
 ## Releases
 
 ```{list-table}
+:widths: 12 18 70
 :header-rows: 1
 
 * - Version

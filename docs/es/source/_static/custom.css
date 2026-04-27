@@ -1,0 +1,24 @@
+/* Fix spec tables overflowing after new language addition */
+.rst-content table.docutils,
+.wy-table-responsive table,
+table.docutils {
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed !important;
+    overflow-x: visible !important;
+    display: table !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Allow text to wrap inside cells so the table doesn't force wide columns */
+.rst-content table.docutils th,
+.rst-content table.docutils td,
+.wy-table-responsive table th,
+.wy-table-responsive table td {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    white-space: normal !important;
+    hyphens: auto !important;
+    padding: 8px 10px !important;
+}

@@ -1,0 +1,1958 @@
+specification:
+  - pillar: Gobernanza de la información
+    capability: Gobernanza de la información
+    capability_index: "1.1"
+    requirement_index: 1.1.1
+    statement: Deben recopilarse y supervisarse los requisitos de gobernanza de la información 
+      necesarios para cumplir todas las normas legales, regulatorias y éticas.
+    guidance:
+      "Los requisitos pueden provenir de diversas fuentes, incluidas la legislación, 
+      las obligaciones contractuales y las normas éticas.\nDichos requisitos deben
+      supervisarse para garantizar que los controles del TRE sigan siendo adecuados."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+  - pillar: Gobernanza de la información
+    capability: Gobernanza de la información
+    capability_index: "1.1"
+    requirement_index: 1.1.2
+    statement: Debe garantizarse que se implementen controles para asegurar
+      el cumplimiento de los requisitos.
+    guidance: La implementación de controles debe ser sistemática y estar directamente
+      alineada con los requisitos internos y de las partes interesadas.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+  - pillar: Gobernanza de la información
+    capability: Gobernanza de la información
+    capability_index: "1.1"
+    requirement_index: 1.1.3
+    statement: Debe garantizarse que existan recursos adecuados para el cumplimiento
+      de los requisitos de gobernanza de la información.
+    guidance: Ensuring information governance controls are suitable and enforced
+      requires an investment of funding and people appropriate to the size of
+      the TRE.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.1
+    statement: Debe garantizarse que los cambios en las políticas y los 
+      procedimientos operativos estándar solo puedan ser realizados
+      por personas autorizadas.
+    guidance: Es importante garantizar que las políticas y los 
+      SOP (Standard Operating Procedures [Procedimientos operativos estándar]) sean pertinentes, 
+      estén actualizados y minuciosamente controlados para mantener la integridad
+      y la seguridad de la organización del TRE.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.2
+    statement: Debe utilizarse el control de versiones y un procedimiento de
+      cambios codificado para todas las políticas y procedimientos operativos estándar.
+    guidance: Esto puede incluir informes y paneles que muestren 
+      incidentes de seguridad, no conformidades del sistema de gestión
+      de la calidad y hallazgos de auditoría.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.3
+    statement: Debería medirse el desempeño de la gobernanza de la información 
+      dentro del TRE mediante informes periódicos disponibles para el equipo 
+      directivo del TRE.
+    guidance: Esto puede incluir informes y paneles que muestren incidentes de
+      seguridad, no conformidades del sistema de gestión de la calidad y
+      hallazgos de auditoría.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.4
+    statement: Debe auditarse la organización del TRE conforme a los requisitos
+      y normas pertinentes.
+    guidance: Si se cuenta con una acreditación pública, tales como ISO 27001,
+      Data Security and Protection Toolkit (DSPT) o Cyber Essentials Plus (CE+),
+      deben existir procesos que garanticen el mantenimiento del cumplimiento.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.5
+    statement: Debe informarse y compartirse el resultado de cada auditoría de la 
+      organización del TRE con los organismos correspondientes.
+    guidance: Esto puede incluir organismos reguladores o las organizaciones que 
+      gestionan las acreditaciones de las que se dispone.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.6
+    statement: Debe garantizarse que los proveedores, contratistas y subcontratistas
+      con acceso al TRE cumplan los requisitos de seguridad.
+    guidance: "Esto incluirá también, por ejemplo, los contratos del personal contratista,
+      como la responsabilidad legal y NDA (Non-Disclosure Agreements
+      [acuerdos de confidencialidad])."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.7
+    statement: Debe supervisarse el cumplimiento de los términos contractuales
+      por parte de los contratistas.
+    guidance: "Esto incluirá el seguimiento de los cambios en los servicios y 
+      la infraestructura que se prestan, así como de la gestión de la calidad
+      dentro de la organización del contratista.
+      Dicho seguimiento puede realizarse mediante auditorías formales o mediante 
+      la revisión de la documentación de cambios y de calidad proporcionada por
+      el proveedor."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.8
+    statement: Deben registrarse y mantenerse todos los activos físicos utilizados por el TRE.
+    guidance:
+      "Todos los activos físicos deben mantenerse adecuadamente y, cuando corresponda, 
+      estar cubiertos por garantía.\n Al final de su vida útil, los activos deben 
+      eliminarse de forma segura, de modo que no sea posible recuperar datos de ellos."
+    importance: Obligatorio (cuando los activos físicos estén dentro del alcance)
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.9
+    statement: Deben registrarse, rastrearse y resolverse todas las incidencias 
+      derivadas de desviaciones de los procesos, incidentes y hallazgos de auditoría.
+    guidance: Este proceso puede, por ejemplo, gestionarse mediante un sistema 
+      electrónico de registros y flujos de trabajo, con conservación de los registros.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.10
+    statement: Deben utilizarse las incidencias reportadas para fundamentar cambios,
+      por ejemplo en la mejora de procesos y la gestión de riesgos.
+    guidance: Todas las incidencias deben analizarse para identificar su causa raíz y
+      deben implementarse mejoras para evitar que vuelvan a producirse.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.11
+    statement: Deberían recopilarse y mantenerse datos de gestión de la calidad
+      para medir la eficacia de un TRE.
+    guidance:
+      "Se generarán grandes volúmenes de datos a partir de los distintos 
+      componentes del TRE.\n\
+      Estos datos deben analizarse y presentarse mediante informes y paneles,
+      con el fin de orientar las mejoras de quienes implementan el TRE y
+      proporcionar seguridad a los consumidores de datos y a los titulares de los datos."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de la calidad
+    capability_index: "1.2"
+    requirement_index: 1.2.12
+    statement: Podría utilizarse un QMS (Quality Management System [Sistema de gestión de la calidad])
+      para estandarizar y automatizar las tareas y los flujos de trabajo de gestión de la calidad,
+      así como para generar automáticamente datos e informes de calidad.
+    guidance:
+      "Un QMS básico podría consistir en un conjunto de hojas de cálculo o documentos almacenados
+       en un repositorio y mantenidos de forma manual.\nLas aplicaciones más avanzadas 
+       proporcionarán flujos de trabajo y generarán datos de calidad mediante acciones 
+       manuales y automatizadas."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+  - pillar: Gobernanza de la información
+    capability: Gestión de riesgos
+    capability_index: "1.3"
+    requirement_index: 1.3.1
+    statement: Debe existir un método para puntuar el riesgo a fin de comprender
+      su gravedad subyacente.
+    guidance: Debe contarse con una metodología de evaluación de riesgos que 
+      permita puntuar los riesgos en múltiples ejes, como el impacto y la probabilidad.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
+  - pillar: Gobernanza de la información
+    capability: Gestión de riesgos
+    capability_index: "1.3"
+    requirement_index: 1.3.2
+    statement: Debe realizarse una evaluación del tratamiento de datos para todos los
+      proyectos que requieran un TRE.
+    guidance:
+      "Una evaluación del tratamiento de datos es un proceso diseñado para identificar 
+      los riesgos derivados del tratamiento de datos sensibles y minimizar dichos 
+      riesgos en la mayor medida posible y en una fase lo más temprana posible.
+      Esta evaluación puede adoptar la forma de un requisito regulatorio existente,
+      como una Evaluación de impacto en la protección de datos."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
+  - pillar: Gobernanza de la información
+    capability: Gestión de riesgos
+    capability_index: "1.3"
+    requirement_index: 1.3.3
+    statement: Debe existir un proceso para diseñar, implementar y registrar
+      las medidas de mitigación de riesgos cuando así lo indique una evaluación 
+      de riesgos.
+    guidance: Las acciones adoptadas o no adoptadas como resultado de una 
+      evaluación de riesgos deben registrarse.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
+  - pillar: Gobernanza de la información
+    capability: Gestión de riesgos
+    capability_index: "1.3"
+    requirement_index: 1.3.4
+    statement: Debe existir un conjunto claro de roles y responsabilidades
+      relacionadas con la gestión de riesgos, que incluya quién es responsable
+      de cada riesgo y cómo estos se elevan a un nivel superior y se delegan.
+    guidance:
+      "El nivel más alto de titularidad del riesgo corresponde a la alta 
+      dirección de la organización del TRE (véase Roles de gobernanza).
+      Con el fin de que las escaladas a este nivel sean poco frecuentes, deben
+      establecerse estructuras adecuadas para asumir, mitigar y aceptar riesgos."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
+  - pillar: Gobernanza de la información
+    capability: Gestión de riesgos
+    capability_index: "1.3"
+    requirement_index: 1.3.5
+    statement: Debe comprenderse el apetito de riesgo de la organización del TRE.
+    guidance: Esto incluye comprender la titularidad de los riesgos y la capacidad 
+      de aceptar riesgos que queden fuera de dicho apetito, en caso de que sea 
+      necesario.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
+  - pillar: Gobernanza de la información
+    capability: Gestión de estudios
+    capability_index: "1.4"
+    requirement_index: 1.4.1
+    statement: Deben existir controles para garantizar que un proyecto cuente con
+      los requisitos legales, financieros y de normas éticas durante toda la 
+      duración del proyecto.
+    guidance: Esto incluye verificar que los contratos estén vigentes cuando 
+      corresponda, que exista financiación adecuada para toda la duración del
+      proyecto y que todas las partes comprendan claramente sus responsabilidades
+      en relación con el manejo de los datos.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+  - pillar: Gobernanza de la información
+    capability: Gestión de estudios
+    capability_index: "1.4"
+    requirement_index: 1.4.2
+    statement: Deben existir controles para garantizar que se mantengan todos
+      los requisitos de cumplimiento con vigencia limitada.
+    guidance:
+      "Esto incluye asegurar que los contratos sigan siendo válidos y que se 
+      adopten medidas oportunas en caso de que venzan. Asimismo, deben supervisarse
+      los cambios en la situación de las personas responsables, por ejemplo, 
+      cuando un propietario de datos deja la organización."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+  - pillar: Gobernanza de la información
+    capability: Gestión de estudios
+    capability_index: "1.4"
+    requirement_index: 1.4.3
+    statement: Deben existir controles para garantizar que un proyecto
+      se ajuste a los cambios en la normativa.
+    guidance:
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+  - pillar: Gobernanza de la información
+    capability: Gestión de estudios
+    capability_index: "1.4"
+    requirement_index: 1.4.4
+    statement: Deben existir procesos estándar para el cierre de un proyecto 
+      que cumplan todos los requisitos legales y las buenas prácticas de 
+      seguridad de la información.
+    guidance: Esto incluye el archivado de los datos de calidad y de los registros, 
+      así como el archivado o la eliminación de los conjuntos de datos.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+  - pillar: Gobernanza de la información
+    capability: Gestión de estudios
+    capability_index: "1.4"
+    requirement_index: 1.4.5
+    statement: Podría implementarse un portal que proporcione un motor de flujos de 
+      trabajo y una base de datos que automaticen los procesos dentro de esta capacidad.
+    guidance:
+      "Un portal debería automatizar en la mayor medida posible los procesos comprendidos
+       en esta capacidad.\nCuando los procesos están automatizados, resulta más fácil 
+       alcanzar un mayor nivel de madurez de los procesos, con una ejecución más 
+       consistente y la generación automática de datos de control de calidad y de seguimiento."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+  - pillar: Gobernanza de la información
+    capability: Gestión de estudios
+    capability_index: "1.4"
+    requirement_index: 1.4.6
+    statement: Debe mantenerse un registro completo de todos los activos de datos
+      alojados en el sistema.
+    guidance:
+      "Deben conservarse los detalles de todos los activos de datos (actuales y 
+      pasados) del sistema, junto con los metadatos necesarios para demostrar
+      el cumplimiento. Esto incluirá información sobre la titularidad, el ciclo
+      de vida de los datos, los contratos, las evaluaciones de riesgos y otros 
+      datos de calidad.\nEs probable que esta información ya exista dentro de 
+      la organización en general, pero puede ser necesario ampliarla o 
+      adaptarla para el TRE."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+  - pillar: Gobernanza de la información
+    capability: Gestión de estudios
+    capability_index: "1.4"
+    requirement_index: 1.4.7
+    statement: YDebería mantenerse un registro completo de todos los estudios y proyectos
+      de investigación del TRE, tanto actuales como pasados.
+    guidance: El registro de estudios debe contener toda la información relacionada
+      con cada estudio, incluida la referencia a los activos de datos, los miembros
+      del equipo del proyecto, los propietarios de los activos de información y 
+      cualquier actividad de cumplimiento requerida.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
+  - pillar: Gobernanza de la información
+    capability: Acreditación de miembros
+    capability_index: "1.5"
+    requirement_index: 1.5.1
+    statement: Debe existir un método sólido para identificar a los miembros 
+      acreditados de la organización del TRE antes de que accedan a datos
+      sensibles.
+    guidance: Esto puede incluir la verificación de identidad o la verificación
+      mediante correo electrónico o teléfono.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
+  - pillar: Gobernanza de la información
+    capability: Acreditación de miembros
+    capability_index: "1.5"
+    requirement_index: 1.5.2
+    statement: Deben existir procesos claros de incorporación para todos los 
+      roles dentro de la organización del TRE.
+    guidance: Esto puede incluir que todos los miembros firmen condiciones de uso 
+      específicas según su rol o confirmen que han completado la formación 
+      correspondiente a dicho rol.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
+  - pillar: Gobernanza de la información
+    capability: Acreditación de miembros
+    capability_index: "1.5"
+    requirement_index: 1.5.3
+    statement: Debe existir un conjunto de servicios para gestionar el acceso a los 
+      recursos en función de la identidad.
+    guidance: Esto incluirá un modelo de seguridad de acceso basado en roles con 
+      controles técnicos que garanticen la aplicación del principio de mínimo 
+      privilegio.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
+  - pillar: Gobernanza de la información
+    capability: Acreditación de miembros
+    capability_index: "1.5"
+    requirement_index: 1.5.4
+    statement: No debe otorgarse acceso a conjuntos de datos a ninguna persona 
+      sin la autorización del Responsable del tratamiento de datos 
+      (Data Controller).
+    guidance: El Responsable del tratamiento de datos podrá optar por delegar 
+      esta autoridad. 
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
+  - pillar: Gobernanza de la información
+    capability: Acreditación de miembros
+    capability_index: "1.5"
+    requirement_index: 1.5.5
+    statement: Deben existir aplicaciones sólidas y seguras para autenticar a los
+      usuarios (y servicios) dentro del TRE.
+    guidance: El número de aplicaciones de autenticación debe mantenerse al mínimo,
+      aplicando controles y estándares comunes en todas ellas, como la MFA 
+      (autenticación multifactor), la complejidad de las contraseñas, *etc*.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
+  - pillar: Gobernanza de la información
+    capability: Acreditación de miembros
+    capability_index: "1.5"
+    requirement_index: 1.5.6
+    statement: Debe asignarse a cada usuario del TRE un inicio de sesión único, y 
+      cualquier modificación de los registros debe estar estrictamente controlada.
+    guidance:
+      "El identificador único y todos los registros asociados a cada usuario deben
+      ser trazables en todo el TRE.
+      Esto incluirá, cuando corresponda, los registros de formación, las afiliaciones,
+      los acuerdos contractuales y las aprobaciones éticas."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.1
+    statement: Debe determinarse qué formación es pertinente para todos los roles
+      dentro de la organización del TRE.
+    guidance:
+      "Esto puede incluir, por ejemplo, formación en ciberseguridad, formación en 
+      materia de GDPR (General Data Protection Regulation [Reglamento General de 
+      Protección de Datos]) y formación de nivel avanzado para los operadores de 
+      sistemas.
+      \nEs probable que los roles especializados requieran una formación más específica.
+      \nLa identificación de estas especialidades debe realizarse mediante un análisis 
+      sistemático de las necesidades de formación.
+      \nTambién puede requerirse formación específica en función de los datos o del 
+      propietario de los activos de información, como las GCP (Good Clinical Practice
+      Buenas Prácticas Clínicas])."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.2
+    statement: Debe garantizarse que la formación pertinente esté disponible
+      para todos los roles dentro de la organización del TRE.
+    guidance:
+      "Todos los miembros de la organización del TRE deben completar toda la
+      formación pertinente y mantenerla actualizada.\nPuede ser necesario 
+      proporcionar apoyo u orientación para facilitar su cumplimiento.\nLos 
+      detalles sobre la formación requerida se habrán determinado previamente."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.3
+    statement: Debe proporcionarse formación de refuerzo o actualizada cuando 
+      sea necesario para reflejar cambios en los requisitos de competencia.
+    guidance:
+      "La formación no es un evento puntual.\nDeberían considerarse recordatorios
+      electrónicos para la formación de actualización.\nIdealmente, la formación
+      debe seguir siendo pertinente, por lo que las políticas y los procesos 
+      deberían permitir que las personas demuestren su competencia, en lugar de 
+      repetir la formación de manera innecesaria."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.4
+    statement: Deben mantenerse registros de formación precisos que estén directamente
+     vinculados al rol y a los niveles de acceso dentro del TRE.
+    guidance:
+      "Los registros de formación deben estar vinculados al registro de cada usuario y
+      mantenerse cuidadosamente.\n\
+      El mantenimiento de los registros de formación permite garantizar que todas las 
+      personas hayan completado la formación requerida y que la formación de 
+      actualización se realice de manera periódica."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.5
+    statement: Deberían aceptarse comprobantes de certificaciones de formación 
+      pertinentes emitidas por terceros de confianza.
+    guidance: Podría optarse por confiar en certificaciones proporcionadas por
+      proveedores de formación reconocidos o por las organizaciones asociadas 
+      de la institución.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.6
+    statement: Podría contarse con una plataforma de formación capaz de impartir
+      formación en línea en una variedad de formatos.
+    guidance:
+      "Esta podría ser una plataforma sencilla de distribución de contenidos o una
+      plataforma LMS (Learning Management System [Sistema de gestión del aprendizaje])
+      más completa.\nTambién podría incluir una gama de formatos de entrega multimedia
+      y módulos de formación accesibles para las personas con requisitos de
+      accesibilidad."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.7
+    statement: Podría implementarse un sistema de gestión del aprendizaje (LMS) para
+      administrar los cursos e impartir la formación según sea necesario.
+    guidance: Siempre que sea posible, un LMS debería admitir una variedad de contenidos
+      de cursos y evaluaciones.
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.8
+    statement: Podría garantizarse que cualquier curso que se utilice esté disponible
+      en formatos estándar y transferibles.
+    guidance:
+      "La compatibilidad con formatos estándar, como SCORM, permite que los cursos se
+      compartan entre proveedores.\nEsto podría ayudar a facilitar la estandarización
+      de la provisión de formación para los usuarios del TRE entre distintas organizaciones."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Gobernanza de la información
+    capability: Gestión y provisión de formación
+    capability_index: "1.6"
+    requirement_index: 1.6.9
+    statement: Podrían conservarse copias históricas de los cursos con el fin de 
+      demostrar la competencia en un momento determinado.
+    guidance:
+      "Los propietarios de los activos de información y los organismos reguladores
+      pueden solicitar la auditoría de registros históricos, por ejemplo, en el
+      caso de ensayos clínicos.\nPuede ser necesario conservar copias de la formación
+      sustituida, junto con las versiones de las certificaciones, dentro del registro
+      de formación."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.1
+    statement: No debe permitirse que los usuarios copien datos fuera del TRE mediante
+      el portapapeles del sistema.
+    guidance:
+      "Un usuario del TRE no debe poder copiar datos sensibles fuera de un espacio 
+      de trabajo utilizando el portapapeles del sistema.\nUn TRE puede permitir que
+      el usuario pegue texto dentro de un espacio de trabajo.\nEsto podría no ser 
+      pertinente para el TRE, por ejemplo, si la interfaz de usuario no tiene portapapeles."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.2
+    statement: El espacio de trabajo del TRE debería proporcionar un entorno familiar
+      para los usuarios.
+    guidance:
+      "Esto puede adoptar la forma de escritorios virtuales Windows o Linux, interfaces
+      sin escritorio como JupyterLab u otras aplicaciones web, o una terminal.\nDebe 
+      evitarse el software específico del TRE cuando ya existan alternativas ampliamente
+      utilizadas."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.3
+    statement: Un TRE podría restringir por completo el acceso a los datos por parte
+      de los consumidores de datos y proporcionar una interfaz para el envío de código.
+    guidance: Por ejemplo, podría utilizarse un sistema en el que los usuarios envían
+      trabajos que se ejecutan sobre los datos y devuelven resultados sin permitir el
+      acceso directo a los datos.
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.4
+    statement: El TRE debería ser accesible mediante una interfaz de usuario 
+      disponible a través de aplicaciones de uso común.
+    guidance:
+      "Los TRE que permiten que los usuarios se conecten desde sus propios 
+      dispositivos no deberían requerir la instalación de ninguna aplicación
+      específica del TRE en el dispositivo del usuario.\nEn la práctica, 
+      un navegador web es la forma más común de lograrlo."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.5
+    statement: El TRE debe proporcionar orientación clara sobre cómo utilizar las 
+      herramientas de software y trabajar con datos dentro del TRE.
+    guidance:
+      "Los TRE que proporcionan un entorno de escritorio virtual para que los consumidores
+      de datos trabajen deberían proporcionar documentación que detalle las herramientas
+      disponibles.\nLos TRE en los que el código de análisis se desarrolla en la máquina
+      de acceso (en lugar de dentro del TRE) deberían proporcionar documentación que 
+      detalle el mecanismo mediante el cual se envía el código al TRE."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.6
+    statement: El TRE debería, cuando sea posible, aplicar automáticamente actualizaciones
+      de seguridad del software de usuario.
+    guidance: Reducir el riesgo de vulnerabilidades explotables en el software instalado 
+      aumentará la seguridad del TRE.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.7
+    statement: El TRE podría proporcionar servicios compartidos accesibles a los 
+      usuarios de un mismo proyecto.
+    guidance:
+      "Esto puede incluir almacenamiento compartido de archivos, bases de datos, redacción
+      colaborativa y otras aplicaciones web.\nEsto solo debe compartirse entre usuarios 
+      del mismo proyecto."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.8
+    statement: El TRE debe garantizar que cualquier servicio compartido solo esté 
+      disponible para los usuarios que trabajan en el mismo proyecto.
+    guidance:
+      "Los servicios compartidos mal diseñados podrían permitir la mezcla no intencional
+      de datos entre proyectos.\nPara evitarlo, es necesario que cada instancia se 
+      comparta únicamente entre usuarios de un solo proyecto."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.9
+    statement: Deben mitigarse y registrarse los riesgos introducidos por el uso,
+      dentro del TRE, de software que requiere telemetría para funcionar.
+    guidance:
+      "Por ejemplo, cierto software comercial con licencia debe ponerse en contacto
+      con un servidor externo de licencias al iniciarse.\nDebe garantizarse que solo
+      se envíe información de licenciamiento a ese servidor y que cualquier conexión
+      de red sea segura."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.10
+    statement: El TRE debe proporcionar aplicaciones de software pertinentes
+      para trabajar con los datos dentro del TRE.
+    guidance:
+      "Las herramientas proporcionadas dependerán de los tipos de datos del TRE y 
+      de las expectativas de los usuarios del TRE.\nPara usuarios que trabajan en
+      un TRE mediante un escritorio virtual, esto puede incluir lenguajes de 
+      programación como Python y R, entornos de desarrollo integrados, cuadernos de
+      Jupyter, aplicaciones de oficina como procesadores de texto y hojas de cálculo,
+      herramientas de línea de comandos, etc.\nLos TRE con interfaces sin escritorio
+      deberían, de igual manera, considerar cuidadosamente qué aplicaciones se adaptan
+      mejor a las necesidades de los consumidores de datos al interactuar con los datos,
+      por ejemplo, herramientas GUI (Graphical User Interface [interfaz gráfica de 
+      usuario]) de “apuntar y hacer clic” para consultar una base de datos y generar 
+      gráficos de datos.\nEl conjunto de herramientas debe revisarse periódicamente para
+      garantizar que esté actualizado."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.11
+    statement: El TRE debería proporcionar herramientas que fomenten las buenas prácticas
+      de análisis reproducible de datos.
+    guidance:
+      "La reproducibilidad de los análisis mejora la auditabilidad y la rendición de cuentas
+      sobre cómo se han utilizado los datos, además de constituir una buena práctica en investigación.\n\
+      Esto puede incluir software de control de versiones y herramientas para desarrollar y ejecutar
+      canalizaciones de análisis de datos."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.12
+    statement: El TRE podría proporcionar acceso a algunos repositorios públicos de
+      software o registros de contenedores.
+    guidance: Por ejemplo, un TRE puede permitir la instalación directa de paquetes 
+      desde repositorios de Python o R, o proporcionar un espejo interno.
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.13
+    statement: El TRE podría controlar estrictamente qué paquetes están disponibles.
+    guidance:
+      "Por ejemplo, un TRE puede permitir únicamente la instalación de un conjunto
+      predefinido de paquetes aprobados.\nTambién podría optarse por escanear 
+      paquetes maliciosos o someterlos a un proceso de aprobación antes de permitir
+      que el código ingrese al entorno técnico."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.14
+    statement: El TRE debe mantener la segregación de usuarios y datos de distintos 
+      proyectos al utilizar recursos de cómputo no estándar.
+    guidance:
+      "La computación de alto rendimiento o especializada suele compartirse entre 
+      múltiples usuarios.\nLos usuarios y los datos deben permanecer segregados en
+      todo momento.\nPor ejemplo, cuando se utilizan recursos físicos de cómputo, 
+      todos los datos sensibles podrían eliminarse de forma segura antes de que otro
+      usuario reciba acceso a ese mismo nodo.\nEn un TRE alojado en la nube, las 
+      máquinas virtuales podrían destruirse y recrearse."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.15
+    statement: El TRE debería poder proporcionar acceso a computación de alto 
+      rendimiento u otros recursos de cómputo escalables si los usuarios lo requieren.
+    guidance:
+      "Si un TRE admite usuarios que realizan investigación de uso intensivo de cómputo,
+      debería proporcionar acceso a cómputo escalable dinámicamente o su equivalente.\n\
+      Por ejemplo, esto puede ser en forma de un planificador por lotes en un clúster HPC
+      o nodos de cómputo creados dinámicamente en una plataforma en la nube."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.16
+    statement: El TRE debería poder proporcionar acceso a aceleradores como GPU 
+      si los usuarios lo requieren.
+    guidance:
+      "Las GPU y otros aceleradores se utilizan comúnmente en aprendizaje automático
+      y otras investigaciones de uso intensivo de cómputo.\nLos TRE deberían dejar 
+      claro a los usuarios si las GPU y otros recursos están disponibles mientras se
+      evalúan los proyectos."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.17
+    statement: El TRE podría poner los datos a disposición de los consumidores de 
+      datos mediante sistemas de bases de datos comunes como PostgreSQL, MSSQL o MongoDB.
+    guidance:
+      "Las bases de datos deben estar protegidas y solo ser accesibles para los usuarios
+      del mismo proyecto.\nSi se utilizan servidores de bases de datos compartidos
+      (multiinquilino), los administradores de bases de datos deben garantizar que el
+      servidor haga cumplir la segregación de usuarios y de bases de datos pertenecientes
+      a distintos proyectos."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Computación para usuarios finales
+    capability_index: "2.1"
+    requirement_index: 2.1.18
+    statement: El TRE podría integrarse con herramientas de analítica de datos a gran
+      escala para trabajar con grandes conjuntos de datos.
+    guidance:
+      "Por ejemplo, Spark y Hadoop pueden utilizarse para computación distribuida en 
+      un clúster.\nEsto puede ser una ventaja cuando el TRE utiliza una cantidad de 
+      datos demasiado grande para que la computación en una sola máquina sea práctica."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.1
+    statement: Debe existir un procedimiento documentado para el despliegue de
+      la infraestructura.
+    guidance: Esto puede consistir, por ejemplo, en un manual que se siga o en un
+      conjunto de scripts automatizados.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.2
+    statement: Deberían automatizarse, cuando sea posible, todos los aspectos
+      repetibles del despliegue.
+    guidance: Esto puede implicar el uso de herramientas de infraestructura 
+      como código o una serie de scripts.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.3
+    statement: Debe existir un procedimiento documentado para realizar cambios en
+      la infraestructura desplegada.
+    guidance:
+      "Esto se refiere tanto a los cambios que pueden esperarse durante la operación
+      normal como a los cambios de emergencia que puedan ser necesarios.\nEl proceso
+      de gestión de cambios puede formar parte de una acreditación más amplia, como 
+      ISO 27001."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.4
+    statement: Deben probarse los cambios antes de que se utilicen en producción.
+    guidance: Esto puede implicar un entorno de desarrollo separado u otro sistema
+      para pruebas.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.5
+    statement: Debería existir un entorno de desarrollo que replique el entorno de
+      producción y que se utilice para probar los cambios de infraestructura antes
+      de aplicarlos en producción.
+    guidance:
+      "Si es posible, debería automatizarse la aplicación de cambios entre los entornos
+      de desarrollo y producción.\nDeben considerarse los costos y la viabilidad 
+      práctica de si esto resulta adecuado para la situación concreta."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.6
+    statement: Debe existir un procedimiento documentado para retirar la infraestructura
+      cuando ya no sea necesaria.
+    guidance: La eliminación de infraestructura no utilizada no solo reduce los costos y
+      la carga de gestión, sino que también reduce la superficie de ataque de un TRE y el
+      riesgo de vulnerabilidades no abordadas.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.7
+    statement: Deberían conocerse las garantías de disponibilidad y tiempo de actividad
+      de todos los proveedores de los que se dependa.
+    guidance:
+      "En el caso de TRE remotos, esto puede incluir a los proveedores de servicios en 
+      la nube o a los operadores de centros de datos.\nEn el caso de TRE locales, 
+      podría ser conveniente utilizar una fuente de alimentación ininterrumpida (UPS,
+      por sus siglas en inglés) y planificar cómo se gestionarían las interrupciones de
+      Internet."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.8
+    statement: Debería elaborarse un objetivo o una declaración de disponibilidad y
+      compartirse con los usuarios.
+    guidance: Comprender cómo y cuándo el TRE podría no estar disponible ayudará a
+      los proyectos a planificar su trabajo.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.9
+    statement: El TRE debe controlar y gestionar toda su infraestructura de red con
+      el fin de proteger la información en los sistemas y aplicaciones.
+    guidance:
+      "La infraestructura de red debe impedir el acceso no autorizado a los recursos 
+      de la red.\nEsto puede incluir cortafuegos, segmentación de red y la restricción
+      de conexiones a la red."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.10
+    statement: El TRE no debe permitir conectividad entre usuarios de distintos proyectos
+      ni entre usuarios con acceso a diferentes conjuntos de datos.
+    guidance: Puede permitirse la conectividad entre usuarios del mismo proyecto, por ejemplo,
+      para dar soporte a servicios de red compartidos dentro del proyecto.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.11
+    statement: El TRE debe bloquear por defecto las conexiones salientes a Internet.
+    guidance: Puede permitirse conectividad saliente limitada para determinados servicios.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.12
+    statement: Debería poder supervisarse la configuración de red del TRE para detectar
+      configuraciones incorrectas y vulnerabilidades.
+    guidance: Esto puede incluir análisis periódicos de vulnerabilidades y pruebas
+      de penetración.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.13
+    statement: Debería supervisarse periódicamente la configuración de red del TRE
+      para detectar configuraciones incorrectas y vulnerabilidades.
+    guidance: Esto implicará seguir el procedimiento de supervisión descrito 
+      anteriormente.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.14
+    statement: El TRE debe registrar los datos de uso.
+    guidance: Esto puede incluir el número de usuarios, el número de proyectos, la 
+      cantidad de datos almacenados, el número de conjuntos de datos, el número de
+      espacios de trabajo, etc.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.15
+    statement: El TRE debería registrar a qué conjuntos de datos se accede, cuándo 
+      y por quién.
+    guidance: Esto ayuda a mantener la auditabilidad del uso que se ha hecho de los 
+      datos sensibles.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la infraestructura
+    capability_index: "2.2"
+    requirement_index: 2.2.16
+    statement: El TRE debería registrar el uso de recursos computacionales a nivel
+      de usuario o de forma agregada.
+    guidance: Esto resulta útil para optimizar la asignación de recursos y gestionar
+      los costos.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la capacidad
+    capability_index: "2.3"
+    requirement_index: 2.3.1
+    statement: Debe garantizarse que todos los proyectos comprendan qué recursos
+      están disponibles y cuáles serán los costos asociados antes de que el proyecto
+      comience.
+    guidance:
+      "En sistemas locales, esto puede estar relacionado con el hardware disponible;
+      en sistemas basados en la nube, puede haber límites en el número de instancias
+      de un recurso determinado (*p. ej.*, GPU) que pueden utilizarse.\nLos proyectos
+      deberían utilizar esta información para comprender si los recursos disponibles
+      serán suficientes para sus necesidades."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la capacidad
+    capability_index: "2.3"
+    requirement_index: 2.3.2
+    statement: Debería garantizarse que las necesidades previstas de los proyectos 
+      puedan satisfacerse utilizando los recursos disponibles.
+    guidance: Cabe señalar que esto no exige aceptar solicitudes de recursos adicionales,
+      sino que las promesas realizadas sobre la disponibilidad de recursos antes del inicio
+      del proyecto deberían cumplirse siempre que sea posible.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la capacidad
+    capability_index: "2.3"
+    requirement_index: 2.3.3
+    statement: Debe existir un procedimiento para asignar los recursos disponibles
+      entre los proyectos.
+    guidance:
+      "En los TRE basados en la nube, esto puede implicar escalar recursos, como máquinas
+      virtuales o bases de datos, o desplegar recursos adicionales.\nEn los TRE locales, 
+      esto puede implicar un proceso de adquisición para garantizar que los recursos 
+      necesarios estén disponibles.\nNo todas las solicitudes de aumento de capacidad deben
+      concederse necesariamente, pero contar con un proceso claro ayudará a los proyectos a
+      comprender cuándo, por qué y cómo pueden hacer uso de capacidad adicional."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la capacidad
+    capability_index: "2.3"
+    requirement_index: 2.3.4
+    statement: Debe garantizarse que los requisitos de recursos previstos no den lugar
+      a un gasto excesivo por parte del TRE.
+    guidance:
+      "En los TRE basados en la nube, esto puede implicar la elaboración de presupuestos
+      o la restricción del consumo de recursos por proyecto.\nEn los TRE locales (on-premises),
+      esto puede implicar gestionar las expectativas para ajustarlas a los recursos disponibles."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la configuración
+    capability_index: "2.4"
+    requirement_index: 2.4.1
+    statement: Debe existir un procedimiento documentado para la configuración
+      de la infraestructura.
+    guidance: Esto puede consistir, por ejemplo, en un manual que se siga o en un
+      conjunto de scripts automatizados.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la configuración
+    capability_index: "2.4"
+    requirement_index: 2.4.2
+    statement: Deberían utilizarse herramientas de gestión de la configuración para
+      automatizar la aplicación de la configuración siempre que sea posible.
+    guidance: Esto puede implicar el uso de herramientas de configuración como código,
+      tales como Ansible, Chef, Puppet o Windows Desired State Configuration, o 
+      simplemente scripts automatizados.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la configuración
+    capability_index: "2.4"
+    requirement_index: 2.4.3
+    statement: Debería poder verificarse si la configuración es válida.
+    guidance: Esto puede implicar, por ejemplo, ejecutar la herramienta de gestión
+     de la configuración en modo de ‘verificación’.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la configuración
+    capability_index: "2.4"
+    requirement_index: 2.4.4
+    statement: Debería verificarse periódicamente la configuración del TRE.
+    guidance: Esto limitará el tiempo durante el cual el TRE puede permanecer en un
+      estado de incumplimiento.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Gestión de la configuración
+    capability_index: "2.4"
+    requirement_index: 2.4.5
+    statement: Debe poder sustituirse un TRE que no cumpla los requisitos por un
+      sistema conforme.
+    guidance: Esto puede implicar la reconfiguración de un sistema en funcionamiento
+      o su sustitución por uno conforme.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.1
+    statement: Deberían mantenerse copias de seguridad de los datos y de los entornos
+      de investigación, siempre que la ley lo permita.
+    guidance:
+      "Mantener copias de seguridad puede ayudar a reducir el impacto de eventos como
+      la eliminación accidental y la corrupción de datos en el trabajo realizado en un TRE.\n\
+      Los desarrolladores de TRE pueden considerar cómo realizar copias de seguridad de 
+      distintos elementos, como los datos sensibles de entrada o los espacios de trabajo de 
+      los usuarios, y si corresponde hacerlo."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.2
+    statement: Debería incorporarse redundancia en la infraestructura y el almacenamiento.
+    guidance:
+      "La infraestructura debería ser tan resiliente como sea necesario frente a 
+      interrupciones.\nEsto puede incluir infraestructura redundante en distintas 
+      ubicaciones físicas, balanceo de carga y replicación de datos entre múltiples 
+      ubicaciones de almacenamiento."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.3
+    statement: Deberían mantenerse copias de seguridad de la infraestructura,
+      las aplicaciones y las configuraciones.
+    guidance: Esto puede incluir instantáneas de infraestructura virtualizada
+      que puedan restaurarse según sea necesario para recuperarse de fallos.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.4
+    statement: Deben existir procedimientos para una respuesta rápida ante incidentes.
+    guidance:
+      "Pueden existir requisitos legales para divulgar detalles de cualquier incidente,
+      como las violaciones de datos en el caso de organizaciones sujetas al GDPR.\nContar
+      con procesos sólidos garantizará una respuesta rápida y eficaz cuando ocurra un incidente."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.5
+    statement: Debería probarse la respuesta ante incidentes mediante simulaciones.
+    guidance:
+      "Durante los incidentes simulados, la organización del TRE puede medir su eficacia.
+      Esto puede implicar a personas de toda la organización o a proveedores externos."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.6
+    statement: Debería contarse con una aplicación para analizar vulnerabilidades
+      en toda la infraestructura.
+    guidance:
+      "El software utilizado para identificar vulnerabilidades también debería generar
+      informes y alertas.\nDichas alertas deberían ser objeto de triaje, evaluación de
+      riesgos y tratamiento según corresponda."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.7
+    statement: Debe existir un proceso para aplicar actualizaciones de seguridad
+      a todo el software que forma parte de la infraestructura del TRE.
+    guidance: Esto incluye cualquier software utilizado para portales de escritorio
+      remoto, bases de datos, aplicaciones web, la creación y eliminación de 
+      infraestructura de cómputo, la gestión de la configuración o el software 
+      utilizado para supervisar el TRE.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.8
+    statement: La infraestructura debería actualizarse automáticamente para corregir
+      vulnerabilidades.
+    guidance:
+      "Será necesaria una planificación que abarque la infraestructura y los sistemas 
+      de software para asegurarse de que los proveedores sigan ofreciendo parches de 
+      seguridad.\nMuchos sistemas pueden estar aislados de Internet, lo que hace que
+      la infraestructura del TRE sea más difícil de actualizar automáticamente."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.9
+    statement: Deberían realizarse pruebas de penetración en el TRE.
+    guidance:
+      "Al intentar de forma deliberada vulnerar el TRE, las organizaciones pueden
+      descubrir de manera proactiva vulnerabilidades no detectadas antes de que sean
+      explotadas de manera maliciosa.\nLas pruebas pueden evaluar la eficacia de los 
+      controles de seguridad para prevenir violaciones de datos, accesos no autorizados
+      u otros incidentes de seguridad."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.10
+    statement: Deberían actualizarse los controles de seguridad del TRE en función de
+      los resultados de las pruebas de seguridad.
+    guidance:
+      "Las pruebas de seguridad pueden revelar errores y discrepancias en la arquitectura
+      del TRE que deberían abordarse antes de cargar datos sensibles o con urgencia en el
+      caso de un TRE en operación.\nLas pruebas periódicas permitirán a las organizaciones
+      perfeccionar los controles de seguridad del TRE y las capacidades de respuesta ante 
+      incidentes.\nEsto les permite adaptarse a nuevas preocupaciones de seguridad que 
+      puedan surgir como resultado de cambios en el software subyacente."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.11
+    statement: Deberían publicarse los detalles de la estrategia de pruebas de seguridad
+      y, cuando sea posible, los resultados de cada prueba
+    guidance:
+      "Saber que se realizan pruebas de seguridad periódicas ayudará a que las partes 
+      interesadas, incluidos los consumidores de datos y los propietarios de los activos
+      de información, confíen en que los datos con los que trabajan o de los que son 
+      responsables están protegidos dentro de un TRE.\n Si se identifican fallas de seguridad
+      durante una prueba, puede no ser prudente hacerlas públicas hasta que exista una corrección 
+      implementada."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.12
+    statement: El TRE debe cifrar los datos de los proyectos y de los usuarios en reposo.
+    guidance:
+      "Esto impide el acceso no autorizado a los datos incluso si el medio de almacenamiento
+       se ve comprometido.\nEsto puede implicar sistemas de archivos cifrados o herramientas para cifrar y descifrar datos bajo demanda.\nLas claves de cifrado pueden ser gestionadas por el operador del TRE o por un tercero externo de confianza, por ejemplo, un proveedor de servicios en la nube."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.13
+    statement: El TRE debe cifrar los datos cuando estén en tránsito entre el TRE y 
+      redes o equipos externos
+    guidance:
+      "Debe utilizarse el cifrado de datos para protegerlos contra la interceptación 
+      o la manipulación durante la transmisión.\nEsto incluye tanto el ingreso como la 
+      salida de datos y el acceso de los usuarios al TRE, por ejemplo, mediante un 
+      escritorio remoto o una sesión de shell."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.14
+    statement: El TRE debería cifrar los datos cuando estén en tránsito dentro del 
+      propio TRE.
+    guidance: Si es posible, las transferencias de datos entre los distintos componentes
+      de un TRE también deberían cifrarse.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.15
+    statement: Deberían utilizarse algoritmos y software de cifrado ampliamente aceptados
+      como seguros.
+    guidance:
+      "Los algoritmos de cifrado hoy ampliamente aceptados como seguros pueden volverse 
+      inseguros en el futuro, por ejemplo, debido a fallas identificadas recientemente o
+      a avances en las capacidades de cómputo.\nDeben aplicarse los parches y actualizaciones 
+      de seguridad más recientes a cualquier software de cifrado utilizado por el TRE.\nEsto 
+      ayuda a abordar vulnerabilidades o debilidades conocidas en la implementación del cifrado."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.16
+    statement: El TRE debería utilizar una gestión segura de claves.
+    guidance: Los TRE deberían aplicar prácticas seguras de gestión de claves, incluida la 
+      separación del almacenamiento de las claves de cifrado respecto de los datos cifrados 
+      y la implementación de controles de acceso sólidos (*p. ej.*, inicio de sesión único) 
+      para los sistemas de gestión de claves.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.17
+    statement: El TRE podría ofrecer medidas de protección física frente a la filtración 
+      o el robo de datos por medios físicos.
+    guidance:
+      "Restringir el acceso a instalaciones de investigación que contengan computadoras 
+      conectadas a TRE puede ayudar a evitar que actores maliciosos vean o roben datos 
+      sensibles, por ejemplo, fotografiando la pantalla de una computadora.\nLos controles 
+      físicos de acceso a un TRE pueden incluir sistemas de vigilancia, la restricción 
+      del acceso físico únicamente al personal autorizado, sistemas de gestión de visitantes 
+      y formación del personal."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Tecnología de computación y seguridad de la información
+    capability: Seguridad de la información
+    capability_index: "2.5"
+    requirement_index: 2.5.18
+    statement: El TRE puede necesitar cumplir requisitos regulatorios específicos en
+      función de los tipos de datos que aloja.
+    guidance:
+      "Los marcos regulatorios suelen hacer hincapié en la necesidad de controles de 
+      seguridad para proteger los datos sensibles.\nEl cumplimiento de estas regulaciones 
+      puede exigir que las organizaciones implementen medidas de seguridad específicas para 
+      proteger su TRE frente a accesos no autorizados."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.1
+    statement: Debe existir procesos para evaluar las implicaciones legales y regulatorias 
+      del tratamiento de los datos a lo largo de todo su ciclo de vida.
+    guidance:
+      "Esto implica considerar las obligaciones frente a los responsables del tratamiento y 
+      los sujetos de los datos, y si determinados controles de seguridad pueden ser exigidos 
+      por ley o por contrato.\nTambién será necesaria una evaluación de los riesgos implicados.\n\
+      Esto puede implicar clasificar el proyecto dentro de una categoría de sensibilidad predefinida
+       o definir controles específicos."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.2
+    statement: Deberían conservarse registros de las decisiones relativas al tratamiento 
+      de los datos.
+    guidance: Las decisiones que se adopten como parte del proceso descrito anteriormente 
+      deberían registrarse y ponerse a disposición de todas las partes interesadas para su 
+      inspección.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.3
+    statement: Los propietarios de los activos de información deben clasificar los 
+      conjuntos de datos conforme a un proceso común y a una metodología de clasificación 
+      de datos.
+    guidance:
+      "Para clasificar los datos, los propietarios de los activos de información deben tener 
+      un buen conocimiento de los conjuntos de datos y del proceso de clasificación.\nUna vez
+       clasificados, los datos pueden almacenarse en un TRE con los controles de seguridad 
+      adecuados (véase la sección posterior sobre niveles de seguridad y jerarquización), que 
+      pueden tener en cuenta los requisitos de confidencialidad, integridad y disponibilidad de 
+      los datos."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.4
+    statement: Debe existir un proceso de ingreso de datos que obligue al cumplimiento 
+      de las normas y procesos de gobernanza de la información.
+    guidance:
+      "El proceso de ingreso de datos debe garantizar que se cumpla correctamente la 
+      gobernanza de la información.\nEn particular, debería exigir que una solicitud 
+      de ingreso haya sido aprobada por todas las partes requeridas."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.5
+    statement: Debe existir un proceso de salida de datos que aplique las normas y 
+      procesos de gobernanza de la información.
+    guidance:
+      "El proceso de salida de datos debe garantizar que se cumplan los requisitos de 
+      gobernanza de la información.\nEn particular, debería exigir que una solicitud 
+      de salida haya sido aprobada por todas las partes requeridas."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.6
+    statement:  La salida de datos debe limitarse a los propietarios de los activos de 
+      información o a sus delegados.
+    guidance:
+      "La salida de datos desde un TRE debe ser un permiso específico asociado a usuarios 
+      individuales.\nEste permiso debe ser otorgado por los propietarios de los activos de 
+      información. La salida de datos puede seguir requiriendo aprobaciones adicionales 
+      (véase 3.1.5)."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.7
+    statement: El proceso de salida de datos podría requerir, en algunos casos, 
+      una aprobación independiente del proyecto.
+    guidance:
+      "Puede haber casos en los que existan múltiples partes interesadas en un análisis, 
+      incluidos propietarios de activos de información, analistas de datos, sujetos de los 
+      datos y el operador del TRE.\nEn estos casos, el proceso de salida de datos puede 
+      requerir la aprobación de personas que no formen parte del equipo del proyecto, 
+      por ejemplo, un revisor externo o un representante del operador del TRE."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.8
+    statement: Debe mantenerse un registro de los datos que aloja el TRE.
+    guidance:
+      "Los buenos registros son importantes para garantizar el cumplimiento de la 
+      legislación, comprender los riesgos y favorecer una adecuada higiene de los 
+      datos.\nEl registro debe incluir una descripción de los datos, su origen, 
+      los datos de contacto del propietario de los datos, qué proyectos utilizan 
+      los datos, la fecha de recepción y la fecha en que se prevé que ya no serán 
+      necesarios."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.9
+    statement: Debe existir una política de eliminación de datos.
+    guidance:
+      "Debe existir una política clara y publicada que indique cuándo se conservarán o 
+      eliminarán los datos.\nEsto puede permitir que los propietarios de los datos 
+      dispongan de tiempo para considerar qué resultados desean extraer del TRE.\nTodos 
+      los datos sensibles, incluidas todas las copias de seguridad, deben eliminarse 
+      cuando ya no sean necesarios.\nContar con políticas claras ayudará a evitar 
+      problemas derivados de la conservación de datos durante más tiempo del necesario 
+      o de la eliminación accidental de resultados."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.10
+    statement: Debería existir un método para proporcionar pruebas de la eliminación 
+      o retirada de archivos.
+    guidance:
+      "Los propietarios de los activos de información pueden requerir certificación de 
+      la eliminación de archivos.\nDebería existir un método para proporcionar pruebas 
+      de eliminación en caso de impugnación."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.11
+    statement: Debería registrarse cómo se modifican los datos de entrada.
+    guidance:
+      "Si los datos de entrada son modificables, un TRE debería mantener registros 
+      de dichas modificaciones.\n Por ejemplo, cuándo se modificaron los datos y 
+      por quién."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.12
+    statement: Debe evitarse, en la medida de lo razonable, el ingreso o la salida 
+      no autorizados de datos.
+    guidance:
+      "El movimiento de datos que no haya sido sometido a procesos de gobernanza de la 
+      información conlleva el riesgo de incumplir normas y aumenta la probabilidad de una 
+      violación de datos.\n Sin embargo, resulta difícil controlar todas las 
+      posibilidades.\nPor ejemplo, un usuario puede tomar fotografías de la pantalla de 
+      su computadora para extraer datos o utilizar un dispositivo que se presente como un 
+      teclado USB HID para introducir grandes cantidades de texto.\nUn ejemplo de medida 
+      razonable sería que un TRE basado en escritorio remoto impida que los datos se 
+      copien desde el portapapeles de la máquina local al espacio de trabajo."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.1"
+    requirement_index: 3.1.13
+    statement: Los datos alojados en el TRE deberían limitarse al mínimo necesario para 
+      el análisis o la investigación.
+    guidance:
+      "Los datos almacenados y procesados dentro del TRE deberían limitarse a la cantidad 
+      necesaria para ese fin. \nEsto incrementa el nivel de protección de los sujetos de los 
+      datos, facilita el cumplimiento de la legislación de protección de datos y puede reducir 
+      la carga de almacenamiento y procesamiento."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Gestión de datos
+    capability: Gestión de identidades y accesos
+    capability_index: "3.2"
+    requirement_index: 3.2.1
+    statement: No deben crearse cuentas de usuario para que sean utilizadas por más 
+      de una persona.
+    guidance: Es importante que cada cuenta de usuario sea utilizada por una sola persona, 
+      y únicamente por esa persona, a fin de facilitar la asignación de roles o permisos 
+      y el registro de las acciones individuales.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
+  - pillar: Gestión de datos
+    capability: Gestión de identidades y accesos
+    capability_index: "3.2"
+    requirement_index: 3.2.2
+    statement: Debe existir un grado razonable de certeza sobre la identidad de cada 
+      persona a la que se le conceda una cuenta.
+    guidance:
+      "Es importante garantizar que la cuenta se haya asignado a la persona 
+      correcta.\nPor ejemplo, antes de crear la cuenta, pueden utilizarse múltiples 
+      credenciales para verificar la identidad o, cuando corresponda, pueden exigirse 
+      verificaciones mediante identificación con fotografía."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
+  - pillar: Gestión de datos
+    capability: Gestión de identidades y accesos
+    capability_index: "3.2"
+    requirement_index: 3.2.3
+    statement: Debe restringirse el acceso de cada usuario únicamente a los datos 
+      necesarios para su trabajo.
+    guidance:
+      "No es necesario conceder a una persona acceso a datos que no requiera.\nEl 
+      acceso puede asignarse de una manera acorde con el diseño del TRE, por ejemplo, 
+      mediante roles otorgados a las cuentas de usuario o mediante espacios de trabajo 
+      de proyecto aislados."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
+  - pillar: Gestión de datos
+    capability: Gestión de identidades y accesos
+    capability_index: "3.2"
+    requirement_index: 3.2.4
+    statement: Debe garantizarse que la autenticación multifactor esté habilitada 
+      para todos los usuarios.
+    guidance:
+      "La autenticación multifactor garantiza que, para conectarse correctamente, un usuario 
+      deba aportar más de una evidencia perteneciente a distintas categorías.\nLas 
+      categorías incluyen algo que el usuario sabe (*p. ej.*, una contraseña), algo que el 
+      usuario posee (*p. ej.*, una clave TOTP) o algo que el usuario es (*p. ej.*, datos 
+      biométricos).\nUn TRE no necesita implementar por sí mismo la autenticación multifactor 
+      si esta es proporcionada por un proveedor externo de identidad."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
+  - pillar: Gestión de datos
+    capability: Gestión de identidades y accesos
+    capability_index: "3.2"
+    requirement_index: 3.2.5
+    statement: Podría utilizarse autenticación federada o inicio de sesión único (SSO) 
+      para el acceso de los usuarios.
+    guidance:
+      "Las instituciones que utilizan SSO para otras aplicaciones pueden optar por extender 
+      esta capacidad de inicio de sesión a un TRE.\nEsto simplificará el proceso de acceso 
+      para los consumidores de datos que utilizan el TRE y evitará que tengan que recordar 
+      o almacenar múltiples credenciales de inicio de sesión."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
+  - pillar: Gestión de datos
+    capability: Gestión de identidades y accesos
+    capability_index: "3.2"
+    requirement_index: 3.2.6
+    statement: Podría restringirse el acceso a determinadas redes o ubicaciones físicas.
+    guidance:
+      "Restringir el acceso a un conjunto de direcciones IP conocidas, estáticas, 
+      personales o institucionales puede ayudar a evitar ataques especulativos.\nCuando 
+      corresponda, el acceso también podría restringirse a ubicaciones físicas que cuenten 
+      con controles de seguridad y requisitos de acceso."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.1
+    statement: Debería existir un sistema que ayude a clasificar los resultados.
+    guidance:
+      "La extracción de datos de un TRE puede ser un proceso complejo, ya que existe la 
+      posibilidad de que se revelen datos sensibles.\nContar con directrices, procesos 
+      y métodos ayudará a garantizar que los resultados se clasifiquen correctamente y, 
+      además, que se identifiquen aquellos resultados destinados a publicarse 
+      abiertamente.\nFomentar la publicación abierta de resultados aumentará el impacto 
+      y la transparencia del TRE."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.2
+    statement: Deberían definirse desde el inicio los resultados previstos de cada proyecto.
+    guidance:
+      "Identificar el propósito de un trabajo es importante para el cumplimiento  de la 
+      legislación de protección de datos.\nSe generarán resultados que respondan al propósito 
+      del proyecto, algunos de los cuales pueden ser resultados que se extraigan del 
+      TRE.\n Comprender lo antes posible cuáles serán estos resultados y su nivel de 
+      sensibilidad ayudará a prepararse para su tratamiento y publicación."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.3
+    statement: Debe existir un proceso documentado para el control de divulgación de 
+      los resultados procedentes del TRE..
+    guidance:
+      "Este proceso debería definir los riesgos esperados y cómo mitigarlos.\nTodos los 
+      resultados del TRE deben someterse a este proceso.\nPuede optarse por seguir 
+      directrices existentes, por ejemplo, en materia de control de divulgación 
+      estadística (SDC)."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.4
+    statement: Debe existir un proceso para asignar responsabilidades en la revisión
+      de los resultados.
+    guidance:
+      "Las personas encargadas de la revisión de resultados deben asumir la responsabilidad
+       de dicha revisión.\n Deben seguir el proceso de control de divulgación y serán 
+       responsables de cualquier componente automatizado de este proceso.\nLa revisión de 
+       resultados puede ayudar a mitigar la divulgación o filtración involuntaria de datos."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.5
+    statement: YDebe existir una política documentada para la gestión de los riesgos de 
+      divulgación asociados a aquellos resultados que no puedan revisarse manualmente.
+    guidance:
+      "Algunas categorías de resultados, por ejemplo, archivos binarios o archivos numéricos 
+      de gran tamaño, pueden ser difíciles de revisar manualmente.\nSi se permite la salida 
+      de este tipo de archivos, deben mitigarse y documentarse los riesgos de divulgación 
+      involuntaria.\nNegarse a permitir la salida de este tipo de archivos también constituye 
+      una decisión válida en materia de política."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.6
+    statement: Debería existir una base estadística que guíe las decisiones de quienes 
+      revisan los resultados en relación con la seguridad de estos.
+    guidance: Debe existir una base sólida que permita tomar decisiones sobre los datos 
+      basadas en factores de riesgo, como la reidentificación de una persona o el riesgo 
+      para las operaciones comerciales que puedan suponer los resultados del TRE.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.7
+    statement: Podría crearse un sistema semiautomatizado para la revisión de resultados 
+      de investigación habituales.
+    guidance:
+      "La automatización ayuda a que las decisiones sobre los resultados sean más coherentes 
+      y reduce la carga de trabajo de quienes realizan la revisión.\nNo obstante, es poco 
+      probable que un sistema de revisión de resultados totalmente automatizado (sin 
+      intervención humana) sea adecuado, dadas las consecuencias asociadas a la divulgación 
+      accidental de datos.»"
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Gestión de resultados
+    capability_index: "3.3"
+    requirement_index: 3.3.8
+    statement: Los resultados del TRE deberían limitarse al mínimo necesario para compartir 
+      los resultados de cualquier análisis.
+    guidance: Esto reduce el riesgo de divulgación involuntaria y facilita el cumplimiento 
+      de la legislación de protección de datos (p. ej., GDPR).
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
+  - pillar: Gestión de datos
+    capability: Búsqueda y descubrimiento de información
+    capability_index: "3.4"
+    requirement_index: 3.4.1
+    statement: YDebería proporcionarse a los usuarios un catálogo de metadatos de los 
+      conjuntos de datos disponibles.
+    guidance:
+      "Esto resulta especialmente relevante para los TRE que cuentan con recopilaciones de 
+      datos a nivel poblacional de interés general.\nEsto puede no ser apropiado para TRE 
+      en los que cada proyecto tiene su propio acuerdo de intercambio de datos con uno o más 
+      proveedores de datos o que manejan conjuntos de datos muy sensibles."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-176cdec84e4c4db59c8d9ac973c1b857
+  - pillar: Gestión de datos
+    capability: Niveles de seguridad y jerarquización
+    capability_index: "3.5"
+    requirement_index: 3.5.1
+    statement: Debe poder especificarse qué categorías de datos es capaz de admitir el TRE.
+    guidance:
+      "El TRE debe proporcionar una explicación de los tipos de datos para los que ha sido 
+      diseñado, con referencia a sus capacidades de seguridad, de forma que pueda ser 
+      comprendida por todas las partes interesadas.\nLas partes interesadas pertinentes 
+      pueden incluir a los propietarios de los activos de información y a los equipos de 
+      proyecto, y pueden tener distintos niveles de conocimientos técnicos."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
+  - pillar: Gestión de datos
+    capability: Niveles de seguridad y jerarquización
+    capability_index: "3.5"
+    requirement_index: 3.5.2
+    statement: El TRE podría admitir proyectos con distintos requisitos de seguridad mediante 
+      controles de seguridad configurables.
+    guidance:
+      "Esto permite que los proyectos con diferentes requisitos de seguridad se aborden con 
+      un nivel de controles adecuado.\nEsto ayuda a garantizar que los usuarios puedan 
+      trabajar de forma eficaz, con barreras mínimas."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
+  - pillar: Gestión de datos
+    capability: Niveles de seguridad y jerarquización
+    capability_index: "3.5"
+    requirement_index: 3.5.3
+    statement: El TRE podría ofrecer un conjunto predefinido de niveles de control de seguridad.
+    guidance:
+      "Los niveles de control de seguridad pueden diseñarse para cubrir los tipos de 
+      proyectos o datos que se espera gestionar.\nLos proyectos pueden asignarse al nivel 
+      más adecuado en lugar de contar con un diseño específico.\nEsto reduce el número de 
+      configuraciones únicas que deben mantenerse."
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
+  - pillar: Gestión de datos
+    capability: Metadatos de investigación
+    capability_index: "3.6"
+    requirement_index: 3.6.1
+    statement: Debería existir un modelo de metadatos coherente y de fácil acceso, u 
+      otro equivalente, para describir el contenido de un activo de datos.
+    guidance:
+      "Cuando sea posible, deberían utilizarse modelos de datos existentes (y ampliarse, 
+      si fuese necesario).\nTambién debería proporcionarse información más detallada sobre 
+      el esquema de datos de los activos de datos para ayudar a los investigadores a 
+      comprender qué datos pueden estar disponibles sin necesidad de acceder a los datos 
+      subyacentes."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
+  - pillar: Gestión de datos
+    capability: Metadatos de investigación
+    capability_index: "3.6"
+    requirement_index: 3.6.2
+    statement: Podrían proporcionarse a los investigadores datos resumidos, abstraídos o 
+      sintéticos sin exponer el conjunto de datos subyacente.
+    guidance: Para reducir la necesidad de acceso a datos a nivel de registro, podrían 
+      proporcionarse a los investigadores versiones no sensibles de los datos, ya sea como 
+      datos resumidos o mediante versiones sintéticas de los datos, para actividades como 
+      el desarrollo de código y la planificación de cohortes.
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
+  - pillar: Gestión de datos
+    capability: Aplicación de búsqueda y descubrimiento de metadatos
+    capability_index: "3.7"
+    requirement_index: 3.7.1
+    statement: Podría proporcionarse una aplicación de interfaz para que los consumidores 
+      de datos y los sujetos de los datos consulten elementos de los datos.
+    guidance: Con el fin de que los datos sean localizables, una aplicación que consulte 
+      los metadatos o elementos de los datos de investigación podría hacerse más fácilmente 
+      accesible que los propios datos.
+    importance: Opcional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-e02301f9b1314503934a377bf5642b15
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.8"
+    requirement_index: 3.8.1
+    statement: Los datos archivados dentro del TRE deberían ser de solo lectura.
+    guidance:
+      "Por su propia naturaleza, los datos archivados no deberían cambiar y, por lo tanto, 
+      deberían mantenerse como un repositorio de solo lectura.\nSi se requiere una 
+      actualización, los datos pueden extraerse del archivo y trasladarse a un repositorio 
+      operativo independiente."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-3fe25645d78645b7a5edef1e8234b769
+  - pillar: Gestión de datos
+    capability: Gestión del ciclo de vida de los datos
+    capability_index: "3.8"
+    requirement_index: 3.8.2
+    statement: Los archivos a largo plazo deben conservarse en formatos simples y estándar 
+      para garantizar la accesibilidad.
+    guidance:
+      "Algunos archivos de datos pueden estar sujetos, por política o por legislación, 
+      a conservarse durante períodos muy prolongados dentro del ámbito del TRE.\nDichos 
+      datos deberían mantenerse en el formato de archivo más simple posible y, cuando existan, 
+      conforme a normas internacionales, a fin de garantizar que sean independientes de la 
+      plataforma y de las aplicaciones.»"
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-3fe25645d78645b7a5edef1e8234b769
+  - pillar: Capacidades de apoyo
+    capability: Continuidad del negocio
+    capability_index: "4.1"
+    requirement_index: 4.1.1
+    statement: Debería existir un plan de continuidad del negocio (Business Continuity) 
+      que incluya la consideración de la pérdida de servicio para los TRE desplegados.
+    guidance:
+      "Esto puede deberse a interrupciones del servicio por parte de proveedores, a una 
+      brecha de seguridad o a la pérdida de suministro eléctrico.\nEl plan debería detallar 
+      el proceso para gestionar la pérdida de servicio en TRE desplegados y la evaluación 
+      del impacto de dicha pérdida."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6936
+  - pillar: Capacidades de apoyo
+    capability: Continuidad del negocio
+    capability_index: "4.1"
+    requirement_index: 4.1.2
+    statement: Deberían probarse periódicamente los aspectos del plan de continuidad 
+      del negocio relacionados con los TRE, y debería existir un proceso para revisar 
+      e iterar el plan cuando sea necesario.
+    guidance:
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6936
+  - pillar: Capacidades de apoyo
+    capability: Gestión de proyectos y programas
+    capability_index: "4.2"
+    requirement_index: 4.2.1
+    statement: Debería garantizarse que todos los proyectos que utilicen el TRE cuenten 
+      con un gestor de proyecto designado.
+    guidance:
+      "El gestor de proyecto es responsable de garantizar el correcto desarrollo del 
+      proyecto.\nSus responsabilidades pueden incluir la gestión del presupuesto, el 
+      seguimiento del estado del TRE, la gestión de las comunicaciones con el equipo de 
+      operaciones del TRE y otras tareas de apoyo al proyecto."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6938
+  - pillar: Capacidades de apoyo
+    capability: Gestión de proyectos y programas
+    capability_index: "4.2"
+    requirement_index: 4.2.2
+    statement: No debería concederse a los gestores de proyecto acceso directo al TRE.
+    guidance: Esto garantiza una separación entre quienes pueden acceder a datos 
+      sensibles y quienes supervisan el acceso a dichos datos.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6938
+  - pillar: Capacidades de apoyo
+    capability: Gestión del conocimiento
+    capability_index: "4.3"
+    requirement_index: 4.3.1
+    statement: Deben documentarse todas las funcionalidades de la implementación del TRE.
+    guidance: Esto incluye garantizar que toda la documentación sea localizable, clara 
+      y susceptible de actualizarse fácilmente en función de los comentarios de las partes 
+      interesadas.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
+  - pillar: Capacidades de apoyo
+    capability: Gestión del conocimiento
+    capability_index: "4.3"
+    requirement_index: 4.3.2
+    statement: Debería existir un programa de formación para desarrollar las capacidades 
+      de las partes interesadas en el uso y la gestión del TRE.
+    guidance: Esto puede incluir módulos de aprendizaje, talleres y otros recursos sobre 
+      cómo acceder y utilizar eficazmente un TRE, páginas de preguntas frecuentes y vías 
+      accesibles para obtener apoyo adicional.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
+  - pillar: Capacidades de apoyo
+    capability: Gestión del conocimiento
+    capability_index: "4.3"
+    requirement_index: 4.3.3
+    statement: Debería realizarse periódicamente un análisis de necesidades de formación
+      (TNA, por sus siglas en inglés) para todas las partes interesadas incluidas en 
+      la provisión del TRE. 
+    guidance: Al menos una vez cada 12 meses, deberían evaluarse las necesidades de 
+      formación de las partes interesadas y garantizarse que tengan acceso fácil a todos 
+      los materiales de formación necesarios.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
+  - pillar: Capacidades de apoyo
+    capability: Gestión financiera
+    capability_index: "4.4"
+    requirement_index: 4.4.1
+    statement: Debe garantizarse que todos los proyectos que utilicen el TRE conozcan 
+      los costos asociados y estén en condiciones de pagarlos y dispuestos a hacerlo.
+    guidance: Los costos pueden incluir la provisión de la infraestructura subyacente 
+      del TRE, los recursos adicionales necesarios en un TRE específico (por ejemplo, 
+      memoria o capacidad de cómputo adicional), el hardware, incluidos los dispositivos 
+      gestionados, y los costos de soporte del personal.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
+  - pillar: Capacidades de apoyo
+    capability: Gestión financiera
+    capability_index: "4.4"
+    requirement_index: 4.4.2
+    statement: Debería ser posible realizar un seguimiento de los costos asociados a cada 
+      proyecto del TRE.
+    guidance: Esto incluye conocer qué costos están asociados a cada proyecto y contar 
+      con un mecanismo de facturación adecuado, en consonancia con la política 
+      organizacional.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
+  - pillar: Capacidades de apoyo
+    capability: Gestión financiera
+    capability_index: "4.4"
+    requirement_index: 4.4.3
+    statement: Debería existir un proceso para garantizar que la provisión del TRE sea 
+      financieramente sostenible.
+    guidance:
+      "Esto puede incluir la existencia de un proceso de recuperación de costos o el 
+      establecimiento de un mecanismo de financiación a largo plazo para apoyar proyectos 
+      que utilicen TRE.\nEn cualquier momento, deberían existir fondos disponibles para 
+      cubrir toda la provisión prevista del TRE durante al menos 12 meses.  "
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
+  - pillar: Capacidades de apoyo
+    capability: Gestión financiera
+    capability_index: "4.4"
+    requirement_index: 4.4.4
+    statement: Deberían minimizarse los costos de la infraestructura del TRE siempre que 
+      sea posible.
+    guidance: Deberían realizarse revisiones periódicas de la provisión del TRE y 
+      trabajar activamente para reducir costos, optimizar la provisión y racionalizar 
+      el soporte.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
+  - pillar: Capacidades de apoyo
+    capability: Adquisiciones
+    capability_index: "4.5"
+    requirement_index: 4.5.1
+    statement: Deben identificarse los bienes o servicios necesarios para operar 
+      el TRE y garantizar que exista un plan para adquirirlos según sea necesario.
+    guidance: Estos pueden incluir hardware informático, créditos de servicios en 
+      la nube o dispositivos a través de los cuales los usuarios acceden al TRE.
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6947
+  - pillar: Capacidades de apoyo
+    capability: Gestión de servicios de TI
+    capability_index: "4.6"
+    requirement_index: 4.6.1
+    statement: El TRE debe contar con un equipo de operadores para dar soporte a los 
+      proyectos que trabajan con TRE.
+    guidance:
+      "Este equipo puede formar parte del equipo de soporte de TI de la organización o 
+      bien ser independiente.\nLas responsabilidades deben estar claramente definidas y 
+      las partes interesadas deben poder acceder fácilmente al soporte adecuado a sus 
+      necesidades."
+    importance: Obligatorio
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6948
+  - pillar: Capacidades de apoyo
+    capability: Gestión de relaciones
+    capability_index: "4.7"
+    requirement_index: 4.7.1
+    statement: Debería existir un proceso claro para que las partes interesadas 
+      proporcionen retroalimentación sobre la infraestructura del TRE.
+    guidance: Esto puede incluir un repositorio en GitHub donde se puedan abrir 
+      incidencias y debates, canales de comunicación como Slack o correo electrónico, 
+      o formularios que las partes interesadas puedan completar.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6949
+  - pillar: Capacidades de apoyo
+    capability: Participación e implicación del público
+    capability_index: "4.8"
+    requirement_index: 4.8.1
+    statement: Todas las actividades de participación pública deben incluir una 
+      diversidad de perspectivas y ser inclusivas (*opcional para TRE sin datos personales).
+    guidance:
+      "Cualquier actividad de participación pública llevada a cabo por TRE debería 
+      involucrar a participantes diversos y garantizar que las actividades sean 
+      accesibles.\nLos planes de captación deberían considerar cómo llegar de forma 
+      proactiva a una muestra representativa de personas o dirigirse a grupos específicos 
+      cuando sea pertinente.\nEsto puede incluir el seguimiento de directrices como PEDRI 
+      (Public Engagement in Data Research Initiative [Iniciativa de participación pública 
+      en la investigación de datos])."
+    importance: Obligatorio*
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
+  - pillar: Capacidades de apoyo
+    capability: Participación e implicación del público
+    capability_index: "4.8"
+    requirement_index: 4.8.2
+    statement: Los detalles sobre las operaciones del TRE, los datos disponibles y 
+      los proyectos que hayan accedido a los datos deberían estar disponibles 
+      públicamente (*opcional para TRE sin datos personales).
+    guidance:
+      "Los TRE deberían ser lo más transparentes posible proporcionando información en 
+      línea.\nCuando la información se ponga a disposición en línea, debería redactarse 
+      en un lenguaje claro y comprensible para el público general.\nDebe mantenerse y 
+      ponerse a disposición un registro de los proyectos que hayan accedido a los datos a 
+      través del TRE.\nCuando sea posible, dicho registro debería incluir el nombre, 
+      resúmenes, el beneficio público (si corresponde) y las organizaciones involucradas."
+    importance: Obligatorio*
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
+  - pillar: Capacidades de apoyo
+    capability: Participación e implicación del público
+    capability_index: "4.8"
+    requirement_index: 4.8.3
+    statement: Los miembros del público deberían incluirse en las operaciones del TRE 
+      o en su supervisión (*opcional para TRE sin datos personales).
+    guidance:
+      "Los miembros del público pueden participar mediante su presencia en grupos 
+      directivos o en paneles de aprobación de proyectos.\nAlternativamente, los 
+      TRE pueden establecer paneles públicos independientes a disposición tanto de 
+      investigadores como del personal del TRE para su consulta."
+    importance: Obligatorio*
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
+  - pillar: Capacidades de apoyo
+    capability: Participación e implicación del público
+    capability_index: "4.8"
+    requirement_index: 4.8.4
+    statement: Deberían compartirse públicamente, de manera oportuna, los detalles de 
+      los incidentes, los cuasi incidentes y las medidas de mitigación, de conformidad 
+      con las buenas prácticas de divulgación responsable.
+    guidance:
+      "Esto puede hacerse a través del sitio web del TRE o de informes anuales.\nCompartir 
+      esta información es particularmente importante cuando un TRE aloja datos del sector 
+      público."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
+  - pillar: Capacidades de apoyo
+    capability: Servicios jurídicos
+    capability_index: "4.9"
+    requirement_index: 4.9.1
+    statement: Deberían identificarse las áreas en las que puede requerirse asesoramiento 
+      jurídico y garantizar que exista un acceso ágil a dicho asesoramiento.
+    guidance:
+      "Es probable que se necesite asesoramiento jurídico para diversas cuestiones 
+      relacionadas con el tratamiento de datos sensibles y la gestión de contratos de 
+      proyectos.\nLos operadores del TRE deberían tener acceso directo a asesoramiento 
+      jurídico, incluida una vía para solicitar dicho asesoramiento y llevar a cabo las 
+      acciones asociadas."
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
+  - pillar: Capacidades de apoyo
+    capability: Servicios jurídicos
+    capability_index: "4.9"
+    requirement_index: 4.9.2
+    statement: Deberían identificarse las áreas en las que puede requerirse asesoramiento 
+      en materia de protección de datos y garantizar que exista un acceso ágil a dicho 
+      asesoramiento.
+    guidance: Es probable que se necesite asesoramiento en protección de datos para 
+      diversas cuestiones relacionadas con el tratamiento de datos sensibles.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
+  - pillar: Capacidades de apoyo
+    capability: Servicios jurídicos
+    capability_index: "4.9"
+    requirement_index: 4.9.3
+    statement: Debería identificarse quién será responsable de la gestión de los contratos 
+      relacionados con el TRE.
+    guidance: Estos contratos pueden incluir acuerdos de intercambio de datos, comisiones 
+      de servicio de personal o limitaciones sobre la forma en que pueden distribuirse los 
+      resultados obtenidos a partir de los datos.
+    importance: Recomendado
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954

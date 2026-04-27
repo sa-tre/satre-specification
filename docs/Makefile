@@ -5,8 +5,8 @@
 # from the environment for the first two.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = source
-BUILDDIR      = build
+SOURCEDIR     ?= source
+BUILDDIR      ?= build
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -22,13 +22,13 @@ help:
 # satrecsv is written to build/satrecsv and not READTHEDOCS_OUTPUT
 # because it's run by us in build.jobs.pre_build, not by readthedocs
 satrecsv-copy: satrecsv
-	cp -f build/satrecsv/satre.xlsx generated/
+	cp -f $(BUILDDIR)/satrecsv/satre.xlsx $(BUILDDIR)/../generated/
 
 html: Makefile satrecsv-copy
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # If READTHEDOCS_OUTPUT is not set default to build
-OUTPUT_DIR := $(if $(READTHEDOCS_OUTPUT),$(READTHEDOCS_OUTPUT),build)
+OUTPUT_DIR := $(if $(READTHEDOCS_OUTPUT),$(READTHEDOCS_OUTPUT),$(BUILDDIR))
 # satre.xls is excluded from linkcheck, so check that it was copied to build/html
 check-satrecsv:
 	if [ ! -f "$(OUTPUT_DIR)/html/satre.xlsx" ]; then echo "ERROR: $(OUTPUT_DIR)/html/satre.xlsx not found"; exit 1; fi

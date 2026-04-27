@@ -46,7 +46,7 @@ specification:
   - pillar: Information governance
     capability: Quality Management
     capability_index: "1.2"
-    requirement_index: 1.1.2
+    requirement_index: 1.2.2
     statement: You must use versioning and a codified change procedure for all
       policies and standard operating procedures.
     guidance: This includes recording dates of changes, person responsible for

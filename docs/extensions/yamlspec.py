@@ -2,20 +2,27 @@ import os
 import re
 import yaml
 from docutils import nodes
+from docutils.parsers.rst import directives
 from docutils.statemachine import ViewList
 from sphinx.util.docutils import SphinxDirective
 from pathlib import Path
+
+#DO NOT SET UP LANGUAGE HERE
+#For each language create a new directory
+#Then create a new config.py file in it
+# in the config file set the language using the correct code
+# and change the COLUMNS accordingly
 
 # Define the columns and their proportional widths for the table
 # Format: (field_name, width, display_name)
 # Note: pillar column removed as it will be shown as section headings
 # Statement and guidance columns have equal width for balance
 COLUMNS = [
-    ("requirement_index", 4, "SATRE Ref"),
-    ("capability", 12, None),
-    ("statement", 38, None),
-    ("guidance", 38, None),
-    ("importance", 8, None),
+    ("requirement_index", 10, "SATRE Ref"),
+    ("capability", 16, None),
+    ("statement", 27, None),
+    ("guidance", 30, None),
+    ("importance", 17, None),
 ]
 
 
@@ -23,16 +30,37 @@ class YamlSpecDirective(SphinxDirective):
     """
     Sphinx directive to read a YAML specification file and render it as a table.
     Usage:
-        .. yaml-specification:: path/to/spec.yaml
+        ```{yaml-specification} spec/specification.yaml
+        :columns: [["field", 10, "Name"], ["other", 20, None]]
+        ```
     """
 
     # The directive requires exactly one argument: the filename
     required_arguments = 1
     has_content = False
 
+    # Define the option_spec to allow 'columns'
+    option_spec = {
+        'columns': directives.unchanged,
+    }
+
     def run(self):
         # 1. Resolve File Path
         yaml_filename = self.arguments[0]
+
+        # 2. Handle Columns
+        active_columns = COLUMNS
+        if 'columns' in self.options:
+            try:
+                # Parse the string provided in the directive options
+                custom_cols = yaml.safe_load(self.options['columns'])
+                if isinstance(custom_cols, list):
+                    active_columns = custom_cols
+                else:
+                    raise ValueError("Columns option must be a list of lists.")
+            except Exception as e:
+                error_msg = f"Error parsing 'columns' option in {self.env.docname}: {e}"
+                return [nodes.error("", nodes.paragraph(text=error_msg))]
 
         # Use env.relfn2path to robustly resolve the path relative to the current
         # document (self.env.docname).
@@ -103,17 +131,17 @@ class YamlSpecDirective(SphinxDirective):
 
             # Create table for this pillar
             table = nodes.table(classes=["spec-table", "colwidths-given"])
-            tgroup = nodes.tgroup(cols=len(COLUMNS))
+            tgroup = nodes.tgroup(cols=len(active_columns))
             table += tgroup
 
             # Add column specifications (colspec)
-            for _, width, _ in COLUMNS:
+            for _, width, _ in active_columns:
                 tgroup += nodes.colspec(colwidth=width)
 
             # Table Header (thead)
             thead = nodes.thead()
             header_row = nodes.row()
-            for field_name, _, display_name in COLUMNS:
+            for field_name, _, display_name in active_columns:
                 entry = nodes.entry(classes=["head"])
                 # Use custom display name if provided, otherwise format field name
                 header_text = (
@@ -131,7 +159,7 @@ class YamlSpecDirective(SphinxDirective):
 
             for item in pillar_items:
                 row = nodes.row()
-                for key, _, _ in COLUMNS:
+                for key, _, _ in active_columns:
                     entry = nodes.entry()
                     # Use .get() with empty string default to avoid KeyError
                     content_text = str(item.get(key, "") or "")

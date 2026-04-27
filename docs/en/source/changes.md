@@ -1,5 +1,9 @@
 # Changes
 
+## v1.1.1 - 2025-04-15
+
+- Added Spanish translation.
+
 ## v1.1.1 - 2025-10-01
 
 ### Alignment and Architecture
