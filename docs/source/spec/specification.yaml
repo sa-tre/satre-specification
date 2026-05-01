@@ -475,6 +475,60 @@ specification:
       record."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+  - pillar: Information governance
+    capability: Public Involvement and Engagement
+    capability_index: "1.7"
+    requirement_index: 1.7.01
+    statement: All public engagement activities must include a range of
+      perspectives and be inclusive (*optional for TREs without personal data).
+    guidance:
+      "Any public engagement activity carried out by TREs should involve diverse
+      participants and that activities are accessible.\nRecruitment plans should consider
+      how to proactively reach a representative sample of people or target particular
+      groups of people where relevant\nThis could include following guidelines such
+      as PEDRI."
+    importance: Mandatory*
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
+  - pillar: Information governance
+    capability: Public Involvement and Engagement
+    capability_index: "1.7"
+    requirement_index: 1.7.02
+    statement: Details of TRE operations, data available and projects which have
+      accessed the data should be publicly available (*optional for TREs without
+      personal data).
+    guidance:
+      "TREs should be as transparent as possible by providing information
+      online.\nWhere information is made available online this should be written in
+      clear language understandable to general public.\nA record of projects which
+      have accessed data via the TRE should be kept and made available.\nWhere possible
+      it should include name, summaries, public benefit (if relevant) and organisations
+      involved"
+    importance: Mandatory*
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
+  - pillar: Information governance
+    capability: Public Involvement and Engagement
+    capability_index: "1.7"
+    requirement_index: 1.7.03
+    statement: Members of the public should be included in TRE operations and/or
+      oversight (*optional for TREs without personal data).
+    guidance:
+      "Members of the public can be involved via presence on steering groups
+      or project approvals panels.\nAlternatively TRE's can establish separate public
+      panels available for both researchers and TRE staff to consult."
+    importance: Mandatory*
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
+  - pillar: Information governance
+    capability: Public Involvement and Engagement
+    capability_index: "1.7"
+    requirement_index: 1.7.04
+    statement: You should publicly share details of incidents, near misses, and
+      mitigations in a timely fashion, in line with good practices for
+      responsible disclosure.
+    guidance:
+      "This may be via the TRE website or annual reports.\nSharing this information
+      is particularly important when a TRE holds public sector data."
+    importance: Recommended
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Computing technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -1798,63 +1852,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6949
   - pillar: Supporting Capabilities
-    capability: Public Involvement and Engagement
+    capability: Legal Services
     capability_index: "4.8"
     requirement_index: 4.8.01
-    statement: All public engagement activities must include a range of
-      perspectives and be inclusive (*optional for TREs without personal data).
-    guidance:
-      "Any public engagement activity carried out by TREs should involve diverse
-      participants and that activities are accessible.\nRecruitment plans should consider
-      how to proactively reach a representative sample of people or target particular
-      groups of people where relevant\nThis could include following guidelines such
-      as PEDRI."
-    importance: Mandatory*
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
-  - pillar: Supporting Capabilities
-    capability: Public Involvement and Engagement
-    capability_index: "4.8"
-    requirement_index: 4.8.02
-    statement: Details of TRE operations, data available and projects which have
-      accessed the data should be publicly available (*optional for TREs without
-      personal data).
-    guidance:
-      "TREs should be as transparent as possible by providing information
-      online.\nWhere information is made available online this should be written in
-      clear language understandable to general public.\nA record of projects which
-      have accessed data via the TRE should be kept and made available.\nWhere possible
-      it should include name, summaries, public benefit (if relevant) and organisations
-      involved"
-    importance: Mandatory*
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
-  - pillar: Supporting Capabilities
-    capability: Public Involvement and Engagement
-    capability_index: "4.8"
-    requirement_index: 4.8.03
-    statement: Members of the public should be included in TRE operations and/or
-      oversight (*optional for TREs without personal data).
-    guidance:
-      "Members of the public can be involved via presence on steering groups
-      or project approvals panels.\nAlternatively TRE’s can establish separate public
-      panels available for both researchers and TRE staff to consult."
-    importance: Mandatory*
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
-  - pillar: Supporting Capabilities
-    capability: Public Involvement and Engagement
-    capability_index: "4.8"
-    requirement_index: 4.8.04
-    statement: You should publicly share details of incidents, near misses, and
-      mitigations in a timely fashion, in line with good practices for
-      responsible disclosure.
-    guidance:
-      "This may be via the TRE website or annual reports.\nSharing this information
-      is particularly important when a TRE holds public sector data."
-    importance: Recommended
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
-  - pillar: Supporting Capabilities
-    capability: Legal Services
-    capability_index: "4.9"
-    requirement_index: 4.9.01
     statement: You should identify areas where legal advice may be required and
       ensure that you have ready access to it.
     guidance:
@@ -1866,8 +1866,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
   - pillar: Supporting Capabilities
     capability: Legal Services
-    capability_index: "4.9"
-    requirement_index: 4.9.02
+    capability_index: "4.8"
+    requirement_index: 4.8.02
     statement: You should identify areas where advice on data protection issues
       may be required and ensure that you have ready access to it.
     guidance: It is likely that data protection advice will be necessary for
@@ -1876,8 +1876,8 @@ specification:
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
   - pillar: Supporting Capabilities
     capability: Legal Services
-    capability_index: "4.9"
-    requirement_index: 4.9.03
+    capability_index: "4.8"
+    requirement_index: 4.8.03
     statement: You should identify who will be responsible for managing
       contracts related to the TRE.
     guidance: These contracts may include data sharing agreements, secondments
