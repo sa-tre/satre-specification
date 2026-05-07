@@ -76,8 +76,8 @@ html_theme_options = {
 html_logo = "../images/SATRE_Stacked_Dark.png"
 
 # Add custom CSS and JavaScript
-# html_static_path = ["_static"]
-# html_css_files = ["custom.css"]
+html_static_path = ["_static"]
+html_css_files = ["custom.css"]
 # html_js_files = ["custom.js"]
 
 # -- Options for EPUB output

@@ -71,11 +71,11 @@ Personal and sensitive data collected for operational, commercial, or government
 
 ## The SATRE Specification
 
-The [SATRE specification](specification.md) defines 160 requirements organized into capabilities that TREs should implement to ensure safe, secure, and effective research with sensitive data. Each requirement is classified as either Mandatory or Optional, providing flexibility while maintaining essential standards.
+The [SATRE specification](specification.md) defines requirements organized into capabilities that TREs should implement to ensure safe, secure, and effective research with sensitive data. Each requirement is classified as either Mandatory, Recommended, or Optional, providing flexibility while maintaining essential standards.
 
-The requirements are structured across four interconnected pillars.
+The core specification is structured across four interconnected pillars, with an additional fifth pillar for TREs wishing to federate.
 
-### Four Pillars of SATRE
+### Four Core Pillars of SATRE
 
 **1. [Information Governance](specification.md#information-governance)**
 Quality management, risk management, training delivery, member accreditation, and governance procedures that ensure TREs operate safely and ethically.<br>
@@ -85,6 +85,11 @@ End-user computing experience, infrastructure management, information security, 
 Data lifecycle management, identity and access management, output management, information discovery, and research metadata capabilities.<br>
 **4. [Supporting Capabilities](specification.md#supporting-capabilities)**
 Financial management, public engagement and involvement, project management, procurement, and other essential operational functions.
+
+### Federation Extension
+
+**5. [Federation](specification.md#federation)**
+An extension to the core SATRE specification for TREs wishing to operate as part of a federation. This pillar covers federation governance, member accreditation, study management, information security, infrastructure management, data management, and financial management across multiple federated TRE partners.
 
 ## The SATRE Architecture
 

@@ -1,6 +1,6 @@
 # The SATRE Specification
 
-The SATRE specification is organized into four core pillars that cover all aspects of TRE provision:
+The SATRE specification is organized into four core pillars that cover all aspects of TRE provision, with an additional fifth pillar for TREs wishing to federate.
 
 **Jump to a pillar:**
 
@@ -8,6 +8,7 @@ The SATRE specification is organized into four core pillars that cover all aspec
 - [Computing technology and Information Security](#computing-technology-and-information-security)
 - [Data management](#data-management)
 - [Supporting capabilities](#supporting-capabilities)
+- [Federation](#federation) _(extension for federated TREs)_
 
 ---
 
