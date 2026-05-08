@@ -9,7 +9,7 @@ specification:
       "Requirements will come from a variety of sources including legislation,
       contractual obligations and ethical standards.\nRequirements must be monitored
       to ensure the TRE controls remain appropriate."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
   - pillar: Information governance
     capability: Information Governance
@@ -19,7 +19,7 @@ specification:
       requirements are met.
     guidance: Control implementation should be systematic and directly aligned
       to the internal and stakeholder requirements.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
   - pillar: Information governance
     capability: Information Governance
@@ -30,7 +30,7 @@ specification:
     guidance: Ensuring information governance controls are suitable and enforced
       requires an investment of funding and people appropriate to the size of
       the TRE.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
   - pillar: Information governance
     capability: Quality Management
@@ -41,7 +41,7 @@ specification:
     guidance: It is important to ensure that policies and SOPs are relevant,
       up-to-date and carefully controlled to maintain the integrity and security
       of your TRE organisation.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -51,7 +51,7 @@ specification:
       policies and standard operating procedures.
     guidance: This includes recording dates of changes, person responsible for
       carrying out changes, and summary of changes.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -62,7 +62,7 @@ specification:
       management team.
     guidance: This may include reports and dashboards showing security
       incidents, quality management deviations and audit findings.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -73,7 +73,7 @@ specification:
     guidance: If you are publicly accredited against a standard, for instance
       ISO27001, DSPT, CE+ *etc.*, you must have processes in place to ensure you
       remain compliant.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -83,7 +83,7 @@ specification:
       organisation with the required bodies.
     guidance: This may include regulatory bodies or the organisations that
       manage accreditations you have.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -95,7 +95,7 @@ specification:
       "These should be included as mandatory, non-functional requirements
       in during procurement and contracting.\nThis will also include contractor staff
       contracts for example, legal liability and NDAs."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -108,7 +108,7 @@ specification:
       being delivered and quality management within the contractor’s organisation.\n\
       This may be done through formal audit or by monitoring change and quality documentation
       provided by the supplier."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -119,7 +119,7 @@ specification:
       "All physical assets should be maintained and covered by warranty if
       applicable.\nAt the end of their lifetime, assets should be securely disposed
       of in such a way that data cannot be recovered from them."
-    importance: Mandatory (where physical assets are in scope)
+    importance: MANDATORY (where physical assets are in scope)
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -129,7 +129,7 @@ specification:
       deviations from processes, incidents and audit findings.
     guidance: This process could, for example, be tracked through an electronic
       record and workflow system with records retained.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -139,7 +139,7 @@ specification:
       process improvement and risk management.
     guidance: All issues should be analysed for their root cause and
       improvements put in place to prevent further occurrence.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -152,7 +152,7 @@ specification:
       These data should be analysed with reports and dashboards provided to guide
       TRE implementer’s improvements and provide re-assurance to data consumers and
       data subjects."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
@@ -165,7 +165,7 @@ specification:
       "A basic QMS could be a set of spreadsheets or documents held in a repository
       which are manually maintained.\nMore mature applications will provide workflows
       and generate quality data through manual and automated actions."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Risk Management
@@ -175,7 +175,7 @@ specification:
       severity.
     guidance: You have a risk assessment methodology for scoring risks on
       multiple axes such as impact and likelihood.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
@@ -188,7 +188,7 @@ specification:
       arising out of the processing of sensitive data and to minimise these risks
       as far and as early as possible.\nThis may take the form of an existing regulatory
       requirements such as Data Protection Impact Assessment."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
@@ -198,7 +198,7 @@ specification:
       risk mitigations where indicated by a risk assessment.
     guidance: Actions that are taken or not taken following a risk assessment
       must be recorded.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
@@ -211,7 +211,7 @@ specification:
       organisation (see Governance Roles).\nIn order to ensure escalations to this
       level are rare, suitable structures should be put in place to own, mitigate
       and accept risk."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Risk Management
@@ -221,7 +221,7 @@ specification:
     guidance: This includes understanding ownership of risk, and ability to
       accept risk which falls outside of the appetite should that become
       necessary.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
     capability: Study Management
@@ -233,7 +233,7 @@ specification:
     guidance: This includes checks that contracts are in place where required,
       adequate funding is available for the duration of the project, and
       responsibilities concerning data handling are understood by all parties.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
@@ -245,7 +245,7 @@ specification:
       "This includes ensuring contracts remain in valid and action is promptly
       taken should they expire.\nAny changes in the status of responsible persons
       should also be monitored, for example a data owner leaving an organisation."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
@@ -254,7 +254,7 @@ specification:
     statement: You must have checks in place to ensure that changes in
       regulations are met for a project.
     guidance:
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
@@ -265,7 +265,7 @@ specification:
       practice.
     guidance: This includes the archiving of quality and log data along with the
       archiving or deletion of data sets.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
@@ -278,7 +278,7 @@ specification:
       as possible.\nWhere processes are automated, process maturity is easier to achieve,
       with more consistent completion and automatic production of quality control
       and monitoring data."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
@@ -292,7 +292,7 @@ specification:
       This would include ownership, data lifecycle, contracts, risk assessments and
       other quality data.\nThis is likely to already exist within the wider organisation
       but may require augmenting for the TRE."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Study Management
@@ -303,7 +303,7 @@ specification:
     guidance: The study register should contain all data related to a study
       including a reference to data assets, project team members, information
       asset owners and any compliance activities required.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Member Accreditation
@@ -312,7 +312,7 @@ specification:
     statement: You must have a robust method for identifying accredited members
       of your TRE organisation, prior to their accessing of sensitive data.
     guidance: This may include ID checks or email/phone verification.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
     capability: Member Accreditation
@@ -322,7 +322,7 @@ specification:
       within your TRE organisation.
     guidance: This may include all members signing role-specific terms of use or
       confirming that they have completed role specific training.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
     capability: Member Accreditation
@@ -332,7 +332,7 @@ specification:
       based on identity.
     guidance: This will include a security model for role based access with
       technical controls to ensure the principle of least privilege is enforced.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
     capability: Member Accreditation
@@ -341,7 +341,7 @@ specification:
     statement: You must not give anyone access to datasets without agreement
       from the Data Controller.
     guidance: The Data Controller may choose to delegate this authority.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
     capability: Member Accreditation
@@ -352,7 +352,7 @@ specification:
     guidance: The number of authentication applications should be kept to a
       minimum with common controls and standards applied across all such as MFA,
       password complexity *etc.*.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
     capability: Member Accreditation
@@ -364,7 +364,7 @@ specification:
       "The unique identifier and all associated records for a user should
       be traceable across the entire TRE.\nThis will include training records, affiliations,
       contract agreements and ethics approvals where required."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -378,7 +378,7 @@ specification:
       to need more tailored training.\nIdentification of these specialities should
       be done through a systematic training needs analysis.\nSpecific training may
       also be required based on the data or information asset owner such as GCP."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -391,7 +391,7 @@ specification:
       and keep their training current.\nYou may need to provide help or guidance to
       enable them to do so.\nDetails of what training is needed will have been determined
       above."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -404,7 +404,7 @@ specification:
       training should be considered.\nIdeally, training should remain relevant and
       so policies and processes should enable people to demonstrate competency rather
       than unnecessarily repeating training."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -416,7 +416,7 @@ specification:
       "Training records should be tied to a user record and carefully maintained.\n\
       Maintaining training records enables you to ensure all people have completed
       the required training and that repeat training happens regularly."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -426,7 +426,7 @@ specification:
       trusted third parties.
     guidance: You might choose to trust certifications provided by known
       training providers or your institution’s partner organisations.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -438,7 +438,7 @@ specification:
       "This could be a simple content delivery platform or a more comprehensive
       LMS platform.\nIt could also include a range of multimedia delivery formats,
       and accessible training modules for those with access requirements."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -448,7 +448,7 @@ specification:
       courses and deliver training as required.
     guidance: Where possible an LMS should support a variety of course content
       and testing.
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -460,7 +460,7 @@ specification:
       "Support for standard formats such as SCORM allows courses to be shared
       between providers.\nThis could help facilitate standardisation of training provision
       for TRE users across organisations."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Training Management and Delivery
@@ -473,7 +473,7 @@ specification:
       records, *e.g.* for clinical trials.\nIt may be necessary to retain copies of
       superseded training along with versions of certifications within the training
       record."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
     capability: Public Involvement and Engagement
@@ -487,7 +487,7 @@ specification:
       how to proactively reach a representative sample of people or target particular
       groups of people where relevant\nThis could include following guidelines such
       as PEDRI."
-    importance: Mandatory*
+    importance: MANDATORY*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
     capability: Public Involvement and Engagement
@@ -503,7 +503,7 @@ specification:
       have accessed data via the TRE should be kept and made available.\nWhere possible
       it should include name, summaries, public benefit (if relevant) and organisations
       involved"
-    importance: Mandatory*
+    importance: MANDATORY*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
     capability: Public Involvement and Engagement
@@ -515,7 +515,7 @@ specification:
       "Members of the public can be involved via presence on steering groups
       or project approvals panels.\nAlternatively TRE's can establish separate public
       panels available for both researchers and TRE staff to consult."
-    importance: Mandatory*
+    importance: MANDATORY*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
     capability: Public Involvement and Engagement
@@ -527,7 +527,7 @@ specification:
     guidance:
       "This may be via the TRE website or annual reports.\nSharing this information
       is particularly important when a TRE holds public sector data."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -540,7 +540,7 @@ specification:
       using the system clipboard.\nA TRE may allow user to paste text into a workspace.\n\
       This might not be relevant to your TRE, for example if your user interface does
       not have a clipboard."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -553,7 +553,7 @@ specification:
       interfaces such as JupyterLab and other web applications, or a terminal.\nBespoke
       TRE-specific software should be avoided when widely used alternatives already
       exist."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -563,7 +563,7 @@ specification:
       provide an interface for submitting code.
     guidance: For example, you might use a system where users submit jobs that
       run over the data and return results without allowing direct data access.
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -575,7 +575,7 @@ specification:
       "TREs which allow users to connect from their own devices should not
       require the installation of any bespoke TRE application on the user’s device.\n\
       In practice a web browser is the most common way to achieve this."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -589,7 +589,7 @@ specification:
       where the analysis code is developed on the access machine (as oppose to within
       the TRE) should provide documentation detailing the mechanism by which code
       is submitted to the TRE."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -599,7 +599,7 @@ specification:
       related updates for user software.
     guidance: Reducing the risk of exploitable vulnerabilities in installed
       software will increase the security of your TRE.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -611,7 +611,7 @@ specification:
       "This may include shared file storage, databases, collaborative writing,
       and other web applications.\nThis must only be shared amongst users within the
       same project."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -623,7 +623,7 @@ specification:
       "Poorly designed shared services could enable the unintended mixing
       of data between projects.\nTo prevent this it is necessary that each instance
       is only shared between users of a single project."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -635,7 +635,7 @@ specification:
       "For example, some licenced commercial software must contact an external
       licensing server at start-up.\nYou must be confident that only licensing information
       is sent to this server and that any network connections are secure."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -653,7 +653,7 @@ specification:
       for the data consumers needs when interacting with the data, for example “point
       and click” GUI tools for querying a database and generating plots of data.\n\
       The set of tools should be reviewed regularly to ensure they are up to date."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -666,7 +666,7 @@ specification:
       of how data has been used, as well as being best-practice in research.\nThis
       may include version control software, and tools for developing and running data
       analysis pipelines."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -676,7 +676,7 @@ specification:
       repositories or container registries.
     guidance: For example, a TRE may allow direct installation of packages from
       Python or R repositories, or provide an internal mirror.
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -688,7 +688,7 @@ specification:
       of approved packages.\nYou might also choose to scan for malicious packages
       and/or go through an approval process before allowing code into the technical
       environment."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -702,7 +702,7 @@ specification:
       using physical compute resources, all sensitive data could be securely wiped
       before another user is given access to that same node.\nIn a cloud hosted TRE
       virtual machines could be destroyed and recreated."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -715,7 +715,7 @@ specification:
       it should provide access to dynamically scalable compute or the equivalent.\n\
       For example this may be in the form of a batch scheduler on a HPC cluster, or
       a dynamically created compute nodes on a cloud platform."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -727,7 +727,7 @@ specification:
       "GPUs and other accelerators are commonly used in machine learning and
       other computationally intensive research.\nTREs should make it clear to users
       whether GPUs and other resources are available whilst projects are being assessed."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -740,7 +740,7 @@ specification:
       project.\nIf shared (multi-tenant) database servers are used, database administrators
       must ensure that the database server enforces segregation of users and databases
       belonging to different projects."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: End User Computing
@@ -752,7 +752,7 @@ specification:
       "For example, Spark and Hadoop can be used for distributed computing
       across a cluster.\nThis may be an advantage where a TRE is using an amount of
       data that is too large for single-machine computing to be practical."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -762,7 +762,7 @@ specification:
       infrastructure.
     guidance: This might, for instance, be a handbook that is followed or a set
       of automated scripts.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -772,7 +772,7 @@ specification:
       your deployment.
     guidance: This might involve using infrastructure-as-code tools or a series
       of scripts.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -784,7 +784,7 @@ specification:
       "This refers both to changes that might be expected in the course of
       normal operation and emergency changes that might be needed.\nYour change management
       process may form part of a wider accreditation such as ISO 27001."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -793,7 +793,7 @@ specification:
     statement: You must test changes before they are used in production.
     guidance: This might involve a separate development environment or another
       system for testing.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -806,7 +806,7 @@ specification:
       "If possible, you should automate application of changes between development
       and production environments.\nConsider the costs and practicality of whether
       this will work for your situation."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -817,7 +817,7 @@ specification:
     guidance: Removing unused infrastructure not only reduces costs and
       management burden but also reduces the attack surface of a TRE and reduces
       the risk of unaddressed vulnerabilities.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -829,7 +829,7 @@ specification:
       "For remote TREs this might include your cloud provider(s) and/or data
       centre operators.\nFor on-premises TREs, it might be worth using an uninterruptable
       power supply (UPS) and planning how you would deal with internet outages."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -839,7 +839,7 @@ specification:
       this with your users.
     guidance: Understanding how and when the TRE might be unavailable will help
       your projects in planning their work.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -852,7 +852,7 @@ specification:
       "Network infrastructure must prevent unauthorised access to resources
       on the network.\nThis may include firewalls, network segmentation, and restricting
       connections to the network."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -862,7 +862,7 @@ specification:
       projects, or with access to different datasets.
     guidance: Connectivity between users in the same project may be allowed, for
       example to support shared network services within the project.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -871,7 +871,7 @@ specification:
     statement: Your TRE must block outbound connections to the internet by
       default.
     guidance: Limited outbound connectivity may be allowed for some services.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -881,7 +881,7 @@ specification:
       TRE to check for misconfigurations and vulnerabilities.
     guidance: This may include regular vulnerability scanning, and penetration
       testing.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -891,7 +891,7 @@ specification:
       TRE to check for misconfigurations and vulnerabilities.
     guidance: This will involve following the monitoring procedure detailed
       above.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -900,7 +900,7 @@ specification:
     statement: Your TRE must record usage data.
     guidance: This may include the number of users, number of projects, the
       amount of data stored, number of datasets, the number of workspaces, etc.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -910,7 +910,7 @@ specification:
       who.
     guidance: This helps maintain auditability of how sensitive data has been
       used.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
@@ -920,7 +920,7 @@ specification:
       or aggregate level.
     guidance: This is useful for optimising allocation of resources, and
       managing costs.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
   - pillar: Computing technology and Information Security
     capability: Capacity Management
@@ -933,7 +933,7 @@ specification:
       for cloud-based systems there might be limits on how many instances of a particular
       resource (*e.g.* GPUs) can be used\nProjects should use this information to
       understand whether the available resources will be sufficient for their requirements."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
   - pillar: Computing technology and Information Security
     capability: Capacity Management
@@ -944,7 +944,7 @@ specification:
     guidance: Note that this does not require you to accept requests for
       additional resources, but rather that promises made about resource
       availability before a project starts should be honoured wherever possible.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
   - pillar: Computing technology and Information Security
     capability: Capacity Management
@@ -959,7 +959,7 @@ specification:
       available.\nNot all requests for capacity increase must necessarily be granted,
       but having a clear process will help projects understand when/why/how they can
       make use of additional capacity."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
   - pillar: Computing technology and Information Security
     capability: Capacity Management
@@ -971,7 +971,7 @@ specification:
       "For cloud-based TREs this may involve budgeting and/or restricting
       resource consumption on a project-by-project basis.\nFor on-premises TREs this
       may involve managing expectations to match the available resource."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
   - pillar: Computing technology and Information Security
     capability: Configuration Management
@@ -981,7 +981,7 @@ specification:
       infrastructure.
     guidance: This might, for instance, be a handbook that is followed or a set
       of automated scripts.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
   - pillar: Computing technology and Information Security
     capability: Configuration Management
@@ -992,7 +992,7 @@ specification:
     guidance: This might involve configuration-as-code tools such as Ansible,
       Chef, Puppet or Windows Desired State Configuration or simply automated
       scripts.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
   - pillar: Computing technology and Information Security
     capability: Configuration Management
@@ -1001,7 +1001,7 @@ specification:
     statement: You should be able to verify whether the configuration is valid.
     guidance: This might, for instance, involve running your configuration
       management tool in ‘check’ mode.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
   - pillar: Computing technology and Information Security
     capability: Configuration Management
@@ -1010,7 +1010,7 @@ specification:
     statement: You should regularly verify your TRE configuration.
     guidance: This will limit the amount of time the TRE can spend in a
       non-compliant state.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
   - pillar: Computing technology and Information Security
     capability: Configuration Management
@@ -1020,7 +1020,7 @@ specification:
       system.
     guidance: This might involve reconfiguring a running system or by replacing
       it with a compliant one.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-4512cf0c27f046b491dca59957a3732f
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1033,7 +1033,7 @@ specification:
       deletion and data corruption on work in a TRE.\nTRE developers may want to consider
       how different elements such as sensitive input data or users’ workspaces may
       be backed up, and whether they should be."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1044,7 +1044,7 @@ specification:
       "Infrastructure should be as resilient as necessary to interruption.\n\
       This could include redundant infrastructure in different physical locations,
       load balancing and replication of data between multiple storage locations."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1054,7 +1054,7 @@ specification:
       configurations.
     guidance: This may include virtualised infrastructure snapshots which can
       restored as needed to recover from failure.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1065,7 +1065,7 @@ specification:
       "There may be legal requirements to disclose details of any incidents,
       such as data breaches for organisations subject to GDPR.\nHaving robust processes
       in place will ensure a swift and effective response when an incident occurs."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1075,7 +1075,7 @@ specification:
     guidance:
       "During simulated incidents the TRE organisation can measure their effectiveness.\n\
       This may involve people across the broader enterprise and/or external suppliers."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1086,7 +1086,7 @@ specification:
     guidance:
       "Software used to identify vulnerabilities should also report and alert.\n\
       Such an alert should be triaged, risk assessed and treated accordingly."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1097,7 +1097,7 @@ specification:
     guidance: This includes any software used for remote desktop portals,
       databases, webapps, creating and destroying compute infrastructure,
       configuration management, or software used for monitoring the TRE.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1110,7 +1110,7 @@ specification:
       to ensure security patches remain available from suppliers.\nMany systems may
       be isolated from the internet making TRE infrastructure more difficult to automatically
       patch."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1122,7 +1122,7 @@ specification:
       proactively discover unnoticed vulnerabilities before they are exploited maliciously.\n\
       Tests can evaluate the effectiveness of security controls in preventing data
       breaches, unauthorised access, or other security incidents."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1137,7 +1137,7 @@ specification:
       to refine their TRE security controls and incident response capabilities.\n\
       It enables them to adapt to any new security concerns that may arise as a result
       of changes in the underlying software."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1151,7 +1151,7 @@ specification:
       that the data they work with or are responsible for is secure within a TRE.\n\
       If security flaws are identified in a test, it may not be sensible to publicise
       these until a fix is in place."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1163,7 +1163,7 @@ specification:
       is compromised.\nThis may involve encrypted filesystems or tools to encrypt
       and decrypt data on demand.\nThe encryption keys may be managed by the TRE operator
       or by a trusted external actor, for example a cloud provider."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1175,7 +1175,7 @@ specification:
       "Data encryption must be used to safeguard against interception or tampering
       during transmission.\nThis includes both data ingress and egress and users accessing
       the TRE, for example over a remote desktop or shell session."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1184,7 +1184,7 @@ specification:
     statement: Your TRE should encrypt data when in transit inside the TRE.
     guidance: If possible, data transfers between different components of a TRE
       should also be encrypted.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1198,7 +1198,7 @@ specification:
       capabilities.\nThe latest security patches and updates should be applied to
       any encryption software being used by the TRE.\nThis helps address any known
       vulnerabilities or weaknesses in the encryption implementation."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1209,7 +1209,7 @@ specification:
       storing encryption keys separately from the encrypted data and
       implementing strong access controls (*e.g.* Single Sign On) for key
       management systems.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1223,7 +1223,7 @@ specification:
       data, for example by photographing a computer screen.\nPhysical controls on
       access to a TRE could include surveillance systems, restricting physical access
       to authorised personnel only, visitor management systems and employee training."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1236,7 +1236,7 @@ specification:
       to protect sensitive data.\nCompliance with these regulations could require
       organisations to implement specific security measures to safeguard their TRE
       from unauthorised access."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1247,7 +1247,7 @@ specification:
     guidance: "Understanding threats to the TRE may be challenging.
       Threat modelling provides a structured process for TREs to understand and
       assess threats.\n\nInformation on threat models here:\nhttps://owasp.org/www-community/Threat_Modeling"
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1261,7 +1261,7 @@ specification:
       required.\nAn assessment of the risks involved will also be needed.\nIt may
       involve classifying the project into a predefined sensitivity category or defining
       bespoke controls."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1270,7 +1270,7 @@ specification:
     statement: You should keep records of data handling decisions.
     guidance: Decisions that are made as part of the process discussed above
       should be recorded and made available for inspection by all stakeholders.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1284,7 +1284,7 @@ specification:
       be stored in a TRE with an appropriate security controls (see later section
       on security levels and tiering), which can factor in the requirements for confidentiality,
       integrity and availability of the data."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1296,7 +1296,7 @@ specification:
       "The data ingress process needs to ensure that information governance
       is correctly followed.\nIn particular, it should require that an ingress request
       has been approved by all required parties."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1308,7 +1308,7 @@ specification:
       "The data egress process needs to ensure that information governance
       requirements are adhered to.\nIn particular, it should require that an egress
       request has been approved by all required parties."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1320,7 +1320,7 @@ specification:
       "Egress of data from a TRE must be a specific permission associated
       with individual users\nThis permission must be given by information asset owners.\n\
       Egress may still require further approval (see 3.1.5)."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1333,7 +1333,7 @@ specification:
       of analysis including information asset owners, data analysts, data subjects,
       the TRE operator.\nA data egress process may then require approval from people
       not on the project team, for example an external referee or TRE operator representative"
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1346,7 +1346,7 @@ specification:
       a description of the data, its source, contact details for the data owner, which
       projects use the data, the date it was received, when it is expected to no longer
       be needed."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1360,7 +1360,7 @@ specification:
       be deleted when they are no longer needed.\nHaving clear policies will help
       to avoid problems with data being kept longer than necessary or accidental deletion
       of outputs."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1371,7 +1371,7 @@ specification:
     guidance:
       "Information asset owners may require certification of the deletion
       of files.\nYou should have a method of providing proof of deletion if challenged."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1381,7 +1381,7 @@ specification:
     guidance:
       "If the input data is mutable a TRE should keep records of its modification.\n\
       For example, when the data was modified and by who."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1397,7 +1397,7 @@ specification:
       as a USB HID keyboard to input large amounts of text.\nAn example of a reasonable
       measure would be for a remote desktop based TRE to prevent data being copied
       from a local machine’s clipboard to a workspace."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1410,7 +1410,7 @@ specification:
       required for that purpose.\nThis increases the level of protection for data
       subjects, makes it easier to comply with data protection legislation and could
       reduce the overhead of storage and processing."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1421,7 +1421,7 @@ specification:
       "Archived data by its very nature should not change and therefore be
       maintained as a read only store.\nIf an update is required, it may be pulled
       from archive into a separate operational store."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-3fe25645d78645b7a5edef1e8234b769
   - pillar: Data management
     capability: Data Lifecycle Management
@@ -1434,7 +1434,7 @@ specification:
       for very long periods within the scope of the TRE.\nSuch data should be held
       in the simplest possible file format, conforming to international standards
       if available, to ensure they are platform and application agnostic."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-3fe25645d78645b7a5edef1e8234b769
   - pillar: Data management
     capability: Identity and Access Management
@@ -1445,7 +1445,7 @@ specification:
     guidance: It is important that each user account should be used by one, and
       only one, person in order to facilitate the assignment of roles or
       permissions and to log the actions of individuals.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
   - pillar: Data management
     capability: Identity and Access Management
@@ -1457,7 +1457,7 @@ specification:
       "It is important to ensure an account has been given to the correct
       person.\nFor example, multiple credentials may be used before account creation
       to verify identity or, when appropriate, photo ID checks may be required."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
   - pillar: Data management
     capability: Identity and Access Management
@@ -1469,7 +1469,7 @@ specification:
       "There is no need to grant an individual access to data they do not
       require.\nAccess may be assigned in a manner appropriate to a TREs design, for
       example through roles granted to user accounts or through isolated project workspaces."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
   - pillar: Data management
     capability: Identity and Access Management
@@ -1484,7 +1484,7 @@ specification:
       (*e.g.* a TOTP key) or something the user is (*e.g.* biometric data).\nA TRE
       does not need to implement multi-factor authentication checks itself if it is
       provided by a third-party identity provider."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
   - pillar: Data management
     capability: Identity and Access Management
@@ -1497,7 +1497,7 @@ specification:
       this login capability to a TRE.\nThis will simplify the login process for data
       consumers using a TRE and prevent them having to remember or store multiple
       login credentials."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
   - pillar: Data management
     capability: Identity and Access Management
@@ -1509,7 +1509,7 @@ specification:
       "Restricting access to a set of known, static, personal or institutional
       IP addresses can help avoid speculative attacks.\nWhen appropriate, access could
       also be restricted to physical locations with security controls and access requirements."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-61a1ee491f29467abc1d99172ac34504
   - pillar: Data management
     capability: Output Management
@@ -1522,7 +1522,7 @@ specification:
       help ensure that outputs are correctly classified and, furthermore, that outputs
       due to be openly published are identified.\nEncouraging openly published outputs
       will enhance a TRE’s impact and transparency."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Output Management
@@ -1536,7 +1536,7 @@ specification:
       project’s purpose, some of which may be outputs that are removed from the TRE.\n\
       Understanding what these outputs are likely to be and their sensitivity as early
       as possible will help prepare for their processing and publication."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Output Management
@@ -1548,7 +1548,7 @@ specification:
       "This process should define expected risks and how to mitigate them.\n\
       All TRE outputs must be subject to this process.\nYou might choose to follow
       existing guidelines, for example around statistical disclosure."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Output Management
@@ -1561,7 +1561,7 @@ specification:
       They must follow your disclosure control process and will be responsible for
       any automated parts of this process.\nOutput checking can help mitigate against
       unintentional data disclosure or leaks."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Output Management
@@ -1574,7 +1574,7 @@ specification:
       numeric files, can be difficult to manually check.\nIf egress of such files
       is permitted then the risks of inadvertent disclosure must be mitigated and
       documented.\nRefusing to allow egress of such files is also a valid policy decision."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Output Management
@@ -1585,7 +1585,7 @@ specification:
     guidance: There should be a solid basis to allow decisions to be made about
       data based on risk factors such as re-identification of an individual or
       risk to commercial operations posed by outputs from the TRE.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Output Management
@@ -1598,7 +1598,7 @@ specification:
       the overhead for output checkers.\nIt’s unlikely however that a fully automated
       output checking system (without humans in the loop) would be appropriate, given
       the risks associated with accidental data disclosure."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Output Management
@@ -1608,7 +1608,7 @@ specification:
       results of any analyses.
     guidance: This decreases the risk of inadvertent disclosure, and makes it
       easier to comply with data protection legislation (e.g. GDPR).
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
     capability: Information search and discovery
@@ -1621,7 +1621,7 @@ specification:
       of general interest.\nThis may not be appropriate for TREs where each project
       has its own data sharing agreement with one or more data provider or very sensitive
       datasets."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-176cdec84e4c4db59c8d9ac973c1b857
   - pillar: Data management
     capability: Security Levels and Tiering
@@ -1634,7 +1634,7 @@ specification:
       designed to hold, with reference to its security capabilities, that can be understood
       by all stakeholders.\nRelevant stakeholders may include information asset owners
       and project teams and they may have different levels of technical expertise."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
   - pillar: Data management
     capability: Security Levels and Tiering
@@ -1646,7 +1646,7 @@ specification:
       "This allows projects with different security requirements to each be
       met with a suitable level of controls.\nIt helps ensure that users can work
       effectively, with minimal barriers."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
   - pillar: Data management
     capability: Security Levels and Tiering
@@ -1658,7 +1658,7 @@ specification:
       or data you expect to handle.\nProjects may be placed into the most suitable
       tier rather than having a bespoke design.\nThis reduces the number of unique
       configurations that need to be supported."
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
   - pillar: Data management
     capability: Research Meta-Data
@@ -1671,7 +1671,7 @@ specification:
       if necessary).\nMore detailed information on the data schema for data assets
       should also be provided to assist researchers in understanding what data may
       be available without the need to see the underlying data."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
   - pillar: Data management
     capability: Research Meta-Data
@@ -1683,7 +1683,7 @@ specification:
       be provided with non-sensitive versions of the data either as summary data
       or using synthetic versions of the data for activities such as code
       development and cohort planning.
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
   - pillar: Data management
     capability: Meta-Data Search and Discovery Application
@@ -1694,7 +1694,7 @@ specification:
     guidance: In order to make data findable, an application which queries the
       meta-data or elements of the research data could be made more easily
       accessible than the data itself.
-    importance: Optional
+    importance: OPTIONAL
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-e02301f9b1314503934a377bf5642b15
   - pillar: Supporting Capabilities
     capability: Business Continuity
@@ -1706,7 +1706,7 @@ specification:
       "This may be due to downtime from service providers, a breach, or loss
       of power.\nYour plan should detail your process for managing loss of service
       for deployed TREs, and evaluation of impact of such loss."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6936
   - pillar: Supporting Capabilities
     capability: Business Continuity
@@ -1716,7 +1716,7 @@ specification:
       plan concerning TREs, and have a process in place to iterate the plan if
       required.
     guidance:
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6936
   - pillar: Supporting Capabilities
     capability: Project and Programme Management
@@ -1729,7 +1729,7 @@ specification:
       of the project.\nTheir responsibilities may include budget management, tracking
       TRE status, managing communications with the TRE operations team, and other
       project support tasks."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6938
   - pillar: Supporting Capabilities
     capability: Project and Programme Management
@@ -1738,7 +1738,7 @@ specification:
     statement: You should not give project managers direct access to the TRE.
     guidance: Doing so ensures a separation between those able to access
       sensitive data, and those overseeing access to sensitive data.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6938
   - pillar: Supporting Capabilities
     capability: Knowledge Management
@@ -1747,7 +1747,7 @@ specification:
     statement: You must document all features of your TRE implementation.
     guidance: This includes ensuring all documentation is discoverable, clear,
       and able to be easily updated based on stakeholder feedback
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
   - pillar: Supporting Capabilities
     capability: Knowledge Management
@@ -1758,7 +1758,7 @@ specification:
     guidance: This may include learning modules, workshops and other resources
       on how to effectively access and use a TRE, FAQ pages, and accessible
       pathways for additional support
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
   - pillar: Supporting Capabilities
     capability: Knowledge Management
@@ -1769,7 +1769,7 @@ specification:
     guidance: At least once every 12 months you should assess the training needs
       of your stakeholders, and ensure they have easy access to all required
       training materials
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
   - pillar: Supporting Capabilities
     capability: Financial Management
@@ -1781,7 +1781,7 @@ specification:
       additional resources required in a specific TRE (for instance memory or
       additional compute), hardware including managed devices, and staff support
       costs
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
   - pillar: Supporting Capabilities
     capability: Financial Management
@@ -1792,7 +1792,7 @@ specification:
     guidance: This includes knowing which costs are associated with which
       project, and having an appropriate charging mechanism in place in line
       with your organisational policy.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
   - pillar: Supporting Capabilities
     capability: Financial Management
@@ -1805,7 +1805,7 @@ specification:
       up a long-term funding mechanism to support projects with TREs.\nAt any given
       time, you should have funds free to cover all potential foreseen TRE provision
       for at least 12 months."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
   - pillar: Supporting Capabilities
     capability: Financial Management
@@ -1815,7 +1815,7 @@ specification:
       possible
     guidance: You should have regular reviews of your TRE provision and actively
       work to bring down costs, streamline provision, and optimise support.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
   - pillar: Supporting Capabilities
     capability: Procurement
@@ -1826,7 +1826,7 @@ specification:
       needed.
     guidance: These may include computing hardware, cloud credits or devices
       through which users access the TRE.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6947
   - pillar: Supporting Capabilities
     capability: IT Service Management
@@ -1838,7 +1838,7 @@ specification:
       "This may be part of your organisation’s IT support team, or separate.\n\
       Responsibility should be clear and stakeholders should easily be able to access
       support appropriate to their needs."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6948
   - pillar: Supporting Capabilities
     capability: Relationship Management
@@ -1849,7 +1849,7 @@ specification:
     guidance: This may include a GitHub repository where people can open issues
       and discussions, communication streams like Slack or email, or forms
       stakeholders can fill in.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6949
   - pillar: Supporting Capabilities
     capability: Legal Services
@@ -1862,7 +1862,7 @@ specification:
       around the handling of sensitive data, and managing project contracts.\nTRE
       operators should have ready access to legal advice, including a way to solicit
       advice and carry out associated actions."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
   - pillar: Supporting Capabilities
     capability: Legal Services
@@ -1872,7 +1872,7 @@ specification:
       may be required and ensure that you have ready access to it.
     guidance: It is likely that data protection advice will be necessary for
       several issues around the handling of sensitive data.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
   - pillar: Supporting Capabilities
     capability: Legal Services
@@ -1883,7 +1883,7 @@ specification:
     guidance: These contracts may include data sharing agreements, secondments
       of personnel or limitations on how results obtained with the data can be
       distributed.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6954
   - pillar: Federation
     capability: Federation Governance
@@ -1898,7 +1898,7 @@ specification:
       best-practice decision-making processes that ensure all stakeholders have an
       equal opportunity to contribute, underpinned by a commitment to transparency
       and meaningful public representation at every stage."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -1914,7 +1914,7 @@ specification:
       responsibilities assigned to these roles could include RACI or be based on established
       model such as those used by public cloud providers.\n\nWhere a role name matches one of the [SATRE defined roles](https://satre-specification.readthedocs.io/en/latest/roles.html)\n\ it must follow the definition.
       \nRelated 1.3.4"
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -1927,7 +1927,7 @@ specification:
     guidance: "Standards and rules expected or required by the federation may be
       specific to the federation or require meeting external standards (e.g ISO 27001). These should be tracked and be accessible by the federation
       and it's members.\n\nThese rules are likely to be a mix of high-level principles and specific controls."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -1938,7 +1938,7 @@ specification:
     guidance: While organisations may not share all such details widely any
       information that has a potential effect on other member TREs or the
       federation as a whole must be shared.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -1953,7 +1953,7 @@ specification:
       project initiation and termination. There must be a process to implementing,
       changing and removing such processes.\n\nThis ensures decisions are portable
       across federation (EG. output approved in one TRE is recognized by others)"
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -1967,7 +1967,7 @@ specification:
       The federation may include passive or default processes, like removal through
       inactivity or non-compliance.\n\nThese processes should include the credential
       management /revocation etc."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -1979,7 +1979,7 @@ specification:
     guidance: It is likely that different organisations will have different risk
       matrices and risk tolerance. The federation should assess combined risk,
       treat where possible and accept any residual risk.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -1989,7 +1989,7 @@ specification:
       agreements and documentation with a glossary as needed.
     guidance: Where possible organisations should re-use of existing glossaries
       such as https://glossary.uktre.org/
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -2001,7 +2001,7 @@ specification:
       "Examples of standard agreements are Data Protection Impact Assessment,
       Collaboration agreements, researcher access agreements.\n\nShould be managed
       by the \"Front Door\" node."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -2013,7 +2013,7 @@ specification:
       consider public representation coving data across the entire federation. This
       is especially relevant for where member TREs cover different populations (e.g.
       regions, counties) or data domains (e.g. Health, financial data)."
-    importance: Mandatory*
+    importance: MANDATORY*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Member Accreditation
@@ -2025,7 +2025,7 @@ specification:
       'Competency usually includes training and attestation confirming a user understands their
       responsibilities (i.e. being a "safe researcher"). Federations should use an existing registry such as the [safe people regsiry](https://safepeopleregistry.org) where possible.
       Alternatively, standardised training could be provided by the federation or multiple trainings could be considered equivalent. Training status of users should be accessible programmatically (E.g. via API) by all member TREs. '
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-member-accreditation
   - pillar: Federation
     capability: Federation Study Management
@@ -2035,7 +2035,7 @@ specification:
     guidance:
       "The project register should be accessible programmatically (E.g. via API) by all member TREs, good practice to make it available to public.
       See HDRUK for recommendations for a data use registry standard"
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
   - pillar: Federation
     capability: Federation Study Management
@@ -2047,7 +2047,7 @@ specification:
       "All central registries of projects must adhere to agreed data standards
       and be accessible as needed by federation members.\nHDR UK provide recommendations
       for a data use registry as a  guide\nhttps://zenodo.org/records/5902743#.YfAI__7P2Uk"
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
   - pillar: Federation
     capability: Federation Information Security
@@ -2057,7 +2057,7 @@ specification:
     guidance:
       Automated secrets management and consistent cryptographic standards must be adopted across the federation to ensure credentials,
       keys, and tokens are systematically rotated, audited, and revoked, and that encryption algorithms and protocols meet a defined minimum baseline that cannot be undermined by the weakest member of the federation.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Information Security
@@ -2070,7 +2070,7 @@ specification:
       affecting member TREs, the federation and federation projects and include confidentiality,
       integrity and availability.\n\nExamples of such incidents are data quality
       issues or availability of data at  a member TRE."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Information Security
@@ -2080,7 +2080,7 @@ specification:
       identities with a defined set of attributes for use across the federation.
     guidance: Identity provider federation with agreed, shared attributes for
       each user or machine identities.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Information Security
@@ -2089,7 +2089,7 @@ specification:
     statement: Security logs including authentication and data transfer should be made available to the federation where appropriate.
     guidance: The federation should implement shared visibility of security logs
       where appropriate for federation-wide threat detection.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
     capability: Federation Infrastructure Management
@@ -2101,7 +2101,7 @@ specification:
     guidance: Examples would be access to code repositories used to deploy
       shared infrastructure or network routing and firewall information for
       federation network traffic.
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-infrastructure-management
   - pillar: Federation
     capability: Federation Data Management
@@ -2111,7 +2111,7 @@ specification:
     guidance:
       "Output agreements and rules must cover data moving between federation members (e.g. TRE-to-TRE exchanges) and research outputs
       leaving the federation (i.e. outputs suitable for release from a TRE to the outside world)."
-    importance: Mandatory
+    importance: MANDATORY
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-data-management
   - pillar: Federation
     capability: Federation Data Management
@@ -2123,7 +2123,7 @@ specification:
       "Metadata catalogues describing data across a federation should support
       semantic searches across diverse data types.\nThe Federation should agree a
       minimum level of metadata completeness."
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-data-management
   - pillar: Federation
     capability: Federation Financial Management
@@ -2133,5 +2133,5 @@ specification:
       projects.
     guidance: A consistent charging mechanism prevents differential charging and
       competition between member TREs for similar data.
-    importance: Recommended
+    importance: RECOMMENDED
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-financial-management
