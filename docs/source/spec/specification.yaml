@@ -2053,7 +2053,7 @@ specification:
     capability: Federation Information Security
     capability_index: "5.4"
     requirement_index: 5.4.01
-    statement: The federation must agree and implement network-level standards for cryptographic key and secrets management.
+    statement: The federation must agree and implement federation-wide standards for encryption, and for managing cryptographic keys and secrets.
     guidance:
       Automated secrets management and consistent cryptographic standards must be adopted across the federation to ensure credentials,
       keys, and tokens are systematically rotated, audited, and revoked, and that encryption algorithms and protocols meet a defined minimum baseline that cannot be undermined by the weakest member of the federation.
