@@ -1892,11 +1892,12 @@ specification:
     statement: The federation must define a scope and governance structure for
       the federation made up of member TREs and interested parties.
     guidance: "A federation may have 2 levels of management with top management
-      making decisions around risk, and resources with an operation group making
+      making decisions around risk and resources with an operation group making
       day-to-day decisions related to the running of the federation.\n\nInterested
-      parties might include PPIE, Data Providers, member TRE operators and external oversight etc.\n\nEstablish
-      best-practice decision-making processes that ensure all stakeholders have an
-      equal opportunity to contribute, underpinned by a commitment to transparency
+      parties might include PPIE, Data Providers, member TRE operators and external
+      oversight etc.\n\nEstablish decision-making processes based on best practice
+      that ensure all stakeholders have an equal opportunity to contribute, underpinned
+      by a commitment to transparency
       and meaningful public representation at every stage."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
@@ -1911,7 +1912,7 @@ specification:
       roles. This defines when the authority rests with a central federation body
       versus with individual members. Key roles might include TRE provider organisation,
       infrastructure provider, researcher, top management etc.\n\nA document covering
-      responsibilities assigned to these roles could include RACI or be based on established
+      responsibilities assigned to these roles could include a RACI matrix or be based on established
       model such as those used by public cloud providers.\n\nWhere a role name matches one of the [SATRE defined roles](https://satre-specification.readthedocs.io/en/latest/roles.html)\n\ it must follow the definition.
       \nRelated 1.3.4"
     importance: Mandatory
@@ -1922,7 +1923,7 @@ specification:
     requirement_index: 5.1.03
     statement: The federation must agree a standard set of rules required for
       each member TRE. Member TREs must make their compliance status with these
-      rules available for audit by the federation, other members and external
+      rules available for audit by the federation, its members and external
       parties as appropriate.
     guidance: "Standards and rules expected or required by the federation may be
       specific to the federation or require meeting external standards (e.g ISO 27001). These should be tracked and be accessible by the federation
@@ -1951,7 +1952,7 @@ specification:
       "Some shared processes will be critical to the operation of the federation
       such as data access requests, data classification, output checking and release,
       project initiation and termination. There must be a process to implementing,
-      changing and removing such processes.\n\nThis ensures decisions are portable
+      changing and removing such rules and SOPs.\n\nThis ensures decisions are portable
       across federation (EG. output approved in one TRE is recognized by others)"
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
@@ -1963,7 +1964,7 @@ specification:
       the federation
     guidance:
       "Federations may be long-standing and stable or short lived and project
-      based the processes should reflect the impact of a member TRE joining/leaving.
+      based; regardless the processes should reflect the impact of a member TRE joining/leaving.
       The federation may include passive or default processes, like removal through
       inactivity or non-compliance.\n\nThese processes should consider access/credential revocation, data and log retention/deletion etc."
     importance: Mandatory
