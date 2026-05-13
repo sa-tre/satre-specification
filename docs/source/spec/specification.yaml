@@ -2053,10 +2053,10 @@ specification:
     capability: Federation Information Security
     capability_index: "5.4"
     requirement_index: 5.4.01
-    statement: The federation must agree and implement network-level standards for cryptographic key and secrets management.
+    statement: A federation must agree and implement federation-wide standards for encryption, for managing cryptographic keys and secrets, and for maintaining public key infrastructure where relevant.
     guidance:
-      Automated secrets management and consistent cryptographic standards must be adopted across the federation to ensure credentials,
-      keys, and tokens are systematically rotated, audited, and revoked, and that encryption algorithms and protocols meet a defined minimum baseline that cannot be undermined by the weakest member of the federation.
+      A minimum standard for encryption, keys, secrets and public key infrastructure is required for interoperability between members of a federation, and ensures that the security of a federation is not undermined by the weakest member.
+      A federation may want to impose stricter standards on shared federation services than on services contained within a single TRE.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
