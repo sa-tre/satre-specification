@@ -1894,9 +1894,10 @@ specification:
     guidance: "A federation may have 2 levels of management with top management
       making decisions around risk and resources with an operation group making
       day-to-day decisions related to the running of the federation.\n\nInterested
-      parties might include PPIE, Data Providers, member TRE operators etc.\n\nEstablish
-      decision-making processes based on best practice that ensure all stakeholders have an
-      opportunity to contribute, underpinned by a commitment to transparency
+      parties might include PPIE, Data Providers, member TRE operators and external
+      oversight etc.\n\nEstablish decision-making processes based on best practice
+      that ensure all stakeholders have an equal opportunity to contribute, underpinned
+      by a commitment to transparency
       and meaningful public representation at every stage."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
@@ -1965,8 +1966,7 @@ specification:
       "Federations may be long-standing and stable or short lived and project
       based; regardless the processes should reflect the impact of a member TRE joining/leaving.
       The federation may include passive or default processes, like removal through
-      inactivity or non-compliance.\n\nThese processes should include the credential
-      management /revocation etc."
+      inactivity or non-compliance.\n\nThese processes should consider access/credential revocation, data and log retention/deletion etc."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
@@ -2033,7 +2033,7 @@ specification:
     requirement_index: 5.3.01
     statement: The federation must maintain a register of "Safe Projects"
     guidance:
-      "The project register should be accessible programmatically (E.g. via API) by all member TREs, good practice to make it available to public.
+      "The project register should be accessible programmatically (E.g. via API) by all member TREs, good practice to make it available to public with descriptions in plain English.
       See HDRUK for recommendations for a data use registry standard"
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
@@ -2120,7 +2120,7 @@ specification:
     statement: The Federation should provide searchable catalogue(s) of metadata
       describing data assets across federation members
     guidance:
-      "Metadata catalogues describing data across a federation should support
+      "Catalogues describing data, using an agreed metadata standard, across a federation should support
       semantic searches across diverse data types.\nThe Federation should agree a
       minimum level of metadata completeness."
     importance: Recommended
@@ -2129,9 +2129,11 @@ specification:
     capability: Federation Financial Management
     capability_index: "5.7"
     requirement_index: 5.7.01
-    statement: The federation should agree a pricing model for federation
+    statement:
+      The federation should agree a transparent pricing framework for federation
       projects.
-    guidance: A consistent charging mechanism prevents differential charging and
+    guidance:
+      A consistent, transparent charging mechanism implemented to prevent differential charging and
       competition between member TREs for similar data.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-financial-management
