@@ -26,7 +26,6 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinxcontrib.datatemplates",
     "myst_parser",
-    "satrecsv",
     "yamlspec",
 ]
 
