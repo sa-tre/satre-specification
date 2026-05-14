@@ -479,14 +479,12 @@ specification:
     capability: Public Involvement and Engagement
     capability_index: "1.7"
     requirement_index: 1.7.01
-    statement: All public engagement activities must include a range of
-      perspectives and be inclusive (*optional for TREs without personal data).
+    statement:
+      "Public engagement activities must have a fair and balanced inclusion of people with different backgrounds,
+      experiences, and identities (*optional for TREs without personal data)."
     guidance:
-      "Any public engagement activity carried out by TREs should involve diverse
-      participants and that activities are accessible.\nRecruitment plans should consider
-      how to proactively reach a representative sample of people or target particular
-      groups of people where relevant\nThis could include following guidelines such
-      as [PEDRI](https://www.pedri.org.uk/)."
+      "Any public engagement activity carried out by TREs should be accessible for the public participants involved. Recruitment of public participants should consider how to proactively
+      recruit participants who represent data held within the TRE and for whom the intended benefit of projects using the data applies. [PEDRI Standards](https://doi.org/10.5281/zenodo.5084761) should be used to guide approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
