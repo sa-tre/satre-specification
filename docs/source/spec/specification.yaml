@@ -310,8 +310,8 @@ specification:
     capability_index: "1.4"
     requirement_index: 1.4.8
     statement: TREs holding public datasets must release that data for research for public benefit.
-    guidance: Datasets about the public must support research for public benefit and have strong representation from public members to support decision making on the suitability of projects.
-    importance: Mandatory
+    guidance: Datasets about the public must support research for public benefit. Processes must be in place to decide on the suitability of projects.
+    importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
     capability: Member Accreditation
