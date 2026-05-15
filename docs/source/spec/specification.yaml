@@ -479,14 +479,12 @@ specification:
     capability: Public Involvement and Engagement
     capability_index: "1.7"
     requirement_index: 1.7.01
-    statement: All public engagement activities must include a range of
-      perspectives and be inclusive (*optional for TREs without personal data).
+    statement:
+      "Public engagement activities must have a fair and balanced inclusion of people with different backgrounds,
+      experiences, and identities (*optional for TREs without personal data)."
     guidance:
-      "Any public engagement activity carried out by TREs should involve diverse
-      participants and that activities are accessible.\nRecruitment plans should consider
-      how to proactively reach a representative sample of people or target particular
-      groups of people where relevant\nThis could include following guidelines such
-      as PEDRI."
+      "Any public engagement activity carried out by TREs should be accessible for the public participants involved. Recruitment of public participants should consider how to proactively
+      recruit participants who represent data held within the TRE and for whom the intended benefit of projects using the data applies. [PEDRI Standards](https://doi.org/10.5281/zenodo.5084761) should be used to guide approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
@@ -1934,8 +1932,9 @@ specification:
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.04
-    statement: Federation members must share any relevant incident, audit and
-      other quality management data with members.
+    statement:
+      Federation members must share any relevant, proportionate incident, audit and
+      other quality management data that materially affects other TREs or the federation.
     guidance: While organisations may not share all such details widely any
       information that has a potential effect on other member TREs or the
       federation as a whole must be shared.
@@ -1973,13 +1972,13 @@ specification:
     capability: Federation Governance
     capability_index: "5.1"
     requirement_index: 5.1.07
-    statement: The federation should agree a consistent approach to risk
+    statement: The federation must agree a consistent approach to risk
       assessment and treatment. Where multiple approaches are used, equivalence
       must be established.
     guidance: It is likely that different organisations will have different risk
       matrices and risk tolerance. The federation should assess combined risk,
       treat where possible and accept any residual risk.
-    importance: Recommended
+    importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
     capability: Federation Governance
@@ -2033,20 +2032,18 @@ specification:
     requirement_index: 5.3.01
     statement: The federation must maintain a register of "Safe Projects"
     guidance:
-      "The project register should be accessible programmatically (E.g. via API) by all member TREs, good practice to make it available to public with descriptions in plain English.
-      See HDRUK for recommendations for a data use registry standard"
+      "The project register should be accessible programmatically (E.g. via API) by all member TREs, it is good practice to make it available to public.
+      See [HDRUK for recommendations](https://doi.org/10.5281/zenodo.5084761) for a data use registry standard"
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
   - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.3"
     requirement_index: 5.3.02
-    statement: The federation must agree the legal, ethical and compliance
-      standards required for a safe federated project.
+    statement: The federation must agree the legal, ethical and compliance standards required for a safe federated project.
     guidance:
-      "All central registries of projects must adhere to agreed data standards
-      and be accessible as needed by federation members.\nHDR UK provide recommendations
-      for a data use registry as a  guide\nhttps://zenodo.org/records/5902743#.YfAI__7P2Uk"
+      "All federated participants must demonstrate equivalent adherence to agreed legal, ethical, governance,
+      and compliance standards to ensure federated projects are considered safe across a federation."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
   - pillar: Federation
@@ -2077,7 +2074,7 @@ specification:
     capability_index: "5.4"
     requirement_index: 5.4.03
     statement: The federation should support common user and machine
-      identities with a defined set of attributes for use across the federation.
+      identities with a defined set of attributes used for authentication across the federation.
     guidance: Identity provider federation with agreed, shared attributes for
       each user or machine identities.
     importance: Recommended
