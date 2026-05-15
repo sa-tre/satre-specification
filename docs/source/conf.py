@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import os
 from pathlib import Path
 import sys
 
@@ -9,8 +10,11 @@ copyright = ""
 html_show_copyright = False
 author = "The Contributors"
 
-release = "0.0"
-version = "0.0.0"
+
+# Read the Docs sets READTHEDOCS_VERSION to the tag/branch name
+# https://docs.readthedocs.io/en/stable/reference/environment-variables.html
+release = os.environ.get("READTHEDOCS_VERSION", "0.0")
+version = release
 
 # -- General configuration
 
