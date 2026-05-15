@@ -2032,7 +2032,7 @@ specification:
     requirement_index: 5.3.01
     statement: The federation must maintain a register of "Safe Projects"
     guidance:
-      "The project register should be accessible programmatically (E.g. via API) by all member TREs, good practice to make it available to public.
+      "The project register should be accessible programmatically (E.g. via API) by all member TREs, it is good practice to make it available to public.
       See [HDRUK for recommendations](https://doi.org/10.5281/zenodo.5084761) for a data use registry standard"
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
