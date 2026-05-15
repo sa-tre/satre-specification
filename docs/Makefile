@@ -21,8 +21,13 @@ help:
 
 # satrecsv is written to build/satrecsv and not READTHEDOCS_OUTPUT
 # because it's run by us in build.jobs.pre_build, not by readthedocs
+satrecsv:
+	mkdir -p build/satrecsv
+	python3 scripts/satrecsv.py --output-dir build/satrecsv --input-file source/spec/specification.yaml
+
 satrecsv-copy: satrecsv
-	cp -f build/satrecsv/satre.xlsx generated/
+	mkdir -p generated
+	cp -f build/satrecsv/satre.xlsx build/satrecsv/satre.csv generated/
 
 html: Makefile satrecsv-copy
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
@@ -31,7 +36,16 @@ html: Makefile satrecsv-copy
 OUTPUT_DIR := $(if $(READTHEDOCS_OUTPUT),$(READTHEDOCS_OUTPUT),build)
 # satre.xls is excluded from linkcheck, so check that it was copied to build/html
 check-satrecsv:
-	if [ ! -f "$(OUTPUT_DIR)/html/satre.xlsx" ]; then echo "ERROR: $(OUTPUT_DIR)/html/satre.xlsx not found"; exit 1; fi
+	@FILE="$(OUTPUT_DIR)/html/satre.xlsx"; \
+	if [ ! -f "$$FILE" ]; then \
+		echo "ERROR: $$FILE does not exist"; \
+		exit 1; \
+	fi; \
+	SIZE=$$(stat -f %z "$$FILE"); \
+	if [ "$$SIZE" -lt 10000 ]; then \
+		echo "ERROR: $$FILE is too small ($$SIZE bytes)"; \
+		exit 1; \
+	fi
 
 clean-all: clean
 	rm -f generated/*
