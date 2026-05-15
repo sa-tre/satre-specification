@@ -114,12 +114,12 @@ specification:
     capability: Quality Management
     capability_index: "1.2"
     requirement_index: 1.2.08
-    statement: You must track and maintain any physical assets used by your TRE.
+    statement: You must track and maintain any physical assets used by your TRE (*optional for TREs without physical assets).
     guidance:
       "All physical assets should be maintained and covered by warranty if
       applicable.\nAt the end of their lifetime, assets should be securely disposed
       of in such a way that data cannot be recovered from them."
-    importance: Mandatory (where physical assets are in scope)
+    importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
   - pillar: Information governance
     capability: Quality Management
