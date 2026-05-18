@@ -175,8 +175,25 @@ class YamlSpecDirective(SphinxDirective):
                         else:
                             # No URL, just display text
                             entry += nodes.paragraph(text=content_text)
+                    elif key == "requirement_index":
+                        # Make requirement index a permalink to this row
+                        req_id = "satre-" + content_text.replace(".", "-").replace(
+                            " ", "-"
+                        )
+                        if req_id not in row["ids"]:
+                            row["ids"].append(req_id)
+
+                        reference_node = nodes.reference(
+                            "",
+                            nodes.Text(content_text),
+                            refid=req_id,
+                            internal=True,
+                        )
+                        paragraph_node = nodes.paragraph("")
+                        paragraph_node.append(reference_node)
+                        entry += paragraph_node
                     else:
-                        # Simple text fields (requirement, importance) are wrapped in a paragraph
+                        # Simple text fields (importance) are wrapped in a paragraph
                         entry += nodes.paragraph(text=content_text)
 
                     row += entry
