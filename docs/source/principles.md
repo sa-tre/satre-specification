@@ -47,7 +47,7 @@ TREs holding public data should build and maintain the trust of data subjects an
 
 ### Rationale
 
-To ensure continued public support both for the use of data and TREs to facilitate research, it is vital to maintain public trust in the ways TREs hold and use data so this data can continue to be used to deliver public benefits. This could include maintaining the trust of members of the public whose data is held, those who are impacted by research conducted using TREs.
+It is vital to maintain public trust in the ways TREs hold and use data so that this data can be used to deliver public benefits. This could include maintaining the trust of members of the public whose data is held, and those who are impacted by research conducted using TREs.
 
 Trust is fragile and can be eroded by data breaches, opaque decision-making, or the perception that data is being used in ways that were not agreed upon or do not serve the public interest.
 
