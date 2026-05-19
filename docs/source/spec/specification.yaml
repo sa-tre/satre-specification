@@ -825,7 +825,7 @@ specification:
       any providers that you rely on.
     guidance:
       "For remote TREs this might include your cloud provider(s) and/or data
-      centre operators.\nFor on-premises TREs, it might be worth using an uninterruptable
+      centre operators.\nFor on-premises TREs, it might be worth using an uninterruptible
       power supply (UPS) and planning how you would deal with internet outages."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
@@ -2009,7 +2009,7 @@ specification:
     statement: Where federation involves members of the public there should be
       representation from across all member TRE population areas (*optional for TREs without personal data).
     guidance: "When moving from a single TRE to a federation it is important to
-      consider public representation coving data across the entire federation. This
+      consider public representation covering data across the entire federation. This
       is especially relevant for where member TREs cover different populations (e.g.
       regions, counties) or data domains (e.g. Health, financial data)."
     importance: Mandatory*
@@ -2022,7 +2022,7 @@ specification:
       all users.
     guidance:
       'Competency usually includes training and attestation confirming a user understands their
-      responsibilities (i.e. being a "safe researcher"). Federations should use an existing registry such as the [safe people regsiry](https://safepeopleregistry.org) where possible.
+      responsibilities (i.e. being a "safe researcher"). Federations should use an existing registry such as the [safe people registry](https://safepeopleregistry.org) where possible.
       Alternatively, standardised training could be provided by the federation or multiple trainings could be considered equivalent. Training status of users should be accessible programmatically (E.g. via API) by all member TREs. '
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-member-accreditation
