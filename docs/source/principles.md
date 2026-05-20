@@ -55,7 +55,7 @@ Public engagement work has indicated there is support for the use of regulated a
 
 ### Implications
 
-- Transparency is key to building trust. TREs holding public data should be transparent about the TRE operations, data held and research projects accessing data. This information should be made publicly available in plain language and accessible format.
+- Transparency is key to building trust. TREs holding public data should be transparent about the TRE operations, data held and research projects accessing data. This information should be made publicly available in plain language and an accessible format.
 - Trust implications of research outputs, not only the data held need to considered. Publications, models, and derived datasets produced using TRE data can affect public trust particularly where outputs could be used to re-identify individuals, serve commercial interests, or are perceived as inconsistent with the purposes for which data access was granted.
 - Actively and effectively involving members of the public in oversight of TREs and their processes is important for accountability. When involving public members they must have decision or advisory roles where their input can make an impact to TRE operation or governance.
 - Public involvement and engagement takes time and resources. TREs holding public data should consider allocating specific staffing and budget to public involvement and engagement activities.
