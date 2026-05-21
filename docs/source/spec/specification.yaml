@@ -93,7 +93,7 @@ specification:
       with access to your TRE align with your security requirements.
     guidance:
       "These should be included as mandatory, non-functional requirements
-      in during procurement and contracting.\nThis will also include contractor staff
+      during procurement and contracting.\nThis will also include contractor staff
       contracts for example, legal liability and NDAs."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
@@ -173,8 +173,7 @@ specification:
     requirement_index: 1.3.01
     statement: You must have a way to score risk to understand the underlying
       severity.
-    guidance: You have a risk assessment methodology for scoring risks on
-      multiple axes such as impact and likelihood.
+    guidance: For example, a risk assessment methodology may score risks across multiple axes such as impact and likelihood.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
   - pillar: Information governance
@@ -186,7 +185,7 @@ specification:
     guidance:
       "A data processing assessment is a process designed to identify risks
       arising out of the processing of sensitive data and to minimise these risks
-      as far and as early as possible.\nThis may take the form of an existing regulatory
+      as far and as early as possible.\nThis may take the form of existing regulatory
       requirements such as Data Protection Impact Assessment."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
@@ -242,7 +241,7 @@ specification:
     statement: You must have checks in place to ensure that any time limited
       compliance requirements are maintained.
     guidance:
-      "This includes ensuring contracts remain in valid and action is promptly
+      "This includes ensuring contracts remain valid and action is promptly
       taken should they expire.\nAny changes in the status of responsible persons
       should also be monitored, for example a data owner leaving an organisation."
     importance: Mandatory
@@ -308,9 +307,9 @@ specification:
   - pillar: Information governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.8
-    statement: TREs holding data about the public must release that data for research for public benefit.
-    guidance: Datasets about the public should be released, subject to meeting all governance requirements and output checks. Processes must be in place to decide on the suitability of project accessing, processing and releasing data about the public.
+    requirement_index: 1.4.08
+    statement: TREs holding data about the public must provide that data for research for public benefit.
+    guidance: Processes must be in place to decide on the suitability of projects accessing, processing and releasing data about the public. Research outputs generated from data about the public should be released, subject to meeting all governance requirements and output checks.
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
@@ -397,8 +396,7 @@ specification:
     guidance:
       "All TRE organisation members need to complete all relevant training
       and keep their training current.\nYou may need to provide help or guidance to
-      enable them to do so.\nDetails of what training is needed will have been determined
-      above."
+      enable them to do so.\n(See 1.6.01 to determine training needed for a role)."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
   - pillar: Information governance
@@ -508,7 +506,7 @@ specification:
       clear language understandable to general public.\nA record of projects which
       have accessed data via the TRE should be kept and made available.\nWhere possible
       it should include name, summaries, public benefit (if relevant) and organisations
-      involved"
+      involved."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
@@ -519,7 +517,7 @@ specification:
       oversight (*optional for TREs without personal data).
     guidance:
       "Members of the public can be involved via presence on steering groups
-      or project approvals panels.\nAlternatively TRE's can establish separate public
+      or project approvals panels.\nAlternatively TREs can establish separate public
       panels available for both researchers and TRE staff to consult."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
@@ -592,7 +590,7 @@ specification:
     guidance:
       "TREs that provide a virtual desktop environment for data consumers
       to work in should provide documentation detailing the available tools.\nTREs
-      where the analysis code is developed on the access machine (as oppose to within
+      where the analysis code is developed on the access machine (as opposed to within
       the TRE) should provide documentation detailing the mechanism by which code
       is submitted to the TRE."
     importance: Mandatory
@@ -883,7 +881,7 @@ specification:
     capability: Infrastructure Management
     capability_index: "2.2"
     requirement_index: 2.2.12
-    statement: You should be able to monitor the network configuration of your
+    statement: You should monitor the configuration of your
       TRE to check for misconfigurations and vulnerabilities.
     guidance: This may include regular vulnerability scanning, and penetration
       testing.
@@ -893,16 +891,6 @@ specification:
     capability: Infrastructure Management
     capability_index: "2.2"
     requirement_index: 2.2.13
-    statement: You should regularly monitor the network configuration of your
-      TRE to check for misconfigurations and vulnerabilities.
-    guidance: This will involve following the monitoring procedure detailed
-      above.
-    importance: Recommended
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b106251e04304d2a92637a1fd5689273
-  - pillar: Computing technology and Information Security
-    capability: Infrastructure Management
-    capability_index: "2.2"
-    requirement_index: 2.2.14
     statement: Your TRE must record usage data.
     guidance: This may include the number of users, number of projects, the
       amount of data stored, number of datasets, the number of workspaces, etc.
@@ -911,7 +899,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.15
+    requirement_index: 2.2.14
     statement: Your TRE should record which datasets are accessed, when and by
       who.
     guidance: This helps maintain auditability of how sensitive data has been
@@ -921,7 +909,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
-    requirement_index: 2.2.16
+    requirement_index: 2.2.15
     statement: Your TRE should record computational resource usage at the user
       or aggregate level.
     guidance: This is useful for optimising allocation of resources, and
@@ -1058,7 +1046,7 @@ specification:
     requirement_index: 2.5.03
     statement: You should keep backups of infrastructure, applications and
       configurations.
-    guidance: This may include virtualised infrastructure snapshots which can
+    guidance: This may include virtualised infrastructure snapshots which can be
       restored as needed to recover from failure.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
@@ -1329,7 +1317,7 @@ specification:
     guidance:
       "Egress of data from a TRE must be a specific permission associated
       with individual users\nThis permission must be given by information asset owners.\n\
-      Egress may still require further approval (see 3.1.5)."
+      Egress may still require further approval (see 3.1.05)."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
@@ -1342,7 +1330,7 @@ specification:
       "There may be cases where there are multiple stakeholders for a piece
       of analysis including information asset owners, data analysts, data subjects,
       the TRE operator.\nA data egress process may then require approval from people
-      not on the project team, for example an external referee or TRE operator representative"
+      not on the project team, for example an external referee or TRE operator representative."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
@@ -1353,7 +1341,7 @@ specification:
     guidance:
       "Good records are important for ensuring compliance with legislation,
       understanding risk and aiding good data hygiene.\nThe record should include
-      a description of the data, its source, contact details for the data owner, which
+      a description of the data, its source, contact details for the information asset owner, which
       projects use the data, the date it was received, when it is expected to no longer
       be needed."
     importance: Mandatory
@@ -1454,8 +1442,7 @@ specification:
       models on sensitive data, you should ensure a data management plan for
       ML artefacts is agreed prior to project commencement.
     guidance: "The plan should cover the types of models supported,
-      whether and under what conditions trained models may be exported (disclosure
-      control requirements) and any additional risk mitigations required.\nWhere
+      whether and under what conditions trained models may be exported and any additional risk mitigations required.\nWhere
       AI/ML models are used operationally, the TRE may require a register of use
       plan and a decommissioning plan.\nThese processes may be documented within a
       single document or across existing relevant policies, procedures, and
@@ -1638,7 +1625,7 @@ specification:
     statement: TRE outputs should be limited to the minimum required for sharing
       results of any analyses.
     guidance: This decreases the risk of inadvertent disclosure, and makes it
-      easier to comply with data protection legislation (e.g. GDPR).
+      easier to comply with data protection legislation (*e.g.* GDPR).
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
@@ -1777,7 +1764,7 @@ specification:
     requirement_index: 4.3.01
     statement: You must document all features of your TRE implementation.
     guidance: This includes ensuring all documentation is discoverable, clear,
-      and able to be easily updated based on stakeholder feedback
+      and able to be easily updated based on stakeholder feedback.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
   - pillar: Supporting Capabilities
@@ -1788,7 +1775,7 @@ specification:
       stakeholders in the use and management of your TRE.
     guidance: This may include learning modules, workshops and other resources
       on how to effectively access and use a TRE, FAQ pages, and accessible
-      pathways for additional support
+      pathways for additional support.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
   - pillar: Supporting Capabilities
@@ -1799,7 +1786,7 @@ specification:
       for all stakeholders included within your TRE provision.
     guidance: At least once every 12 months you should assess the training needs
       of your stakeholders, and ensure they have easy access to all required
-      training materials
+      training materials.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6940
   - pillar: Supporting Capabilities
@@ -1811,7 +1798,7 @@ specification:
     guidance: Costs may include provision of the underlying TRE infrastructure,
       additional resources required in a specific TRE (for instance memory or
       additional compute), hardware including managed devices, and staff support
-      costs
+      costs.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6943
   - pillar: Supporting Capabilities
@@ -1843,7 +1830,7 @@ specification:
     capability_index: "4.4"
     requirement_index: 4.4.04
     statement: You should minimise the cost of your TRE infrastructure wherever
-      possible
+      possible.
     guidance: You should have regular reviews of your TRE provision and actively
       work to bring down costs, streamline provision, and optimise support.
     importance: Recommended
@@ -1944,8 +1931,7 @@ specification:
       versus with individual members. Key roles might include TRE provider organisation,
       infrastructure provider, researcher, top management etc.\n\nA document covering
       responsibilities assigned to these roles could include a RACI matrix or be based on established
-      model such as those used by public cloud providers.\n\nWhere a role name matches one of the [SATRE defined roles](https://satre-specification.readthedocs.io/en/latest/roles.html)\n\ it must follow the definition.
-      \nRelated 1.3.4"
+      model such as those used by public cloud providers.\n\nWhere a role name matches one of the [SATRE defined roles](https://satre-specification.readthedocs.io/en/latest/roles.html)\n\ it must follow the definition."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
@@ -1958,7 +1944,7 @@ specification:
       parties as appropriate.
     guidance: "Standards and rules expected or required by the federation may be
       specific to the federation or require meeting external standards (e.g ISO 27001). These should be tracked and be accessible by the federation
-      and it's members.\n\nThese rules are likely to be a mix of high-level principles and specific controls."
+      and its members.\n\nThese rules are likely to be a mix of high-level principles and specific controls."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
@@ -1978,14 +1964,13 @@ specification:
     capability_index: "5.1"
     requirement_index: 5.1.05
     statement: The federation must agree a process to create, update and retire
-      rules formal and standard operating procedures and make them
-      available to TRE members.
+      rules and standard operating procedures and make them available to TRE members.
     guidance:
       "Some shared processes will be critical to the operation of the federation
       such as data access requests, data classification, output checking and release,
       project initiation and termination. There must be a process to implementing,
       changing and removing such rules and SOPs.\n\nThis ensures decisions are portable
-      across federation (EG. output approved in one TRE is recognized by others)"
+      across the federation (e.g output approved in one TRE is recognised by others)"
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
@@ -1993,7 +1978,7 @@ specification:
     capability_index: "5.1"
     requirement_index: 5.1.06
     statement: The federation must define processes for TREs joining and leaving
-      the federation
+      the federation.
     guidance:
       "Federations may be long-standing and stable or short lived and project
       based; regardless the processes should reflect the impact of a member TRE joining/leaving.
@@ -2019,7 +2004,7 @@ specification:
     requirement_index: 5.1.08
     statement: The federation should agree standard terminology for use in
       agreements and documentation with a glossary as needed.
-    guidance: Where possible organisations should re-use of existing glossaries
+    guidance: Where possible organisations should re-use existing glossaries
       such as https://glossary.uktre.org/
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
@@ -2031,8 +2016,8 @@ specification:
       templates for legal or administration purposes.
     guidance:
       "Examples of standard agreements are Data Protection Impact Assessment,
-      Collaboration agreements, researcher access agreements.\n\nShould be managed
-      by the \"Front Door\" node."
+      Collaboration agreements, researcher access agreements.\n\nThis should be managed
+      by the \"Front Door\" node (The node of the federation the researcher signs into)."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
@@ -2043,8 +2028,8 @@ specification:
       representation from across all member TRE population areas (*optional for TREs without personal data).
     guidance: "When moving from a single TRE to a federation it is important to
       consider public representation covering data across the entire federation. This
-      is especially relevant for where member TREs cover different populations (e.g.
-      regions, counties) or data domains (e.g. Health, financial data)."
+      is especially relevant for where member TREs cover different populations (*e.g.*
+      regions, counties) or data domains (*e.g.* Health, financial data)."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
@@ -2056,17 +2041,17 @@ specification:
     guidance:
       'Competency usually includes training and attestation confirming a user understands their
       responsibilities (i.e. being a "safe researcher"). Federations should use an existing registry such as the [safe people registry](https://safepeopleregistry.org) where possible.
-      Alternatively, standardised training could be provided by the federation or multiple trainings could be considered equivalent. Training status of users should be accessible programmatically (E.g. via API) by all member TREs. '
+      Alternatively, standardised training could be provided by the federation or multiple trainings could be considered equivalent. Training status of users should be accessible programmatically (*e.g.* via API) by all member TREs.'
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-member-accreditation
   - pillar: Federation
     capability: Federation Study Management
     capability_index: "5.3"
     requirement_index: 5.3.01
-    statement: The federation must maintain a register of "Safe Projects"
+    statement: The federation must maintain a register of "Safe Projects".
     guidance:
-      "The project register should be accessible programmatically (E.g. via API) by all member TREs, it is good practice to make it available to public.
-      See [HDRUK for recommendations](https://doi.org/10.5281/zenodo.5084761) for a data use registry standard"
+      "The project register should be accessible programmatically (*e.g.* via API) by all member TREs, it is good practice to make it available to public.
+      See [HDRUK for recommendations](https://doi.org/10.5281/zenodo.5084761) for a data use registry standard."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-study-management
   - pillar: Federation
@@ -2096,10 +2081,10 @@ specification:
     statement: The federation must define and agree, implement and regularly
       test a shared incident response process.
     guidance:
-      "a federation wide incident response process should cover incidents
+      "A federation wide incident response process should cover incidents
       affecting member TREs, the federation and federation projects and include confidentiality,
       integrity and availability.\n\nExamples of such incidents are data quality
-      issues or availability of data at  a member TRE."
+      issues or availability of data at a member TRE."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
@@ -2109,7 +2094,7 @@ specification:
     statement: The federation should support common user and machine
       identities with a defined set of attributes used for authentication across the federation.
     guidance: Identity provider federation with agreed, shared attributes for
-      each user or machine identities.
+      each user or machine identity.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-information-security
   - pillar: Federation
@@ -2137,9 +2122,9 @@ specification:
     capability: Federation Data Management
     capability_index: "5.6"
     requirement_index: 5.6.01
-    statement: The federation MUST agree an approach to the management of outputs which is implemented by all federation members (definition of a safe output).
+    statement: The federation must agree an approach to the management of outputs which is implemented by all federation members (definition of a safe output).
     guidance:
-      "Output agreements and rules must cover data moving between federation members (e.g. TRE-to-TRE exchanges) and research outputs
+      "Output agreements and rules must cover data moving between federation members (*e.g.* TRE-to-TRE exchanges) and research outputs
       leaving the federation (i.e. outputs suitable for release from a TRE to the outside world)."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-data-management
@@ -2147,11 +2132,11 @@ specification:
     capability: Federation Data Management
     capability_index: "5.6"
     requirement_index: 5.6.02
-    statement: The Federation should provide searchable catalogue(s) of metadata
-      describing data assets across federation members
+    statement: The federation should provide searchable catalogue(s) of metadata
+      describing data assets across federation members.
     guidance:
       "Catalogues describing data, using an agreed metadata standard, across a federation should support
-      semantic searches across diverse data types.\nThe Federation should agree a
+      semantic searches across diverse data types.\nThe federation should agree a
       minimum level of metadata completeness."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-data-management
