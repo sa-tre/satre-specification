@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import os
 from pathlib import Path
 import sys
 
@@ -9,8 +10,11 @@ copyright = ""
 html_show_copyright = False
 author = "The Contributors"
 
-release = "0.0"
-version = "0.0.0"
+
+# Read the Docs sets READTHEDOCS_VERSION to the tag/branch name
+# https://docs.readthedocs.io/en/stable/reference/environment-variables.html
+release = os.environ.get("READTHEDOCS_VERSION", "0.0")
+version = release
 
 # -- General configuration
 
@@ -26,7 +30,6 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinxcontrib.datatemplates",
     "myst_parser",
-    "satrecsv",
     "yamlspec",
 ]
 
@@ -76,8 +79,8 @@ html_theme_options = {
 html_logo = "../images/SATRE_Stacked_Dark.png"
 
 # Add custom CSS and JavaScript
-# html_static_path = ["_static"]
-# html_css_files = ["custom.css"]
+html_static_path = ["_static"]
+html_css_files = ["custom.css"]
 # html_js_files = ["custom.js"]
 
 # -- Options for EPUB output
