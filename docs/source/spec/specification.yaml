@@ -314,7 +314,7 @@ specification:
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.01
     statement: You must have a robust method for identifying accredited members
@@ -323,7 +323,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.02
     statement: You must have clear onboarding processes in place for all roles
@@ -333,7 +333,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.03
     statement: You must have a set of services to manage access to resources
@@ -343,7 +343,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.04
     statement: You must not give anyone access to datasets without agreement
@@ -352,7 +352,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.05
     statement: You must have robust and secure applications in place to
@@ -363,7 +363,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.06
     statement: You must give each user of the TRE a unique logon with changes to
@@ -2048,7 +2048,7 @@ specification:
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "5.2"
     requirement_index: 5.2.01
     statement: The federation must agree baseline competency requirements for
