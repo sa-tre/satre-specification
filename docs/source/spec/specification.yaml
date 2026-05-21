@@ -1447,6 +1447,22 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-3fe25645d78645b7a5edef1e8234b769
   - pillar: Data management
+    capability: Data Lifecycle Management
+    capability_index: "3.1"
+    requirement_index: 3.1.16
+    statement: Where a project intends to train or fine-tune machine learning
+      models on sensitive data, you should ensure a data management plan for
+      ML artefacts is agreed prior to project commencement.
+    guidance: "The plan should cover the types of models supported,
+      whether and under what conditions trained models may be exported (disclosure
+      control requirements) and any additional risk mitigations required.\nWhere
+      AI/ML models are used operationally, the TRE may require a register of use
+      plan and a decommissioning plan.\nThese processes may be documented within a
+      single document or across existing relevant policies, procedures, and
+      operational documentation."
+    importance: Recommended
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+  - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
     requirement_index: 3.2.01
@@ -1583,7 +1599,12 @@ specification:
       "Some categories of output, for instance binary files or very large
       numeric files, can be difficult to manually check.\nIf egress of such files
       is permitted then the risks of inadvertent disclosure must be mitigated and
-      documented.\nRefusing to allow egress of such files is also a valid policy decision."
+      documented.\nTrained machine learning model weights are a particular example
+      of an output that cannot be manually checked. Where models have been trained
+      or fine-tuned on sensitive data within the TRE, there is a risk that the model
+      has memorised sensitive records. The policy must address whether model artefacts
+      may be exported, and if so, what technical controls are required before egress
+      is approved."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
