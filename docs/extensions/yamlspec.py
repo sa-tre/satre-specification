@@ -131,6 +131,10 @@ class YamlSpecDirective(SphinxDirective):
 
             for item in pillar_items:
                 row = nodes.row()
+                # Add an anchor ID based on requirement_index for direct linking
+                req_index = str(item.get("requirement_index", ""))
+                if req_index:
+                    row["ids"] = [req_index]
                 for key, _, _ in COLUMNS:
                     entry = nodes.entry()
                     # Use .get() with empty string default to avoid KeyError
