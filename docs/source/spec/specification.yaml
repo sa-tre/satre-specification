@@ -2048,7 +2048,7 @@ specification:
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
-    capability: Researcher Accreditation
+    capability: Federation Researcher Accreditation
     capability_index: "5.2"
     requirement_index: 5.2.01
     statement: The federation must agree baseline competency requirements for
