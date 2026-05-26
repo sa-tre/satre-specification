@@ -111,4 +111,4 @@ A future specification may include the idea of different archetypes of TREs, or 
 ## Does SATRE describe approaches to TRE federation or interoperability of TREs?
 
 Yes. 
-As of v2.0 SATRE includes a Federation Pillar which provides a framework for establishing and maintaining a SATRE-compliant TRE Federation.
+As of v2.0, SATRE includes a Federation Pillar which provides a framework for establishing and maintaining a SATRE-compliant TRE Federation.
