@@ -515,7 +515,8 @@ specification:
     capability: Public Involvement and Engagement
     capability_index: "1.7"
     requirement_index: 1.7.03
-    statement: Members of the public should be effectively involved in TRE operations
+    statement:
+      Members of the public should be effectively involved in TRE operations
       and/or oversight (*optional for TREs without personal data).
     guidance:
       "Members of the public should be effectively involved in decision making or advisory
