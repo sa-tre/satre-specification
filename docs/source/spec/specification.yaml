@@ -515,9 +515,14 @@ specification:
     capability: Public Involvement and Engagement
     capability_index: "1.7"
     requirement_index: 1.7.03
-    statement: Members of the public should be effectively involved in TRE operations and/or oversight (*optional for TREs without personal data).
+    statement: Members of the public should be effectively involved in TRE operations
+      and/or oversight (*optional for TREs without personal data).
     guidance:
-      "Members of the public should be effectively involved in decision making or advisory roles where their involvement can have influence.\nThis could be via active involvement on steering groups, project approval panels, or establishing separate public panels who both researchers and TRE staff can consult.\nPEDRI Standards should be used to guide approach https://www.pedri.org.uk/."
+      "Members of the public should be effectively involved in decision making or advisory
+      roles where their involvement can have influence.\nThis could be via active involvement
+      on steering groups, project approval panels, or establishing separate public panels who
+      both researchers and TRE staff can consult.\nPEDRI Standards should be used to guide
+      approach https://www.pedri.org.uk/."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
