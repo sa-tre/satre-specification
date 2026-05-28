@@ -522,8 +522,8 @@ specification:
       "Members of the public should be effectively involved in decision making or advisory
       roles where their involvement can have influence.\nThis could be via active involvement
       on steering groups, project approval panels, or establishing separate public panels who
-      both researchers and TRE staff can consult.\nPEDRI Standards should be used to guide
-      approach https://www.pedri.org.uk/."
+      both researchers and TRE staff can consult.\n[PEDRI Standards](https://www.pedri.org.uk/) should be used to guide
+      approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
