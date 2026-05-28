@@ -15,8 +15,7 @@ specification:
     capability: Information Governance
     capability_index: "1.1"
     requirement_index: 1.1.02
-    statement: You must ensure controls are implemented to ensure the
-      requirements are met.
+    statement: You must ensure controls are implemented to meet stakeholder requirements.
     guidance: Control implementation should be systematic and directly aligned
       to the internal and stakeholder requirements.
     importance: Mandatory
@@ -171,8 +170,7 @@ specification:
     capability: Risk Management
     capability_index: "1.3"
     requirement_index: 1.3.01
-    statement: You must have a way to score risk to understand the underlying
-      severity.
+    statement: You must have a way to quantify risk to understand the underlying severity.
     guidance: For example, a risk assessment methodology may score risks across multiple axes such as impact and likelihood.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-613a204c1e324a4c8bb427a57152af77
@@ -270,8 +268,7 @@ specification:
     capability: Study Management
     capability_index: "1.4"
     requirement_index: 1.4.05
-    statement: You could implement a portal that can provide a workflow engine
-      and database which automates the processes within this capability.
+    statement: You could implement a portal that can provide a workflow engine and database which automates components relating to study management.
     guidance:
       "A portal should automate as much of the processes within the capability
       as possible.\nWhere processes are automated, process maturity is easier to achieve,
@@ -286,10 +283,8 @@ specification:
     statement: You must keep a complete record of all the data assets held
       within the system.
     guidance:
-      "Details of all data assets (current and past) held by the system should
-      be retained along with meta-data useful for ensuring compliance can be demonstrated.\n\
-      This would include ownership, data lifecycle, contracts, risk assessments and
-      other quality data.\nThis is likely to already exist within the wider organisation
+      "Details of all data assets (current and past) held by the system should be retained along with meta-data required to demonstrate compliance.\n\
+      This should include ownership, data lifecycle, contracts, risk assessments and other quality data.\nThis is likely to already exist within the wider organisation
       but may require augmenting for the TRE."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
@@ -576,8 +571,7 @@ specification:
     capability: End User Computing
     capability_index: "2.1"
     requirement_index: 2.1.04
-    statement: Your TRE should be accessed via a user interface accessible using
-      commonly available applications.
+    statement: Your TRE should be accessed via a user interface using commonly available applications.
     guidance:
       "TREs which allow users to connect from their own devices should not
       require the installation of any bespoke TRE application on the user’s device.\n\
@@ -648,8 +642,7 @@ specification:
     capability: End User Computing
     capability_index: "2.1"
     requirement_index: 2.1.10
-    statement: Your TRE must provide software applications that are relevant to
-      working with the data in the TRE.
+    statement: Your TRE must provide software applications that are required by the data consumers working in the TRE.
     guidance:
       "The tools provided will depend on the types of data in the TRE, and
       the expectations of users of the TRE.\nFor users working in a TRE via a virtual
@@ -923,12 +916,9 @@ specification:
     capability: Capacity Management
     capability_index: "2.3"
     requirement_index: 2.3.01
-    statement: You must ensure that all projects understand what resources are
-      available and what the associated costs will be before the project starts.
+    statement: You must ensure that all project members understand what resources are available and what the associated costs will be before the project starts.
     guidance:
-      "For on-premises systems this might be related to the available hardware,
-      for cloud-based systems there might be limits on how many instances of a particular
-      resource (*e.g.* GPUs) can be used\nProjects should use this information to
+      "For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (*e.g.* GPUs) can be used.\nProjects should use this information to
       understand whether the available resources will be sufficient for their requirements."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
