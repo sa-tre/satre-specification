@@ -1970,7 +1970,7 @@ specification:
       such as data access requests, data classification, output checking and release,
       project initiation and termination. There must be a process to implementing,
       changing and removing such rules and SOPs.\n\nThis ensures decisions are portable
-      across the federation (e.g output approved in one TRE is recognised by others)"
+      across the federation (e.g. output approved in one TRE is recognised by others)"
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
