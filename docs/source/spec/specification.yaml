@@ -313,7 +313,7 @@ specification:
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.01
     statement: You must have a robust method for identifying accredited members
@@ -322,7 +322,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.02
     statement: You must have clear onboarding processes in place for all roles
@@ -332,7 +332,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.03
     statement: You must have a set of services to manage access to resources
@@ -342,7 +342,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.04
     statement: You must not give anyone access to datasets without agreement
@@ -351,7 +351,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.05
     statement: You must have robust and secure applications in place to
@@ -362,7 +362,7 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-85f613508f004ef18e19fdf041e1f0a0
   - pillar: Information governance
-    capability: Member Accreditation
+    capability: Researcher Accreditation
     capability_index: "1.5"
     requirement_index: 1.5.06
     statement: You must give each user of the TRE a unique logon with changes to
@@ -513,12 +513,15 @@ specification:
     capability: Public Involvement and Engagement
     capability_index: "1.7"
     requirement_index: 1.7.03
-    statement: Members of the public should be included in TRE operations and/or
-      oversight (*optional for TREs without personal data).
+    statement:
+      Members of the public should be effectively involved in TRE operations
+      and/or oversight (*optional for TREs without personal data).
     guidance:
-      "Members of the public can be involved via presence on steering groups
-      or project approvals panels.\nAlternatively TREs can establish separate public
-      panels available for both researchers and TRE staff to consult."
+      "Members of the public should be effectively involved in decision making or advisory
+      roles where their involvement can have influence.\nThis could be via active involvement
+      on steering groups, project approval panels, or establishing separate public panels who
+      both researchers and TRE staff can consult.\n[PEDRI Standards](https://www.pedri.org.uk/) should be used to guide
+      approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
@@ -1020,6 +1023,19 @@ specification:
     capability: Information Security
     capability_index: "2.5"
     requirement_index: 2.5.01
+    statement: Your TRE may need to comply with specific regulatory requirements
+      due to the types of data it is hosting.
+    guidance:
+      "Regulatory frameworks often emphasise the need for security controls
+      to protect sensitive data.\nCompliance with these regulations could require
+      organisations to implement specific security measures to safeguard their TRE
+      from unauthorised access."
+    importance: Mandatory
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Computing technology and Information Security
+    capability: Cyber Resilience
+    capability_index: "2.6"
+    requirement_index: 2.6.01
     statement: You should keep backups of data and research environments,
       provided that this is permitted by law.
     guidance:
@@ -1030,9 +1046,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.02
+    capability: Cyber Resilience
+    capability_index: "2.6"
+    requirement_index: 2.6.02
     statement: You should build redundancy into infrastructure and storage.
     guidance:
       "Infrastructure should be as resilient as necessary to interruption.\n\
@@ -1041,9 +1057,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.03
+    capability: Cyber Resilience
+    capability_index: "2.6"
+    requirement_index: 2.6.03
     statement: You should keep backups of infrastructure, applications and
       configurations.
     guidance: This may include virtualised infrastructure snapshots which can be
@@ -1051,9 +1067,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.04
+    capability: Cyber Resilience
+    capability_index: "2.6"
+    requirement_index: 2.6.04
     statement: You must have procedures in place for rapid incident response.
     guidance:
       "There may be legal requirements to disclose details of any incidents,
@@ -1062,9 +1078,9 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.05
+    capability: Cyber Resilience
+    capability_index: "2.6"
+    requirement_index: 2.6.05
     statement: You should test your incident response through simulation.
     guidance:
       "During simulated incidents the TRE organisation can measure their effectiveness.\n\
@@ -1072,9 +1088,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.06
+    capability: Vulnerability Management
+    capability_index: "2.7"
+    requirement_index: 2.7.01
     statement: You should have an application in place to scan for
       vulnerabilities across infrastructure.
     guidance:
@@ -1083,9 +1099,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.07
+    capability: Vulnerability Management
+    capability_index: "2.7"
+    requirement_index: 2.5.02
     statement: You must have a process in place for applying security updates to
       all software that forms part of the TRE infrastructure.
     guidance: This includes any software used for remote desktop portals,
@@ -1094,9 +1110,9 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.08
+    capability: Vulnerability Management
+    capability_index: "2.7"
+    requirement_index: 2.5.03
     statement: Infrastructure should be automatically patched for
       vulnerabilities.
     guidance:
@@ -1107,9 +1123,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.09
+    capability: Vulnerability Management
+    capability_index: "2.7"
+    requirement_index: 2.7.04
     statement: You should carry out penetration tests on your TRE.
     guidance:
       "By intentionally attempting to breach their TRE, organisations can
@@ -1119,9 +1135,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.10
+    capability: Vulnerability Management
+    capability_index: "2.7"
+    requirement_index: 2.7.05
     statement: You should update the security controls of your TRE based on the
       results of security tests.
     guidance:
@@ -1134,9 +1150,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.11
+    capability: Vulnerability Management
+    capability_index: "2.7"
+    requirement_index: 2.7.06
     statement: You should publish details of your security testing strategy and,
       where possible, the results of each test.
     guidance:
@@ -1148,9 +1164,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.12
+    capability: Encryption
+    capability_index: "2.8"
+    requirement_index: 2.8.01
     statement: Your TRE must encrypt project and user data at rest.
     guidance:
       "This prevents unauthorised access to the data even if the storage media
@@ -1160,9 +1176,9 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.13
+    capability: Encryption
+    capability_index: "2.8"
+    requirement_index: 2.8.02
     statement: Your TRE must encrypt data when in transit between the TRE and
       external networks or computers.
     guidance:
@@ -1172,18 +1188,18 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.14
+    capability: Encryption
+    capability_index: "2.8"
+    requirement_index: 2.8.03
     statement: Your TRE should encrypt data when in transit inside the TRE.
     guidance: If possible, data transfers between different components of a TRE
       should also be encrypted.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.15
+    capability: Encryption
+    capability_index: "2.8"
+    requirement_index: 2.8.04
     statement: You should use encryption algorithms and software that are widely
       accepted as secure.
     guidance:
@@ -1195,9 +1211,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.16
+    capability: Encryption
+    capability_index: "2.8"
+    requirement_index: 2.8.05
     statement: Your TRE should use secure key management.
     guidance: TREs should employ secure key management practices, including
       storing encryption keys separately from the encrypted data and
@@ -1206,9 +1222,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.17
+    capability: Physical Security
+    capability_index: "2.9"
+    requirement_index: 2.9.01
     statement: Your TRE could offer physical protection measures against data
       leakage or theft via physical means.
     guidance:
@@ -1218,19 +1234,6 @@ specification:
       access to a TRE could include surveillance systems, restricting physical access
       to authorised personnel only, visitor management systems and employee training."
     importance: Optional
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
-  - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.18
-    statement: Your TRE may need to comply with specific regulatory requirements
-      due to the types of data it is hosting.
-    guidance:
-      "Regulatory frameworks often emphasise the need for security controls
-      to protect sensitive data.\nCompliance with these regulations could require
-      organisations to implement specific security measures to safeguard their TRE
-      from unauthorised access."
-    importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
     capability: Information Security
@@ -1450,6 +1453,43 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
   - pillar: Data management
+    capability: Data Lifecycle Management
+    capability_index: "3.1"
+    requirement_index: 3.1.17
+    statement: You must be able to specify what categories of data your TRE is
+      able to support.
+    guidance:
+      "Your TRE must provide an explanation of the kinds of data it has been
+      designed to hold, with reference to its security capabilities, that can be understood
+      by all stakeholders.\nRelevant stakeholders may include information asset owners
+      and project teams and they may have different levels of technical expertise."
+    importance: Mandatory
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
+  - pillar: Data management
+    capability: Data Lifecycle Management
+    capability_index: "3.1"
+    requirement_index: 3.1.18
+    statement: Your TRE could support projects with differing security
+      requirements through configurable security controls.
+    guidance:
+      "This allows projects with different security requirements to each be
+      met with a suitable level of controls.\nIt helps ensure that users can work
+      effectively, with minimal barriers."
+    importance: Optional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
+  - pillar: Data management
+    capability: Data Lifecycle Management
+    capability_index: "3.1"
+    requirement_index: 3.1.19
+    statement: Your TRE could offer a pre-defined set of security control tiers.
+    guidance:
+      "Security control tiers can be designed to cover the types of project
+      or data you expect to handle.\nProjects may be placed into the most suitable
+      tier rather than having a bespoke design.\nThis reduces the number of unique
+      configurations that need to be supported."
+    importance: Optional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
+  - pillar: Data management
     capability: Identity and Access Management
     capability_index: "3.2"
     requirement_index: 3.2.01
@@ -1629,7 +1669,7 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
-    capability: Information search and discovery
+    capability: Information Search and Discovery
     capability_index: "3.4"
     requirement_index: 3.4.01
     statement: You should provide a metadata catalogue of available datasets for
@@ -1642,46 +1682,9 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-176cdec84e4c4db59c8d9ac973c1b857
   - pillar: Data management
-    capability: Security Levels and Tiering
-    capability_index: "3.5"
-    requirement_index: 3.5.01
-    statement: You must be able to specify what categories of data your TRE is
-      able to support.
-    guidance:
-      "Your TRE must provide an explanation of the kinds of data it has been
-      designed to hold, with reference to its security capabilities, that can be understood
-      by all stakeholders.\nRelevant stakeholders may include information asset owners
-      and project teams and they may have different levels of technical expertise."
-    importance: Mandatory
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
-  - pillar: Data management
-    capability: Security Levels and Tiering
-    capability_index: "3.5"
-    requirement_index: 3.5.02
-    statement: Your TRE could support projects with differing security
-      requirements through configurable security controls.
-    guidance:
-      "This allows projects with different security requirements to each be
-      met with a suitable level of controls.\nIt helps ensure that users can work
-      effectively, with minimal barriers."
-    importance: Optional
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
-  - pillar: Data management
-    capability: Security Levels and Tiering
-    capability_index: "3.5"
-    requirement_index: 3.5.03
-    statement: Your TRE could offer a pre-defined set of security control tiers.
-    guidance:
-      "Security control tiers can be designed to cover the types of project
-      or data you expect to handle.\nProjects may be placed into the most suitable
-      tier rather than having a bespoke design.\nThis reduces the number of unique
-      configurations that need to be supported."
-    importance: Optional
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-52fc27d7c99f4324a6e922fbb455628e
-  - pillar: Data management
-    capability: Research Meta-Data
-    capability_index: "3.6"
-    requirement_index: 3.6.01
+    capability: Information search and discovery
+    capability_index: "3.4"
+    requirement_index: 3.4.02
     statement: You should have a consistent and easily accessible meta-data data
       model or similar to describe what a data asset contains.
     guidance:
@@ -1692,9 +1695,20 @@ specification:
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
   - pillar: Data management
-    capability: Research Meta-Data
-    capability_index: "3.6"
-    requirement_index: 3.6.02
+    capability: Information search and discovery
+    capability_index: "3.4"
+    requirement_index: 3.4.03
+    statement: You could provide an interface application for data consumers and
+      data subjects to query elements of the data.
+    guidance: In order to make data findable, an application which queries the
+      meta-data or elements of the research data could be made more easily
+      accessible than the data itself.
+    importance: Optional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-e02301f9b1314503934a377bf5642b15
+  - pillar: Data management
+    capability: Information search and discovery
+    capability_index: "3.4"
+    requirement_index: 3.4.04
     statement: You could provide summary, abstracted or synthetic data to
       researchers without exposing the underlying data set.
     guidance: To reduce the need for access to row level data researchers could
@@ -1703,17 +1717,6 @@ specification:
       development and cohort planning.
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-89f57ba746fc41fc8a22e8d2be87537f
-  - pillar: Data management
-    capability: Meta-Data Search and Discovery Application
-    capability_index: "3.7"
-    requirement_index: 3.7.01
-    statement: You could provide an interface application for data consumers and
-      data subjects to query elements of the data.
-    guidance: In order to make data findable, an application which queries the
-      meta-data or elements of the research data could be made more easily
-      accessible than the data itself.
-    importance: Optional
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-e02301f9b1314503934a377bf5642b15
   - pillar: Supporting Capabilities
     capability: Business Continuity
     capability_index: "4.1"
@@ -2033,7 +2036,7 @@ specification:
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-federation-governance
   - pillar: Federation
-    capability: Member Accreditation
+    capability: Federation Researcher Accreditation
     capability_index: "5.2"
     requirement_index: 5.2.01
     statement: The federation must agree baseline competency requirements for
