@@ -490,7 +490,7 @@ specification:
       experiences, and identities (*optional for TREs without personal data)."
     guidance:
       "Any public engagement activity carried out by TREs should be accessible for the public participants involved. Recruitment of public participants should consider how to proactively
-      recruit participants who represent data held within the TRE and for whom the intended benefit of projects using the data applies. [PEDRI Standards](https://doi.org/10.5281/zenodo.5084761) should be used to guide approach."
+      recruit participants who represent data held within the TRE and for whom the intended benefit of projects using the data applies. [PEDRI Standards](https://www.pedri.org.uk/about-us/our-standards/) should be used to guide approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
   - pillar: Information governance
@@ -520,7 +520,7 @@ specification:
       "Members of the public should be effectively involved in decision making or advisory
       roles where their involvement can have influence.\nThis could be via active involvement
       on steering groups, project approval panels, or establishing separate public panels who
-      both researchers and TRE staff can consult.\n[PEDRI Standards](https://www.pedri.org.uk/) should be used to guide
+      both researchers and TRE staff can consult.\n[PEDRI Standards](https://www.pedri.org.uk/about-us/our-standards/) should be used to guide
       approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-f28b720cce80472ebb8aeb05b2ba6950
