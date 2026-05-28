@@ -571,8 +571,7 @@ specification:
     capability: End User Computing
     capability_index: "2.1"
     requirement_index: 2.1.04
-    statement: Your TRE should be accessed via a user interface accessible using
-      commonly available applications.
+    statement: Your TRE should be accessed via a user interface using commonly available applications.
     guidance:
       "TREs which allow users to connect from their own devices should not
       require the installation of any bespoke TRE application on the user’s device.\n\
@@ -643,8 +642,7 @@ specification:
     capability: End User Computing
     capability_index: "2.1"
     requirement_index: 2.1.10
-    statement: Your TRE must provide software applications that are relevant to
-      working with the data in the TRE.
+    statement: Your TRE must provide software applications that are required by the data consumers working in the TRE.
     guidance:
       "The tools provided will depend on the types of data in the TRE, and
       the expectations of users of the TRE.\nFor users working in a TRE via a virtual
@@ -918,12 +916,9 @@ specification:
     capability: Capacity Management
     capability_index: "2.3"
     requirement_index: 2.3.01
-    statement: You must ensure that all projects understand what resources are
-      available and what the associated costs will be before the project starts.
+    statement: You must ensure that all project members understand what resources are available and what the associated costs will be before the project starts.
     guidance:
-      "For on-premises systems this might be related to the available hardware,
-      for cloud-based systems there might be limits on how many instances of a particular
-      resource (*e.g.* GPUs) can be used\nProjects should use this information to
+      "For on-premises systems this might be related to the available hardware, for cloud-based systems there might be limits on how many instances of a particular resource (*e.g.* GPUs) can be used.\nProjects should use this information to
       understand whether the available resources will be sufficient for their requirements."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
