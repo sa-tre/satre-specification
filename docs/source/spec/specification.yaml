@@ -1023,6 +1023,17 @@ specification:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing technology and Information Security
+    capability: Information Security
+    capability_index: "2.5"
+    requirement_index: 2.5.02
+    statement: Your TRE could use threat modelling definition to identify
+      areas of risk to infrastructure.
+    guidance: "Understanding threats to the TRE may be challenging.
+      Threat modelling provides a structured process for TREs to understand and
+      assess threats.\n\nInformation on threat models here:\nhttps://owasp.org/www-community/Threat_Modeling"
+    importance: Optional
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Computing technology and Information Security
     capability: Cyber Resilience
     capability_index: "2.6"
     requirement_index: 2.6.01
@@ -1223,17 +1234,6 @@ specification:
       data, for example by photographing a computer screen.\nPhysical controls on
       access to a TRE could include surveillance systems, restricting physical access
       to authorised personnel only, visitor management systems and employee training."
-    importance: Optional
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
-  - pillar: Computing technology and Information Security
-    capability: Information Security
-    capability_index: "2.5"
-    requirement_index: 2.5.19
-    statement: Your TRE could use threat modelling definition to identify
-      areas of risk to infrastructure.
-    guidance: "Understanding threats to the TRE may be challenging.
-      Threat modelling provides a structured process for TREs to understand and
-      assess threats.\n\nInformation on threat models here:\nhttps://owasp.org/www-community/Threat_Modeling"
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Data management
