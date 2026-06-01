@@ -1102,7 +1102,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
-    requirement_index: 2.5.02
+    requirement_index: 2.7.02
     statement: You must have a process in place for applying security updates to
       all software that forms part of the TRE infrastructure.
     guidance: This includes any software used for remote desktop portals,
@@ -1113,7 +1113,7 @@ specification:
   - pillar: Computing technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
-    requirement_index: 2.5.03
+    requirement_index: 2.7.03
     statement: Infrastructure should be automatically patched for
       vulnerabilities.
     guidance:
