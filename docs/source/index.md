@@ -134,6 +134,15 @@ Two public members served on the core SATRE project team from the beginning, ens
   -
 ```
 
+## SATRE Versioning Policy
+
+:Major releases: contain significant changes or additions, or will include changes that may invalidate exising evaluations.
+For example, if a new **Mandatory** requirement is added, or a requirement is upgraded from **Optional** to **Mandatory**, this may mean an existing TRE no longer fulfils all requirements.
+This is therefore a breaking change.
+
+:Minor releases: may include small fixes which do not change the meaning of a requirement, improved guidance, and additional information.
+The validity of existing evaluations should not be affected.
+
 ## Publications
 
 - Ed Chalstrey, Jim Madge, James Robinson, Simon Li, Hari Sood, Arron Lacey, Matt Craddock, Tim Machin, Chris Cole, & Martin O'Reilly. (2025). sa-tre/satre-specification: Version 1.1.1 (v1.1.1). Zenodo. https://doi.org/10.5281/zenodo.17353472
