@@ -66,7 +66,6 @@ SATRE is structured as a specification that defines the key capabilities require
 Four of these pillars are relevant to all TREs (information governance, computing technology, data management, supporting capabilities), and a fifth pillar covers federated TREs.
 Together, these provide a consistent way to understand how a TRE should function across all aspects of its operation.
 
-
 The specification is hierarchical: high-level principles and pillars are broken down into capabilities, which are then expressed as individual requirements (statements). These statements are classified (e.g. mandatory, recommended, optional) and used as the basis for evaluation, allowing organisations to assess implementation in a structured and comparable way.
 
 (is_standard)=
