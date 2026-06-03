@@ -696,7 +696,7 @@ specification:
     capability_index: "2.1"
     requirement_index: 2.1.14
     statement: Your TRE must maintain segregation of users and data from
-      different projects when using non-standard compute.
+      different projects when using all compute, including HPC.
     guidance:
       "High performance or specialist compute is often shared amongst multiple
       users.\nUsers and data must remain segregated at all times.\nFor example, when
