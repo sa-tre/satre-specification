@@ -22,7 +22,6 @@
 - {ref}`support_federation`
 - {ref}`how_contribute`
 
-
 (what_tre)=
 
 ## What is a TRE?
@@ -63,6 +62,7 @@ It is a community‑driven effort, involving contributions from over 60 organisa
 ## How is SATRE structured?
 
 SATRE is structured as a specification that defines the key capabilities required to design, build, and operate a TRE. It is organised around four core pillars—such as information governance, computing technology, and data management—supported by a set of capabilities and detailed statements that describe expected practices. Together, these provide a consistent way to understand how a TRE should function across all aspects of its operation. 
+
 The specification is hierarchical: high-level principles and pillars are broken down into capabilities, which are then expressed as individual requirements (statements). These statements are classified (e.g. mandatory, recommended, optional) and used as the basis for evaluation, allowing organisations to assess implementation in a structured and comparable way.
 
 (is_standard)=
