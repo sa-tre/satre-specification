@@ -283,7 +283,7 @@ specification:
     statement: You must keep a complete record of all the data assets held
       within the system.
     guidance:
-      "Details of all data assets (current and past) held by the system should be retained along with meta-data required to demonstrate compliance.\n\
+      "Details of all data assets (current and past) held by the system should be retained along with metadata required to demonstrate compliance.\n\
       This should include ownership, data lifecycle, contracts, risk assessments and other quality data.\nThis is likely to already exist within the wider organisation
       but may require augmenting for the TRE."
     importance: Mandatory
@@ -1662,17 +1662,19 @@ specification:
     statement: You should provide a metadata catalogue of available datasets for
       users.
     guidance:
-      "This is particularly relevant for TREs with population-level data collection
-      of general interest.\nThis may not be appropriate for TREs where each project
-      has its own data sharing agreement with one or more data provider or very sensitive
-      datasets."
+      "Metadata catalogues are particularly relevant for TREs with population-level
+      data collection of general interest.\nAccess to metadata catalogues should
+      itself be subject to disclosure control, as metadata may reveal sensitive
+      information about the datasets held.\nThis may not be appropriate for TREs
+      where each project has its own data sharing agreement with one or more data
+      providers, or where datasets are particularly sensitive."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-176cdec84e4c4db59c8d9ac973c1b857
   - pillar: Data Management
     capability: Information search and discovery
     capability_index: "3.4"
     requirement_index: 3.4.02
-    statement: You should have a consistent and easily accessible meta-data data
+    statement: You should have a consistent and easily accessible metadata data
       model or similar to describe what a data asset contains.
     guidance:
       "Where possible, existing data models should be employed (and extended
@@ -1688,7 +1690,7 @@ specification:
     statement: You could provide an interface application for data consumers and
       data subjects to query elements of the data.
     guidance: In order to make data findable, an application which queries the
-      meta-data or elements of the research data could be made more easily
+      metadata or elements of the research data could be made more easily
       accessible than the data itself.
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-e02301f9b1314503934a377bf5642b15
