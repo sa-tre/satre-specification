@@ -61,8 +61,7 @@ It is a community‑driven effort, involving contributions from over 60 organisa
 
 ## How is SATRE structured?
 
-SATRE is structured as a specification that defines the key capabilities required to design, build, and operate a TRE. It is organised around four core pillars—such as information governance, computing technology, and data management—supported by a set of capabilities and detailed statements that describe expected practices. Together, these provide a consistent way to understand how a TRE should function across all aspects of its operation. 
-
+SATRE is structured as a specification that defines the key capabilities required to design, build, and operate a TRE. It is organised around four core pillars-such as information governance, computing technology, and data management—supported by a set of capabilities and detailed statements that describe expected practices. Together, these provide a consistent way to understand how a TRE should function across all aspects of its operation. 
 The specification is hierarchical: high-level principles and pillars are broken down into capabilities, which are then expressed as individual requirements (statements). These statements are classified (e.g. mandatory, recommended, optional) and used as the basis for evaluation, allowing organisations to assess implementation in a structured and comparable way.
 
 (is_standard)=
@@ -143,7 +142,6 @@ We encourage TRE {ref}`Operators and Builders <infrastructure_roles>` to publicl
 TRE {ref}`Developers <infrastructure_roles>` can use the specification and published TRE evaluations as a starting point.
 Some of evaluated TREs such as the Alan Turing Institute's _[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)_ and the University of Dundee Health Informatics Centre's _[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)_ are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
 
-
 (set_in_stone)=
 
 ## Is the SATRE specification set in stone?
@@ -168,14 +166,13 @@ A future specification may include the idea of different archetypes of TREs, or 
 
 ## Who is currently using SATRE?
 
-(support_federation)=
-
 SATRE is being adopted and used by a growing range of organisations across the UK TRE community, including academic institutions, NHS environments, and research organisations.
 
 Examples published on the SATRE community site include the Scottish National Safe Haven, Grampian Data Safe Haven, Health Informatics Centre (University of Dundee), and the East of England SDE, among others. These organisations have used SATRE to evaluate and improve their TREs and to share their results with the wider community.
 
 SATRE is designed for broad use, so any organisation building or operating a Trusted Research Environment can adopt it and contribute to its continued development.
 
+(support_federation)=
 
 ## Does SATRE describe approaches to TRE federation or interoperability of TREs?
 
