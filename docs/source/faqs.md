@@ -47,7 +47,7 @@ See {ref}`what_is_satre` for more information.
 
 ## How has the SATRE specification been developed and why?
 
-SATRE has been developed as a community-led specification, bringing together knowledge, experience, and best practice from a wide range of organisations across the UK TRE community, including academia, healthcare, industry, and government. It was created through collaboration with over 60 organisations, public engagement, and ongoing feedback to ensure it reflects real‑world needs and practice.  
+SATRE has been developed as a community-led specification, bringing together knowledge, experience, and best practice from a wide range of organisations across the UK TRE community, including academia, healthcare, industry, and government. It was created through collaboration with over 60 organisations, public engagement, and ongoing feedback to ensure it reflects real‑world needs and practice. 
 
 The specification was developed to address the lack of TRE‑specific guidance and to provide a consistent framework for designing, operating, and evaluating Trusted Research Environments. Its aim is to improve trust, interoperability, and efficiency by defining shared capabilities and enabling organisations to assess and enhance their TREs in a structured way.
 
