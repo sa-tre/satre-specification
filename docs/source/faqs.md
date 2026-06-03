@@ -183,6 +183,7 @@ SATRE is designed for broad use, so any organisation building or operating a Tru
 ## Does SATRE describe approaches to TRE federation or interoperability of TREs?
 
 Yes.
+
 As of v2.0, SATRE includes a Federation Pillar which provides a framework for establishing and maintaining a SATRE-compliant TRE Federation.
 
 (how_contribute)=
