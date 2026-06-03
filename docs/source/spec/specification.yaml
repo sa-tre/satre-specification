@@ -1575,11 +1575,8 @@ specification:
     statement: You should establish the intended outputs of each project from
       the outset.
     guidance:
-      "Identifying the purpose of a piece of work is important for compliance
-      with data protection legislation.\nResults will be produced which address the
-      project’s purpose, some of which may be outputs that are removed from the TRE.\n\
       Understanding what these outputs are likely to be and their sensitivity as early
-      as possible will help prepare for their processing and publication."
+      as possible will help prepare for their processing and publication.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data management
