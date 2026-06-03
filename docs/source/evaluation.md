@@ -42,7 +42,7 @@ By making evaluations publicly available, we can collectively improve TRE provis
 
 SATRE uses the terms Mandatory, Recommended and Optional to indicate the importance of each statement.
 
-+- **Mandatory** requirements represent the baseline that a TRE must meet to be considered SATRE‑compliant.
++ **Mandatory** requirements represent the baseline that a TRE must meet to be considered SATRE‑compliant.
 +- **Recommended** requirements reflect good practice that strengthens a TRE but are not essential for baseline compliance. They strengthen capability, reduce risk, and improve consistency, so organisations should consider them a priority after meeting Mandatory requirements.
 +- **Optional** requirements provide additional enhancements that may add value depending on context. They may add value in certain environments or use cases but are not expected for most TREs and are typically lower priority.
 
