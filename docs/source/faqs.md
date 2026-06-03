@@ -174,7 +174,7 @@ A future specification may include the idea of different archetypes of TREs, or 
 
 SATRE is being adopted and used by a growing range of organisations across the UK TRE community, including academic institutions, NHS environments, and research organisations.
 
-Examples published on the SATRE community site include the Scottish National Safe Haven, Grampian Data Safe Haven, Health Informatics Centre (University of Dundee), and the East of England SDE, among others. These organisations have used SATRE to evaluate and improve their TREs and to share their results with the wider community.
+Examples published on the SATRE community site include the the Scottish National and regional Safe Havens, the East of England SDE, plus links to some commercial evaluations. These organisations have used SATRE to evaluate and improve their TREs and to share their results with the wider community.
 
 SATRE is designed for broad use, so any organisation building or operating a Trusted Research Environment can adopt it and contribute to its continued development.
 
