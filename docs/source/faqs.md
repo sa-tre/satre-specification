@@ -30,7 +30,7 @@ TRE stands for _Trusted Research Environment_.
 The simplest definition tends to be _any_ kind of computing environment set up for research with sensitive data that has built-in security controls and user access management features.
 The definition of TRE relevant to SATRE encompasses the set of information governance and data management processes alongside the computing technology used to support research with sensitive data; the definition of sensitive data being broadly any data for which there may be considerations around disclosure control, for any reason.
 
-We recognise that in the UK several other names such a _Secure Data Environment_ or _Data Safe Haven_ have been used in the literature on computing with sensitive data, and that these systems may go by other names elsewhere.
+We recognise that in the UK several other names as _Secure Data Environment_ or _Data Safe Haven_ have been used in the literature on computing with sensitive data, and that these systems may go by other names elsewhere.
 For more information about TREs, visit the [UK TRE Community website](https://www.uktre.org/en/latest/).
 
 (why_satre)=
@@ -66,7 +66,7 @@ SATRE is structured as a specification that defines the key capabilities require
 Four of these pillars are relevant to all TREs (information governance, computing technology, data management, supporting capabilities), and a fifth pillar covers federated TREs.
 Together, these provide a consistent way to understand how a TRE should function across all aspects of its operation.
 
-The specification is hierarchical: high-level principles and pillars are broken down into capabilities, which are then expressed as individual requirements (statements). These statements are classified (e.g. mandatory, recommended, optional) and used as the basis for evaluation, allowing organisations to assess implementation in a structured and comparable way.
+The specification is hierarchical: high-level principles and pillars are broken down into capabilities, which are then expressed as individual requirements (statements). These statements are classified (e.g. Mandatory, Recommended, Optional) and used as the basis for evaluation, allowing organisations to assess implementation in a structured and comparable way.
 
 (is_standard)=
 
@@ -115,7 +115,7 @@ In practice, this involves assembling a cross‑functional team (e.g. technical,
 
 Yes—SATRE can be applied incrementally.
 
-It is designed as a self‑assessment framework that helps organisations identify gaps, prioritise improvements, and progress over time. The use of Mandatory, Recommended, and Optional requirements supports a phased approach, where organisations meet baseline expectations first and then enhance their capabilities progressively based on need and context.
+It is designed as a self‑assessment framework that helps organisations identify gaps, prioritise improvements, and progress over time. The use of Mandatory, Recommended, and Optional classifications supports a phased approach, where organisations meet baseline expectations first and then enhance their capabilities progressively based on need and context.
 
 (how_long)=
 
@@ -123,7 +123,7 @@ It is designed as a self‑assessment framework that helps organisations identif
 
 The time required will vary depending on factors such as the size and maturity of the TRE, availability of evidence, and level of detail in the evaluation (e.g. simple scoring vs. full justification and improvement planning).
 
-As a guideline, if you have the relevant information governance and operations team members available it should take a maximum of two days.
+As a guideline, if you have the relevant information governance and operations team members available it could take around two days.
 
 (operator_gain)=
 
@@ -145,7 +145,8 @@ SATRE recognises that compliance alone does not ensure effectiveness. While it i
 
 We encourage TRE {ref}`Operators and Builders <infrastructure_roles>` to publicly evaluate their TREs against the SATRE specification; see {ref}`evaluation`.
 TRE {ref}`Developers <infrastructure_roles>` can use the specification and published TRE evaluations as a starting point.
-Some of evaluated TREs such as the Alan Turing Institute's _[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)_ and the University of Dundee Health Informatics Centre's _[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)_ are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
+
+Some of the evaluated TREs such as the Alan Turing Institute's _[Data Safe Haven](https://data-safe-haven.readthedocs.io/en/latest/)_ and the University of Dundee Health Informatics Centre's _[TREEHOOSE](https://github.com/HicResearch/TREEHOOSE/)_ are deployed from open source infrastructure-as-code, and can be deployed by other institutions.
 
 (set_in_stone)=
 
@@ -154,7 +155,7 @@ Some of evaluated TREs such as the Alan Turing Institute's _[Data Safe Haven](ht
 Absolutely not.
 We know that TREs vary greatly in their design architecture, purposes for being built, the kinds of research they support and data they handle.
 We have tried to build a specification with as broadly useful a set of capabilities as possible, whilst acknowledging these different approaches.
-We won't have covered everything, and if you find SATRE valuable but think there is something we've missed, please consider {ref}`contributing <contributing>`.
+We won't have covered everything, and if you find SATRE valuable, but think there is something we've missed, please consider {ref}`contributing <contributing>`.
 Additionally, the best practices in TRE provision may evolve over time as technologies and regulations change.
 We hope that the SATRE specification will be maintained in the future and accommodate these changes as appropriate.
 
@@ -173,7 +174,7 @@ A future specification may include the idea of different archetypes of TREs, or 
 
 SATRE is being adopted and used by a growing range of organisations across the UK TRE community, including academic institutions, NHS environments, and research organisations.
 
-Examples published on the SATRE community site include the the Scottish National and regional Safe Havens, the East of England SDE, plus links to some commercial evaluations. These organisations have used SATRE to evaluate and improve their TREs and to share their results with the wider community.
+Examples published on the SATRE community site include the Scottish National and Regional Safe Havens, the East of England SDE, plus links to some commercial evaluations. These organisations have used SATRE to evaluate and improve their TREs and to share their results with the wider community.
 
 SATRE is designed for broad use, so any organisation building or operating a Trusted Research Environment can adopt it and contribute to its continued development.
 
@@ -190,4 +191,4 @@ As of v2.0, SATRE includes a Federation Pillar which provides a framework for es
 
 You can contribute to SATRE by engaging with the community and helping to improve the specification. This includes providing feedback, sharing your organisation’s evaluations, raising issues or suggestions via the [SATRE GitHub repositories](https://github.com/sa-tre/satre-specification), and participating in community discussions and events.
 
-SATRE is community-led, so contributions from TRE operators, developers, and users are actively encouraged to help refine and evolve the framework over time. Our [community website](https://satre.uktre.org/en/) has a list of resources for following our project and connecting with us.
+SATRE is community-led, so contributions from TRE Operators, Developers, and Users are actively encouraged to help refine and evolve the framework over time. Our [community website](https://satre.uktre.org/en/) has a list of resources for following our project and connecting with us.
