@@ -1033,6 +1033,22 @@ specification:
       assess threats.\n\nInformation on threat models here:\nhttps://owasp.org/www-community/Threat_Modeling"
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+  - pillar: Computing technology and Information Security
+    capability: Information Security
+    capability_index: "2.5"
+    requirement_index: 2.5.03
+    statement: Your TRE must maintain security logs of
+      significant events and have a process for reviewing these
+      logs to detect and respond to suspicious activity.
+    guidance:
+      "Security logs should be tamper-proof and capture, at a minimum, authentication events
+      (successful and failed), privileged or administrative actions, changes
+      to access controls or system configuration, and data access or egress
+      events.\nLogs must be protected against tampering or deletion, and
+      retained for a period appropriate to your data retention policy and
+      any regulatory obligations."
+    importance: Mandatory
+    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-99ff165db6264d4ba94b36d9d014f9f4
   - pillar: Computing Technology and Information Security
     capability: Cyber Resilience
     capability_index: "2.6"
