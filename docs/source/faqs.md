@@ -48,6 +48,7 @@ See {ref}`what_is_satre` for more information.
 ## How has the SATRE specification been developed and why?
 
 SATRE has been developed as a community-led specification, bringing together knowledge, experience, and best practice from a wide range of organisations across the UK TRE community, including academia, healthcare, industry, and government. It was created through collaboration with over 60 organisations, public engagement, and ongoing feedback to ensure it reflects real‑world needs and practice.  
+
 The specification was developed to address the lack of TRE‑specific guidance and to provide a consistent framework for designing, operating, and evaluating Trusted Research Environments. Its aim is to improve trust, interoperability, and efficiency by defining shared capabilities and enabling organisations to assess and enhance their TREs in a structured way.
 
 (who_developed)=
@@ -62,6 +63,7 @@ It is a community‑driven effort, involving contributions from over 60 organisa
 ## How is SATRE structured?
 
 SATRE is structured as a specification that defines the key capabilities required to design, build, and operate a TRE. It is organised around four core pillars—such as information governance, computing technology, and data management—supported by a set of capabilities and detailed statements that describe expected practices. Together, these provide a consistent way to understand how a TRE should function across all aspects of its operation.
+
 The specification is hierarchical: high-level principles and pillars are broken down into capabilities, which are then expressed as individual requirements (statements). These statements are classified (e.g. mandatory, recommended, optional) and used as the basis for evaluation, allowing organisations to assess implementation in a structured and comparable way.
 
 (is_standard)=
@@ -79,7 +81,7 @@ Evaluating a TRE with the SATRE specification may help to identify which technic
 
 SATRE is designed to complement, not replace, existing standards and frameworks. It is not an ISO technical standard; instead, it provides a structured approach to understanding and improving Security Awareness, Training, and Education (SATE) capability. While standards such as ISO/IEC 27001 or the NIST Cybersecurity Framework set out what organisations should do, SATRE focuses on how effectively those expectations are delivered through people and behaviour.
 
-The SATRE Control Alignment Table ({ref}`alignment`) shows how SATRE practices map to recognised standards and frameworks, helping organisations link SATRE activity to existing control requirements. This enables organisations to demonstrate alignment, identify gaps, and strengthen the human element of their security posture without duplicating or replacing established frameworks.
+The ({ref}`alignment`) Table shows how SATRE practices map to recognised standards and frameworks, helping organisations link SATRE activity to existing control requirements. This enables organisations to demonstrate alignment, identify gaps, and strengthen the human element of their security posture without duplicating or replacing established frameworks.
 
 (is_everything)=
 
@@ -102,7 +104,7 @@ The specification does not dictate answers to the specific technology or policy 
 
 A TRE is evaluated in SATRE through a structured self‑assessment against the SATRE specification. Organisations use the SATRE evaluation template (an Excel workbook derived from the specification) to review each requirement across the five pillars and supporting capabilities, scoring their current implementation and recording evidence, justification, and any improvements identified.
 
-In practice, this involves assembling a cross‑functional team (e.g. technical, governance, and data roles), working systematically through each statement, and assigning a score (0 = not met, 1 = sufficient, 2 = satisfied, N/A = not applicable). A detailed evaluation should include supporting rationale and suggested improvements, enabling organisations to identify gaps, prioritise actions, and track progress over time. Further guidance available in the evaluation guidance page ({ref}`evaluation`) and past evaluations by other organisations available on our [community website](https://satre.uktre.org/en/evaluations/).
+In practice, this involves assembling a cross‑functional team (e.g. technical, governance, and data roles), working systematically through each statement, and assigning a score (0 = not met, 1 = sufficient, 2 = satisfied, N/A = not applicable). A detailed evaluation should include supporting rationale and suggested improvements, enabling organisations to identify gaps, prioritise actions, and track progress over time. Further guidance available in the evaluation guidance page (see: {ref}`evaluation`) and past evaluations by other organisations available on our [community website](https://satre.uktre.org/en/evaluations/).
 
 (evaluate_incr)=
 
@@ -110,7 +112,7 @@ In practice, this involves assembling a cross‑functional team (e.g. technical,
 
 Yes—SATRE can be applied incrementally.
 
-It is designed as a self‑assessment framework that helps organisations identify gaps, prioritise improvements, and progress over time. The use of **Mandatory**, **Recommended**, and **Optional** requirements supports a phased approach, where organisations meet baseline expectations first and then enhance their capabilities progressively based on need and context.
+It is designed as a self‑assessment framework that helps organisations identify gaps, prioritise improvements, and progress over time. The use of Mandatory, Recommended, and Optional requirements supports a phased approach, where organisations meet baseline expectations first and then enhance their capabilities progressively based on need and context.
 
 (how_long)=
 
@@ -185,4 +187,4 @@ As of v2.0, SATRE includes a Federation Pillar which provides a framework for es
 
 You can contribute to SATRE by engaging with the community and helping to improve the specification. This includes providing feedback, sharing your organisation’s evaluations, raising issues or suggestions via the [SATRE GitHub repositories](https://github.com/sa-tre/satre-specification), and participating in community discussions and events.
 
-SATRE is community-led, so contributions from TRE operators, developers, and users are actively encouraged to help refine and evolve the framework over time. Our [community website](https://satre.uktre.org/en/evaluations/) has a list of resources for following our project and connecting with us.
+SATRE is community-led, so contributions from TRE operators, developers, and users are actively encouraged to help refine and evolve the framework over time. Our [community website](https://satre.uktre.org/en/) has a list of resources for following our project and connecting with us.
