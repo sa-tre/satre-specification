@@ -619,8 +619,7 @@ specification:
     capability: End User Computing
     capability_index: "2.1"
     requirement_index: 2.1.08
-    statement: Your TRE must ensure that any shared services are only available
-      to users working on the same project.
+    statement: Your TRE must ensure that any shared services do not allow users to access data from another project.
     guidance:
       "Poorly designed shared services could enable the unintended mixing
       of data between projects.\nTo prevent this it is necessary that each instance
