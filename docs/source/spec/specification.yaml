@@ -292,11 +292,12 @@ specification:
     capability: Study Management
     capability_index: "1.4"
     requirement_index: 1.4.07
-    statement: You should keep a complete record of all the research studies and
+    statement:
+      You should keep a complete record of all the research studies (Safe Projects) and
       projects within the TRE current and past.
     guidance: The study register should contain all data related to a study
       including a reference to data assets, project team members, information
-      asset owners and any compliance activities required.
+      asset owners and any compliance activities required. It is good practice to make the registry available to public. See [HDRUK for recommendations](https://doi.org/10.5281/zenodo.5084761) for a data use registry standard.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
   - pillar: Information governance
