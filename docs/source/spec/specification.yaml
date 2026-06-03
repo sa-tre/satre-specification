@@ -1037,10 +1037,11 @@ specification:
     capability: Information Security
     capability_index: "2.5"
     requirement_index: 2.5.03
-    statement: Your TRE must maintain tamper-resistant security logs of
+    statement: Your TRE must maintain security logs of
       significant events and have a process for reviewing these
       logs to detect and respond to suspicious activity.
-    guidance: "Security logs should capture, at a minimum, authentication events
+    guidance:
+      "Security logs should be tamper-proof and capture, at a minimum, authentication events
       (successful and failed), privileged or administrative actions, changes
       to access controls or system configuration, and data access or egress
       events.\nLogs must be protected against tampering or deletion, and
