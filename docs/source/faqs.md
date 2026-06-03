@@ -82,7 +82,8 @@ Evaluating a TRE with the SATRE specification may help to identify which technic
 
 ## How does SATRE relate to other standards?
 
-SATRE is designed to complement, not replace, existing standards and frameworks. It is not an ISO technical standard; instead, it provides a structured approach to understanding and improving Security Awareness, Training, and Education (SATE) capability. While standards such as ISO/IEC 27001 or the NIST Cybersecurity Framework set out what organisations should do, SATRE focuses on how effectively those expectations are delivered through people and behaviour.
+SATRE is designed to complement, not replace, existing standards and frameworks. Standards such as ISO/IEC 27001 or the NIST Cybersecurity are a good baseline for information security in organisations, but SATRE is focussed on TREs.
+For example, SATRE adds requirements on public involvement and engagement if you hold publicly owned data.
 
 The ({ref}`alignment`) Table shows how SATRE practices map to recognised standards and frameworks, helping organisations link SATRE activity to existing control requirements. This enables organisations to demonstrate alignment, identify gaps, and strengthen the human element of their security posture without duplicating or replacing established frameworks.
 
