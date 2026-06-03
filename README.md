@@ -28,33 +28,6 @@ You can also reach out directly to any of our [technical contacts](#technical-co
 
 - [Join the UKTRE Community](https://www.uktre.org/en/latest/background/index.html)
 
-## Repository Structure
-
-```
-satre-specification/
-├── docs/
-│   ├── source/              # Sphinx documentation source files
-│   │   ├── _static/         # Custom CSS, JavaScript, and images
-│   │   ├── spec/            # Specification YAML and generation scripts
-│   │   ├── index.md         # Main documentation index
-│   │   ├── specification.md # Specification page
-│   │   ├── evaluation.md    # Evaluation guidance
-│   │   ├── alignment.md     # Control alignment
-│   │   ├── architecture.md  # Architecture overview
-│   │   ├── roles.md         # TRE roles
-│   │   ├── principles.md    # Architectural principles
-│   │   └── faqs.md          # Frequently asked questions
-│   ├── extensions/          # Custom Sphinx extensions
-│   │   ├── yamlspec.py      # YAML specification table renderer
-│   │   └── satrecsv.py      # Excel export functionality
-│   └── images/              # Logos and diagrams
-├── .kiro/                   # Kiro AI assistant files
-│   ├── prompts.md           # Development history
-│   └── sourcefiles/         # Source data files
-└── archive/                 # Archived documentation
-
-```
-
 ## Key Features
 
 ### Dynamic Specification Tables
@@ -65,13 +38,7 @@ The specification is generated from `docs/source/spec/specification.yaml` using 
 - Computing technology and Information Security
 - Data management
 - Supporting capabilities
-
-### Automated YAML Generation
-
-Python scripts in `docs/source/spec/` convert the Excel source file (`SATRE.2.0.-.Reorg.xlsx`) into YAML format:
-
-- `create_yaml.py` - Generates flat specification YAML
-- `create_hierarchy.py` - Generates hierarchical pillar-based YAML
+- Federation (extension for federated TREs)
 
 ## Building the Documentation Locally
 
@@ -112,16 +79,8 @@ make html
 
 To update the specification content:
 
-1. Edit the Excel file: `docs/source/spec/SATRE.2.0.-.Reorg.xlsx`
-2. Regenerate the YAML files:
-
-```bash
-cd docs/source/spec
-python create_yaml.py
-python create_hierarchy.py
-```
-
-3. Rebuild the documentation
+1. Edit the YAML specification file: `docs/source/spec/specification.yaml`
+2. Rebuild the documentation
 
 ## Community
 
