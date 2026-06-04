@@ -26,7 +26,10 @@ You can also reach out directly to any of our [technical contacts](#technical-co
 
 ### Other Ways to Contribute
 
-- [Join the UKTRE Community](https://www.uktre.org/en/latest/background/index.html)
+[Join the UKTRE Community](https://www.uktre.org/)
+
+- [Slack workspace](https://join.slack.com/t/uktrecommunity/shared_invite/zt-2gep86apc-QMLyIdrC2oIIsxTRzLxUqA)
+- [Mailing List](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=UK-TRE-COMM&A=1)
 
 ## Key Features
 
@@ -34,10 +37,10 @@ You can also reach out directly to any of our [technical contacts](#technical-co
 
 The specification is generated from `docs/source/spec/specification.yaml` using a custom Sphinx extension (`yamlspec.py`). The specification is organized into four pillars:
 
-- Information governance
-- Computing technology and Information Security
-- Data management
-- Supporting capabilities
+- Information Governance
+- Computing Technology and Information Security
+- Data Management
+- Supporting Capabilities
 - Federation (extension for federated TREs)
 
 ## Building the Documentation Locally
@@ -82,19 +85,13 @@ To update the specification content:
 1. Edit the YAML specification file: `docs/source/spec/specification.yaml`
 2. Rebuild the documentation
 
-## Community
-
-- **Slack**: [Join the RSE TRE Working Group](https://ukrse.slack.com/archives/rse-tre-wg)
-- **Mailing List**: [RSE TRE Community](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=RSE-TRE-COMM&A=1)
-- **Contact List**: [Sign up for updates](https://forms.office.com/e/FuFyNGx3hw)
-
 ## Code of Conduct
 
 The SATRE project is committed to fostering an inclusive, equitable, and respectful environment for all participants. Please review our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-The content of this repository is licensed under the [Creative Commons License](LICENSE.md).
+The content of this repository is licensed under the [Creative Commons Attribution 4.0 International Public License](LICENSE.md).
 
 ## Technical Contacts
 
@@ -107,4 +104,5 @@ For technical questions about this repository:
 
 ## Acknowledgements
 
-This project is supported by UKRI via the DARE UK Phase 1 driver projects programme. We are grateful to all [DARE Phase 1 contributors](CONTRIBUTORS.md) who have helped develop the SATRE specification.
+Version 1 of SATRE was supported by UKRI via the DARE UK Phase 1 driver projects programme.
+Version 2 was created as part of the [DARE UK TREvolution](https://dareuk.org.uk/trevolution/) programme.
