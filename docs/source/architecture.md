@@ -2,7 +2,7 @@
 
 # SATRE Architecture
 
-The current version of the architecture can be viewed [here](https://satre-archimate.readthedocs.io/en/latest/?view=id-4349bc52159b48e9b785e9809a876c03).
+The current version of the architecture can be viewed using [the architecture viewer](https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4349bc52159b48e9b785e9809a876c03).
 
 This Standard Architecture for Trusted Research Environments (TREs) provides a comprehensive high-level architecture for research organisations handling sensitive data safely.
 
@@ -23,4 +23,4 @@ Views are provided aligned to the capabilities and additional views show alignme
 
 The Archimate files are managed in the [Architecture Repository](https://github.com/sa-tre/satre-archimate).
 
-A report on the architecture is available on [zenodo](https://zenodo.org/records/10053383).
+Reference this work via the [DOI on Zenodo](https://doi.org/10.5281/zenodo.10053383).
