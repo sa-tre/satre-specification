@@ -1665,7 +1665,7 @@ specification:
       "Metadata catalogues are particularly relevant for TREs with population-level
       data collection of general interest.\nAccess to metadata catalogues should
       itself be subject to disclosure control, as metadata may reveal sensitive
-      information about the datasets held.\nThis may not be appropriate for TREs
+      information about the datasets held.\nMetadata Catalogues may not be appropriate for TREs
       where each project has its own data sharing agreement with one or more data
       providers, or where datasets are particularly sensitive."
     importance: Recommended
