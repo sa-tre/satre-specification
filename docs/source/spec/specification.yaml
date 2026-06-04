@@ -280,18 +280,6 @@ specification:
     capability: Study Management
     capability_index: "1.4"
     requirement_index: 1.4.06
-    statement: You must keep a complete record of all the data assets held
-      within the system.
-    guidance:
-      "Details of all data assets (current and past) held by the system should be retained along with metadata required to demonstrate compliance.\n\
-      This should include ownership, data lifecycle, contracts, risk assessments and other quality data.\nThis is likely to already exist within the wider organisation
-      but may require augmenting for the TRE."
-    importance: Mandatory
-    architecture_url: https://satre-archimate.readthedocs.io/en/latest/?view=id-410884ca4e76424c9a5486780d339165
-  - pillar: Information Governance
-    capability: Study Management
-    capability_index: "1.4"
-    requirement_index: 1.4.07
     statement:
       You should keep a complete record of all the research studies (Safe Projects) and
       projects within the TRE current and past.
@@ -303,7 +291,7 @@ specification:
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
-    requirement_index: 1.4.08
+    requirement_index: 1.4.07
     statement: TREs holding data about the public must provide that data for research for public benefit.
     guidance: Processes must be in place to decide on the suitability of projects accessing, processing and releasing data about the public. Research outputs generated from data about the public should be released, subject to meeting all governance requirements and output checks.
     importance: Mandatory*
