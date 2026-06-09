@@ -164,9 +164,7 @@ We hope that the SATRE specification will be maintained in the future and accomm
 ## My TRE is designed for data that doesn't require this level of protection. Should I still follow SATRE?
 
 Yes.
-At the moment, the SATRE specification contains a set of capabilities marked as "Mandatory" which we believe are essential for a system to be defined as a TRE, as well as many "Recommended" and "Optional" capabilities.
-Some of the non-mandatory capabilities will likely not be needed for TREs containing data that does not require all the possible protections, and there may well be tradeoffs to be made in terms of accessibility vs security that depend on the data the TRE holds.
-A future specification may include the idea of different archetypes of TREs, or data sensitivity tiers, with different requirements for each.
+Research enabling technologies like TREs work under many different environments and it is helpful to apply common standards or agreed best practices. Even if you do not feel SATRE applies in your context, it is useful to understand the wider community standards as they are there to support and enable research through continuous improvement within the ever changing regulatory landscape. It is good to be prepared in case your data requirements change.
 
 (who_is_using)=
 
@@ -185,6 +183,8 @@ SATRE is designed for broad use, so any organisation building or operating a Tru
 Yes.
 
 As of v2.0, SATRE includes a Federation Pillar which provides a framework for establishing and maintaining a SATRE-compliant TRE Federation.
+
+For further information on Federations of TRE see the [DARE UK Federation Blueprint](https://dareuk.org.uk/how-we-work/federated-architecture-blueprint/), and for a European perspective informed by SATRE see the [EOSC-ENTUST Architecture Blueprint & Interoperability Framework](https://eosc-entrust.eu/architecture).
 
 (how_contribute)=
 
