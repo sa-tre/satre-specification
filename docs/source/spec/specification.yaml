@@ -1576,7 +1576,8 @@ specification:
       for sensitive data to be revealed.\nHaving guidance, processes and methods will
       help ensure that outputs are correctly classified and, furthermore, that outputs
       due to be openly published are identified.\nEncouraging openly published outputs
-      will enhance a TRE’s impact and transparency."
+      will enhance a TRE’s impact and transparency. The [SDAP SDC Handbook](https://securedatagroup.org/guides-and-resources/sdc-handbook/)
+      provides guidance and practical suggestions for setting up a system to classify outputs."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data Management
