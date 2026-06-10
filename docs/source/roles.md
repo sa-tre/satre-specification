@@ -27,7 +27,6 @@ Roles for TRE end-users conducting research or analysing data in the TRE and oth
     This includes both the user experience of the platforms themselves, and the associated documentation.
 * - Project Manager
   - The person in charge of coordinating other roles for the duration of a specific TRE project.
-    See {ref}`project_management`.
 * - Project Team
   - Refers to the team of data analysts and project manager(s) working on a specific project that uses a TRE.
 
@@ -51,13 +50,11 @@ Roles for people managing data and databases used in a TRE.
 * - Database Administrator
   - People responsible for managing any databases included in the TRE.
     Where a database is used by multiple projects, this includes handling segregation of users and databases belonging to different projects.
-    See {ref}`advanced_CCC`.
 * - Information Asset Owner
   - General term for custodians or owners of a datasets, projects or other information assets within a TRE.
-    For example, the owner of a dataset who has liaised with a {ref}`TRE Operator <infrastructure_roles>` on {ref}`secure data ingress <data_lifecycle_management>` to the TRE.
+    For example, the owner of a dataset who has liaised with a {ref}`TRE Operator <infrastructure_roles>` on [Data Management](https://satre-specification.readthedocs.io/en/latest/specification.html#data-management) to the TRE.
 * - Output Checker
   - People responsible for checking the disclosure risk of project outputs, before egress, as part of the disclosure control process.
-    See {ref}`output_management`.
 ```
 
 (infrastructure_roles)=
@@ -76,14 +73,14 @@ The IT professionals and software engineers who will be responsible for developi
   - People responsible for the management of the TRE's IT infrastructure and general processes documented throughout the SATRE specification.
     Examples include carrying out data ingress/egress and managing user access.
     TRE operators should expect to have access to documentation regarding all processes they are required to carry out, developed by themselves or (in partnership with) the TRE Developers.
-    This documentation should be comprehensive and include troubleshooting steps (see {ref}`knowledge_management`).
+    This documentation should be comprehensive and include troubleshooting steps.
 * - Developer
   - People responsible for building the software infrastructure that can be used as a TRE.
     These could be Research Software Engineers, whose job involves applying professional software engineering expertise to challenges in scientific research.
     Alternatively, these could be developers who are contracted to build a TRE for a given institution or project.
     TRE developers include people creating bespoke platforms catering to the specific requirements of a project or dataset, as well as developers building generalisable solutions to TRE provision that can be configured based on the research context.
 * - Builder
-  - People responsible for carrying out the {ref}`infrastructure_deployment_process`.
+  - People responsible for carrying out the Infrastructure Deployment Process.
     This role could be taken on by either the TRE Operators or the TRE Developers.
 ```
 
@@ -104,13 +101,11 @@ Such governance responsibilities typically involve establishing policies and pro
   - People responsible for writing and/or compiling the correct operating procedures and policies for the TRE.
 * - Quality Manager
   - People responsible for ensuring the TRE is operating correctly, and all procedures and policies are being followed by other roles and work effectively.
-    See {ref}`quality_management`.
 * - Top Management
   - People who lead and control an organisation at the highest level.
     This definition is taken from *ISO 9000:2015* and in this context refers to the most senior governance official who own the risks associated with TRE research, can make decisions and allocate resources.
-    See {ref}`risk_ownership_process`.
 * - Data Protection Manager
-  - People responsible for {ref}`data protection <data_protection>` at the organisation hosting the TRE.
+  - People responsible for Data Protection at the organisation hosting the TRE.
 * - Auditor
   - General IT term for people who evaluate an organisation’s IT systems on whether they meet technology or cybersecurity regulatory requirements.
     For TREs, this may include requirements around sensitive data handling and information security controls.
