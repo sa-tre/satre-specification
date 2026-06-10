@@ -481,7 +481,7 @@ specification:
     capability: Public Involvement and Engagement
     capability_index: "1.7"
     requirement_index: 1.7.02
-    statement:  Details of TRE operations, data available and projects which have
+    statement: Details of TRE operations, data available and projects which have
       accessed the data must be publicly available (*optional for TREs without
       personal data).
     guidance:
