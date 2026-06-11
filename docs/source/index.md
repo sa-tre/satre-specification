@@ -134,7 +134,7 @@ Public members have served on the core SATRE project team from the beginning, en
     - Researcher Accreditation (1.5) renamed from Member Accreditation; researcher terminology applied consistently.
     - Regulatory compliance requirement (2.5.01) upgraded from Recommended to Mandatory.
     - All requirement indices zero-padded to two digits (e.g. 1.2.1 → 1.2.01).
-    - [Full change log](v2changelog.md)
+    - [Full change log](https://github.com/sa-tre/satre-specification/blob/23dbc7ee196d7915d273fb1bc566243d22980343/v2changelog.md)
 * - [1.1.0](https://satre-archimate.readthedocs.io/en/v1.1.0/)
   - 2025-07-01
   - - Output Management added as capability as per specification.
