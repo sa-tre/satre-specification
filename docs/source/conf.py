@@ -48,6 +48,7 @@ linkcheck_ignore = [
     "https://forms.office.com/e/HdaVSj2V0c",
     # Blocked in CI
     "https://www.dundee.ac.uk/hic",
+    "https://eosc-entrust.eu/architecture",
 ]
 
 # Exclude archive directory from linkcheck
