@@ -1682,7 +1682,7 @@ specification:
       risk-appetite settings, and tool or configuration versions.\nThe record must
       be stored in a structured, machine-readable format (such as JSON or YAML),
       retained for audit, and linked unambiguously to the released output."
-    importance: Recommended
+    importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
   - pillar: Data Management
     capability: Information Search and Discovery
