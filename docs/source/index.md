@@ -101,12 +101,15 @@ SATRE embeds public involvement and engagement throughout its development and wi
 
 ### Public Voice in Action
 
-Two public members served on the core SATRE project team from the beginning, ensuring public perspectives shaped all work packages. Public workshop feedback directly led to:
+Public members have served on the core SATRE project team from the beginning, ensuring public perspectives shaped all work. Public input has also fed into the specification through the TREvolution Public Advisory Group, City As Lab community sessions and Collaboration Cafes. Input from members of the public directly led to:
 
 - Upgrading Public Involvement and Engagement statements from Optional to Mandatory for TREs using personal data
 - Including requirements for TREs to publicly report on incidents and near-misses
 - Adding detailed specifications on transparency and public-facing information
-- Strengthening oversight and governance requirements
+- Strengthening oversight and governance requirements including audit trails
+- Emphasis on data being used for public benefit
+- Link to PEDRI guidance on how to effectively involve members of the public
+- Inclusion of statement and guidance on public involvement in Federated environments
 
 ## Get Involved with SATRE
 
