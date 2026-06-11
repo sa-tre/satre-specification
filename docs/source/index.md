@@ -124,6 +124,17 @@ Public members have served on the core SATRE project team from the beginning, en
 * - Version
   - Release Date
   - Release Notes
+* - [2.0.0](https://satre-specification.readthedocs.io/en/v2.0.0/)
+  - 2026-06-12
+  - - New Pillar 5: Federation — 21 requirements across 7 capabilities, developed through structured community engagement as part of the DARE UK TREvolution programme.
+    - Public Involvement and Engagement moved from Pillar 4 (4.8) into Pillar 1 as new capability 1.7; statements strengthened from Recommended/conditional to Mandatory.
+    - Information Security (2.5) split into four focused capabilities: Cyber Resilience (2.6), Vulnerability Management (2.7), Encryption (2.8), and Physical Security (2.9).
+    - Four Pillar 3 capabilities dissolved and requirements redistributed to correct architectural misalignment: Security Levels and Tiering, Research Meta-Data, Meta-Data Search and Discovery Application, and Data Lifecycle Management (archiving) absorbed into Data Lifecycle Management (3.1) and Information Search and Discovery (3.4).
+    - New ML/AI requirements added: data management plan for ML artefacts (3.1.16); ML model weights explicitly addressed in output checking policy (3.3.07); machine-readable disclosure-control audit record (3.3.09).
+    - Researcher Accreditation (1.5) renamed from Member Accreditation; researcher terminology applied consistently.
+    - Regulatory compliance requirement (2.5.01) upgraded from Recommended to Mandatory.
+    - All requirement indices zero-padded to two digits (e.g. 1.2.1 → 1.2.01).
+    - [Full change log](v2changelog.md)
 * - [1.1.0](https://satre-archimate.readthedocs.io/en/v1.1.0/)
   - 2025-07-01
   - - Output Management added as capability as per specification.
