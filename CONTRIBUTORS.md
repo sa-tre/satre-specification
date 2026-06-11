@@ -57,7 +57,12 @@
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/machintim"><img src="https://avatars.githubusercontent.com/u/86052684?v=4?s=100" width="100px;" alt="machintim"/><br /><sub><b>machintim</b></sub></a><br /><a href="#ideas-machintim" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-machintim" title="Content">🖋</a> <a href="https://github.com/sa-tre/satre-specification/pulls?q=is%3Apr+reviewed-by%3Amachintim" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/willc-RISG"><img src="https://avatars.githubusercontent.com/u/100122086?v=4?s=100" width="100px;" alt="willc-RISG"/><br /><sub><b>willc-RISG</b></sub></a><br /><a href="#ideas-willc-RISG" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ywharton"><img src="https://avatars.githubusercontent.com/u/12757716?v=4?s=100" width="100px;" alt="ywharton"/><br /><sub><b>ywharton</b></sub></a><br /><a href="https://github.com/sa-tre/satre-specification/issues?q=author%3Aywharton" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/gordonmilligan-uod"><img src="https://avatars.githubusercontent.com/u/74906093?v=4&size=100" width="100px;" alt="gordonmilligan-uod"/><br /><sub><b>gordonmilligan-uod</b></sub></a><br /><a href="https://github.com/sa-tre/satre-specification/issues?q=author%3Agordonmilligan-uod" title="Ideas, Project Management, & Feedback">📆👀</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JAnderson-UoD"><img src="https://avatars.githubusercontent.com/u/224755435?v=4?s=100" width="100px;" alt="JAnderson-UoD"/><br /><sub><b>JAnderson-UoD</b></sub></a><br /><a href="https://github.com/JAnderson-UoD" title="Planning, & Feedback">📆</a></td>
+    </tr>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/JJohnstonUoD"><img src="https://avatars.githubusercontent.com/u/215985366?v=4?s=100" width="100px;" alt="JJohnstonUoD"/><br /><sub><b>JJohnstonUoD</b></sub></a><br /><a href="https://github.com/JJohnstonUoD" title="Planning, & Feedback">📆👀</a></td>
   </tbody>
 </table>
 
