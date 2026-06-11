@@ -61,8 +61,8 @@
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/JAnderson-UoD"><img src="https://avatars.githubusercontent.com/u/224755435?v=4?s=100" width="100px;" alt="JAnderson-UoD"/><br /><sub><b>JAnderson-UoD</b></sub></a><br /><a href="https://github.com/JAnderson-UoD" title="Planning, & Feedback">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JJohnstonUoD"><img src="https://avatars.githubusercontent.com/u/215985366?v=4?s=100" width="100px;" alt="JJohnstonUoD"/><br /><sub><b>JJohnstonUoD</b></sub></a><br /><a href="https://github.com/JJohnstonUoD" title="Planning, & Feedback">📆👀</a></td>
     </tr>
-    <td align="center" valign="top" width="14.28%"><a href="https://github.com/JJohnstonUoD"><img src="https://avatars.githubusercontent.com/u/215985366?v=4?s=100" width="100px;" alt="JJohnstonUoD"/><br /><sub><b>JJohnstonUoD</b></sub></a><br /><a href="https://github.com/JJohnstonUoD" title="Planning, & Feedback">📆👀</a></td>
   </tbody>
 </table>
 
