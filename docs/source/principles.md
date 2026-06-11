@@ -32,7 +32,7 @@ The design and configuration of a TRE should allow all individuals involved with
   Other users include TRE operators, information governance officers, and TRE builders/developers.
 - Because of diverse user needs, it is unlikely that a specific TRE instance will perfectly match the needs of all users.
 - A TRE that is overly strict on tool and software provision may risk becoming unusable for users with different and varied backgrounds and skillsets.
-- Working environments can differ significantly from users' preferred setups
+- Working environments can differ significantly from users' preferred setups.
   This has design and resource implications for supporting new users, and consideration should be given to resources and time required to help users get up to speed with new and unfamiliar TRE instances.
 - Improving user experience takes time and resource, and will involve trade-offs between investing time in improved standards, better functional design, improving work and organisational culture, boosting users' skills and knowledge through training and making help more readily available at an organisational level.
   These trade-offs will need to be addressed at an organisational level, and teams may want to consider resourcing staff to focus specifically on these questions, for instance in the positions of product managers or service functions.

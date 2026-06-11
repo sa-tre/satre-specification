@@ -30,7 +30,7 @@ TRE stands for _Trusted Research Environment_.
 The simplest definition tends to be _any_ kind of computing environment set up for research with sensitive data that has built-in security controls and user access management features.
 The definition of TRE relevant to SATRE encompasses the set of information governance and data management processes alongside the computing technology used to support research with sensitive data; the definition of sensitive data being broadly any data for which there may be considerations around disclosure control, for any reason.
 
-We recognise that in the UK several other names as _Secure Data Environment_ or _Data Safe Haven_ have been used in the literature on computing with sensitive data, and that these systems may go by other names elsewhere.
+We recognise that in the UK several other names such as _Secure Data Environment_ or _Data Safe Haven_ have been used in the literature on computing with sensitive data, and that these systems may go by other names elsewhere.
 For more information about TREs, visit the [UK TRE Community website](https://www.uktre.org/en/latest/).
 
 (why_satre)=
