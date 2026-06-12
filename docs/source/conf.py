@@ -49,6 +49,7 @@ linkcheck_ignore = [
     # Blocked in CI
     "https://www.dundee.ac.uk/hic",
     "https://eosc-entrust.eu/architecture",
+    "https://satre-specification.readthedocs.io/en/v2.0.0/",
 ]
 
 # Exclude archive directory from linkcheck
