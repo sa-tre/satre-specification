@@ -170,8 +170,7 @@ The validity of existing evaluations should not be affected.
 
 ## Acknowledgements
 
-SATRE is part of the DARE UK funded programme TREvolution.  
-[TREvolution](https://dareuk.org.uk/trevolution/) is shaping the future of sensitive data research in the UK. SATRE is one of the initiatives under TREvolution to build trust. The other pillars are adopting standards, enable federation and accelerate research. To find out more about TREvolution, visit the dedicated [DARE UK website](https://dareuk.org.uk/trevolution/).
+SATRE is part of the DARE UK funded programme [TREvolution](https://dareuk.org.uk/trevolution/). TREvolution is shaping the future of sensitive data research in the UK. SATRE is one of the initiatives under TREvolution to build trust. The other pillars are adopting standards, enable federation and accelerate research. To find out more about TREvolution, visit the dedicated [DARE UK website](https://dareuk.org.uk/trevolution/).
 
 We are grateful for the following support for this project:
 
