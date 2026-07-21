@@ -107,7 +107,7 @@ The specification does not dictate answers to the specific technology or policy 
 
 A TRE is evaluated in SATRE through a structured self‑assessment against the SATRE specification. Organisations use the SATRE evaluation template (an Excel workbook derived from the specification) to review each requirement across the five pillars and supporting capabilities, scoring their current implementation and recording evidence, justification, and any improvements identified.
 
-In practice, this involves assembling a cross‑functional team (e.g. technical, governance, and data roles), working systematically through each statement, and assigning a score (0 = not met, 1 = sufficient, 2 = satisfied, N/A = not applicable). A detailed evaluation should include supporting rationale and suggested improvements, enabling organisations to identify gaps, prioritise actions, and track progress over time. Further guidance available in the evaluation guidance page (see: {ref}`evaluation`) and past evaluations by other organisations available on our [community website](https://satre.uktre.org/en/evaluations/).
+In practice, this involves assembling a cross‑functional team (e.g. technical, governance, and data roles), working systematically through each statement, and assigning a score (0 = not met, 1 = sufficient, 2 = satisfied, N/A = not applicable). A detailed evaluation should include supporting rationale and suggested improvements, enabling organisations to identify gaps, prioritise actions, and track progress over time. Further guidance available in the evaluation guidance page (see: {ref}`evaluation`) and past evaluations by other organisations available on our [community website](https://satre.uktre.org/evaluations/).
 
 (evaluate_incr)=
 
@@ -192,4 +192,4 @@ For further information on Federations of TRE see the [DARE UK Federation Bluepr
 
 You can contribute to SATRE by engaging with the community and helping to improve the specification. This includes providing feedback, sharing your organisation’s evaluations, raising issues or suggestions via the [SATRE GitHub repositories](https://github.com/sa-tre/satre-specification), and participating in community discussions and events.
 
-SATRE is community-led, so contributions from TRE Operators, Developers, and Users are actively encouraged to help refine and evolve the framework over time. Our [community website](https://satre.uktre.org/en/) has a list of resources for following our project and connecting with us.
+SATRE is community-led, so contributions from TRE Operators, Developers, and Users are actively encouraged to help refine and evolve the framework over time. Our [community website](https://satre.uktre.org) has a list of resources for following our project and connecting with us.
