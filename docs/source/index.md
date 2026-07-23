@@ -124,6 +124,9 @@ Public members have served on the core SATRE project team from the beginning, en
 * - Version
   - Release Date
   - Release Notes
+* - [2.0.1](https://satre-specification.readthedocs.io/en/v2.0.1/)
+  - 2026-07-23
+  - - Fixing typos, urls and updating acknowledgements
 * - [2.0.0](https://satre-specification.readthedocs.io/en/v2.0.0/)
   - 2026-06-12
   - - New Pillar 5: Federation — 21 requirements across 7 capabilities, developed through structured community engagement as part of the DARE UK TREvolution programme.
