@@ -80,6 +80,9 @@ html_theme_options = {
 # Logo configuration
 html_logo = "../images/SATRE_Stacked_Dark.png"
 
+# Add favicon
+html_favicon = '_static/SATRE_favicon.ico'
+
 # Add custom CSS and JavaScript
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
