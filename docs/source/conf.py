@@ -50,6 +50,7 @@ linkcheck_ignore = [
     "https://www.dundee.ac.uk/hic",
     "https://eosc-entrust.eu/architecture",
     "https://satre-specification.readthedocs.io/en/v2.0.0/",
+    "https://www.iso.org/standard/27001",
 ]
 
 # Exclude archive directory from linkcheck
