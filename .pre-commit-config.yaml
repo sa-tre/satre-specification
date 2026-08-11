@@ -1,12 +1,16 @@
+ci:
+  # pre-commit.ci will autoamtically update hooks every month
+  autoupdate_schedule: monthly
+
 repos:
   # Autoformat: Python
-  - repo: https://github.com/psf/black
-    rev: 23.3.0
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 26.5.1
     hooks:
       - id: black
 
   # Autoformat: js, markdown, yaml
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v2.7.1
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: v3.9.6
     hooks:
       - id: prettier
