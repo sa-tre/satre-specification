@@ -75,6 +75,13 @@ The [SATRE specification](specification.md) defines requirements organized into 
 
 The core specification is structured across four interconnected pillars, with an additional fifth pillar for TREs wishing to federate.
 
+```{figure} ../images/generated/pillars.svg
+:alt: SATRE Pillars Capability Map
+:align: center
+
+SATRE Pillars Capability Map
+```
+
 ### Four Core Pillars of SATRE
 
 **1. [Information Governance](specification.md#information-governance)**

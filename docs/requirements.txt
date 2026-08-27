@@ -12,8 +12,6 @@ certifi==2026.4.22
     # via requests
 charset-normalizer==3.4.7
     # via requests
-defusedxml==0.7.1
-    # via sphinxcontrib-datatemplates
 docutils==0.22.4
     # via
     #   myst-parser
@@ -48,9 +46,7 @@ packaging==26.2
 pygments==2.20.0
     # via sphinx
 pyyaml==6.0.3
-    # via
-    #   myst-parser
-    #   sphinxcontrib-datatemplates
+    # via myst-parser
 requests==2.34.1
     # via sphinx
 roman-numerals==4.1.0
@@ -62,15 +58,11 @@ sphinx==9.1.0
     #   -r requirements.in
     #   myst-parser
     #   sphinx-rtd-theme
-    #   sphinxcontrib-datatemplates
     #   sphinxcontrib-jquery
-    #   sphinxcontrib-runcmd
 sphinx-rtd-theme==3.1.0
     # via -r requirements.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
-sphinxcontrib-datatemplates @ git+https://github.com/sa-tre/sphinx-datatemplates@eab83229550a19756b23d6f2d21212138f509ebb
-    # via -r requirements.in
 sphinxcontrib-devhelp==2.0.0
     # via sphinx
 sphinxcontrib-htmlhelp==2.1.0
@@ -81,8 +73,6 @@ sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-qthelp==2.0.0
     # via sphinx
-sphinxcontrib-runcmd==0.2.0
-    # via sphinxcontrib-datatemplates
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 urllib3==2.7.0
