@@ -24,12 +24,16 @@ help:
 satrecsv:
 	mkdir -p build/satrecsv
 	python3 scripts/satrecsv.py --output-dir build/satrecsv --input-file source/spec/specification.yaml
-
-satrecsv-copy: satrecsv
 	mkdir -p generated
 	cp -f build/satrecsv/satre.xlsx build/satrecsv/satre.csv generated/
 
-html: Makefile satrecsv-copy
+satrepillarssvg:
+	python3 scripts/generate_svg.py --include-indices
+
+prerequisites: satrepillarssvg satrecsv
+	echo prerequisites
+
+html: Makefile prerequisites
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # If READTHEDOCS_OUTPUT is not set default to build

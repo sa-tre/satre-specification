@@ -7,6 +7,7 @@ import argparse
 from collections import OrderedDict
 from pathlib import Path
 import yaml
+from typing import Any
 
 
 def load_yaml(file_path: Path | str) -> dict[str, Any]:
