@@ -1643,7 +1643,7 @@ specification:
         description: Structuring output checking around Safe Outputs to control
           statistical disclosure risk.
         coverage: partial
-        maturity: 7
+        status: published
         url: https://uksa.statisticsauthority.gov.uk/
     products:
       - name: ACRO / SACRO

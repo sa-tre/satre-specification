@@ -28,8 +28,14 @@ coverage:
   - full
   - partial
 
-# Maturity is expressed as a Technology Readiness Level (TRL), an integer 1-9.
-# Labels are informational (for tooltips / the reference sheet); process_tags.py
+# Allowed status values for pattern tags (patterns are documentation, not built
+# technology, so they use a document lifecycle status rather than a TRL).
+status:
+  - draft
+  - published
+
+# Products use maturity, expressed as a Technology Readiness Level (TRL), an integer
+# 1-9. Labels are informational (for tooltips / the reference sheet); process_tags.py
 # validates that a maturity value is an integer within `values`.
 maturity:
   values: [1, 2, 3, 4, 5, 6, 7, 8, 9]
