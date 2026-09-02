@@ -11,6 +11,14 @@ specification:
       to ensure the TRE controls remain appropriate."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+    standards:
+      - framework: ISO 27001
+        reference: A5.31
+    products:
+      - name: Director Governance
+        description: Ability to create a contract between TRE to outline information governance
+        coverage: full
+        maturity: 7
   - pillar: Information Governance
     capability: Information Governance
     capability_index: "1.1"
@@ -20,6 +28,9 @@ specification:
       to the internal and stakeholder requirements.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+    standards:
+      - framework: ISO 27001
+        reference: A8.1
   - pillar: Information Governance
     capability: Information Governance
     capability_index: "1.1"
@@ -31,6 +42,9 @@ specification:
       the TRE.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-cd9fc0cff0b04aa98323bfd6c37ccad3
+    standards:
+      - framework: ISO 27001
+        reference: A.1 (Resources, Clause 7.1)
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -42,6 +56,14 @@ specification:
       of your TRE organisation.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: A5.1
+    products:
+      - name: Director Governance
+        description: Fine grained authrozation to who can change the contracts and supporting documnents
+        coverage: full
+        maturity: 7
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -52,6 +74,14 @@ specification:
       carrying out changes, and summary of changes.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: A7.5.3
+    products:
+      - name: Director Governance
+        description: When a change is made to the cobtract or supporting documents a new version is made
+        coverage: full
+        maturity: 5
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -63,6 +93,9 @@ specification:
       incidents, quality management deviations and audit findings.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: "Clause 9: Performance Evaluation"
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -74,6 +107,13 @@ specification:
       remain compliant.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: A5.35; A5.36
+      - framework: ISO 27001
+        reference: A5.6
+      - framework: ISO 27001
+        reference: A5.19; A5.20; A5.21; A5.23
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -84,6 +124,9 @@ specification:
       manage accreditations you have.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: A5.22
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -96,6 +139,13 @@ specification:
       contracts for example, legal liability and NDAs."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: A5.9; A5.10; A5.11; A7.8; A7.9; A7.10; A7.11; A7.12; A7.13; A7.14; A8.1 (user endpoint devices)
+    products:
+      - name: Director Governance
+        description: Contract to agree amongst TRES security requirments
+        coverage: full
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -109,6 +159,9 @@ specification:
       provided by the supplier."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: "Clause 6: Planning; A8.16"
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -120,6 +173,9 @@ specification:
       of in such a way that data cannot be recovered from them."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: "Clause 6: Planning"
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -130,6 +186,9 @@ specification:
       record and workflow system with records retained.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: A9.1
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -140,6 +199,9 @@ specification:
       improvements put in place to prevent further occurrence.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -153,6 +215,9 @@ specification:
       data subjects."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: "Clause 6: Planning"
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -166,6 +231,9 @@ specification:
       and generate quality data through manual and automated actions."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Risk Management
     capability_index: "1.3"
@@ -174,6 +242,9 @@ specification:
     guidance: For example, a risk assessment methodology may score risks across multiple axes such as impact and likelihood.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-613a204c1e324a4c8bb427a57152af77
+    standards:
+      - framework: ISO 27001
+        reference: "Clause 6: Planning"
   - pillar: Information Governance
     capability: Risk Management
     capability_index: "1.3"
@@ -187,6 +258,9 @@ specification:
       requirements such as Data Protection Impact Assessment."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-613a204c1e324a4c8bb427a57152af77
+    standards:
+      - framework: ISO 27001
+        reference: "Clause 6: Planning"
   - pillar: Information Governance
     capability: Risk Management
     capability_index: "1.3"
@@ -197,6 +271,14 @@ specification:
       must be recorded.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-613a204c1e324a4c8bb427a57152af77
+    standards:
+      - framework: ISO 27001
+        reference: "Clause 6: Planning"
+    products:
+      - name: Director Governance
+        description: Can upload supported documents to director governance as poart of the contrct envelope
+        coverage: partial
+        maturity: 8
   - pillar: Information Governance
     capability: Risk Management
     capability_index: "1.3"
@@ -210,6 +292,9 @@ specification:
       and accept risk."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-613a204c1e324a4c8bb427a57152af77
+    standards:
+      - framework: ISO 27001
+        reference: A5.8
   - pillar: Information Governance
     capability: Risk Management
     capability_index: "1.3"
@@ -220,6 +305,9 @@ specification:
       necessary.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-613a204c1e324a4c8bb427a57152af77
+    standards:
+      - framework: ISO 27001
+        reference: A5.8
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
@@ -232,6 +320,9 @@ specification:
       responsibilities concerning data handling are understood by all parties.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-410884ca4e76424c9a5486780d339165
+    standards:
+      - framework: ISO 27001
+        reference: A5.8
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
@@ -244,6 +335,9 @@ specification:
       should also be monitored, for example a data owner leaving an organisation."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-410884ca4e76424c9a5486780d339165
+    standards:
+      - framework: ISO 27001
+        reference: A5.8
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
@@ -253,6 +347,9 @@ specification:
     guidance:
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-410884ca4e76424c9a5486780d339165
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
@@ -264,6 +361,9 @@ specification:
       archiving or deletion of data sets.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-410884ca4e76424c9a5486780d339165
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
@@ -276,6 +376,9 @@ specification:
       and monitoring data."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-410884ca4e76424c9a5486780d339165
+    standards:
+      - framework: ISO 27001
+        reference: N/A (new requirement, no v1 equivalent - review)
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
@@ -288,6 +391,12 @@ specification:
       asset owners and any compliance activities required. It is good practice to make the registry available to public. See [HDRUK for recommendations](https://doi.org/10.5281/zenodo.5084761) for a data use registry standard.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-410884ca4e76424c9a5486780d339165
+    standards:
+      - framework: ISO 27001
+        reference: A5.16
+    products:
+      - name: 5STES Agent
+        description: Shows all the approved projects for a federated TRE
   - pillar: Information Governance
     capability: Study Management
     capability_index: "1.4"
@@ -296,6 +405,9 @@ specification:
     guidance: Processes must be in place to decide on the suitability of projects accessing, processing and releasing data about the public. Research outputs generated from data about the public should be released, subject to meeting all governance requirements and output checks.
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-410884ca4e76424c9a5486780d339165
+    standards:
+      - framework: ISO 27001
+        reference: A6.1; A6.2; A6.3; A6.4; A6.5; A6.6
   - pillar: Information Governance
     capability: Researcher Accreditation
     capability_index: "1.5"
@@ -305,6 +417,14 @@ specification:
     guidance: This may include ID checks or email/phone verification.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-85f613508f004ef18e19fdf041e1f0a0
+    standards:
+      - framework: ISO 27001
+        reference: A8.2; A8.3
+    products:
+      - name: 5STES Agent
+        description: 5STES approves people on project at the agent which have been created at the submission layer
+        coverage: full
+        maturity: 7
   - pillar: Information Governance
     capability: Researcher Accreditation
     capability_index: "1.5"
@@ -315,6 +435,9 @@ specification:
       confirming that they have completed role specific training.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-85f613508f004ef18e19fdf041e1f0a0
+    standards:
+      - framework: ISO 27001
+        reference: A5.15; A5.18
   - pillar: Information Governance
     capability: Researcher Accreditation
     capability_index: "1.5"
@@ -325,6 +448,9 @@ specification:
       technical controls to ensure the principle of least privilege is enforced.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-85f613508f004ef18e19fdf041e1f0a0
+    standards:
+      - framework: ISO 27001
+        reference: A5.17; A8.5
   - pillar: Information Governance
     capability: Researcher Accreditation
     capability_index: "1.5"
@@ -334,6 +460,9 @@ specification:
     guidance: The Data Controller may choose to delegate this authority.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-85f613508f004ef18e19fdf041e1f0a0
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Researcher Accreditation
     capability_index: "1.5"
@@ -345,6 +474,9 @@ specification:
       password complexity *etc.*.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-85f613508f004ef18e19fdf041e1f0a0
+    standards:
+      - framework: ISO 27001
+        reference: A6.2; A6.3; Clauses 7.2, 7.3
   - pillar: Information Governance
     capability: Researcher Accreditation
     capability_index: "1.5"
@@ -357,6 +489,9 @@ specification:
       contract agreements and ethics approvals where required."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-85f613508f004ef18e19fdf041e1f0a0
+    standards:
+      - framework: ISO 27001
+        reference: A6.3; Clauses 7.2, 7.3
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -371,6 +506,9 @@ specification:
       also be required based on the data or information asset owner such as GCP."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: A6.3; Clauses 7.2, 7.3
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -383,6 +521,9 @@ specification:
       enable them to do so.\n(See 1.6.01 to determine training needed for a role)."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: A6.3; Clauses 7.2, 7.3
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -396,6 +537,9 @@ specification:
       than unnecessarily repeating training."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: A6.3; Clauses 7.2, 7.3
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -408,6 +552,9 @@ specification:
       the required training and that repeat training happens regularly."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -418,6 +565,9 @@ specification:
       training providers or your institution’s partner organisations.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: A6.3
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -430,6 +580,9 @@ specification:
       and accessible training modules for those with access requirements."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -440,6 +593,9 @@ specification:
       and testing.
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: A6.3; Clauses 7.2, 7.3
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -452,6 +608,9 @@ specification:
       for TRE users across organisations."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: A8.12
   - pillar: Information Governance
     capability: Training Management and Delivery
     capability_index: "1.6"
@@ -465,6 +624,9 @@ specification:
       record."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-ba6c25da48e94d37abe02e4dca7b55b7
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Public Involvement and Engagement
     capability_index: "1.7"
@@ -477,6 +639,9 @@ specification:
       recruit participants who represent data held within the TRE and for whom the intended benefit of projects using the data applies. [PEDRI Standards](https://www.pedri.org.uk/about-us/our-standards/) should be used to guide approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-f47b8ef09efe4be6ba9c5d69adcebf53
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Public Involvement and Engagement
     capability_index: "1.7"
@@ -493,6 +658,9 @@ specification:
       involved."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-f47b8ef09efe4be6ba9c5d69adcebf53
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Public Involvement and Engagement
     capability_index: "1.7"
@@ -508,6 +676,9 @@ specification:
       approach."
     importance: Mandatory*
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-f47b8ef09efe4be6ba9c5d69adcebf53
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Information Governance
     capability: Public Involvement and Engagement
     capability_index: "1.7"
@@ -520,6 +691,9 @@ specification:
       is particularly important when a TRE holds public sector data."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-f47b8ef09efe4be6ba9c5d69adcebf53
+    standards:
+      - framework: ISO 27001
+        reference: A8.15; A8.16; A8.7; A8.8; A8.9
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -533,6 +707,14 @@ specification:
       not have a clipboard."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Guacamole is configured to not allow copying of clipboard information
+        coverage: full
+        maturity: 8
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -546,6 +728,14 @@ specification:
       exist."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Provides jupyterlab environment currently with plans for linux and windows
+        coverage: partial
+        maturity: 3
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -556,6 +746,12 @@ specification:
       run over the data and return results without allowing direct data access.
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -567,6 +763,14 @@ specification:
       In practice a web browser is the most common way to achieve this."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Access is via a standard web compliant browser
+        coverage: full
+        maturity: 9
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -581,6 +785,12 @@ specification:
       is submitted to the TRE."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -591,6 +801,14 @@ specification:
       software will increase the security of your TRE.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Potentially support, but will require local configuration
+        coverage: full
+        maturity: 1
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -603,6 +821,14 @@ specification:
       same project."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
+        coverage: partial
+        maturity: 3
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -614,6 +840,12 @@ specification:
       is only shared between users of a single project."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: A5.3
+    products:
+      - name: K8TRE
+        description: Project segregation is enforced in K8TRE
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -626,6 +858,12 @@ specification:
       is sent to this server and that any network connections are secure."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -643,6 +881,14 @@ specification:
       The set of tools should be reviewed regularly to ensure they are up to date."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
+        coverage: partial
+        maturity: 3
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -656,6 +902,9 @@ specification:
       analysis pipelines."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -666,6 +915,14 @@ specification:
       Python or R repositories, or provide an internal mirror.
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
+        coverage: partial
+        maturity: 3
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -678,6 +935,14 @@ specification:
       environment."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: A5.37
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
+        coverage: partial
+        maturity: 3
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -692,6 +957,14 @@ specification:
       virtual machines could be destroyed and recreated."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Project segregation is enforced in K8TRE
+        coverage: full
+        maturity: 5
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -705,6 +978,11 @@ specification:
       dynamically created compute nodes on a cloud platform."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: A8.32
+    products:
+      - name: AIRR-BRIDGE?
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -717,6 +995,14 @@ specification:
       whether GPUs and other resources are available whilst projects are being assessed."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: A8.25; A8.29; A8.31
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
+        coverage: partial
+        maturity: 1
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -730,6 +1016,14 @@ specification:
       belonging to different projects."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
+        coverage: partial
+        maturity: 1
   - pillar: Computing Technology and Information Security
     capability: End User Computing
     capability_index: "2.1"
@@ -742,6 +1036,14 @@ specification:
       data that is too large for single-machine computing to be practical."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-1a1dd29e1bac4f1c9f137debcc2a3b51
+    standards:
+      - framework: ISO 27001
+        reference: A5.37; A7.10
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
+        coverage: partial
+        maturity: 1
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -752,6 +1054,14 @@ specification:
       of automated scripts.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Documentation and work through tutorials are provided
+        coverage: full
+        maturity: 6
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -762,6 +1072,14 @@ specification:
       of scripts.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Can be managed by ArgoCD and HELM
+        coverage: full
+        maturity: 3
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -774,6 +1092,12 @@ specification:
       process may form part of a wider accreditation such as ISO 27001."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: A8.20; A8.21
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -783,6 +1107,12 @@ specification:
       system for testing.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -796,6 +1126,9 @@ specification:
       this will work for your situation."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: A8.23
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -807,6 +1140,9 @@ specification:
       the risk of unaddressed vulnerabilities.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: A8.8; A8.16 (merged from v1 2.2.12+2.2.13)
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -819,6 +1155,9 @@ specification:
       power supply (UPS) and planning how you would deal with internet outages."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -829,6 +1168,9 @@ specification:
       your projects in planning their work.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -842,6 +1184,12 @@ specification:
       connections to the network."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: TBA
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -852,6 +1200,12 @@ specification:
       example to support shared network services within the project.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Project segregation is enforced in K8TRE
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -861,6 +1215,12 @@ specification:
     guidance: Limited outbound connectivity may be allowed for some services.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: TBA
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -871,6 +1231,11 @@ specification:
       testing.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -880,6 +1245,12 @@ specification:
       amount of data stored, number of datasets, the number of workspaces, etc.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: K8TRE
+        description: Supported, but provided through local configuration
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -890,6 +1261,12 @@ specification:
       used.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: A5.37
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Infrastructure Management
     capability_index: "2.2"
@@ -900,6 +1277,12 @@ specification:
       managing costs.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b106251e04304d2a92637a1fd5689273
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
@@ -910,6 +1293,9 @@ specification:
       understand whether the available resources will be sufficient for their requirements."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
@@ -921,6 +1307,9 @@ specification:
       availability before a project starts should be honoured wherever possible.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
@@ -936,6 +1325,9 @@ specification:
       make use of additional capacity."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: Capacity Management
     capability_index: "2.3"
@@ -948,6 +1340,9 @@ specification:
       may involve managing expectations to match the available resource."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-2f5f0a5b8a8b48a9b284aa2c6bc8faf6
+    standards:
+      - framework: ISO 27001
+        reference: A5.31
   - pillar: Computing Technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
@@ -958,6 +1353,12 @@ specification:
       of automated scripts.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4512cf0c27f046b491dca59957a3732f
+    standards:
+      - framework: ISO 27001
+        reference: A5.7 (suggested - new requirement, no v1 equivalent - review)
+    products:
+      - name: K8TRE
+        description: Infrastructure as a service managed by ArgoCD
   - pillar: Computing Technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
@@ -969,6 +1370,12 @@ specification:
       scripts.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4512cf0c27f046b491dca59957a3732f
+    standards:
+      - framework: ISO 27001
+        reference: A8.15; A8.16 (suggested - new requirement, no v1 equivalent - review)
+    products:
+      - name: K8TRE
+        description: Infrastructure as a service managed by ArgoCD
   - pillar: Computing Technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
@@ -978,6 +1385,12 @@ specification:
       management tool in ‘check’ mode.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4512cf0c27f046b491dca59957a3732f
+    standards:
+      - framework: ISO 27001
+        reference: A8.13
+    products:
+      - name: K8TRE
+        description: Infrastructure as a service managed by ArgoCD
   - pillar: Computing Technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
@@ -987,6 +1400,12 @@ specification:
       non-compliant state.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4512cf0c27f046b491dca59957a3732f
+    standards:
+      - framework: ISO 27001
+        reference: A8.14
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Configuration Management
     capability_index: "2.4"
@@ -997,6 +1416,12 @@ specification:
       it with a compliant one.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4512cf0c27f046b491dca59957a3732f
+    standards:
+      - framework: ISO 27001
+        reference: A8.13
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Information Security
     capability_index: "2.5"
@@ -1010,6 +1435,12 @@ specification:
       from unauthorised access."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+    standards:
+      - framework: ISO 27001
+        reference: A6.8; A5.24; A5.25; A5.26; A5.27; A5.28; A5.29; A5.30
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Information Security
     capability_index: "2.5"
@@ -1021,6 +1452,12 @@ specification:
       assess threats.\n\nInformation on threat models here:\nhttps://owasp.org/www-community/Threat_Modeling"
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+    standards:
+      - framework: ISO 27001
+        reference: A5.30
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Information Security
     capability_index: "2.5"
@@ -1037,6 +1474,12 @@ specification:
       any regulatory obligations."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-99ff165db6264d4ba94b36d9d014f9f4
+    standards:
+      - framework: ISO 27001
+        reference: N/A
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Computing Technology and Information Security
     capability: Cyber Resilience
     capability_index: "2.6"
@@ -1050,6 +1493,9 @@ specification:
       be backed up, and whether they should be."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-e6599acb78e64dd68bd2fe8ea346589a
+    standards:
+      - framework: ISO 27001
+        reference: A8.32
   - pillar: Computing Technology and Information Security
     capability: Cyber Resilience
     capability_index: "2.6"
@@ -1061,6 +1507,9 @@ specification:
       load balancing and replication of data between multiple storage locations."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-e6599acb78e64dd68bd2fe8ea346589a
+    standards:
+      - framework: ISO 27001
+        reference: A8.7
   - pillar: Computing Technology and Information Security
     capability: Cyber Resilience
     capability_index: "2.6"
@@ -1071,6 +1520,9 @@ specification:
       restored as needed to recover from failure.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-e6599acb78e64dd68bd2fe8ea346589a
+    standards:
+      - framework: ISO 27001
+        reference: A5.35
   - pillar: Computing Technology and Information Security
     capability: Cyber Resilience
     capability_index: "2.6"
@@ -1082,6 +1534,9 @@ specification:
       in place will ensure a swift and effective response when an incident occurs."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-e6599acb78e64dd68bd2fe8ea346589a
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: Cyber Resilience
     capability_index: "2.6"
@@ -1092,6 +1547,9 @@ specification:
       This may involve people across the broader enterprise and/or external suppliers."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-e6599acb78e64dd68bd2fe8ea346589a
+    standards:
+      - framework: ISO 27001
+        reference: N/A
   - pillar: Computing Technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
@@ -1103,6 +1561,9 @@ specification:
       Such an alert should be triaged, risk assessed and treated accordingly."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4beb6beb8a5a4f00ab300ebfc0a12fa6
+    standards:
+      - framework: ISO 27001
+        reference: A8.24; A5.34
   - pillar: Computing Technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
@@ -1114,6 +1575,9 @@ specification:
       configuration management, or software used for monitoring the TRE.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4beb6beb8a5a4f00ab300ebfc0a12fa6
+    standards:
+      - framework: ISO 27001
+        reference: A8.24; A5.34
   - pillar: Computing Technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
@@ -1127,6 +1591,9 @@ specification:
       patch."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4beb6beb8a5a4f00ab300ebfc0a12fa6
+    standards:
+      - framework: ISO 27001
+        reference: A8.24; A5.34
   - pillar: Computing Technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
@@ -1139,6 +1606,9 @@ specification:
       breaches, unauthorised access, or other security incidents."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4beb6beb8a5a4f00ab300ebfc0a12fa6
+    standards:
+      - framework: ISO 27001
+        reference: A8.24; A5.34
   - pillar: Computing Technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
@@ -1154,6 +1624,9 @@ specification:
       of changes in the underlying software."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4beb6beb8a5a4f00ab300ebfc0a12fa6
+    standards:
+      - framework: ISO 27001
+        reference: A5.34; A8.24
   - pillar: Computing Technology and Information Security
     capability: Vulnerability Management
     capability_index: "2.7"
@@ -1168,6 +1641,9 @@ specification:
       these until a fix is in place."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-4beb6beb8a5a4f00ab300ebfc0a12fa6
+    standards:
+      - framework: ISO 27001
+        reference: A7.1; A7.2; A7.3; A7.4; A7.5; A7.6; A7.7
   - pillar: Computing Technology and Information Security
     capability: Encryption
     capability_index: "2.8"
@@ -1180,6 +1656,8 @@ specification:
       or by a trusted external actor, for example a cloud provider."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ea211603b254c87bdb5d143f7fd08ce
+    standards:
+      - framework: ISO 27001
   - pillar: Computing Technology and Information Security
     capability: Encryption
     capability_index: "2.8"
@@ -1305,6 +1783,10 @@ specification:
       request has been approved by all required parties."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-b039ff3b59d047f0b6e9bd95ec5f7c6f
+    products:
+      - name: Director Airlock
+        description: Egress Systen that is flexiblle to a TRE governance process
+        coverage: full
   - pillar: Data Management
     capability: Data Lifecycle Management
     capability_index: "3.1"
@@ -1541,6 +2023,13 @@ specification:
       provided by a third-party identity provider."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-61a1ee491f29467abc1d99172ac34504
+    standards:
+      - framework: ISO 27001
+        reference: A.5.17
+      - framework: NHS DSPT
+        reference: "4.5"
+      - framework: Cyber Essentials Plus
+        reference: Secure configuration / User access control
   - pillar: Data Management
     capability: Identity and Access Management
     capability_index: "3.2"
@@ -1580,6 +2069,12 @@ specification:
       provides guidance and practical suggestions for setting up a system to classify outputs."
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: STATBARN SDC
+        description: Taxonomy to define to clasify outputs and associated risks and mitigations
+        coverage: full
+        maturity: 8
+        url: StatbarnSDC Ontology
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1590,6 +2085,9 @@ specification:
       easier to comply with data protection legislation (*e.g.* GDPR).
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1601,6 +2099,9 @@ specification:
       as possible will help prepare for their processing and publication.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1613,6 +2114,23 @@ specification:
       existing guidelines, for example around statistical disclosure."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    standards:
+      - framework: NHS Secure Data Environment Specification
+        reference: Outputs / disclosure control
+      - framework: Digital Economy Act
+        reference: Part 5, s.71 (safe outputs)
+    patterns:
+      - name: Five Safes framework
+        description: Structuring output checking around Safe Outputs to control statistical disclosure risk.
+        coverage: partial
+        status: published
+        url: https://uksa.statisticsauthority.gov.uk/
+    products:
+      - name: SACRO
+        description: Provides automation for output checking process.
+        coverage: partial
+        maturity: 4
+        url: https://github.com/AI-SDC/ACRO
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1626,6 +2144,9 @@ specification:
       unintentional data disclosure or leaks."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: Local Process
+        local_process: true
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1637,6 +2158,12 @@ specification:
       risk to commercial operations posed by outputs from the TRE.
     importance: Recommended
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: STATBARN SDC
+        description: Taxonomy to define to clasify outputs and associated risks and mitigations
+        coverage: full
+        maturity: 8
+        url: StatbarnSDC Ontology
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1655,6 +2182,16 @@ specification:
       is approved."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: SACRO
+        description: SACRO ML used to assist in ensuring AI models are safe for release
+        coverage: partial
+        url: https://github.com/AI-SDC/ACRO
+      - name: Release-AI
+        description: A Lifecycle Framework for Artificial Intelligence Development and Disclosure Control in Trusted Research Environments
+        coverage: partial
+        maturity: 8
+        url: https://zenodo.org/records/17159193
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1668,6 +2205,12 @@ specification:
       the risks associated with accidental data disclosure."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: SACRO
+        description: Semi-automated output checking sytem
+        coverage: full
+        maturity: 9
+        url: https://github.com/AI-SDC/ACRO
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
@@ -1684,6 +2227,16 @@ specification:
       retained for audit, and linked unambiguously to the released output."
     importance: Optional
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    products:
+      - name: STATBARN SDC
+        description: Taxonomy to define to clasify outputs and associated risks and mitigations
+        coverage: partial
+        maturity: 8
+        url: StatbarnSDC Ontology
+      - name: SACRO
+        description: SACRO ML used to assist in ensuring AI models are safe for release
+        coverage: full
+        url: https://github.com/AI-SDC/ACRO
   - pillar: Data Management
     capability: Information Search and Discovery
     capability_index: "3.4"
