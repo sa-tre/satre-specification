@@ -12,6 +12,7 @@ self
 :caption: Specification
 
 The SATRE Specification <specification.md>
+Coverage & Mappings <coverage.md>
 Evaluating against SATRE <evaluation.md>
 SATRE Control Alignment <alignment.md>
 Glossary <https://glossary.uktre.org/en/stable/>

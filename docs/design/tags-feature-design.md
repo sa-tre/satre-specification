@@ -1,6 +1,6 @@
 # Design: Tags feature (standards, patterns, products)
 
-Status: Draft (hackathon)
+Status: Implemented (hackathon)
 Owner: SATRE contributors
 Last updated: 2026-07-28
 
@@ -75,7 +75,13 @@ Each item in `specification.yaml` gains three optional fields.
       coverage: partial
       maturity: 9 # TRL 1-9
       url: "https://..."
+    # Special sentinel: requirement met by a local process, not a product.
+    - name: "Local Process"
+      local_process: true
 ```
+
+Only `name` (products/patterns) and `framework` (standards) are truly required. All
+other fields are optional — see §3 field definitions and the import rules in §5.
 
 ### Controlled vocabulary — standards frameworks (day one)
 
@@ -87,8 +93,8 @@ Each item in `specification.yaml` gains three optional fields.
 | `Digital Economy Act`                       | Section reference                                                  |
 | `NHS Secure Data Environment Specification` | Requirement reference                                              |
 
-The canonical list lives in one place the script and (optionally) the renderer can
-read — proposed `docs/source/spec/standards.yaml`:
+The canonical list lives in one place the script and the renderer both read —
+`docs/source/spec/standards.yaml`:
 
 ```yaml
 standards:
@@ -107,49 +113,86 @@ standards:
   - id: nhs-sde-spec
     name: NHS Secure Data Environment Specification
     url: https://digital.nhs.uk/services/secure-data-environment-service
+
+# Enumerations validated by the processing script.
+coverage: [full, partial]
+status: [draft, published] # pattern lifecycle status
+maturity: # product Technology Readiness Level
+  values: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  labels:
+    1: Basic principles observed
+    # ... through to ...
+    9: Actual system proven in operational environment
 ```
 
 The processing script validates every `framework` value in the spreadsheet against
-`standards.yaml` and rejects / warns on unknowns. New standards are added by editing
+`standards.yaml` and rejects unknowns. New standards are added by editing
 `standards.yaml` — one controlled place.
 
 ### Field definitions
 
+An entry is **identified by** its `framework` (standards) or `name` (patterns /
+products). That identifying field is the only hard requirement; the remaining fields
+are optional and, when omitted, are simply left out of the YAML. Supplying an _invalid_
+value (unknown framework, bad `coverage` / `status`, out-of-range `maturity`) is a hard
+error; supplying an _incomplete_ entry (identifier present, recommended fields missing)
+is a warning but is still imported. See §5 for the full import rules.
+
 **standards[]**
 
 - `framework` (required) — must match a `name` in `standards.yaml`.
-- `reference` (required) — clause / control id, free text (e.g. `A.5.35`, `1.3.1`).
+- `reference` (optional) — clause / control id, free text (e.g. `A.5.35`, `1.3.1`). If
+  omitted, the mapping is recorded at framework level (a warning is emitted).
 
 **patterns[]** (documentation)
 
 - `name` (required)
-- `description` (required)
-- `coverage` (required) — `full` | `partial`
-- `status` (required) — `draft` | `published`
+- `description` (optional)
+- `coverage` (optional) — `full` | `partial`
+- `status` (optional) — `draft` | `published`
 - `url` (optional)
 
 **products[]** (built technology)
 
 - `name` (required)
-- `description` (required)
-- `coverage` (required) — `full` | `partial`
-- `maturity` (required) — Technology Readiness Level (TRL), an integer `1`–`9`
+- `description` (optional)
+- `coverage` (optional) — `full` | `partial`
+- `maturity` (optional) — Technology Readiness Level (TRL), an integer `1`–`9`
 - `url` (optional)
+- `local_process` (special) — when `name` is the sentinel value `Local Process`, the
+  entry is stored as `{name: "Local Process", local_process: true}` with no other
+  fields. This marks a requirement as met by a local process rather than a product; it
+  is expected never to carry a product, description, coverage or maturity.
 
-Validated by the script: `coverage` (enum, both types), `status` (enum, patterns),
-`maturity` (integer 1–9, products). TRL labels for each level are defined in
-`standards.yaml` and used for tooltips / the reference sheet.
+Validated by the script when present: `framework` (must be in `standards.yaml`),
+`coverage` (enum), `status` (enum, patterns), `maturity` (integer 1–9, products). TRL
+labels for each level are defined in `standards.yaml` and used for tooltips / the
+reference sheet.
 
 ## 4. Authoring spreadsheet
 
-Filename (proposed): `sourcefiles/satre-tags-authoring.xlsx`. Four sheets.
+Two files, deliberately separated so regenerating the template never overwrites
+author work:
 
-Each data sheet includes `capability` and `statement` text (copied from
-`specification.yaml`) to give authors context while filling in tags. `guidance` is
-deliberately excluded to keep rows readable. These context columns are **read-only /
-informational**: the processing script keys everything off `requirement_index` and
-ignores `capability` / `statement` on read (the YAML remains authoritative for that
-text). The script can regenerate/refresh these context columns from the YAML.
+- **Template** (generated): `sourcefiles/satre-tags-authoring.xlsx` — written by
+  `generate_tags_spreadsheet.py`.
+- **Input** (author-filled): `sourcefiles/satre-tags-authoring_input.xlsx` — the
+  workbook authors edit and that `process_tags.py` reads by default.
+
+Both have four sheets.
+
+Each data sheet is **pre-populated with a row per requirement** (all of them), with the
+context columns `requirement_index`, `capability` and `statement` filled in from
+`specification.yaml`. Authors work through the whole specification, filling in the tag
+columns only for the requirements they want to tag; the rest are left blank. To make it
+easy to add several entries against one requirement (e.g. multiple products), each
+requirement is given one or more spare blank rows; authors can also add more rows
+manually — any row sharing a `requirement_index` is imported as an additional entry.
+`guidance` is deliberately excluded to keep rows readable. The context columns are
+**read-only / informational**: the processing script keys everything off
+`requirement_index` and ignores `capability` / `statement` on read (the YAML remains
+authoritative for that text). Re-running the generator refreshes the context columns and
+pre-populates any tags already present in the YAML.
 
 ### Sheet `standards`
 
@@ -171,12 +214,12 @@ text). The script can regenerate/refresh these context columns from the YAML.
 ### Sheet `_reference` (read-only helper)
 
 Lists valid framework names, coverage values, pattern status values, and maturity
-(TRL 1–9) values so authors can use data-validation dropdowns. Generated by the script
-(or maintained by hand) from `standards.yaml`.
+(TRL 1–9) values so authors can use data-validation dropdowns. Generated from
+`standards.yaml`.
 
-One row per mapping (multi-valued tags = multiple rows with the same
-`requirement_index`). This keeps the sheet flat and easy to fill in. The
-`capability` / `statement` columns repeat per row for context.
+One row per entry: a requirement with several tags of a type occupies several rows
+sharing the same `requirement_index`. This keeps the sheet flat and easy to fill in.
+The `capability` / `statement` columns repeat per row for context.
 
 ## 5. Processing script
 
@@ -186,21 +229,38 @@ Responsibilities:
 
 1. Load `standards.yaml` (controlled vocab) and `specification.yaml`.
 2. Read the three data sheets from the authoring xlsx (`openpyxl`).
-3. Validate:
-   - every `requirement_index` exists in `specification.yaml`;
-   - every `framework` exists in `standards.yaml`;
-   - `coverage` (both), pattern `status`, and product `maturity` (int 1–9) are valid;
-   - required fields present.
-     Collect all problems and report them together; non-zero exit on error.
-4. Group rows by `requirement_index` and build the `standards` / `patterns` /
-   `products` lists.
+3. Validate each row using a three-tier quality check keyed off the row's
+   **identifier** (`framework` for standards; `name` for patterns / products). Since
+   the sheets are pre-populated with a row per requirement, most rows are blank and
+   must be tolerated:
+
+   - **Ignore (silent)** — a row with no identifier (blank `framework` / `name`). This
+     covers untagged requirements and spare blank rows. Nothing is imported.
+   - **Error (blocks import, non-zero exit)** — a row whose supplied values are
+     _invalid_: unknown `requirement_index`, unknown `framework` (not in
+     `standards.yaml`), or an out-of-vocabulary `coverage` / `status` / `maturity`.
+   - **Warning (imported anyway)** — a row with a valid identifier but _missing_
+     recommended fields (e.g. a product with a `name` but no `coverage` / `maturity`, or
+     a standard with a `framework` but no `reference`). The available data is imported
+     and the gap is reported, so partial capture is not blocked but stays visible.
+
+   Special case: on the products sheet, the name `Local Process` (case-insensitive) is
+   a recognised sentinel — imported as `{name: "Local Process", local_process: true}`
+   with no further fields required and no warning.
+
+   All errors and warnings are collected and reported together (warnings to stderr,
+   prefixed `!`; errors prefixed `-`). Exit is non-zero only if there are errors.
+
+4. Group the imported entries by `requirement_index` and build the `standards` /
+   `patterns` / `products` lists.
 5. Merge into `specification.yaml`:
-   - **idempotent**: re-running with the same spreadsheet yields no diff;
-   - `--replace` (default) overwrites the three fields for touched requirements;
+   - **idempotent**: re-running with the same input yields no diff;
+   - the three managed fields are replaced for each touched requirement;
    - a requirement absent from the spreadsheet is left untouched;
-   - preserve field ordering and existing formatting using `ruamel.yaml` (see
-     decision D1) so diffs show only changed lines.
-6. Write back `specification.yaml` (and emit the JSON sidecar for the site JS, see §6).
+   - uses **targeted text insertion** (not a full document round-trip) to keep diffs
+     minimal — see decision D1 and the note below.
+6. Write back `specification.yaml`. (The JSON sidecar for the site is produced
+   separately by the `yamlspec` extension at build time — see §6.)
 
 CLI sketch:
 
@@ -208,12 +268,21 @@ CLI sketch:
 python sourcefiles/process_tags.py \
   --spec docs/source/spec/specification.yaml \
   --standards docs/source/spec/standards.yaml \
-  --xlsx sourcefiles/satre-tags-authoring.xlsx \
+  --xlsx sourcefiles/satre-tags-authoring_input.xlsx \
   [--check]   # validate only, no write
 ```
 
-Decision D1: use `ruamel.yaml` (preserves comments/quoting, produces clean diffs).
-Authoring-time dependency only; not required for the Read the Docs build.
+Decision D1 (as implemented): keep diffs minimal via **targeted text insertion**.
+`specification.yaml` is formatted by `prettier` (a pre-commit hook; the file is not in
+`.prettierignore`), which prose-wraps long scalars at widths that a full `ruamel.yaml`
+round-trip cannot reproduce — a naive load-and-dump reformats ~1300 lines. Instead the
+script edits the file as text: it splits on `  - pillar:` item boundaries, strips any
+existing managed tag block for a touched requirement, and inserts a freshly serialised
+tag block (the small tag mapping only, via `ruamel.yaml`) right after that item's
+`architecture_url:` line. Every other line is left byte-for-byte, so the diff shows only
+the tags actually added. `prettier` in CI may re-wrap the inserted lines on commit,
+which is expected. `ruamel.yaml` is an authoring-time dependency only; not required for
+the Read the Docs build.
 
 ## 6. Rendering on the site
 
@@ -229,10 +298,10 @@ UI to markup and makes rich fields like description/coverage/maturity awkward to
 
 ### 6b. Dedicated filter / coverage page
 
-New page: `docs/source/coverage.md` (title e.g. "Coverage & Mappings"), added to the
+New page: `docs/source/coverage.md` (title "Coverage & Mappings"), added to the
 `toctree` in `index.md` under the Specification caption. It hosts a `raw html` mount
-point plus `custom.js` / `custom.css` (the `custom.js` hook already exists commented-out
-in `conf.py`).
+point (`<div id="coverage-app">`) served by `_static/coverage.js` (registered via
+`html_js_files` in `conf.py`), with styles appended to `_static/custom.css`.
 
 Behaviour:
 
@@ -269,22 +338,31 @@ spot overlap between two things.
   requirements without tags render unchanged.
 - No change to `requirement_index` anchors or existing columns.
 
-## 9. Suggested build order (de-risked for one day)
+## 9. Build status
 
-1. **Schema + controlled vocab** — add `standards.yaml`; hand-add tags to 2–3 example
-   requirements in `specification.yaml` to exercise the model end to end.
-2. **Authoring spreadsheet** — create the four-sheet xlsx template.
-3. **Processing script** — `process_tags.py` with `--check` validation first, then
-   merge/write.
-4. **JSON sidecar + filter page** — the primary user-facing deliverable.
-5. **CSV export** — export the current coverage view.
+All parts are implemented:
 
-Steps 1–3 deliver "tags authored and merged into the spec"; step 4 delivers the
-interactive page. Either is a coherent stopping point.
+1. ✅ **Schema + controlled vocab** — `docs/source/spec/standards.yaml`; example tags in
+   `specification.yaml`.
+2. ✅ **Authoring spreadsheet** — `generate_tags_spreadsheet.py` builds the four-sheet
+   template (`satre-tags-authoring.xlsx`); authors fill in
+   `satre-tags-authoring_input.xlsx`.
+3. ✅ **Processing script** — `process_tags.py` (`--check` validation + merge/write,
+   skip/warn/error tiers, `Local Process` sentinel).
+4. ✅ **JSON sidecar + filter page** — `yamlspec.py` emits `_static/spec-tags.json`;
+   `coverage.md` + `coverage.js` + coverage styles in `custom.css`.
+5. ✅ **CSV export** — export the current coverage view (all / filtered scope).
+
+The scripts and both spreadsheets live under `sourcefiles/`, which is gitignored (the
+same location as the repo's other authoring helpers). `_static/spec-tags.json` is also
+gitignored (regenerated at build time).
 
 ## 10. Decisions (resolved)
 
-- **D1 — YAML writer**: `ruamel.yaml` (clean diffs; authoring-time dependency only).
+- **D1 — YAML writing / clean diffs**: targeted text insertion (strip + reinsert only
+  the tag block per touched item), using `ruamel.yaml` to serialise the small tag
+  mapping. A full round-trip was rejected because `prettier` formats the file and a
+  round-trip reformats ~1300 lines. Authoring-time dependency only.
 - **D2 — Tag data to browser**: JSON sidecar (`_static/spec-tags.json`, built by the
   `yamlspec` extension).
 - **D3 — Multi-filter semantics**: union (OR) by default, with an intersection (AND)

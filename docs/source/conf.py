@@ -87,7 +87,7 @@ html_favicon = "_static/SATRE_favicon.ico"
 # Add custom CSS and JavaScript
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
-# html_js_files = ["custom.js"]
+html_js_files = ["coverage.js"]
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"

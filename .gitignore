@@ -46,6 +46,9 @@ venv
 # Sphinx
 __pycache__
 
+# Generated tags sidecar for the coverage page (built by the yamlspec extension)
+docs/source/_static/spec-tags.json
+
 # Kiro AI assistant files
 .kiro/
 
