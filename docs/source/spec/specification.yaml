@@ -74,6 +74,13 @@ specification:
       remain compliant.
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-8ce3c73e5dc346e99903a594cf6f23a8
+    standards:
+      - framework: ISO 27001
+        reference: "9.2 Internal audit"
+      - framework: NHS DSPT
+        reference: "1.6"
+      - framework: Cyber Essentials Plus
+        reference: "Annual assessment"
   - pillar: Information Governance
     capability: Quality Management
     capability_index: "1.2"
@@ -1541,6 +1548,19 @@ specification:
       provided by a third-party identity provider."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-61a1ee491f29467abc1d99172ac34504
+    standards:
+      - framework: ISO 27001
+        reference: "A.5.17"
+      - framework: NHS DSPT
+        reference: "4.5"
+      - framework: Cyber Essentials Plus
+        reference: "Secure configuration / User access control"
+    products:
+      - name: Microsoft Entra ID
+        description: Cloud identity provider offering MFA and conditional access.
+        coverage: full
+        maturity: 9
+        url: https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id
   - pillar: Data Management
     capability: Identity and Access Management
     capability_index: "3.2"
@@ -1613,6 +1633,26 @@ specification:
       existing guidelines, for example around statistical disclosure."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-769b630239bb410a884dce9ee0f6745c
+    standards:
+      - framework: NHS Secure Data Environment Specification
+        reference: "Outputs / disclosure control"
+      - framework: Digital Economy Act
+        reference: "Part 5, s.71 (safe outputs)"
+    patterns:
+      - name: Five Safes framework
+        description: Structuring output checking around Safe Outputs to control
+          statistical disclosure risk.
+        coverage: partial
+        maturity: 7
+        url: https://uksa.statisticsauthority.gov.uk/
+    products:
+      - name: ACRO / SACRO
+        description:
+          Semi-automated statistical disclosure control checking tools
+          for research outputs.
+        coverage: partial
+        maturity: 4
+        url: https://github.com/AI-SDC/ACRO
   - pillar: Data Management
     capability: Output Management
     capability_index: "3.3"
