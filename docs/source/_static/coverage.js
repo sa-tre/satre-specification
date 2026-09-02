@@ -265,10 +265,19 @@
     return el("span", { class: "coverage-badge " + (cls || ""), text: text });
   }
 
-  function maturityLabel(trl) {
+  function maturityShort(trl) {
+    return "TRL-" + trl;
+  }
+
+  function maturityFull(trl) {
     var labels = (state.data && state.data.maturity_labels) || {};
     var lbl = labels[String(trl)];
-    return "TRL " + trl + (lbl ? " – " + lbl : "");
+    return "TRL-" + trl + (lbl ? " – " + lbl : "");
+  }
+
+  // Backwards-compatible: full label (used where a single string is wanted).
+  function maturityLabel(trl) {
+    return maturityFull(trl);
   }
 
   function renderRequirement(req, matchedIds) {
@@ -399,6 +408,184 @@
     return container;
   }
 
+  // Build a <td> that may carry a hover tooltip (title attribute).
+  function td(text, attrs) {
+    var a = attrs || {};
+    a.text = text == null ? "" : String(text);
+    return el("td", a);
+  }
+
+  function linkCell(url) {
+    if (!url) return el("td", {});
+    return el("td", {}, [
+      el("a", { href: url, target: "_blank", rel: "noopener", text: "link" }),
+    ]);
+  }
+
+  // Does a given tag entry match the current selection? (so we only table the
+  // entries the user actually filtered on).
+  function isSelected(type, label) {
+    return !!state.selected[tagId(type, label)];
+  }
+
+  function productsTable(rows) {
+    // rows: [{req, product}]
+    var table = el("table", { class: "coverage-table coverage-table-product" });
+    var thead = el("thead", {}, [
+      el("tr", {}, [
+        el("th", { text: "SATRE ref" }),
+        el("th", { text: "Statement" }),
+        el("th", { text: "Product" }),
+        el("th", { text: "Description" }),
+        el("th", { text: "Maturity" }),
+        el("th", { text: "Link" }),
+      ]),
+    ]);
+    var tbody = el("tbody");
+    rows.forEach(function (r) {
+      var p = r.product;
+      var maturityCell;
+      if (p.local_process) {
+        maturityCell = td("", {});
+      } else if (p.maturity != null && p.maturity !== "") {
+        maturityCell = el("td", {}, [
+          el("span", {
+            class: "coverage-trl",
+            title: maturityFull(p.maturity),
+            text: maturityShort(p.maturity),
+          }),
+        ]);
+      } else {
+        maturityCell = td("", {});
+      }
+      tbody.appendChild(
+        el("tr", {}, [
+          td(r.req.requirement_index, { class: "coverage-cell-ref" }),
+          td(r.req.statement),
+          td(p.local_process ? "Local Process" : p.name, {
+            class: "coverage-cell-name",
+          }),
+          td(p.description || ""),
+          maturityCell,
+          linkCell(p.url),
+        ]),
+      );
+    });
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    return table;
+  }
+
+  function standardsTable(rows) {
+    var table = el("table", {
+      class: "coverage-table coverage-table-standard",
+    });
+    var thead = el("thead", {}, [
+      el("tr", {}, [
+        el("th", { text: "SATRE ref" }),
+        el("th", { text: "Statement" }),
+        el("th", { text: "Standard" }),
+        el("th", { text: "Reference / clause" }),
+      ]),
+    ]);
+    var tbody = el("tbody");
+    rows.forEach(function (r) {
+      var s = r.standard;
+      tbody.appendChild(
+        el("tr", {}, [
+          td(r.req.requirement_index, { class: "coverage-cell-ref" }),
+          td(r.req.statement),
+          td(s.framework, { class: "coverage-cell-name" }),
+          td(s.reference || ""),
+        ]),
+      );
+    });
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    return table;
+  }
+
+  function patternsTable(rows) {
+    var table = el("table", { class: "coverage-table coverage-table-pattern" });
+    var thead = el("thead", {}, [
+      el("tr", {}, [
+        el("th", { text: "SATRE ref" }),
+        el("th", { text: "Statement" }),
+        el("th", { text: "Pattern" }),
+        el("th", { text: "Description" }),
+        el("th", { text: "Status" }),
+        el("th", { text: "Link" }),
+      ]),
+    ]);
+    var tbody = el("tbody");
+    rows.forEach(function (r) {
+      var p = r.pattern;
+      tbody.appendChild(
+        el("tr", {}, [
+          td(r.req.requirement_index, { class: "coverage-cell-ref" }),
+          td(r.req.statement),
+          td(p.name, { class: "coverage-cell-name" }),
+          td(p.description || ""),
+          td(p.status || ""),
+          linkCell(p.url),
+        ]),
+      );
+    });
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    return table;
+  }
+
+  // Render the covered requirements as capability-grouped tables, one table per
+  // tag type, listing only the entries matched by the current selection.
+  function renderCoveredTables(reqs) {
+    var grouped = groupByPillar(reqs);
+    var container = el("div", { class: "coverage-groups" });
+
+    grouped.order.forEach(function (pillar) {
+      var pillarNode = el("div", { class: "coverage-pillar" }, [
+        el("h3", { class: "coverage-pillar-title", text: pillar }),
+      ]);
+      var caps = grouped.map[pillar];
+      Object.keys(caps).forEach(function (cap) {
+        // Gather matched entries across the requirements in this capability.
+        var productRows = [];
+        var standardRows = [];
+        var patternRows = [];
+        caps[cap].forEach(function (req) {
+          (req.products || []).forEach(function (p) {
+            if (isSelected("product", p.name))
+              productRows.push({ req: req, product: p });
+          });
+          (req.standards || []).forEach(function (s) {
+            if (isSelected("standard", s.framework))
+              standardRows.push({ req: req, standard: s });
+          });
+          (req.patterns || []).forEach(function (p) {
+            if (isSelected("pattern", p.name))
+              patternRows.push({ req: req, pattern: p });
+          });
+        });
+
+        if (!productRows.length && !standardRows.length && !patternRows.length)
+          return;
+
+        pillarNode.appendChild(
+          el("h4", { class: "coverage-cap-title", text: cap }),
+        );
+        if (standardRows.length)
+          pillarNode.appendChild(standardsTable(standardRows));
+        if (patternRows.length)
+          pillarNode.appendChild(patternsTable(patternRows));
+        if (productRows.length)
+          pillarNode.appendChild(productsTable(productRows));
+      });
+      // Only keep the pillar if it produced any tables.
+      if (pillarNode.querySelector("table")) container.appendChild(pillarNode);
+    });
+    return container;
+  }
+
   function renderResults(root) {
     var result = computeCoverage();
     var sel = selectedIds();
@@ -439,7 +626,7 @@
           [
             el("summary", { text: "Covered (" + result.covered.length + ")" }),
             result.covered.length
-              ? renderReqGroup(result.covered, result.matchMap)
+              ? renderCoveredTables(result.covered)
               : el("p", {
                   class: "coverage-empty",
                   text: "No requirements match the current selection.",
@@ -478,8 +665,12 @@
 
   function exportCsv() {
     var result = computeCoverage();
-    var rows =
+    // One row per matched tag (the same granularity as the covered tables), so the
+    // export carries name / description / maturity per item. When scope is "all",
+    // every tag on every requirement is exported (not just the matched selection).
+    var reqs =
       state.exportScope === "all" ? state.data.requirements : result.covered;
+    var onlySelected = state.exportScope !== "all";
 
     var header = [
       "requirement_index",
@@ -487,62 +678,67 @@
       "capability",
       "importance",
       "statement",
-      "covered",
-      "matched_tags",
-      "standards",
-      "patterns",
-      "products",
+      "tag_type",
+      "name",
+      "description",
+      "coverage",
+      "maturity_trl",
+      "status",
+      "reference",
+      "url",
     ];
 
-    function joinStandards(req) {
-      return (req.standards || [])
-        .map(function (s) {
-          return s.framework + (s.reference ? " (" + s.reference + ")" : "");
-        })
-        .join("; ");
-    }
-    function joinPatterns(req) {
-      return (req.patterns || [])
-        .map(function (p) {
-          var meta = [p.coverage, p.status].filter(Boolean).join("/");
-          return p.name + (meta ? " [" + meta + "]" : "");
-        })
-        .join("; ");
-    }
-    function joinProducts(req) {
-      return (req.products || [])
-        .map(function (p) {
-          if (p.local_process) return p.name;
-          var meta = [];
-          if (p.coverage) meta.push(p.coverage);
-          if (p.maturity != null && p.maturity !== "")
-            meta.push("TRL" + p.maturity);
-          return p.name + (meta.length ? " [" + meta.join("/") + "]" : "");
-        })
-        .join("; ");
-    }
-
-    var coveredSet = {};
-    result.covered.forEach(function (r) {
-      coveredSet[r.requirement_index] = true;
-    });
-
     var lines = [header.map(csvEscape).join(",")];
-    rows.forEach(function (req) {
-      var matched = result.matchMap[req.requirement_index] || [];
-      var line = [
-        req.requirement_index,
-        req.pillar,
-        req.capability,
-        req.importance,
-        req.statement,
-        coveredSet[req.requirement_index] ? "yes" : "no",
-        matched.join(" | "),
-        joinStandards(req),
-        joinPatterns(req),
-        joinProducts(req),
-      ];
-      lines.push(line.map(csvEscape).join(","));
+
+    function pushRow(req, type, fields) {
+      lines.push(
+        [
+          req.requirement_index,
+          req.pillar,
+          req.capability,
+          req.importance,
+          req.statement,
+          type,
+          fields.name || "",
+          fields.description || "",
+          fields.coverage || "",
+          fields.maturity != null && fields.maturity !== ""
+            ? "TRL-" + fields.maturity
+            : "",
+          fields.status || "",
+          fields.reference || "",
+          fields.url || "",
+        ]
+          .map(csvEscape)
+          .join(","),
+      );
+    }
+
+    reqs.forEach(function (req) {
+      (req.standards || []).forEach(function (s) {
+        if (onlySelected && !isSelected("standard", s.framework)) return;
+        pushRow(req, "standard", { name: s.framework, reference: s.reference });
+      });
+      (req.patterns || []).forEach(function (p) {
+        if (onlySelected && !isSelected("pattern", p.name)) return;
+        pushRow(req, "pattern", {
+          name: p.name,
+          description: p.description,
+          coverage: p.coverage,
+          status: p.status,
+          url: p.url,
+        });
+      });
+      (req.products || []).forEach(function (p) {
+        if (onlySelected && !isSelected("product", p.name)) return;
+        pushRow(req, "product", {
+          name: p.local_process ? "Local Process" : p.name,
+          description: p.description,
+          coverage: p.coverage,
+          maturity: p.local_process ? "" : p.maturity,
+          url: p.url,
+        });
+      });
     });
 
     var csv = "\ufeff" + lines.join("\r\n"); // BOM for Excel compatibility

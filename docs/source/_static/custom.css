@@ -247,3 +247,55 @@ a.coverage-badge:hover {
   outline-offset: 1px;
   font-weight: 700;
 }
+
+/* Coverage tables (Covered section) */
+.coverage-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.25rem 0 1rem;
+  font-size: 0.85rem;
+  table-layout: fixed;
+}
+.coverage-table th,
+.coverage-table td {
+  border: 1px solid #e0e0e0;
+  padding: 0.35rem 0.5rem;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+.coverage-table thead th {
+  background: #1f4e79;
+  color: #fff;
+  font-weight: 600;
+}
+.coverage-table tbody tr:nth-child(even) {
+  background: #f7f9fc;
+}
+.coverage-cell-ref {
+  font-family: monospace;
+  font-weight: 700;
+  color: #1f4e79;
+  white-space: nowrap;
+  width: 5.5rem;
+}
+.coverage-cell-name {
+  font-weight: 600;
+}
+/* Column width hints per table type */
+.coverage-table-product th:nth-child(5) {
+  width: 5rem;
+} /* Maturity */
+.coverage-table-product th:nth-child(6),
+.coverage-table-standard th:nth-child(4),
+.coverage-table-pattern th:nth-child(5),
+.coverage-table-pattern th:nth-child(6) {
+  width: 6rem;
+}
+
+.coverage-trl {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  white-space: nowrap;
+}
