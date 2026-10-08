@@ -2104,8 +2104,8 @@ specification:
     guidance:
       "A federation wide incident response process should cover incidents
       affecting member TREs, the federation and federation projects and include confidentiality,
-      integrity and availability.\n\nExamples of such incidents are data quality
-      issues or availability of data at a member TRE."
+      integrity and availability.\n\nExamples of such incidents may include data quality
+      issues, or unplanned downtime of a member TRE."
     importance: Mandatory
     architecture_url: https://satre-archimate.readthedocs.io/en/v2.0.0/?view=id-c0ad547682c14284b6bec01cdc2405f9
   - pillar: Federation
