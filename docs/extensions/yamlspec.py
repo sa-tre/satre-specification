@@ -1,10 +1,22 @@
 import os
+import json
 import re
 import yaml
 from docutils import nodes
 from docutils.statemachine import ViewList
 from sphinx.util.docutils import SphinxDirective
 from pathlib import Path
+
+# Location of the specification data, relative to the Sphinx source directory
+# (docs/source). Used to build the tags JSON sidecar for the coverage page.
+SPEC_RELPATH = Path("spec") / "specification.yaml"
+STANDARDS_RELPATH = Path("spec") / "standards.yaml"
+# Output sidecar, written into the source _static dir so Sphinx copies it to the
+# built site at _static/spec-tags.json.
+TAGS_JSON_RELPATH = Path("_static") / "spec-tags.json"
+
+# Tag fields surfaced to the coverage page.
+TAG_FIELDS = ("standards", "patterns", "products")
 
 # Define the columns and their proportional widths for the table
 # Format: (field_name, width, display_name)
@@ -211,10 +223,90 @@ class YamlSpecDirective(SphinxDirective):
         return result_nodes
 
 
+def _build_tags_data(srcdir: Path) -> dict:
+    """Assemble the tags data structure for the coverage page.
+
+    Returns a JSON-serialisable dict:
+        {
+          "standards": [ {id, name, url}, ... ],      # controlled vocabulary
+          "maturity_labels": { "1": "...", ... },      # TRL labels for tooltips
+          "requirements": [
+             {
+               "requirement_index", "pillar", "capability", "capability_index",
+               "statement", "importance",
+               "standards": [...], "patterns": [...], "products": [...]
+             }, ...
+          ]
+        }
+
+    Requirements are always included (even with no tags) so the coverage page can
+    show the "not covered" set.
+    """
+    spec_path = srcdir / SPEC_RELPATH
+    standards_path = srcdir / STANDARDS_RELPATH
+
+    with open(spec_path, "r", encoding="utf-8") as f:
+        spec = yaml.safe_load(f) or {}
+    items = spec.get("specification", []) or []
+
+    standards_vocab = []
+    maturity_labels = {}
+    if standards_path.exists():
+        with open(standards_path, "r", encoding="utf-8") as f:
+            std = yaml.safe_load(f) or {}
+        standards_vocab = std.get("standards", []) or []
+        maturity = std.get("maturity", {}) or {}
+        # JSON object keys must be strings.
+        maturity_labels = {
+            str(k): v for k, v in (maturity.get("labels", {}) or {}).items()
+        }
+
+    requirements = []
+    for item in items:
+        record = {
+            "requirement_index": str(item.get("requirement_index", "")),
+            "pillar": item.get("pillar", ""),
+            "capability": item.get("capability", ""),
+            "capability_index": str(item.get("capability_index", "")),
+            "statement": item.get("statement", ""),
+            "importance": item.get("importance", ""),
+        }
+        for field in TAG_FIELDS:
+            record[field] = item.get(field, []) or []
+        requirements.append(record)
+
+    return {
+        "standards": standards_vocab,
+        "maturity_labels": maturity_labels,
+        "requirements": requirements,
+    }
+
+
+def write_tags_sidecar(app):
+    """Write _static/spec-tags.json from the specification + standards YAML.
+
+    Registered on the ``builder-inited`` event so the file exists in the source
+    _static dir before Sphinx copies static assets into the built site.
+    """
+    srcdir = Path(app.srcdir)
+    try:
+        data = _build_tags_data(srcdir)
+    except FileNotFoundError:
+        # If the spec file is not where we expect, skip silently rather than break
+        # the whole build; the coverage page will simply have no data.
+        return
+
+    out_path = srcdir / TAGS_JSON_RELPATH
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
 # Setup function to register the directive
 def setup(app):
     """Register the directive with Sphinx."""
     app.add_directive("yaml-specification", YamlSpecDirective)
+    app.connect("builder-inited", write_tags_sidecar)
 
     return {
         "version": "0.1",
