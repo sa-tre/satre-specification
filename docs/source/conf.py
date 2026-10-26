@@ -28,7 +28,6 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
-    "sphinxcontrib.datatemplates",
     "myst_parser",
     "yamlspec",
 ]
